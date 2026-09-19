@@ -1,0 +1,54 @@
+{
+  "run_id": "20260919T142500Z_covariates_v1",
+  "primary_n": 33,
+  "models": {
+    "M1": {
+      "planned": 674,
+      "evaluable": 652,
+      "p_lt_005": 42,
+      "q_lt_005": 0,
+      "min_q": 0.33903999999999995,
+      "n_distribution": {
+        "33": 652
+      },
+      "unavailable_reasons": {
+        "RNA_SYMBOL_UNAVAILABLE": 22
+      },
+      "m0_cc_reused": 652,
+      "loo_sign_change": 201
+    },
+    "M2": {
+      "planned": 674,
+      "evaluable": 652,
+      "p_lt_005": 22,
+      "q_lt_005": 0,
+      "min_q": 0.4564,
+      "n_distribution": {
+        "33": 652
+      },
+      "unavailable_reasons": {
+        "RNA_SYMBOL_UNAVAILABLE": 22
+      },
+      "m0_cc_reused": 652,
+      "loo_sign_change": 248
+    },
+    "M3": {
+      "planned": 674,
+      "evaluable": 0,
+      "p_lt_005": 0,
+      "q_lt_005": 0,
+      "min_q": null,
+      "n_distribution": {},
+      "unavailable_reasons": {
+        "SPARSE_SOURCE_CATEGORY_LT3": 652,
+        "RNA_SYMBOL_UNAVAILABLE": 22
+      },
+      "m0_cc_reused": 652,
+      "loo_sign_change": 0
+    }
+  },
+  "new_patient_statistics": true,
+  "purity": "NOT_RUN",
+  "technical_batch": "NOT_RUN",
+  "external_validation": "NOT_RUN"
+}
