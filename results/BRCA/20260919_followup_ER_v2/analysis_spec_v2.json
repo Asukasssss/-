@@ -1,0 +1,16 @@
+{
+  "scope": "all 174 locked direct relations; no new mappings added",
+  "primary": "reuse original p/q; independently verify BH over all evaluable relations",
+  "LOO": "descriptive leave-one-specimen-out Spearman for every evaluable primary relation; no LOO hypothesis tests",
+  "ER_adjusted": "exploratory partial correlation of ranks conditional on binary author ER status; residualized ranks; 9999 within-ER permutations plus one",
+  "ER_family": "BH over all evaluable of 174 relations, separate from original and RNA families",
+  "ER_limit": "controls ER alone, not full molecular subtype, purity, age, batch or patient dependence; not independent validation",
+  "n_unit": "author mapped specimens; patient independence not verified",
+  "permutations": 9999,
+  "versions": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  }
+}

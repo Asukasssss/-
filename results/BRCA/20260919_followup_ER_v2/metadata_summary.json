@@ -1,0 +1,28 @@
+{
+  "status": "EXACT_GSM_JOIN",
+  "independent_patient_id": "NOT_VERIFIED",
+  "batch": "NOT_AVAILABLE",
+  "purity": "NOT_AVAILABLE",
+  "n_matched": 61,
+  "er_positive": 31,
+  "er_negative": 30,
+  "er_missing": 0,
+  "available_fields": [
+    "stage",
+    "age",
+    "chemotherapy",
+    "death due to cancer",
+    "estrogen receptor status",
+    "hormone-therapy",
+    "neoadjuvant therapy",
+    "node status",
+    "race",
+    "survival (months)",
+    "survival event",
+    "tissue type",
+    "triple negative tumor",
+    "tumor grade",
+    "tumor or normal lhc"
+  ],
+  "lhc_unique_tumor_labels": 61
+}

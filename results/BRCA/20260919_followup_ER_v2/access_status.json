@@ -1,0 +1,9 @@
+{
+  "DepMap": "ACCESS_BLOCKED",
+  "official_inventory_http": 403,
+  "official_archive_http": 403,
+  "gene_effect_models_evaluated": null,
+  "genes_pending": 117,
+  "GEO": "DOWNLOADED_METADATA_AND_JOINED",
+  "patient_matrices": "READ_ON_SERVER165_ONLY"
+}
