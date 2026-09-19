@@ -14,6 +14,8 @@
 
 每批固定四文件：README_CN.md（schema 中八标题顺序）、summary.json（固定字段顺序）、records.json（固定公共前缀、result 保存详细结果）、manifest.json（前三文件的字节数和 SHA256，不包含自身）。
 
+结果和报告目录通过 .gitattributes 禁用 Git 自动换行转换，按生成时的 UTF-8 原始字节保存，确保不同电脑检出的 SHA256 一致；排序和 JSON 字段格式由 schema 校验。
+
 COAD 的 reports/COAD 保留分析明细和来源；标准入口供跨癌种读取。BRCA 历史 reference 快照保持只读，由 A 在后续交付中按规范生成；B 不擅自改写 A 的结果。
 
 ## 字段、顺序和含义
