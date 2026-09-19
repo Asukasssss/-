@@ -1,0 +1,7 @@
+{
+  "status": "ACCESS_BLOCKED",
+  "official_inventory_http": 403,
+  "browser_open": "TIMEOUT_30_SECONDS",
+  "data_downloaded": false,
+  "new_dependency_results": false
+}
