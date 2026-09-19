@@ -1,0 +1,58 @@
+{
+  "status": "DONE_DESCRIPTIVE_EFFECT_REVIEW_ONLY",
+  "source": "reference/camp/cancer_effects.tsv",
+  "source_sha256": "1bb1d57480a0fbc2185d11f7598e67e7443aef9e40ea8a036c6da4e5503a4597",
+  "base_commit": "422b75b2f223bb786958f95d6e00d62da98db154",
+  "analysis_code_sha256": "a9dc89df8e5c1bfcd8b4c1e62ff909e79c93896fb327539409cbc9196fe2c7fe",
+  "created_utc": "2026-09-19T10:35:27.593996+00:00",
+  "all_records": 159,
+  "unique_metabolite_keys": 159,
+  "original_q_lt_005": 73,
+  "all_direction": {
+    "positive": 76,
+    "negative": 83
+  },
+  "significant_direction": {
+    "positive": 33,
+    "negative": 40
+  },
+  "datasets": {
+    "COAD": 159
+  },
+  "source_types": {
+    "single_dataset": 159
+  },
+  "all_identity_labels": {
+    "HIGH_ID": 155,
+    "MODERATE_NAME_ONLY": 4
+  },
+  "significant_identity_labels": {
+    "HIGH_ID": 73
+  },
+  "significant_super_pathways": {
+    "Amino Acid": 10,
+    "Amino acid": 18,
+    "UNANNOTATED": 8,
+    "Carbohydrate": 10,
+    "Nucleotide": 15,
+    "Lipid": 5,
+    "Cofactors and Vitamins": 1,
+    "Peptide": 2,
+    "Xenobiotics": 1,
+    "Energy": 3
+  },
+  "significant_amino_acid_case_normalized_count": 28,
+  "missing_rate_range": [
+    0.0,
+    0.794871794871795
+  ],
+  "missing_rate_gt_050_descriptive_only": 9,
+  "significant_missing_rate_gt_050_descriptive_only": 6,
+  "significant_without_kegg_or_hmdb": 0,
+  "tests_recomputed": false,
+  "existing_gene_mappings_used": false,
+  "patient_sample_size": "NOT_AVAILABLE_IN_EFFECT_TABLE",
+  "patient_independence": "NOT_ASSESSED",
+  "direct_gene_mapping": "NOT_RUN",
+  "method": "Filter cancer=COAD; count original effect_fdr<0.05; describe original g, annotations and missingness. No new inferential test or exclusion threshold."
+}
