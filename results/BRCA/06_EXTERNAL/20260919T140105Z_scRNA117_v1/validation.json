@@ -1,7 +1,8 @@
 {
   "status": "PARTIAL",
   "Wu_numeric_validation": "Wu2021_validation.json",
-  "other_cohorts": "RUNNING",
+  "other_cohorts": "Reed_RUNNING",
   "new_tests": 0,
-  "all117_retained": true
+  "all117_retained": true,
+  "Pal_numeric_validation": "Pal2021_reprocessed_validation.json"
 }

@@ -34,15 +34,22 @@ def main(root):
             r[c+'_top_detection_fraction'] = z.iloc[0].mean_detection_fraction if len(z) else np.nan
             r[c+'_top_n_source_donor_labels'] = z.iloc[0]['n'] if len(z) else 0
             r[c+'_top3_lineages'] = ';'.join(z.celltype.head(3))
+            r[c+'_max_detection_fraction'] = z.mean_detection_fraction.max() if len(z) else np.nan
+            r[c+'_source_interpretable'] = bool(len(z) and z.mean_detection_fraction.max() >= .01)
         w = base['Wu2021'].query('gene == @gene').set_index('celltype')
         q = base['Pal2021_reprocessed'].query('gene == @gene').set_index('celltype')
         shared = sorted(set(w.index) & set(q.index))
         r['wu_pal_shared_lineages'] = len(shared)
-        r['wu_pal_lineage_rank_rho'] = spearmanr(w.loc[shared,'effect'],q.loc[shared,'effect']).statistic if len(shared)>=5 else np.nan
-        r['wu_pal_top_lineage_agreement'] = r['Wu2021_top_lineage']==r['Pal2021_reprocessed_top_lineage']
+        interpretable = (len(shared)>=5 and r['Wu2021_source_interpretable'] and
+                         r['Pal2021_reprocessed_source_interpretable'])
+        r['wu_pal_lineage_rank_rho'] = spearmanr(w.loc[shared,'effect'],q.loc[shared,'effect']).statistic if interpretable else np.nan
+        r['wu_pal_top_shared_lineage_Wu'] = w.loc[shared,'effect'].idxmax() if shared else 'NA'
+        r['wu_pal_top_shared_lineage_Pal'] = q.loc[shared,'effect'].idxmax() if shared else 'NA'
+        r['wu_pal_top_lineage_agreement'] = (r['wu_pal_top_shared_lineage_Wu']==r['wu_pal_top_shared_lineage_Pal']) if interpretable else np.nan
         r['wu_pal_top3_overlap'] = len(set(r['Wu2021_top3_lineages'].split(';')) & set(r['Pal2021_reprocessed_top3_lineages'].split(';')))
-        r['status'] = 'DONE' if len(shared)>=5 else 'PARTIAL'
-        r['reason'] = 'Pal independent biological source; later atlas reprocessing; annotations not original Pal objects'
+        r['status'] = 'DONE' if interpretable else 'NOT_EVALUABLE'
+        r['reason'] = ('Pal independent biological source; later atlas reprocessing; annotations not original Pal objects'
+                       if interpretable else 'fewer_than_5_shared_lineages_or_max_donor_mean_detection_below_1percent; raw summaries retained')
         rows.append(r)
     result = pd.DataFrame(rows)
     save(result,p/'gene117_cell_source_comparison.tsv')
@@ -87,6 +94,7 @@ def main(root):
                         'n_genes_in_dictionary':x['genes_unique_in_dictionary']} for x in audits],
              'all117_retained':len(result)==117,
              'wu_pal_same_top_lineage':int(result.wu_pal_top_lineage_agreement.sum()),
+             'wu_pal_n_interpretable_genes':int((result.status=='DONE').sum()),
              'wu_pal_median_lineage_rank_rho':float(result.wu_pal_lineage_rank_rho.median()),
              'new_hypothesis_tests':0,
              'normal_reference_not_tumor_normal_DE':True,

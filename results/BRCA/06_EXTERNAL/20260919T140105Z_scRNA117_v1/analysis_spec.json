@@ -5,10 +5,10 @@
   "cancer": "BRCA",
   "status": "PARTIAL",
   "completed_cohorts": [
-    "Wu2021"
+    "Wu2021",
+    "Pal2021_reprocessed"
   ],
   "running_cohorts": [
-    "Pal2021_reprocessed",
     "Reed2024"
   ],
   "gene_pool": "reference/brca/candidate_comparison_v1.tsv",
