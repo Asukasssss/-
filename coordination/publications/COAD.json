@@ -32,6 +32,28 @@
           "records": 974
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-19T11:53:41Z",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "89227664aee61e7ab901e8d2511229fce7a7822c",
+      "verification": "git ls-remote equals local content commit; GitHub API confirms PR 1 open with matching head; PR description updated with server results",
+      "batches": [
+        {
+          "stage_id": "03_PATIENT",
+          "also_indexed_by": "02_MAPPING",
+          "run_id": "20260919T114909Z_source_readiness_v2",
+          "result_path": "results/COAD/03_PATIENT/20260919T114909Z_source_readiness_v2",
+          "delivery_commit": "89227664aee61e7ab901e8d2511229fce7a7822c",
+          "analysis_status": "PARTIAL",
+          "source_readiness_audit": "DONE",
+          "association": "NOT_RUN",
+          "records": 974,
+          "paired_input_available_records": 935,
+          "unit": "author-mapped tumor specimen; patient independence not established",
+          "validation": "PASS"
+        }
+      ]
     }
   ],
   "notes": [
@@ -39,7 +61,7 @@
     "Old batch publication fields are generation-time snapshots; the Git authentication blocker is resolved.",
     "Legacy local eight-stage packages are retained for provenance only. Main seven-stage standard and coordination/stages/COAD.tsv are authoritative.",
     "Source evidence and format views are the same evidence, not independent results.",
-    "03_PATIENT remains ACCESS_BLOCKED because the local server165 SSH alias is unresolved.",
+    "Server access is restored. 03_PATIENT is PARTIAL: source audit DONE, association NOT_RUN. Patient identity and analysis family remain unresolved.",
     "PR_OPEN means available on the work branch, not merged into main."
   ]
 }
