@@ -1,0 +1,21 @@
+# CAMP 癌种协作项目
+
+本仓库让两台电脑、两个 Codex 账号按癌种协作。用户无湿实验条件，目标是用 CAMP 代谢差异、直接生化关系、患者关联和适用功能资料确定值得深入的候选，不宣称已经证明治疗靶点。
+
+## 新账号阅读顺序
+
+1. `AGENTS.md`：分析与协作边界。
+2. `docs/PROJECT_CONTEXT_CN.md`：无需历史对话的项目背景与现状。
+3. `docs/DATA_AND_REPRO_CN.md`：server165 位置、已有代码和复现限制。
+4. `coordination/assignments.tsv`：癌种归属；未分配不自行认领。
+5. `START_ACCOUNT_B_CN.md`：另一个账号的启动指令。
+
+当前账号 A 负责 BRCA。账号 B 的癌种尚待用户指定，不默认启动所有其他癌种。GitHub 远程尚未创建；计划使用私有仓库 `camp-cancer-collaboration`，不要误认为本地 git 初始化等于已上传。
+
+代码、说明、小型汇总在 GitHub；源矩阵与患者级数据只留 server165。仓库里的 `reference/` 是白名单选取的历史汇总/映射快照，`code/reference/` 是历史脚本，不是自动适配所有癌种的一键流水线。
+
+## 每次工作
+
+先更新 main，读取分工和对应癌种状态；建立 `analysis/<cancer>-<task>` 分支；只写自己癌种的新运行目录。提交前执行 `python tools/check_repository.py`。完成一批后更新该癌种状态和交接说明，通过 Pull Request 合并。不强制推送、不自动合并共享规则改动。
+
+模板见 `docs/HANDOFF_TEMPLATE.md`；GitHub 发布步骤见 `docs/GITHUB_SETUP_CN.md`。

@@ -1,0 +1,10 @@
+{
+  "all_174_primary_and_sensitivity_rows": true,
+  "all_117_gene_rows": true,
+  "exact_locked_edge_coverage": true,
+  "independent_rank_correlation_rows": 342,
+  "bh_independent_statsmodels": true,
+  "independent_expression_rows": 116,
+  "contrast_sign_symmetry_and_constant_skip": true,
+  "passed": true
+}
