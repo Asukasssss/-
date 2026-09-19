@@ -4,6 +4,8 @@
 
 先阅读当前仓库README.md、AGENTS.md、docs/PROJECT_CONTEXT_CN.md、docs/DATA_AND_REPRO_CN.md和coordination/assignments.tsv，建立本次会话上下文。不要依赖另一个账号的聊天记忆，也不要自行写入个人全局记忆。
 
+必须同时阅读docs/STAGE_STANDARD_CN.md。用户要求每阶段立即上传GitHub，且各癌种目录、阶段编号、表头、状态词和说明顺序统一；使用templates中的表头，并维护coordination/stages/<CANCER>.tsv。每次开工先获取远程最新标准，不自行设计另一套记录格式。
+
 先输出简短理解：项目目标、已完成内容、你的癌种与路径、不可改动的结果。分工表若仍无B的癌种，只询问用户“我负责哪个癌种？”，并可先只读核对server165连接与历史目录；不要自行默认BRCA、COAD或全癌种。用户明确后记录分配并建自己的analysis/<cancer>-<task>分支。
 
 执行从现成冻结结果和共享生化映射开始。完整候选患者分析、功能证据和外部资料按数据就绪程度推进；不把RNA相关显著作为唯一门槛。先只核对本次必要身份/独立单位/唯一检验键，已有正确结果复用；不发起第三轮全包审核。
