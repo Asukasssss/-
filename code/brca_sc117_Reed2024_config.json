@@ -1,0 +1,51 @@
+{
+  "cohort": "Reed2024",
+  "file": "reed_global.h5ad",
+  "raw_path": "raw/X",
+  "var_path": "raw/var",
+  "symbol_column": "feature_name",
+  "donor_column": "donor_id",
+  "celltype_column": "cell_type",
+  "stratum_column": "tissue_condition",
+  "treatment_column": null,
+  "celltype_map": {
+    "luminal adaptive secretory precursor cell of mammary gland": "Nonmalignant_epithelial",
+    "luminal hormone-sensing cell of mammary gland": "Nonmalignant_epithelial",
+    "basal-myoepithelial cell of mammary gland": "Nonmalignant_epithelial",
+    "luminal epithelial cell of mammary gland": "Nonmalignant_epithelial",
+    "mammary gland epithelial cell": "Nonmalignant_epithelial",
+    "fibroblast of mammary gland": "Fibroblasts",
+    "blood vessel endothelial cell": "Endothelial",
+    "endothelial cell of lymphatic vessel": "Endothelial",
+    "perivascular cell": "Perivascular",
+    "mural cell": "Perivascular",
+    "CD8-positive, alpha-beta memory T cell": "T_NK_cells",
+    "Tc1 cell": "T_NK_cells",
+    "naive thymus-derived CD4-positive, alpha-beta T cell": "T_NK_cells",
+    "CD4-positive helper T cell": "T_NK_cells",
+    "effector memory CD8-positive, alpha-beta T cell": "T_NK_cells",
+    "mature NK T cell": "T_NK_cells",
+    "natural killer cell": "T_NK_cells",
+    "innate lymphoid cell": "T_NK_cells",
+    "class switched memory B cell": "B_cells",
+    "naive B cell": "B_cells",
+    "unswitched memory B cell": "B_cells",
+    "plasma cell": "Plasma_cells",
+    "macrophage": "Myeloid",
+    "dendritic cell": "Myeloid",
+    "leukocyte": "Unresolved_immune"
+  },
+  "chunk_cells": 1000,
+  "min_cells_per_donor_group": 20,
+  "min_donors_per_public_group": 3,
+  "unit": "publisher_donor_label",
+  "source_id": "E-MTAB-13664_CELLxGENE_ed8cdda6",
+  "annotation_origin": "Reed2024_author_labels_via_CELLxGENE",
+  "independence_limit": "55 publisher donor IDs; enriched tissue fractions pooled within donor; normal tissue includes genetic risk and contralateral specimens; not a toxicity assay",
+  "exclude_labels": {
+    "level0": [
+      "Doublet",
+      "stripped_nuclei"
+    ]
+  }
+}

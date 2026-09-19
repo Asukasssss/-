@@ -1,0 +1,30 @@
+{
+  "run_id": "20260919T140105Z_scRNA117_v1",
+  "analysis_version": "sc117_v1",
+  "stage_id": "06_EXTERNAL",
+  "cancer": "BRCA",
+  "status": "PARTIAL",
+  "completed_cohorts": [
+    "Wu2021"
+  ],
+  "running_cohorts": [
+    "Pal2021_reprocessed",
+    "Reed2024"
+  ],
+  "gene_pool": "reference/brca/candidate_comparison_v1.tsv",
+  "n_genes": 117,
+  "statistical_unit": "publisher donor label; count independent biological units only if source supports it",
+  "normalization": "raw counts divided by complete retained raw gene library size, times10000, natural log1p",
+  "summary": "cell mean within donor/lineage; equal-weight mean across eligible donor labels",
+  "min_cells_per_donor_group": 20,
+  "min_donors_for_public_expression": 3,
+  "hypothesis_tests": 0,
+  "p_q": "NA; descriptive only",
+  "Wu_script": "code/brca_sc117_profile_initial.py",
+  "other_script": "code/brca_sc117_profile_v1.py",
+  "server_run": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260919T140105Z_scRNA117_v1",
+  "pal_scope_change": "Published Chen2026 reprocessed primary-tumor subset only; original Pal Figshare annotation403; normal/preneneoplastic unavailable",
+  "reed_exclusion": "Author level0 Doublet and stripped_nuclei excluded",
+  "source_code_commit_before_run": "2d759bcda665165c0e0dbef81e0af7ac5bdf58b0",
+  "source_data_residency": "server165 only; public aggregated results only"
+}
