@@ -1,0 +1,19 @@
+{
+  "status": "DONE",
+  "all117_retained": true,
+  "previous_columns_preserved": 144,
+  "previous_values_exactly_unchanged": true,
+  "n_relation_rows": 348,
+  "two_tumor_source_stable_descriptive": 43,
+  "genes_primary_q_lt005": [
+    "GPCPD1",
+    "GPI"
+  ],
+  "genes_secondary_q_lt005": [
+    "GPCPD1"
+  ],
+  "primary_family": "ER_PC12",
+  "secondary_family": "ER_MonoEndoFib",
+  "clinical_target_validation": false,
+  "script_sha256": "fb95bc5671aad565d0be5a8c82509b16ceb31c711a2bb8277b2e04631144f67b"
+}

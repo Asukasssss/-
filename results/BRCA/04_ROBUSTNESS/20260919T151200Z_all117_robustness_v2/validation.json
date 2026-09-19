@@ -1,6 +1,19 @@
 {
-  "status": "PARTIAL",
-  "sc": "sc_stability_validation.json",
-  "composition": "RUNNING",
-  "all117_retained": true
+  "status": "DONE_BOUNDED_EXPLORATORY",
+  "genes": 117,
+  "planned_relations_per_model": 174,
+  "evaluable_per_model": 171,
+  "models": 2,
+  "source_stability_rows": 819,
+  "distribution_rows": 7371,
+  "all_previous_144_columns_unchanged": true,
+  "BH_independently_checked": true,
+  "clinical_target_validation": false,
+  "independent_patient_identity": "NOT_VERIFIED",
+  "details": [
+    "sc_stability_validation.json",
+    "composition_validation.json",
+    "integration_validation.json",
+    "numeric_implementation_validation.json"
+  ]
 }

@@ -1,0 +1,34 @@
+{
+  "status": "DONE_EXPLORATORY",
+  "n_specimens": 61,
+  "independent_patient_identity": "NOT_VERIFIED",
+  "rna_platform": "processed_gene_symbol_expression_microarray;no new log transform",
+  "official_R_max_error": 5.1514348342607263e-14,
+  "n_modified_PCA_panels": 9,
+  "candidate_marker_exclusions": [
+    "KYNU",
+    "HAL"
+  ],
+  "PCA_explained_variance_PC1": 0.4050123267664811,
+  "PCA_explained_variance_PC2": 0.24000275149969644,
+  "baseline_v3_max_rho_error": 2.220446049250313e-16,
+  "partial_rank_independent_formula_max_error": 2.7755575615628914e-16,
+  "scope": "composition-related marker-score sensitivity,NOT corrected true fractions or causal mediation",
+  "families": {
+    "ER_MonoEndoFib": {
+      "planned": 174,
+      "evaluable": 171,
+      "q_lt_005": 1
+    },
+    "ER_PC12": {
+      "planned": 174,
+      "evaluable": 171,
+      "q_lt_005": 2
+    }
+  },
+  "score_method_modified_not_independently_validated": true,
+  "source_sha256": "032ab84cf92b567858544987716d982715ab7a142a4932ecf0299643acf2ef7a",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3"
+}

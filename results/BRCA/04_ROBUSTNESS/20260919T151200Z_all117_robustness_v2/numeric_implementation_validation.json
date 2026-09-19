@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "permutation_vectorization_vs_explicit_residual_projection_max_error": 1.6653345369377348e-16,
+  "n_permutations_checked": 100,
+  "constant_covariate_rejected": true,
+  "scope": "numeric implementation check,not calibration of biological independence"
+}
