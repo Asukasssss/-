@@ -12,7 +12,7 @@
 
 当前账号 A 负责 BRCA，账号 B 负责 COAD。用户指定公共仓库 https://github.com/Asukasssss/- 。仅发布脚本、项目说明与汇总结果；患者矩阵和凭据不上传。实际发布状态以远程提交为准。
 
-各癌种每阶段按 [统一结果格式](docs/STAGE_RESULT_STANDARD_CN.md) 交付并上传；标准入口为 `results/<CANCER>/stage_index.json`。已有 BRCA 历史快照保持原样，后续由 A 输出标准批次。
+各癌种每阶段按 [统一结果格式](docs/STAGE_STANDARD_CN.md) 交付并上传；标准入口为 `coordination/stages/<CANCER>.tsv`。已有历史快照保持原样；COAD 早期本地草案与统一阶段的对应关系见 [兼容说明](docs/STAGE_RESULT_STANDARD_CN.md)。
 
 代码、说明、小型汇总在 GitHub；源矩阵与患者级数据只留 server165。仓库里的 `reference/` 是白名单选取的历史汇总/映射快照，`code/reference/` 是历史脚本，不是自动适配所有癌种的一键流水线。
 

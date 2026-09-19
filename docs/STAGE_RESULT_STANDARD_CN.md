@@ -1,4 +1,12 @@
-# 各癌种阶段结果与发布规范 v1.0
+# COAD 早期本地格式的历史兼容说明
+
+本文件以下内容是远程规范同步前的本地草案，现已被 `docs/STAGE_STANDARD_CN.md` 取代，不再作为共同标准。正式入口为 `coordination/stages/COAD.tsv`，与 BRCA 使用相同的七阶段、字段和报告顺序。
+
+历史 `01_effects` 对应 `01_CAMP`；`02_identity` 和 `03_mapping` 合并归入 `02_MAPPING`；患者关联归入 `03_PATIENT`，稳健性另列 `04_ROBUSTNESS`。后续使用 `05_FUNCTION`、`06_EXTERNAL`、`07_INTEGRATION`。旧八阶段 JSON 索引与 schema 只用于验证历史包，不再驱动新交付。
+
+保留原包与输入哈希，不覆盖数值；新统一表仅是同一证据的格式视图，不能计作新增或独立证据。批次内发布状态是生成时快照；最新上传事实见 `coordination/publications/COAD.json` 和远程分支/PR。
+
+## 以下为已停用的草案原文
 
 用户要求每阶段上传 GitHub，并保持跨癌种顺序、格式、字段一致。机器定义以 `config/stage_result_schema_v1.json` 为准。
 

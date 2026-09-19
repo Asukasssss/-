@@ -15,7 +15,7 @@
 - 目录：`reports/COAD/current_catalog_v0_1/` 是当前合并目录；其他版本目录保留各阶段明细。公开原始数据库响应缓存位于被忽略的 `runtime/`，无患者数据。每阶段包含脚本、来源 URL/访问时间/哈希。
 - 必要核验：冻结哈希及关键字段逐值不变；73 条全覆盖；组合唯一；beta-alanine—UPB1 与 taurine—SLC6A6 阳性对应、游离 proline—P4HA1 未匹配及 glutamate 暂挂断言通过。
 - 下一项：连接 server165，核对作者注释和 COAD 样本/RNA覆盖，随后确定有版本和检验范围的分析输入。身份补查与功能资料可并行。
-- 所有更改当前仅本地，未 commit/push，未修改 A/BRCA 结果、共享映射或冻结表。
+- 已按阶段提交；正式交付入口为 `coordination/stages/COAD.tsv`，与 BRCA 遵循 main 的七阶段规范。历史八阶段 JSON 包仅用于追溯，未修改 A/BRCA 结果、共享映射或冻结表。远程提交与 PR 状态见 `coordination/publications/COAD.json`。
 
 ## 首批效应记录梳理（历史）
 

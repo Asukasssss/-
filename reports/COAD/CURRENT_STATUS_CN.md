@@ -111,7 +111,7 @@
 
 - 当前特征目录：current_catalog_v0_1/feature_catalog.json；完整候选（含暂挂和待审）：current_catalog_v0_1/candidate_catalog.json。
 - 身份与 KEGG 反应明细：fresh_mapping_v0_1/；人类蛋白逐条核对：human_reaction_check_v0_1/；转运反应：transport_check_v0_1/。每条证据含 URL，来源清单含访问时间和哈希。
-- 脚本：code/coad/ 下对应脚本。新内容目前仅本地，未提交或推送。
+- 脚本：code/coad/ 下对应脚本。正式七阶段索引：coordination/stages/COAD.tsv；GitHub 发布事实：coordination/publications/COAD.json。早期八阶段 JSON 包为历史格式，不是另一套共同规范。
 - 原数据 SHA-256：`1bb1d57480a0fbc2185d11f7598e67e7443aef9e40ea8a036c6da4e5503a4597`。
 - 核查通过：原效应/原 q/原标识逐值未改；73 条全覆盖；唯一特征—基因键无重复；UPB1 与 SLC6A6 阳性关系、P4HA1 底物区分和 glutamate 暂挂规则通过。
 
