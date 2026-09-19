@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": [
+    "17 original manifest entries",
+    "separate workbook identical to archive workbook",
+    "35 gene/category/queue cells match",
+    "40 source IDs and metadata",
+    "39 workbook keys/n/rounded statistics match fixed repository",
+    "exact pinned source git blobs",
+    "every original column unchanged in39 and974 real rows",
+    "unique relation keys and original order",
+    "gene-level versus39-pair scope distinguished",
+    "DepMap remains missing not zero",
+    "inputs unchanged"
+  ],
+  "limitations": [
+    "Original workbook not edited or independently visually re-rendered",
+    "No systematic re-search of35 genes",
+    "No full audit of every figure/replicate",
+    "No independent patient validation",
+    "Imported script/provenance status snapshots are historical"
+  ],
+  "public_output_sha256": {
+    "analysis_spec.json": "9d09bb0a74c3396e8fdcd8701ca6bfeaeac6ab26a5e156076ec4ce071c66e674",
+    "catalog974_annotated_exact.tsv": "bb15078e080f5218783b584f019f00286fb4e26420d935f80077ace8a39c9a9d",
+    "gene_function_review.json": "5ebc3b73377f99c3597e9664827c93d32ef1efd513efe45ae5a728da0ac5dbdc",
+    "gene_function_review.tsv": "c392dc5903d98e0e7370b4189b7deae709d0a25ce4e14ef00b3092bd18eae79a",
+    "nominal39_annotated_exact.tsv": "d4945fa60337c1b7f743f6d56d4e2a58a24440093de0f861882be4c25aa981ee",
+    "source_manifest.tsv": "c21862f9f1d7a86a8712dc095826477ee9839392b5fbdb6eb8075bca0545b39d",
+    "source_verification.tsv": "3e3a2d735128d4d99cbf7c1e755b7b5431ce110c4b572c330ba3d5f6d75f3739",
+    "summary.json": "9d02bd04d7b4cf9b835d27da039461e77d14857cec1a10d965b8838b2d5e5524",
+    "imported_delivery/analysis_spec.json": "83dc049983ee4b04f83d10009859bfbecc0928048062f575e2ea4d9ec4934f92",
+    "imported_delivery/MANIFEST_SHA256.tsv": "b81fb5df655b5c0a8cb06319fac0186306e1da33151722cf543d1a12ec0e0af3",
+    "imported_delivery/README_CN.md": "9710d271e75f9489cd939aa6fef98a94901f7201c015252de82575baa55cb46b",
+    "imported_delivery/source_manifest.tsv": "9fd427a19c4a1ab3182ca53f9814efb67e2e383e8d8b362eaf84db648dcdb81f",
+    "imported_delivery/stage_index_append.tsv": "e909172947d223a157f42ba0e5b1721c8b00b599cf5aa07cb9b2e84d109dcf71",
+    "imported_delivery/summary.json": "61a56dee62c87065beb46417637b3ccee84dbe789a82b66af05036804776a3f2",
+    "imported_delivery/upload_status.json": "150d25504721f71144e73df3a2bb17227182509c20af17587b380abc0957ea03",
+    "imported_delivery/validation.json": "795b2862129b344f78c8c022a97aed784f1a55309f3a9f53f3e04f4cc0a0b8d4",
+    "imported_delivery/code/integrate_functional_review_nominal35_v1.py": "7e222aeadb3e4a19c664298516353f67ec78a0185686b76bbbf59fc700d0065d",
+    "imported_delivery/results/gene_function_review.json": "1d89a3451ad108d8f3f2cc335a162c9c267468e3a090c12fc2ac0d1a0500c2ab",
+    "imported_delivery/results/gene_function_review.tsv": "f441ddf5997aac15532cee012d2b961d730b0a80b2832867d1c7365e5fab7324",
+    "imported_delivery/results/interpretation_rules.tsv": "1377ee1f329f6a0d0e229029f80cfab1e0109e0c6dac1d3ef248d646b94aa3eb",
+    "imported_delivery/results/nominal39_functional_display.tsv": "d2fd60bc9a473c2faaf2897a335ea465f33bb135ee17a68191c30b06da9de935",
+    "imported_delivery/results/search_coverage.tsv": "c5744efaa18ca56c70181309b35e3087d4ffda13a0886a2fd04a52e7e0e98aab",
+    "imported_delivery/results/study_evidence.json": "d6943e031ee1fd39e11e4106de178ffa480f6161fa43e2681df580e88d7d2a30",
+    "imported_delivery/results/study_evidence.tsv": "6366a79dc6d9b40b776dbe685d5116c8a91667300a746008e36fdf22a7906a12",
+    "imported_delivery/source/nominal39_display_extract.tsv": "2d46da90d10c3624199003c8926aaa761610a38534720189916082877a28966d"
+  }
+}
