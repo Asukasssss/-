@@ -56,12 +56,23 @@
       ]
     }
   ],
+  "preanalysis_verification": {
+    "verified_date": "2026-09-19",
+    "verified_remote_commit": "10485806bf4dedd071c571d009614541e8c660d3",
+    "verification": "GitHub PR API head SHA matches local locked-spec/code commit; patient association not yet run at spec commit",
+    "unit_symbol_batch": "results/COAD/02_MAPPING/20260919T115842Z_identity_units_v1",
+    "unit_symbol_delivery_commit": "b168f8587eab6e52b21558fc2fa56096cf788c75",
+    "unit_symbol_status": "DONE",
+    "patient_unit": "37 distinct explicit GEO individuals;33 stage I-IV primary;37 exact paired normal matches",
+    "locked_plan": "config/coad_patient_v1.json",
+    "patient_analysis_status_at_verification": "IN_PROGRESS"
+  },
   "notes": [
     "This ledger records verified content commits before its own commit; it deliberately avoids a self-referential SHA.",
     "Old batch publication fields are generation-time snapshots; the Git authentication blocker is resolved.",
     "Legacy local eight-stage packages are retained for provenance only. Main seven-stage standard and coordination/stages/COAD.tsv are authoritative.",
     "Source evidence and format views are the same evidence, not independent results.",
-    "Server access is restored. 03_PATIENT is PARTIAL: source audit DONE, association NOT_RUN. Patient identity and analysis family remain unresolved.",
+    "Server access restored; explicit GEO patient units verified and versioned analysis family fixed. Numerical analysis status is tracked by each subsequent batch.",
     "PR_OPEN means available on the work branch, not merged into main."
   ]
 }
