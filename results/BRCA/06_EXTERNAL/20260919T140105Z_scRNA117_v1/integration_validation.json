@@ -1,0 +1,32 @@
+{
+  "cohorts": [
+    {
+      "cohort": "Wu2021",
+      "n_cells": 100064,
+      "n_source_donor_labels": 26,
+      "n_genes_in_dictionary": 117
+    },
+    {
+      "cohort": "Pal2021_reprocessed",
+      "n_cells": 224823,
+      "n_source_donor_labels": 33,
+      "n_genes_in_dictionary": 117
+    },
+    {
+      "cohort": "Reed2024",
+      "n_cells": 775610,
+      "n_source_donor_labels": 55,
+      "n_genes_in_dictionary": 117
+    }
+  ],
+  "all117_retained": true,
+  "wu_pal_same_top_lineage": 82,
+  "wu_pal_n_interpretable_genes": 99,
+  "wu_pal_median_lineage_rank_rho": 0.880952380952381,
+  "new_hypothesis_tests": 0,
+  "normal_reference_not_tumor_normal_DE": true,
+  "pal_original_normal_preneoplastic_scope": "NOT_RUN_original_annotation_access_blocked",
+  "public_individual_expression_exported": false,
+  "legacy_columns_unchanged": true,
+  "n_legacy_columns_preserved": 109
+}

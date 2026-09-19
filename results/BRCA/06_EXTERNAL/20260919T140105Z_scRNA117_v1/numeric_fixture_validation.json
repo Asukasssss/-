@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "unequal_donor_equal_weight_verified": true,
+  "all_gene_library_denominator_verified": true,
+  "zero_expression_distinguished_from_missing_gene": true,
+  "all117_retained": true,
+  "duplicate_barcodes_rejected": true,
+  "expected_equal_donor_mean": 7.505619319779773,
+  "observed": 7.5056193197797745
+}

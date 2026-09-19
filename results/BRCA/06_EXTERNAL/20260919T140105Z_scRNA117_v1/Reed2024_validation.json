@@ -1,0 +1,49 @@
+{
+  "cohort": "Reed2024",
+  "status": "DONE",
+  "source_shape": [
+    803283,
+    33604
+  ],
+  "cells_selected": 775610,
+  "source_donor_labels": 55,
+  "gene_count": 117,
+  "genes_unique_in_dictionary": 117,
+  "cells_by_celltype": {
+    "Nonmalignant_epithelial": 343561,
+    "Fibroblasts": 175740,
+    "Endothelial": 141088,
+    "Perivascular": 91001,
+    "T_NK_cells": 17845,
+    "B_cells": 2961,
+    "Myeloid": 2791,
+    "Plasma_cells": 623
+  },
+  "source_labels_by_stratum": {
+    "Contralateral BRCA1": 6,
+    "Mammoplasty WT": 22,
+    "Mastectomy BRCA1": 11,
+    "Mastectomy BRCA2": 11,
+    "Mastectomy WT": 2,
+    "Mastectomy unknown": 3
+  },
+  "source_labels_by_treatment": {
+    "not_available": 55
+  },
+  "unique_barcodes": true,
+  "nonnegative_integer_raw_entries_checked": 1650654346,
+  "zero_libraries": 0,
+  "aggregate_cell_count_verified": true,
+  "public_rows": 6552,
+  "all117_retained": true,
+  "new_hypothesis_tests": 0,
+  "normalization": "log1p(raw gene count/all retained raw gene counts*10000)",
+  "statistical_independence_limit": "55 publisher donor IDs; enriched tissue fractions pooled within donor; normal tissue includes genetic risk and contralateral specimens; not a toxicity assay",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "scipy": "1.10.1",
+  "h5py": "3.11.0",
+  "script_sha256": "6b176a8cf4970146dec61b6f5a9c11cda813bc78635ef870ac34820f8c512ab5",
+  "config_sha256": "cab6a8c1ad7dcb57522e69a1844ccce7463f500cfde12019c3e2a909241b660b"
+}

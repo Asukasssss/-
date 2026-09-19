@@ -1,0 +1,6 @@
+scope	status	n_cells	n_source_donor_labels	n_genes_retained	annotation	limitation
+Wu2021	DONE	100064	26	117	original author cell labels via CELLxGENE	21naive/5treated;3subtypes;genotype identity not rechecked
+Pal2021_reprocessed	DONE	224823	33	117	Chen2026 reprocessing of sourcePal primary tumors only	Source labels not necessarily fully resolved independent patients;originalnormal/preneoplastic omitted
+Reed2024	DONE	775610	55	117	author labels;Doublet and stripped_nuclei excluded	enrichedfractions;normalriskstrata;nottoxicityassay
+Pal_original_full_scope	ACCESS_BLOCKED	NA	NA	117	Original Figshare17058077 HTTP403	Normal/preneoplastic and authorSeurat-object analysis not completed
+Neutrophil_specific_UPP1	NOT_EVALUABLE	NA	NA	NA	No adequate specifically annotated neutrophil group in selected exports	Myeloid or endothelial UPP1 expression does not test published neutrophil mechanism

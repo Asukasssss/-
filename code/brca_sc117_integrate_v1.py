@@ -53,6 +53,14 @@ def main(root):
         rows.append(r)
     result = pd.DataFrame(rows)
     save(result,p/'gene117_cell_source_comparison.tsv')
+    legacy_path=root/'source/candidate_comparison_117_receiver_v4.tsv'
+    legacy=pd.read_csv(legacy_path,sep='\t',dtype=str,keep_default_na=False)
+    assert legacy.gene.is_unique and set(legacy.gene)==set(allgenes)
+    additions=result.rename(columns={c:'sc_'+c for c in result.columns if c!='gene'})
+    assert not (set(legacy.columns)&(set(additions.columns)-{'gene'}))
+    joined=legacy.merge(additions,on='gene',how='left',sort=False,validate='one_to_one')
+    assert joined[legacy.columns].equals(legacy)
+    save(joined,p/'candidate_comparison_117_sc_appended.tsv')
     # Sensitivity to a larger within-donor cell minimum uses existing private summaries.
     sensitivity = []
     for c in cohorts:
@@ -70,23 +78,41 @@ def main(root):
                 sensitivity.append({'cohort':c,'gene':gene,'min_cells_per_donor_group':mincells,
                                     'top_lineage':g.iloc[0].celltype,'n_evaluable_lineages':len(g)})
     save(pd.DataFrame(sensitivity),p/'cell_coverage_sensitivity.tsv')
+    treatment_rows=[]
+    for gene,block in frames['Wu2021'].groupby('gene'):
+        tops={}
+        for partition in ['ALL','treatment:Naïve','treatment:Treated']:
+            z=block[(block.partition==partition)&(block.status=='DONE')].sort_values(
+                ['effect','celltype'],ascending=[False,True])
+            tops[partition]=z.iloc[0].celltype if len(z) else 'NOT_EVALUABLE'
+        treatment_rows.append({'gene':gene,'all_top':tops['ALL'],
+            'naive_top':tops['treatment:Naïve'],'treated_top':tops['treatment:Treated'],
+            'all_naive_same':tops['ALL']==tops['treatment:Naïve'],
+            'interpretation':'descriptive rank; low detection flags in gene117 comparison must also be checked'})
+    save(pd.DataFrame(treatment_rows),p/'Wu_treatment_descriptive_sensitivity.tsv')
     # Full117 row-standardized display: values are descriptive ranks/scales, not test results.
     lineages = ['Malignant_epithelial','Nonmalignant_epithelial','Fibroblasts','Perivascular',
-                'Endothelial','Myeloid','T_NK_cells','B_cells','Plasma_cells','Mast_cells','Adipocytes']
+                'Endothelial','Myeloid','T_NK_cells','B_cells','Plasma_cells','Mast_cells']
     highlight = ['GPCPD1','PNP','GPI','ASNS','KYNU','PCYT2','ETNK1','NNMT','SORD','SLC7A11',
                  'UPP1','PMM2','PRODH2','LDHA','LDHB']
     for label, genes in [('key_genes',highlight),('all117',allgenes)]:
         fig,axes=plt.subplots(1,3,figsize=(18,max(6,len(genes)*.19)),sharey=True)
+        cmap=plt.get_cmap('RdBu_r').copy();cmap.set_bad('#e5e7eb')
         for ax,(c,d) in zip(axes,base.items()):
             z=d.pivot(index='gene',columns='celltype',values='effect').reindex(index=genes,columns=lineages)
             sd=z.std(axis=1).replace(0,np.nan)
             z=z.sub(z.mean(axis=1),axis=0).div(sd,axis=0)
-            im=ax.imshow(np.ma.masked_invalid(z.values),aspect='auto',cmap='RdBu_r',vmin=-2,vmax=2)
+            detect=d.groupby('gene').mean_detection_fraction.max().reindex(genes)
+            z.loc[detect < .01,:]=np.nan
+            im=ax.imshow(np.ma.masked_invalid(z.values),aspect='auto',cmap=cmap,vmin=-2,vmax=2)
             ax.set_title(c+'\nwithin-gene lineage z-score')
             ax.set_xticks(range(len(lineages)));ax.set_xticklabels(lineages,rotation=90,fontsize=8)
             ax.set_yticks(range(len(genes)));ax.set_yticklabels(genes,fontsize=8)
-        fig.colorbar(im,ax=axes.ravel().tolist(),shrink=.35,label='Within-study descriptive z-score')
-        fig.subplots_adjust(bottom=.23 if label=='key_genes' else .10,right=.87,wspace=.12)
+        fig.subplots_adjust(bottom=.28 if label=='key_genes' else .10,right=.89,wspace=.12)
+        cb=fig.add_axes([.915,.48,.01,.25])
+        fig.colorbar(im,cax=cb,label='Within-study descriptive z-score')
+        fig.text(.5,.01,'Gray: unavailable group or gene max detection below 1%; not absence of biological function.',
+                 ha='center',fontsize=9)
         fig.savefig(p/(label+'_cell_source.png'),dpi=160,bbox_inches='tight');plt.close(fig)
     audits=[json.loads((p/(c+'_validation.json')).read_text()) for c in cohorts]
     summary={'cohorts':[{'cohort':x['cohort'],'n_cells':x['cells_selected'],
@@ -100,6 +126,8 @@ def main(root):
              'normal_reference_not_tumor_normal_DE':True,
              'pal_original_normal_preneoplastic_scope':'NOT_RUN_original_annotation_access_blocked',
              'public_individual_expression_exported':False}
+    summary['legacy_columns_unchanged']=list(legacy.columns)==list(joined.columns[:len(legacy.columns)])
+    summary['n_legacy_columns_preserved']=len(legacy.columns)
     (p/'integration_validation.json').write_text(json.dumps(summary,indent=2)+'\n')
     print(json.dumps(summary,indent=2),flush=True)
 

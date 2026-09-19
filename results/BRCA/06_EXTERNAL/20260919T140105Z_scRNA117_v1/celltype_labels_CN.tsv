@@ -1,0 +1,12 @@
+celltype	中文含义
+Malignant_epithelial	癌性上皮细胞（依作者注释）
+Nonmalignant_epithelial	非恶性乳腺上皮细胞
+Fibroblasts	成纤维细胞
+Perivascular	血管周细胞／血管平滑肌
+Endothelial	内皮细胞（构成血管内壁等）
+Myeloid	髓系免疫细胞（巨噬等，不等同中性粒细胞）
+T_NK_cells	T与NK淋巴细胞
+B_cells	B淋巴细胞
+Plasma_cells	浆细胞
+Mast_cells	肥大细胞
+Unresolved_stromal	未细分增殖基质细胞

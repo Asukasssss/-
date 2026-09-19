@@ -1,8 +1,41 @@
 {
-  "status": "PARTIAL",
-  "Wu_numeric_validation": "Wu2021_validation.json",
-  "other_cohorts": "Reed_RUNNING",
-  "new_tests": 0,
+  "status": "PASS",
+  "completion_scope": "specified available three-export descriptive analysis",
+  "original_full_Pal_scope": "ACCESS_BLOCKED",
   "all117_retained": true,
-  "Pal_numeric_validation": "Pal2021_reprocessed_validation.json"
+  "legacy109_columns_exactly_preserved": true,
+  "cohort_checks": {
+    "Wu2021": {
+      "all117": true,
+      "public_n_at_least3": true,
+      "missing_groups_not_zero": true,
+      "no_new_tests": true,
+      "code_config_hash_match": true
+    },
+    "Pal2021_reprocessed": {
+      "all117": true,
+      "public_n_at_least3": true,
+      "missing_groups_not_zero": true,
+      "no_new_tests": true,
+      "code_config_hash_match": true
+    },
+    "Reed2024": {
+      "all117": true,
+      "public_n_at_least3": true,
+      "missing_groups_not_zero": true,
+      "no_new_tests": true,
+      "code_config_hash_match": true
+    }
+  },
+  "numeric_fixture": "numeric_fixture_validation.json",
+  "new_hypothesis_tests": 0,
+  "full_matrices_or_individual_measurements_exported": false,
+  "not_verified": [
+    "genotype-based donor identities",
+    "Pal original normal/preneoplastic labels",
+    "enzymatic flux",
+    "metabolite mediation",
+    "normal tissue safety",
+    "neutrophil-specific mechanism"
+  ]
 }

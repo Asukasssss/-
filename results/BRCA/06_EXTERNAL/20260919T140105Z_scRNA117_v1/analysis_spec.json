@@ -3,14 +3,13 @@
   "analysis_version": "sc117_v1",
   "stage_id": "06_EXTERNAL",
   "cancer": "BRCA",
-  "status": "PARTIAL",
+  "status": "DONE",
   "completed_cohorts": [
     "Wu2021",
-    "Pal2021_reprocessed"
-  ],
-  "running_cohorts": [
+    "Pal2021_reprocessed",
     "Reed2024"
   ],
+  "running_cohorts": [],
   "gene_pool": "reference/brca/candidate_comparison_v1.tsv",
   "n_genes": 117,
   "statistical_unit": "publisher donor label; count independent biological units only if source supports it",
@@ -26,5 +25,23 @@
   "pal_scope_change": "Published Chen2026 reprocessed primary-tumor subset only; original Pal Figshare annotation403; normal/preneneoplastic unavailable",
   "reed_exclusion": "Author level0 Doublet and stripped_nuclei excluded",
   "source_code_commit_before_run": "2d759bcda665165c0e0dbef81e0af7ac5bdf58b0",
-  "source_data_residency": "server165 only; public aggregated results only"
+  "source_data_residency": "server165 only; public aggregated results only",
+  "completion_scope": "Three specified available exports: all117 descriptive cell-source profiles, cross-study comparison and normal reference; not original fullPal normal/preneoplastic analysis",
+  "original_full_Pal_scope_status": "ACCESS_BLOCKED",
+  "min_max_detection_for_interpreting_lineage_rank": 0.01,
+  "detection_guard_note": "Technical interpretability guard added during analysis after sparse genes were observed; not a prespecified inferential significance threshold; all117 retained",
+  "min_shared_lineages_for_rank_comparison": 5,
+  "rank_comparison_scope": "8 shared major lineages Wu vs Pal; relative expression rankings, not independent metabolite validation",
+  "sensitivity_min_cells": [
+    20,
+    50
+  ],
+  "normal_reference_stratification": "Author tissue_condition; no pooled cancer-normal DE",
+  "exclude_reed_n_cells": 27673,
+  "retain_legacy_columns": 109,
+  "integration_script": "code/brca_sc117_integrate_v1.py",
+  "numeric_check_script": "code/brca_sc117_check_v1.py",
+  "new_tests": 0,
+  "normal_tissue_safety": "NOT_ESTABLISHED",
+  "Pal_source_reference": "https://doi.org/10.1093/nargab/lqaf217"
 }
