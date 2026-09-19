@@ -1,0 +1,45 @@
+{
+  "cancer": "COAD",
+  "owner": "B",
+  "repository": "https://github.com/Asukasssss/-",
+  "branch": "analysis/coad-initial",
+  "stage_standard": "docs/STAGE_STANDARD_CN.md",
+  "stage_index": "coordination/stages/COAD.tsv",
+  "status": "PR_OPEN",
+  "merged": false,
+  "pr_url": "https://github.com/Asukasssss/-/pull/1",
+  "events": [
+    {
+      "verified_utc": "2026-09-19T11:32:36Z",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "d6bf7ac85b3b209b19cda0c4bc5d4933b25ba275",
+      "verification": "git ls-remote refs/heads/analysis/coad-initial equals local HEAD; GitHub API PR 1 open, draft=false, head SHA matches",
+      "batches": [
+        {
+          "stage_id": "01_CAMP",
+          "run_id": "20260919T112700Z_shared_delivery_v1",
+          "result_path": "results/COAD/01_CAMP/20260919T112700Z_shared_delivery_v1",
+          "delivery_commit": "9301b0fe45d6ae5f50fdc0b4960a92d9b28b0815",
+          "analysis_status": "DONE",
+          "records": 159
+        },
+        {
+          "stage_id": "02_MAPPING",
+          "run_id": "20260919T112700Z_shared_delivery_v1",
+          "result_path": "results/COAD/02_MAPPING/20260919T112700Z_shared_delivery_v1",
+          "delivery_commit": "d6bf7ac85b3b209b19cda0c4bc5d4933b25ba275",
+          "analysis_status": "PARTIAL",
+          "records": 974
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "This ledger records verified content commits before its own commit; it deliberately avoids a self-referential SHA.",
+    "Old batch publication fields are generation-time snapshots; the Git authentication blocker is resolved.",
+    "Legacy local eight-stage packages are retained for provenance only. Main seven-stage standard and coordination/stages/COAD.tsv are authoritative.",
+    "Source evidence and format views are the same evidence, not independent results.",
+    "03_PATIENT remains ACCESS_BLOCKED because the local server165 SSH alias is unresolved.",
+    "PR_OPEN means available on the work branch, not merged into main."
+  ]
+}
