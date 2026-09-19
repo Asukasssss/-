@@ -18,6 +18,8 @@
 
 ## 数据与并发
 
+- 用户要求每阶段/可交付批次上传 GitHub；各癌种使用 `docs/STAGE_RESULT_STANDARD_CN.md` 和 `config/stage_result_schema_v1.json` 统一阶段顺序、字段、排序及四文件格式。每批更新本癌种索引、通过校验、独立提交和推送，通过 PR 交接。上传失败如实记 ACCESS_BLOCKED，不把本地完成称为已发布。
+
 - 源矩阵、患者级测量、源压缩包和凭据不得进 GitHub 或本地交接包；只存 server165 的既有 data/candidates 或明确的新子目录。不得下载原始质谱。
 - 每个癌种仅一名写入负责人。服务器结果必须使用新路径 `results/collaborative/<CANCER>/<ACCOUNT>/<RUN_ID>/`，脚本也复制到对应运行目录后执行；不得直接运行会覆盖历史目录的脚本。
 - 不共享可写工作树；各电脑各自 clone。同一服务器运行目录建立独占 `.running` 锁，已有锁不覆盖；不删除另一账号的锁或终止其进程。
