@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": [
+    "base batch completed and hashed",
+    "437 identical-input statistics reused exactly",
+    "215 reduced-sample statistics reused",
+    "BH recomputed across same652 evaluable tests",
+    "all974 rows retained",
+    "all inputs unchanged"
+  ],
+  "public_output_sha256": {
+    "results.tsv": "dc5ff2f104b8c1d87b06e1c4ea7e8ed85d8ae2843637d905b2cf105422f31eca",
+    "summary.json": "d246038b5018976b5762a5078101d8233218cf8233861b4d8f4ae0169ed4e4a1",
+    "analysis_spec.json": "0f8901e47108b32b68cfa047fcdde9e571607e487c05b51d1f89b7c50393114c",
+    "source_manifest.tsv": "c9b5556ad33f6b8b83875e81ba5957b501ca95896842668f5dd581da34c03063"
+  }
+}

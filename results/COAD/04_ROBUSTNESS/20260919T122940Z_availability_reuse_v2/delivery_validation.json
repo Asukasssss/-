@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "checks": [
+    "all hashes",
+    "all974 unique keys and common prefix",
+    "437 exact primary reuses",
+    "215 exact reduced-sample reuses",
+    "all family BH independently verified",
+    "frozen values and statuses unchanged",
+    "report section order"
+  ],
+  "input_sha256": {
+    "results\\COAD\\04_ROBUSTNESS\\20260919T122940Z_availability_reuse_v2\\results.tsv": "dc5ff2f104b8c1d87b06e1c4ea7e8ed85d8ae2843637d905b2cf105422f31eca",
+    "results\\COAD\\03_PATIENT\\20260919T122034Z_patient_v1\\availability33.tsv": "fb9eb9788cdda1254ff2155f9e9f1eefbc86d6f8863b1957b4201133c17efec8",
+    "results\\COAD\\03_PATIENT\\20260919T122034Z_patient_v1\\results.tsv": "e617a1268d6b3e0e14abff889ce34bf0a5bdaab8d36afd34ccf22283f1650edb",
+    "results\\COAD\\03_PATIENT\\20260919T122034Z_patient_v1\\all37.tsv": "251fad50e9e8606022ad46d61a3733832d1a34dd579ebe2b1937e6e0bf664a7f",
+    "results\\COAD\\03_PATIENT\\20260919T122034Z_patient_v1\\paired_RNA33.tsv": "3a7d71108529a21f1e2ec3e9fb281d6ddce9ca978c626122e485703dd9029ad2"
+  },
+  "reuse_counts": {
+    "REDUCED_SAMPLE_V1_REUSED": 215,
+    "NOT_EVALUABLE_OR_OUTSIDE_FAMILY": 322,
+    "IDENTICAL_INPUT_PRIMARY_REUSED": 437
+  },
+  "primary_sig": 0,
+  "all37_sig": 0,
+  "availability_v2_sig": 0,
+  "primary_sig_unique_genes": 0,
+  "primary_sig_unique_features": 0,
+  "primary_and_all37_sig_same_direction": 0,
+  "primary_and_availability_sig_same_direction": 0,
+  "all_three_sig_same_direction": 0,
+  "primary_sig_with_paired_RNA_q_lt_005": 0,
+  "primary_sig_loo_sign_change": 0,
+  "primary_sig_largest_loo_absolute_change": null,
+  "availability_q_classification_changes_from_v1": 0
+}
