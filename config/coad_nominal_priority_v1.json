@@ -1,0 +1,17 @@
+{
+  "version": "COAD_nominal_priority_v1",
+  "cancer": "COAD",
+  "stage_id": "07_INTEGRATION",
+  "primary_source": "results/COAD/03_PATIENT/20260919T122034Z_patient_v1/results.tsv",
+  "all37_source": "results/COAD/03_PATIENT/20260919T122034Z_patient_v1/all37.tsv",
+  "rna_source": "results/COAD/03_PATIENT/20260919T122034Z_patient_v1/paired_RNA33.tsv",
+  "availability_source": "results/COAD/04_ROBUSTNESS/20260919T122940Z_availability_reuse_v2/results.tsv",
+  "selection_rule": "Primary33 status DONE and two-sided permutation P<0.05; strict threshold; no extra rho or sensitivity filter",
+  "selection_timing": "User-directed exploratory prioritization after reviewing primary results, not a predeclared confirmatory threshold",
+  "user_instruction": "Q不显著就用P显著的",
+  "interpretation": "Nominal-P exploratory candidates; not FDR-significant, functional validation or final targets",
+  "multiplicity": "Preserve original652-test BH q exactly; do not recalculate q on the selected subset",
+  "scope": "COAD primary associations only; retain all974 catalog rows and all missing states; other candidates remain eligible for evidence review",
+  "new_statistical_tests": false,
+  "patient_level_data_access": false
+}
