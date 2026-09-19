@@ -1,0 +1,76 @@
+{
+  "cancer": "COAD",
+  "run_id": "20260919T122034Z_patient_v1",
+  "version": "COAD_patient_v1",
+  "primary_n": 33,
+  "author_tumor_sensitivity_n": 37,
+  "families": {
+    "primary33": {
+      "planned": 674,
+      "evaluable": 652,
+      "q_lt_005": 0,
+      "significant_positive": 0,
+      "significant_negative": 0,
+      "significant_unique_genes": 0,
+      "n_distribution": {
+        "33": 652
+      },
+      "not_evaluable_reasons": {
+        "RNA_SYMBOL_UNAVAILABLE": 22
+      }
+    },
+    "all37": {
+      "planned": 674,
+      "evaluable": 652,
+      "q_lt_005": 0,
+      "significant_positive": 0,
+      "significant_negative": 0,
+      "significant_unique_genes": 0,
+      "n_distribution": {
+        "37": 652
+      },
+      "not_evaluable_reasons": {
+        "RNA_SYMBOL_UNAVAILABLE": 22
+      }
+    },
+    "availability33": {
+      "planned": 674,
+      "evaluable": 652,
+      "q_lt_005": 0,
+      "significant_positive": 0,
+      "significant_negative": 0,
+      "significant_unique_genes": 0,
+      "n_distribution": {
+        "31": 7,
+        "33": 437,
+        "11": 14,
+        "16": 19,
+        "32": 95,
+        "30": 20,
+        "25": 7,
+        "28": 1,
+        "26": 19,
+        "29": 33
+      },
+      "not_evaluable_reasons": {
+        "RNA_SYMBOL_UNAVAILABLE": 22
+      }
+    },
+    "paired_RNA33": {
+      "planned": 458,
+      "evaluable": 446,
+      "q_lt_005": 314,
+      "significant_positive": 146,
+      "significant_negative": 168,
+      "significant_unique_genes": 314,
+      "n_distribution": {
+        "33": 446
+      },
+      "not_evaluable_reasons": {
+        "RNA_SYMBOL_UNAVAILABLE": 12
+      }
+    }
+  },
+  "covariate_adjustment": "NOT_RUN",
+  "functional_evidence": "NOT_RUN"
+}

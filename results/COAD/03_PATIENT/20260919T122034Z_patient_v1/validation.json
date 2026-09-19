@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": [
+    "locked family before calculation",
+    "explicit independent patients and exact paired controls",
+    "input hashes unchanged",
+    "all primary rho checked against scipy.spearmanr",
+    "all original effects/q preserved",
+    "family-specific BH",
+    "all unavailable P/q remain NA",
+    "unique relation keys",
+    "expected652 associations and446 paired RNA genes"
+  ],
+  "public_output_sha256": {
+    "results.tsv": "e617a1268d6b3e0e14abff889ce34bf0a5bdaab8d36afd34ccf22283f1650edb",
+    "all37.tsv": "251fad50e9e8606022ad46d61a3733832d1a34dd579ebe2b1937e6e0bf664a7f",
+    "availability33.tsv": "fb9eb9788cdda1254ff2155f9e9f1eefbc86d6f8863b1957b4201133c17efec8",
+    "paired_RNA33.tsv": "3a7d71108529a21f1e2ec3e9fb281d6ddce9ca978c626122e485703dd9029ad2",
+    "summary.json": "0570cea7c08c815f9e4e1fd0925d271ed2dcf5a704f973e77b35dbe0a5e6b372",
+    "analysis_spec.json": "e462d5389ed0c914cb8eaf5d4418cf0179bba4ac24c6396e719cbe3aa60f2f31",
+    "source_manifest.tsv": "4ba78660e5bff11de58003b2971ffba0b47e718b4fdddd9e512ae9fbec85e954"
+  },
+  "limitations": [
+    "No purity or batch adjustment",
+    "No covariate-adjusted inference in this batch",
+    "Author availability is not a verified detection mask",
+    "Within-CAMP exploratory analysis, not independent validation"
+  ]
+}
