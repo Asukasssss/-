@@ -117,17 +117,17 @@ def main():
             prior_identity_status=identity_by_feature[name]['identity_review_status'],
             current_decision='SOURCE_IDS_CONFIRMED_HOLDS_UNCHANGED' if same else 'NEEDS_REVIEW_SOURCE_ID_MISMATCH',
             reason='Matching author annotations establish provenance, not stereochemistry, structural confirmation or valid database entity type.'))
-    genes = sorted({r['gene_symbol'] for r in candidates})
+    genes = sorted({(r['human_gene_id'],r['gene_symbol']) for r in candidates}, key=lambda g:(g[1],g[0]))
     gene_rows, gene_vectors = [], {}
-    for gene in genes:
-        found = gene in rna.index
+    for gene_id,gene in genes:
+        found = bool(gene) and gene in rna.index
         y = pd.to_numeric(rna.loc[gene, tumor.RNAID], errors='coerce').to_numpy(dtype=float) if found else None
         gene_vectors[gene] = y
-        gene_rows.append(dict(gene=gene, exact_symbol_found=found,
+        gene_rows.append(dict(human_gene_id=gene_id,gene=gene or 'NA', exact_symbol_found=found,
             n_tumor_finite=int(np.isfinite(y).sum()) if y is not None else 'NA',
             n_tumor_unique=int(len(np.unique(y[np.isfinite(y)]))) if y is not None else 'NA',
             status='DONE' if found else 'NOT_EVALUABLE',
-            reason='Exact symbol coverage only; no RNA differential test' if found else 'Exact symbol absent; no alias guessing'))
+            reason='Exact symbol coverage only; no RNA differential test' if found else 'GENE_SYMBOL_UNRESOLVED' if not gene else 'RNA_SYMBOL_ABSENT_NO_ALIAS_GUESSING'))
     prefix=(out/'statistical_result_template.tsv').read_text().strip().split('\t')
     extra=['human_gene_id','original_effect','original_q','n_metabolite_finite','n_rna_finite','n_metabolite_unique','n_rna_unique','biochemical_disposition','input_coverage','patient_identity','ready_for_patient_testing']
     records=[]
@@ -137,11 +137,11 @@ def main():
         x,y=feature_vectors[name],gene_vectors[gene]
         both=x is not None and y is not None
         n=int((np.isfinite(x)&np.isfinite(y)).sum()) if both else None
-        coverage='BOTH_PRESENT' if both else 'RNA_SYMBOL_ABSENT' if y is None else 'METABOLITE_FEATURE_ABSENT'
+        coverage='GENE_SYMBOL_UNRESOLVED' if not gene else 'BOTH_PRESENT' if both else 'RNA_SYMBOL_ABSENT' if y is None else 'METABOLITE_FEATURE_ABSENT'
         row=dict.fromkeys(prefix+extra,'NA')
         row.update(cancer='COAD',cohort='COAD',stage_id='03_PATIENT',run_id=out.name,
-            analysis_version='source_readiness_v1',analysis_type='source_readiness_no_association',
-            metabolite_key=edge['metabolite_key'],metabolite_name=name,gene=gene,
+            analysis_version='source_readiness_v2',analysis_type='source_readiness_no_association',
+            metabolite_key=edge['metabolite_key'],metabolite_name=name,gene=gene or 'NA',
             unit='author_mapped_tumor_specimen',n=n if n is not None else 'NA',
             test_family='NOT_LOCKED_NO_NEW_TESTS',status='NOT_RUN' if both else 'NOT_EVALUABLE',
             reason='Association not run; patient independence and analysis family not fixed' if both else coverage,
@@ -180,18 +180,20 @@ def main():
         n_significant_source_id_exact_matches=sum(r['exact_source_ids_equal_frozen'] for r in identity_rows),
         n_significant_features=73,n_candidate_pairs=len(records),n_candidate_genes=len(genes),
         n_candidate_genes_found=sum(r['exact_symbol_found'] for r in gene_rows),
-        missing_gene_symbols=[r['gene'] for r in gene_rows if not r['exact_symbol_found']],
+        missing_gene_symbols=[r['gene'] for r in gene_rows if not r['exact_symbol_found'] and r['gene']!='NA'],
+        unresolved_gene_symbol_ids=[r['human_gene_id'] for r in gene_rows if r['gene']=='NA'],
         pair_input_coverage_counts=dict(Counter(r['input_coverage'] for r in records)),
         pairwise_finite_n_distribution={str(k):v for k,v in Counter(r['n'] for r in records).items()},
         supported_no_identity_hold_input_coverage=dict(Counter(r['input_coverage'] for r in records if r['biochemical_disposition']=='REACTION_ANNOTATION_SUPPORTED_PROVISIONAL')))
     dump(out/'summary.json',summary)
     dump(out/'analysis_spec.json',dict(cancer='COAD',stage_id='03_PATIENT',run_id=out.name,
-        analysis_version='source_readiness_v1',code_commit=args.code_commit,generator_sha256=sha(Path(__file__)),
+        analysis_version='source_readiness_v2',code_commit=args.code_commit,generator_sha256=sha(Path(__file__)),
         created_utc=datetime.now(timezone.utc).isoformat(),status='PARTIAL',
         parameters={'mapping_dataset':'COAD','association_subset':'Tumor','new_transform':False,'imputation':False,'alias_matching':False,'identity_holds_changed':False},
         unit='author_mapped_tumor_specimen; independent patients not established',test_family='NOT_LOCKED_NO_NEW_TESTS',seed='NA',
         software={'python':platform.python_version(),'pandas':pd.__version__,'numpy':np.__version__,'openpyxl':openpyxl.__version__},
-        limitations=['NA is unavailable or not applicable, never zero.','Source data sheet is author-provided; raw-detection meaning not established.','RNA filename states log2_transformed; this audit does not establish all preprocessing choices.','No original patient values or complete sample mapping exported.']))
+        limitations=['NA is unavailable or not applicable, never zero.','Source data sheet is author-provided; raw-detection meaning not established.','RNA filename states log2_transformed; this audit does not establish all preprocessing choices.','No original patient values or complete sample mapping exported.'],
+        revision_note='v2 separates one unresolved gene ID (three pairs) from absent RNA symbols. v1 server audit retained; no statistics or frozen source changed.'))
     tsv(out/'source_manifest.tsv',['source_path','sha256'],[dict(source_path=str(p.relative_to(root)),sha256=h) for p,h in input_hashes.items()])
     dump(out/'validation.json',dict(status='PASS',checked_utc=datetime.now(timezone.utc).isoformat(),
         checks=['exclusive B run directory','all source hashes unchanged during audit','all mapping IDs nonmissing and unique','all mapped tumor/normal IDs found','matrix row and column uniqueness','159 frozen features and 974 unique candidate pairs','73 original significant features','no new effects or P/q','original effect/q strings carried through'],
