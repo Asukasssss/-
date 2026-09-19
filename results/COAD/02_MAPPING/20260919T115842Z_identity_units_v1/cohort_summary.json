@@ -1,0 +1,49 @@
+{
+  "cancer": "COAD",
+  "run_id": "20260919T115842Z_identity_units_v1",
+  "unit_check": "DONE",
+  "geo_sample_count": 80,
+  "geo_individual_count": 39,
+  "author_tumor_count": 37,
+  "author_normal_count": 39,
+  "author_tumor_unique_individuals": 37,
+  "author_normal_unique_individuals": 39,
+  "verified_tumor_normal_pairs": 37,
+  "explicit_individual_field": true,
+  "exact_geo_title_metabid_match": true,
+  "repeated_patient_groups_in_full_geo": 2,
+  "repeated_patient_groups_in_author_tumor": 0,
+  "tumor_stage_counts": {
+    "stage 0": 1,
+    "adenoma": 3,
+    "stage I": 8,
+    "stage II": 8,
+    "stage III": 9,
+    "stage IV": 8
+  },
+  "primary_I_IV_count": 33,
+  "sensitivity_author_tumor_count": 37,
+  "complete_covariates": [
+    "age",
+    "gender",
+    "stage",
+    "tissue"
+  ],
+  "gene_ids_reviewed": 22,
+  "official_previous_symbols_recovered": 3,
+  "remaining_unavailable_gene_ids": 19,
+  "all_candidate_pairs": 974,
+  "all_pairs_rna_available": 938,
+  "family_pairs_planned": 674,
+  "family_pairs_rna_available": 652,
+  "family_genes_planned": 458,
+  "family_genes_rna_available": 446,
+  "identity_hold_changes": 0,
+  "association": "NOT_RUN",
+  "limits": [
+    "Patient units are verified against submitted GEO individual annotations, not genotype fingerprinting.",
+    "Three adenoma and one stage 0 samples are excluded from stage I-IV primary analysis, retained in all-37 sensitivity.",
+    "Aliases resolve gene identity only, not probe cross-hybridization or isoform specificity.",
+    "Biochemical eligibility is provisional annotation support; no claim of final mechanism or causality."
+  ]
+}

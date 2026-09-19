@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": [
+    "80 GEO records and39 explicit individuals",
+    "76 exact accession/title matches",
+    "37 unique tumor individuals;37 paired controls",
+    "two repeated-person groups excluded by author mapping",
+    "33 stage I-IV samples",
+    "three official unambiguous previous-symbol resolutions",
+    "674 preselected pairs before testing",
+    "no multiple gene IDs sharing an RNA row",
+    "input hashes unchanged"
+  ],
+  "public_output_sha256": {
+    "gene_resolution.tsv": "4f57b59a7272985143c6d09df21d6afe1d8809a511a3d7fdf1eaead7ea664604",
+    "candidate_eligibility.tsv": "5abe843b42fd9485c752a25917afc303a85a827bd4803cc0f1f5e3d49a7ab8f1",
+    "cohort_summary.json": "de8fc48aa28906a0e773aaafa17cb1cf97aaab50b3703e53aea6c92f55f97f9b",
+    "analysis_spec.json": "54db17e8b965cf661f7bb92e5a81bfce72e3af1a68267d89dcc8b78db25b5335",
+    "source_manifest.tsv": "7f1454dc2e4f5389c7dc8b9308d74063ece8357f7597b99f1869146858a1d216"
+  },
+  "private_files_not_for_sync": [
+    "private_clinical_join.tsv",
+    "geo_samples.soft"
+  ]
+}

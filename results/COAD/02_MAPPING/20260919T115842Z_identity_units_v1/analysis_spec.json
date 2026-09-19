@@ -1,0 +1,17 @@
+{
+  "version": "identity_units_v1",
+  "code_commit": "af34c8d6e05b0a2f91cbcc85ce40e14ce478885b",
+  "created_utc": "2026-09-19T12:07:02.050948+00:00",
+  "software": {
+    "python": "3.8.10",
+    "pandas": "1.5.3"
+  },
+  "new_tests": false,
+  "test_family": "NO_NEW_TESTS",
+  "mapping_method": "Exact RNAID to GEO accession; explicit individual field; exact GEO title to MetabID; no identifier parsing to infer patient units",
+  "gene_method": "HGNC entrez_id and reverse-symbol uniqueness; approved previous symbols only; no fuzzy matching",
+  "sources": [
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89076&targ=gsm&form=text&view=brief",
+    "https://pubmed.ncbi.nlm.nih.gov/28847964/"
+  ]
+}
