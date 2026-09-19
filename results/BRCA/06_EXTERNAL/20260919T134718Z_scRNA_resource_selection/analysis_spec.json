@@ -1,0 +1,38 @@
+{
+  "run_id": "20260919T134718Z_scRNA_resource_selection",
+  "cancer": "BRCA",
+  "stage_id": "06_EXTERNAL",
+  "analysis_version": "scRNA_resource_selection_v1",
+  "scope": "Bounded search and suitability/access assessment for full117 gene cell-source analysis;not expression analysis",
+  "selection_rule": [
+    "Primary human breast tumor broad-cell atlas with processed counts",
+    "Author cell annotations and sample/donor labels available or explicitly pending",
+    "Clinically appropriate subtype/treatment context",
+    "Independent provenance and duplicate-cohort check",
+    "Non-tumor reference kept separate",
+    "Granulocyte coverage must be measured,not assumed"
+  ],
+  "primary": "GSE176078 / SCP1039",
+  "second": "GSE161529 / author Chen2022 objects",
+  "non_tumor_reference": "E-MTAB-13664 / Reed2024 original HBCA",
+  "inputs_gene_pool": "reference/brca/candidate_comparison_v1.tsv",
+  "statistical_unit": "resource/gene dictionary;no patient-level inference",
+  "new_hypothesis_tests": 0,
+  "multiple_testing_family": "NA",
+  "seed": "NA",
+  "source_matrices_downloaded": 0,
+  "data_residency": "Future matrices and full sample maps only on server165",
+  "software": {
+    "python": "3.10.8",
+    "requests": "2.34.2"
+  },
+  "published_counts": "Source-specific descriptive counts,not harmonized or actual analysis N",
+  "next_output": "117-gene cell-type expression with donor coverage,malignant labels,subtype,missingness and provenance after ingestion",
+  "limitations": [
+    "Annotation joins and actual donor coverage not completed",
+    "Pal Figshare403 persists;does not block Wu",
+    "No assurance all117 expressed despite feature inclusion",
+    "No unmatched cross-cohort tumor/normal significance claim"
+  ],
+  "github_branch": "analysis/brca-functional-review-20260919"
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "Resource discovery and metadata/feature-dictionary checks only",
+  "gene_pool_size": 117,
+  "pal_feature_rows": 33538,
+  "pal_genes_in_dictionary": 117,
+  "pal_genes_missing": [],
+  "http_successes": 9,
+  "endpoints": 10,
+  "source_matrices_downloaded": 0,
+  "expression_tests": 0,
+  "annotation_joins_completed": 0,
+  "normal_portal_assets": 5,
+  "gene_pool_sha256": "269494e8f59f524063f6ec8e9b7df819a2b6a68de7ec5382e223f36782933a24",
+  "limitations": [
+    "No matrix load or cell annotation join",
+    "No actual donor counts",
+    "No claim that all genes are expressed",
+    "No independent-cohort claim for reused datasets",
+    "HEAD availability does not verify full download integrity"
+  ]
+}
