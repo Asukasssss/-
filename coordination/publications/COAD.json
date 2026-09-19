@@ -162,6 +162,92 @@
           "validation": "PASS"
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-19T14:43:54.063993+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "194caf42edc95249e2ec89c9617a57059c7ed5ab",
+      "verification": "git ls-remote and PR1 API match content HEAD; PR description updated; not merged",
+      "batches": [
+        {
+          "stage_id": "04_ROBUSTNESS",
+          "run_id": "20260919T142000Z_covariate_audit_v1",
+          "result_path": "results/COAD/04_ROBUSTNESS/20260919T142000Z_covariate_audit_v1",
+          "delivery_commit": "2a131771100f7528993de4bce8f9d734e94fa058",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "covariate-only audit and pre-execution code/spec lock; new patient associations NOT_RUN at this commit",
+          "preanalysis_verification": "GitHub PR1 API and git ls-remote matched2a13177 before numeric results; source covariate-only summary used for coding"
+        },
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260919T142700Z_next_stage_accept_v1",
+          "result_path": "results/COAD/07_INTEGRATION/20260919T142700Z_next_stage_accept_v1",
+          "delivery_commit": "2a131771100f7528993de4bce8f9d734e94fa058",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "35 vs117 sets;4 shared genes;3 same-name/same-key relations;priority9 tasks;no new patient or literature tests"
+        },
+        {
+          "stage_id": "04_ROBUSTNESS",
+          "also_indexed_as": "07_INTEGRATION",
+          "run_id": "20260919T142500Z_covariates_v1",
+          "result_path": "results/COAD/04_ROBUSTNESS/20260919T142500Z_covariates_v1",
+          "delivery_commit": "194caf42edc95249e2ec89c9617a57059c7ed5ab",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "whole674 covariate sensitivities and exact original974/39 preservation",
+          "models": {
+            "M1": {
+              "planned": 674,
+              "evaluable": 652,
+              "p_lt_005": 42,
+              "q_lt_005": 0,
+              "min_q": 0.33903999999999995,
+              "n_distribution": {
+                "33": 652
+              },
+              "unavailable_reasons": {
+                "RNA_SYMBOL_UNAVAILABLE": 22
+              },
+              "m0_cc_reused": 652,
+              "loo_sign_change": 201
+            },
+            "M2": {
+              "planned": 674,
+              "evaluable": 652,
+              "p_lt_005": 22,
+              "q_lt_005": 0,
+              "min_q": 0.4564,
+              "n_distribution": {
+                "33": 652
+              },
+              "unavailable_reasons": {
+                "RNA_SYMBOL_UNAVAILABLE": 22
+              },
+              "m0_cc_reused": 652,
+              "loo_sign_change": 248
+            },
+            "M3": {
+              "planned": 674,
+              "evaluable": 0,
+              "p_lt_005": 0,
+              "q_lt_005": 0,
+              "min_q": null,
+              "n_distribution": {},
+              "unavailable_reasons": {
+                "SPARSE_SOURCE_CATEGORY_LT3": 652,
+                "RNA_SYMBOL_UNAVAILABLE": 22
+              },
+              "m0_cc_reused": 652,
+              "loo_sign_change": 0
+            }
+          },
+          "M3_adjusted_inference": "NOT_EVALUABLE_SPARSE_SOURCE_CATEGORIES",
+          "new_patient_statistics": true,
+          "validation": "PASS"
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
