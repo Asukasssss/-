@@ -20,4 +20,4 @@
 
 先更新 main，读取分工和对应癌种状态；建立 `analysis/<cancer>-<task>` 分支；只写自己癌种的新运行目录。提交前执行 `python tools/check_repository.py`。完成一批后更新该癌种状态和交接说明，通过 Pull Request 合并。不强制推送、不自动合并共享规则改动。
 
-模板见 `docs/HANDOFF_TEMPLATE.md`；GitHub 发布步骤见 `docs/GITHUB_SETUP_CN.md`；实际发布状态见 `docs/DEPLOYMENT_STATUS_CN.md`（当前仅本地完成）。
+模板见 `docs/HANDOFF_TEMPLATE.md`；GitHub 发布步骤见 `docs/GITHUB_SETUP_CN.md`；实际发布状态见 `docs/DEPLOYMENT_STATUS_CN.md` 与各癌种 `coordination/publications/` 记录（分支上传与合并状态分开）。

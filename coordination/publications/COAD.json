@@ -54,6 +54,53 @@
           "validation": "PASS"
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-19T12:41:38.420796+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "87709ad22d8e2edf2416796f773cb5613bd8f81c",
+      "verification": "git ls-remote matches local content HEAD; GitHub API PR1 open and head SHA matches; PR description updated",
+      "batches": [
+        {
+          "stage_id": "02_MAPPING",
+          "also_indexed_by": "03_PATIENT",
+          "run_id": "20260919T115842Z_identity_units_v1",
+          "result_path": "results/COAD/02_MAPPING/20260919T115842Z_identity_units_v1",
+          "delivery_commit": "b168f8587eab6e52b21558fc2fa56096cf788c75",
+          "analysis_status": "DONE",
+          "scope": "patient unit and official symbol audit only; biochemical mapping remains PARTIAL"
+        },
+        {
+          "stage_id": "03_PATIENT",
+          "also_indexed_by": "04_ROBUSTNESS",
+          "run_id": "20260919T122034Z_patient_v1",
+          "result_path": "results/COAD/03_PATIENT/20260919T122034Z_patient_v1",
+          "delivery_commit": "8d1a09ae300768b5ea0c1fce4ecc3078257941ae",
+          "analysis_status": "DONE",
+          "primary_patient_n": 33,
+          "planned_relations": 674,
+          "evaluable_relations": 652,
+          "correlation_q_lt_005": 0,
+          "paired_RNA_evaluable": 446,
+          "paired_RNA_q_lt_005": 314,
+          "validation": "PASS",
+          "availability_status": "SUPERSEDED_BY_REUSE_V2",
+          "covariate_adjustment": "NOT_RUN"
+        },
+        {
+          "stage_id": "04_ROBUSTNESS",
+          "run_id": "20260919T122940Z_availability_reuse_v2",
+          "result_path": "results/COAD/04_ROBUSTNESS/20260919T122940Z_availability_reuse_v2",
+          "delivery_commit": "87709ad22d8e2edf2416796f773cb5613bd8f81c",
+          "analysis_status": "DONE",
+          "scope": "availability identical-input reuse correction only; entire robustness stage PARTIAL",
+          "primary_statistics_reused": 437,
+          "reduced_sample_statistics_reused": 215,
+          "evaluable_relations": 652,
+          "q_lt_005": 0,
+          "validation": "PASS"
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
