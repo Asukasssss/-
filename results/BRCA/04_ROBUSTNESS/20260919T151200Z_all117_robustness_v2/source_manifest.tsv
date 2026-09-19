@@ -1,0 +1,4 @@
+source_type	path	sha256
+script	code/brca_all117_stability_v2.py	9511a4aa247e8de63f4ccbcc2698d27210da7d247faa55e1fddea07cba6df7cd
+script	code/brca_all174_composition_v2.py	032ab84cf92b567858544987716d982715ab7a142a4932ecf0299643acf2ef7a
+private_inputs	sc_input_manifest.tsv	see individual entries

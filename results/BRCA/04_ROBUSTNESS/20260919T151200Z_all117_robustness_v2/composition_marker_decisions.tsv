@@ -1,0 +1,112 @@
+population	gene	measured	excluded_candidate	used_modified_score
+B lineage	BANK1	True	False	True
+B lineage	CD19	True	False	True
+B lineage	CD22	True	False	True
+B lineage	CD79A	True	False	True
+B lineage	CR2	True	False	True
+B lineage	FCRL2	True	False	True
+B lineage	IGKC	True	False	True
+B lineage	MS4A1	True	False	True
+B lineage	PAX5	True	False	True
+CD8 T cells	CD8B	True	False	True
+Cytotoxic lymphocytes	CD8A	True	False	True
+Cytotoxic lymphocytes	EOMES	True	False	True
+Cytotoxic lymphocytes	FGFBP2	True	False	True
+Cytotoxic lymphocytes	GNLY	True	False	True
+Cytotoxic lymphocytes	KLRC3	True	False	True
+Cytotoxic lymphocytes	KLRC4	False	False	False
+Cytotoxic lymphocytes	KLRD1	True	False	True
+Endothelial cells	ACVRL1	True	False	True
+Endothelial cells	ADGRL4	True	False	True
+Endothelial cells	APLN	True	False	True
+Endothelial cells	BCL6B	True	False	True
+Endothelial cells	BMP6	True	False	True
+Endothelial cells	BMX	True	False	True
+Endothelial cells	C	False	False	False
+Endothelial cells	CDH5	True	False	True
+Endothelial cells	CLEC14A	True	False	True
+Endothelial cells	DIPK2B	True	False	True
+Endothelial cells	EDN1	True	False	True
+Endothelial cells	EMCN	True	False	True
+Endothelial cells	ESAM	True	False	True
+Endothelial cells	ESM1	True	False	True
+Endothelial cells	FAM124B	True	False	True
+Endothelial cells	HECW2	True	False	True
+Endothelial cells	HHIP	True	False	True
+Endothelial cells	KDR	True	False	True
+Endothelial cells	MMRN1	True	False	True
+Endothelial cells	MMRN2	True	False	True
+Endothelial cells	MYCT1	True	False	True
+Endothelial cells	PALMD	True	False	True
+Endothelial cells	PEAR1	True	False	True
+Endothelial cells	PGF	True	False	True
+Endothelial cells	PLXNA2	True	False	True
+Endothelial cells	PTPRB	True	False	True
+Endothelial cells	ROBO4	True	False	True
+Endothelial cells	SHANK3	True	False	True
+Endothelial cells	SHE	True	False	True
+Endothelial cells	TEK	True	False	True
+Endothelial cells	TIE1	True	False	True
+Endothelial cells	VEPH1	True	False	True
+Endothelial cells	VWF	True	False	True
+Fibroblasts	COL1A1	True	False	True
+Fibroblasts	COL3A1	True	False	True
+Fibroblasts	COL6A1	True	False	True
+Fibroblasts	COL6A2	True	False	True
+Fibroblasts	DCN	True	False	True
+Fibroblasts	GREM1	True	False	True
+Fibroblasts	PAMR1	True	False	True
+Fibroblasts	TAGLN	True	False	True
+Monocytic lineage	ADAP2	True	False	True
+Monocytic lineage	CSF1R	True	False	True
+Monocytic lineage	FPR3	True	False	True
+Monocytic lineage	KYNU	True	True	False
+Monocytic lineage	PLA2G7	True	False	True
+Monocytic lineage	RASSF4	True	False	True
+Monocytic lineage	TFEC	True	False	True
+Myeloid dendritic cells	CD1A	True	False	True
+Myeloid dendritic cells	CD1B	True	False	True
+Myeloid dendritic cells	CD1E	True	False	True
+Myeloid dendritic cells	CLEC10A	True	False	True
+Myeloid dendritic cells	CLIC2	True	False	True
+Myeloid dendritic cells	WFDC21P	False	False	False
+NK cells	CD160	True	False	True
+NK cells	KIR2DL1	False	False	False
+NK cells	KIR2DL3	False	False	False
+NK cells	KIR2DL4	False	False	False
+NK cells	KIR3DL1	False	False	False
+NK cells	KIR3DS1	True	False	True
+NK cells	NCR1	True	False	True
+NK cells	PTGDR	True	False	True
+NK cells	SH2D1B	True	False	True
+Neutrophils	CA4	True	False	True
+Neutrophils	CEACAM3	True	False	True
+Neutrophils	CXCR1	True	False	True
+Neutrophils	CXCR2	True	False	True
+Neutrophils	CYP4F3	True	False	True
+Neutrophils	FCGR3B	True	False	True
+Neutrophils	HAL	True	True	False
+Neutrophils	KCNJ15	True	False	True
+Neutrophils	MEGF9	True	False	True
+Neutrophils	SLC25A37	True	False	True
+Neutrophils	STEAP4	True	False	True
+Neutrophils	TECPR2	True	False	True
+Neutrophils	TLE3	True	False	True
+Neutrophils	TNFRSF10C	True	False	True
+Neutrophils	VNN3	True	False	True
+T cells	CD28	True	False	True
+T cells	CD3D	True	False	True
+T cells	CD3G	True	False	True
+T cells	CD5	True	False	True
+T cells	CD6	True	False	True
+T cells	CHRM3-AS2	False	False	False
+T cells	CTLA4	True	False	True
+T cells	FLT3LG	True	False	True
+T cells	ICOS	True	False	True
+T cells	MAL	True	False	True
+T cells	MGC40069	False	False	False
+T cells	PBX4	True	False	True
+T cells	SIRPG	True	False	True
+T cells	THEMIS	True	False	True
+T cells	TNFRSF25	True	False	True
+T cells	TRAT1	True	False	True

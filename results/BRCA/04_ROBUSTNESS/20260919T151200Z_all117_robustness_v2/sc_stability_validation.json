@@ -1,0 +1,30 @@
+{
+  "status": "DONE",
+  "scope": "ALL117 source-label descriptive resampling",
+  "cohorts": {
+    "Pal2021_reprocessed": {
+      "retained": 117,
+      "interpretable": 99,
+      "bootstrap_ge_080": 70,
+      "loo_ge_090": 94
+    },
+    "Reed2024": {
+      "retained": 117,
+      "interpretable": 103,
+      "bootstrap_ge_080": 90,
+      "loo_ge_090": 101
+    },
+    "Wu2021": {
+      "retained": 117,
+      "interpretable": 105,
+      "bootstrap_ge_080": 75,
+      "loo_ge_090": 97
+    }
+  },
+  "rows": 819,
+  "distribution_rows": 7371,
+  "new_hypothesis_tests": 0,
+  "bootstraps": 1000,
+  "paired_contrasts_postselected": true,
+  "script_sha256": "9511a4aa247e8de63f4ccbcc2698d27210da7d247faa55e1fddea07cba6df7cd"
+}

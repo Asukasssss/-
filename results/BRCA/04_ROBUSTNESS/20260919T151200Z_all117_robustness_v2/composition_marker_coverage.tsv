@@ -1,0 +1,11 @@
+population	original_unique_markers	measured	excluded_candidates	retained	coverage_fraction	eligible_PCA	original_modified_score_rho	reason
+B lineage	9	9		9	1.0	True	1.0	
+CD8 T cells	1	1		1	1.0	False	1.0	single_marker_or_insufficient_coverage
+Cytotoxic lymphocytes	7	6		6	0.8571428571428571	True	1.0	
+Endothelial cells	33	32		32	0.9696969696969697	True	1.0	
+Fibroblasts	8	8		8	1.0	True	1.0	
+Monocytic lineage	7	7	KYNU	6	0.8571428571428571	True	0.9636171337916446	
+Myeloid dendritic cells	6	5		5	0.8333333333333334	True	1.0	
+NK cells	9	5		5	0.5555555555555556	True	1.0	
+Neutrophils	15	15	HAL	14	0.9333333333333333	True	0.9910100475938656	
+T cells	16	14		14	0.875	True	1.0	
