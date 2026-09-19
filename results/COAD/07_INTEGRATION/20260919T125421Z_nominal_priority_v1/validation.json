@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": [
+    "source outputs match previously validated hashes",
+    "all974 unique rows retained",
+    "39 exact primary P<0.05 selections",
+    "all original numerical fields and missing statuses byte-for-byte preserved",
+    "common prefix and stable ordering",
+    "no BH recalculation or new tests",
+    "eight report headings",
+    "inputs unchanged"
+  ],
+  "public_output_sha256": {
+    "results.tsv": "367897d51f294e654ad10579e400db470add33911ea48796a36a02a37aaf41a7",
+    "nominal_candidates.tsv": "66fc4f03bdf985efc07079bb7d657114252cf9c1de687faa90b44d6005b2899a",
+    "summary.json": "251bfacd674f6c39690d1e636999f4dfcebb07823581b1746e21b6c75c6d9dc8",
+    "analysis_spec.json": "241c15562ecb3dc17a10dbd43c96957258154499f55fd6220d99cf879bc6730c",
+    "source_manifest.tsv": "c59fbba5dc59da4ef6b64ba95c9442cd50314bf7c7cc599bb00727935da53749",
+    "README_CN.md": "1b71df5e0ab48479608b9e6fc860a8dfd0e9ed550d17e610f59fde8949794710"
+  }
+}
