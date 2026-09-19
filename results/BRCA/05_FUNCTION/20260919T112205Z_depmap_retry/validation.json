@@ -1,0 +1,19 @@
+{
+  "status": "ACCESS_BLOCKED",
+  "local_requests": {
+    "DepMap_inventory": 403,
+    "DepMap_data_page": 403,
+    "Figshare_archive": 403
+  },
+  "server165_requests": {
+    "DepMap_inventory": 403
+  },
+  "server165_curl": {
+    "http": 200,
+    "response": "HTML DepMap Verification with Cloudflare Turnstile; NOT download inventory"
+  },
+  "browser_control": "TIMEOUT",
+  "data_downloaded": false,
+  "dependency_analysis": "NOT_RUN",
+  "reason": "Human verification observed via curl; exact reason for each 403 remains unconfirmed"
+}
