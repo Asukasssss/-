@@ -1,0 +1,7 @@
+{
+  "status": "NOT_RUN",
+  "reason": "DEFERRED_BY_USER",
+  "depmap_computed": false,
+  "gene_pool_retained": 117,
+  "retry_until_user_resumes": false
+}
