@@ -101,6 +101,31 @@
           "validation": "PASS"
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-19T12:56:24.463593+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "08a6c52f3001480d306ae76c8fbc750cae027af3",
+      "verification": "git ls-remote equals local content HEAD; GitHub API PR1 head matches and remains open; updated description includes user-directed nominal-P worklist",
+      "batches": [
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260919T125421Z_nominal_priority_v1",
+          "result_path": "results/COAD/07_INTEGRATION/20260919T125421Z_nominal_priority_v1",
+          "delivery_commit": "08a6c52f3001480d306ae76c8fbc750cae027af3",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "aggregate-only nominal-P priority export; final integration pending",
+          "selected_relations": 39,
+          "selected_unique_genes": 35,
+          "selected_unique_features": 23,
+          "selected_fdr_supported": 0,
+          "selection_timing": "user-directed after result review",
+          "original_statistics_preserved": true,
+          "new_statistical_tests": false,
+          "validation": "PASS"
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
