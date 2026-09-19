@@ -1,0 +1,58 @@
+{
+  "scope": "本轮交付结构/引用/统计字段复用检查，不是原始患者数据重算",
+  "checks": {
+    "all_117_genes_present_once": true,
+    "all_174_unique_relations_retained": true,
+    "search_covers_all_117": true,
+    "all_study_gene_symbols_in_locked_pool": true,
+    "all_studies_have_source_model_intervention_outcome_and_limits": true,
+    "all_original_best_pairs_have_same_pair_v3_link_or_CHKB_NA": true,
+    "no_q_values_recomputed": true,
+    "all_depmap_numeric_fields_empty": true,
+    "all_genes_retained": true,
+    "unique_study_ids": true,
+    "xlsx_archive_valid": true,
+    "xlsx_six_sheets": true,
+    "xlsx_formula_scan_zero_errors": true,
+    "xlsx_dashboard_values_verified": {
+      "genes": 117,
+      "relations": 174,
+      "studies": 122,
+      "queries": 127,
+      "priorities": [
+        24,
+        57,
+        36
+      ]
+    },
+    "xlsx_dashboard_render_inspected": true,
+    "all_delivery_genes_retained": true,
+    "all_deduplicated_sources_usable_urls": true,
+    "merge_script_syntax_checked": true,
+    "stage_entries_new_BRCA_only": true
+  },
+  "unverified": [
+    "独立患者身份",
+    "原始检出掩码",
+    "全117基因所有相关文献的穷尽性",
+    "所有记录全文/逐图质量及撤稿更正状态",
+    "全部CAMP—FUSCC患者独立性",
+    "本轮未对所有完整源TSV执行机器逐字比对；repo merge可运行字段一致性检查"
+  ],
+  "github_write": {
+    "status": "ACCESS_BLOCKED",
+    "http_status": 403,
+    "remote_branch_created": false,
+    "remote_commit_created": false
+  },
+  "passed_within_scope": true,
+  "publication_scope": "Stage-ready local package; remote upload failed 403; machine comparison to all full source bytes not executed here.",
+  "workbook_sheet_names": [
+    "说明与汇总",
+    "117基因比较",
+    "功能文献明细",
+    "174关系复用",
+    "优先核查队列",
+    "检索记录"
+  ]
+}

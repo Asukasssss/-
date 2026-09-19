@@ -1,0 +1,128 @@
+﻿gene	query	engine	searched_on	source_refs	screening_note
+AASS	AASS breast cancer knockdown lysine	web_search	2026-09-19	turn143856search0..13	ADA检索注意排除ADAR；ADA2排除CECR2；AASS本轮首检未得可归属BRCA干预证据
+ACLY	ACLY breast cancer knockdown citrate	web_search	2026-09-19	turn143856search0..13	ADA检索注意排除ADAR；ADA2排除CECR2；AASS本轮首检未得可归属BRCA干预证据
+ADA	ADA adenosine deaminase breast cancer genetic knockdown	web_search	2026-09-19	turn143856search0..13	ADA检索注意排除ADAR；ADA2排除CECR2；AASS本轮首检未得可归属BRCA干预证据
+ADA2	ADA2 CECR1 breast cancer macrophage knockdown	web_search	2026-09-19	turn143856search0..13	ADA检索注意排除ADAR；ADA2排除CECR2；AASS本轮首检未得可归属BRCA干预证据
+AFMID	"""AFMID"" ""breast cancer"""	web_search	2026-09-19	turn351368search0–15	区分乳腺癌功能研究、其他癌种干预和单纯表达/甲基化关联
+AHCY	"""AHCY"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn351368search0–15	区分乳腺癌功能研究、其他癌种干预和单纯表达/甲基化关联
+AMDHD2	"""AMDHD2"" ""breast cancer"""	web_search	2026-09-19	turn351368search0–15	区分乳腺癌功能研究、其他癌种干预和单纯表达/甲基化关联
+AOX1	"""AOX1"" ""breast cancer"" overexpression"	web_search	2026-09-19	turn351368search0–15	区分乳腺癌功能研究、其他癌种干预和单纯表达/甲基化关联
+ARG1	"""ARG1"" ""breast cancer"" knockout macrophage"	web_search	2026-09-19	turn547174search0–16	ARG2检索出现AGR2/TWIST1文章，不能归为ARG2；后续补定向查询
+ARG2	"""ARG2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn547174search0–16	ARG2检索出现AGR2/TWIST1文章，不能归为ARG2；后续补定向查询
+ASNS	"""ASNS"" ""breast cancer"" asparagine metastasis knockdown"	web_search	2026-09-19	turn547174search0–16	ARG2检索出现AGR2/TWIST1文章，不能归为ARG2；后续补定向查询
+ASS1	"""ASS1"" ""breast cancer"" knockdown arginine"	web_search	2026-09-19	turn547174search0–16	ARG2检索出现AGR2/TWIST1文章，不能归为ARG2；后续补定向查询
+BBOX1	BBOX1 breast cancer knockdown gamma butyrobetaine hydroxylase IP3R3	web_search	2026-09-19	turn565089search0–20	BBOX1、BCAT1、CDO1有可归属的原始研究；BCAT2不能借用BCAT1结果
+BCAT1	BCAT1 breast cancer knockdown proliferation	web_search	2026-09-19	turn565089search0–20	BBOX1、BCAT1、CDO1有可归属的原始研究；BCAT2不能借用BCAT1结果
+BCAT2	BCAT2 breast cancer knockdown	web_search	2026-09-19	turn565089search0–20	BBOX1、BCAT1、CDO1有可归属的原始研究；BCAT2不能借用BCAT1结果
+CDO1	CDO1 breast cancer overexpression cysteine dioxygenase	web_search	2026-09-19	turn565089search0–20	BBOX1、BCAT1、CDO1有可归属的原始研究；BCAT2不能借用BCAT1结果
+CEPT1	"""CEPT1"" ""breast cancer"""	web_search	2026-09-19	turn488885search0–15	CHPT1有基因干预；CEPT1药物递送研究不能直接归属靶点；CHKB不可借用CHKA
+CHKA	"""CHKA"" ""breast cancer"" silencing"	web_search	2026-09-19	turn488885search0–15	CHPT1有基因干预；CEPT1药物递送研究不能直接归属靶点；CHKB不可借用CHKA
+CHKB	"""CHKB"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn488885search0–15	CHPT1有基因干预；CEPT1药物递送研究不能直接归属靶点；CHKB不可借用CHKA
+CHPT1	"""CHPT1"" ""breast cancer"""	web_search	2026-09-19	turn488885search0–15	CHPT1有基因干预；CEPT1药物递送研究不能直接归属靶点；CHKB不可借用CHKA
+CKB	"""CKB"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn913908search0–15	CKM检索的chemokine-modulating regimen不是肌型肌酸激酶；CMPK1核表达预后不是干预
+CKM	"""CKM"" ""breast cancer"""	web_search	2026-09-19	turn913908search0–15	CKM检索的chemokine-modulating regimen不是肌型肌酸激酶；CMPK1核表达预后不是干预
+CMAS	"""CMAS"" ""breast cancer"" knockout"	web_search	2026-09-19	turn913908search0–15	CKM检索的chemokine-modulating regimen不是肌型肌酸激酶；CMPK1核表达预后不是干预
+CMPK1	"""CMPK1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn913908search0–15	CKM检索的chemokine-modulating regimen不是肌型肌酸激酶；CMPK1核表达预后不是干预
+CMPK2	"""CMPK2"" ""breast cancer"""	web_search	2026-09-19	turn738648search0–14	不同CPT亚型/异构体分开，CPT1A核变体不等于脂肪酸转运酶活
+CPT1A	"""CPT1A"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn738648search0–14	不同CPT亚型/异构体分开，CPT1A核变体不等于脂肪酸转运酶活
+CPT1B	"""CPT1B"" ""breast cancer"" stem cells"	web_search	2026-09-19	turn738648search0–14	不同CPT亚型/异构体分开，CPT1A核变体不等于脂肪酸转运酶活
+CPT2	"""CPT2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn738648search0–14	不同CPT亚型/异构体分开，CPT1A核变体不等于脂肪酸转运酶活
+CRAT	"""CRAT"" ""breast cancer"""	web_search	2026-09-19	turn799023search0–9	CRAT血栓、cROT电旋转、CTNs纳米晶均为缩写误命中；检查全名
+CROT	"""CROT"" ""breast cancer"""	web_search	2026-09-19	turn799023search0–9	CRAT血栓、cROT电旋转、CTNs纳米晶均为缩写误命中；检查全名
+CS	"""citrate synthase"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn799023search0–9	CRAT血栓、cROT电旋转、CTNs纳米晶均为缩写误命中；检查全名
+CTNS	"""CTNS"" ""breast cancer"" cystinosin"	web_search	2026-09-19	turn799023search0–9	CRAT血栓、cROT电旋转、CTNs纳米晶均为缩写误命中；检查全名
+DPYD	"""DPYD"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn395728search0–16	先区分直接基因干预、药物/上游间接作用；ETNK1出现2026新研究；ETNK2肾癌不转移为乳腺证据
+DPYS	"""DPYS"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn395728search0–16	先区分直接基因干预、药物/上游间接作用；ETNK1出现2026新研究；ETNK2肾癌不转移为乳腺证据
+ETNK1	"""ETNK1"" ""breast cancer"""	web_search	2026-09-19	turn395728search0–16	先区分直接基因干预、药物/上游间接作用；ETNK1出现2026新研究；ETNK2肾癌不转移为乳腺证据
+ETNK2	"""ETNK2"" ""breast cancer"""	web_search	2026-09-19	turn395728search0–16	先区分直接基因干预、药物/上游间接作用；ETNK1出现2026新研究；ETNK2肾癌不转移为乳腺证据
+FDFT1	"""FDFT1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn595018search0–16	FDFT1及FH有方向/背景冲突，必须成对保留；FOLH1影像靶向与直接代谢功能不同
+FH	"""FH"" ""breast cancer"" fumarate hydratase overexpression"	web_search	2026-09-19	turn595018search0–16	FDFT1及FH有方向/背景冲突，必须成对保留；FOLH1影像靶向与直接代谢功能不同
+FOLH1	"""FOLH1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn595018search0–16	FDFT1及FH有方向/背景冲突，必须成对保留；FOLH1影像靶向与直接代谢功能不同
+GAMT	"""GAMT"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn595018search0–16	FDFT1及FH有方向/背景冲突，必须成对保留；FOLH1影像靶向与直接代谢功能不同
+GCLC	"""GCLC"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn164097search0–13	GDPD5/GPCPD1别名分开；GLS有同工酶cDNA/αKG救援与非TNBC阴性对照
+GDA	"""GDA"" ""breast cancer"" guanine deaminase"	web_search	2026-09-19	turn164097search0–13	GDPD5/GPCPD1别名分开；GLS有同工酶cDNA/αKG救援与非TNBC阴性对照
+GDPD5	"""GDPD5"" ""breast cancer"" silencing"	web_search	2026-09-19	turn164097search0–13	GDPD5/GPCPD1别名分开；GLS有同工酶cDNA/αKG救援与非TNBC阴性对照
+GLS	"""GLS"" ""breast cancer"" 28950000"	web_search	2026-09-19	turn164097search0–13	GDPD5/GPCPD1别名分开；GLS有同工酶cDNA/αKG救援与非TNBC阴性对照
+GLS2	"""GLS2"" ""breast cancer"" 31541193"	web_search	2026-09-19	turn169610search0–12	GNPNAT1有乳腺干性遗传干预；GOT1/GOT2后续再开已知原文
+GLUL	"""GLUL"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn169610search0–12	GNPNAT1有乳腺干性遗传干预；GOT1/GOT2后续再开已知原文
+GNPNAT1	"""GNPNAT1"" ""breast cancer"""	web_search	2026-09-19	turn169610search0–12	GNPNAT1有乳腺干性遗传干预；GOT1/GOT2后续再开已知原文
+GOT1	"""GOT1"" ""GOT2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn169610search0–12	GNPNAT1有乳腺干性遗传干预；GOT1/GOT2后续再开已知原文
+GOT2	"""GOT1"" ""GOT2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn169610search0–12	GNPNAT1有乳腺干性遗传干预；GOT1/GOT2后续再开已知原文
+GPCPD1	GPCPD1 EDI3 breast cancer 2023 2024 metastasis knockdown	web_search	2026-09-19	turn273282search0–8	需排除PDP1/PARD3误命中；GSR/GSS补全名检索
+GPI	GPI haptoglobin breast cancer 33042622	web_search	2026-09-19	turn273282search0–8	需排除PDP1/PARD3误命中；GSR/GSS补全名检索
+GSR	"""GSR"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn273282search0–8	需排除PDP1/PARD3误命中；GSR/GSS补全名检索
+GSS	"""GSS"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn273282search0–8	需排除PDP1/PARD3误命中；GSR/GSS补全名检索
+HAL	"""HAL"" histidine ammonia lyase ""breast cancer"""	web_search	2026-09-19	turn789049search0–16	HPRT1有GSE149768扰动RNA数据，但不直接等于抑瘤实验；HPD主要为预后
+HPD	"""HPD"" ""breast cancer"" dioxygenase"	web_search	2026-09-19	turn789049search0–16	HPRT1有GSE149768扰动RNA数据，但不直接等于抑瘤实验；HPD主要为预后
+HPRT1	"""HPRT1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn789049search0–16	HPRT1有GSE149768扰动RNA数据，但不直接等于抑瘤实验；HPD主要为预后
+IDNK	"""IDNK"" ""breast cancer"""	web_search	2026-09-19	turn789049search0–16	HPRT1有GSE149768扰动RNA数据，但不直接等于抑瘤实验；HPD主要为预后
+IMPA1	"""IMPA1"" ""breast cancer"""	web_search	2026-09-19	turn939971search0–12	IMPA1/2有独立研究；KHK-A蛋白激酶和KHK-C果糖代谢分开；KMO催化受损突变仍有表型
+IMPA2	"""IMPA2"" ""breast cancer"""	web_search	2026-09-19	turn939971search0–12	IMPA1/2有独立研究；KHK-A蛋白激酶和KHK-C果糖代谢分开；KMO催化受损突变仍有表型
+KHK	"""KHK"" ""breast cancer"" knockdown fructose"	web_search	2026-09-19	turn939971search0–12	IMPA1/2有独立研究；KHK-A蛋白激酶和KHK-C果糖代谢分开；KMO催化受损突变仍有表型
+KMO	"""KMO"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn939971search0–12	IMPA1/2有独立研究；KHK-A蛋白激酶和KHK-C果糖代谢分开；KMO催化受损突变仍有表型
+KYNU	"""KYNU"" ""breast cancer"" overexpression"	web_search	2026-09-19	turn924761search0–18	LDHA必须纳入稳定敲低无效反证；LDHB肿瘤细胞与CAF方向不同；MAT1A不可借用MAT2A
+LDHA	"""LDHA"" ""breast cancer"" knockdown tumor"	web_search	2026-09-19	turn924761search0–18	LDHA必须纳入稳定敲低无效反证；LDHB肿瘤细胞与CAF方向不同；MAT1A不可借用MAT2A
+LDHB	"""LDHB"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn924761search0–18	LDHA必须纳入稳定敲低无效反证；LDHB肿瘤细胞与CAF方向不同；MAT1A不可借用MAT2A
+MAT1A	"""MAT1A"" ""breast cancer"""	web_search	2026-09-19	turn924761search0–18	LDHA必须纳入稳定敲低无效反证；LDHB肿瘤细胞与CAF方向不同；MAT1A不可借用MAT2A
+MAT2A	"""MAT2A"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn349888	MAT2A不得混入MAT2B；药物改变MDH1不能自动归为MDH1特异干预
+MDH1	"""MDH1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn349888	MAT2A不得混入MAT2B；药物改变MDH1不能自动归为MDH1特异干预
+MDH2	"""MDH2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn349888	MAT2A不得混入MAT2B；药物改变MDH1不能自动归为MDH1特异干预
+MGAM	"""MGAM"" ""breast cancer"""	web_search	2026-09-19	turn349888	MAT2A不得混入MAT2B；药物改变MDH1不能自动归为MDH1特异干预
+MPI	"""MPI"" ""breast cancer"" mannose phosphate isomerase knockdown"	web_search	2026-09-19	turn160428	NAMPT须记录抑制后转移增强反证；NNMT/1-MNA机制已有发表
+NAGK	"""NAGK"" ""breast cancer"""	web_search	2026-09-19	turn160428	NAMPT须记录抑制后转移增强反证；NNMT/1-MNA机制已有发表
+NAMPT	"""NAMPT"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn160428	NAMPT须记录抑制后转移增强反证；NNMT/1-MNA机制已有发表
+NNMT	"""NNMT"" ""breast cancer"" 1 methylnicotinamide p27"	web_search	2026-09-19	turn160428	NAMPT须记录抑制后转移增强反证；NNMT/1-MNA机制已有发表
+NPL	"""NPL"" ""breast cancer"" N-acetylneuraminate"	web_search	2026-09-19	turn862129	OAT需排除抗癌治疗缩写；OTC不把其他尿素循环基因研究转移过来
+OAT	"""ornithine aminotransferase"" ""breast cancer"""	web_search	2026-09-19	turn862129	OAT需排除抗癌治疗缩写；OTC不把其他尿素循环基因研究转移过来
+ODC1	"""ODC1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn862129	OAT需排除抗癌治疗缩写；OTC不把其他尿素循环基因研究转移过来
+OTC	"""OTC"" ""breast cancer"" ornithine transcarbamylase"	web_search	2026-09-19	turn862129	OAT需排除抗癌治疗缩写；OTC不把其他尿素循环基因研究转移过来
+PAH	"""phenylalanine hydroxylase"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn766105	PANK2与PANK4分开；PANK3预后模型不是干预
+PANK1	"""PANK1"" ""breast cancer"""	web_search	2026-09-19	turn766105	PANK2与PANK4分开；PANK3预后模型不是干预
+PANK2	"""PANK2"" ""breast cancer"""	web_search	2026-09-19	turn766105	PANK2与PANK4分开；PANK3预后模型不是干预
+PANK3	"""PANK3"" ""breast cancer"""	web_search	2026-09-19	turn766105	PANK2与PANK4分开；PANK3预后模型不是干预
+PCYT1A	"""PCYT1A"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn160555	PEPD外源失活突变体受体降解不等于内源二肽水解功能；PCYT2不移植卵巢癌结果
+PCYT1B	"""PCYT1B"" ""breast cancer"""	web_search	2026-09-19	turn160555	PEPD外源失活突变体受体降解不等于内源二肽水解功能；PCYT2不移植卵巢癌结果
+PCYT2	"""PCYT2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn160555	PEPD外源失活突变体受体降解不等于内源二肽水解功能；PCYT2不移植卵巢癌结果
+PEPD	"""PEPD"" ""breast cancer"""	web_search	2026-09-19	turn160555	PEPD外源失活突变体受体降解不等于内源二肽水解功能；PCYT2不移植卵巢癌结果
+PFKL	"""PFKL"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn617499	PFK-1未指定亚型的文献不得强配PFKM；PFKL2026有药物与敲低靶点依赖信息
+PFKM	"""PFKM"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn617499	PFK-1未指定亚型的文献不得强配PFKM；PFKL2026有药物与敲低靶点依赖信息
+PFKP	"""PFKP"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn617499	PFK-1未指定亚型的文献不得强配PFKM；PFKL2026有药物与敲低靶点依赖信息
+PGD	"""PGD"" ""breast cancer"" 6-phosphogluconate dehydrogenase"	web_search	2026-09-19	turn617499	PFK-1未指定亚型的文献不得强配PFKM；PFKL2026有药物与敲低靶点依赖信息
+PGM3	"""PGM3"" ""breast cancer"""	web_search	2026-09-19	turn881966	PGM3需回读已知PMID29515119，通用搜索遗漏不等于无文献
+PMM1	"""PMM1"" ""breast cancer"""	web_search	2026-09-19	turn881966	PGM3需回读已知PMID29515119，通用搜索遗漏不等于无文献
+PMM2	"""PMM2"" ""breast cancer"""	web_search	2026-09-19	turn881966	PGM3需回读已知PMID29515119，通用搜索遗漏不等于无文献
+PNP	"""PNP"" ""breast cancer"" HER2 knockdown"	web_search	2026-09-19	turn881966	PGM3需回读已知PMID29515119，通用搜索遗漏不等于无文献
+PPA1	"""PPA1"" ""breast cancer"""	web_search	2026-09-19	turn584460	PRODH需保留应激促凋亡相反背景；PRODH2已有2025骨转移代谢机制
+PPA2	"""PPA2"" ""breast cancer"""	web_search	2026-09-19	turn584460	PRODH需保留应激促凋亡相反背景；PRODH2已有2025骨转移代谢机制
+PRODH	"""PRODH"" ""breast cancer"""	web_search	2026-09-19	turn584460	PRODH需保留应激促凋亡相反背景；PRODH2已有2025骨转移代谢机制
+PRODH2	"""PRODH2"" ""breast cancer"""	web_search	2026-09-19	turn584460	PRODH需保留应激促凋亡相反背景；PRODH2已有2025骨转移代谢机制
+PYCR1	"""PYCR1"" ""breast cancer"" fibroblast proline"	web_search	2026-09-19	turn544194	PYCR家族不可互相代替；PYCR3需区分经典胞质注释与本文线粒体观察
+PYCR2	"""PYCR2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn544194	PYCR家族不可互相代替；PYCR3需区分经典胞质注释与本文线粒体观察
+PYCR3	"""PYCR3"" ""breast cancer"""	web_search	2026-09-19	turn544194	PYCR家族不可互相代替；PYCR3需区分经典胞质注释与本文线粒体观察
+RBKS	"""RBKS"" ""breast cancer"""	web_search	2026-09-19	turn544194	PYCR家族不可互相代替；PYCR3需区分经典胞质注释与本文线粒体观察
+RFK	"""RFK"" ""breast cancer"" riboflavin kinase"	web_search	2026-09-19	turn668076	RFK检索得到预印本，必须与同行评议证据分开；SLC6A6新全文有敲低结果
+SHMT1	"""SHMT1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn668076	RFK检索得到预印本，必须与同行评议证据分开；SLC6A6新全文有敲低结果
+SHMT2	"""SHMT2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn668076	RFK检索得到预印本，必须与同行评议证据分开；SLC6A6新全文有敲低结果
+SLC6A6	"""SLC6A6"" ""breast cancer"""	web_search	2026-09-19	turn668076	RFK检索得到预印本，必须与同行评议证据分开；SLC6A6新全文有敲低结果
+SLC6A8	"""SLC6A8"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn723597	SOAT2不可借用SOAT1；SLC7A11另有未放疗的遗传与回补证据
+SLC7A11	"""SLC7A11"" ""breast cancer"" knockdown radiotherapy"	web_search	2026-09-19	turn723597	SOAT2不可借用SOAT1；SLC7A11另有未放疗的遗传与回补证据
+SOAT1	"""SOAT1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn723597	SOAT2不可借用SOAT1；SLC7A11另有未放疗的遗传与回补证据
+SOAT2	"""SOAT2"" ""breast cancer"""	web_search	2026-09-19	turn723597	SOAT2不可借用SOAT1；SLC7A11另有未放疗的遗传与回补证据
+SORD	"""SORD"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn770153	SPHK1需记录同一研究无增殖变化；MDA-MB-435谱系争议另标；SORD不可搬用COAD
+SPHK1	"""SPHK1"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn770153	SPHK1需记录同一研究无增殖变化；MDA-MB-435谱系争议另标；SORD不可搬用COAD
+SPHK2	"""SPHK2"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn770153	SPHK1需记录同一研究无增殖变化；MDA-MB-435谱系争议另标；SORD不可搬用COAD
+SQLE	"""SQLE"" ""breast cancer"" knockdown"	web_search	2026-09-19	turn770153	SPHK1需记录同一研究无增殖变化；MDA-MB-435谱系争议另标；SORD不可搬用COAD
+TAT	"""tyrosine aminotransferase"" ""breast cancer"""	web_search	2026-09-19	turn696627	UPP1有2025原始免疫/尿嘧啶转移机制；UPP2不可替代
+UPB1	"""UPB1"" ""breast cancer"""	web_search	2026-09-19	turn696627	UPP1有2025原始免疫/尿嘧啶转移机制；UPP2不可替代
+UPP1	"""UPP1"" ""breast cancer"""	web_search	2026-09-19	turn696627	UPP1有2025原始免疫/尿嘧啶转移机制；UPP2不可替代
+UPP2	"""UPP2"" ""breast cancer"""	web_search	2026-09-19	turn696627	UPP1有2025原始免疫/尿嘧啶转移机制；UPP2不可替代
+GOT1	"""PMC4696069"" GOT1 siRNA"	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+GOT2	"""PMC4696069"" GOT2 siRNA"	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+PGM3	"""29515119"" FR054 shPGM3"	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+NAGK	"""29515119"" NAGK inhibitor FR054"	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+GPCPD1	"""GPCPD1"" ""2023"" ""02578"""	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+MPI	"""Mannose metabolic pathway senses glucose supply"" MPI"	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+GSS	"""GSS"" ""GLO1"" ""depletion"""	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+GSR	"""GSR"" breast cancer glutathione reductase knockdown"	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+RFK	"""RFK"" ""7709970"" Research Square"	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。
+MAT2A	"""MAT2A"" ""tamoxifen"" ""silencing"""	web_search	2026-09-19	turn644320search2;turn644320view2;turn378032search1;turn736669search1;turn736669search5	补充检索；未命中不等于不存在研究。

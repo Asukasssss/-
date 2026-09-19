@@ -1,0 +1,26 @@
+{
+  "analysis_version": "BRCA_functional_review_v4_20260919",
+  "run_id": "20260919T120437Z_functional_review_v4",
+  "cancer": "BRCA",
+  "stage_ids": [
+    "05_FUNCTION",
+    "07_INTEGRATION"
+  ],
+  "purpose": "全117基因的有界功能取证与研究工作优先级更新，不重跑患者关联",
+  "locked_gene_count": 117,
+  "locked_relation_count": 174,
+  "statistics": "复用v1与ER v3；不计算P/q、不改变检验族、不改源矩阵",
+  "search_scope": "每基因至少一次定向web检索；部分追加别名/原始文献检索；不是系统综述或穷尽性无文献证明",
+  "sources": "主要为原始研究PubMed摘要、正文片段及图注；每条记录标实际深度；一手访问失败、旧版未重读明确分开",
+  "eligibility": "乳腺癌模型中的该基因直接遗传操作、药物靶点证据、分子证据、非特异背景、观察性和其他癌种分列",
+  "priority_rule": "人工按可解决问题、来源适用性、反证、公开数据可复用性安排；没有加权总分，不以q值做唯一门槛",
+  "no_hit_interpretation": "本轮未取得适用干预来源，不意味着生物学阴性；全117基因保留",
+  "independence": "不同论文、同一研究系列、不同干预或同一论文多个基因不自动视为独立验证",
+  "depmap": "NOT_RUN; DEFERRED_BY_USER; score/model_count empty",
+  "cptac": "旧10基因组织/plex混杂对比不作为支持分数",
+  "patient_unit": "作者映射标本，独立患者身份未核实；ER以外完整亚型/纯度/批次未控制；可用性不是原始检出掩码",
+  "limitations": "多数取证仅到摘要或关键段落，未逐图全面质量审计；未完成全部撤稿/更正核验；不能宣布临床靶点或CAMP代谢介导",
+  "input_snapshot": "227245e3171ac3b8530835624711c1a0a69363cf",
+  "local_export_scope": "基因表含已读取的紧凑统计字段；原始完整RNA/CI等列留在源表。merge脚本在repo可追加所有证据列并保持全部旧列。",
+  "github_status": "create_branch两次HTTP403；最近get_repo pull=true push=false；未上传、未合并"
+}

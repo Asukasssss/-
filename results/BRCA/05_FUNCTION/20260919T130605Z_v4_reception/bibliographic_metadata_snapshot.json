@@ -1,0 +1,1129 @@
+[
+  {
+    "pmid": "17974990",
+    "pmcid": "NA",
+    "doi": "10.1158/0008-5472.can-07-2090",
+    "title": "Involvement of sphingosine kinase 2 in p53-independent induction of p21 by the chemotherapeutic drug doxorubicin.",
+    "year": "2007",
+    "first_publication_date": "2007-11-01",
+    "pubtypes": [
+      "Research Support, N.I.H., Intramural",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "22339418",
+    "pmcid": "NA",
+    "doi": "10.1139/o11-081",
+    "title": "Breast cancer cells adapt to metabolic stress by increasing ethanolamine phospholipid synthesis and CTP:ethanolaminephosphate cytidylyltransferase-Pcyt2 activity.",
+    "year": "2012",
+    "first_publication_date": "2012-02-16",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "24040364",
+    "pmcid": "PMC3765449",
+    "doi": "10.1371/journal.pone.0074928",
+    "title": "53BP1 sensitizes breast cancer cells to 5-fluorouracil.",
+    "year": "2013",
+    "first_publication_date": "2013-09-06",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "24692592",
+    "pmcid": "PMC4229039",
+    "doi": "10.1126/scisignal.2004761",
+    "title": "Arginine starvation impairs mitochondrial respiratory function in ASS1-deficient breast cancer cells.",
+    "year": "2014",
+    "first_publication_date": "2014-04-01",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "24764256",
+    "pmcid": "PMC4162314",
+    "doi": "10.1002/nbm.3106",
+    "title": "Silencing of the glycerophosphocholine phosphodiesterase GDPD5 alters the phospholipid metabolite profile in a breast cancer model in vivo as monitored by (31) P MRS.",
+    "year": "2014",
+    "first_publication_date": "2014-04-24",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "25263164",
+    "pmcid": "PMC4252795",
+    "doi": "10.1016/j.dnarep.2014.08.006",
+    "title": "Nicotinamide phosphoribosyltransferase can affect metastatic activity and cell adhesive functions by regulating integrins in breast cancer.",
+    "year": "2014",
+    "first_publication_date": "2014-09-26",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "26418898",
+    "pmcid": "PMC4924687",
+    "doi": "10.18632/oncotarget.5298",
+    "title": "Induction of methionine adenosyltransferase 2A in tamoxifen-resistant breast cancer cells.",
+    "year": "2016",
+    "first_publication_date": "2016-03-01",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "26799588",
+    "pmcid": "PMC4991433",
+    "doi": "10.18632/oncotarget.6964",
+    "title": "Carnitine palmitoyl transferase-1A (CPT1A): a new tumor specific target in human breast cancer.",
+    "year": "2016",
+    "first_publication_date": "2016-04-01",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "26928812",
+    "pmcid": "PMC4873469",
+    "doi": "10.1158/0008-5472.can-15-1646",
+    "title": "Cyclin E Associates with the Lipogenic Enzyme ATP-Citrate Lyase to Enable Malignant Growth of Breast Cancer Cells.",
+    "year": "2016",
+    "first_publication_date": "2016-02-29",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "27356959",
+    "pmcid": "PMC5555158",
+    "doi": "10.1002/nbm.3573",
+    "title": "Targeting choline phospholipid metabolism: GDPD5 and GDPD6 silencing decrease breast cancer cell proliferation, migration, and invasion.",
+    "year": "2016",
+    "first_publication_date": "2016-06-30",
+    "pubtypes": [
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "27457520",
+    "pmcid": "NA",
+    "doi": "10.1158/0008-5472.can-15-2910",
+    "title": "Estrogen Receptor α Promotes Breast Cancer by Reprogramming Choline Metabolism.",
+    "year": "2016",
+    "first_publication_date": "2016-07-25",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": [
+      {
+        "source": "MED",
+        "id": "31615812",
+        "reference": "Cancer Res. 2019 Oct 15;79(20):5458. doi: 10.1158/0008-5472.CAN-19-2632",
+        "type": "Erratum in",
+        "orderIn": 1
+      }
+    ]
+  },
+  {
+    "pmid": "27558661",
+    "pmcid": "PMC4997324",
+    "doi": "10.1038/srep32027",
+    "title": "Prognostic significance of nuclear expression of UMP-CMP kinase in triple negative breast cancer patients.",
+    "year": "2016",
+    "first_publication_date": "2016-08-25",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Multicenter Study",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "27791265",
+    "pmcid": "NA",
+    "doi": "10.1002/jcb.25775",
+    "title": "GLUL Promotes Cell Proliferation in Breast Cancer.",
+    "year": "2017",
+    "first_publication_date": "2017-04-21",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "28314283",
+    "pmcid": "PMC5363403",
+    "doi": "10.21873/anticanres.11435",
+    "title": "Stable shRNA Silencing of Lactate Dehydrogenase A (LDHA) in Human MDA-MB-231 Breast Cancer Cells Fails to Alter Lactic Acid Production, Glycolytic Activity, ATP or Survival.",
+    "year": "2017",
+    "first_publication_date": "2017-03-01",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "28319069",
+    "pmcid": "NA",
+    "doi": "10.1038/onc.2017.32",
+    "title": "The branched-chain amino acid transaminase 1 sustains growth of antiestrogen-resistant and ERα-negative breast cancer.",
+    "year": "2017",
+    "first_publication_date": "2017-03-20",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "28492237",
+    "pmcid": "PMC5437289",
+    "doi": "10.1038/ncomms15267",
+    "title": "Proline metabolism supports metastasis formation and could be inhibited to selectively target metastasizing cancer cells.",
+    "year": "2017",
+    "first_publication_date": "2017-05-11",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "28950000",
+    "pmcid": "PMC5614427",
+    "doi": "10.1371/journal.pone.0185092",
+    "title": "Glutaminase is essential for the growth of triple-negative breast cancer cells with a deregulated glutamine metabolism pathway and its suppression synergizes with mTOR inhibition.",
+    "year": "2017",
+    "first_publication_date": "2017-09-26",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "29249690",
+    "pmcid": "PMC5777338",
+    "doi": "10.1016/j.cmet.2017.11.001",
+    "title": "JAK/STAT3-Regulated Fatty Acid β-Oxidation Is Critical for Breast Cancer Stem Cell Self-Renewal and Chemoresistance.",
+    "year": "2018",
+    "first_publication_date": "2017-12-14",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": [
+      {
+        "source": "MED",
+        "id": "29874570",
+        "reference": "Cell Metab. 2018 Jun 05;27(6):1357. doi: 10.1016/j.cmet.2018.04.018",
+        "type": "Erratum in",
+        "orderIn": 1
+      },
+      {
+        "source": "MED",
+        "id": "33063947",
+        "reference": "Thorac Cancer. 2020 Dec;11(12):3422-3424. doi: 10.1111/1759-7714.13691",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    ]
+  },
+  {
+    "pmid": "29414946",
+    "pmcid": "PMC5898613",
+    "doi": "10.1038/nature25465",
+    "title": "Asparagine bioavailability governs metastasis in a model of breast cancer.",
+    "year": "2018",
+    "first_publication_date": "2018-02-07",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Validation Study",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": [
+      {
+        "source": "MED",
+        "id": "29453237",
+        "reference": "Cancer Discov. 2018 Apr;8(4):381. doi: 10.1158/2159-8290.CD-RW2018-026.",
+        "type": "Comment in",
+        "orderIn": 1
+      },
+      {
+        "source": "MED",
+        "id": "29620732",
+        "reference": "Nature. 2018 Apr 4;556(7699):135. doi: 10.1038/nature26162.",
+        "type": "Erratum in",
+        "orderIn": 2
+      },
+      {
+        "source": "MED",
+        "id": "29719230",
+        "reference": "Cell Metab. 2018 May 01;27(5):947-949. doi: 10.1016/j.cmet.2018.04.012.",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    ]
+  },
+  {
+    "pmid": "29515119",
+    "pmcid": "PMC5841296",
+    "doi": "10.1038/s41419-018-0405-4",
+    "title": "Inhibition of the Hexosamine Biosynthetic Pathway by targeting PGM3 causes breast cancer growth arrest and apoptosis.",
+    "year": "2018",
+    "first_publication_date": "2018-03-07",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "29765154",
+    "pmcid": "NA",
+    "doi": "10.1038/s41388-018-0281-5",
+    "title": "The cancer-associated microprotein CASIMO1 controls cell proliferation and interacts with squalene epoxidase modulating lipid droplet formation.",
+    "year": "2018",
+    "first_publication_date": "2018-05-16",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "30293322",
+    "pmcid": "NA",
+    "doi": "10.3760/cma.j.issn.0254-6450.2018.09.023",
+    "title": "[Association between AOX1, IRF4 methylation in peripheral blood leukocyte DNA and the risks of breast cancer: a case-control study].",
+    "year": "2018",
+    "first_publication_date": "2018-09-01",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "30759381",
+    "pmcid": "PMC6663478",
+    "doi": "10.1016/j.celrep.2019.01.059",
+    "title": "Mapping Metabolic Events in the Cancer Cell Cycle Reveals Arginine Catabolism in the Committed SG<sub>2</sub>M Phase.",
+    "year": "2019",
+    "first_publication_date": "2019-02-01",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "30799686",
+    "pmcid": "PMC6329019",
+    "doi": "10.1177/1744806918822185",
+    "title": "xCT knockdown in human breast cancer cells delays onset of cancer-induced bone pain.",
+    "year": "2019",
+    "first_publication_date": "2019-01-01",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "31101119",
+    "pmcid": "PMC6525439",
+    "doi": "10.1186/s13058-019-1150-z",
+    "title": "Nicotinamide N-methyltransferase enhances chemoresistance in breast cancer through SIRT1 protein stabilization.",
+    "year": "2019",
+    "first_publication_date": "2019-05-17",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "31141164",
+    "pmcid": "NA",
+    "doi": "10.1002/jcp.28910",
+    "title": "NAMPT regulates PKM2 nuclear location through 14-3-3ζ: Conferring resistance to tamoxifen in breast cancer.",
+    "year": "2019",
+    "first_publication_date": "2019-05-29",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "31277952",
+    "pmcid": "NA",
+    "doi": "10.1016/j.prp.2019.152524",
+    "title": "HPD overexpression predicts poor prognosis in breast cancer.",
+    "year": "2019",
+    "first_publication_date": "2019-06-28",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "31332944",
+    "pmcid": "PMC6787497",
+    "doi": "10.1111/jcmm.14547",
+    "title": "A novel role of kynureninase in the growth control of breast cancer cells and its relationships with breast cancer.",
+    "year": "2019",
+    "first_publication_date": "2019-07-22",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "31541193",
+    "pmcid": "NA",
+    "doi": "10.1038/s41388-019-1007-z",
+    "title": "GLS2 is protumorigenic in breast cancers.",
+    "year": "2020",
+    "first_publication_date": "2019-09-20",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "31577957",
+    "pmcid": "PMC6939472",
+    "doi": "10.1016/j.celrep.2019.08.076",
+    "title": "Liver-Type Glutaminase GLS2 Is a Druggable Metabolic Node in Luminal-Subtype Breast Cancer.",
+    "year": "2019",
+    "first_publication_date": "2019-10-01",
+    "pubtypes": [
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "31803610",
+    "pmcid": "PMC6873486",
+    "doi": "10.3389/fonc.2019.01201",
+    "title": "CPT1A/2-Mediated FAO Enhancement-A Metabolic Target in Radioresistant Breast Cancer.",
+    "year": "2019",
+    "first_publication_date": "2019-11-15",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "32260399",
+    "pmcid": "PMC7226795",
+    "doi": "10.3390/cells9040886",
+    "title": "Sphingosine Kinase 1 Regulates the Survival of Breast Cancer Stem Cells and Non-stem Breast Cancer Cells by Suppression of STAT1.",
+    "year": "2020",
+    "first_publication_date": "2020-04-04",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "32268268",
+    "pmcid": "PMC7191260",
+    "doi": "10.1016/j.ebiom.2020.102717",
+    "title": "Kynurenine 3-monooxygenase upregulates pluripotent genes through β-catenin and promotes triple-negative breast cancer progression.",
+    "year": "2020",
+    "first_publication_date": "2020-04-01",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": [
+      {
+        "source": "MED",
+        "id": "32339939",
+        "reference": "EBioMedicine. 2020 May;55:102762. doi: 10.1016/j.ebiom.2020.102762",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    ]
+  },
+  {
+    "pmid": "32523652",
+    "pmcid": "PMC7260123",
+    "doi": "10.18632/oncotarget.27607",
+    "title": "BCATc modulates crosstalk between the PI3K/Akt and the Ras/ERK pathway regulating proliferation in triple negative breast cancer.",
+    "year": "2020",
+    "first_publication_date": "2020-05-26",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "32690540",
+    "pmcid": "PMC7642036",
+    "doi": "10.1158/2159-8290.cd-20-0288",
+    "title": "Identification of BBOX1 as a Therapeutic Target in Triple-Negative Breast Cancer.",
+    "year": "2020",
+    "first_publication_date": "2020-07-20",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "33042622",
+    "pmcid": "PMC7539774",
+    "doi": "NA",
+    "title": "Human haptoglobin contributes to breast cancer oncogenesis through glycolytic activity modulation.",
+    "year": "2020",
+    "first_publication_date": "2020-09-01",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "33207079",
+    "pmcid": "PMC7858277",
+    "doi": "10.1002/1878-0261.12856",
+    "title": "HRD1 inhibits fatty acid oxidation and tumorigenesis by ubiquitinating CPT2 in triple-negative breast cancer.",
+    "year": "2021",
+    "first_publication_date": "2020-12-16",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "33499132",
+    "pmcid": "PMC7910888",
+    "doi": "10.3390/biomedicines9020107",
+    "title": "Breast Cancer-Derived Microvesicles Are the Source of Functional Metabolic Enzymes as Potential Targets for Cancer Therapy.",
+    "year": "2021",
+    "first_publication_date": "2021-01-22",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "33916440",
+    "pmcid": "PMC8038600",
+    "doi": "10.3390/ijms22073764",
+    "title": "Macrophage-Derived Adenosine Deaminase 2 Correlates with M2 Macrophage Phenotype in Triple Negative Breast Cancer.",
+    "year": "2021",
+    "first_publication_date": "2021-04-05",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "34514415",
+    "pmcid": "PMC8428294",
+    "doi": "10.1093/narcan/zcab035",
+    "title": "CPT1A and fatty acid β-oxidation are essential for tumor cell growth and survival in hormone receptor-positive breast cancer.",
+    "year": "2021",
+    "first_publication_date": "2021-09-09",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "34595179",
+    "pmcid": "PMC8476924",
+    "doi": "10.3389/fcell.2021.730558",
+    "title": "PPA1 Promotes Breast Cancer Proliferation and Metastasis Through PI3K/AKT/GSK3β Signaling Pathway.",
+    "year": "2021",
+    "first_publication_date": "2021-09-14",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "34751415",
+    "pmcid": "NA",
+    "doi": "10.3892/or.2021.8220",
+    "title": "Platelet isoform of phosphofructokinase accelerates malignant features in breast cancer.",
+    "year": "2022",
+    "first_publication_date": "2021-11-09",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "35008190",
+    "pmcid": "PMC8749968",
+    "doi": "10.3390/cancers14010027",
+    "title": "HIF-Dependent CKB Expression Promotes Breast Cancer Metastasis, Whereas Cyclocreatine Therapy Impairs Cellular Invasion and Improves Chemotherapy Efficacy.",
+    "year": "2021",
+    "first_publication_date": "2021-12-22",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": [
+      {
+        "source": "PPR",
+        "id": "PPR393092",
+        "type": "Preprint in",
+        "note": "CrossRef Pre-print loader",
+        "orderIn": 10002
+      }
+    ]
+  },
+  {
+    "pmid": "35163433",
+    "pmcid": "PMC8835909",
+    "doi": "10.3390/ijms23031510",
+    "title": "Nonsteroidal Anti-Inflammatory Drugs as PPARγ Agonists Can Induce PRODH/POX-Dependent Apoptosis in Breast Cancer Cells: New Alternative Pathway in NSAID-Induced Apoptosis.",
+    "year": "2022",
+    "first_publication_date": "2022-01-28",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "35252218",
+    "pmcid": "PMC8888677",
+    "doi": "10.3389/fcell.2021.772380",
+    "title": "The Dual Regulation Effects of ESR1/NEDD4L on SLC7A11 in Breast Cancer Under Ionizing Radiation.",
+    "year": "2021",
+    "first_publication_date": "2022-02-16",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "35760868",
+    "pmcid": "PMC9236907",
+    "doi": "10.1038/s42255-022-00582-0",
+    "title": "Cancer-associated fibroblasts require proline synthesis by PYCR1 for the deposition of pro-tumorigenic extracellular matrix.",
+    "year": "2022",
+    "first_publication_date": "2022-06-27",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": [
+      {
+        "source": "MED",
+        "id": "35927357",
+        "reference": "Nat Metab. 2022 Aug;4(8):1084. doi: 10.1038/s42255-022-00632-7.",
+        "type": "Erratum in",
+        "orderIn": 1
+      }
+    ]
+  },
+  {
+    "pmid": "35796646",
+    "pmcid": "PMC9883559",
+    "doi": "10.1002/cam4.4970",
+    "title": "Inositol monophosphatase 1 (IMPA1) promotes triple-negative breast cancer progression through regulating mTOR pathway and EMT process.",
+    "year": "2023",
+    "first_publication_date": "2022-07-07",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "35896750",
+    "pmcid": "PMC9352595",
+    "doi": "10.1038/s41586-022-04984-8",
+    "title": "PI3K drives the de novo synthesis of coenzyme A from vitamin B5.",
+    "year": "2022",
+    "first_publication_date": "2022-07-27",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "35968337",
+    "pmcid": "PMC9360240",
+    "doi": "NA",
+    "title": "SHMT2 promotes tumor growth through VEGF and MAPK signaling pathway in breast cancer.",
+    "year": "2022",
+    "first_publication_date": "2022-07-15",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "35988817",
+    "pmcid": "NA",
+    "doi": "10.1016/j.canlet.2022.215884",
+    "title": "NNMT contributes to high metastasis of triple negative breast cancer by enhancing PP2A/MEK/ERK/c-Jun/ABCA1 pathway mediated membrane fluidity.",
+    "year": "2022",
+    "first_publication_date": "2022-08-19",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": [
+      {
+        "source": "MED",
+        "id": "39755471",
+        "reference": "Cancer Lett. 2025 Jan 3:217424. doi: 10.1016/j.canlet.2024.217424",
+        "type": "Erratum in",
+        "orderIn": 1
+      }
+    ]
+  },
+  {
+    "pmid": "36866961",
+    "pmcid": "NA",
+    "doi": "10.1111/febs.16768",
+    "title": "MAEL facilitates metabolic reprogramming and breast cancer progression by promoting the degradation of citrate synthase and fumarate hydratase via chaperone-mediated autophagy.",
+    "year": "2023",
+    "first_publication_date": "2023-03-12",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "37230459",
+    "pmcid": "NA",
+    "doi": "10.1016/j.fct.2023.113855",
+    "title": "The bound polyphenols of foxtail millet (Setaria italica) inner shell inhibit breast cancer by promoting lipid accumulation-induced autophagic death.",
+    "year": "2023",
+    "first_publication_date": "2023-05-23",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "37387422",
+    "pmcid": "PMC10326828",
+    "doi": "10.3892/or.2023.8594",
+    "title": "GNPNAT1 promotes the stemness of breast cancer and serves as a potential prognostic biomarker.",
+    "year": "2023",
+    "first_publication_date": "2023-06-30",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "37751742",
+    "pmcid": "NA",
+    "doi": "10.1016/j.molcel.2023.08.032",
+    "title": "Lysosomal cyst(e)ine storage potentiates tolerance to oxidative stress in cancer cells.",
+    "year": "2023",
+    "first_publication_date": "2023-09-25",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "37845207",
+    "pmcid": "PMC10579265",
+    "doi": "10.1038/s41419-023-06200-5",
+    "title": "Pyrroline-5-carboxylate reductase 1 reprograms proline metabolism to drive breast cancer stemness under psychological stress.",
+    "year": "2023",
+    "first_publication_date": "2023-10-16",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "38048842",
+    "pmcid": "NA",
+    "doi": "10.1016/j.canlet.2023.216527",
+    "title": "IMPA2 promotes basal-like breast cancer aggressiveness by a MYC-mediated positive feedback loop.",
+    "year": "2024",
+    "first_publication_date": "2023-12-03",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "38101533",
+    "pmcid": "NA",
+    "doi": "10.1016/j.biocel.2023.106506",
+    "title": "PYCR2, induced by c-Myc, promotes the invasiveness and metastasis of breast cancer by activating AKT signalling pathway.",
+    "year": "2024",
+    "first_publication_date": "2023-12-13",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "38126621",
+    "pmcid": "PMC10916551",
+    "doi": "10.1002/advs.202305907",
+    "title": "NNMT/1-MNA Promote Cell-Cycle Progression of Breast Cancer by Targeting UBC12/Cullin-1-Mediated Degradation of P27 Proteins.",
+    "year": "2024",
+    "first_publication_date": "2023-12-21",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "38266771",
+    "pmcid": "NA",
+    "doi": "10.1016/j.mce.2024.112160",
+    "title": "PMM2 controls ERα levels and cell proliferation in ESR1 Y537S variant expressing breast cancer cells.",
+    "year": "2024",
+    "first_publication_date": "2024-01-22",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": [
+      {
+        "source": "PPR",
+        "id": "PPR674755",
+        "type": "Preprint in",
+        "note": "CrossRef Pre-print loader",
+        "orderIn": 10002
+      }
+    ]
+  },
+  {
+    "pmid": "38503142",
+    "pmcid": "PMC11070302",
+    "doi": "10.1016/j.drup.2024.101078",
+    "title": "Targeted dual degradation of HER2 and EGFR obliterates oncogenic signaling, overcomes therapy resistance, and inhibits metastatic lesions in HER2-positive breast cancer models.",
+    "year": "2024",
+    "first_publication_date": "2024-03-13",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "38525901",
+    "pmcid": "PMC11208901",
+    "doi": "10.20892/j.issn.2095-3941.2023.0382",
+    "title": "Decreased <i>LDHB</i> expression in breast tumor cells causes NK cell activation and promotes tumor progression.",
+    "year": "2024",
+    "first_publication_date": "2024-03-01",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "38642827",
+    "pmcid": "NA",
+    "doi": "10.1016/j.biocel.2024.106581",
+    "title": "PYCR3 modulates mtDNA copy number to drive proliferation and doxorubicin resistance in triple-negative breast cancer.",
+    "year": "2024",
+    "first_publication_date": "2024-04-19",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "38664014",
+    "pmcid": "NA",
+    "doi": "10.2967/jnumed.123.266659",
+    "title": "Frequent Amplification and Overexpression of PSMA in Basallike Breast Cancer from Analysis of The Cancer Genome Atlas.",
+    "year": "2024",
+    "first_publication_date": "2024-07-01",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "38694857",
+    "pmcid": "PMC11058372",
+    "doi": "10.18502/ijph.v53i1.14697",
+    "title": "MiR-103a-3p Promotes Tumorigenesis of Breast Cancer by Targeting ETNK1.",
+    "year": "2024",
+    "first_publication_date": "2024-01-01",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "39461203",
+    "pmcid": "NA",
+    "doi": "10.1016/j.phymed.2024.156155",
+    "title": "Artemisitene induces apoptosis of breast cancer cells by targeting FDFT1 and inhibits the growth of breast cancer patient-derived organoids.",
+    "year": "2024",
+    "first_publication_date": "2024-10-18",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "39818404",
+    "pmcid": "NA",
+    "doi": "10.1016/j.cellsig.2025.111608",
+    "title": "Unveiling the role of MDH1 in breast cancer drug resistance through single-cell sequencing and schottenol intervention.",
+    "year": "2025",
+    "first_publication_date": "2025-01-14",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "39833180",
+    "pmcid": "PMC11756422",
+    "doi": "10.1038/s41419-025-07354-0",
+    "title": "Targeting estrogen-regulated system x<sub>c</sub><sup>-</sup> promotes ferroptosis and endocrine sensitivity of ER+ breast cancer.",
+    "year": "2025",
+    "first_publication_date": "2025-01-20",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "40531994",
+    "pmcid": "PMC12175892",
+    "doi": "10.1126/sciadv.adt3075",
+    "title": "FAM50A drives breast cancer brain metastasis through interaction with C9ORF78 to enhance ʟ-asparagine production.",
+    "year": "2025",
+    "first_publication_date": "2025-06-18",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "40619388",
+    "pmcid": "PMC12232811",
+    "doi": "10.1186/s13058-025-02078-7",
+    "title": "THEM6 modulates carboplatin sensitivity by regulating ferroptosis through FDFT1 in triple-negative breast cancer.",
+    "year": "2025",
+    "first_publication_date": "2025-07-06",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "40665359",
+    "pmcid": "PMC12261779",
+    "doi": "10.1186/s13058-025-02084-9",
+    "title": "Fibroblast growth factor receptor signaling modulates cholesterol storage in a SOAT1-dependent manner to promote mammary tumor cell invasion.",
+    "year": "2025",
+    "first_publication_date": "2025-07-15",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "40702342",
+    "pmcid": "PMC12420820",
+    "doi": "10.1038/s44319-025-00520-7",
+    "title": "Uridine phosphorylase-1 supports metastasis by altering immune and extracellular matrix landscapes.",
+    "year": "2025",
+    "first_publication_date": "2025-07-23",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "40749014",
+    "pmcid": "PMC12580816",
+    "doi": "10.1158/0008-5472.can-24-4391",
+    "title": "PRODH2-Mediated Metabolism in the Bone Microenvironment Promotes Breast Cancer Metastasis.",
+    "year": "2025",
+    "first_publication_date": "2025-11-01",
+    "pubtypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "41179294",
+    "pmcid": "PMC12573209",
+    "doi": "10.32604/or.2025.068119",
+    "title": "Multi-Omics Insights into the Impact of MDH2 on Breast Cancer Progression: A Promising Druggable Target.",
+    "year": "2025",
+    "first_publication_date": "2025-10-22",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "41267037",
+    "pmcid": "PMC12632037",
+    "doi": "10.1186/s12943-025-02503-7",
+    "title": "ZNF526 drives tumor growth by enhancing SHMT1-dependent serine metabolism and antioxidant capability in TNBC.",
+    "year": "2025",
+    "first_publication_date": "2025-11-20",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "41502507",
+    "pmcid": "PMC12774560",
+    "doi": "10.32604/or.2025.070808",
+    "title": "PNP as a Metabolic and Prognostic Driver of Breast Cancer Aggressiveness: Insights from Patient Tissue and Cell Models.",
+    "year": "2025",
+    "first_publication_date": "2025-12-30",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "42003071",
+    "pmcid": "NA",
+    "doi": "10.1002/ddr.70289",
+    "title": "Cyclophosphamide Induces Autophagy-Dependent Ferroptosis Through Promoting ETNK1 Expression in Breast Cancer Cells.",
+    "year": "2026",
+    "first_publication_date": "2026-05-01",
+    "pubtypes": [
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "42009845",
+    "pmcid": "PMC13096466",
+    "doi": "10.1038/s41598-026-47444-3",
+    "title": "A degrader of HER2 and EGFR abolishes p95HER2 and shows robust antitumor efficacy in HER2-positive breast cancer.",
+    "year": "2026",
+    "first_publication_date": "2026-04-20",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  },
+  {
+    "pmid": "42378651",
+    "pmcid": "PMC13325921",
+    "doi": "10.1002/advs.202520252",
+    "title": "Covalent Inhibition of SHMT2 by Gambogic Acid Induces Ferroptosis Through Mitochondrial Collapse in Triple-Negative Breast Cancer.",
+    "year": "2026",
+    "first_publication_date": "2026-06-30",
+    "pubtypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "related_notices": []
+  }
+]

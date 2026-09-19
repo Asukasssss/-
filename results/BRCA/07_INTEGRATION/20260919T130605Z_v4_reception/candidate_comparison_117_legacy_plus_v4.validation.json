@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "legacy_rows": 117,
+  "legacy_columns_preserved": 54,
+  "new_evidence_columns": 47,
+  "relations_checked": 174,
+  "numeric_compact_matches_sources": true,
+  "new_statistical_tests": 0,
+  "source_sha256": {
+    "results\\BRCA\\20260919_ER_availability_v3\\candidate_comparison_117_integrated_v3.tsv": "52cb7b68d8ebd248a357bdcd91f8e2d8b505c710b696fd8d126b26d4166803f7",
+    "results\\BRCA\\20260919_ER_availability_v3\\er_availability_all_174.tsv": "8c9ca239a216b6e4d9b33d13f576ca2b865e61968345948727b59c508910eb39"
+  },
+  "baseline_commit": "227245e3171ac3b8530835624711c1a0a69363cf",
+  "output": "results\\BRCA\\07_INTEGRATION\\20260919T130605Z_v4_reception\\candidate_comparison_117_legacy_plus_v4.tsv",
+  "output_sha256": "3c9a628cff4bed87b3f7d0c063c64e82015ca1a642973f956e56ff5c8181e5d9"
+}

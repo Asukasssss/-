@@ -1,0 +1,7 @@
+﻿cancer	gene	study_id	source_url	read_scope	finding	remaining_limit	decision	new_patient_tests
+BRCA	PMM2	S086	https://pubmed.ncbi.nlm.nih.gov/38266771/	PRIMARY_ABSTRACT	摘要支持ESR1 Y537S表达背景下PMM2耗竭及部分治疗重新敏感；不能推广为所有BRCA。	未逐图核查；CAMP对应突变状态尚未确认。	KEEP_WITH_STATED_SCOPE	0
+BRCA	UPP1	S113	https://link.springer.com/article/10.1038/s44319-025-00520-7	PRIMARY_RESULTS_AND_DISCUSSION	全身Upp1缺失支持肺转移终点；细胞来源/完整机制须按N06限定。	不是中性粒细胞特异敲除；不是CAMP代谢介导证明。	KEEP_WITH_STATED_SCOPE	0
+BRCA	PRODH2	S091	https://pubmed.ncbi.nlm.nih.gov/40749014/	PRIMARY_ABSTRACT_AND_FIGURE_CAPTIONS	研究包括过表达/敲除与骨转移背景，适用范围应保留骨微环境。	原发CAMP关联不能替代骨转移检验；未逐图审计。	KEEP_WITH_STATED_SCOPE	0
+BRCA	ETNK1	S032	https://pubmed.ncbi.nlm.nih.gov/42003071/	PRIMARY_ABSTRACT	降低ETNK1逆转环磷酰胺所致部分变化；不支持通用抑制建议。	药物活化、处理方式和构建需方法全文核查。	KEEP_WITH_STATED_SCOPE	0
+BRCA	ETNK1	S031	https://pubmed.ncbi.nlm.nih.gov/38694857/	PRIMARY_ABSTRACT	摘要方法提OE-ETNK1、结果又提ETNK1-knockdown，方向尚不可据此确定。	保留方向争议，不选择对候选有利的一句话。	KEEP_WITH_STATED_SCOPE	0
+BRCA	LDHA	S058	https://pubmed.ncbi.nlm.nih.gov/28314283/	PRIMARY_ABSTRACT	稳定敲低的特定MDA-MB-231克隆中未观察到所列代谢/存活改变；作者讨论LDHB背景。	不据单一稳定克隆否定全部LDHA急性干预研究。	KEEP_WITH_STATED_SCOPE	0

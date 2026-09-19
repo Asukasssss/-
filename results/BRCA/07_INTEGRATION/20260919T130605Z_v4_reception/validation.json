@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "scope": "Structural/numerical receipt and bounded literature annotation;not full biological verification",
+  "genes": 117,
+  "relations": 174,
+  "legacy_columns_preserved": 54,
+  "legacy_cells_preserved": 6318,
+  "imported_review_columns": 47,
+  "receiver_columns": 8,
+  "retained_package_files_hash_checked": 18,
+  "studies": 122,
+  "unique_source_urls": 121,
+  "directed_search_records": 127,
+  "searched_genes": 117,
+  "genetic_effect_genes_by_imported_class": 52,
+  "genetic_effect_genes_outside_original_ten": 44,
+  "any_genetic_report_genes": 56,
+  "priority_counts": {
+    "保留": 57,
+    "暂挂": 36,
+    "优先核查": 24
+  },
+  "pmid_rows": 79,
+  "unique_pmids": 78,
+  "targeted_claim_records": 6,
+  "source_notice_records": 6,
+  "new_patient_statistics": 0,
+  "depmap_calculations": 0,
+  "source_sha256": {
+    "results/BRCA/20260919_ER_availability_v3/candidate_comparison_117_integrated_v3.tsv": "52cb7b68d8ebd248a357bdcd91f8e2d8b505c710b696fd8d126b26d4166803f7",
+    "results/BRCA/20260919_ER_availability_v3/er_availability_all_174.tsv": "8c9ca239a216b6e4d9b33d13f576ca2b865e61968345948727b59c508910eb39",
+    "results/BRCA/05_FUNCTION/20260919T120437Z_functional_review_v4/functional_studies_v4.tsv": "41fba2e20a746b1dbc5e1101f3f89e2053d38b3c1dc1a10a6f421cd5d337c1c8",
+    "results/BRCA/05_FUNCTION/20260919T120437Z_functional_review_v4/candidate_comparison_117_functional_v4.tsv": "c8622d2db3133d29504a2323a06e7ccc5c81987d2b2802cdf8faaa9f79f0e9b8",
+    "results/BRCA/05_FUNCTION/20260919T120437Z_functional_review_v4/relations_174_annotated_v4.tsv": "01fa5295c948bbeae858f562019e291229ab210844c0cb0d702dbddec1a27f5b",
+    "results/BRCA/05_FUNCTION/20260919T130605Z_v4_reception/bibliographic_metadata_snapshot.json": "29f7af72177f7e0b7ce93e20b0c6a6c446d2467d2bf6a85b814150c79f9f03e7",
+    "results/BRCA/05_FUNCTION/20260919T130605Z_v4_reception/receiver_source_notes.tsv": "db555e3e86f752c3b6bce25de0d228de881a338b4c777c026e2e8cf3c1eeeec9",
+    "results/BRCA/05_FUNCTION/20260919T130605Z_v4_reception/key_claim_checks.tsv": "263ee1a55cf921e1c4386de282ffdbc2bf6681b173784a0df84c365e45aa78ed",
+    "code/brca_receive_functional_v4.py": "8e3dab93bb727a43fac02111178e965c6187d83a452e63f648cb1abae24905a7"
+  },
+  "unverified": [
+    "All 122 experimental claims and full texts",
+    "Full publication integrity for non-PMID sources or unindexed notices",
+    "Independent patient identity, subtype/purity/batch and original detection masks",
+    "CAMP metabolite mediation",
+    "Consequences of notices explicitly marked NEEDS_REVIEW"
+  ]
+}

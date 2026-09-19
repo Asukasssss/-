@@ -1,0 +1,34 @@
+﻿gene	functional_class	priority_reason	next_minimal_action	study_ids	source_urls
+ARG2	功能线索待方法/模型核定	已有细胞周期干预线索，但实际是否为BRCA实验未确定	先核定PMID30759381具体实验细胞，再决定是否赋予BRCA功能支持	S074	https://pubmed.ncbi.nlm.nih.gov/30759381/
+CPT1B	功能线索待方法/模型核定	JAK/STAT3-FAO功能很明确，但CPT1B直接构建未核定	定位PMID29249690的CPT1B特异敲低与救援，避免把上游结果全归因	S025	https://pubmed.ncbi.nlm.nih.gov/29249690/
+CTNS	功能线索待方法/模型核定	MFSD12/溶酶体胱氨酸储存研究有价值，CTNS归因未完整	直接定位CTNS而不是MFSD12的扰动终点与GSH读数	S028	https://pubmed.ncbi.nlm.nih.gov/37751742/
+ETNK1	有干预但情境/方向分歧	2024摘要方向矛盾，2026CTX背景又提示ETNK1参与药效	逐图核定两文构建与处理；本轮暂不赋予普适抑制/激活方向	S031; S032	"https://pubmed.ncbi.nlm.nih.gov/38694857/
+https://pubmed.ncbi.nlm.nih.gov/42003071/"
+FDFT1	有干预但情境/方向分歧	乳腺癌敲低后促凋亡与促增殖/抑铁死亡结果冲突	按细胞系、药物、救援和营养背景核对，不给统一抑制方向	S033; S034; S035	"https://pubmed.ncbi.nlm.nih.gov/39461203/
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12116638/
+https://pubmed.ncbi.nlm.nih.gov/40619388/"
+FH	有干预但情境/方向分歧	MAEL救援研究与2025 FH促癌研究方向不同	比较独立构建、剂量、代谢区室及ROS背景，先解释冲突	S027; S036	"https://pubmed.ncbi.nlm.nih.gov/36866961/
+https://link.springer.com/article/10.1186/s40170-025-00397-z"
+GPI	有乳腺癌遗传干预报告	两条糖磷酸关系较稳定，但功能中的代谢/胞外作用未拆开	全文区分GPI与HP干预，查糖磷酸测量及可复用扰动数据	S046	https://pubmed.ncbi.nlm.nih.gov/33042622/
+GSS	遗传干预仅分子终点	有GLO1背景GSS耗减挽救VEGFA，但仅分子终点且术语需核清	先查Figure8P具体模型、GSS/GSH区分；不自动赋予肿瘤转移功能	S119	https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202500722
+HPRT1	遗传干预仅分子终点	有两种siRNA及公开GSE149768，当前核实的是转录改变而非缩瘤	检查公开扰动RNA能否回答嘌呤代谢响应；不冒充已完成代谢中介	S050	https://www.mdpi.com/2072-6694/12/6/1522
+KYNU	有乳腺癌遗传干预报告	已读研究为KYNU过表达抑癌，不是敲低抑癌	核查增表达方向与患者正相关的不同问题，避免治疗方向反置	S056	https://pubmed.ncbi.nlm.nih.gov/31332944/
+LDHA	有干预但情境/方向分歧	急性干预/过表达与稳定shRNA近完全沉默无效有冲突	比较同工酶、克隆适应、培养和时间，不选择性删反证	S057; S058	"https://www.nature.com/articles/srep21735
+https://pubmed.ncbi.nlm.nih.gov/28314283/"
+LDHB	有干预但情境/方向分歧	癌细胞依赖与CAF缺失促转移相反，另有NK文章方向疑点	按细胞来源整理功能方向并核查公开扰动资源，暂停统一抑制主张	S059; S060; S061	"https://aacrjournals.org/cancerres/article/72/22/5812/576593/An-Integrated-Genomic-Screen-Identifies-LDHB-as-an
+https://aacrjournals.org/cancerres/article/86/11/2703/785310/LDHB-Deficiency-in-Fibroblasts-Induces-Lactate
+https://pubmed.ncbi.nlm.nih.gov/38525901/"
+MAT2A	功能线索待方法/模型核定	他莫昔芬耐药文章只读取部分摘要，直接构建未核实	优先补完整摘要/正文，而不是仅据通路上调认定依赖	S064	https://pubmed.ncbi.nlm.nih.gov/26418898/
+MDH2	有乳腺癌遗传干预报告	2025已有遗传加多组学，可能提供公开扰动数据	先查数据可获得性和苹果酸是否直接变化；不把对接计成功能	S062	https://pubmed.ncbi.nlm.nih.gov/41179294/
+NAMPT	有干预但情境/方向分歧	基因抑制增强转移与部分药物抑制生长并存	拆分原发增长、迁移/转移、内分泌耐药和宿主效应	S069; S070; S071	"https://pubmed.ncbi.nlm.nih.gov/25263164/
+https://pubmed.ncbi.nlm.nih.gov/31141164/
+https://doi.org/10.1021/acs.jmedchem.6c00454"
+PANK2	功能线索待方法/模型核定	PI3K-CoA论文主要功能涉及PANK4，PANK2归属未决	只核定PANK2构建、模型与终点，不转移PANK4证据	S075	https://pubmed.ncbi.nlm.nih.gov/35896750/
+PCYT1A	功能线索待方法/模型核定	BPIS脂质积累/死亡研究有线索，但特异操作未确认	查PCYT1A直接敲低/回补及药物特异性	S077	https://pubmed.ncbi.nlm.nih.gov/37230459/
+PMM2	有乳腺癌遗传干预报告	ESR1 Y537S耐药背景有明确遗传作用，但CAMP无该分型证明	先核查可获取的突变分层或扰动数据；不重做未分型总体相关	S086	https://pubmed.ncbi.nlm.nih.gov/38266771/
+PRODH2	有乳腺癌遗传干预报告	2025已有羟脯氨酸—骨转移机制，患者相关不显著不能抹去功能	查独立骨转移患者/公开扰动支持；不照搬已发表SLC7A11/IL8机制	S091	https://pubmed.ncbi.nlm.nih.gov/40749014/
+RFK	一手访问受阻的预印本线索	存在TNBC预印本线索，但一手页面访问受阻	先取得一手全文/发表状态，当前不计为已核实遗传功能	S122	https://www.researchsquare.com/article/rs-7709970/v1
+SHMT1	功能线索待方法/模型核定	新线索主要在ZNF526上游，SHMT1直接实验待定位	明确SHMT1构建和终点，别转用SHMT2功能	S096	https://pubmed.ncbi.nlm.nih.gov/41267037/
+SLC6A8	功能线索待方法/模型核定	缺氧TNBC肌酸存活线索有价值，具体遗传构建未逐项核定	先补方法和营养条件，不把肌酸补充等同转运体单独作用	S100	https://doi.org/10.1186/s13046-021-01933-7
+TAT	功能线索待方法/模型核定	DNMT/药物线索有但TAT本体构建和验证未核实	逐图核查直接遗传证据；不把有毒diazinon当可用治疗	S112	https://www.mdpi.com/2218-273X/14/9/1088
+UPP1	有乳腺癌遗传干预报告	2025中性粒细胞—尿嘧啶—转移前肺微环境已有功能，bulk关联近零	优先研究细胞来源和独立患者背景；不受q门槛排除，也不宣称首次机制	S113	https://pubmed.ncbi.nlm.nih.gov/40702342/

@@ -1,0 +1,42 @@
+{
+  "cancer": "BRCA",
+  "run_id": "20260919T130605Z_v4_reception",
+  "version": "receiver_v4.1",
+  "stages": [
+    "05_FUNCTION",
+    "07_INTEGRATION"
+  ],
+  "base_commit": "227245e3171ac3b8530835624711c1a0a69363cf",
+  "imported_run": "20260919T120437Z_functional_review_v4",
+  "input_zip_name": "BRCA_117_functional_review_v4_delivery.zip",
+  "input_zip_sha256": "82576a9fbc85d44e60090b2b83b134af44575a30345039d21446980ee51b0f70",
+  "inputs": "Public aggregate tables and literature metadata only; no patient matrices",
+  "statistical_unit": "gene / metabolite-gene relation / publication record as applicable; no new tests",
+  "n_patients": "NA;not recomputed;legacy counts remain author-mapped specimens",
+  "multiple_testing_family": "NA;existing P/q copied, not recalculated",
+  "random_seed": "NA;no stochastic computation",
+  "software": {
+    "python": "3.10.8",
+    "dependencies": "Python standard library for receipt reproduction"
+  },
+  "metadata_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+  "metadata_query_template": "EXT_ID:(<up to 25 PMIDs joined with OR>) AND SRC:MED",
+  "metadata_parameters": {
+    "format": "json",
+    "resultType": "core",
+    "pageSize": 100
+  },
+  "metadata_retrieved_utc": "2026-09-19T12:57:32.063203+00:00",
+  "metadata_scope": "78 unique PubMed identifiers in supplied URL column; no claims of full 121-source integrity audit",
+  "metadata_fields": "Identifier/title/DOI/publication types/linked notices; abstracts not redistributed",
+  "manual_notes": "receiver_source_notes.tsv and key_claim_checks.tsv are bounded manual interpretations, not algorithmic proof",
+  "reporting_rule": "52 refers to imported GENETIC_BRCA category, not 52 independently verified targets",
+  "publication": "Push and remote verification tracked by Git; original delivery ACCESS_BLOCKED fields are historical",
+  "depmap_status": "NOT_RUN;DEFERRED_BY_USER",
+  "cptac_role": "No scoring from tissue/plex-confounded old comparison",
+  "unresolved_source_notice_study_ids": [
+    "S006",
+    "S017",
+    "S067"
+  ]
+}

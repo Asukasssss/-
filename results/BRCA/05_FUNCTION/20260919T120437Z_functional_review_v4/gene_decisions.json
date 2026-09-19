@@ -1,0 +1,587 @@
+{
+  "AASS": {
+    "priority": "保留",
+    "priority_reason": "赖氨酸关联线索，但本轮未取得乳腺癌特异遗传功能报告",
+    "next_action": "先核查AASS同工型与可靠乳腺癌原始干预出处，不以搜索无命中认定无功能"
+  },
+  "ACLY": {
+    "priority": "保留",
+    "priority_reason": "已有低分子量Cyclin E背景功能，常规再筛增量有限",
+    "next_action": "只在LMW-E或独立患者可验证背景补证，不把所有BRCA当同一依赖"
+  },
+  "ADA": {
+    "priority": "暂挂",
+    "priority_reason": "检索主要为药物下游和同名歧义，未核实ADA特异干预",
+    "next_action": "排除ADAR/ADA2，取得ADA本体遗传实验再恢复机制优先级"
+  },
+  "ADA2": {
+    "priority": "保留",
+    "priority_reason": "巨噬细胞共培养/活性线索，不是癌细胞必需性",
+    "next_action": "定位ADA2来源与具体干预，不把CECR2或其他癌种CECR1研究转用"
+  },
+  "AFMID": {
+    "priority": "暂挂",
+    "priority_reason": "目前缺可归属乳腺癌的干预线索",
+    "next_action": "保留犬尿氨酸关系，出现直接基因干预来源再推进"
+  },
+  "AHCY": {
+    "priority": "暂挂",
+    "priority_reason": "检得的明确遗传实验为HepG2，癌种不适用",
+    "next_action": "核查BRCA证据，不将肝癌结果记为乳腺癌验证"
+  },
+  "AMDHD2": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得BRCA特异干预支持",
+    "next_action": "避免把GNPNAT1/NAGK/整个HBP结果算给AMDHD2"
+  },
+  "AOX1": {
+    "priority": "保留",
+    "priority_reason": "乳腺癌甲基化风险关联不是1-MNA酶功能证明",
+    "next_action": "寻找肿瘤细胞/基质的AOX1扰动及1-MNA或氧化产物读数"
+  },
+  "ARG1": {
+    "priority": "暂挂",
+    "priority_reason": "同名免疫背景和广谱精氨酸代谢不能代替ARG1直接干预",
+    "next_action": "核查细胞来源、ARG1/ARG2特异性；缺结果不视为无功能"
+  },
+  "ARG2": {
+    "priority": "优先核查",
+    "priority_reason": "已有细胞周期干预线索，但实际是否为BRCA实验未确定",
+    "next_action": "先核定PMID30759381具体实验细胞，再决定是否赋予BRCA功能支持"
+  },
+  "ASNS": {
+    "priority": "保留",
+    "priority_reason": "已有天冬酰胺—转移机制；CAMP所连谷氨酰胺不是同一结论",
+    "next_action": "作为功能参照保留，区分原发增长/转移及谷氨酰胺与天冬酰胺"
+  },
+  "ASS1": {
+    "priority": "保留",
+    "priority_reason": "恢复ASS1与缺失背景精氨酸剥夺属于不同策略",
+    "next_action": "结合TNBC/丝氨酸背景解释，不自动列抑制ASS1"
+  },
+  "BBOX1": {
+    "priority": "保留",
+    "priority_reason": "TNBC和IP3R3联系已发表；有功能不等于脱氧肉碱介导",
+    "next_action": "区分BBOX1酶活、IP3R3联系及CAMP底物丰度，避免首次靶点表述"
+  },
+  "BCAT1": {
+    "priority": "保留",
+    "priority_reason": "抗雌激素耐药/TNBC干预已存在，不受本轮关联不显著排除",
+    "next_action": "按激素/IGF背景核对公开资料；与BCAT2分开"
+  },
+  "BCAT2": {
+    "priority": "保留",
+    "priority_reason": "ER调整谷氨酸关联处阈值附近，但BCAT1功能不能直接转移",
+    "next_action": "保留患者线索，补查BCAT2基因特异乳腺癌扰动；不反复换种子"
+  },
+  "CDO1": {
+    "priority": "保留",
+    "priority_reason": "恢复型抑癌与ROS/药敏支持，不是抑制型靶点",
+    "next_action": "优先确认恢复CDO1后的半胱氨酸利用及药物背景"
+  },
+  "CEPT1": {
+    "priority": "暂挂",
+    "priority_reason": "现有线索为DMDD药物调控，尚不能归因CEPT1基因",
+    "next_action": "先定位特异敲低/救援，区分药物多靶性与基因作用"
+  },
+  "CHKA": {
+    "priority": "保留",
+    "priority_reason": "有ER细胞系特异干预；同类模型存在无效结果",
+    "next_action": "保留SUM44与MDA-MB134-VI差异，不把低原RNA差异当排除项"
+  },
+  "CHKB": {
+    "priority": "暂挂",
+    "priority_reason": "原RNA无唯一匹配，三条关系不可评估；本轮亦无直接功能出处",
+    "next_action": "先解决测量映射，CHKA证据不得替代CHKB"
+  },
+  "CHPT1": {
+    "priority": "保留",
+    "priority_reason": "ER/他莫昔芬耐药模型已有功能，含斑马鱼播散",
+    "next_action": "区别CDP-choline/CMP丰度和膜磷脂通量，保留亚型范围"
+  },
+  "CKB": {
+    "priority": "保留",
+    "priority_reason": "HIF/ER阴性相关模型有遗传功能",
+    "next_action": "区分CKB与肌酸类似物药效；不把CKM结果或全身肌酸生理混用"
+  },
+  "CKM": {
+    "priority": "暂挂",
+    "priority_reason": "没有取得CKM特异乳腺癌干预",
+    "next_action": "保留肌酸关系，禁止借CKB功能赋值"
+  },
+  "CMAS": {
+    "priority": "保留",
+    "priority_reason": "细胞自主及免疫完整模型均有干预；体外无效不能排除体内效应",
+    "next_action": "先核清Neu5Ac游离丰度与细胞唾液酸化/免疫作用层级"
+  },
+  "CMPK1": {
+    "priority": "保留",
+    "priority_reason": "TNBC组织/结局信息有，但非基因干预",
+    "next_action": "不把核IHC预后或circ-CMPK1肺癌研究升级为BRCA功能"
+  },
+  "CMPK2": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得可归属乳腺癌的直接扰动",
+    "next_action": "与CMPK1分开，保留后续线索入口"
+  },
+  "CPT1A": {
+    "priority": "保留",
+    "priority_reason": "luminal/放射耐药及核异构体功能已存在",
+    "next_action": "分开CPT1A-v2核功能、经典FAO以及药物非特异性"
+  },
+  "CPT1B": {
+    "priority": "优先核查",
+    "priority_reason": "JAK/STAT3-FAO功能很明确，但CPT1B直接构建未核定",
+    "next_action": "定位PMID29249690的CPT1B特异敲低与救援，避免把上游结果全归因"
+  },
+  "CPT2": {
+    "priority": "保留",
+    "priority_reason": "放射耐药及营养应激背景遗传支持",
+    "next_action": "保留HRD1/泛素化措辞疑点，核对蛋白稳定性和具体营养条件"
+  },
+  "CRAT": {
+    "priority": "暂挂",
+    "priority_reason": "现有主要是AR抑制后表达/FAO背景",
+    "next_action": "先取得CRAT基因特异干预；不因Enzalutamide有效就记CRAT有效"
+  },
+  "CROT": {
+    "priority": "暂挂",
+    "priority_reason": "本轮没有可归属BRCA的特异功能出处",
+    "next_action": "保留肉碱关系，关注区室/底物与CRAT区别"
+  },
+  "CS": {
+    "priority": "保留",
+    "priority_reason": "MAEL背景恢复CS的救援支持，但非普适CS抑癌",
+    "next_action": "核查独立CS构建和代谢物读数，排除CS缩写噪声"
+  },
+  "CTNS": {
+    "priority": "优先核查",
+    "priority_reason": "MFSD12/溶酶体胱氨酸储存研究有价值，CTNS归因未完整",
+    "next_action": "直接定位CTNS而不是MFSD12的扰动终点与GSH读数"
+  },
+  "DPYD": {
+    "priority": "保留",
+    "priority_reason": "5-FU药敏背景与代谢酶作用需分开",
+    "next_action": "先查基因本体操作；不把53BP1下游改变当DPYD独立抗癌"
+  },
+  "DPYS": {
+    "priority": "暂挂",
+    "priority_reason": "未获得BRCA特异遗传扰动来源",
+    "next_action": "保留二氢尿嘧啶关系；药物代谢/毒性资料不能当肿瘤依赖"
+  },
+  "ETNK1": {
+    "priority": "优先核查",
+    "priority_reason": "2024摘要方向矛盾，2026CTX背景又提示ETNK1参与药效",
+    "next_action": "逐图核定两文构建与处理；本轮暂不赋予普适抑制/激活方向"
+  },
+  "ETNK2": {
+    "priority": "暂挂",
+    "priority_reason": "ETNK1的功能不能替代ETNK2",
+    "next_action": "保留两条代谢关系，核查ETNK2特异乳腺癌研究"
+  },
+  "FDFT1": {
+    "priority": "优先核查",
+    "priority_reason": "乳腺癌敲低后促凋亡与促增殖/抑铁死亡结果冲突",
+    "next_action": "按细胞系、药物、救援和营养背景核对，不给统一抑制方向"
+  },
+  "FH": {
+    "priority": "优先核查",
+    "priority_reason": "MAEL救援研究与2025 FH促癌研究方向不同",
+    "next_action": "比较独立构建、剂量、代谢区室及ROS背景，先解释冲突"
+  },
+  "FOLH1": {
+    "priority": "保留",
+    "priority_reason": "组织表达和潜在递送靶点不等于NAAG代谢依赖",
+    "next_action": "区别抗原递送、血管来源与细胞内代谢酶作用"
+  },
+  "GAMT": {
+    "priority": "暂挂",
+    "priority_reason": "本轮没有取得BRCA基因特异干预",
+    "next_action": "肌酸补充/转运研究不可直接算为GAMT功能"
+  },
+  "GCLC": {
+    "priority": "保留",
+    "priority_reason": "有NRF2/GSH通路线索，直接GCLC遗传支持尚待定位",
+    "next_action": "只补具体基因敲低/救援，别追加泛铁死亡关联图"
+  },
+  "GDA": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得GDA特异BRCA干预",
+    "next_action": "与PNP/HPRT1区分；保留鸟嘌呤/黄嘌呤关系"
+  },
+  "GDPD5": {
+    "priority": "保留",
+    "priority_reason": "同一GPC背景中的遗传和代谢改变已发表，表型与GPC幅度不一致",
+    "next_action": "作为GPCPD1比较节点，不由GPC上升自动推断抑增殖"
+  },
+  "GLS": {
+    "priority": "保留",
+    "priority_reason": "成熟的亚型/营养依赖研究，创新不在再次发现GLS",
+    "next_action": "把GLS2旁路和非TNBC无效背景纳入比较"
+  },
+  "GLS2": {
+    "priority": "保留",
+    "priority_reason": "luminal依赖及GLS抑制旁路已发表，不能照搬其他癌种抑癌标签",
+    "next_action": "按GATA3/亚型/营养选择既有数据，区分GLS和GLS2"
+  },
+  "GLUL": {
+    "priority": "保留",
+    "priority_reason": "已有SK-BR-3遗传依赖，外推范围有限",
+    "next_action": "寻找该模型以外复现或反证，不重新堆预后图"
+  },
+  "GNPNAT1": {
+    "priority": "保留",
+    "priority_reason": "有SKBR3/Hs578T干性/克隆干预，患者关联弱并不排除",
+    "next_action": "先核实具体HBP代谢读数及是否有独立体内证据"
+  },
+  "GOT1": {
+    "priority": "保留",
+    "priority_reason": "SUM149遗传证据与广谱AOA证据必须拆开",
+    "next_action": "比较GOT2/GPT2代偿和天冬氨酸救援，不把AOA当专一抑制剂"
+  },
+  "GOT2": {
+    "priority": "保留",
+    "priority_reason": "SUM149遗传功能存在；线粒体角色和药物归因需限定",
+    "next_action": "按GOT1/GOT2区室核对，保留非普适生长结论"
+  },
+  "GPCPD1": {
+    "priority": "保留",
+    "priority_reason": "患者关联较稳定，2016/2023/2024干预已深入，作为参照候选",
+    "next_action": "先做独立关系复现或具体亚型问题，不再宣称新发现靶点"
+  },
+  "GPI": {
+    "priority": "优先核查",
+    "priority_reason": "两条糖磷酸关系较稳定，但功能中的代谢/胞外作用未拆开",
+    "next_action": "全文区分GPI与HP干预，查糖磷酸测量及可复用扰动数据"
+  },
+  "GSR": {
+    "priority": "暂挂",
+    "priority_reason": "本轮明确遗传实验主要为宫颈癌，不适用BRCA确认",
+    "next_action": "不把Stattic其他癌种结果移用；等待直接乳腺癌来源"
+  },
+  "GSS": {
+    "priority": "优先核查",
+    "priority_reason": "有GLO1背景GSS耗减挽救VEGFA，但仅分子终点且术语需核清",
+    "next_action": "先查Figure8P具体模型、GSS/GSH区分；不自动赋予肿瘤转移功能"
+  },
+  "HAL": {
+    "priority": "暂挂",
+    "priority_reason": "当前是HER2风险模型，不是HAL扰动",
+    "next_action": "保留关联资料，但不为填满功能列增加泛预后分析"
+  },
+  "HPD": {
+    "priority": "保留",
+    "priority_reason": "有组织/IHC与细胞定位资料，无已核实直接干预",
+    "next_action": "只补HPD本体操纵，避免potential target题名被当成证据"
+  },
+  "HPRT1": {
+    "priority": "优先核查",
+    "priority_reason": "有两种siRNA及公开GSE149768，当前核实的是转录改变而非缩瘤",
+    "next_action": "检查公开扰动RNA能否回答嘌呤代谢响应；不冒充已完成代谢中介"
+  },
+  "IDNK": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得IDNK特异BRCA扰动",
+    "next_action": "确认别名与葡萄糖酸反应身份，不借PGD结果补位"
+  },
+  "IMPA1": {
+    "priority": "保留",
+    "priority_reason": "TNBC生长/肺定植及mTOR-EMT已经研究",
+    "next_action": "区分I1P静态水平与肌醇循环，优先查已有扰动可复用性"
+  },
+  "IMPA2": {
+    "priority": "保留",
+    "priority_reason": "基底样MYC反馈和MI-PI机制已发表",
+    "next_action": "不因旧IMPA1论文中IMPA2不可检出就否定新模型"
+  },
+  "KHK": {
+    "priority": "保留",
+    "priority_reason": "果糖营养条件和KHK-A蛋白激酶功能已有结果",
+    "next_action": "区分KHK-A/C，保留葡萄糖条件无效背景"
+  },
+  "KMO": {
+    "priority": "保留",
+    "priority_reason": "有遗传功能，但催化受损突变仍促迁移侵袭",
+    "next_action": "保留蛋白功能，暂不认定犬尿氨酸催化介导或抑酶策略"
+  },
+  "KYNU": {
+    "priority": "优先核查",
+    "priority_reason": "已读研究为KYNU过表达抑癌，不是敲低抑癌",
+    "next_action": "核查增表达方向与患者正相关的不同问题，避免治疗方向反置"
+  },
+  "LDHA": {
+    "priority": "优先核查",
+    "priority_reason": "急性干预/过表达与稳定shRNA近完全沉默无效有冲突",
+    "next_action": "比较同工酶、克隆适应、培养和时间，不选择性删反证"
+  },
+  "LDHB": {
+    "priority": "优先核查",
+    "priority_reason": "癌细胞依赖与CAF缺失促转移相反，另有NK文章方向疑点",
+    "next_action": "按细胞来源整理功能方向并核查公开扰动资源，暂停统一抑制主张"
+  },
+  "MAT1A": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得MAT1A乳腺癌特异干预",
+    "next_action": "与MAT2A/B和肝脏资料区分，保留甲硫氨酸关系"
+  },
+  "MAT2A": {
+    "priority": "优先核查",
+    "priority_reason": "他莫昔芬耐药文章只读取部分摘要，直接构建未核实",
+    "next_action": "优先补完整摘要/正文，而不是仅据通路上调认定依赖"
+  },
+  "MDH1": {
+    "priority": "暂挂",
+    "priority_reason": "现有是schottenol药物/单细胞线索，基因归因不足",
+    "next_action": "找到MDH1特异遗传或靶点救援再纳入功能支持"
+  },
+  "MDH2": {
+    "priority": "优先核查",
+    "priority_reason": "2025已有遗传加多组学，可能提供公开扰动数据",
+    "next_action": "先查数据可获得性和苹果酸是否直接变化；不把对接计成功能"
+  },
+  "MGAM": {
+    "priority": "暂挂",
+    "priority_reason": "现有多为MGAM/MGAM2观察性研究",
+    "next_action": "先解决基因身份，不借MGAM2结论给MGAM"
+  },
+  "MPI": {
+    "priority": "保留",
+    "priority_reason": "基因KO后甘露糖限制不必导致死亡，营养背景强",
+    "next_action": "保留2026反例，不能等同MPI在所有条件无功能"
+  },
+  "NAGK": {
+    "priority": "保留",
+    "priority_reason": "在FR054研究中可能负责前药激活，抑制可减弱药效",
+    "next_action": "区分药物活化与肿瘤依赖，补直接遗传证据再判断"
+  },
+  "NAMPT": {
+    "priority": "优先核查",
+    "priority_reason": "基因抑制增强转移与部分药物抑制生长并存",
+    "next_action": "拆分原发增长、迁移/转移、内分泌耐药和宿主效应"
+  },
+  "NNMT": {
+    "priority": "保留",
+    "priority_reason": "1-MNA—UBC12/Cullin1—P27等机制已发表，作为深入参照",
+    "next_action": "新增价值应是独立患者/细胞来源；不再以重复NNMT—1-MNA为新机制"
+  },
+  "NPL": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得NPL乳腺癌直接干预",
+    "next_action": "不要用总体唾液酸化研究替代NPL酶本体证据"
+  },
+  "OAT": {
+    "priority": "保留",
+    "priority_reason": "囊泡活性酶是背景，不是OAT特异扰动",
+    "next_action": "排除有机阴离子转运体OAT缩写及其他癌种结果"
+  },
+  "ODC1": {
+    "priority": "保留",
+    "priority_reason": "化疗后干样富集/复发有遗传与亚精胺救援，但非普适缩瘤",
+    "next_action": "按复发终点研究；腐胺与亚精胺不能直接混用"
+  },
+  "OTC": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得可归属乳腺癌特异干预",
+    "next_action": "排除非处方OTC缩写和其他癌种尿素循环研究"
+  },
+  "PAH": {
+    "priority": "暂挂",
+    "priority_reason": "PAH搜索有多环芳烃缩写污染，当前没有可归属证据",
+    "next_action": "必须用phenylalanine hydroxylase全名核对；不以命中数优先"
+  },
+  "PANK1": {
+    "priority": "暂挂",
+    "priority_reason": "当前无可归属BRCA干预",
+    "next_action": "区分PANK家族与CoA通路整体干预"
+  },
+  "PANK2": {
+    "priority": "优先核查",
+    "priority_reason": "PI3K-CoA论文主要功能涉及PANK4，PANK2归属未决",
+    "next_action": "只核定PANK2构建、模型与终点，不转移PANK4证据"
+  },
+  "PANK3": {
+    "priority": "暂挂",
+    "priority_reason": "当前为网络/预后关联而非PANK3干预",
+    "next_action": "保留候选，出现直接实验来源再推进"
+  },
+  "PCYT1A": {
+    "priority": "优先核查",
+    "priority_reason": "BPIS脂质积累/死亡研究有线索，但特异操作未确认",
+    "next_action": "查PCYT1A直接敲低/回补及药物特异性"
+  },
+  "PCYT1B": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未获得PCYT1B特异乳腺癌干预",
+    "next_action": "不能用PCYT1A的通路结果补位"
+  },
+  "PCYT2": {
+    "priority": "保留",
+    "priority_reason": "营养适应证据较清楚，乳腺癌特异基因抑癌证据不足",
+    "next_action": "保留患者磷酸乙醇胺线索，卵巢癌敲低不作为乳腺癌验证"
+  },
+  "PEPD": {
+    "priority": "暂挂",
+    "priority_reason": "外源酶失活PEPD G278D的HER2降解不支持内源肽水解靶向",
+    "next_action": "暂挂当前Gly-Pro/甘氨酸/脯氨酸介导主张，另保留外源蛋白功能"
+  },
+  "PFKL": {
+    "priority": "保留",
+    "priority_reason": "2026已有药物结合与基因靶点依赖，不能称空白靶点",
+    "next_action": "区分药物10w和PFKL单独扰动，全文核查F6P读数与安全边界"
+  },
+  "PFKM": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得PFKM特异乳腺癌干预",
+    "next_action": "与PFKL/PFKP分开，不共享家族功能结论"
+  },
+  "PFKP": {
+    "priority": "保留",
+    "priority_reason": "跨细胞系增殖/侵袭及干样耐药功能已报告",
+    "next_action": "常规靶点重复增量有限，只有具体背景再深入"
+  },
+  "PGD": {
+    "priority": "保留",
+    "priority_reason": "MCF7 siRNA已有生长/代谢结果，ROS未变是重要反证",
+    "next_action": "区分6PGD/PGD与G6PD；不默认氧化还原机制"
+  },
+  "PGM3": {
+    "priority": "保留",
+    "priority_reason": "FR054/shPGM3有药物—遗传支持，但浓度和激活限制明显",
+    "next_action": "先区别基因单独依赖与药物敏感化，不把前药作用归为唯一机制"
+  },
+  "PMM1": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得PMM1直接乳腺癌干预",
+    "next_action": "不将PMM2/ESR1突变证据转给PMM1"
+  },
+  "PMM2": {
+    "priority": "优先核查",
+    "priority_reason": "ESR1 Y537S耐药背景有明确遗传作用，但CAMP无该分型证明",
+    "next_action": "先核查可获取的突变分层或扰动数据；不重做未分型总体相关"
+  },
+  "PNP": {
+    "priority": "保留",
+    "priority_reason": "鸟嘌呤关联和HER2联合抑制背景有支持，但非单药普适依赖",
+    "next_action": "区分PNP沉默后HER2补偿；不要再把显著代谢物误写为肌苷"
+  },
+  "PPA1": {
+    "priority": "保留",
+    "priority_reason": "已有遗传—PI3K/Slug表型，CAMP磷酸非专属性读数",
+    "next_action": "只在直接反应与调控机制有新问题时深入"
+  },
+  "PPA2": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得PPA2特异乳腺癌干预",
+    "next_action": "与胞质PPA1及线粒体区室分开"
+  },
+  "PRODH": {
+    "priority": "保留",
+    "priority_reason": "已有3D/肺转移及药物诱导凋亡背景，方向不能简化",
+    "next_action": "先核实2017遗传/药物方法，比较2D/3D及营养条件"
+  },
+  "PRODH2": {
+    "priority": "优先核查",
+    "priority_reason": "2025已有羟脯氨酸—骨转移机制，患者相关不显著不能抹去功能",
+    "next_action": "查独立骨转移患者/公开扰动支持；不照搬已发表SLC7A11/IL8机制"
+  },
+  "PYCR1": {
+    "priority": "保留",
+    "priority_reason": "CAF胶原与癌细胞应激干性是不同已发表机制",
+    "next_action": "用细胞来源决定解释，癌细胞单培养阴性不能否定CAF作用"
+  },
+  "PYCR2": {
+    "priority": "保留",
+    "priority_reason": "2024有侵袭/转移干预，不在原10个仍有价值",
+    "next_action": "补具体模型与脯氨酸读数，避免仅AKT关联代替代谢机制"
+  },
+  "PYCR3": {
+    "priority": "保留",
+    "priority_reason": "2024已有KO及多柔比星耐药/mtDNA结果",
+    "next_action": "先查干预公开数据和蛋白定位；与PYCR1/2分别判断"
+  },
+  "RBKS": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得RBKS特异乳腺癌干预",
+    "next_action": "核糖补充/核苷酸通路不等于RBKS作用"
+  },
+  "RFK": {
+    "priority": "优先核查",
+    "priority_reason": "存在TNBC预印本线索，但一手页面访问受阻",
+    "next_action": "先取得一手全文/发表状态，当前不计为已核实遗传功能"
+  },
+  "SHMT1": {
+    "priority": "优先核查",
+    "priority_reason": "新线索主要在ZNF526上游，SHMT1直接实验待定位",
+    "next_action": "明确SHMT1构建和终点，别转用SHMT2功能"
+  },
+  "SHMT2": {
+    "priority": "保留",
+    "priority_reason": "基因干预已有体内外支持，2026又有共价药物研究",
+    "next_action": "区分单碳催化、MAPK/VEGF和药物铁死亡，核查代谢介导"
+  },
+  "SLC6A6": {
+    "priority": "保留",
+    "priority_reason": "2026原文同时有敲低与过表达，旧版仅过表达应更新",
+    "next_action": "牛磺酸转运和Rprd1b非转运功能分开；不称全新代谢轴"
+  },
+  "SLC6A8": {
+    "priority": "优先核查",
+    "priority_reason": "缺氧TNBC肌酸存活线索有价值，具体遗传构建未逐项核定",
+    "next_action": "先补方法和营养条件，不把肌酸补充等同转运体单独作用"
+  },
+  "SLC7A11": {
+    "priority": "保留",
+    "priority_reason": "放疗、内分泌和骨痛各有干预，终点不能混用",
+    "next_action": "对应CAMP的是谷氨酸关联；公开xCT扰动可用但不等于缩瘤"
+  },
+  "SOAT1": {
+    "priority": "保留",
+    "priority_reason": "FGFR及TNBC模型有遗传/药物支持，需保留脂质形式差异",
+    "next_action": "区分游离胆固醇、胆固醇酯和药物；有特定背景再深入"
+  },
+  "SOAT2": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得SOAT2特异BRCA干预",
+    "next_action": "不能借SOAT1结果，也不能混淆旧称ACAT2的另一基因"
+  },
+  "SORD": {
+    "priority": "暂挂",
+    "priority_reason": "患者果糖关联对子集敏感，现有直接干预线索为结直肠癌",
+    "next_action": "保留候选，但暂不扩展BRCA靶点故事，先取得适用功能证据"
+  },
+  "SPHK1": {
+    "priority": "保留",
+    "priority_reason": "转移与增殖效果依模型不同，部分谱系需核查",
+    "next_action": "保留2019增殖无效/2020增殖有效对照，避免依赖MDA-MB-435单独结论"
+  },
+  "SPHK2": {
+    "priority": "保留",
+    "priority_reason": "基质宿主功能与癌细胞多柔比星凋亡结果不同",
+    "next_action": "先分细胞区室，不把全部效应归为肿瘤细胞酶依赖"
+  },
+  "SQLE": {
+    "priority": "保留",
+    "priority_reason": "2016及2018功能已有，低表达模型阴性需保留",
+    "next_action": "不因角鲨烯↓/SQLE↑就证明通量；寻找新背景而非重复靶点"
+  },
+  "TAT": {
+    "priority": "优先核查",
+    "priority_reason": "DNMT/药物线索有但TAT本体构建和验证未核实",
+    "next_action": "逐图核查直接遗传证据；不把有毒diazinon当可用治疗"
+  },
+  "UPB1": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得UPB1特异乳腺癌干预",
+    "next_action": "保留β-丙氨酸关系，不用风险签名代替功能"
+  },
+  "UPP1": {
+    "priority": "优先核查",
+    "priority_reason": "2025中性粒细胞—尿嘧啶—转移前肺微环境已有功能，bulk关联近零",
+    "next_action": "优先研究细胞来源和独立患者背景；不受q门槛排除，也不宣称首次机制"
+  },
+  "UPP2": {
+    "priority": "暂挂",
+    "priority_reason": "本轮未取得UPP2特异乳腺癌干预",
+    "next_action": "UPP1功能不得转移给UPP2；保留尿嘧啶关系"
+  }
+}

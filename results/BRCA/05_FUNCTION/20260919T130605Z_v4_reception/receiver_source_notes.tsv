@@ -1,0 +1,7 @@
+﻿cancer	note_id	genes	study_id	source_url	notice_url	status	finding	action	review_depth	new_patient_tests
+BRCA	N01	ASNS	S006	https://pubmed.ncbi.nlm.nih.gov/29414946/	https://pubmed.ncbi.nlm.nih.gov/29620732/	NEEDS_REVIEW	原文有2018 Erratum；本轮确认记录身份，尚未完成官方更正正文影响核定。	引用S006实验细节前读取更正；保留ASNS和其他独立证据。	NOTICE_METADATA_ONLY	0
+BRCA	N02	CHPT1	S017	https://pubmed.ncbi.nlm.nih.gov/27457520/	https://pubmed.ncbi.nlm.nih.gov/31615812/	NEEDS_REVIEW	原文关联2019 Editor's Note；元数据被归入Erratum，不能据此当作普通排版勘误。	先核查编辑说明全文及涉及图/结论；在此之前S017不作确定性主线依据，不据此删除CHPT1。	NOTICE_METADATA_ONLY;PUBLISHER_TEXT_NOT_RETRIEVED	0
+BRCA	N03	CPT1B	S025	https://pubmed.ncbi.nlm.nih.gov/29249690/	https://pmc.ncbi.nlm.nih.gov/articles/PMC6116734/	DONE	更正涉及leptin中和抗体条目及MMTV-PyMT小鼠来源；更正声明结果/结论不变。	复现方法用更正后的试剂与模型来源；是否有CPT1B直接干预仍以原研究方法核定。	CORRECTION_TEXT_READ	0
+BRCA	N04	NNMT	S067	https://pubmed.ncbi.nlm.nih.gov/35988817/	https://pubmed.ncbi.nlm.nih.gov/39755471/	NEEDS_REVIEW	原文有2025 Corrigendum；元数据可核对，正文未取得，影响尚不明。	读取更正全文后再使用S067具体图/结论；不将未知影响说成撤稿或无效。	NOTICE_METADATA_ONLY;PUBLISHER_TEXT_NOT_RETRIEVED	0
+BRCA	N05	PYCR1	S092	https://pubmed.ncbi.nlm.nih.gov/35760868/	https://www.nature.com/articles/s42255-022-00632-7	DONE	该更正只修正一位作者姓氏拼写。	使用更正后的题录；不因这项姓名更正降低实验结论等级。	CORRECTION_TEXT_READ	0
+BRCA	N06	UPP1	S113	https://pubmed.ncbi.nlm.nih.gov/40702342/	https://link.springer.com/article/10.1038/s44319-025-00520-7	DONE	原文使用全身Upp1缺失；肺转移发生比例下降，但原发瘤负担与临床终点时间无改变；中性粒细胞特异敲除及其整条转移链条并未完成。	按免疫/肺转移背景使用；不能写成已完成中性粒细胞特异因果验证或普遍原发瘤抑制。	PRIMARY_RESULTS_FIG6_AND_DISCUSSION_READ	0

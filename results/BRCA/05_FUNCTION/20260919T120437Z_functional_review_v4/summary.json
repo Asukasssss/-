@@ -1,0 +1,36 @@
+{
+  "gene_count": 117,
+  "relation_count": 174,
+  "evaluable_relations": 171,
+  "study_records": 122,
+  "unique_source_urls": 121,
+  "gene_study_records": 126,
+  "genes_with_any_source": 90,
+  "genes_with_genetic_effect_report": 52,
+  "genes_with_any_genetic_report": 56,
+  "gene_searches": 127,
+  "searched_genes": 117,
+  "work_priority_counts": {
+    "保留": 57,
+    "暂挂": 36,
+    "优先核查": 24
+  },
+  "functional_class_counts": {
+    "本轮未取得适用干预报告": 27,
+    "有乳腺癌遗传干预报告": 46,
+    "观察性或非基因特异背景": 11,
+    "仅他癌或不适用乳腺癌": 3,
+    "功能线索待方法/模型核定": 16,
+    "有干预但情境/方向分歧": 7,
+    "遗传干预仅分子终点": 2,
+    "特定条件的无效/反向证据": 1,
+    "外源非催化蛋白干预": 1,
+    "药物结合遗传靶点检验": 2,
+    "一手访问受阻的预印本线索": 1
+  },
+  "existing_v3_q_lt_005": 4,
+  "new_patient_calculations": 0,
+  "depmap_calculations": 0,
+  "github_upload": "ACCESS_BLOCKED_HTTP403_READ_ONLY",
+  "base_commit": "227245e3171ac3b8530835624711c1a0a69363cf"
+}
