@@ -16,8 +16,23 @@ def bh(p):
     return out
 
 
+def average_ranks(values):
+    """Vectorized average-tie ranks, equivalent to scipy rankdata on finite rows."""
+    values=np.asarray(values,dtype=float)
+    order=np.argsort(values,axis=-1,kind='mergesort')
+    sorted_values=np.take_along_axis(values,order,axis=-1)
+    positions=np.arange(values.shape[-1])
+    boundary=sorted_values[...,1:]!=sorted_values[...,:-1]
+    edge=np.ones(values.shape[:-1]+(1,),dtype=bool)
+    starts=np.maximum.accumulate(np.where(np.concatenate([edge,boundary],axis=-1),positions,0),axis=-1)
+    ends=np.minimum.accumulate(np.where(np.concatenate([boundary,edge],axis=-1),positions,len(positions)-1)[...,::-1],axis=-1)[...,::-1]
+    ranks=np.empty_like(values,dtype=float)
+    np.put_along_axis(ranks,order,(starts+ends+2)/2,axis=-1)
+    return ranks
+
+
 def row_rho(x,y):
-    x=stats.rankdata(x,axis=-1,method='average');y=stats.rankdata(y,axis=-1,method='average')
+    x=average_ranks(x);y=average_ranks(y)
     x=x-x.mean(axis=-1,keepdims=True);y=y-y.mean(axis=-1,keepdims=True)
     with np.errstate(invalid='ignore',divide='ignore'):
         return np.sum(x*y,axis=-1)/np.sqrt(np.sum(x*x,axis=-1)*np.sum(y*y,axis=-1))
