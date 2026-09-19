@@ -1,0 +1,36 @@
+{
+  "version": "COAD_FRESH_KEGG_v0.1",
+  "created_utc": "2026-09-19T10:46:11.822986+00:00",
+  "status": "DONE_FRESH_REACTION_CANDIDATE_DISCOVERY_NOT_VALIDATED_MAPPING",
+  "source_sha256": "1bb1d57480a0fbc2185d11f7598e67e7443aef9e40ea8a036c6da4e5503a4597",
+  "evidence_sha256": "8c2654ca54e21d3df7ec95f1199323e12f46387f391fa9733eb5c8e68902e76d",
+  "base_commit": "422b75b2f223bb786958f95d6e00d62da98db154",
+  "script_sha256": "70210e86b0ae7ed4b0886d51c225e7a1ae0ec2bb1dce8021cb600450ffd09959",
+  "effects": 73,
+  "identity_status_counts": {
+    "ORIGINAL_KEGG_NAME_COMPATIBLE": 63,
+    "HOLD_EXPOSURE_OR_ANNOTATION_REVIEW": 5,
+    "HOLD_REACTION_ID_IN_COMPOUND_FIELD": 1,
+    "HOLD_ID_CONFLICT": 1,
+    "HOLD_COMBINED_FEATURE": 1,
+    "PROVISIONAL_NEW_KEGG_ID": 1,
+    "HOLD_ORIGINAL_ENTRY_NOT_RETURNED": 1
+  },
+  "features_with_candidate_chains": 60,
+  "features_without_candidate_chains": 13,
+  "reaction_support_records": 2199,
+  "unique_feature_gene_pairs": 693,
+  "unique_human_gene_ids": 489,
+  "pair_status_counts": {
+    "PROVISIONAL_BIOCHEMISTRY_REVIEW_REQUIRED": 626,
+    "HOLD_IDENTITY": 67
+  },
+  "validated_final_pairs": 0,
+  "patient_analysis": "NOT_RUN",
+  "server_connection": "ACCESS_BLOCKED: local SSH alias server165 does not resolve",
+  "original_stats_changed": false,
+  "old_mappings_used": false,
+  "transporters": "NOT_RUN",
+  "functional_validation": "NOT_RUN",
+  "hmdb_full_crosscheck": "NOT_COMPLETED; targeted pages partly returned HTTP403"
+}
