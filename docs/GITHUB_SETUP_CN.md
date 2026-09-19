@@ -1,11 +1,11 @@
 # GitHub 发布与第二台电脑
 
-本地仓库已准备；若远程尚未存在，先在DengLeiO名下创建私有仓库camp-cancer-collaboration，不初始化README。不要使用已有无关的公共仓库。
+用户已指定公共仓库 https://github.com/Asukasssss/- 。本机 Git 使用 Asukasssss 身份认证；这不代表 Codex GitHub 插件已切换账号。
 
 当前电脑在仓库目录执行（身份认证由用户正常登录GitHub完成，不能把token写在URL/文件）：
 
 ```powershell
-git remote add origin https://github.com/DengLeiO/camp-cancer-collaboration.git
+git remote add origin https://github.com/Asukasssss/-.git
 git push -u origin main
 ```
 
@@ -14,7 +14,7 @@ git push -u origin main
 另一台电脑：
 
 ```powershell
-git clone https://github.com/DengLeiO/camp-cancer-collaboration.git
+git clone https://github.com/Asukasssss/-.git camp-cancer-collaboration
 cd camp-cancer-collaboration
 ```
 

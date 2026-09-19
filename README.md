@@ -10,7 +10,7 @@
 4. `coordination/assignments.tsv`：癌种归属；未分配不自行认领。
 5. `START_ACCOUNT_B_CN.md`：另一个账号的启动指令。
 
-当前账号 A 负责 BRCA。账号 B 的癌种尚待用户指定，不默认启动所有其他癌种。GitHub 远程尚未创建；计划使用私有仓库 `camp-cancer-collaboration`，不要误认为本地 git 初始化等于已上传。
+当前账号 A 负责 BRCA。账号 B 的癌种尚待用户指定，不默认启动所有其他癌种。用户指定公共仓库 https://github.com/Asukasssss/- 。仅发布脚本、项目说明与汇总结果；患者矩阵和凭据不上传。实际发布状态以远程提交为准。
 
 代码、说明、小型汇总在 GitHub；源矩阵与患者级数据只留 server165。仓库里的 `reference/` 是白名单选取的历史汇总/映射快照，`code/reference/` 是历史脚本，不是自动适配所有癌种的一键流水线。
 
