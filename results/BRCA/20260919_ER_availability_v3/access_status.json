@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-19",
+  "DepMap": "ACCESS_BLOCKED",
+  "official_inventory_http": 403,
+  "official_figshare_archive_http": 403,
+  "n_models": null,
+  "genes_pending": 117,
+  "fulltext_review_genes_this_round": [
+    "GPCPD1"
+  ],
+  "abstract_recheck_genes_this_round": [
+    "GPI"
+  ]
+}

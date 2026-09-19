@@ -1,0 +1,8 @@
+{
+  "full_pool_117_retained": true,
+  "all_174_unique_relations_retained": true,
+  "97_identical_P_values_exactly_reused": true,
+  "subset_sizes_valid": true,
+  "both_ER_families_same_relations": 3,
+  "both_ER_families_genes": 2
+}

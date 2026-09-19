@@ -1,0 +1,15 @@
+{
+  "planned": 174,
+  "evaluable": 171,
+  "reused_identical": 97,
+  "new_subset_calculations": 74,
+  "q_lt_005": 4,
+  "significant_genes": [
+    "PNP",
+    "GPI",
+    "GPCPD1"
+  ],
+  "independent_OLS_max_error": 2.7755575615628914e-16,
+  "independent_BH_max_error": 1.1102230246251565e-16,
+  "original_sources_unchanged": true
+}

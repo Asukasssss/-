@@ -1,0 +1,38 @@
+[
+  {
+    "gene": "GPCPD1",
+    "year": 2023,
+    "source_url": "https://link.springer.com/article/10.1186/s13046-022-02578-w",
+    "review_scope": "PRIMARY_FULLTEXT_RESULTS_AND_DISCUSSION",
+    "model": "ER-negative HER2-positive breast cancer models, including HCC1954 and resistant backgrounds",
+    "intervention": "EDI3/GPCPD1 siRNA or inducible knockdown; dipyridamole assessed separately",
+    "outcome": "Genetic silencing reduced viability and xenograft growth in studied models.",
+    "limits": "Subtype-specific preclinical context. Dipyridamole is not selective for EDI3; its drug effects cannot all be attributed to GPCPD1. No proof that CAMP GPC association mediates tumor effects.",
+    "decision": "Supports context-specific inhibition hypothesis; not a new target discovery in this project.",
+    "evidence_relationship": "Related research program to 2024 paper; do not count as independent clinical validation."
+  },
+  {
+    "gene": "GPCPD1",
+    "year": 2024,
+    "source_url": "https://link.springer.com/article/10.1186/s13058-024-01849-y",
+    "review_scope": "PRIMARY_FULLTEXT_RESULTS_AND_DISCUSSION",
+    "model": "HCC1954 inducible knockdown; SUM190PT in vitro; tail-vein and intraperitoneal experimental metastasis in mice",
+    "intervention": "Inducible shRNA and additional siRNA experiments",
+    "outcome": "Reduced anoikis resistance, metastatic burden and improved survival in the peritoneal model; GPC accumulation after EDI3 silencing.",
+    "limits": "No migration reduction in the studied HER2-positive cells. Experimental injection models omit early spontaneous metastasis steps; lung signal eventually declined in all groups. Authors explicitly leave GPC-mediated phenotype unproven.",
+    "decision": "Stronger functional background than migration-only description, but novelty and mechanism remain separate questions.",
+    "evidence_relationship": "Extends 2023 work and shares models/authors; not fully independent replication."
+  },
+  {
+    "gene": "GPI",
+    "year": 2020,
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/33042622/",
+    "review_scope": "PRIMARY_ABSTRACT_RECHECK_ONLY",
+    "model": "Breast cancer cell models in haptoglobin/glycolysis study",
+    "intervention": "GPI silencing",
+    "outcome": "Reported reduced migration/invasion and increased chemotherapy sensitivity.",
+    "limits": "Full-text retrieval unavailable during this pass. Does not establish broad single-agent killing, normal-tissue safety, or mediation by CAMP sugar phosphates.",
+    "decision": "Retain functional support with abstract-level review limitation; not newly discovered breast cancer biology.",
+    "evidence_relationship": "Same study as original first-pass evidence; recheck is not a new independent study."
+  }
+]

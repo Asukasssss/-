@@ -1,0 +1,16 @@
+{
+  "analysis": "partial rank correlation after ER adjustment in author-data-available subset",
+  "planned_relations": 174,
+  "minimum_n": 8,
+  "minimum_per_ER_group": 4,
+  "permutations": 9999,
+  "multiplicity": "BH over all evaluable of 174 sensitivity relations; separate from v2 family",
+  "identical_inputs": "reuse v2 rho/P/seed; recompute q across full new family",
+  "values": "same processed metabolite and RNA values; mask from finite author data worksheet; NOT verified raw detection",
+  "unit": "author mapped tumor specimens; independent patients NOT VERIFIED",
+  "limitations": "ER alone, no purity/batch/full subtype adjustment; not external validation",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "scipy": "1.10.1"
+}
