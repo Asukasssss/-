@@ -126,6 +126,42 @@
           "validation": "PASS"
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-19T13:58:51.485915+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "5e41cd195eeb7e34bab094f946e06479a3d663f9",
+      "verification": "git ls-remote matched content HEAD before this event; GitHub PR1 API head matches and remains open; description updated for functional acceptance",
+      "batches": [
+        {
+          "stage_id": "05_FUNCTION",
+          "also_indexed_as": "07_INTEGRATION",
+          "run_id": "20260919T134848Z_function_review_accepted_v1",
+          "result_path": "results/COAD/05_FUNCTION/20260919T134848Z_function_review_accepted_v1",
+          "delivery_commit": "5e41cd195eeb7e34bab094f946e06479a3d663f9",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "35-gene directed literature acceptance and exact aggregate join; same evidence in stages05/07",
+          "reviewed_genes": 35,
+          "nominal_relations": 39,
+          "full_catalog_rows": 974,
+          "gene_annotated_catalog_rows": 74,
+          "source_identities_and_abstracts_checked": 40,
+          "selected_fulltext_records_checked": 6,
+          "original_class_A_genes": 10,
+          "additional_conditional_CRC_gene": "BCAT2",
+          "research_queue": {
+            "priority": 9,
+            "retain": 21,
+            "direction_hold": 5
+          },
+          "original_statistics_preserved": true,
+          "new_statistical_tests": false,
+          "depmap": "NOT_RUN",
+          "external_validation": "NOT_RUN",
+          "validation": "PASS"
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
