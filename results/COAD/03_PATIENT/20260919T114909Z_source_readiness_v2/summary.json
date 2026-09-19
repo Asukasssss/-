@@ -1,0 +1,99 @@
+{
+  "cancer": "COAD",
+  "stage_id": "03_PATIENT",
+  "run_id": "20260919T114909Z_source_readiness_v2",
+  "status": "PARTIAL",
+  "connection": "SUCCESS",
+  "source_readiness_audit": "DONE",
+  "patient_association": "NOT_RUN",
+  "n_mapping_rows": 76,
+  "n_tumor_specimens": 37,
+  "n_normal_specimens": 39,
+  "mapping_missing_ids": {
+    "CommonID": 0,
+    "MetabID": 0,
+    "RNAID": 0
+  },
+  "mapping_duplicate_excess": {
+    "CommonID": 0,
+    "MetabID": 0,
+    "RNAID": 0
+  },
+  "n_tumor_rna_ids_found": 37,
+  "n_tumor_metab_ids_found": 37,
+  "matrix_shapes": {
+    "tumor_metabolomics": [
+      160,
+      37
+    ],
+    "normal_metabolomics": [
+      160,
+      39
+    ],
+    "source_data_sheet": [
+      161,
+      550
+    ],
+    "rna": [
+      21634,
+      80
+    ]
+  },
+  "all_matrix_rows_columns_unique": true,
+  "sample_annotation": {
+    "rows": 550,
+    "nonmissing_sample_names": 550,
+    "group_counts": {
+      "NORMAL": 275,
+      "TUMOR": 275
+    },
+    "explicit_patient_id_fields": []
+  },
+  "patient_independence": "NOT_SEPARATELY_VERIFIED",
+  "pairing": "NOT_INFERRED_FROM_IDS",
+  "n_frozen_features_found": 159,
+  "n_significant_source_id_exact_matches": 73,
+  "n_significant_features": 73,
+  "n_candidate_pairs": 974,
+  "n_candidate_genes": 644,
+  "n_candidate_genes_found": 622,
+  "missing_gene_symbols": [
+    "CKMT1B",
+    "CNPY3-GNMT",
+    "DPH1",
+    "GBA1",
+    "GSTA1",
+    "NME1-NME2",
+    "NT5C1B-RDH14",
+    "PRDM7",
+    "SETDB2-PHF11",
+    "SLC35D4",
+    "SLC60A2",
+    "TOMT",
+    "UGT1A1",
+    "UGT1A10",
+    "UGT1A3",
+    "UGT1A4",
+    "UGT1A5",
+    "UGT1A7",
+    "UGT1A9",
+    "UGT2B17",
+    "UGT2B28"
+  ],
+  "unresolved_gene_symbol_ids": [
+    "hsa:102724197"
+  ],
+  "pair_input_coverage_counts": {
+    "BOTH_PRESENT": 935,
+    "RNA_SYMBOL_ABSENT": 36,
+    "GENE_SYMBOL_UNRESOLVED": 3
+  },
+  "pairwise_finite_n_distribution": {
+    "37": 935,
+    "NA": 39
+  },
+  "supported_no_identity_hold_input_coverage": {
+    "BOTH_PRESENT": 649,
+    "RNA_SYMBOL_ABSENT": 25
+  }
+}
