@@ -1,0 +1,19 @@
+{
+  "review_commit": "fb5924b",
+  "review_scope": "README, analysis_spec, three core scripts, marker coverage, composition validation and selected result rows",
+  "association_rows_transcribed": 14,
+  "cell_source_genes_transcribed": 17,
+  "new_patient_tests": 0,
+  "raw_patient_data_read": false,
+  "full_348_row_BH_recomputed": false,
+  "all_144_legacy_columns_independently_rechecked": false,
+  "all_43_genes_independently_recounted": false,
+  "synthetic_datasets": 30,
+  "synthetic_permutation_statistic_comparisons": 600,
+  "synthetic_QR_vs_OLS_max_error": 2.7755575615628914e-16,
+  "synthetic_permutation_fast_vs_explicit_max_error": 2.7755575615628914e-16,
+  "synthetic_test_interpretation": "Algebraic equivalence only; does not establish exchangeability, patient independence or clinical validity",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "remote_files_modified": false
+}

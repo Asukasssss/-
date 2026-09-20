@@ -1,0 +1,13 @@
+﻿id	kind	url	depth	local_copy
+R01	repository_report	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/README_CN.md	全文读取	否；本包仅有复核摘录
+R02	repository_table	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/all117_next_actions_CN.tsv	多个指定行段读取；17基因/14关系摘录	摘录，不是远端整表
+R03	repository_code	https://github.com/Asukasssss/-/blob/fb5924b/code/brca_all174_composition_v2.py	核心完整代码内容读取；函数公式复核	否
+R04	repository_code	https://github.com/Asukasssss/-/blob/fb5924b/code/brca_all117_stability_v2.py	全文读取	否
+R05	repository_code	https://github.com/Asukasssss/-/blob/fb5924b/code/brca_all117_integrate_robustness_v2.py	全文读取	否
+R06	repository_parameters	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/analysis_spec.json	全文读取	关键字段在复核说明中
+R07	repository_marker_coverage	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/composition_marker_coverage.tsv	全文读取	关键字段在复核说明中
+R08	repository_validation	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/composition_validation.json	全文读取；日志非本轮独立重算	关键字段在复核说明中
+M01	primary_method	https://link.springer.com/article/10.1186/s13059-016-1070-5	方法原文定义和讨论	仅来源链接，不再分发全文
+M02	primary_method	https://pubmed.ncbi.nlm.nih.gov/24530839/	原研究摘要与方法结论	仅来源链接
+F01	primary_functional_research	https://www.nature.com/articles/s42255-022-00582-0	摘要和正文结果选读；非图像审计	仅来源链接
+M03	official_documentation	https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.permutation_test.html	官方随机置换说明	仅来源链接

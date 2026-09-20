@@ -1,0 +1,10 @@
+{
+  "analysis_version": "review_receipt_v1",
+  "stage": "07_INTEGRATION",
+  "source_commit": "fb5924baf2bad15642264e6dea601ab2764fe95f",
+  "numeric_tolerance": 1e-12,
+  "new_patient_tests": 0,
+  "frozen_statistics_modified": false,
+  "automatic_monitoring_resumed": false,
+  "script": "code/brca_receive_fb5924b_review.py"
+}

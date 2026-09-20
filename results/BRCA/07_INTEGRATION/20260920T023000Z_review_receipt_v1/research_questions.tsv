@@ -1,0 +1,5 @@
+question_id	genes	question_cn	required_evidence_cn	next_action_cn	status
+Q01	GPCPD1;GPI	外部同标本代谢物-RNA或蛋白关联能否复现？	明确GPC/G6P身份、同标本连接、足够有效样本和独立性记录	先核对现有外部队列覆盖；可用才计算	NOT_RUN
+Q02	PYCR1;NNMT	癌细胞与CAF背景能否区分，哪些数据支持具体作用背景？	可靠细胞亚群与来源标签；对照原干预的实际细胞	选定一个细胞背景问题，避免仅取最高表达类	NOT_RUN
+Q03	SLC6A8	缺氧TNBC肌酸运输线索是否有独立适用数据？	TNBC/缺氧状态和可用标本元数据	作为条件性备选，不重复已知机制	NOT_RUN
+Q04	PMM2	ESR1突变/内分泌耐药背景是否有可复用数据？	实际突变或治疗资料，不能从表达推断	适用数据缺失时暂挂该问题	NOT_RUN

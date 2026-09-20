@@ -1,0 +1,13 @@
+﻿check_id	topic	assessment	observed	limit_or_action	source_url
+C01	总体范围	可继续使用	报告覆盖117基因、174条关系，两模型各171项有效；不是117筛成2。	本轮读源码、参数和重点行；未逐项重算348行或144个历史列。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/README_CN.md
+C02	候选进入组成评分	已按代码排除直接自包含	对所有117候选统一去交集；实际移除单核评分中的KYNU和中性粒评分中的HAL。	只排除直接自包含；剩余标记仍可能反映状态，修改评分不等于真实比例。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/composition_marker_coverage.tsv
+C03	GPCPD1—GPC	两模型负相关保留	同子集ER基线ρ=-0.5152；主模型-0.4597,q=.0342；次模型-0.5250,q=.0171。	支持对所选代理调整有一定稳健性，不证明不受任何免疫组成影响，也不定位代谢反应细胞。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/all117_next_actions_CN.tsv
+C04	GPI—G6P	效应基本保持	同子集ER基线ρ=.4582；主模型.4492,q=.0342；次模型.4549,q=.0513。	主模型达本轮阈值；次模型未达。不可改种子或挑模型取得显著。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/all117_next_actions_CN.tsv
+C05	43个细胞背景标签	描述性结果	两研究各自所有可评估类别的最高类别相同，且来源标签bootstrap保持率各≥.80。	不是80%的独立患者同方向，不是后验真概率，也没有要求同供者差值区间不跨零。	https://github.com/Asukasssss/-/blob/fb5924b/code/brca_all117_integrate_robustness_v2.py
+C06	前轮82与本轮43	不能作同口径直接相减	前轮用共有8类；本轮按各队列完整可评估类别再加保持率。	BBOX1等因Wu非恶性上皮、Pal恶性上皮而不同，不能说所有少掉的基因都不稳定。	https://github.com/Asukasssss/-/blob/fb5924b/code/brca_all117_stability_v2.py
+C07	重采样和同供者比较	应联合读	GPI在Wu的保持率.999，但18个共同标签中12个最高类高于次高类；AFMID为8个中3个。	稳定的总体均值排序不保证每个供者一致；最高/次高为事后选定，不作显著性结论。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/all117_next_actions_CN.tsv
+C08	PMM2	继续保留情境性线索	两研究原最高类别均恶性上皮；Wu保持率.998，Pal .720，未达本轮双.80规则。	不是来源被否定；仍不能据表达推断ESR1突变、耐药或临床作用。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/all117_next_actions_CN.tsv
+C09	PYCR1	保留癌细胞与基质两种背景	两研究恶性上皮最高且保持率1.0；既有乳腺癌CAF研究测到脯氨酸合成、胶原和肿瘤表型。	表达最高不等于唯一作用细胞，不能删除已有CAF机制；已有机制本身不算本项目新发现。	https://www.nature.com/articles/s42255-022-00582-0
+C10	best字段	跨模型须核对关系ID	SORD主模型best是山梨醇，次模型best是果糖；PPA1也有不同关系。	对比时使用完整relation_id，不能把不同代谢物的rho当同一条关系反转。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/all117_next_actions_CN.tsv
+C11	组成代理和PCA	模型可作探索敏感性	9个评分的前2个PC解释约64.5%的评分变异；使用处理后芯片而非count模型。	64.5%不是已经消除的混杂比例。原MCPcounter的验证不自动转移到删标记的版本。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/composition_validation.json
+C12	推断边界	报告已有主要限制	9999次ER分层残差置换；500次标本重采样区间、评分/PCA固定；两个家族分别BH。	独立患者身份未核验；算法等价不证明交换性。逐项区间不能代替家族FDR。	https://github.com/Asukasssss/-/blob/fb5924b/results/BRCA/04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2/analysis_spec.json

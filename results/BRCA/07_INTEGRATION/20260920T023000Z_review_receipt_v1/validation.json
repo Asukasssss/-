@@ -1,0 +1,19 @@
+{
+  "status": "DONE",
+  "source_commit": "fb5924baf2bad15642264e6dea601ab2764fe95f",
+  "archive_sha256": "09520c8528b4f863455ec72815e2dd9377ea99d03aa3ac4fde1c70fe4952467d",
+  "package_hashes_verified": 9,
+  "association_relations": 14,
+  "source_genes": 17,
+  "scalar_checks": 439,
+  "mismatches": 0,
+  "patient_tests": 0,
+  "full_BH_rerun": false,
+  "full_literature_reaudit": false,
+  "source_citation_note": "Use all174_composition_sensitivity.tsv for relation-level comparisons; best-gene summaries may refer to different metabolites.",
+  "review_script_execution": {
+    "exit_code": 0,
+    "stdout": "{\n  \"excerpt_checks\": \"PASS\",\n  \"synthetic_QR_OLS_max_error\": 2.220446049250313e-16,\n  \"synthetic_permutation_identity_max_error\": 2.7755575615628914e-16,\n  \"patient_tests\": 0,\n  \"scope\": \"Not full348 BH,not full117 biological validation\"\n}\n",
+    "stderr": ""
+  }
+}
