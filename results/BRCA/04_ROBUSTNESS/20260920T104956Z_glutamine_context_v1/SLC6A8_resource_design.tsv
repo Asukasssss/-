@@ -1,0 +1,3 @@
+gene	accession	run	experiment	sample	experiment_title	model	perturbation	run_to_condition	biological_replicates	status	decision
+SLC6A8	PRJNA708216	SRR13932936	SRX10312286	SAMN18221691	Sample_A	MDA-MB-231	oxygen condition, not gene-specific	UNRESOLVED	UNVERIFIED	NEEDS_REVIEW	Do not assign Sample_A/B to oxygen by order; do not infer independent repeats from runs or shared BioSample; no raw reprocessing
+SLC6A8	PRJNA708216	SRR13932935	SRX10312287	SAMN18221691	Sample_B	MDA-MB-231	oxygen condition, not gene-specific	UNRESOLVED	UNVERIFIED	NEEDS_REVIEW	Do not assign Sample_A/B to oxygen by order; do not infer independent repeats from runs or shared BioSample; no raw reprocessing

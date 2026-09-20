@@ -1,0 +1,7 @@
+source	sha256
+results\BRCA\06_EXTERNAL\20260920T090922Z_all174_external117_resources_v1\external_all174_with_CAMP_context.tsv	9ee2f4fd51ac4fd0432746303c6cdae34fd20686775f801e2bc0313a75cd274e
+code\brca_glutamine_followup_receipt_v1.py	f50d74095e8d6d8e92e4aca9eb72fd6a2955af4915df56068338066650f9c986
+https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA708216&result=read_run&fields=run_accession,sample_accession,experiment_accession,sample_title,library_strategy&format=tsv	27d90d391615f96309bd0440e9b4af786046543005d16d5c3de1e9f557b7f4d6
+https://www.ebi.ac.uk/ena/browser/api/xml/SRX10312286	180da8648904818a51f14820d0c1a6cb9f6eba546b8b278fef83e43f8a6b0e28
+https://www.ebi.ac.uk/ena/browser/api/xml/SRX10312287	8525d334201cf726258ad07f4bce393d080e1bb99fa5b0bdc8d51bb707afa17a
+https://www.ebi.ac.uk/ena/browser/api/xml/SAMN18221691	d35cde9dbc85d4e0a73059a66dc4278f76f0b31bb9f91608c0ffaec81354f5ba

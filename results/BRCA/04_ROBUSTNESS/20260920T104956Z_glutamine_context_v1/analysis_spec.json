@@ -1,0 +1,93 @@
+{
+  "analysis_version": "glutamine_context_v1",
+  "status": "NOT_RUN",
+  "planned_before_new_conditional_results": true,
+  "selection": "post_selection_exploratory_using_existing_FUSCC_results;not_confirmatory",
+  "metabolite_key": "KEGG:C00064",
+  "external_peak": "M147T365_POS",
+  "genes": [
+    "ASNS",
+    "GLS",
+    "GLS2",
+    "GLUL"
+  ],
+  "models": [
+    {
+      "gene": "ASNS",
+      "covariates": [
+        "GLS",
+        "GLS2",
+        "GLUL"
+      ],
+      "model": "other_three"
+    },
+    {
+      "gene": "GLS",
+      "covariates": [
+        "ASNS",
+        "GLS2",
+        "GLUL"
+      ],
+      "model": "other_three"
+    },
+    {
+      "gene": "GLS2",
+      "covariates": [
+        "ASNS",
+        "GLS",
+        "GLUL"
+      ],
+      "model": "other_three"
+    },
+    {
+      "gene": "GLUL",
+      "covariates": [
+        "ASNS",
+        "GLS",
+        "GLS2"
+      ],
+      "model": "other_three"
+    },
+    {
+      "gene": "ASNS",
+      "covariates": [
+        "GLS"
+      ],
+      "model": "mutual_pair"
+    },
+    {
+      "gene": "GLS",
+      "covariates": [
+        "ASNS"
+      ],
+      "model": "mutual_pair"
+    }
+  ],
+  "unit": "author_patient_id",
+  "same_subset": "complete cases across all four genes and metabolite; no new imputation",
+  "method": "rank each variable; OLS residualize gene and metabolite against intercept and ranked covariates; Pearson correlation of residuals",
+  "p_method": "two-sided partial-correlation t approximation; df=n-k-2; not exact rank test",
+  "multiple_testing": "BH across six planned primary hypotheses; missing P internal1 and publicNA; Holm6 additionally reported",
+  "bootstrap": "2000 patient-row resamples; ranks and residuals recomputed; percentile pointwise95CI; no selection adjustment",
+  "seed": 20260920,
+  "sensitivity": "exclude previously recorded warning IDs; effect-only comparison; no model selection",
+  "warning_ids": [
+    "FUSCCTNBC030",
+    "FUSCCTNBC044",
+    "FUSCCTNBC140"
+  ],
+  "minimum_n": 20,
+  "stop_conditions": [
+    "missing variable",
+    "nonunique author patient ID",
+    "rank deficient design",
+    "constant residual"
+  ],
+  "limitations": [
+    "same cohort is not independent validation",
+    "conditioning on other genes is not purity adjustment or causal mediation",
+    "data-selected followup P and q remain exploratory",
+    "not contribution fractions or proof of synergy"
+  ],
+  "server_input": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260920T090922Z_all174_external117_resources_v1/private/author_patient_joined_values.tsv"
+}

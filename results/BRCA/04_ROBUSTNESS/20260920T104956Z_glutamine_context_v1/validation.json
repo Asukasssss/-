@@ -1,0 +1,17 @@
+{
+  "status": "PARTIAL",
+  "reused_primary_significant_relations": 16,
+  "opposite_point_estimate_relations": 8,
+  "all_opposite_CAMP_q_ge005": true,
+  "same_sign_dual_original_FDR_genes": [
+    "ASNS",
+    "NNMT"
+  ],
+  "new_patient_statistics": 0,
+  "new_conditional_rows": "ACCESS_BLOCKED",
+  "ENA_runs": 2,
+  "ENA_unique_BioSamples": 1,
+  "condition_assignment_verified": false,
+  "patient_data_downloaded": false,
+  "server_archive_synced": false
+}
