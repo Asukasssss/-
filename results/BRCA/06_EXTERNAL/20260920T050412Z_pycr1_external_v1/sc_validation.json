@@ -1,0 +1,10 @@
+{
+  "status": "DONE",
+  "rows": 12,
+  "primary_planned": 8,
+  "untreated_planned": 4,
+  "no_patient_identity_inference": true,
+  "no_cell_level_pseudoreplication": true,
+  "programs_exclude_PYCR1": true,
+  "script_sha256": "952dc480dfd22c873cbd13d5f2e27de992f44426ede326f245b1e9c37cc21e42"
+}

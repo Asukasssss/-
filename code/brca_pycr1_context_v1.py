@@ -55,7 +55,7 @@ def main(root,previous):
     spec=json.loads((root/'public/analysis_spec.json').read_text());programs=spec['programs'];genes=sorted({'PYCR1'}|{g for v in programs.values() for g in v});results=[];contrasts=[];covers=[];descriptive=[]
     for cf in ['brca_sc117_Wu2021_config.json','brca_sc117_Pal2021_config.json']:
         cfg=json.loads((root/'scripts'/cf).read_text());cohort=cfg['cohort'];d=aggregate(root,previous,cfg,genes)
-        parts=[('ALL',d)]+([('UNTREATED',d[d.treatment.eq('Naive')])] if cohort=='Wu2021' else [])
+        parts=[('ALL',d)]+([('UNTREATED',d[d.treatment.eq('Naïve')])] if cohort=='Wu2021' else [])
         for partition,part in parts:
             agg=part.groupby(['donor','celltype','gene'],as_index=False)[['raw_count','n_detected','n_cells','library_sum']].sum(min_count=1)
             agg=agg[agg.n_cells>=20];agg['value']=np.log1p(1e6*agg.raw_count/agg.library_sum)

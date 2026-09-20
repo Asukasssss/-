@@ -1,0 +1,21 @@
+{
+  "status": "DONE",
+  "prior_vs_new_PYCR1_raw_summaries": [
+    {
+      "cohort": "Wu2021",
+      "source_groups": 46,
+      "raw_summary_max_error": 0
+    },
+    {
+      "cohort": "Pal2021_reprocessed",
+      "source_groups": 65,
+      "raw_summary_max_error": 0
+    }
+  ],
+  "sc_scipy_spearman_max_error": 1.1102230246251565e-16,
+  "BH_independent_check": true,
+  "external_rho_and_n_independently_checked": true,
+  "source_donor_not_genotype_verified": true,
+  "patient_data_exported": false,
+  "scores_fixed_during_bootstrap": true
+}
