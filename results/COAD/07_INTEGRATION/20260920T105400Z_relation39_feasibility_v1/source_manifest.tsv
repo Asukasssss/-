@@ -1,0 +1,21 @@
+source_id	path_or_url	version	sha256	depth	hash_note
+D01	https://link.springer.com/article/10.1186/s12943-025-02359-x	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+D02	https://pmc.ncbi.nlm.nih.gov/articles/PMC10620771/	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+D03	https://pmc.ncbi.nlm.nih.gov/articles/PMC4515859/	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+D04	https://www.cancerimagingarchive.net/collection/cptac-coad/	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+D05	https://pmc.ncbi.nlm.nih.gov/articles/PMC5604037/	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+D06	https://link.springer.com/article/10.1007/s12672-026-05185-9	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+D07	https://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD046882	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+D08	https://zenodo.org/records/18471666	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+D09	https://pmc.ncbi.nlm.nih.gov/articles/PMC7078199/	retrieved/indexed 2026-09-20	NA	Primary entry/article eligibility screen;actual matrices NOT_INSPECTED	Web body not archived;no content hash claimed
+F01	https://journals.physiology.org/doi/10.1152/ajprenal.1999.277.5.F685	retrieved/indexed 2026-09-20	NA	Original publisher indexed results and Fig3/method extracts	Web body not archived;no content hash claimed
+F02	https://pmc.ncbi.nlm.nih.gov/articles/PMC9367517/	retrieved/indexed 2026-09-20	NA	New focused reread of existing E10 result3.3/Fig3	Web body not archived;no content hash claimed
+F03	https://pmc.ncbi.nlm.nih.gov/articles/PMC11080076/	retrieved/indexed 2026-09-20	NA	Original abstract/results extracts	Web body not archived;no content hash claimed
+F04	https://www.nature.com/articles/s41467-026-73002-6	retrieved/indexed 2026-09-20	NA	Original results/Fig4/discussion/method extracts and PubMed identity	Web body not archived;no content hash claimed
+F05	https://www.nature.com/articles/s42003-026-10017-1	retrieved/indexed 2026-09-20	NA	Original indexed results Fig6/7 and supplementary Fig1/2 descriptions;not independent source-data audit	Web body not archived;no content hash claimed
+F06	https://pmc.ncbi.nlm.nih.gov/articles/PMC555472/	retrieved/indexed 2026-09-20	NA	New focused reread of existing E19 results	Web body not archived;no content hash claimed
+F07	https://pubmed.ncbi.nlm.nih.gov/42127111/	retrieved/indexed 2026-09-20	NA	Original PubMed abstract	Web body not archived;no content hash claimed
+local	results/COAD/06_EXTERNAL/20260920T091100Z_cell_paired35_v1/relations39_integrated.tsv	versioned input/code	db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7	Local bytes	SHA256
+local	code/coad/build_relation39_feasibility_v1.py	versioned input/code	ca10f9e9871df4e90e160369a12addadf8fa2925b1eccd90bcd1ba7f898361a5	Local bytes	SHA256
+local	code/coad/audit_relation39_sources_v1.py	versioned input/code	1f04aebfba000e67c5076cfd4dbf8a59d6f310a93c1f7b7afeda1b81943d76b6	Local bytes	SHA256
+local	config/coad_relation39_feasibility_v1.json	versioned input/code	a1657d8d1d5e61492caad8a11a90c9f5fa0663ee2754590bf8c35b2492f34fb9	Local bytes	SHA256

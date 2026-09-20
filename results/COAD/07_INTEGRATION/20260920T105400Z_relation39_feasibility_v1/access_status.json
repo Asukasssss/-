@@ -1,0 +1,15 @@
+{
+  "status": "ACCESS_BLOCKED",
+  "server_supplement_audit": "NOT_RUN",
+  "ssh_attempts": 2,
+  "error": "Connection timeout",
+  "supplement_downloaded": false,
+  "supplement_contents_inspected": false,
+  "server_run_directory_created": false,
+  "server_done_marker_written": false,
+  "author_contact_sent": false,
+  "supplement_urls": [
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12943-025-02359-x/MediaObjects/12943_2025_2359_MOESM1_ESM.docx",
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12943-025-02359-x/MediaObjects/12943_2025_2359_MOESM2_ESM.docx"
+  ]
+}
