@@ -329,6 +329,27 @@
           "candidate_arrangement_unchanged": true
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-20T08:35:26.607192+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "6694953fd676b4cd6f900f5e7f7ba7881ea0b938",
+      "verification": "git ls-remote equals HEAD; GitHub PR1 open and head equals verified commit; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T081200Z_cell_expression35_v2",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T081200Z_cell_expression35_v2",
+          "analysis_status": "PARTIAL",
+          "scoped_expression_status": "DONE",
+          "genes_requested": 35,
+          "genes_available_each_study": 34,
+          "unavailable_gene": "GSTT2",
+          "summary_rows": 85820,
+          "new_P_or_q": false,
+          "candidate_arrangement_unchanged": true
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
