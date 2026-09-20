@@ -1,0 +1,3 @@
+cohort	gene	metabolite_key	n_annotation_hits	status	reason	peak	author_name	identification_level
+FUSCC_TNBC	GPCPD1	KEGG:C00670	1	DONE	author_annotation_only_not_spectral_reconfirmation	M258T238_POS	Glycerophosphocholine	B(i)
+FUSCC_TNBC	GPI	KEGG:C00668	0	NOT_EVALUABLE	no_exact_feature_in594_polar_annotation			

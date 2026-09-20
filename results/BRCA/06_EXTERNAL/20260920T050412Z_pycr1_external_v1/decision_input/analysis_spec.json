@@ -1,0 +1,35 @@
+{
+  "version": "BRCA_research_priority_bounded_v1",
+  "created_utc_date": "2026-09-20",
+  "repository": "Asukasssss/-",
+  "read_snapshot": "65fdb0fa4dd3b569c3e257ee32ebe346741ce5c1",
+  "numerical_analysis": "fb5924b / all117_robustness_v2",
+  "scope": "Manual research prioritization; existing six relation excerpts; primary literature bounded review",
+  "full_pool_retained": 117,
+  "source_relations_retained_in_repository": 174,
+  "directions_in_this_package": 6,
+  "new_patient_tests": 0,
+  "new_BH": 0,
+  "depmap_computations": 0,
+  "not_performed": [
+    "External association analysis",
+    "New single-cell inference",
+    "Uniform objective reranking of all117",
+    "Exhaustive literature/integrity audit",
+    "Remote repository modification"
+  ],
+  "decision_basis": [
+    "Existing association strength and sensitivity",
+    "Cell-context distributions",
+    "Model-specific functional evidence",
+    "Increment beyond prior studies",
+    "Available-resource feasibility"
+  ],
+  "models": [
+    "ER_PC12",
+    "ER_MonoEndoFib"
+  ],
+  "statistical_unit": "author_mapped_tumor_specimen_NOT_verified_independent_patient",
+  "notes": "Six directions are resource-allocation suggestions, not six validated targets. No source statistics overwritten.",
+  "read_scope_by_source": "sources/来源与阅读范围.tsv"
+}

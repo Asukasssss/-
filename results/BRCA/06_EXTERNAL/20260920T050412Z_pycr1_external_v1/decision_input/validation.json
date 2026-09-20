@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "scope": "Package construction, six fixed existing relation extracts and decisions; not full117 recomputation",
+  "rows": 6,
+  "unique_genes": 6,
+  "unique_relations": 6,
+  "numeric_key_match": true,
+  "all_directions_have_source_urls": true,
+  "new_patient_tests": 0,
+  "new_BH": 0,
+  "new_gene_expression_analysis": 0,
+  "workbook_created": "BRCA_深入方向与决策.xlsx",
+  "workbook_visual_inspected": true,
+  "overview_formula_values": [
+    2,
+    2,
+    2
+  ],
+  "formula_error_scan": "0 matches",
+  "remote_write_performed": false,
+  "not_claimed": [
+    "All117 current numerical cells newly reverified",
+    "Existing52 functional reports independently recertified",
+    "External matched metabolomics ready",
+    "Novel targets validated"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "existing server BRCA directory only;not universal claim of CPTAC absence",
+  "file_count": 4,
+  "counts_by_top_directory": {
+    "gdc_rna": 1,
+    "pdc": 3
+  },
+  "metabolite_matrix_identified": false,
+  "direct_metabolite_association_status": "NOT_EVALUABLE",
+  "reason": "existing_sources_are_protein_and_RNA_without_target_metabolite_matrix"
+}

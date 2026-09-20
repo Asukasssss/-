@@ -1,0 +1,36 @@
+{
+  "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260919T140105Z_scRNA117_v1/source/wu_curated.h5ad",
+  "sha256": "ef9e792e3e25a811af7778e38913fe0758fb887284899b47bdd54c8af0e91281",
+  "cells_selected": 31062,
+  "source_labels": 26,
+  "gene_count": 291,
+  "config": {
+    "cohort": "Wu2021",
+    "file": "wu_curated.h5ad",
+    "raw_path": "raw/X",
+    "var_path": "raw/var",
+    "symbol_column": "feature_name",
+    "donor_column": "donor_id",
+    "celltype_column": "celltype_major",
+    "stratum_column": "subtype",
+    "treatment_column": "treatment_status",
+    "celltype_map": {
+      "B-cells": "B_cells",
+      "CAFs": "Fibroblasts",
+      "Cancer Epithelial": "Malignant_epithelial",
+      "Endothelial": "Endothelial",
+      "Myeloid": "Myeloid",
+      "Normal Epithelial": "Nonmalignant_epithelial",
+      "PVL": "Perivascular",
+      "Plasmablasts": "Plasma_cells",
+      "T-cells": "T_NK_cells"
+    },
+    "chunk_cells": 1000,
+    "min_cells_per_donor_group": 20,
+    "min_donors_per_public_group": 3,
+    "unit": "publisher_donor_label",
+    "source_id": "GSE176078_CELLxGENE_22a27631",
+    "annotation_origin": "Wu2021_author_celltype_major_via_CELLxGENE",
+    "independence_limit": "Publisher donor_id labels; no genotype-level identity check; treatment strata separated; malignant calls reused, not independently rederived"
+  }
+}

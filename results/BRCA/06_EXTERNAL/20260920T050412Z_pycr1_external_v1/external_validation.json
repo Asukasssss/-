@@ -1,0 +1,15 @@
+{
+  "status": "DONE_BOUNDED",
+  "metabolomics_patients": 330,
+  "target_RNA_patients": 360,
+  "author_patient_intersection": 258,
+  "primary_tumor_only": true,
+  "gene_to_patient_duplicates": 0,
+  "explicit_author_mapping_concordant": true,
+  "same_aliquot_verified": false,
+  "strict_independent_validation": "NOT_ESTABLISHED_BY_IDENTIFIERS_ALONE",
+  "CAMP_patient_statistics_modified": false,
+  "GPI_G6P_not_substituted": true,
+  "metabolite_preprocessing": "author_processed_log2;original imputation not reversed;no new imputation",
+  "script_sha256": "8e99f7475c1a2a24f43aac36745b494b976810a849ad879b00e9f0d5c5f42b59"
+}
