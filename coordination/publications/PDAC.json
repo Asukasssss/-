@@ -1,0 +1,11 @@
+{
+  "cancer": "PDAC",
+  "branch": "analysis/pdac-initial",
+  "verified_result_commit": "894a346e4c927c1e1afbdc5eae279bd0430e3e92",
+  "publication_status": "BRANCH_PUSH_VERIFIED",
+  "pull_request": "https://github.com/Asukasssss/-/pull/2",
+  "pull_request_status": "DRAFT",
+  "merged_to_main": false,
+  "completed_batches": ["20260920T051000Z_frozen_v1", "20260920T054500Z_source_readiness_v1"],
+  "patient_level_data_published": false
+}
