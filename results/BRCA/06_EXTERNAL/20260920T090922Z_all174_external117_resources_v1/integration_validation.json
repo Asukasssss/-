@@ -1,0 +1,9 @@
+{
+  "all117_retained": true,
+  "historical_columns_unchanged": 199,
+  "primary_evaluable": 133,
+  "primary_q_lt005": 16,
+  "primary_significant_genes": 13,
+  "significant_same_sign_CAMP_unadjusted": 7,
+  "significant_opposite_or_zero_CAMP_unadjusted": 8
+}

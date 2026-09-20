@@ -1,0 +1,10 @@
+{
+  "status": "DONE",
+  "rows": 348,
+  "independent_rho_checks": 266,
+  "max_rho_error": 1.1102230246251565e-16,
+  "BH_statsmodels_agrees": true,
+  "non_evaluable_public_P_q_missing": true,
+  "unique_author_patient_ids": true,
+  "no_patient_measurements_exported": true
+}

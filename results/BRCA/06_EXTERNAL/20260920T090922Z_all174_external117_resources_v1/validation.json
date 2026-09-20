@@ -1,0 +1,61 @@
+{
+  "status": "DONE",
+  "scope": "external174 fixed batch and aggregate integration;resource117 remains PARTIAL",
+  "external": {
+    "status": "DONE",
+    "relations": 174,
+    "genes": 117,
+    "unique_metabolite_keys": 73,
+    "n_author_patient_intersection": 258,
+    "identity_counts": {
+      "DONE": 51,
+      "NOT_EVALUABLE": 21,
+      "NEEDS_REVIEW": 1
+    },
+    "families": {
+      "FUSCC_EXCLUDE_WARNING174": {
+        "evaluable": 133,
+        "q_lt005": 19
+      },
+      "FUSCC_PRIMARY174": {
+        "evaluable": 133,
+        "q_lt005": 16
+      }
+    },
+    "GPCPD1_inputs_exactly_same_and_statistics_reused": true,
+    "BH_planned_family_n": 174,
+    "missing_p_internal_placeholder": 1,
+    "missing_public_p_q": "NA",
+    "same_aliquot_verified": false,
+    "raw_missing_mask_verified": false,
+    "CAMP_adjusted_vs_external_unadjusted_not_same_estimand": true,
+    "patient_values_exported": false
+  },
+  "independent": {
+    "status": "DONE",
+    "rows": 348,
+    "independent_rho_checks": 266,
+    "max_rho_error": 1.1102230246251565e-16,
+    "BH_statsmodels_agrees": true,
+    "non_evaluable_public_P_q_missing": true,
+    "unique_author_patient_ids": true,
+    "no_patient_measurements_exported": true
+  },
+  "resources": {
+    "status": "PARTIAL",
+    "scope": "all117 existing-literature resource discovery, not full manual design validation",
+    "genes": 117,
+    "studies": 122,
+    "retrieval_counts": {
+      "DONE": 67,
+      "NOT_EVALUABLE": 40,
+      "ACCESS_BLOCKED": 15
+    },
+    "genes_with_accession_leads": 28,
+    "GEO_accessions": 66,
+    "gene_targeted_perturbations_verified_in_this_pass": 0
+  },
+  "manual_resource_design_rows": 12,
+  "source_matrices_exported": false,
+  "validation_limits": "Manual notes do not audit all117 intervention designs; source annotation not spectral reidentification"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "DONE",
+  "relations": 174,
+  "genes": 117,
+  "unique_metabolite_keys": 73,
+  "n_author_patient_intersection": 258,
+  "identity_counts": {
+    "DONE": 51,
+    "NOT_EVALUABLE": 21,
+    "NEEDS_REVIEW": 1
+  },
+  "families": {
+    "FUSCC_EXCLUDE_WARNING174": {
+      "evaluable": 133,
+      "q_lt005": 19
+    },
+    "FUSCC_PRIMARY174": {
+      "evaluable": 133,
+      "q_lt005": 16
+    }
+  },
+  "GPCPD1_inputs_exactly_same_and_statistics_reused": true,
+  "BH_planned_family_n": 174,
+  "missing_p_internal_placeholder": 1,
+  "missing_public_p_q": "NA",
+  "same_aliquot_verified": false,
+  "raw_missing_mask_verified": false,
+  "CAMP_adjusted_vs_external_unadjusted_not_same_estimand": true,
+  "patient_values_exported": false
+}

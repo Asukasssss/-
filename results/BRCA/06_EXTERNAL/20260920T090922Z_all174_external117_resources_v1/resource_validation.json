@@ -1,0 +1,14 @@
+{
+  "status": "PARTIAL",
+  "scope": "all117 existing-literature resource discovery, not full manual design validation",
+  "genes": 117,
+  "studies": 122,
+  "retrieval_counts": {
+    "DONE": 67,
+    "NOT_EVALUABLE": 40,
+    "ACCESS_BLOCKED": 15
+  },
+  "genes_with_accession_leads": 28,
+  "GEO_accessions": 66,
+  "gene_targeted_perturbations_verified_in_this_pass": 0
+}

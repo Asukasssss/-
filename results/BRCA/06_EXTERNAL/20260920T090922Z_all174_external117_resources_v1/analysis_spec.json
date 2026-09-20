@@ -1,0 +1,18 @@
+{
+  "version": "external174_v1",
+  "fixed_input_relations": 174,
+  "fixed_genes": 117,
+  "match": "unique exact author KEGG/HMDB; old HMDB zero padding only; manually reviewed names; lactate DL/L conflict excluded",
+  "identification": "B(i) and B(iii) retained with original confidence; no spectral identity confirmation",
+  "min_n": 20,
+  "association": "tumor-only author patient matched Spearman",
+  "permutations": 9999,
+  "bootstrap": 2000,
+  "CI": "pointwise percentile",
+  "family": "174 planned primary;174 planned warning-exclusion separately;missing internal P=1 public NA",
+  "GPCPD1": "reuse old rho/P/CI only after identical joined data check;new q separate",
+  "new_seed": "sha256(family+relation_id) first8hex",
+  "RNA": "author portal TPM; no extra imputation",
+  "metabolites": "author processed log2 values; preexisting imputation retained",
+  "resources": "all117 existing literature links; machine accession extraction is not verified intervention design"
+}

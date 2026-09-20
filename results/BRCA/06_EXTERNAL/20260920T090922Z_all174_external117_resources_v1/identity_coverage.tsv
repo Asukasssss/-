@@ -1,0 +1,74 @@
+metabolite_key	CAMP_name	annotation_hits	status	reason	fuscc_peak	fuscc_author_name	fuscc_hmdb	fuscc_kegg	fuscc_identification_level
+HMDB:HMDB00721	glycylproline	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00009	phosphate	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00013	pyrophosphate (PPi)	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00021	S-adenosylhomocysteine (SAH)	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M385T401_POS	S-Adenosyl-L-homocysteine	HMDB0000939	C00021	B(i)
+KEGG:C00025	glutamate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M146T388_NEG	L-Glutamate	HMDB0000148	C00025	B(i)
+KEGG:C00037	glycine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M74T364_NEG	Glycine	HMDB0000123	C00037	B(i)
+KEGG:C00047	lysine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M188T505_POS	L-Lysine	HMDB0000182	C00047	B(i)
+KEGG:C00049	aspartate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M134T396_POS	L-Aspartate	HMDB0000191	C00049	B(i)
+KEGG:C00051	glutathione, reduced (GSH)	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M308T256_POS	Glutathione	HMDB0000125	C00051	B(iii)
+KEGG:C00055	cytidine 5'-monophosphate (5'-CMP)	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M324T256_POS	Cytidine 5'-monophosphate	HMDB0000095	C00055	B(i)
+KEGG:C00062	arginine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M175T501_POS	L-Arginine	HMDB0000517	C00062	B(i)
+KEGG:C00064	glutamine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M147T365_POS	L-Glutamine	HMDB0000641	C00064	B(i)
+KEGG:C00065	serine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M106T367_POS	L-Serine	HMDB0000187	C00065	B(i)
+KEGG:C00073	methionine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M148T271_NEG	L-Methionine	HMDB0000696	C00073	B(i)
+KEGG:C00077	ornithine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M133T489_POS	Ornithine	HMDB0000214	C00077	B(i)
+KEGG:C00079	phenylalanine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M166T249_POS	L-Phenylalanine	HMDB0000159	C00079	B(i)
+KEGG:C00082	tyrosine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M182T222_POS	L-Tyrosine	HMDB0000158	C00082	B(i)
+KEGG:C00095	fructose	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M359T295_NEG	D-Fructose	HMDB0000660	C00095	B(iii)
+KEGG:C00097	cysteine	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00099	beta-alanine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M126T163_NEG	Beta-Alanine	HMDB0000056	C00099	B(iii)
+KEGG:C00106	uracil	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M111T82_NEG	Uracil	HMDB0000300	C00106	B(i)
+KEGG:C00114	choline	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M104T293_POS	Choline	HMDB0000097	C00114	B(iii)
+KEGG:C00121	ribose	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M149T177_NEG	D-Ribose	HMDB0000283	C00121	B(iii)
+KEGG:C00134	putrescine	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00135	histidine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M156T391_POS	L-Histidine	HMDB0000177	C00135	B(i)
+KEGG:C00140	N-acetylglucosamine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M222T255_POS	N-Acetyl-D-glucosamine	HMDB0000215	C00140	B(iii)
+KEGG:C00148	proline	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M116T307_POS	L-Proline	HMDB0000162	C00148	B(i)
+KEGG:C00149	malate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M133T397_NEG	L-Malic acid	HMDB0000156	C00149	B(i)
+KEGG:C00152	asparagine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M133T368_POS	L-Asparagine	HMDB0000168	C00152	B(i)
+KEGG:C00153	nicotinamide	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M123T51_POS	Nicotinamide	HMDB0001406	C00153	B(i)
+KEGG:C00158	citrate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M173T121_NEG	Citrate	HMDB0000094	C00158	B(iii)
+KEGG:C00186	lactate	1	NEEDS_REVIEW	L_lactate_identifier_but_author_name_DL_lactate;stereochemical_scope_unresolved	M89T227_NEG	DL-lactate	HMDB0000190	C00186	B(i)
+KEGG:C00187	cholesterol	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00189	ethanolamine	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00208	maltose	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M341T442_NEG	D-Maltose	HMDB0000163	C00208	B(i)
+KEGG:C00212	adenosine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M268T169_POS	Adenosine	HMDB0000050	C00212	B(i)
+KEGG:C00242	guanine	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00245	taurine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M124T285_NEG	Taurine	HMDB0000251	C00245	B(i)
+KEGG:C00255	riboflavin (Vitamin B2)	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00257	gluconate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M195T348_NEG	D-gluconate	HMDB0000625	C00257	B(i)
+KEGG:C00262	hypoxanthine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M137T169_POS	Hypoxanthine	HMDB0000157	C00262	B(i)
+KEGG:C00270	N-acetylneuraminate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M308T366_NEG	N-Acetylneuraminic acid	HMDB0000230	C00270	B(i)
+KEGG:C00275	mannose 6-phosphate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M243T455_POS	D-Mannose-6-phosphate	HMDB0001078	C00275	B(i)
+KEGG:C00294	inosine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M267T210_NEG	Inosine	HMDB0000195	C00294	B(i)
+KEGG:C00300	creatine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M132T356_POS	Creatine	HMDB0000064	C00300	B(i)
+KEGG:C00307	cytidine 5'-diphosphocholine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M489T434_POS	Cytidine 5'-diphosphocholine (CDP-choline)	HMDB0001413	C00307	B(i)
+KEGG:C00319	sphingosine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M300T86_POS	Sphingosine	HMDB0000252	C00319	B(iii)
+KEGG:C00327	citrulline	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M176T383_POS	L-Citrulline	HMDB0000904	C00327	B(i)
+KEGG:C00328	kynurenine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M207T247_NEG	L-Kynurenine	HMDB0000684	C00328	B(i)
+KEGG:C00345	6-phosphogluconate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M241T229_POS	6-Phospho-D-gluconate	HMDB0001316	C00345	B(iii)
+KEGG:C00346	phosphoethanolamine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M142T451_POS	O-Phosphoethanolamine	HMDB0000224	C00346	B(i)
+KEGG:C00357	N-acetylglucosamine 6-phosphate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M302T441_POS	N-Acetyl-D-Glucosamine 6-Phosphate	HMDB0001062	C00357	B(i)
+KEGG:C00385	xanthine	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00407	isoleucine	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00429	5,6-dihydrouracil	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M173T307_NEG	Dihydrouracil	HMDB0000076	C00429	B(iii)
+KEGG:C00491	cystine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M241T421_POS	L-Cystine	HMDB0000192	C00491	B(iii)
+KEGG:C00668	glucose 6-phosphate	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00670	glycerophosphorylcholine (GPC)	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M258T238_POS	Glycerophosphocholine	HMDB0000086	C00670	B(i)
+KEGG:C00751	squalene	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00794	sorbitol	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C00864	pantothenate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M218T268_NEG	Pantothenate	HMDB0000210	C00864	B(i)
+KEGG:C01157	trans-4-hydroxyproline	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C01179	4-hydroxyphenylpyruvate	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C01181	deoxycarnitine	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C01835	maltotriose	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M522T379_POS	Maltotriose	HMDB0001262	C01835	B(i)
+KEGG:C02838	octanoylcarnitine (C8)	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C02862	butyrylcarnitine	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C02918	1-methylnicotinamide	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M137T286_POS	1-Methylnicotinamide	HMDB0000699	C02918	B(i)
+KEGG:C02990	palmitoylcarnitine	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M400T145_POS	L-Palmitoylcarnitine	HMDB0000222	C02990	B(i)
+KEGG:C04006	inositol 1-phosphate (I1P)	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C05282	gamma-glutamylglutamate	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M277T451_POS	gamma-L-Glutamyl-L-glutamic acid	HMDB0011737	C05282	B(i)
+KEGG:C05345	fructose-6-phosphate	0	NOT_EVALUABLE	no_exact_author_identifier	NA	NA	NA	NA	NA
+KEGG:C12270	N-acetyl-aspartyl-glutamate (NAAG)	1	DONE	unique_author_identifier;identity_not_spectrally_reconfirmed	M305T437_POS	N-Acetylaspartylglutamate (NAAG)	HMDB0001067	C12270	B(i)
