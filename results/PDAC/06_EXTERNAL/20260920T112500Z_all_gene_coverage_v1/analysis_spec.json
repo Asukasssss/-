@@ -1,0 +1,9 @@
+{
+  "stage": "06_EXTERNAL",
+  "version": "PDAC_working_views_v1",
+  "mapping_sha256": "40680e139501b634873efb68d53c6d609ea50daa18a8181c4e8b7d7f201088e8",
+  "gene_count": 289,
+  "scoring": "none",
+  "historical_q_not_used_as_new_family_q": true,
+  "base_commit": "c508f94c80f2d68ba664a14d36bdefcd0e9f6cb9"
+}

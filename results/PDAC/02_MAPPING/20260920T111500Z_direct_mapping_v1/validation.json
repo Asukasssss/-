@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "all42_accounted": true,
+  "unique_relation_keys": true,
+  "identity_holds_excluded": true,
+  "original_fields_retained": true,
+  "patient_statistics": "NOT_RUN"
+}

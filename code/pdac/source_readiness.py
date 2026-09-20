@@ -58,6 +58,8 @@ def main():
         provenance=pd.read_csv(pp,sep='\t').set_index('path').sha256.to_dict()
         hashes={str(p):{'current':sha(p),'historical':provenance.get(str(p)),
                       'equal':provenance.get(str(p))==sha(p)} for p in [mp,xp,rp]}
+        if not all(v['equal'] for v in hashes.values()):
+            raise ValueError('Historical input hashes differ; source batch cannot certify reuse')
         checks=[]
         for row in old:
             f=row['metabolite_name'];g=row['gene']

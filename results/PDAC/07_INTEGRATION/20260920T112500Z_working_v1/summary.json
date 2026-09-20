@@ -1,0 +1,10 @@
+{
+  "M": 362,
+  "G": 289,
+  "gene_search_complete": 289,
+  "manual_abstract_records": 8,
+  "historical_cell_source_genes_covered": 6,
+  "historical_cptac_genes_covered": 11,
+  "new_patient_tests_run": false,
+  "overall_first_batch_status": "PARTIAL_SERVER_CONNECTION_BLOCKED"
+}
