@@ -308,6 +308,27 @@
           "scope": "AQP9 existing-study dose/model details; no new independent study"
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:57:00.135109+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "7bb736c23ce013d7f7ae50b65902e0a7e11d7a2f",
+      "verification": "git ls-remote equals local content commit; GitHub PR API head matches, open/unmerged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T072000Z_cell_expression_v1",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T072000Z_cell_expression_v1",
+          "analysis_status": "PARTIAL",
+          "scoped_expression_status": "DONE",
+          "Lee_cells": 63689,
+          "Pelka_cells": 371223,
+          "summary_rows": 4904,
+          "new_patient_covariates": false,
+          "new_P_or_q": false,
+          "candidate_arrangement_unchanged": true
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
