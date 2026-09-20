@@ -350,6 +350,31 @@
           "candidate_arrangement_unchanged": true
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-20T09:22:29.961964+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "3cb00ffb7e8e9203ff3306af180c0948dd785623",
+      "verification": "git ls-remote equals HEAD; GitHub PR1 open and head equals verified commit; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T091100Z_cell_paired35_v1",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T091100Z_cell_paired35_v1",
+          "analysis_status": "PARTIAL",
+          "scoped_paired_expression_status": "DONE",
+          "genes_requested": 35,
+          "rows": 26810,
+          "primary_evaluable": 374,
+          "primary_q_supported": {
+            "Lee": 17,
+            "Pelka": 34
+          },
+          "relation39_original_fields_unchanged": true,
+          "original_patient_association_q_unchanged": true,
+          "candidate_arrangement_unchanged": true
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
