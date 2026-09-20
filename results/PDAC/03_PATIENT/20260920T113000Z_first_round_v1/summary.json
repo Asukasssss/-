@@ -1,0 +1,15 @@
+{
+  "planned_M": 362,
+  "planned_G": 289,
+  "rows": 724,
+  "patient_identity": "NOT_SEPARATELY_VERIFIED",
+  "historical_hash_gate": "PASS",
+  "primary": {
+    "evaluable": 359,
+    "q_lt_0_05": 4
+  },
+  "availability": {
+    "evaluable": 235,
+    "q_lt_0_05": 1
+  }
+}

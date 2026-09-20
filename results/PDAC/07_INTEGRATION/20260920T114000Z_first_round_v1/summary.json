@@ -1,0 +1,25 @@
+{
+  "planned_M": 362,
+  "planned_G": 289,
+  "rows": 724,
+  "patient_identity": "NOT_SEPARATELY_VERIFIED",
+  "historical_hash_gate": "PASS",
+  "primary": {
+    "evaluable": 359,
+    "q_lt_0_05": 4
+  },
+  "availability": {
+    "evaluable": 235,
+    "q_lt_0_05": 1
+  },
+  "identical_inputs_reused": 163,
+  "primary_nominal_p_lt_005": 59,
+  "primary_q_significant_genes": 4,
+  "primary_q_significant_features": 4,
+  "RNA_missing_genes": [
+    "DHRSX",
+    "IL4I1",
+    "PLA2G4B"
+  ],
+  "loo_primary_evaluable": 359
+}

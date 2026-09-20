@@ -1,0 +1,11 @@
+{
+  "version": "PDAC_targeted_function_review_v1",
+  "genes": [
+    "SIRT6"
+  ],
+  "selection": "explicit genetic intervention and accessible full text;not association results",
+  "full_supplement_audit": false,
+  "alias_followup": "87 initial zero-hit genes plus PNP full name;up to3 reviewed aliases;up to3 articles",
+  "alias_queries_completed": 72,
+  "followup_objects_without_alias": 16
+}
