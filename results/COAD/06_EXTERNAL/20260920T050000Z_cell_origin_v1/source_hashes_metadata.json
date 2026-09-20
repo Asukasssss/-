@@ -1,0 +1,67 @@
+[
+  {
+    "name": "lee_annotation.txt.gz",
+    "bytes": 434022,
+    "sha256": "4bf2ebdadc88da53b0c46e654a6576e841925addc25c981d7cdbc0d988b4677c"
+  },
+  {
+    "name": "pelka_author_metadata.csv.gz",
+    "bytes": 333990,
+    "sha256": "2d7b628c8a46c7518a4ecbd6b604d82cf0ce1f026825ab34eb3fd86e87b7f3da"
+  },
+  {
+    "name": "pelka_author_annot.csv.gz",
+    "bytes": 554052,
+    "sha256": "a49bf40ccd3a68ea27e23f5e90701e1ba0600ecceaa1f65bd5c799dc8c997df1"
+  },
+  {
+    "name": "colon10x_default_dDvec_batchID.csv.gz",
+    "bytes": 17960,
+    "sha256": "539dc961d6e4743e92d8ffedbe75f95366f6fbfa4d104234a77a0efa66a8eb31"
+  },
+  {
+    "name": "colon10x_default_dDvec_sampleID.csv.gz",
+    "bytes": 1908573,
+    "sha256": "aea534c9775be660081063331d0ba881dfec2dd1402a7fbc248c2b2addf78bf1"
+  },
+  {
+    "name": "colon10x_default_dDvec_geneID.csv.gz",
+    "bytes": 165330,
+    "sha256": "4bd2c4bea5af07bfa37e9696b18dba3ce94b20a66b31b2dcda83e54a70ee9f3a"
+  },
+  {
+    "name": "colon10x_default_dDvec_ensgID.csv.gz",
+    "bytes": 192835,
+    "sha256": "8aedc6bcac17dbd42b715e8896968951f41b220144c612dcca5424216ce861bd"
+  },
+  {
+    "name": "pelka_geo_metadata_retry.csv.gz",
+    "bytes": 2472848,
+    "sha256": "0452149b0bcff9660951de87913b82a4d72784c08d0c782e49395f756a4b9853"
+  },
+  {
+    "name": "GPL16699.soft.gz",
+    "bytes": 12639598,
+    "sha256": "008e5e59ddaabda3b5072f893aca1f2836bd192b78a073a483eb57040d5dc672"
+  },
+  {
+    "name": "GSE132465_family.soft.gz",
+    "bytes": 4784,
+    "sha256": "f834a84289a83c8f5a101772eb9f43ef299ee2ed8e1286b56f01f3ef3605cf44"
+  },
+  {
+    "name": "GSE132257_family.soft.gz",
+    "bytes": 3824,
+    "sha256": "9733f7599163e459930270c6800bb6e10888e38c1048945c2b348e616760d137"
+  },
+  {
+    "name": "GSE144735_family.soft.gz",
+    "bytes": 3923,
+    "sha256": "3ca0e2c8b90fd3e2d72f60b7c3a5bfedefe19a91f31e544e29fb7d37aa6d4f89"
+  },
+  {
+    "name": "GSE178341_family.soft.gz",
+    "bytes": 20360,
+    "sha256": "57e1a3e7b0404ed81fe9c9667d0e98580bba0d837c7276670651a9a9e759a841"
+  }
+]
