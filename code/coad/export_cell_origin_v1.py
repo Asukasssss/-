@@ -31,19 +31,34 @@ def main():
     assert len({tuple(row[k] for k in keys) for row in rows}) == len(rows)
     for row in rows:
         assert row['p_value'] == row['q_value'] == 'NA'
+        assert int(row['n']) <= int(row['n_reference'])
+        if row['support_set'] == 'patients_with_at_least_20_cells':
+            assert int(row['n_cells']) >= 20 * int(row['n'])
         if int(row['n']) < 3:
             assert row['effect'] == 'NA' and row['detection_fraction_median'] == 'NA'
+        else:
+            for metric in ['detection_fraction', 'pseudobulk_CPM', 'target_UMI', 'library_UMI']:
+                values = [float(row[metric + '_' + q]) for q in ['min', 'q25', 'median', 'q75', 'max']]
+                assert values == sorted(values) and values[0] >= 0
+                if metric == 'detection_fraction':
+                    assert values[-1] <= 1
     with (a.out / 'source_expression_summary.tsv').open('w', encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=header, delimiter='\t', lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
     data = pd.DataFrame(rows)
+    for study, validation in checks.items():
+        for gene in ['HDC', 'GSTA4']:
+            subset = data[data.study.str.startswith(study) & (data.annotation_level == 'lineage') &
+                (data.support_set == 'all_covered_patients') & (data.gene == gene)]
+            assert subset.n_cells.astype(int).sum() == validation['cells']
     display = data[(data.tissue.isin(['T', 'Tumor'])) &
         (data.enrichment.isin(['unsorted', 'NO_CD45_REPORTED_FICOLL_PURIFIED'])) &
         (data.annotation_level == 'lineage') & (data.support_set == 'patients_with_at_least_20_cells')]
     display.to_csv(a.out / 'tumor_unenriched_lineage_display.tsv', sep='\t', index=False)
     validation = {'status': 'PASS', 'rows': len(rows), 'study_checks': checks,
         'source_field_strings_preserved': True, 'public_small_group_suppression': True,
+        'lineage_cell_conservation': True, 'quantile_order_and_detection_bounds': True,
         'unique_keys': True, 'no_new_hypothesis_tests': True,
         'independent_synthetic_tests': '4 PASS on server165; donor weighting/zeros/privacy/identity/sparse indexing',
         'unresolved': ['No spatial validation', 'No CAMP purity or cell-composition adjustment', 'No paper-specific PRMT7 isoform resolution']}

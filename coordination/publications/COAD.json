@@ -278,6 +278,36 @@
           "scope": "Two actual probes, four exact reference-transcript matches; paper V1/V2 unresolved"
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:47:46.413760+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "4eb63d5ab5c80e1f1877131bb8c7c03161ff7c58",
+      "verification": "git ls-remote equals local content commit",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T072000Z_cell_expression_v1",
+          "analysis_status": "PARTIAL",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T072000Z_cell_expression_v1",
+          "scope": "Pelka actual donor summaries DONE; Lee still reading at this commit"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:47:46.413760+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "af26f1c46773d70232010218ac1978262134e145",
+      "verification": "git ls-remote equals local content commit",
+      "batches": [
+        {
+          "stage_id": "05_FUNCTION",
+          "run_id": "20260920T074500Z_direction_details_v1",
+          "analysis_status": "PARTIAL",
+          "result_path": "results/COAD/05_FUNCTION/20260920T074500Z_direction_details_v1",
+          "scope": "AQP9 existing-study dose/model details; no new independent study"
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
