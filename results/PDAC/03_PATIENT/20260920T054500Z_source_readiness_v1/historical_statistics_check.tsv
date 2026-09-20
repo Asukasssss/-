@@ -1,0 +1,5 @@
+gene	metabolite_name	analysis_type	actual_n	n_matches	rho_matches	availability_uses_identical_sample_mask	review_note
+PNP	guanosine	author_processed_primary	27	True	True	True	Historical sensitivity uses different random seed despite identical input; keep immutable, do not count as separate evidence
+PNP	guanosine	author_data_available_sensitivity	27	True	True	True	Historical sensitivity uses different random seed despite identical input; keep immutable, do not count as separate evidence
+SLC29A2	guanosine	author_processed_primary	27	True	True	True	Historical sensitivity uses different random seed despite identical input; keep immutable, do not count as separate evidence
+SLC29A2	guanosine	author_data_available_sensitivity	27	True	True	True	Historical sensitivity uses different random seed despite identical input; keep immutable, do not count as separate evidence

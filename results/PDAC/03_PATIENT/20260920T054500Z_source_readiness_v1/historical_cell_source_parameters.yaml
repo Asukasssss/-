@@ -1,0 +1,14 @@
+analysis_name: pdac_metabolite_gene_atlas_v0.1
+gene_panel: [GGT1, GGT5, GGCT, PEPD, P4HA1, MMP14, CNDP2, DPEP1, SLC15A1, MGLL, ABHD6, MOGAT1, EPHX1, EPHX2]
+proliferation_markers: [MKI67, PCNA, TOP2A, MCM2, MCM5]
+datasets: [GSE263733, GSE278688]
+cell_source_summary: tumor tissue only; supplied labels harmonized to conservative broad cross-dataset compartments
+celltype_harmonization: Fibroblast+CAF+Stellate=Fibroblast/CAF; T+CD4T+CD8T+NK=T/NK; B+Plasma=B/Plasma; other labels unchanged
+tumor_normal_GSE263733: primary PDAC Pm0+Pm1 vs Pn; unpaired patient pseudobulk
+tumor_normal_GSE278688: Tumor vs Adjacent_normal; paired patient pseudobulk using supplied patients field
+normalization: log1p(CPM) from supplied raw UMI counts; no additional batch correction or imputation
+missing_values: not measured remains NA; never converted to zero
+malignant_CNV_labels: not available and not inferred
+proliferation_audit: marker-positive defined by any detected proliferation marker in Tumor Ductal; descriptive only
+classification: LOW_EXPRESSION_NOT_EVALUABLE; PROLIFERATION_ASSOCIATED; REPLICATED_TUMOR_ASSOCIATED_WITHIN_CELLTYPE; REPLICATED_CELLTYPE_BIAS; DATASET_DEPENDENT
+random_seed: not applicable

@@ -1,0 +1,6 @@
+source_path	export_file	status	reason	rows	genes
+results/PDAC_metabolite_gene_atlas_v0.1/tables/pdac_metabolite_gene_master.tsv	historical_cell_source_gene_summary.tsv	NEEDS_REVIEW	Exact historical aggregate recovery; scope, independence and interpretation require review	14	14
+results/PDAC_metabolite_gene_atlas_v0.1/tables/pdac_metabolite_linked_gene_results.tsv	historical_cell_source_relations.tsv	NEEDS_REVIEW	Exact historical aggregate recovery; scope, independence and interpretation require review	20	14
+results/PDAC_mechanism_exploration_v0.1/tables/cptac_candidate_rna_protein_effects.tsv	historical_cptac_effects.tsv	NEEDS_REVIEW	Exact historical aggregate recovery; scope, independence and interpretation require review	13	13
+results/PDAC_mechanism_exploration_v0.1/parameters/hypothesis_lock.yaml	historical_hypothesis_lock.yaml	NEEDS_REVIEW	Exact historical aggregate recovery; scope, independence and interpretation require review	NA	NA
+results/PDAC_metabolite_gene_atlas_v0.1/parameters/analysis_parameters.yaml	historical_cell_source_parameters.yaml	NEEDS_REVIEW	Exact historical aggregate recovery; scope, independence and interpretation require review	NA	NA

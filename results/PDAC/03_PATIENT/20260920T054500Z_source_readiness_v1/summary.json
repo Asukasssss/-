@@ -1,0 +1,22 @@
+{
+  "cancer": "PDAC",
+  "n_mapped_tumor_specimens": 27,
+  "n_mapped_normal_specimens": 12,
+  "mapping_keys_complete": true,
+  "mapping_keys_unique": true,
+  "tumor_rna_ids_found": 27,
+  "tumor_metab_ids_found": 27,
+  "normal_rna_ids_found": 12,
+  "normal_metab_ids_found": 12,
+  "rna_gene_rows": 20032,
+  "rna_gene_labels_unique": true,
+  "frozen_features": 303,
+  "significant_features": 42,
+  "significant_features_present_unique_in_tumor": 42,
+  "significant_features_available_all27_before_imputation": 16,
+  "old_primary_relationships": 2,
+  "old_primary_q_lt_0_05": 0,
+  "patient_independence": "NOT_SEPARATELY_VERIFIED",
+  "tumor_normal_pairing": "NOT_INFERRED",
+  "historical_input_hashes_match": true
+}

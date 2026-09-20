@@ -1,0 +1,49 @@
+evidence_stage: EXPLORATORY_MECHANISM
+metabolite_external_validation: NOT_PERFORMED
+causal_claim_allowed: false
+phase1_source: results/CAMP_Phase1_v1.0
+locked_metabolite_modules:
+  - module_id: purine_deoxynucleoside_axis
+    metabolites: [2'-deoxyinosine, 2'-deoxyguanosine]
+    direction_in_CAMP_PDAC: tumor_lower
+    primary_genes: [PNP]
+    caveat: PNP is a direct phosphorolysis candidate for both nucleosides; expression cannot establish flux.
+  - module_id: thymidine_thymine_axis
+    metabolites: [thymidine, thymine]
+    direction_in_CAMP_PDAC: tumor_lower
+    primary_genes: [TYMP, DPYD]
+    caveat: TYMP is reversible and DPYD acts downstream of thymine; no one-gene explanation is assumed.
+  - module_id: dcmp_axis
+    metabolites: [2'-deoxycytidine 5'-monophosphate]
+    direction_in_CAMP_PDAC: tumor_lower
+    primary_genes: [DCTD, CMPK1]
+    caveat: DCK is an upstream conditional candidate because deoxycytidine was not measured in this module.
+  - module_id: transport_context
+    metabolites: [2'-deoxyinosine, 2'-deoxyguanosine, thymidine]
+    direction_in_CAMP_PDAC: tumor_lower
+    primary_genes: [SLC29A1, SLC29A2]
+    caveat: ENT transport is bidirectional and its direction cannot be inferred from expression alone.
+  - module_id: RNA_turnover_proxy_axis
+    metabolites: [N1-methylguanosine, 2'-O-methylguanosine, 3'-AMP]
+    direction_in_CAMP_PDAC: mixed
+    primary_genes: []
+    caveat: >-
+      Modified guanosines are RNA-turnover proxies and 3'-AMP has an unresolved
+      isomer/identity gate. No direct gene axis will be tested or ranked at this stage.
+candidate_genes:
+  PNP: {tier: primary_direct, axis: purine_deoxynucleoside_axis, relation: direct_phosphorolysis_of_deoxyinosine_and_deoxyguanosine}
+  TYMP: {tier: primary_direct, axis: thymidine_thymine_axis, relation: reversible_thymidine_thymine_phosphorolysis}
+  DPYD: {tier: primary_direct, axis: thymidine_thymine_axis, relation: downstream_thymine_pyrimidine_degradation}
+  DCTD: {tier: primary_direct, axis: dcmp_axis, relation: dCMP_to_dUMP}
+  CMPK1: {tier: primary_direct, axis: dcmp_axis, relation: dCMP_to_dCDP}
+  SLC29A1: {tier: context_direct_transport, axis: transport_context, relation: equilibrative_nucleoside_transport}
+  SLC29A2: {tier: context_direct_transport, axis: transport_context, relation: equilibrative_nucleoside_transport}
+  DCK: {tier: conditional_upstream, axis: dcmp_axis, relation: deoxycytidine_to_dCMP_and_deoxyguanosine_phosphorylation}
+  TK1: {tier: conditional_parallel, axis: thymidine_thymine_axis, relation: cytosolic_thymidine_to_dTMP}
+  TK2: {tier: conditional_parallel, axis: thymidine_thymine_axis, relation: mitochondrial_thymidine_salvage}
+  DGUOK: {tier: conditional_parallel, axis: purine_deoxynucleoside_axis, relation: mitochondrial_deoxyguanosine_phosphorylation}
+  ADA: {tier: adjacent_reaction, axis: purine_deoxynucleoside_axis, relation: deoxyadenosine_to_deoxyinosine_upstream}
+  HPRT1: {tier: adjacent_reaction, axis: purine_deoxynucleoside_axis, relation: downstream_purine_salvage_not_direct_nucleoside_consumption}
+not_tested_due_to_identity_gate:
+  metabolites: [N1-methylguanosine, 2'-O-methylguanosine, 3'-AMP]
+  reason: No one-to-one gene attribution before metabolite/isomer/source confirmation.

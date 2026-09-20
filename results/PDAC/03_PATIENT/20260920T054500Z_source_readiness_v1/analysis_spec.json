@@ -1,0 +1,21 @@
+{
+  "analysis_version": "pdac_source_readiness_v1",
+  "run_id": "20260920T054500Z_source_readiness_v1",
+  "code_base_commit": "0c9dbe2b51478b856de1d10559cc58659f17394b",
+  "script_sha256": "e53b161fa346ee31510c81af285b3f4b04e7650582f92448b30c11025b7da888",
+  "unit": "author_mapped_specimens",
+  "parameters": {
+    "cancer": "PDAC",
+    "matrix_transforms": "none",
+    "new_imputation": false,
+    "new_statistical_tests": false
+  },
+  "test_family": "Historical locked_direct_panel_v1 primary/sensitivity each 2 tests; unchanged",
+  "seed": "Historical seed retained per row; no new permutation/bootstrap",
+  "versions": {
+    "python": "3.8.10",
+    "pandas": "1.5.3",
+    "numpy": "1.24.4",
+    "scipy": "1.10.1"
+  }
+}
