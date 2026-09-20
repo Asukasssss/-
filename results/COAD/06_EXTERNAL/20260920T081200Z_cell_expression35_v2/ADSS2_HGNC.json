@@ -1,0 +1,76 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "omim_id": [
+          "103060"
+        ],
+        "status": "Approved",
+        "name": "adenylosuccinate synthase 2",
+        "ensembl_gene_id": "ENSG00000035687",
+        "uniprot_ids": [
+          "P30520"
+        ],
+        "entrez_id": "159",
+        "pubmed_id": [
+          2004783,
+          1592113
+        ],
+        "location": "1q44",
+        "date_symbol_changed": "2019-07-11T00:00:00Z",
+        "ucsc_id": "uc001iaj.4",
+        "prev_name": [
+          "adenylosuccinate synthase"
+        ],
+        "date_modified": "2023-01-20T00:00:00Z",
+        "mane_select": [
+          "ENST00000366535.4",
+          "NM_001126.5"
+        ],
+        "enzyme_id": [
+          "6.3.4.4"
+        ],
+        "ena": [
+          "BC012356"
+        ],
+        "prev_symbol": [
+          "ADSS"
+        ],
+        "gene_group_id": [
+          4107
+        ],
+        "mgd_id": [
+          "MGI:87948"
+        ],
+        "date_name_changed": "2019-07-11T00:00:00Z",
+        "symbol": "ADSS2",
+        "ccds_id": [
+          "CCDS1624"
+        ],
+        "rgd_id": [
+          "RGD:1310508"
+        ],
+        "hgnc_id": "HGNC:292",
+        "locus_type": "gene with protein product",
+        "locus_group": "protein-coding gene",
+        "vega_id": "OTTHUMG00000040102",
+        "agr": "HGNC:292",
+        "refseq_accession": [
+          "NM_001126"
+        ],
+        "gene_group": [
+          "Adenylosuccinate synthase family"
+        ],
+        "date_approved_reserved": "1989-05-19T00:00:00Z",
+        "uuid": "687f4d80-3f97-4f62-969b-9be9f5800dd2"
+      }
+    ]
+  }
+}

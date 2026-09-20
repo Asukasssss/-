@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "analysis_version": "COAD_cell_origin35_v2",
+  "study": "Pelka",
+  "cells": 371223,
+  "genes_requested": 35,
+  "new_genes_available": 32,
+  "missing_new_genes": [
+    "GSTT2"
+  ],
+  "reused_genes": [
+    "HDC",
+    "GSTA4"
+  ],
+  "rows": 80640,
+  "source_features": 43078,
+  "matrix_sha256": "9737f659b00aad386721558961a62b625a6c538a5aa6b981132061317a694700",
+  "previous_denominator_npz_sha256": "056a75f8ae4aa1027bdb9e8fcb424d7dca5e25fab6aa0ea932366c10f8123a49",
+  "denominator_reused_from": "20260920T072000Z_cell_expression_v1",
+  "metadata_hashes_unchanged": true,
+  "lock_commit": "bece086fbc0964537071eaa7c5bd93f4cb649e89",
+  "spec_sha256": "a98f2e9ef4ab5ee284174c965af96532cfc88abf5a50ebce91129b8ebe20d7e3",
+  "code_sha256": "e87a0a5104d67a98cfe17dcf6a676488033741c78110de547a9ec7e35f360905",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "new_hypothesis_tests": false,
+  "patient_rows_exported": false
+}
