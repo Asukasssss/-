@@ -1,0 +1,5 @@
+source_id	path_or_url	version	sha256	bytes	local_source_copy
+Chen2025_MOESM1	https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12943-025-02359-x/MediaObjects/12943_2025_2359_MOESM1_ESM.docx	Retrieved server165 2026-09-20	f939d265ab7d5038755c385b949da8aa9de114ada2c740323e62c68811889731	7133583	False
+Chen2025_MOESM2	https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12943-025-02359-x/MediaObjects/12943_2025_2359_MOESM2_ESM.docx	Retrieved server165 2026-09-20	fd3dbd0c1d243bac3fa7473e0159ee7a3be5c7e5882839800e0b03789428dbfc	40083	False
+code	code/coad/inspect_chen_supplements_v1.py	7f7363fb94ea95676e073b36ca8acc705d63a296 plus execution hash	578eabf3bf45d52538bc80954e72139b069faef64d4850fcf708bf0801f11322	2812	True
+code	code/coad/audit_relation39_sources_v1.py	7f7363fb94ea95676e073b36ca8acc705d63a296 plus execution hash	1f04aebfba000e67c5076cfd4dbf8a59d6f310a93c1f7b7afeda1b81943d76b6	2507	True

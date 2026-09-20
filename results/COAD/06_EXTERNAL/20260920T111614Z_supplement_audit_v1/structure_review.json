@@ -1,0 +1,68 @@
+[
+  {
+    "source_id": "Chen2025_MOESM1",
+    "table_titles": [],
+    "table_headers": [],
+    "figure_labels": [
+      "Fig.S1",
+      "Fig.S2",
+      "Fig.S3",
+      "Fig.S4",
+      "Fig.S5",
+      "Fig.S6",
+      "Fig.S7"
+    ],
+    "external_links": [],
+    "embedded_objects": [],
+    "numeric_patient_rows_exported": false
+  },
+  {
+    "source_id": "Chen2025_MOESM2",
+    "table_titles": [
+      "Table S1:Clinical information about the CRC patients",
+      "Table S2: Primer sequences for qRT-PCR",
+      "Table S3:The antibodies used in Western blot analysis",
+      "Table S4：Sequence of MSTRG60967.1",
+      "Table S5：Clinical information about the CRC tissues undergoing qRT-PCR verification"
+    ],
+    "table_headers": [
+      [
+        "Sample",
+        "Sex(female/male)",
+        "Age（years）",
+        "Location",
+        "Stage",
+        "Pathological type",
+        "MSI status",
+        "IHC analysis of MMR proteins"
+      ],
+      [
+        "Gene",
+        "Sequence"
+      ],
+      [
+        "Name",
+        "Source",
+        "Catalog number"
+      ],
+      [
+        "Gene",
+        "Sequence"
+      ],
+      [
+        "Sample",
+        "Sex(female/male)",
+        "Age（years）",
+        "Location",
+        "Stage",
+        "Pathological type",
+        "MSI status",
+        "IHC analysis of MMR proteins"
+      ]
+    ],
+    "figure_labels": [],
+    "external_links": [],
+    "embedded_objects": [],
+    "numeric_patient_rows_exported": false
+  }
+]

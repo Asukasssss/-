@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Two source CRC/OOXML structures;execution code hashes;public metadata only;not biological validation",
+  "source_files": 2,
+  "all_downloaded": true,
+  "source_hashes_recorded": true,
+  "local_code_hash_matches_execution": true,
+  "public_table_rows_are_headers_only": true,
+  "new_patient_tests": false,
+  "historical_results_modified": false,
+  "independent_ready_relationships": 0,
+  "remaining": "Processed matched omics,exact coverage,specimen map,eligible independent patients"
+}
