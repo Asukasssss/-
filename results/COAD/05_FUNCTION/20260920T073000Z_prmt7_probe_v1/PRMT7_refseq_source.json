@@ -1,0 +1,11 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_019023.5,NM_001184824.4&rettype=fasta&retmode=text",
+  "fasta_sha256": "f55fb2446830d4be9cc4d097cb99580a4939b774b76d5533c7145982cfe11db1",
+  "accessed_utc_date": "2026-09-20",
+  "versions": [
+    "NM_019023.5",
+    "NM_001184824.4"
+  ],
+  "method": "Exact 60nt forward and reverse-complement search in two explicitly versioned reference transcripts; not genome-wide cross-hybridization analysis",
+  "interpretation": "Both probes match both references; these two probes cannot distinguish these two reference transcripts. Paper V1/V2 mapping remains unresolved."
+}

@@ -248,6 +248,21 @@
           "validation": "PASS"
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:25:51.609766+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "09498b982756677e106e1a10578868a9017ddc91",
+      "verification": "git ls-remote equals local content commit; pre-expression rules uploaded before raw target extraction",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T050000Z_cell_origin_v1",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T050000Z_cell_origin_v1",
+          "analysis_status": "PARTIAL",
+          "scope": "Metadata coverage DONE; expression NOT_RUN at locked commit; PRMT7 platform probes retrieved"
+        }
+      ]
     }
   ],
   "preanalysis_verification": {

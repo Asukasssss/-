@@ -1,0 +1,18 @@
+{
+  "analysis_version": "COAD_PRMT7_probe_v1",
+  "scope": "Public sequence matching only; no expression reanalysis",
+  "probes": [
+    "A_23_P77437",
+    "A_23_P77430"
+  ],
+  "references": [
+    "NM_019023.5",
+    "NM_001184824.4"
+  ],
+  "method": "Exact 60nt forward and reverse-complement search in two explicitly versioned reference transcripts; not genome-wide cross-hybridization analysis",
+  "test_family": "NA descriptive sequence match",
+  "gene_matrix_variant_quantification": "NOT_EVALUABLE",
+  "paper_V1_V2_mapping": "NEEDS_REVIEW",
+  "publisher_access": "ScienceDirect HTTP403; EuropePMC no fulltext/supplement available",
+  "seed": null
+}
