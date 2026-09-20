@@ -1,0 +1,7 @@
+gene	model	n	primary_rho	exclude_warning_rho	p_value	q_value	reason
+ASNS	other_three	257	-0.16053452248253267	-0.15815296595682707	NA	NA	prespecified_effect_only_sensitivity
+GLS	other_three	257	-0.2713583650844414	-0.2768085118573944	NA	NA	prespecified_effect_only_sensitivity
+GLS2	other_three	257	0.0033152378493685425	0.00933625536165428	NA	NA	prespecified_effect_only_sensitivity
+GLUL	other_three	257	0.14951624628028992	0.1463787836876451	NA	NA	prespecified_effect_only_sensitivity
+ASNS	mutual_pair	257	-0.17881575255185117	-0.1747184042649572	NA	NA	prespecified_effect_only_sensitivity
+GLS	mutual_pair	257	-0.2563516285332294	-0.2626752171134989	NA	NA	prespecified_effect_only_sensitivity

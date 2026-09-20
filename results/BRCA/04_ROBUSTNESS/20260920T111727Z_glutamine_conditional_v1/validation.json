@@ -1,0 +1,16 @@
+{
+  "status": "DONE",
+  "n_input": 258,
+  "n_complete": 258,
+  "n_sensitivity": 257,
+  "models": 6,
+  "bootstrap_resamples_per_model": 2000,
+  "precision_matrix_crosscheck": "PASS",
+  "q_family": 6,
+  "prior_statistics_modified": false,
+  "patient_values_exported": false,
+  "independent_replication": false,
+  "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "numpy": "1.24.4",
+  "scipy": "1.10.1"
+}

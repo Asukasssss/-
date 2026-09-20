@@ -1,0 +1,7 @@
+gene1	gene2	n	rho	interpretation
+ASNS	GLS	258	0.4437010015690678	descriptive_expression_correlation;no_new_hypothesis_test
+ASNS	GLS2	258	0.18566559512142475	descriptive_expression_correlation;no_new_hypothesis_test
+ASNS	GLUL	258	-0.08737621885753276	descriptive_expression_correlation;no_new_hypothesis_test
+GLS	GLS2	258	0.13108818368884823	descriptive_expression_correlation;no_new_hypothesis_test
+GLS	GLUL	258	0.05222923972358413	descriptive_expression_correlation;no_new_hypothesis_test
+GLS2	GLUL	258	-0.06095899197262548	descriptive_expression_correlation;no_new_hypothesis_test
