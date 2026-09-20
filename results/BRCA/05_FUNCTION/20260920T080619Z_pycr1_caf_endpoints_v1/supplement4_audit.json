@@ -1,0 +1,17 @@
+{
+  "status": "NEEDS_REVIEW",
+  "source": "Supplementary Data 4",
+  "site_rows": 13,
+  "unique_peptide_sequences": 4,
+  "intensity_columns": [
+    "Intensity shCTL(12C)_r01 (log2)",
+    "Intensity shCTL(12C)_r02 (log2)",
+    "Intensity shCTL(12C)_r03 (log2)",
+    "Intensity shCTL(13C)_r01 (log2)",
+    "Intensity shCTL(13C)_r02 (log2)",
+    "Intensity shCTL(13C)_r03 (log2)"
+  ],
+  "PYCR1_knockdown_column_found": false,
+  "website_description_disagrees_with_table": true,
+  "interpretation": "Labelled proline-containing COL1A1 peptide detection in control-labelled cultures; no available knockdown contrast; site rows not independent replicates"
+}

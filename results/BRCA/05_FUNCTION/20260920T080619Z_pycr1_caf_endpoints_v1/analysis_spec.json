@@ -1,0 +1,24 @@
+{
+  "analysis_version": "caf_endpoint_v1",
+  "scope": "Published CAF source-data re-extraction and targeted metadata followup",
+  "statistical_unit": "author-defined biological experiment averages where identifiable; peptide sites and genes not independent replicates",
+  "new_tests": 0,
+  "multiplicity": "NOT_APPLICABLE descriptive extraction only",
+  "effect": "ratio of group means of author-normalized measurements, no new normalization",
+  "included_panels": [
+    "Fig3i",
+    "Fig3n",
+    "Fig3o",
+    "Fig3p descriptive gene summaries"
+  ],
+  "blocked_panels": [
+    "Supplementary Data4 knockdown contrast absent",
+    "Fig3g ambiguous intervention labels",
+    "Fig3h 4 workbook blocks versus caption n3"
+  ],
+  "design_amendment": "Cancer-cell collagen RNA score is not a CAF collagen synthesis validation endpoint; future cancer-cell E2F question remains conditional on units and sample/replicate identities; no new perturbation program outcomes calculated",
+  "historical_analysis": "Preserved, no prior P/q or frozen program outputs modified",
+  "source_residency": "server165",
+  "script": "code/brca_pycr1_caf_endpoints_v1.py",
+  "script_sha256": "75b261717c388055f829009e1c988acfeaafcc2cb5b8f81d76c7f8ed3fdfb8a8"
+}

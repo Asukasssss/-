@@ -1,0 +1,2 @@
+source	n_ECM_gene_rows	n_KD_higher_than_control	n_proline_lower_than_KD	median_control	median_KD	median_KD_plus_proline	status	reason
+Fig3p	22	22	22	0.046801481000000006	0.1192860815	0.0667948435	DONE	Descriptive across author-selected genes; no replicate-resolved columns; genes are not independent experiment replicates; no P/q

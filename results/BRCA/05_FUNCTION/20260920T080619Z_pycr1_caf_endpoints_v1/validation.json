@@ -1,0 +1,24 @@
+{
+  "status": "DONE",
+  "scope": "bounded descriptive endpoint re-extraction; not full source-data validation",
+  "checks": [
+    {
+      "check": "Fig3i_COL6A1_over_Ponceau",
+      "status": "PASS",
+      "n_cells_verified": 9
+    }
+  ],
+  "RNA_biological_averages_per_group": 3,
+  "S4_rows": 13,
+  "S4_unique_sequences": 4,
+  "ENA_runs": 9,
+  "new_tests": 0,
+  "causal_or_independent_replication_claim": false,
+  "unresolved_items_retained": 4,
+  "runtime": {
+    "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "openpyxl": "3.1.5"
+  }
+}

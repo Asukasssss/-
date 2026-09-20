@@ -1,0 +1,5 @@
+source	status	issue
+Fig3g	NEEDS_REVIEW	Three intervention rows labelled siPYCR1,siPYCR2,siPYCR3; cannot silently relabel as PYCR1 replicate1/2/3
+Fig3h	NEEDS_REVIEW	Four labelled replicate blocks in workbook vs three biological replicates in figure caption; no selection or formal test
+Fig3p	PARTIAL	22 gene summaries without three separate biological replicate columns; no replicate-level inference
+GSE220931_ENA	NEEDS_REVIEW	Nine ENA run/sample titles corroborate GEO titles but do not resolve conflicting genotype fields, processed matrix units or biological independence
