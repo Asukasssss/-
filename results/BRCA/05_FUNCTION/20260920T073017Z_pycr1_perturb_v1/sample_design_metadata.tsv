@@ -1,0 +1,10 @@
+accession	title	genotype	in_matrix
+GSM6829540	ctrl_1	WT	True
+GSM6829541	ctrl_2	WT	True
+GSM6829542	ctrl_3	WT	True
+GSM6829543	shP1_1	shP1 konckdown	True
+GSM6829544	shP1_2	shP1 konckdown	True
+GSM6829545	shP1_3	shP1 konckdown	True
+GSM6829546	shP2_1	shP2 konckdown	True
+GSM6829547	shP2_2	shP3 konckdown	True
+GSM6829548	shP2_3	shP4 konckdown	True

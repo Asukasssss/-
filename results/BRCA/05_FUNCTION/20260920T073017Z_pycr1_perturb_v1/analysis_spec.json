@@ -1,0 +1,19 @@
+{
+  "analysis_version": "pycr1_perturb_inventory_v1",
+  "status": "NEEDS_REVIEW",
+  "formal_tests": 0,
+  "unit": "author sample columns; biological replicate independence unresolved",
+  "normalization": "NOT_RUN",
+  "planned_programs": [
+    "HALLMARK_E2F_TARGETS",
+    "REACTOME_COLLAGEN_FORMATION"
+  ],
+  "planned_contrasts": [
+    "shP1 vs ctrl",
+    "shP2 vs ctrl subject to label resolution"
+  ],
+  "planned_family_n": 4,
+  "source_matrix_residency": "server165",
+  "script": "code/brca_pycr1_perturb_inventory_v1.py",
+  "script_sha256": "5c0d2e9d015f6613e74fcc8838a815043ea84bf4abfd1aef5d0f2a38caecd07c"
+}

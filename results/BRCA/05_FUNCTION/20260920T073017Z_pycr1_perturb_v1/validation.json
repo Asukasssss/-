@@ -1,0 +1,12 @@
+{
+  "status": "NEEDS_REVIEW",
+  "n_features": 58735,
+  "n_samples": 9,
+  "noninteger_values": 0,
+  "missing_values": 0,
+  "negative_values": 0,
+  "duplicate_gene_ids": 0,
+  "formal_tests": 0,
+  "reason": "Integer matrix without unambiguous count declaration; FPKM processing text; shP2_2/3 genotype labels conflict with titles; article hg19 vs GEO hg38",
+  "source_matrix_exported": false
+}

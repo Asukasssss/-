@@ -1,0 +1,4 @@
+group_as_column_title	n_columns	minimum_supplied_value	median_supplied_value	maximum_supplied_value	unit	status	reason
+ctrl	3	848	1450.0	1749	UNRESOLVED_AUTHOR_PROCESSED_UNITS	NEEDS_REVIEW	Descriptive input audit only; not normalized abundance, knockdown efficiency or formal inference
+shP1	3	862	924.0	959	UNRESOLVED_AUTHOR_PROCESSED_UNITS	NEEDS_REVIEW	Descriptive input audit only; not normalized abundance, knockdown efficiency or formal inference
+shP2	3	346	353.0	394	UNRESOLVED_AUTHOR_PROCESSED_UNITS	NEEDS_REVIEW	Descriptive input audit only; not normalized abundance, knockdown efficiency or formal inference
