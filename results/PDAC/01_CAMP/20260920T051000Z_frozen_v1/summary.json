@@ -1,0 +1,20 @@
+{
+  "all_effects": 303,
+  "original_q_lt_0_05": 42,
+  "positive_g_significant": 12,
+  "negative_g_significant": 30,
+  "significant_unknown_x": 0,
+  "cohorts": {
+    "PDAC": 303
+  },
+  "significant_pathways": {
+    "Lipid": 14,
+    "Nucleotide": 10,
+    "Peptide": 6,
+    "Amino Acid": 5,
+    "Energy": 1,
+    "Amino acid": 4,
+    "Carbohydrate": 1,
+    "Cofactors and Vitamins": 1
+  }
+}
