@@ -263,6 +263,21 @@
           "scope": "Metadata coverage DONE; expression NOT_RUN at locked commit; PRMT7 platform probes retrieved"
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:32:24.937287+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "154075f7bafcf38edd18d5e6a1494ce755b078bc",
+      "verification": "git ls-remote equals local content commit",
+      "batches": [
+        {
+          "stage_id": "05_FUNCTION",
+          "run_id": "20260920T073000Z_prmt7_probe_v1",
+          "analysis_status": "PARTIAL",
+          "result_path": "results/COAD/05_FUNCTION/20260920T073000Z_prmt7_probe_v1",
+          "scope": "Two actual probes, four exact reference-transcript matches; paper V1/V2 unresolved"
+        }
+      ]
     }
   ],
   "preanalysis_verification": {

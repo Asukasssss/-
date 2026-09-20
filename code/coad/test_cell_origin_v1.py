@@ -1,11 +1,12 @@
 """Scientific invariants for donor aggregation, zero handling, and cell alignment."""
 import gzip
+import importlib.util
 import tempfile
 import unittest
 from pathlib import Path
 import numpy as np
 import pandas as pd
-from run_cell_expression_v1 import summarize, read_lee
+from run_cell_expression_v1 import summarize, read_lee, read_pelka
 
 class CellOriginTests(unittest.TestCase):
     def test_donor_equal_and_measured_zero(self):
@@ -44,6 +45,24 @@ class CellOriginTests(unittest.TestCase):
             np.testing.assert_array_equal(total, [6, 10004])
             np.testing.assert_array_equal(targets['HDC'], [2, 1])
             self.assertEqual(checks['genes'], 10002)
+
+    @unittest.skipUnless(importlib.util.find_spec('h5py'), 'Server h5py required')
+    def test_author_sparse_one_based_unsorted_and_duplicate_triplets(self):
+        import h5py
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            vectors = {'geneID': ['HDC', 'GSTA4'] + [f'GENE{i}' for i in range(10000)],
+                'ensgID': [f'ENS{i}' for i in range(10002)], 'sampleID': ['cellA', 'cellB']}
+            for name, values in vectors.items():
+                with gzip.open(d / ('colon10x_default_dDvec_' + name + '.csv.gz'), 'wt') as f:
+                    f.write('\n'.join(values) + '\n')
+            with h5py.File(d / 'colon10x_default_dSp_rawCount.h5', 'w') as f:
+                for key, values in {'i': [10002, 1, 2, 1, 2], 'j': [2, 1, 2, 1, 1], 'v': [10, 2, 4, 1, 5]}.items():
+                    f.create_dataset(key, data=np.array([values], dtype=float))
+            total, target, _ = read_pelka(d, np.array(['cellA', 'cellB']))
+            np.testing.assert_array_equal(total, [8, 14])
+            np.testing.assert_array_equal(target['HDC'], [3, 0])
+            np.testing.assert_array_equal(target['GSTA4'], [5, 4])
 
 if __name__ == '__main__':
     unittest.main()
