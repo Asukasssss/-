@@ -1,11 +1,15 @@
 {
   "cancer": "PDAC",
   "branch": "analysis/pdac-initial",
-  "verified_result_commit": "894a346e4c927c1e1afbdc5eae279bd0430e3e92",
+  "verified_result_commit": "fbf21a1c10333cb057009944e0702f1ae1873d05",
   "publication_status": "BRANCH_PUSH_VERIFIED",
   "pull_request": "https://github.com/Asukasssss/-/pull/2",
   "pull_request_status": "DRAFT",
   "merged_to_main": false,
-  "completed_batches": ["20260920T051000Z_frozen_v1", "20260920T054500Z_source_readiness_v1"],
+  "completed_batches": ["20260920T051000Z_frozen_v1", "20260920T054500Z_source_readiness_v1", "20260920T111500Z_direct_mapping_v1", "20260920T113000Z_first_round_v1"],
+  "partial_evidence_batches": ["20260920T112000Z_all_gene_search_v1", "20260920T114000Z_targeted_followup_v1", "20260920T112500Z_all_gene_coverage_v1", "20260920T114000Z_first_round_v1"],
+  "publication_method": "GitHub Git data API; exact local commit/tree/blob SHA verified; non-force fast-forward",
+  "first_round_scope": "362 relations,289 genes;359 primary evaluable,4 q<0.05;235 availability evaluable,1 q<0.05;359 primary leave-one-out",
+  "remaining": ["patient independence", "all-gene functional adjudication", "all-gene single-cell/CPTAC expansion", "prespecified covariate sensitivity", "external joint-omics feasibility"],
   "patient_level_data_published": false
 }
