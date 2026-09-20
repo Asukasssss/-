@@ -1,0 +1,8 @@
+{
+  "analysis_version": "COAD_direction_details_v1",
+  "scope": "Append condition details to received rows; no new study count or candidate reranking",
+  "statistical_unit": "NA literature context",
+  "test_family": "NA",
+  "seed": null,
+  "not_run": "New KMT5A2026 methods review; other source re-review"
+}

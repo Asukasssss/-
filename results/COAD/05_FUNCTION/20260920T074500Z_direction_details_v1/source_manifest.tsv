@@ -1,0 +1,4 @@
+source_id	url	sha256	reading_scope
+AQP9_2017	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5520935/fullTextXML	7ad515189a48114c782c212c20fe5c7f420f10ac6cb04b645f34fc32aadde27c	Selected methods and figure captions; no new independent evidence
+AQP9_2025	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11986171/fullTextXML	89f19aeb068f8d1458450b0565ec98148d7dd1aa2236dacccc7cf3870ac4d47f	Selected methods and figure captions; no new independent evidence
+KMT5A2023	https://doi.org/10.1016/j.tice.2023.102065	NA	Fulltext unavailable in this attempt; missing fields retained
