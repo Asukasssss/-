@@ -1,0 +1,77 @@
+{
+  "tumor_cases": 60,
+  "paired_cases": 45,
+  "source_hashes_unchanged": true,
+  "independent_partial_OLS_max_error": 4.996003610813204e-16,
+  "BH_independently_checked": true,
+  "paired_t_formula_checked": true,
+  "original_statistics_modified": false,
+  "PCA_variance": [
+    0.4021942953921614,
+    0.23910582800650504
+  ],
+  "families": {
+    "available_ER": {
+      "planned": 174,
+      "evaluable": 171,
+      "q_lt005": 8,
+      "n_min": 33.0,
+      "n_max": 60.0
+    },
+    "available_ER_MonoEndoFib": {
+      "planned": 174,
+      "evaluable": 171,
+      "q_lt005": 2,
+      "n_min": 33.0,
+      "n_max": 60.0
+    },
+    "available_ER_PC12": {
+      "planned": 174,
+      "evaluable": 171,
+      "q_lt005": 0,
+      "n_min": 33.0,
+      "n_max": 60.0
+    },
+    "available_Spearman": {
+      "planned": 174,
+      "evaluable": 171,
+      "q_lt005": 10,
+      "n_min": 33.0,
+      "n_max": 60.0
+    },
+    "paired_RNA": {
+      "planned": 117,
+      "evaluable": 116,
+      "q_lt005": 60,
+      "n_min": 45.0,
+      "n_max": 45.0
+    },
+    "processed_ER": {
+      "planned": 174,
+      "evaluable": 171,
+      "q_lt005": 7,
+      "n_min": 60.0,
+      "n_max": 60.0
+    },
+    "processed_Spearman": {
+      "planned": 174,
+      "evaluable": 171,
+      "q_lt005": 12,
+      "n_min": 60.0,
+      "n_max": 60.0
+    }
+  },
+  "independent_R_paired_max_errors": {
+    "effect": 3.774758283725532e-15,
+    "p_value": 6.106226635438361e-16,
+    "q_value": 6.661338147750939e-16,
+    "ci_lower": 1.9252399674485332e-09,
+    "ci_upper": 1.9252355265564347e-09
+  },
+  "identity_audit_source_hashes_match": 3,
+  "R_check_interval_tolerance_note": "R/SciPy inverse t implementations differ at df44; CI absolute tolerance1e-8, effect/P/q1e-10; no estimates changed",
+  "historical_columns_preserved": 228,
+  "appended_master_columns": 249,
+  "master_rows": 117,
+  "finalizer_input_master_sha256": "5996b3564b9f1de60b219c926d6c4d6124d144e1beeaebfcf1d05ec8cc7425f1"
+}

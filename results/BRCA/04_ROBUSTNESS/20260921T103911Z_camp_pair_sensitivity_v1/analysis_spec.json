@@ -1,0 +1,37 @@
+{
+  "version": "camp_pair_sensitivity_v1",
+  "planned_relations": 174,
+  "planned_genes": 117,
+  "excluded_accession": "GSM927051",
+  "exclusion_reason": "GEO/CAMP tumor vs original Excel/PDF normal; exclude, do not relabel",
+  "families": [
+    "processed_Spearman",
+    "available_Spearman",
+    "processed_ER",
+    "available_ER",
+    "available_ER_PC12",
+    "available_ER_MonoEndoFib",
+    "paired_RNA"
+  ],
+  "multiplicity": "BH separately over evaluable items of each full174 family; paired RNA separately over evaluable of117; missing stay NA",
+  "permutation_n": 9999,
+  "spearman_bootstrap": 4000,
+  "adjusted_bootstrap": 500,
+  "paired_mean_bootstrap": 4000,
+  "paired_RNA": "two-sided paired t test of tumor-normal mean difference on unchanged author microarray scale; t95CI and paired-case bootstrap interval; no fold-change assumption",
+  "adjusted": "same partial rank and within-ER residual permutation method as prior composition analysis; 500 stratified case bootstraps; scores fixed within bootstrap",
+  "PCA": "same eligible marker panels and excluded117 candidates; refit centering/scaling/PCA on60 retained tumors, no parameter search",
+  "minimum_n_spearman": 8,
+  "minimum_n_ER": 8,
+  "minimum_per_ER_group": 4,
+  "minimum_n_composition": 20,
+  "original_statistics_changed": false,
+  "postselection_same_cohort": true,
+  "source_patient_identity": "author case table, not genetic fingerprint verification",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  }
+}
