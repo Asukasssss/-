@@ -479,6 +479,23 @@
           "new_tests": false
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T05:15:59.619360+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "1c413c4e35cdc8c76415b08809bcd0b01cc43204",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T050501Z_integral_acquire_v1",
+          "analysis_status": "PARTIAL",
+          "source_files_acquired": 2,
+          "patients": 6,
+          "processed_matrices_acquired": 3,
+          "new_tests": false
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
