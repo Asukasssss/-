@@ -422,6 +422,25 @@
           "original_statistics_and_arrangement_unchanged": true
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T03:06:13.823499+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "2e43802fffd7aa6ad4a377e55c5c2e238b41a6d5",
+      "verification": "git ls-remote matches HEAD;PR1 open and head matches",
+      "batches": [
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260921T025931Z_acquisition_review_v1",
+          "result_path": "results/COAD/07_INTEGRATION/20260921T025931Z_acquisition_review_v1",
+          "analysis_status": "PARTIAL",
+          "scoped_acquisition_and_interpretation": "DONE",
+          "new_datasets": 0,
+          "emails_sent": 0,
+          "new_tests": false,
+          "arrangement_unchanged": true
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
