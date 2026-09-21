@@ -1,0 +1,36 @@
+{
+  "status": "DONE",
+  "pairs": 45,
+  "planned_per_family": 318,
+  "scale_max_errors": {
+    "metabo_imputed_filtered_Tumor": 0.0,
+    "metabo_imputed_filtered_Normal": 0.0
+  },
+  "input_hashes_unchanged": true,
+  "BH_independently_checked": true,
+  "counts_sum_checked": true,
+  "old_statistics_modified": false,
+  "families": {
+    "paired_author_available": {
+      "evaluable": 288,
+      "q_lt005": 121,
+      "n_min": 1,
+      "n_max": 45,
+      "higher_significant": 62,
+      "lower_significant": 59
+    },
+    "paired_processed": {
+      "evaluable": 318,
+      "q_lt005": 176,
+      "n_min": 45,
+      "n_max": 45,
+      "higher_significant": 141,
+      "lower_significant": 35
+    }
+  },
+  "independent_R_max_errors": {
+    "p": 5.551115123125783e-16,
+    "q": 6.106226635438361e-16
+  },
+  "independent_R_direction_counts_match": true
+}

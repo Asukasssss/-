@@ -1,0 +1,16 @@
+{
+  "primary_significant": 176,
+  "old_significant": 186,
+  "retained_significant": 165,
+  "new_only": 11,
+  "old_only": 21,
+  "primary_mean_direction_vs_old_changed": 19,
+  "available_evaluable": 288,
+  "available_significant": 121,
+  "both_significant": 95,
+  "both_significant_same_mean_direction": 93,
+  "available_vs_primary_mean_direction_changed": 57,
+  "primary_approximation_warnings": 0,
+  "available_approximation_warnings": 26,
+  "primary_significant_mean_rank_direction_disagree": 0
+}

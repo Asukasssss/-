@@ -1,0 +1,18 @@
+{
+  "version": "metabolite318_paired_v1",
+  "planned_features": 318,
+  "pairs": 45,
+  "primary": "author_processed_all45",
+  "sensitivity": "both_sides_finite_in_author_data_sheet;not_verified_detection_mask",
+  "test": "two-sided paired Wilcoxon signed-rank on unchanged author processed scale;drop exact-zero differences;asymptotic normal tie correction;continuity correction;minimum8 pairs",
+  "effect": "mean tumor-minus-own-normal on author processed scale, NOT Hedges g or concentration fold change",
+  "interval": "4000 whole-pair percentile bootstrap of mean difference;pointwise;not inversion of signed-rank test",
+  "multiplicity": "BH separately over all evaluable of318 primary and318 availability sensitivity;missing NA;all-zero difference p1",
+  "assumptions": "signed-rank location interpretation assumes symmetric paired-difference distribution;counts are descriptive and not per-patient significance",
+  "original_statistics_modified": false,
+  "imputation": "reuse author processed values only;no new imputation/transform/normalization",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "scipy": "1.10.1"
+}
