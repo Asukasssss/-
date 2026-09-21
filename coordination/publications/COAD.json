@@ -513,6 +513,20 @@
           "new_tests": false
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T08:49:35.487632+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "1038b68eccff9f0f593529278240b33c48e17147",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T084424Z_sc_sources_v1",
+          "analysis_status": "PARTIAL",
+          "new_tests": false
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
