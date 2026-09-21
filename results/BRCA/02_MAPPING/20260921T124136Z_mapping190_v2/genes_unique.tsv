@@ -1,0 +1,151 @@
+gene	in_original117	n_direct_relations	metabolite_keys	metabolite_names	relation_keys	scope
+AASS	True	1	KEGG:C00047	lysine	KEGG:C00047|AASS	Direct biochemical candidate; no new patient/function test
+ABHD12	False	8	KEGG:C00219;KEGG:C00712;KEGG:C01530;KEGG:C01885;KEGG:C02679;KEGG:C03916;KEGG:C06424;KEGG:D01947	arachidonate (20:4n6) ; oleate (18:1n9) ; stearate (18:0) ; 1-palmitoylglycerol (1-monopalmitin) ; laurate (12:0) ; 1-oleoylglycerophosphocholine ; myristate (14:0) ; 1-stearoylglycerol (18:0)	KEGG:C00219|ABHD12;KEGG:C00712|ABHD12;KEGG:C01530|ABHD12;KEGG:C01885|ABHD12;KEGG:C02679|ABHD12;KEGG:C03916|ABHD12;KEGG:C06424|ABHD12;KEGG:D01947|ABHD12	Direct biochemical candidate; no new patient/function test
+ABHD6	False	4	KEGG:C00219;KEGG:C00712;KEGG:C02679;KEGG:C06424	arachidonate (20:4n6) ; oleate (18:1n9) ; laurate (12:0) ; myristate (14:0)	KEGG:C00219|ABHD6;KEGG:C00712|ABHD6;KEGG:C02679|ABHD6;KEGG:C06424|ABHD6	Direct biochemical candidate; no new patient/function test
+ACSL1	False	2	KEGG:C00219;KEGG:C00712	arachidonate (20:4n6) ; oleate (18:1n9)	KEGG:C00219|ACSL1;KEGG:C00712|ACSL1	Direct biochemical candidate; no new patient/function test
+ACSL3	False	7	KEGG:C00219;KEGG:C00712;KEGG:C01530;KEGG:C02679;KEGG:C06424;KEGG:C06428;KEGG:C06429	arachidonate (20:4n6) ; oleate (18:1n9) ; stearate (18:0) ; laurate (12:0) ; myristate (14:0) ; eicosapentaenoate (EPA; 20:5n3) ; docosahexaenoate (DHA; 22:6n3)	KEGG:C00219|ACSL3;KEGG:C00712|ACSL3;KEGG:C01530|ACSL3;KEGG:C02679|ACSL3;KEGG:C06424|ACSL3;KEGG:C06428|ACSL3;KEGG:C06429|ACSL3	Direct biochemical candidate; no new patient/function test
+ACSL4	False	4	KEGG:C00219;KEGG:C06428;KEGG:C06429;KEGG:C16527	arachidonate (20:4n6) ; eicosapentaenoate (EPA; 20:5n3) ; docosahexaenoate (DHA; 22:6n3) ; adrenate (22:4n6)	KEGG:C00219|ACSL4;KEGG:C06428|ACSL4;KEGG:C06429|ACSL4;KEGG:C16527|ACSL4	Direct biochemical candidate; no new patient/function test
+ACSL5	False	2	KEGG:C00219;KEGG:C00712	arachidonate (20:4n6) ; oleate (18:1n9)	KEGG:C00219|ACSL5;KEGG:C00712|ACSL5	Direct biochemical candidate; no new patient/function test
+ACSL6	False	1	KEGG:C00219	arachidonate (20:4n6)	KEGG:C00219|ACSL6	Direct biochemical candidate; no new patient/function test
+ACSM1	False	2	KEGG:C02679;KEGG:C06424	laurate (12:0) ; myristate (14:0)	KEGG:C02679|ACSM1;KEGG:C06424|ACSM1	Direct biochemical candidate; no new patient/function test
+ADA	True	2	KEGG:C00212;KEGG:C00294	adenosine ; inosine	KEGG:C00212|ADA;KEGG:C00294|ADA	Direct biochemical candidate; no new patient/function test
+ADA2	True	2	KEGG:C00212;KEGG:C00294	adenosine ; inosine	KEGG:C00212|ADA2;KEGG:C00294|ADA2	Direct biochemical candidate; no new patient/function test
+AFMID	True	1	KEGG:C00328	kynurenine	KEGG:C00328|AFMID	Direct biochemical candidate; no new patient/function test
+AHCY	True	2	KEGG:C00021;KEGG:C00212	S-adenosylhomocysteine (SAH) ; adenosine	KEGG:C00021|AHCY;KEGG:C00212|AHCY	Direct biochemical candidate; no new patient/function test
+ALOX15	False	2	KEGG:C00219;KEGG:C06429	arachidonate (20:4n6) ; docosahexaenoate (DHA; 22:6n3)	KEGG:C00219|ALOX15;KEGG:C06429|ALOX15	Direct biochemical candidate; no new patient/function test
+ALOX5	False	1	KEGG:C00219	arachidonate (20:4n6)	KEGG:C00219|ALOX5	Direct biochemical candidate; no new patient/function test
+AMDHD2	True	1	KEGG:C00357	N-acetylglucosamine 6-phosphate	KEGG:C00357|AMDHD2	Direct biochemical candidate; no new patient/function test
+AOX1	True	1	KEGG:C02918	1-methylnicotinamide	KEGG:C02918|AOX1	Direct biochemical candidate; no new patient/function test
+ARG1	True	2	KEGG:C00062;KEGG:C00077	arginine ; ornithine	KEGG:C00062|ARG1;KEGG:C00077|ARG1	Direct biochemical candidate; no new patient/function test
+ARG2	True	2	KEGG:C00062;KEGG:C00077	arginine ; ornithine	KEGG:C00062|ARG2;KEGG:C00077|ARG2	Direct biochemical candidate; no new patient/function test
+ASNS	True	3	KEGG:C00025;KEGG:C00049;KEGG:C00064	glutamate ; aspartate ; glutamine	KEGG:C00025|ASNS;KEGG:C00049|ASNS;KEGG:C00064|ASNS	Direct biochemical candidate; no new patient/function test
+ASS1	True	2	KEGG:C00049;KEGG:C00327	aspartate ; citrulline	KEGG:C00049|ASS1;KEGG:C00327|ASS1	Direct biochemical candidate; no new patient/function test
+BBOX1	True	1	KEGG:C01181	deoxycarnitine	KEGG:C01181|BBOX1	Direct biochemical candidate; no new patient/function test
+BCAT1	True	1	KEGG:C00025	glutamate	KEGG:C00025|BCAT1	Direct biochemical candidate; no new patient/function test
+BCAT2	True	1	KEGG:C00025	glutamate	KEGG:C00025|BCAT2	Direct biochemical candidate; no new patient/function test
+CDO1	True	1	KEGG:C00097	cysteine	KEGG:C00097|CDO1	Direct biochemical candidate; no new patient/function test
+CEPT1	True	2	KEGG:C00055;KEGG:C00307	cytidine 5'-monophosphate (5'-CMP) ; cytidine 5'-diphosphocholine	KEGG:C00055|CEPT1;KEGG:C00307|CEPT1	Direct biochemical candidate; no new patient/function test
+CHKA	True	3	KEGG:C00114;KEGG:C00189;KEGG:C00346	choline ; ethanolamine ; phosphoethanolamine	KEGG:C00114|CHKA;KEGG:C00189|CHKA;KEGG:C00346|CHKA	Direct biochemical candidate; no new patient/function test
+CHKB	True	3	KEGG:C00114;KEGG:C00189;KEGG:C00346	choline ; ethanolamine ; phosphoethanolamine	KEGG:C00114|CHKB;KEGG:C00189|CHKB;KEGG:C00346|CHKB	Direct biochemical candidate; no new patient/function test
+CHPT1	True	2	KEGG:C00055;KEGG:C00307	cytidine 5'-monophosphate (5'-CMP) ; cytidine 5'-diphosphocholine	KEGG:C00055|CHPT1;KEGG:C00307|CHPT1	Direct biochemical candidate; no new patient/function test
+CKB	True	1	KEGG:C00300	creatine	KEGG:C00300|CKB	Direct biochemical candidate; no new patient/function test
+CKM	True	1	KEGG:C00300	creatine	KEGG:C00300|CKM	Direct biochemical candidate; no new patient/function test
+CMAS	True	1	KEGG:C00270	N-acetylneuraminate	KEGG:C00270|CMAS	Direct biochemical candidate; no new patient/function test
+CMPK1	True	1	KEGG:C00055	cytidine 5'-monophosphate (5'-CMP)	KEGG:C00055|CMPK1	Direct biochemical candidate; no new patient/function test
+CMPK2	True	1	KEGG:C00055	cytidine 5'-monophosphate (5'-CMP)	KEGG:C00055|CMPK2	Direct biochemical candidate; no new patient/function test
+CPT1A	True	1	KEGG:C02990	palmitoylcarnitine	KEGG:C02990|CPT1A	Direct biochemical candidate; no new patient/function test
+CPT1B	True	1	KEGG:C02990	palmitoylcarnitine	KEGG:C02990|CPT1B	Direct biochemical candidate; no new patient/function test
+CPT2	True	3	HMDB:HMDB00848;HMDB:HMDB05065;KEGG:C02990	stearoylcarnitine ; oleoylcarnitine ; palmitoylcarnitine	HMDB:HMDB00848|CPT2;HMDB:HMDB05065|CPT2;KEGG:C02990|CPT2	Direct biochemical candidate; no new patient/function test
+CRAT	True	3	HMDB:HMDB00736;KEGG:C02862;KEGG:C03017	isobutyrylcarnitine ; butyrylcarnitine ; propionylcarnitine	HMDB:HMDB00736|CRAT;KEGG:C02862|CRAT;KEGG:C03017|CRAT	Direct biochemical candidate; no new patient/function test
+CTNS	True	1	KEGG:C00491	cystine	KEGG:C00491|CTNS	Direct biochemical candidate; no new patient/function test
+CYP4F2	False	5	KEGG:C00219;KEGG:C02477;KEGG:C02483;KEGG:C06428;KEGG:C06429	arachidonate (20:4n6) ; alpha-tocopherol ; gamma-tocopherol ; eicosapentaenoate (EPA; 20:5n3) ; docosahexaenoate (DHA; 22:6n3)	KEGG:C00219|CYP4F2;KEGG:C02477|CYP4F2;KEGG:C02483|CYP4F2;KEGG:C06428|CYP4F2;KEGG:C06429|CYP4F2	Direct biochemical candidate; no new patient/function test
+DPYD	True	2	KEGG:C00106;KEGG:C00429	uracil ; 5,6-dihydrouracil	KEGG:C00106|DPYD;KEGG:C00429|DPYD	Direct biochemical candidate; no new patient/function test
+DPYS	True	1	KEGG:C00429	5,6-dihydrouracil	KEGG:C00429|DPYS	Direct biochemical candidate; no new patient/function test
+ENPP2	False	3	HMDB:HMDB10384;KEGG:C03916;KEGG:C04102	1-stearoyl-GPC (18:0) ; 1-oleoylglycerophosphocholine ; 1-palmitoyl-GPC (16:0)	HMDB:HMDB10384|ENPP2;KEGG:C03916|ENPP2;KEGG:C04102|ENPP2	Direct biochemical candidate; no new patient/function test
+ETNK1	True	2	KEGG:C00189;KEGG:C00346	ethanolamine ; phosphoethanolamine	KEGG:C00189|ETNK1;KEGG:C00346|ETNK1	Direct biochemical candidate; no new patient/function test
+ETNK2	True	2	KEGG:C00189;KEGG:C00346	ethanolamine ; phosphoethanolamine	KEGG:C00189|ETNK2;KEGG:C00346|ETNK2	Direct biochemical candidate; no new patient/function test
+FDFT1	True	1	KEGG:C00751	squalene	KEGG:C00751|FDFT1	Direct biochemical candidate; no new patient/function test
+FH	True	1	KEGG:C00149	malate	KEGG:C00149|FH	Direct biochemical candidate; no new patient/function test
+FOLH1	True	3	KEGG:C00025;KEGG:C05282;KEGG:C12270	glutamate ; gamma-glutamylglutamate ; N-acetyl-aspartyl-glutamate (NAAG)	KEGG:C00025|FOLH1;KEGG:C05282|FOLH1;KEGG:C12270|FOLH1	Direct biochemical candidate; no new patient/function test
+GAMT	True	1	KEGG:C00300	creatine	KEGG:C00300|GAMT	Direct biochemical candidate; no new patient/function test
+GCLC	True	2	KEGG:C00025;KEGG:C00097	glutamate ; cysteine	KEGG:C00025|GCLC;KEGG:C00097|GCLC	Direct biochemical candidate; no new patient/function test
+GDA	True	2	KEGG:C00242;KEGG:C00385	guanine ; xanthine	KEGG:C00242|GDA;KEGG:C00385|GDA	Direct biochemical candidate; no new patient/function test
+GDPD5	True	2	KEGG:C00114;KEGG:C00670	choline ; glycerophosphorylcholine (GPC)	KEGG:C00114|GDPD5;KEGG:C00670|GDPD5	Direct biochemical candidate; no new patient/function test
+GLS	True	2	KEGG:C00025;KEGG:C00064	glutamate ; glutamine	KEGG:C00025|GLS;KEGG:C00064|GLS	Direct biochemical candidate; no new patient/function test
+GLS2	True	2	KEGG:C00025;KEGG:C00064	glutamate ; glutamine	KEGG:C00025|GLS2;KEGG:C00064|GLS2	Direct biochemical candidate; no new patient/function test
+GLUL	True	2	KEGG:C00025;KEGG:C00064	glutamate ; glutamine	KEGG:C00025|GLUL;KEGG:C00064|GLUL	Direct biochemical candidate; no new patient/function test
+GNPNAT1	True	1	KEGG:C00357	N-acetylglucosamine 6-phosphate	KEGG:C00357|GNPNAT1	Direct biochemical candidate; no new patient/function test
+GOT1	True	2	KEGG:C00025;KEGG:C00049	glutamate ; aspartate	KEGG:C00025|GOT1;KEGG:C00049|GOT1	Direct biochemical candidate; no new patient/function test
+GOT2	True	2	KEGG:C00025;KEGG:C00049	glutamate ; aspartate	KEGG:C00025|GOT2;KEGG:C00049|GOT2	Direct biochemical candidate; no new patient/function test
+GPCPD1	True	2	KEGG:C00114;KEGG:C00670	choline ; glycerophosphorylcholine (GPC)	KEGG:C00114|GPCPD1;KEGG:C00670|GPCPD1	Direct biochemical candidate; no new patient/function test
+GPI	True	2	KEGG:C00668;KEGG:C05345	glucose 6-phosphate ; fructose-6-phosphate	KEGG:C00668|GPI;KEGG:C05345|GPI	Direct biochemical candidate; no new patient/function test
+GSR	True	1	KEGG:C00051	glutathione, reduced (GSH)	KEGG:C00051|GSR	Direct biochemical candidate; no new patient/function test
+GSS	True	2	KEGG:C00037;KEGG:C00051	glycine ; glutathione, reduced (GSH)	KEGG:C00037|GSS;KEGG:C00051|GSS	Direct biochemical candidate; no new patient/function test
+HAL	True	1	KEGG:C00135	histidine	KEGG:C00135|HAL	Direct biochemical candidate; no new patient/function test
+HPD	True	1	KEGG:C01179	4-hydroxyphenylpyruvate	KEGG:C01179|HPD	Direct biochemical candidate; no new patient/function test
+HPRT1	True	2	KEGG:C00242;KEGG:C00262	guanine ; hypoxanthine	KEGG:C00242|HPRT1;KEGG:C00262|HPRT1	Direct biochemical candidate; no new patient/function test
+IDNK	True	2	KEGG:C00257;KEGG:C00345	gluconate ; 6-phosphogluconate	KEGG:C00257|IDNK;KEGG:C00345|IDNK	Direct biochemical candidate; no new patient/function test
+IMPA1	True	1	KEGG:C04006	inositol 1-phosphate (I1P)	KEGG:C04006|IMPA1	Direct biochemical candidate; no new patient/function test
+IMPA2	True	1	KEGG:C04006	inositol 1-phosphate (I1P)	KEGG:C04006|IMPA2	Direct biochemical candidate; no new patient/function test
+KHK	True	1	KEGG:C00095	fructose	KEGG:C00095|KHK	Direct biochemical candidate; no new patient/function test
+KMO	True	1	KEGG:C00328	kynurenine	KEGG:C00328|KMO	Direct biochemical candidate; no new patient/function test
+KYNU	True	1	KEGG:C00328	kynurenine	KEGG:C00328|KYNU	Direct biochemical candidate; no new patient/function test
+LDHA	True	1	KEGG:C00186	lactate	KEGG:C00186|LDHA	Direct biochemical candidate; no new patient/function test
+LDHB	True	1	KEGG:C00186	lactate	KEGG:C00186|LDHB	Direct biochemical candidate; no new patient/function test
+LPCAT1	False	3	HMDB:HMDB10384;KEGG:C03916;KEGG:C04102	1-stearoyl-GPC (18:0) ; 1-oleoylglycerophosphocholine ; 1-palmitoyl-GPC (16:0)	HMDB:HMDB10384|LPCAT1;KEGG:C03916|LPCAT1;KEGG:C04102|LPCAT1	Direct biochemical candidate; no new patient/function test
+LPCAT2	False	2	HMDB:HMDB10384;KEGG:C04102	1-stearoyl-GPC (18:0) ; 1-palmitoyl-GPC (16:0)	HMDB:HMDB10384|LPCAT2;KEGG:C04102|LPCAT2	Direct biochemical candidate; no new patient/function test
+LPCAT3	False	3	HMDB:HMDB10384;KEGG:C03916;KEGG:C04102	1-stearoyl-GPC (18:0) ; 1-oleoylglycerophosphocholine ; 1-palmitoyl-GPC (16:0)	HMDB:HMDB10384|LPCAT3;KEGG:C03916|LPCAT3;KEGG:C04102|LPCAT3	Direct biochemical candidate; no new patient/function test
+LPCAT4	False	4	HMDB:HMDB61702;KEGG:C03916;KEGG:C04102;NAME:2-oleoylglycerophosphoethanolamine	2-palmitoyl-GPC (16:0) ; 1-oleoylglycerophosphocholine ; 1-palmitoyl-GPC (16:0) ; 2-oleoylglycerophosphoethanolamine	HMDB:HMDB61702|LPCAT4;KEGG:C03916|LPCAT4;KEGG:C04102|LPCAT4;NAME:2-oleoylglycerophosphoethanolamine|LPCAT4	Direct biochemical candidate; no new patient/function test
+LYPLA1	False	3	KEGG:C00670;KEGG:C00712;KEGG:C04102	glycerophosphorylcholine (GPC) ; oleate (18:1n9) ; 1-palmitoyl-GPC (16:0)	KEGG:C00670|LYPLA1;KEGG:C00712|LYPLA1;KEGG:C04102|LYPLA1	Direct biochemical candidate; no new patient/function test
+LYPLA2	False	4	HMDB:HMDB10384;KEGG:C00670;KEGG:C01530;KEGG:C04102	1-stearoyl-GPC (18:0) ; glycerophosphorylcholine (GPC) ; stearate (18:0) ; 1-palmitoyl-GPC (16:0)	HMDB:HMDB10384|LYPLA2;KEGG:C00670|LYPLA2;KEGG:C01530|LYPLA2;KEGG:C04102|LYPLA2	Direct biochemical candidate; no new patient/function test
+MDH1	True	1	KEGG:C00149	malate	KEGG:C00149|MDH1	Direct biochemical candidate; no new patient/function test
+MDH2	True	1	KEGG:C00149	malate	KEGG:C00149|MDH2	Direct biochemical candidate; no new patient/function test
+MGAM	True	2	KEGG:C00208;KEGG:C01835	maltose ; maltotriose	KEGG:C00208|MGAM;KEGG:C01835|MGAM	Direct biochemical candidate; no new patient/function test
+MGLL	False	7	KEGG:C00219;KEGG:C00712;KEGG:C01530;KEGG:C01885;KEGG:C02679;KEGG:C06424;KEGG:D01947	arachidonate (20:4n6) ; oleate (18:1n9) ; stearate (18:0) ; 1-palmitoylglycerol (1-monopalmitin) ; laurate (12:0) ; myristate (14:0) ; 1-stearoylglycerol (18:0)	KEGG:C00219|MGLL;KEGG:C00712|MGLL;KEGG:C01530|MGLL;KEGG:C01885|MGLL;KEGG:C02679|MGLL;KEGG:C06424|MGLL;KEGG:D01947|MGLL	Direct biochemical candidate; no new patient/function test
+MPI	True	2	KEGG:C00275;KEGG:C05345	mannose 6-phosphate ; fructose-6-phosphate	KEGG:C00275|MPI;KEGG:C05345|MPI	Direct biochemical candidate; no new patient/function test
+NAGK	True	2	KEGG:C00140;KEGG:C00357	N-acetylglucosamine ; N-acetylglucosamine 6-phosphate	KEGG:C00140|NAGK;KEGG:C00357|NAGK	Direct biochemical candidate; no new patient/function test
+NAMPT	True	1	KEGG:C00153	nicotinamide	KEGG:C00153|NAMPT	Direct biochemical candidate; no new patient/function test
+NNMT	True	3	KEGG:C00021;KEGG:C00153;KEGG:C02918	S-adenosylhomocysteine (SAH) ; nicotinamide ; 1-methylnicotinamide	KEGG:C00021|NNMT;KEGG:C00153|NNMT;KEGG:C02918|NNMT	Direct biochemical candidate; no new patient/function test
+NPL	True	1	KEGG:C00270	N-acetylneuraminate	KEGG:C00270|NPL	Direct biochemical candidate; no new patient/function test
+NT5C2	False	2	KEGG:C00294;KEGG:C01762	inosine ; xanthosine	KEGG:C00294|NT5C2;KEGG:C01762|NT5C2	Direct biochemical candidate; no new patient/function test
+OAT	True	2	KEGG:C00025;KEGG:C00077	glutamate ; ornithine	KEGG:C00025|OAT;KEGG:C00077|OAT	Direct biochemical candidate; no new patient/function test
+ODC1	True	2	KEGG:C00077;KEGG:C00134	ornithine ; putrescine	KEGG:C00077|ODC1;KEGG:C00134|ODC1	Direct biochemical candidate; no new patient/function test
+OTC	True	2	KEGG:C00077;KEGG:C00327	ornithine ; citrulline	KEGG:C00077|OTC;KEGG:C00327|OTC	Direct biochemical candidate; no new patient/function test
+PANK1	True	1	KEGG:C00864	pantothenate	KEGG:C00864|PANK1	Direct biochemical candidate; no new patient/function test
+PANK2	True	1	KEGG:C00864	pantothenate	KEGG:C00864|PANK2	Direct biochemical candidate; no new patient/function test
+PANK3	True	1	KEGG:C00864	pantothenate	KEGG:C00864|PANK3	Direct biochemical candidate; no new patient/function test
+PCYT1A	True	1	KEGG:C00307	cytidine 5'-diphosphocholine	KEGG:C00307|PCYT1A	Direct biochemical candidate; no new patient/function test
+PCYT1B	True	1	KEGG:C00307	cytidine 5'-diphosphocholine	KEGG:C00307|PCYT1B	Direct biochemical candidate; no new patient/function test
+PCYT2	True	1	KEGG:C00346	phosphoethanolamine	KEGG:C00346|PCYT2	Direct biochemical candidate; no new patient/function test
+PEPD	True	3	HMDB:HMDB00721;KEGG:C00037;KEGG:C00148	glycylproline ; glycine ; proline	HMDB:HMDB00721|PEPD;KEGG:C00037|PEPD;KEGG:C00148|PEPD	Direct biochemical candidate; no new patient/function test
+PFKL	True	1	KEGG:C05345	fructose-6-phosphate	KEGG:C05345|PFKL	Direct biochemical candidate; no new patient/function test
+PFKM	True	1	KEGG:C05345	fructose-6-phosphate	KEGG:C05345|PFKM	Direct biochemical candidate; no new patient/function test
+PFKP	True	1	KEGG:C05345	fructose-6-phosphate	KEGG:C05345|PFKP	Direct biochemical candidate; no new patient/function test
+PGD	True	1	KEGG:C00345	6-phosphogluconate	KEGG:C00345|PGD	Direct biochemical candidate; no new patient/function test
+PGM3	True	1	KEGG:C00357	N-acetylglucosamine 6-phosphate	KEGG:C00357|PGM3	Direct biochemical candidate; no new patient/function test
+PMM1	True	1	KEGG:C00275	mannose 6-phosphate	KEGG:C00275|PMM1	Direct biochemical candidate; no new patient/function test
+PMM2	True	1	KEGG:C00275	mannose 6-phosphate	KEGG:C00275|PMM2	Direct biochemical candidate; no new patient/function test
+PNP	True	3	KEGG:C00242;KEGG:C00262;KEGG:C00294	guanine ; hypoxanthine ; inosine	KEGG:C00242|PNP;KEGG:C00262|PNP;KEGG:C00294|PNP	Direct biochemical candidate; no new patient/function test
+PPA1	True	2	KEGG:C00009;KEGG:C00013	phosphate ; pyrophosphate (PPi)	KEGG:C00009|PPA1;KEGG:C00013|PPA1	Direct biochemical candidate; no new patient/function test
+PPA2	True	2	KEGG:C00009;KEGG:C00013	phosphate ; pyrophosphate (PPi)	KEGG:C00009|PPA2;KEGG:C00013|PPA2	Direct biochemical candidate; no new patient/function test
+PRODH	True	1	KEGG:C00148	proline	KEGG:C00148|PRODH	Direct biochemical candidate; no new patient/function test
+PRODH2	True	1	KEGG:C01157	trans-4-hydroxyproline	KEGG:C01157|PRODH2	Direct biochemical candidate; no new patient/function test
+PTGS1	False	1	KEGG:C00219	arachidonate (20:4n6)	KEGG:C00219|PTGS1	Direct biochemical candidate; no new patient/function test
+PTGS2	False	1	KEGG:C00219	arachidonate (20:4n6)	KEGG:C00219|PTGS2	Direct biochemical candidate; no new patient/function test
+PUDP	False	1	KEGG:C02067	pseudouridine	KEGG:C02067|PUDP	Direct biochemical candidate; no new patient/function test
+PYCR1	True	1	KEGG:C00148	proline	KEGG:C00148|PYCR1	Direct biochemical candidate; no new patient/function test
+PYCR2	True	1	KEGG:C00148	proline	KEGG:C00148|PYCR2	Direct biochemical candidate; no new patient/function test
+PYCR3	True	1	KEGG:C00148	proline	KEGG:C00148|PYCR3	Direct biochemical candidate; no new patient/function test
+RBKS	True	1	KEGG:C00121	ribose	KEGG:C00121|RBKS	Direct biochemical candidate; no new patient/function test
+RFK	True	1	KEGG:C00255	riboflavin (Vitamin B2)	KEGG:C00255|RFK	Direct biochemical candidate; no new patient/function test
+SDHA	False	1	KEGG:C00042	succinate	KEGG:C00042|SDHA	Direct biochemical candidate; no new patient/function test
+SDHB	False	1	KEGG:C00042	succinate	KEGG:C00042|SDHB	Direct biochemical candidate; no new patient/function test
+SDHC	False	1	KEGG:C00042	succinate	KEGG:C00042|SDHC	Direct biochemical candidate; no new patient/function test
+SDHD	False	1	KEGG:C00042	succinate	KEGG:C00042|SDHD	Direct biochemical candidate; no new patient/function test
+SHMT1	True	2	KEGG:C00037;KEGG:C00065	glycine ; serine	KEGG:C00037|SHMT1;KEGG:C00065|SHMT1	Direct biochemical candidate; no new patient/function test
+SHMT2	True	2	KEGG:C00037;KEGG:C00065	glycine ; serine	KEGG:C00037|SHMT2;KEGG:C00065|SHMT2	Direct biochemical candidate; no new patient/function test
+SLC13A3	False	1	KEGG:C00042	succinate	KEGG:C00042|SLC13A3	Direct biochemical candidate; no new patient/function test
+SLC22A2	False	3	KEGG:C00114;KEGG:C00791;KEGG:C02918	choline ; creatinine ; 1-methylnicotinamide	KEGG:C00114|SLC22A2;KEGG:C00791|SLC22A2;KEGG:C02918|SLC22A2	Direct biochemical candidate; no new patient/function test
+SLC22A4	False	1	KEGG:C10172	stachydrine	KEGG:C10172|SLC22A4	Direct biochemical candidate; no new patient/function test
+SLC25A10	False	1	KEGG:C00042	succinate	KEGG:C00042|SLC25A10	Direct biochemical candidate; no new patient/function test
+SLC25A20	False	2	KEGG:C02990;KEGG:C03017	palmitoylcarnitine ; propionylcarnitine	KEGG:C02990|SLC25A20;KEGG:C03017|SLC25A20	Direct biochemical candidate; no new patient/function test
+SLC29A2	False	6	KEGG:C00106;KEGG:C00153;KEGG:C00212;KEGG:C00242;KEGG:C00262;KEGG:C00294	uracil ; nicotinamide ; adenosine ; guanine ; hypoxanthine ; inosine	KEGG:C00106|SLC29A2;KEGG:C00153|SLC29A2;KEGG:C00212|SLC29A2;KEGG:C00242|SLC29A2;KEGG:C00262|SLC29A2;KEGG:C00294|SLC29A2	Direct biochemical candidate; no new patient/function test
+SLC47A1	False	1	KEGG:C00791	creatinine	KEGG:C00791|SLC47A1	Direct biochemical candidate; no new patient/function test
+SLC47A2	False	1	KEGG:C00791	creatinine	KEGG:C00791|SLC47A2	Direct biochemical candidate; no new patient/function test
+SLC5A10	False	1	KEGG:C07326	1,5-anhydroglucitol (1,5-AG)	KEGG:C07326|SLC5A10	Direct biochemical candidate; no new patient/function test
+SLC6A6	True	1	KEGG:C00245	taurine	KEGG:C00245|SLC6A6	Direct biochemical candidate; no new patient/function test
+SLC6A8	True	1	KEGG:C00300	creatine	KEGG:C00300|SLC6A8	Direct biochemical candidate; no new patient/function test
+SLC7A11	True	2	KEGG:C00025;KEGG:C00491	glutamate ; cystine	KEGG:C00025|SLC7A11;KEGG:C00491|SLC7A11	Direct biochemical candidate; no new patient/function test
+SOAT1	True	1	KEGG:C00187	cholesterol	KEGG:C00187|SOAT1	Direct biochemical candidate; no new patient/function test
+SOAT2	True	1	KEGG:C00187	cholesterol	KEGG:C00187|SOAT2	Direct biochemical candidate; no new patient/function test
+SORD	True	2	KEGG:C00095;KEGG:C00794	fructose ; sorbitol	KEGG:C00095|SORD;KEGG:C00794|SORD	Direct biochemical candidate; no new patient/function test
+SPHK1	True	1	KEGG:C00319	sphingosine	KEGG:C00319|SPHK1	Direct biochemical candidate; no new patient/function test
+SPHK2	True	1	KEGG:C00319	sphingosine	KEGG:C00319|SPHK2	Direct biochemical candidate; no new patient/function test
+SQLE	True	1	KEGG:C00751	squalene	KEGG:C00751|SQLE	Direct biochemical candidate; no new patient/function test
+SUCLA2	False	1	KEGG:C00042	succinate	KEGG:C00042|SUCLA2	Direct biochemical candidate; no new patient/function test
+SUCLG1	False	1	KEGG:C00042	succinate	KEGG:C00042|SUCLG1	Direct biochemical candidate; no new patient/function test
+SUCLG2	False	1	KEGG:C00042	succinate	KEGG:C00042|SUCLG2	Direct biochemical candidate; no new patient/function test
+TAT	True	2	KEGG:C00025;KEGG:C01179	glutamate ; 4-hydroxyphenylpyruvate	KEGG:C00025|TAT;KEGG:C01179|TAT	Direct biochemical candidate; no new patient/function test
+UPB1	True	1	KEGG:C00099	beta-alanine	KEGG:C00099|UPB1	Direct biochemical candidate; no new patient/function test
+UPP1	True	1	KEGG:C00106	uracil	KEGG:C00106|UPP1	Direct biochemical candidate; no new patient/function test
+UPP2	True	1	KEGG:C00106	uracil	KEGG:C00106|UPP2	Direct biochemical candidate; no new patient/function test

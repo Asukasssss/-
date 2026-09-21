@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "n_input": 190,
+    "state_counts": {
+      "NAMED_UNRESOLVED": 31,
+      "UNKNOWN_FEATURE": 53,
+      "DIRECT_MAPPED": 93,
+      "CONDITIONAL_ONLY": 13
+    },
+    "n_direct_relations": 262,
+    "n_conditional_relations": 18,
+    "n_genes": 150,
+    "n_old_edges_reused": 162,
+    "n_old_metabolites_reused": 66,
+    "n_new_genes": 39,
+    "n_old_genes_in_pool": 111,
+    "n_old_genes_history_only": 6,
+    "n_evidence_records": 353,
+    "n_unknown": 53
+  },
+  "input_values_unchanged": true,
+  "legacy174_all_original_fields_unchanged": true,
+  "unknowns_have_no_direct_genes": true,
+  "unique_direct_relation_keys": true,
+  "independent_source_reaction_assertions": true,
+  "not_validated": "No claim of exhaustive mapping, chemical reidentification, clinical or functional validation"
+}

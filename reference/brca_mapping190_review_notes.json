@@ -1,0 +1,17 @@
+{
+  "version": "mapping190_v2",
+  "date": "2026-09-21",
+  "scope": "Bounded human direct reaction/transport review; no clinical function or patient tests; not exhaustive",
+  "uniprot_query": "(gene_exact:SYMBOL) AND (organism_id:9606) AND (reviewed:true)",
+  "gene_symbol_gate": "Primary gene name must exactly equal requested symbol; synonym results excluded",
+  "sources": [
+    {"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC555966/", "metabolite":"stachydrine", "gene":"SLC22A4", "decision":"DIRECT_ACCEPTED", "read_depth":"Primary abstract and experiment summary", "note":"Human OCTN1 transfected cells directly transported stachydrine. Does not establish BRCA activity."},
+    {"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10439028/", "metabolite":"1,5-anhydroglucitol", "gene":"SLC5A10", "decision":"DIRECT_ACCEPTED", "read_depth":"Indexed primary article results and figure descriptions; direct page retrieval challenge", "note":"Direct 1,5-AG transport by human SGLT5; older SGLT4 inhibition result is not equivalent to direct transport."},
+    {"url":"https://pubmed.ncbi.nlm.nih.gov/15607332/", "metabolite":"1,5-anhydroglucitol", "gene":"SLC5A9", "decision":"NOT_ADDED", "read_depth":"Primary abstract", "note":"Inhibits AMG transport; superseded specificity question addressed by 2023 direct transport study."},
+    {"url":"https://www.endocrine-abstracts.org/ea/0086/ea0086oc5.2", "metabolite":"7-HOCA", "gene":"AKR1D1", "decision":"CONDITIONAL", "read_depth":"Conference abstract", "note":"Reported substrate lead; full substrate characterization not checked."},
+    {"url":"https://www.sciencedirect.com/science/article/abs/pii/S0300908408000023", "metabolite":"N-acetylserine;N-acetylthreonine", "gene":"ACY1", "decision":"NOT_ADDED", "read_depth":"Indexed primary abstract/results", "note":"Substrate efficiency is limited; generic N-acyl-amino acid reaction not promoted to accepted specific edges."},
+    {"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10604529/", "metabolite":"erythronate", "gene":"ALDH1A1;PGP", "decision":"PGP_CONDITIONAL_ONLY", "read_depth":"Indexed primary study summary; UniProt PGP reaction directly read", "note":"ALDH1A1-driven accumulation does not alone establish direct enzymatic reaction; PGP reaction produces D-erythronate; feature stereochemistry pending."},
+    {"url":"https://www.nature.com/articles/s41589-022-01219-9", "metabolite":"C-glycosyltryptophan", "gene":"DPY19L1", "decision":"NOT_ADDED", "read_depth":"Primary article indexed mechanism description", "note":"Protein C-mannosylation is not direct mapping to a free incompletely specified C-glycosyltryptophan feature."},
+    {"url":"https://iubmb.qmul.ac.uk/enzyme/EC1/1/1/410.html", "metabolite":"erythronate;threonate", "gene":"NA", "decision":"BACTERIAL_ENZYMES_NOT_ADDED", "read_depth":"Official enzyme annotation", "note":"Bacterial enzyme characterization cannot be assigned to a human gene."}
+  ]
+}

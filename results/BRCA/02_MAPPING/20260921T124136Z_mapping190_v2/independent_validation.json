@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "input190_all_original_values_and_order_preserved": true,
+  "legacy174_preserved": true,
+  "direct262_unique": true,
+  "genes150_unique": true,
+  "conditional18_separate": true,
+  "unknown53_no_genes": true,
+  "evidence_links_valid": true,
+  "new_reaction_records_crosschecked": 170,
+  "source_canonical_hashes_pass": true,
+  "no_new_patient_statistics": true,
+  "scope": "Integrity and provenance, not independent biochemical experiment"
+}

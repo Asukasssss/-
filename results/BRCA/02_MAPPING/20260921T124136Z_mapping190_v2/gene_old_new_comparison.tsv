@@ -1,0 +1,157 @@
+gene	in_original117	in_current190_direct_pool	change	historical_evidence
+AASS	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ABHD12	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ABHD6	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ACLY	True	False	HISTORY_RETAINED_OUTSIDE_CURRENT_POOL	Retained in original version; not deleted
+ACSL1	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ACSL3	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ACSL4	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ACSL5	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ACSL6	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ACSM1	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ADA	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ADA2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+AFMID	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+AHCY	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ALOX15	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ALOX5	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+AMDHD2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+AOX1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ARG1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ARG2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ASNS	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ASS1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+BBOX1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+BCAT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+BCAT2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CDO1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CEPT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CHKA	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CHKB	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CHPT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CKB	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CKM	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CMAS	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CMPK1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CMPK2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CPT1A	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CPT1B	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CPT2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CRAT	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CROT	True	False	HISTORY_RETAINED_OUTSIDE_CURRENT_POOL	Retained in original version; not deleted
+CS	True	False	HISTORY_RETAINED_OUTSIDE_CURRENT_POOL	Retained in original version; not deleted
+CTNS	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+CYP4F2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+DPYD	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+DPYS	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ENPP2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+ETNK1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ETNK2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+FDFT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+FH	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+FOLH1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GAMT	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GCLC	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GDA	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GDPD5	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GLS	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GLS2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GLUL	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GNPNAT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GOT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GOT2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GPCPD1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GPI	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GSR	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+GSS	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+HAL	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+HPD	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+HPRT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+IDNK	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+IMPA1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+IMPA2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+KHK	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+KMO	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+KYNU	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+LDHA	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+LDHB	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+LPCAT1	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+LPCAT2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+LPCAT3	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+LPCAT4	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+LYPLA1	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+LYPLA2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+MAT1A	True	False	HISTORY_RETAINED_OUTSIDE_CURRENT_POOL	Retained in original version; not deleted
+MAT2A	True	False	HISTORY_RETAINED_OUTSIDE_CURRENT_POOL	Retained in original version; not deleted
+MDH1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+MDH2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+MGAM	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+MGLL	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+MPI	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+NAGK	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+NAMPT	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+NNMT	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+NPL	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+NT5C2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+OAT	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+ODC1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+OTC	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PAH	True	False	HISTORY_RETAINED_OUTSIDE_CURRENT_POOL	Retained in original version; not deleted
+PANK1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PANK2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PANK3	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PCYT1A	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PCYT1B	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PCYT2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PEPD	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PFKL	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PFKM	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PFKP	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PGD	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PGM3	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PMM1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PMM2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PNP	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PPA1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PPA2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PRODH	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PRODH2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PTGS1	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+PTGS2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+PUDP	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+PYCR1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PYCR2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+PYCR3	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+RBKS	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+RFK	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SDHA	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SDHB	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SDHC	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SDHD	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SHMT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SHMT2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SLC13A3	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC22A2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC22A4	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC25A10	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC25A20	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC29A2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC47A1	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC47A2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC5A10	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SLC6A6	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SLC6A8	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SLC7A11	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SOAT1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SOAT2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SORD	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SPHK1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SPHK2	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SQLE	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+SUCLA2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SUCLG1	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+SUCLG2	False	True	NEW_TO_DIRECT_POOL	No original117 patient statistics transferred
+TAT	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+UPB1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+UPP1	True	True	RETAINED_CURRENT	Retained in original version; not deleted
+UPP2	True	True	RETAINED_CURRENT	Retained in original version; not deleted

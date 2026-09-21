@@ -1,0 +1,3 @@
+query_gene	rejected_accession	reason
+LPCAT4	Q6ZWT7	Primary human gene symbol differs; synonym hit excluded
+PNP	P01298	Primary human gene symbol differs; synonym hit excluded

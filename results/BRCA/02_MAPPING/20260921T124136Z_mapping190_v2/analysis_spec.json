@@ -1,0 +1,14 @@
+{
+  "version": "mapping190_v2",
+  "scope": "Mapping only",
+  "input_filter": "Frozen existing paired P<0.05 list, 190 features",
+  "new_patient_tests": 0,
+  "new_q_values": 0,
+  "accepted": "Existing curated exact-key edges; activated prior direct supplement; explicit human reaction participant or direct original transport experiment; named necessary complex member",
+  "conditional": "Unresolved stereochemistry, generic lipid/peptide class extrapolation, conference abstract only",
+  "not_exhaustive": true,
+  "source_species": 9606,
+  "primary_gene_symbol_required": true,
+  "sort": "Input paired directional rank preserved",
+  "run_id": "20260921T124136Z_mapping190_v2"
+}
