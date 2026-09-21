@@ -18,3 +18,7 @@ def one(r):
  except Exception as e:o.update(status='ACCESS_BLOCKED',reason=type(e).__name__+':'+str(e)[:120])
  return o
 out=list(concurrent.futures.ThreadPoolExecutor(max_workers=3).map(one,d.itertuples()));pd.DataFrame(out).to_csv(R/'public_resource_lookup.tsv',sep='\t',index=False);print(pd.DataFrame(out)[['gene','pmid','status','accessions']].to_string(index=False))
+# Official series-level metadata only, not the count matrix or any patient data.
+gp=R/'sources/GSE283282_metadata.txt'
+if not gp.exists():
+ x=requests.get('https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi',params={'acc':'GSE283282','targ':'self','form':'text','view':'full'},timeout=35);x.raise_for_status();assert '!Series_geo_accession = GSE283282' in x.text;gp.write_text(x.text,encoding='utf-8')

@@ -1,0 +1,16 @@
+{
+  "status": "DONE",
+  "integration_only": true,
+  "relations": 262,
+  "genes_union": 156,
+  "current_genes": 150,
+  "history_genes": 117,
+  "new_genes": 39,
+  "historical249_columns_exactly_preserved": true,
+  "unique_keys_checked": true,
+  "missing_values_not_zero": true,
+  "FUSCC_status": "PARTIAL_API_ACCESS_BLOCKED",
+  "function_status": "BOUNDED_FIRST_PASS_NOT_EXHAUSTIVE",
+  "new_patient_relations": 96,
+  "Excel_rows_verified": true
+}

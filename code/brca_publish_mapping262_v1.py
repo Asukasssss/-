@@ -12,7 +12,11 @@ def checks(p):
  (p/'.gitattributes').write_text('* -text\n')
  files=[x for x in p.rglob('*') if x.is_file() and x.name!='checksums.tsv' and not {'sources','fulltext'}.intersection(x.relative_to(p).parts) and not x.name.startswith('literature_hits') and x.name!='public_resource_lookup.tsv']
  save(pd.DataFrame([dict(file=str(x.relative_to(p)).replace('\\','/'),sha256=hashlib.sha256(x.read_bytes()).hexdigest()) for x in sorted(files)]),p/'checksums.tsv')
-if mode=='camp':
+if mode=='integration':
+ run='20260921T154000Z_mapping262_integration_v1';path='results/BRCA/07_INTEGRATION/'+run;p=repo/path;checks(p);register('07_INTEGRATION',run,'mapping262_integration_v1',path,'code/brca_mapping262_integrate_v1.py','156 genes;262 relation comparison;249 historical columns preserved;Excel','DONE','Integration complete;FUSCC new RNA access blocked;functional review bounded','Read complete comparison;restore FUSCC coverage when available;ACSL4 intervention metadata ready for next scoped analysis')
+elif mode=='checks_only':
+ checks(repo/sys.argv[2])
+elif mode=='camp':
  run='20260921T150000Z_mapping262_patient_v1';path='results/BRCA/03_PATIENT/'+run;p=repo/path;d=pd.read_csv(p/'CAMP_relations262.tsv',sep='\t');e=pd.read_csv(p/'paired_RNA150.tsv',sep='\t');v=json.loads((p/'validation.json').read_text())
  assert len(d)==524 and len(e)==150 and d.groupby('test_family').relation_id.nunique().eq(262).all()
  for _,z in d.groupby('test_family'):assert z.p_value.notna().sum()==255

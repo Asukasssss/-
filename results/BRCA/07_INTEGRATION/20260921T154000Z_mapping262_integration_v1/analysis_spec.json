@@ -1,0 +1,21 @@
+{
+  "version": "mapping262_integration_v1",
+  "source_commits": [
+    "9e4387f",
+    "809ef3c",
+    "05b937d",
+    "ba26058"
+  ],
+  "new_statistics": 0,
+  "join_keys": "exact metabolite_key|gene;gene-only joins restricted to gene-level evidence",
+  "historical_columns_preserved": 249,
+  "history_only6": [
+    "ACLY",
+    "CROT",
+    "CS",
+    "MAT1A",
+    "MAT2A",
+    "PAH"
+  ],
+  "no_composite_q_or_score": true
+}

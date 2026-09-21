@@ -57,7 +57,7 @@ resources=pd.DataFrame([
 (R/'.gitattributes').write_text('* -text\n')
 v=dict(genes=39,queries=len(logs),queries_done=int(logs.status.eq('DONE').sum()),unique_returned_sources=int(d[['pmid','doi']].drop_duplicates().shape[0]),curated_records=len(ev),genes_with_curated_records=ev.gene.nunique(),fulltext_audit_all=False,new_patient_tests=0,resource_matrices_analyzed=0,curated_source_classes=ev.evidence_class.value_counts().to_dict());(R/'validation.json').write_text(json.dumps(v,indent=2))
 spec=json.loads((R/'analysis_spec.json').read_text());spec.update(query_families=['symbol-title_abstract plus breast plus intervention','gene-title/selected_aliases plus breast mentions;reviews excluded;off-context hits expected'],manual_review='26 selected evidence records;not all returned papers full-text audited',resource_lookup='20 selected sources;metadata/specified paragraphs only;no intervention matrix calculation');(R/'analysis_spec.json').write_text(json.dumps(spec,indent=2))
-paths=list((R/'sources').glob('*.json'))+list((R/'fulltext').glob('*.xml'))+[repo/'code/brca_new39_literature_v1.py',repo/'code/brca_new39_curate_v1.py',repo/'code/brca_new39_resource_lookup_v1.py']
+paths=list((R/'sources').glob('*.json'))+list((R/'sources').glob('*.txt'))+list((R/'fulltext').glob('*.xml'))+[repo/'code/brca_new39_literature_v1.py',repo/'code/brca_new39_curate_v1.py',repo/'code/brca_new39_resource_lookup_v1.py']
 save(pd.DataFrame([dict(file=str(p.relative_to(repo)).replace('\\','/'),sha256=hashlib.sha256(p.read_bytes()).hexdigest(),published='code' in p.parts) for p in paths]),R/'source_manifest.tsv')
 text=f'''# 新39基因功能证据第一批
 

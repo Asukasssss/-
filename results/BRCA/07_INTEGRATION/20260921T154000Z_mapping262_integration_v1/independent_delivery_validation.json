@@ -1,0 +1,10 @@
+{
+  "historical117_by249_exact_on_disk": true,
+  "current150_union156_checked": true,
+  "relations262_exact": true,
+  "old_CAMP318_reused_statistic_rows_verified": true,
+  "all5_relation_BH_families_independently_verified": true,
+  "max_BH_error": 2.220446049250313e-16,
+  "published_file_checksums_verified": 39,
+  "raw_patient_model_refit": false
+}
