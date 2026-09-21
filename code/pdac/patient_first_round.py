@@ -38,10 +38,18 @@ def leave_one_out(x,y):
         a=np.delete(x,j);b=np.delete(y,j)
         if np.ptp(a)>0 and np.ptp(b)>0:vals.append(float(stats.spearmanr(a,b).statistic))
     return {'loo_n_valid':len(vals),'loo_rho_min':min(vals),'loo_rho_max':max(vals),'loo_max_abs_change':max(abs(v-base) for v in vals),'loo_sign_changes':sum(np.sign(v)!=np.sign(base) for v in vals)}
-def validate_historical_hashes(expected):
+def validate_historical_hashes(expected,required_paths):
+    required={str(p) for p in required_paths}
+    if len(required)!=3 or not isinstance(expected,dict) or set(expected)!=required:
+        raise ValueError('Historical source manifest must contain exactly the three actual input paths')
     for p,item in expected.items():
-        if not item.get('historical') or sha(p)!=item['historical'] or item['current']!=item['historical']:
+        if not isinstance(item,dict) or not item.get('historical') or item.get('current')!=item['historical'] or sha(p)!=item['historical']:
             raise ValueError('Historical input hash mismatch; reuse prohibited: '+p)
+
+def validate_rna_labels(rna):
+    for labels in [rna.index,rna.columns]:
+        if not labels.is_unique or labels.hasnans or any(not str(x).strip() for x in labels):
+            raise ValueError('RNA gene and sample labels must be complete and unique')
 def run(args):
     out=Path(__file__).resolve().parent
     assert out.parent==ROOT/'results/collaborative/PDAC/B','Server-only isolated directory required'
@@ -49,17 +57,20 @@ def run(args):
     with lock.open('x') as f:f.write('patient_first_round.py\n')
     try:
         public=out/'public';public.mkdir(exist_ok=False)
-        expected=json.loads((out/'input_hash_comparison.json').read_text());validate_historical_hashes(expected)
-        direct=read(out/'direct_relations_v1.tsv');spec=json.loads((out/'mapping_spec.json').read_text());aliases=json.loads((out/'gene_aliases.json').read_text())
-        assert len(direct)==spec['planned_M'] and len({r['gene'] for r in direct})==spec['planned_G']
-        assert len(direct)==len({(r['feature_name'],r['metabolite_key'],r['gene']) for r in direct})
         src=ROOT/'data/candidates/camp_primary_tissue_multicancer'
         mp=src/'metadata/MasterMapping_MetImmune_03_16_2022_release.csv'
         xp=src/'processed_metabolomics/PreprocessedData_PDAC.xlsx'
         rp=src/'gene_batch_reuse_20260910/pancancer_metabolomics/data/transcriptomics_processed/GSE62452.hugene10st.gene_symbol.csv'
+        expected=json.loads((out/'input_hash_comparison.json').read_text())
+        validate_historical_hashes(expected,[mp,xp,rp])
+        direct=read(out/'direct_relations_v1.tsv');spec=json.loads((out/'mapping_spec.json').read_text());aliases=json.loads((out/'gene_aliases.json').read_text())
+        assert len(direct)==spec['planned_M'] and len({r['gene'] for r in direct})==spec['planned_G']
+        assert len(direct)==len({(r['feature_name'],r['metabolite_key'],r['gene']) for r in direct})
         mapping=pd.read_csv(mp,dtype=str);m=mapping[mapping.Dataset=='PDAC'];t=m[m.TN=='Tumor'];n=m[m.TN=='Normal']
         assert all(m[k].notna().all() and m[k].is_unique for k in ['CommonID','RNAID','MetabID'])
-        rna=pd.read_csv(rp,index_col=0);met=pd.read_excel(xp,sheet_name='metabo_imputed_filtered_Tumor',index_col=0);raw=pd.read_excel(xp,sheet_name='data',index_col=0)
+        rna=pd.read_csv(rp,index_col=0)
+        validate_rna_labels(rna)
+        met=pd.read_excel(xp,sheet_name='metabo_imputed_filtered_Tumor',index_col=0);raw=pd.read_excel(xp,sheet_name='data',index_col=0)
         assert rna.index.is_unique and rna.columns.is_unique and met.index.is_unique and met.columns.is_unique
         assert t.RNAID.isin(rna.columns).all() and n.RNAID.isin(rna.columns).all() and t.MetabID.isin(met.columns).all()
         old=read(out/'historical_associations.tsv');cache={};allrows=[];loo=[];expression=[];resolution=[]
