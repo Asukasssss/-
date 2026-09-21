@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_hash_matches": true,
+  "all159_count_sums33": true,
+  "all_source_fields_preserved_except_view_identifiers": true,
+  "selected101": true,
+  "all101_accounted_for": true
+}
