@@ -1,5 +1,8 @@
 # COAD 账号 B 当前进展
 
+新增四关系介导证据定向核查：NNMT—1-MNA确认5-FU条件下产物测量及部分救援，但不能转用于NNMT—SAM；SLC6A6保留CRC摄取证据并记录非CRC线粒体区室研究及更正；UCKL1区分尿苷磷酸化能力与CRC非催化铁死亡保护。4篇旧研究复读、2篇新纳入研究和1份更正，不是7次独立验证。其余35关系未新增阅读但全保留，无新统计或发信，9/21/5不变。见`results/COAD/05_FUNCTION/20260921T031711Z_mediation4_v1/README_CN.md`。
+
+
 COAD继续推进取数而非重复拆读Chen附件：Chen与Li取数草稿/字段合同已完成但未发送，Wang血清入口不纳入肿瘤内部验证。Li蛋白组正文为24组配对组织（12CC/12RC），不能写成40名配套COAD患者；治疗分组及真实交集待澄清。B4GALT2解释更新为已有CRC干预支持但模型有条件、精确UDP介导未核实，原暂挂及9/21/5不变。无新数据或统计，见`results/COAD/07_INTEGRATION/20260921T025931Z_acquisition_review_v1/README_CN.md`。
 
 

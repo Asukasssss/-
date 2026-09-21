@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Review coverage/keys/order/no new statistical values;not biological validation",
+  "original_relations": 39,
+  "reviewed_relations": 4,
+  "not_newly_reviewed_relations": 35,
+  "reviewed_genes": 3,
+  "research_records": 6,
+  "correction_records": 1,
+  "arrangement_unchanged": true,
+  "input_sha256": "db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7"
+}

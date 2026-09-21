@@ -1,0 +1,40 @@
+source_row_1based	gene	metabolite_key	this_batch_status	scope	prior_delta
+1	NNMT	KEGG:C02918	DONE	Focused mechanism interpretation	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+2	BPGM	KEGG:C00631	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+3	ENO2	KEGG:C00631	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+4	PGAM2	KEGG:C00631	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+5	UAP1	KEGG:C04501	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+6	ASPA	KEGG:C01042	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+7	ICMT	KEGG:C00019	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+8	KMT5A	KEGG:C00019	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+9	NNMT	KEGG:C00019	DONE	Focused mechanism interpretation	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+10	PRMT7	KEGG:C00019	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+11	AQP9	KEGG:C00147	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+12	ADSS2	KEGG:C03794	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+13	SLC38A3	KEGG:C00152	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+14	SLC15A3	KEGG:C00386	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+15	NT5C3A	KEGG:C00475	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+16	GNPAT	KEGG:C00111	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+17	GSTA4	KEGG:C00051	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+18	GSTO2	KEGG:C00051	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+19	GSTT2	KEGG:C00051	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+20	GSTT2B	KEGG:C00051	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+21	HAGH	KEGG:C00051	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+22	PLA2G15	KEGG:C00670	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+23	SLC29A3	KEGG:C00242	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+24	SLC29A3	KEGG:C00387	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+25	HDC	KEGG:C00388	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+26	CANT1	KEGG:C00130	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+27	ENTPD3	KEGG:C00130	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+28	GMPR	KEGG:C00130	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+29	BCAT2	KEGG:C00407	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+30	SLC7A8	KEGG:C00407	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+31	SLC6A17	KEGG:C00123	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+32	SLC7A8	KEGG:C00123	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+33	SLC6A17	KEGG:C00148	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+34	SLC6A6	KEGG:C00245	DONE	Focused mechanism interpretation	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+35	SLC29A1	KEGG:C00299	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+36	UCKL1	KEGG:C00299	DONE	Focused mechanism interpretation	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+37	UPP2	KEGG:C00299	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+38	B4GALT2	KEGG:C00015	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
+39	NME6	KEGG:C00015	NOT_RUN	Prior evidence retained;not newly reread	results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1/relation39_next_evidence.tsv
