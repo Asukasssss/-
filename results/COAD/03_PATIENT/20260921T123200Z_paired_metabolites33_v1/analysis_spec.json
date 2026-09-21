@@ -1,0 +1,40 @@
+{
+  "version": "paired_metabolites33_v1",
+  "planned_features": 159,
+  "patients": 33,
+  "scope": "All 159 frozen COAD features; no selection by prior q",
+  "pairing": "GEO individual; stages I-IV; exact paired normal; exclude adenoma and stage 0",
+  "primary": "Author PQN normalized log min-imputed values; paired tumor minus normal; no further transformation",
+  "test": "Two-sided Wilcoxon signed-rank; zero_method=wilcox; method=approx; correction=False; all-zero differences P=1",
+  "effect": "Median paired difference on author normalized log scale; not fold change",
+  "counts": "Exact >, <, = comparisons of stored values; percent denominator all finite pairs including zero differences",
+  "multiple_testing": "Separate primary and observed-only families, 159 planned each; nonestimable P=1 internally, public P/q NA",
+  "sensitivity": "Both sides finite in author preimputation data sheet; minimum 8 pairs; no new imputation; counts also shown below minimum",
+  "bootstrap": 4000,
+  "ci": "Patient-pair bootstrap percentile 95%; unadjusted descriptive interval",
+  "seed": "SHA256 version|feature|analysis first 8 hex digits",
+  "source_code_commit": "92ad028d9b225b1e2c42e41700a265f45103d731",
+  "source_scale": "Author common data_imputed, T and N sheets exact subsets; observed entries unchanged",
+  "interpretation": "Tumor-normal metabolite change; not metabolite-RNA association or external validation",
+  "run_id": "20260921T123200Z_paired_metabolites33_v1",
+  "code_commit": "ec294b562d1e34c782c74bc0b3df586f64258f1c",
+  "written_before_contrasts_utc": "2026-09-21T12:38:24.348343+00:00",
+  "input_sha256": {
+    "data/candidates/camp_primary_tissue_multicancer/processed_metabolomics/PreprocessedData_COAD.xlsx": "4dc819b4d79d7705c3588fdb032244e1ddfe83accd5301bb5c06541fbe0dbcf5",
+    "results/collaborative/COAD/B/20260919T115842Z_identity_units_v1/private_clinical_join.tsv": "a4eebf8faba2bc0446269405f5d4be40c61ce998eb70ad2c16dbbfa6f2745d55",
+    "results/collaborative/COAD/B/20260921T123200Z_paired_metabolites33_v1/effects.tsv": "1bb1d57480a0fbc2185d11f7598e67e7443aef9e40ea8a036c6da4e5503a4597",
+    "results/collaborative/COAD/B/20260921T123200Z_paired_metabolites33_v1/locked_spec.json": "f25a6b60ad61dee23d7ee26f022b01d0f525255986d1fafd853ed1f601166f30",
+    "results/collaborative/COAD/B/20260921T123200Z_paired_metabolites33_v1/statistical_result_template.tsv": "7f4264d0e6019c24f5ba60fb22fbb8094e686f1d637f2b0aeacaaf602972e02f",
+    "results/collaborative/COAD/B/20260921T123200Z_paired_metabolites33_v1/run_paired_metabolites33_v1.py": "200ed1491bd99f73370d4f2a10fdb399dc5ec095b44eb509f524dd49dfc7efe2",
+    "results/collaborative/COAD/B/20260921T123200Z_paired_metabolites33_v1/patient_statistics.py": "95e42315974f8e6140d8d9523578088241e1032a59d23bf74fcac0c838e11813",
+    "results/collaborative/COAD/B/20260921T123200Z_paired_metabolites33_v1/1_PreprocessMetabo.R": "1664b15bfcde5205d0a2b51e61697bd6991a83a69304623feb5ba9a1b143a77a",
+    "results/collaborative/COAD/B/20260921T123200Z_paired_metabolites33_v1/2_ImputeMetabo.R": "abb551e3605d8e8447e2583e4c029ebbaf3afb7f25a081016f18b150a770844c",
+    "results/collaborative/COAD/B/20260921T123200Z_paired_metabolites33_v1/3_FilterMetabo.R": "cfedbdeac53afc8450b5e96770b72a599367eb89900812064cdae067f360ef47"
+  },
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  }
+}
