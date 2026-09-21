@@ -590,6 +590,30 @@
           "new_tests": false
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T12:46:04.142151+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "556e3ec9f47ebc5c9caedb99d5b6b2970288c919",
+      "verification": "Remote branch and open unmerged PR head match",
+      "batches": [
+        {
+          "stage_id": "03_PATIENT",
+          "run_id": "20260921T123200Z_paired_metabolites33_v1",
+          "analysis_status": "DONE",
+          "features": 159,
+          "patient_pairs": 33,
+          "new_tests": true
+        },
+        {
+          "stage_id": "04_ROBUSTNESS",
+          "run_id": "20260921T123200Z_paired_metabolites33_v1",
+          "analysis_status": "DONE",
+          "features": 159,
+          "patient_pairs": 33,
+          "new_tests": true
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
