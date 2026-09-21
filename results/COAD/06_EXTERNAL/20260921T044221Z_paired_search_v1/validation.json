@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Inventory integrity and historical relation hash, not eligibility validation",
+  "unique_dataset_ids": 6,
+  "records": 6,
+  "frozen_relation_sha256": "db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7",
+  "new_tests": 0,
+  "unverified": [
+    "source matrix contents",
+    "sample identity",
+    "chemical coverage",
+    "cohort independence"
+  ]
+}

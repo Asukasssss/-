@@ -1,0 +1,57 @@
+{
+  "scope": "Public metadata retrieval, not dataset eligibility validation",
+  "records": [
+    {
+      "source_id": "integral_article",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.4c04421",
+      "processed_matrix_acquired": false,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": "NA"
+    },
+    {
+      "source_id": "integral_bioproject",
+      "url": "https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA026610",
+      "processed_matrix_acquired": false,
+      "status": "ACCESS_BLOCKED",
+      "error": "Remote end closed connection without response",
+      "sha256": "NA"
+    },
+    {
+      "source_id": "integral_gsa",
+      "url": "https://ngdc.cncb.ac.cn/gsa-human/browse/HRA007600",
+      "processed_matrix_acquired": false,
+      "status": "ACCESS_BLOCKED",
+      "error": "Remote end closed connection without response",
+      "sha256": "NA"
+    },
+    {
+      "source_id": "integral_preprint",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.09.27.614689v1.supplementary-material",
+      "processed_matrix_acquired": false,
+      "status": "ACCESS_BLOCKED",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": "NA"
+    },
+    {
+      "source_id": "prrx2_preprint",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7030030",
+      "processed_matrix_acquired": false,
+      "status": "ACCESS_BLOCKED",
+      "error": "<urlopen error [Errno 104] Connection reset by peer>",
+      "sha256": "NA"
+    },
+    {
+      "source_id": "massive_metadata",
+      "url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=9a52b4480ed34cb2b5ac9da0333105f6",
+      "processed_matrix_acquired": false,
+      "http_status": 200,
+      "bytes": 80850,
+      "sha256": "69ce0916f7a5835e5be5132ca740bd99bbec2cfd6f166b37feee34dfaf177fc5",
+      "server_path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/coad_paired_search_20260921/massive_metadata.html",
+      "status": "RETRIEVED_NOT_CONTENT_VALIDATED"
+    }
+  ],
+  "new_patient_tests": 0,
+  "raw_spectra_downloaded": false
+}

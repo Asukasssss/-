@@ -1,5 +1,8 @@
 # COAD 账号 B 当前进展
 
+配套数据搜索新增Integral-Omics 6人同组织多组学及明确S4 Excel入口、PRRX2预印本67例匹配线索；均未取得可运行矩阵。已记录下载阻塞和不适用入口，无新统计或邮件，原39及9/21/5不变。见`results/COAD/06_EXTERNAL/20260921T044221Z_paired_search_v1/README_CN.md`。
+
+
 新增四关系介导证据定向核查：NNMT—1-MNA确认5-FU条件下产物测量及部分救援，但不能转用于NNMT—SAM；SLC6A6保留CRC摄取证据并记录非CRC线粒体区室研究及更正；UCKL1区分尿苷磷酸化能力与CRC非催化铁死亡保护。4篇旧研究复读、2篇新纳入研究和1份更正，不是7次独立验证。其余35关系未新增阅读但全保留，无新统计或发信，9/21/5不变。见`results/COAD/05_FUNCTION/20260921T031711Z_mediation4_v1/README_CN.md`。
 
 
