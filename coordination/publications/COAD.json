@@ -527,6 +527,23 @@
           "new_tests": false
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T09:40:57.474329+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "cc1dfff246385f16da28dec34e5d0a639cd5767b",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T085412Z_khaliq35_v1",
+          "analysis_status": "DONE",
+          "scope": "All35 accounted for within six author compartments;32 measured",
+          "new_tests": false,
+          "cells": 42696,
+          "summary_rows": 7140
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
