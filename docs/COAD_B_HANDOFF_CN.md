@@ -1,5 +1,8 @@
 # COAD / B 交接
 
+Integral-Omics关系级检查确认30RNA/11蛋白候选均完整非恒定；15是蛋白完整基因数。新增S8仍未补齐S4尺度/归一化与零值语义。精确720排列及BH合成对照通过，但真实关联NOT_RUN、来源尚未准入。见`results/COAD/06_EXTERNAL/20260921T082557Z_integral_admission_v1/README_CN.md`。
+
+
 Integral-Omics正式S4和方法PDF已取得并存165；6患者的跨组学12标本标签一致。RNA35基因、蛋白22条目；23代谢物17名称相容/3条件/3未找到，关联尚未计算。须先锁定尺度、身份与CRC部位适用性。详见`results/COAD/06_EXTERNAL/20260921T050501Z_integral_acquire_v1/README_CN.md`。
 
 
