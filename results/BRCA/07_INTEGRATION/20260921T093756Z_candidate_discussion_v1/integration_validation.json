@@ -1,0 +1,12 @@
+{
+  "status": "DONE",
+  "all117_retained": true,
+  "historical_columns_unchanged": 224,
+  "new_columns": 4,
+  "focus_genes": 8,
+  "focus_not_ranking": true,
+  "all174_relation_rows": 174,
+  "workbook_sheets": 7,
+  "old_P_q_unchanged": true,
+  "new_inferential_tests": 0
+}

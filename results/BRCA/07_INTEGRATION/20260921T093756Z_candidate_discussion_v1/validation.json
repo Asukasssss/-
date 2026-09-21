@@ -1,0 +1,9 @@
+{
+  "status": "DONE",
+  "fixed_relations": 3,
+  "leaveouts_per_relation": 20,
+  "full_rho_max_error": 1.1102230246251565e-16,
+  "original_q_unchanged": true,
+  "new_P_q_tests": 0,
+  "scatter_and_individual_details_server_only": true
+}

@@ -1,0 +1,21 @@
+{
+  "source_commit": "50dfd7b",
+  "relations": [
+    {
+      "gene": "MDH1",
+      "metabolite_key": "KEGG:C00149"
+    },
+    {
+      "gene": "PNP",
+      "metabolite_key": "KEGG:C00262"
+    },
+    {
+      "gene": "PNP",
+      "metabolite_key": "KEGG:C00242"
+    }
+  ],
+  "method": "omit each of20cases once;Spearman rho only;no P/q or CI recalculation;no sample exclusion from main result",
+  "selection": "post_Tang_results;descriptive_only",
+  "scatter": "raw author-normalized-imputed metabolomics vs RSEM and ranks;private server only",
+  "public": "min max max_abs_change sign_retention;no individual values or patient identifiers"
+}

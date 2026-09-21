@@ -1,0 +1,37 @@
+基因	本轮定位	CAMP直接代谢物及方向	CAMP原未调关联（逐关系）	FUSCC原关联（逐关系）	Tang原关联（逐关系）	Tang可评估性	GSE42568肿瘤减正常log2差	GSE42568 RNA q	既有功能类别（未新增文献审核）	既有功能摘要	既有功能限制	既有细胞背景	本轮逐病例留出	本轮矛盾及缺项	本轮下一步范围	历史工作优先级（未重排）	历史最小工作（非新任务）	功能来源
+MDH1	新增Tang支持；跨队列一致性有限	malate(升高)	malate: ρ=0.2361; q=0.2101	malate: ρ=0.01627; q=1	malate: ρ=0.7459; q=0.0163	DONE	-2.090785468335973	1.3764928264903338e-05	功能线索待方法/模型核定	S063（2025）：增殖受抑及紫杉醇敏感性提高	S063：摘要不足以确认MDH1特异遗传干预或药物靶点专属性	Wu: Malignant_epithelial; Pal: Malignant_epithelial; 稳定标记: True	malate: 留出范围0.709～0.818；方向保持20/20	苹果酸关联Tang较强，FUSCC接近零；GSE42568肿瘤RNA较低；既有功能记录尚未确认MDH1特异干预	可供选题讨论；先核实已有MDH1特异证据，不借用MDH2；本轮不追加机制	暂挂	找到MDH1特异遗传或靶点救援再纳入功能支持	https://pubmed.ncbi.nlm.nih.gov/39818404/
+MDH2	与MDH1分开保留	malate(升高)	malate: ρ=0.2641; q=0.1622	malate: ρ=0.04779; q=0.8606	malate: ρ=0.1143; q=0.9172	DONE	0.0283786962468903	0.8958638654934802	有乳腺癌遗传干预报告	S062（2025）：敲低抑制增殖/迁移、逆转EMT；过表达加速移植瘤生长	S062：包含多组学和对接；对接不作为功能证据；模型细节未逐一核定	Wu: Malignant_epithelial; Pal: Malignant_epithelial; 稳定标记: True	本轮未安排；不是阴性	MDH1新关联不能转移为MDH2证据；GSE42568 MDH2组间差异未获支持；保留MDH2自己的既有功能记录	继续按MDH2自身适用证据讨论，不因MDH1的新结果自动升降级	优先核查	先查数据可获得性和苹果酸是否直接变化；不把对接计成功能	https://pubmed.ncbi.nlm.nih.gov/41179294/
+PNP	新增Tang正向线索；两种代谢物分列	guanine(升高); hypoxanthine(升高); inosine(降低)	"guanine: ρ=0.4793; q=0.0171
+hypoxanthine: ρ=0.2723; q=0.157
+inosine: ρ=-0.1207; q=0.5471"	"guanine: ρ=未测/不可评估; q=未测/不可评估
+hypoxanthine: ρ=0.1179; q=0.3122
+inosine: ρ=-0.1671; q=0.05551"	"guanine: ρ=0.6707; q=0.07335
+hypoxanthine: ρ=0.6872; q=0.0489
+inosine: ρ=-0.1053; q=0.9172"	DONE	0.4513470069061087	0.1092647426338435	有乳腺癌遗传干预报告	S087（2026）：PNP沉默诱导HER2上升；联合比单独HER2抑制进一步降低活力	S087：不是PNP单药普遍杀伤；细菌PNP-前药体系不等价	Wu: Endothelial; Pal: Endothelial; 稳定标记: True	"hypoxanthine: 留出范围0.647～0.770；方向保持20/20
+guanine: 留出范围0.626～0.756；方向保持20/20"	次黄嘌呤q0.0489、鸟嘌呤q0.07335共享同20例；不能算两次独立验证；既有功能支持存在联合治疗背景限制	列为值得关注；本轮停止于候选讨论，不启动嘌呤机制课题	保留	区分PNP沉默后HER2补偿；不要再把显著代谢物误写为肌苷	https://pubmed.ncbi.nlm.nih.gov/41502507/
+GPI	CAMP支持保留；Tang未支持正关联	glucose 6-phosphate(升高); fructose-6-phosphate(升高)	"glucose 6-phosphate: ρ=0.4648; q=0.0171
+fructose-6-phosphate: ρ=0.4561; q=0.0171"	"glucose 6-phosphate: ρ=未测/不可评估; q=未测/不可评估
+fructose-6-phosphate: ρ=未测/不可评估; q=未测/不可评估"	"glucose 6-phosphate: ρ=-0.1293; q=0.9151
+fructose-6-phosphate: ρ=-0.203; q=0.779"	DONE	-0.994467835239254	0.0244562247158207	有乳腺癌遗传干预报告	S046（2020）：GPI降低使糖酵解下降、耗氧恢复，迁移/侵袭下降并增敏化疗；HP和GPI抑制有体内效应	S046：HP与GPI实验须分别归属；代谢/非代谢作用不能混写	Wu: Malignant_epithelial; Pal: Malignant_epithelial; 稳定标记: True	本轮未安排；不是阴性	FUSCC为缺项；Tang的G6P和F6P已评估且未支持正关联，不能再统称外部缺测；宽区间不证明反向作用	更新候选判断；不删除，不为追求显著性持续换队列或模型	优先核查	全文区分GPI与HP干预，查糖磷酸测量及可复用扰动数据	https://pubmed.ncbi.nlm.nih.gov/33042622/
+ASNS	保留既有支持；新增Tang不精确结果	glutamate(升高); aspartate(升高); glutamine(降低); asparagine(降低)	"glutamate: ρ=0.2327; q=0.2127
+aspartate: ρ=0.08593; q=0.6893
+glutamine: ρ=-0.4305; q=0.01995
+asparagine: ρ=-0.1457; q=0.4764"	"glutamate: ρ=-0.2358; q=0.007457
+aspartate: ρ=-0.1859; q=0.03356
+glutamine: ρ=-0.3073; q=0.00348
+asparagine: ρ=-0.01156; q=1"	"glutamate: ρ=0.2331; q=0.7302
+aspartate: ρ=0.3624; q=0.5208
+glutamine: ρ=-0.1489; q=0.8842
+asparagine: ρ=0.3549; q=0.5208"	DONE	0.8351788303204195	4.280174162074904e-06	有乳腺癌遗传干预报告	S006（2018）：限制天冬酰胺减少转移，但不减少该研究中的原发肿瘤生长；增强天冬酰胺供应促进转移 | S007（2025）：脑转移抑制，支持ASNS—天冬酰胺轴的脑转移背景	S006：营养/转移终点和模型特异；并非针对CAMP谷氨酰胺关联的患者因果验证 | S007：当前可见摘要主要为上游调控；不能记为已经核实的独立ASNS敲除实验	Wu: Malignant_epithelial; Pal: Malignant_epithelial; 稳定标记: True	本轮未安排；不是阴性	Tang谷氨酰胺负向但不显著；FUSCC与小鼠Asns干预各有适用范围，仍未证明人类谷氨酰胺机制	作为已有数据专题保留；不因Tang未显著取消，也不扩写已闭合机制	保留	作为功能参照保留，区分原发增长/转移及谷氨酰胺与天冬酰胺	"https://pubmed.ncbi.nlm.nih.gov/29414946/
+https://pubmed.ncbi.nlm.nih.gov/40531994/"
+GLS	保留既有支持；新增Tang不精确结果	glutamate(升高); glutamine(降低)	"glutamate: ρ=0.2058; q=0.2675
+glutamine: ρ=-0.2112; q=0.2592"	"glutamate: ρ=-0.1029; q=0.4372
+glutamine: ρ=-0.355; q=0.00348"	"glutamate: ρ=0.3549; q=0.5208
+glutamine: ρ=-0.3444; q=0.5383"	DONE	0.0464494188529407	0.6768246487873012	有乳腺癌遗传干预报告	S041（2017）：特定TNBC体内外生长抑制；非TNBC生长和代谢物未受同样影响	S041：亚型和营养背景限定；已有成熟研究，非本项目新机制	Wu: Endothelial; Pal: Endothelial; 稳定标记: False	本轮未安排；不是阴性	Tang谷氨酰胺负向但不显著；不改变FUSCC条件关联；特定亚型/营养背景限制仍在	保持原限定专题；不把谷氨酰胺剥夺替代GLS自身干预	保留	把GLS2旁路和非TNBC无效背景纳入比较	https://pubmed.ncbi.nlm.nih.gov/28950000/
+SLC6A8	保留既有支持；新增Tang不精确结果	creatine(降低)	creatine: ρ=0.1856; q=0.3343	creatine: ρ=0.2514; q=0.007457	creatine: ρ=0.382; q=0.5208	DONE	0.2731253691809963	0.2787582186942406	功能线索待方法/模型核定	S100（2021）：肌酸积累支持存活/抗凋亡，AKT/ERK及抗氧化改变	S100：特定缺氧背景；不能外推所有乳腺癌	Wu: Malignant_epithelial; Pal: Malignant_epithelial; 稳定标记: True	本轮未安排；不是阴性	肌酸在Tang正向但不显著；功能背景和转运体特异性需要区分	保留候选，按既有适用模型讨论；本轮不补新机制	优先核查	先补方法和营养条件，不把肌酸补充等同转运体单独作用	https://doi.org/10.1186/s13046-021-01933-7
+GPCPD1	保留功能与CAMP背景；外部证据有限	choline(降低); glycerophosphorylcholine (GPC)(降低)	"choline: ρ=0.02417; q=0.8993
+glycerophosphorylcholine (GPC): ρ=-0.5214; q=0.0171"	"choline: ρ=-0.04829; q=0.8606
+glycerophosphorylcholine (GPC): ρ=-0.04057; q=0.9526"	"choline: ρ=-0.04812; q=0.9491
+glycerophosphorylcholine (GPC): ρ=-0.3278; q=0.5466"	DONE	0.3680114206872167	0.0083689241652424	有乳腺癌遗传干预报告	S039（2016）：两者提高GPC；GDPD5降低MCF7存活，GPCPD1不降低两系存活；MDA-MB-231迁移/侵袭降低 | S047（2024）：黏附/克隆/抗失巢凋亡下降，迁移未改变；实验性转移负荷下降和腹腔模型生存改善 | S115（2023）：遗传抑制降低细胞存活/克隆及相应模型肿瘤生长	S039：无DNA ladder凋亡；GPC增加幅度与表型强度不一致；不能证明GPC介导 | S047：注射转移省略自发转移早期步骤；没有证明GPC升高介导抑转移；与2023研究相关作者/模型 | S115：特定亚型；药物不具EDI3专一性；与2024研究存在模型/作者关联，不算独立临床复现	Wu: Myeloid; Pal: Myeloid; 稳定标记: True	本轮未安排；不是阴性	Tang GPC负向但区间跨零；既有FUSCC未复现结果不覆盖；不能宣称跨队列稳定成立	作为参照候选保留；不再把已有功能当首次发现	保留	先做独立关系复现或具体亚型问题，不再宣称新发现靶点	"https://pubmed.ncbi.nlm.nih.gov/27356959/
+https://link.springer.com/article/10.1186/s13058-024-01849-y
+https://link.springer.com/article/10.1186/s13046-022-02578-w"
