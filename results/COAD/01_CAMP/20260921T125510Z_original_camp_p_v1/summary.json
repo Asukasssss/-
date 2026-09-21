@@ -1,0 +1,11 @@
+{
+  "total": 159,
+  "p_lt_005": 83,
+  "q_lt_005": 73,
+  "p_up": 40,
+  "p_down": 43,
+  "nominal_only": 10,
+  "n_tumor": 37,
+  "n_normal": 39,
+  "new_tests": false
+}
