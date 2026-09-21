@@ -1,5 +1,6 @@
 """Server-only, patient-balanced descriptive gene sources in three original cohorts."""
 import argparse,csv,gzip,hashlib,json,platform,traceback
+from collections import Counter
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -24,11 +25,11 @@ def sparse_extract(matrix,features,barcodes,meta,genes):
  assert meta.index.isin(barcodes).all()
  pos=pd.Index(barcodes).get_indexer(meta.index)
  cmap=np.full(len(barcodes),-1,dtype=np.int32);cmap[pos]=np.arange(len(pos))
- assert len(set(features))==len(features),'Duplicate symbols require separate resolution'
+ multiplicity=Counter(features)
  gmap=np.full(len(features),-1,dtype=np.int32);present=[]
  lookup={g:i for i,g in enumerate(genes)}
  for i,g in enumerate(features):
-  if g in lookup:gmap[i]=lookup[g];present.append(g)
+  if g in lookup and multiplicity[g]==1:gmap[i]=lookup[g];present.append(g)
  target=np.zeros((len(genes),len(pos)),dtype=np.int64);lib=np.zeros(len(pos),dtype=np.int64)
  with gzip.open(matrix,'rt') as f:
   assert f.readline().startswith('%%MatrixMarket matrix coordinate integer')
@@ -69,7 +70,7 @@ def sparse242(genes):
  for unit,meta in ann.groupby('unit',sort=True):
   matches=list((folder/'raw_matrices').glob('*_'+unit+'_matrix.mtx.gz'));assert len(matches)==1;matrix=matches[0];prefix=str(matrix)[:-len('matrix.mtx.gz')]
   bars=[unit+'_'+s for s in lines(Path(prefix+'barcodes.tsv.gz'))];features=[s.split('\t')[1] for s in lines(Path(prefix+'features.tsv.gz'))]
-  # Standard10x sometimes repeats gene symbols. Fail rather than choose one silently.
+  # Ambiguous duplicate symbols are excluded from the target panel; all rows remain in total UMI.
   a,lib,present=sparse_extract(matrix,features,bars,meta,genes);aa.append(meta);xx.append(a);ll.append(lib)
   if present_all is None:present_all=present
   else:assert present_all==present
@@ -87,7 +88,7 @@ def summarize(cohort,meta,target,lib,present,genes,run):
   pb=pd.DataFrame(rows);private.append(pb)
   for (gene,ct),g in pb.groupby(['gene','celltype'],sort=True):
    eligible=g[g.n_cells>=20];n=len(eligible);det=int((eligible.sum_counts>0).sum())
-   status='GENE_NOT_IN_MATRIX' if gene not in present else 'INSUFFICIENT_UNITS' if n<3 else 'LOW_DETECTION' if det<3 else 'EVALUABLE'
+   status='GENE_ABSENT_OR_AMBIGUOUS' if gene not in present else 'INSUFFICIENT_UNITS' if n<3 else 'LOW_DETECTION' if det<3 else 'EVALUABLE'
    output.append({'cohort':cohort,'annotation_level':scheme,'gene':gene,'celltype':ct,'n_units_total':len(g),'n_units_ge20cells':n,'n_units_detected':det,'n_cells_total':int(g.n_cells.sum()),'mean_unit_log1p_cpm':float(eligible.log1p_cpm.mean()) if n and gene in present else np.nan,'median_unit_log1p_cpm':float(eligible.log1p_cpm.median()) if n and gene in present else np.nan,'mean_unit_positive_fraction':float(eligible.positive_fraction.mean()) if n and gene in present else np.nan,'status':status,'source_rank':np.nan})
  pd.concat(private).to_csv(run/(cohort+'_private_unit_pseudobulk.tsv'),sep='\t',index=False,na_rep='NA')
  out=pd.DataFrame(output)
