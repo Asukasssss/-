@@ -1,5 +1,8 @@
 # COAD 账号 B 当前进展
 
+COAD继续推进取数而非重复拆读Chen附件：Chen与Li取数草稿/字段合同已完成但未发送，Wang血清入口不纳入肿瘤内部验证。Li蛋白组正文为24组配对组织（12CC/12RC），不能写成40名配套COAD患者；治疗分组及真实交集待澄清。B4GALT2解释更新为已有CRC干预支持但模型有条件、精确UDP介导未核实，原暂挂及9/21/5不变。无新数据或统计，见`results/COAD/07_INTEGRATION/20260921T025931Z_acquisition_review_v1/README_CN.md`。
+
+
 服务器访问已恢复，实际完成Chen2025两份补充DOCX核查：一份补充图、一份5张临床/实验信息表；没有取得全关系分析所需的机器可读组学矩阵及明确跨组学配对。源文件/个体行留server165，仅公开结构与哈希。本批核查DONE，D01整体PARTIAL、独立关联NOT_RUN；39关系及9/21/5不变。见`results/COAD/06_EXTERNAL/20260920T111614Z_supplement_audit_v1/README_CN.md`。上一批访问失败记录保留为历史状态，下一步取得实际数值表和对应关系。
 
 
