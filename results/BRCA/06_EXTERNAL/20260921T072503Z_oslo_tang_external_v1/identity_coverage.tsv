@@ -1,0 +1,147 @@
+cohort	metabolite_key	CAMP_name	external_feature_id	external_name	source_row_index	status	reason
+Tang2014	HMDB:HMDB00721	glycylproline	314	glycylproline	233	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	HMDB:HMDB00721	glycylproline	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00009	phosphate	671	phosphate	339	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00009	phosphate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00013	pyrophosphate (PPi)	672	pyrophosphate (PPi)	354	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00013	pyrophosphate (PPi)	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00021	S-adenosylhomocysteine (SAH)	236	S-adenosylhomocysteine (SAH)	360	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00021	S-adenosylhomocysteine (SAH)	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00025	glutamate	39	glutamate	211	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00025	glutamate	Glutamate	Glutamate	-1	DONE	explicit_author_name_correspondence;not_spectral_reidentification
+Tang2014	KEGG:C00037	glycine	1	glycine	224	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00037	glycine	Glycine	Glycine	-1	DONE	explicit_author_name_correspondence;not_spectral_reidentification
+Tang2014	KEGG:C00047	lysine	75	lysine	276	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00047	lysine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00049	aspartate	24	aspartate	134	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00049	aspartate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00051	glutathione, reduced (GSH)	295	glutathione, reduced (GSH)	217	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00051	glutathione, reduced (GSH)	Glutathione	Glutathione	-1	NEEDS_REVIEW	stereochemical_or_redox_scope_not_explicit
+Tang2014	KEGG:C00055	cytidine 5'-monophosphate (5'-CMP)	1255	cytidine 5'-monophosphate (5'-CMP)	171	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00055	cytidine 5'-monophosphate (5'-CMP)	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00062	arginine	255	arginine	131	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00062	arginine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00064	glutamine	45	glutamine	213	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00064	glutamine	Glutamine	Glutamine	-1	DONE	explicit_author_name_correspondence;not_spectral_reidentification
+Tang2014	KEGG:C00065	serine	8	serine	367	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00065	serine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00073	methionine	237	methionine	288	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00073	methionine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00077	ornithine	258	ornithine	320	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00077	ornithine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00079	phenylalanine	89	phenylalanine	335	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00079	phenylalanine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00082	tyrosine	106	tyrosine	395	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00082	tyrosine	L-Tyrosine	L-Tyrosine	-1	DONE	explicit_author_name_correspondence;not_spectral_reidentification
+Tang2014	KEGG:C00095	fructose	537	fructose	194	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00095	fructose	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00097	cysteine	224	cysteine	165	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00097	cysteine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00099	beta-alanine	28	beta-alanine	140	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00099	beta-alanine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00106	uracil	1277	uracil	399	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00106	uracil	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00114	choline	960	choline	154	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00114	choline	Choline	Choline	-1	DONE	explicit_author_name_correspondence;not_spectral_reidentification
+Tang2014	KEGG:C00121	ribose	622	ribose	358	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00121	ribose	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00134	putrescine	282	putrescine	351	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00134	putrescine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00135	histidine	53	histidine	245	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00135	histidine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00140	N-acetylglucosamine	NA	NA	-1	NOT_EVALUABLE	no_unique_author_name_match
+Oslo2	KEGG:C00140	N-acetylglucosamine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00148	proline	261	proline	347	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00148	proline	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00149	malate	667	malate	277	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00149	malate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00152	asparagine	25	asparagine	133	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00152	asparagine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00153	nicotinamide	1324	nicotinamide	312	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00153	nicotinamide	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00158	citrate	648	citrate	158	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00158	citrate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00186	lactate	604	lactate	265	NEEDS_REVIEW	CAMP_L_lactate_key;author_unspecified_stereochemistry
+Oslo2	KEGG:C00186	lactate	Lactate	Lactate	-1	NEEDS_REVIEW	stereochemical_or_redox_scope_not_explicit
+Tang2014	KEGG:C00187	cholesterol	1102	cholesterol	153	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00187	cholesterol	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00189	ethanolamine	955	ethanolamine	192	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00189	ethanolamine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00208	maltose	547	maltose	280	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00208	maltose	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00212	adenosine	1199	adenosine	111	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00212	adenosine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00242	guanine	1220	guanine	235	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00242	guanine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00245	taurine	233	taurine	381	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00245	taurine	Taurine	Taurine	-1	DONE	explicit_author_name_correspondence;not_spectral_reidentification
+Tang2014	KEGG:C00255	riboflavin (Vitamin B2)	NA	NA	-1	NOT_EVALUABLE	no_unique_author_name_match
+Oslo2	KEGG:C00255	riboflavin (Vitamin B2)	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00257	gluconate	620	gluconate	208	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00257	gluconate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00262	hypoxanthine	1190	hypoxanthine	250	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00262	hypoxanthine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00270	N-acetylneuraminate	517	N-acetylneuraminate	303	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00270	N-acetylneuraminate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00275	mannose 6-phosphate	554	mannose-6-phosphate	285	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00275	mannose 6-phosphate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00294	inosine	1192	inosine	251	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00294	inosine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00300	creatine	274	creatine	162	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00300	creatine	Creatine	Creatine	-1	DONE	explicit_author_name_correspondence;not_spectral_reidentification
+Tang2014	KEGG:C00307	cytidine 5'-diphosphocholine	965	cytidine 5'-diphosphocholine	170	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00307	cytidine 5'-diphosphocholine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00319	sphingosine	1077	sphingosine	373	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00319	sphingosine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00327	citrulline	263	citrulline	159	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00327	citrulline	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00328	kynurenine	152	kynurenine	264	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00328	kynurenine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00345	6-phosphogluconate	613	6-phosphogluconate	105	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00345	6-phosphogluconate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00346	phosphoethanolamine	956	phosphoethanolamine	340	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00346	phosphoethanolamine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00357	N-acetylglucosamine 6-phosphate	513	N-acetylglucosamine 6-phosphate	300	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00357	N-acetylglucosamine 6-phosphate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00385	xanthine	1187	xanthine	414	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00385	xanthine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00407	isoleucine	190	isoleucine	258	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00407	isoleucine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00429	5,6-dihydrouracil	1278	5,6-dihydrouracil	99	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00429	5,6-dihydrouracil	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00491	cystine	228	cystine	168	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00491	cystine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00668	glucose 6-phosphate	587	glucose-6-phosphate (G6P)	210	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00668	glucose 6-phosphate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00670	glycerophosphorylcholine (GPC)	962	glycerophosphorylcholine (GPC)	223	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00670	glycerophosphorylcholine (GPC)	Glycerophosphocholine	Glycerophosphocholine	-1	DONE	explicit_author_name_correspondence;not_spectral_reidentification
+Tang2014	KEGG:C00751	squalene	NA	NA	-1	NOT_EVALUABLE	no_unique_author_name_match
+Oslo2	KEGG:C00751	squalene	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00794	sorbitol	560	sorbitol	370	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00794	sorbitol	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C00864	pantothenate	1347	pantothenate	327	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C00864	pantothenate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C01157	trans-4-hydroxyproline	NA	NA	-1	NOT_EVALUABLE	no_unique_author_name_match
+Oslo2	KEGG:C01157	trans-4-hydroxyproline	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C01179	4-hydroxyphenylpyruvate	113	4-hydroxyphenylpyruvate	96	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C01179	4-hydroxyphenylpyruvate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C01181	deoxycarnitine	898	deoxycarnitine	176	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C01181	deoxycarnitine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C01835	maltotriose	567	maltotriose	282	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C01835	maltotriose	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C02838	octanoylcarnitine (C8)	NA	NA	-1	NOT_EVALUABLE	no_unique_author_name_match
+Oslo2	KEGG:C02838	octanoylcarnitine (C8)	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C02862	butyrylcarnitine	890	butyrylcarnitine	143	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C02862	butyrylcarnitine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C02918	1-methylnicotinamide	NA	NA	-1	NOT_EVALUABLE	no_unique_author_name_match
+Oslo2	KEGG:C02918	1-methylnicotinamide	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C02990	palmitoylcarnitine	912	palmitoylcarnitine	326	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C02990	palmitoylcarnitine	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C04006	inositol 1-phosphate (I1P)	974	inositol 1-phosphate (I1P)	253	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C04006	inositol 1-phosphate (I1P)	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C05282	gamma-glutamylglutamate	467	gamma-glutamylglutamate	199	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C05282	gamma-glutamylglutamate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C05345	fructose-6-phosphate	592	fructose-6-phosphate	195	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C05345	fructose-6-phosphate	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel
+Tang2014	KEGG:C12270	N-acetyl-aspartyl-glutamate (NAAG)	51	N-acetyl-aspartyl-glutamate (NAAG)	297	DONE	unique_author_name_match;not_spectral_reidentification
+Oslo2	KEGG:C12270	N-acetyl-aspartyl-glutamate (NAAG)	NA	NA	-1	NOT_EVALUABLE	not_in_18_metabolite_panel

@@ -1,0 +1,11 @@
+{
+  "status": "NEEDS_REVIEW",
+  "metabolite_samples": 228,
+  "GSE58212_metadata_samples": 283,
+  "metabolite_prefix": "MCOS",
+  "RNA_prefix": "OSL2",
+  "direct_joined": 0,
+  "MCOS_occurrences_GEO_full_metadata": 0,
+  "MCOS_occurrences_2017_workbook_all12_sheets": 0,
+  "not_proved": "No claim that a crosswalk cannot exist elsewhere;no inferred ordering"
+}

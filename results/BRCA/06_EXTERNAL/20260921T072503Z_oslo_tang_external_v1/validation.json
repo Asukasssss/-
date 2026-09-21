@@ -1,0 +1,15 @@
+{
+  "status": "DONE",
+  "Tang_rows174": true,
+  "Oslo_rows174": true,
+  "RNA_rows117": true,
+  "patient_order_not_used": true,
+  "no_duplicate_patient_gene": true,
+  "checks": {
+    "Tang_BH_max_error": 1.1102230246251565e-16,
+    "RNA_BH_max_error": 1.8171228410857054e-16,
+    "Tang_rho_max_error": 1.1102230246251565e-16,
+    "RNA_effect_and_P_max_error": 2.7755575615628914e-15
+  },
+  "not_recomputed": "permutation P and bootstrap CI not regenerated;no spectral reidentification;no Oslo crosswalk;patient aliquot equivalence not proved"
+}

@@ -1,0 +1,9 @@
+{
+  "author_samples": 121,
+  "tumor": 104,
+  "normal": 17,
+  "evaluable": 112,
+  "q_lt005": 57,
+  "no_pairing_inferred": true,
+  "scope": "RNA context not metabolite association or function"
+}

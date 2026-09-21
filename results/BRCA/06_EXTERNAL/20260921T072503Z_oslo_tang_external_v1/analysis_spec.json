@@ -1,0 +1,14 @@
+{
+  "source_commit": "66bc398",
+  "relations_planned_per_cohort": 174,
+  "genes": 117,
+  "minimum_complete_cases": 10,
+  "method": "Spearman two-sided permutation9999 plus1;pointwise percentile bootstrap2000;no new imputation",
+  "family": "BH separately per cohort over all evaluable original174;original q unchanged",
+  "seed_base": 20260921,
+  "tcga_profile": "brca_tcga_pub2015_rna_seq_v2_mrna",
+  "tcga_join": "exact author TCGA participant barcode;one primary sample per patient;different aliquot cannot be ruled out",
+  "Tang_processing": "author normalized and imputed values reused;RNA RSEM from cBioPortal2015 not assumed exact2014 release",
+  "Oslo_join": "MCOS versus OSL2 identifiers;no order-based inference",
+  "RNA117_method": "GSE42568 author log2 GCRMA;median all uniquely annotated probes per gene;unpaired Welch mean difference with Welch95CI;BH all evaluable117;no further normalization"
+}

@@ -1,0 +1,6 @@
+{
+  "patient_barcodes_in_metabolomics": 25,
+  "unique_primary_samples_matched": 20,
+  "gene_symbols_resolved": 117,
+  "profile": "brca_tcga_pub2015_rna_seq_v2_mrna"
+}

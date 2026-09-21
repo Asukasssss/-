@@ -1,0 +1,11 @@
+{
+  "Tang_author_tumors": 25,
+  "Tang_primary_samples_in_portal": 20,
+  "Tang_RNA_cases": 20,
+  "Tang_evaluable": 163,
+  "Tang_q_lt005": 2,
+  "Oslo_metabolomics_rows": 228,
+  "Oslo_joined": 0,
+  "Oslo_174_preserved": true,
+  "original_statistics_unchanged": true
+}
