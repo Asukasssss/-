@@ -544,6 +544,28 @@
           "summary_rows": 7140
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T10:04:50.863931+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "32c069f353fcffc8bf93cad7adc6eb54cb6d857f",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260921T095621Z_cell_context3_v1",
+          "analysis_status": "DONE",
+          "relations": 39,
+          "original_fields_preserved": 130,
+          "new_tests": false
+        },
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T095621Z_cell_context3_v1",
+          "analysis_status": "PARTIAL",
+          "integral_associations": "NOT_RUN"
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
