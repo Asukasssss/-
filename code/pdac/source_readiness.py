@@ -16,6 +16,16 @@ def table(p,fields,rows):
     with p.open('w',encoding='utf-8',newline='') as f:
         w=csv.DictWriter(f,fieldnames=fields,delimiter='\t');w.writeheader();w.writerows(rows)
 
+def validate_rna_labels(labels):
+    if not labels.is_unique or labels.hasnans or any(not str(x).strip() for x in labels):
+        raise ValueError('RNA gene labels must be complete and unique')
+
+def validate_source_hashes(hashes):
+    if len(hashes)!=3 or any(not v.get('historical') or
+        v.get('current')!=v.get('historical') or v.get('equal') is not True
+        for v in hashes.values()):
+        raise ValueError('Historical input hashes differ or are incomplete; source batch cannot certify reuse')
+
 def main():
     a=argparse.ArgumentParser();a.add_argument('--code-commit',required=True);args=a.parse_args()
     run=Path(__file__).resolve().parent
@@ -34,6 +44,7 @@ def main():
         assert sha(fp)=='1bb1d57480a0fbc2185d11f7598e67e7443aef9e40ea8a036c6da4e5503a4597'
         m=pd.read_csv(mp,dtype=str);m=m[m.Dataset=='PDAC'];tum=m[m.TN=='Tumor'];normal=m[m.TN=='Normal']
         rna=pd.read_csv(rp,index_col=0)
+        validate_rna_labels(rna.index)
         met=pd.read_excel(xp,sheet_name='metabo_imputed_filtered_Tumor',index_col=0)
         norm=pd.read_excel(xp,sheet_name='metabo_imputed_filtered_Normal',index_col=0)
         raw=pd.read_excel(xp,sheet_name='data',index_col=0)
@@ -58,8 +69,7 @@ def main():
         provenance=pd.read_csv(pp,sep='\t').set_index('path').sha256.to_dict()
         hashes={str(p):{'current':sha(p),'historical':provenance.get(str(p)),
                       'equal':provenance.get(str(p))==sha(p)} for p in [mp,xp,rp]}
-        if not all(v['equal'] for v in hashes.values()):
-            raise ValueError('Historical input hashes differ; source batch cannot certify reuse')
+        validate_source_hashes(hashes)
         checks=[]
         for row in old:
             f=row['metabolite_name'];g=row['gene']
@@ -119,6 +129,7 @@ def main():
           'versions':{'python':platform.python_version(),'pandas':pd.__version__,'numpy':np.__version__,'scipy':scipy.__version__}})
         table(out/'source_manifest.tsv',['path','sha256','bytes'],[{'path':str(p),'sha256':sha(p),'bytes':p.stat().st_size} for p in sources])
         dump(out/'validation.json',{'status':'PASS','exact_historical_fields':True,'mapping_and_matrix_join_counts':True,
+          'rna_gene_labels_complete_and_unique':True,
           'historical_n_rho_verified':True,'historical_source_hashes_match':summary['historical_input_hashes_match'],
           'not_verified':['patient independence','tumor-normal pairing','full42 direct gene mapping','external cohort independence','functional causality']})
         (out/'README_CN.md').write_text(f'''# PDAC 来源核对与历史结果接回
