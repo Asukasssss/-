@@ -1,0 +1,15 @@
+{
+  "version": "camp_sample_identity_v1",
+  "method": "Exact CAMP MetabID to original XLSX SAMPLE_ID; exact RNA GSM to GEO LHC; author PDF case rows define pairs",
+  "inference_from_order_or_numeric_suffix": false,
+  "statistics_recomputed": false,
+  "sources": [
+    "https://www.jci.org/articles/view/71180/sd/1",
+    "https://www.jci.org/articles/view/71180/sd/2",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE37751"
+  ],
+  "software": {
+    "pandas": "1.5.3"
+  },
+  "limitation": "Original source tissue conflict unresolved; no new identity assay"
+}

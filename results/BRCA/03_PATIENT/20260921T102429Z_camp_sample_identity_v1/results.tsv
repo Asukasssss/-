@@ -1,0 +1,16 @@
+check	value
+mapped_specimens	108
+camp_tumor	61
+camp_normal	47
+crossomics_LHC_matches	108
+original_author_case_rows	67
+original_author_pairs	65
+matched_subset_author_cases	63
+consistent_pairs	45
+consistent_tumor_only	15
+consistent_normal_only	2
+tissue_conflicts	1
+pdf_RNA_absent_but_GEO_available	0
+patient_identity_basis	Author case-row reconstruction, not genotype verification
+new_patient_statistics	0
+historical_values_modified	False
