@@ -1,0 +1,32 @@
+{
+  "status": "DONE",
+  "source_hashes_unchanged": true,
+  "old_statistics_unchanged": true,
+  "old_evaluable_overlap_checked": true,
+  "BH_independently_checked": true,
+  "tumor_cases": 60,
+  "paired_cases": 45,
+  "families": {
+    "available_Spearman262": {
+      "planned": 262,
+      "evaluable": 255,
+      "reused": 159,
+      "newly_calculated": 96,
+      "q_lt005": 9
+    },
+    "paired_RNA150": {
+      "planned": 150,
+      "evaluable": 148,
+      "reused": 110,
+      "newly_calculated": 38,
+      "q_lt005": 79
+    },
+    "processed_Spearman262": {
+      "planned": 262,
+      "evaluable": 255,
+      "reused": 159,
+      "newly_calculated": 96,
+      "q_lt005": 14
+    }
+  }
+}

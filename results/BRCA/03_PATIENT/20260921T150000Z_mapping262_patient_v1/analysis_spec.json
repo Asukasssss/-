@@ -1,0 +1,23 @@
+{
+  "version": "mapping262_patient_v1",
+  "source_commit": "9e4387f",
+  "relations": 262,
+  "genes": 150,
+  "history_union": 156,
+  "primary": "60 author tumor cases; documented tissue conflict excluded",
+  "paired_RNA": "45 explicit author-case tumor-normal pairs; unchanged expression scale; paired t test",
+  "families": [
+    "processed_Spearman262",
+    "available_Spearman262",
+    "paired_RNA150"
+  ],
+  "BH": "all evaluable of262 separately per correlation family; all evaluable of150 for RNA",
+  "reuse": "same original matrix files, sample mapping, exact relation and method; n/effect checked; original effect/P/CI copied; new q",
+  "new_Spearman": "same helper:9999 permutations plus1;4000 case-bootstrap percentile95CI;min8",
+  "paired_bootstrap": 4000,
+  "metabolite_name_normalization": "trim outer whitespace only; unique index checked",
+  "gene_alias_policy": "no unsupported alias substitution; LPCAT4 blocked pending stable probe identity",
+  "postselection_exploratory": true,
+  "patient_values_exported": false,
+  "python": "3.8.10"
+}
