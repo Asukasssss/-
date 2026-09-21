@@ -1,0 +1,26 @@
+{
+  "source_sha256": "e0da0e400a7792c0612a8da7805f08dbfb42c4bcadc80e0f2b9ec8e566d7bdfc",
+  "fields": [
+    "",
+    "samples",
+    "Condition",
+    "Location",
+    "MSI_Status",
+    "bulk_prediction",
+    "prediction"
+  ],
+  "cells": 49859,
+  "unique_cell_ids": 49859,
+  "samples": 23,
+  "condition_cells": {
+    "Normal": 18273,
+    "Tumor": 31586
+  },
+  "condition_samples": {
+    "Tumor": 16,
+    "Normal": 7
+  },
+  "cell_type_column_present": false,
+  "cell_type_review": "Listed columns contain CMS predictions, not cell-type annotation.",
+  "gene_expression_analysis": "NOT_RUN"
+}

@@ -1,3 +1,5 @@
+最新补充（2026-09-21）：单细胞来源候选GSE200997/GSE166555，GSE164522仅免疫补充。实读GSE200997注释49,859细胞/23样本，但缺细胞类型，表达分析NOT_RUN。报告：results/COAD/06_EXTERNAL/20260921T084424Z_sc_sources_v1/README_CN.md。
+
 # COAD 账号 B 当前进展
 
 Integral-Omics关系级检查确认30RNA/11蛋白候选均完整非恒定；15是蛋白完整基因数。新增S8仍未补齐S4尺度/归一化与零值语义。精确720排列及BH合成对照通过，但真实关联NOT_RUN、来源尚未准入。见`results/COAD/06_EXTERNAL/20260921T082557Z_integral_admission_v1/README_CN.md`。
