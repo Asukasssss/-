@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "BH_global_max_abs_error": 1.887379141862766e-15,
+  "unique_gene_contrast_keys": true,
+  "node_rows": 16,
+  "Asns_down_all_four": true,
+  "new_metabolite_measurements": 0
+}

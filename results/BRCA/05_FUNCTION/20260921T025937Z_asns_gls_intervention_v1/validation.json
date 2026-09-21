@@ -1,0 +1,23 @@
+{
+  "Tumor": {
+    "input_genes": 23478,
+    "tested_genes": 12264,
+    "low_count_filtered": 11214,
+    "design_rank": 3,
+    "residual_df": 9
+  },
+  "Lung": {
+    "input_genes": 23478,
+    "tested_genes": 12359,
+    "low_count_filtered": 11119,
+    "design_rank": 3,
+    "residual_df": 9
+  },
+  "status": "DONE",
+  "edgeR": "4.0.16",
+  "limma": "3.58.1",
+  "R": "R version 4.3.3 (2024-02-29)",
+  "global_family_n": 49246,
+  "independence": "author biological replicates; animal identity/pairing unverified; no inferred pairing",
+  "metabolomics_analyzed": false
+}

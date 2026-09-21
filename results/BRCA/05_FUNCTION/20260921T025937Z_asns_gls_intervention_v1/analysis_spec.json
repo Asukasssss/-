@@ -1,0 +1,41 @@
+{
+  "version": "asns_intervention_v1",
+  "primary_dataset": "GSE104966",
+  "species": "Mus musculus",
+  "cell_model": "4T1-T;recovered_from_tumor_or_lung;6TG_selected_recultured",
+  "unit": "author_labeled_biological_replicate",
+  "n_per_group": 4,
+  "sites": [
+    "Tumor",
+    "Lung"
+  ],
+  "constructs": [
+    "shAsns1",
+    "shAsns2"
+  ],
+  "control": "shRenilla",
+  "pairing": "none;shared letters do not imply paired samples",
+  "analysis": "edgeR QL F;each source separate model~0+group;robust dispersion and QL;TMM;filterByExpr min.count10 min.total.count15",
+  "family": "all_tested_genes_x_four_contrasts_joint_BH;within_contrast_q_also_retained",
+  "no_outcome_based_exclusion": true,
+  "focus_genes": [
+    "Asns",
+    "Gls",
+    "Gls2",
+    "Glul"
+  ],
+  "frozen_before_DE": true,
+  "excluded_dataset": {
+    "GSE104967": "all-zero control Sample2;only one effective control;no DE"
+  },
+  "other_dataset": {
+    "GSE104964": "Asns-silenced cells plus/minus asparagine;nutrient contrast not new gene knockdown;not_run_this_batch"
+  },
+  "limitations": [
+    "author replicate independence not independently verified by mouse IDs",
+    "reculture and 6TG selection limit tissue inference",
+    "RNA only;not metabolite flux or human TNBC validation",
+    "two constructs share controls and study;not two independent studies"
+  ],
+  "source_commit": "d328581"
+}

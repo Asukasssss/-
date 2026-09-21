@@ -1,0 +1,5 @@
+site	construct	tested	q_global_lt005	up	down
+Lung	shAsns1	12359	153	60	93
+Tumor	shAsns1	12264	3199	1693	1506
+Lung	shAsns2	12359	247	114	133
+Tumor	shAsns2	12264	3719	1928	1791

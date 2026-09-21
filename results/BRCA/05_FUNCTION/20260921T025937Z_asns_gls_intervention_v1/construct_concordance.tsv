@@ -1,0 +1,3 @@
+site	both_q_lt005	both_same_direction	both_opposite_direction	logFC_spearman
+Tumor	2621	2621	0	0.891551285918348
+Lung	49	49	0	0.508915003059865

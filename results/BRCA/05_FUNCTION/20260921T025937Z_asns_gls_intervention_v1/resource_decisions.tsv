@@ -1,0 +1,9 @@
+gene	source_id	resource_type	status	reason
+ASNS	GSE104967	direct_Asns_KD_invitro	NEEDS_REVIEW	Second control column all zero;one effective control;no DE
+ASNS	GSE104966	direct_Asns_KD_recovered_recultured	DONE	24 libraries;four author biological replicates per group;four contrasts;RNA only
+ASNS	GSE104964	asparagine_supply_in_Asns_silenced_cells	NOT_RUN	2 vs2 author replicates;nutrient contrast;not a separate ASNS KD experiment
+ASNS	GSE107109	patient_primary_vs_metastatic	NOT_EVALUABLE	not gene intervention
+GLS	PMID28950000	genetic_GLS_KD_paper	NEEDS_REVIEW	Cached fulltext supplementary list only ARRIVE checklist;no processed perturbation matrix located in inspected attachments
+GLS	GSE263696	chronic_glutamine_deprivation_adaptation	NOT_RUN	MDA-MB-231 adapted derivative versus parental;not GLS gene knockdown
+GLS	GSE26370	glutamine_deprivation	NOT_RUN	nutrient context not GLS knockdown
+GLS	GSE173991	mixed_metabolic_profiling_study	NEEDS_REVIEW	summary mentions drug efficacy;expression sample design not verified as GLS-targeted intervention

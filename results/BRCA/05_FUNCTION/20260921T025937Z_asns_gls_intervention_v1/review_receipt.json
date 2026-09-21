@@ -1,0 +1,7 @@
+{
+  "reviewed_commit": "d328581",
+  "user_review_received_as": "conversation_text",
+  "review_zip_received": false,
+  "adopted_decision": "freeze_patient_models;prioritize_suitable_perturbation_data",
+  "previous_patient_statistics_unchanged": true
+}
