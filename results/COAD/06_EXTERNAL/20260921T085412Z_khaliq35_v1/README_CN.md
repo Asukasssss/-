@@ -95,3 +95,5 @@ python3 check_khaliq_symbols_v1.py <server_source_dir> <server_run_dir>
 来源：[GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200997)、[原论文及附件](https://link.springer.com/article/10.1186/s13059-022-02677-z)、[作者固定版本](https://github.com/masoodlab/CRC-Single-Cell/tree/39e855925a8a2806e2ef0500927a2bb16b243be4/Data)。
 
 别名核查来源：[SLC6A17](https://www.ncbi.nlm.nih.gov/gene/388662)、[UPP2](https://www.ncbi.nlm.nih.gov/protein/NP_001128570.1)、[GSTT2](https://www.ncbi.nlm.nih.gov/gene/2953)。
+
+公开TSV中缺失的source_feature_index_0based统一序列化为NA；未改动任何基因映射或表达数值。
