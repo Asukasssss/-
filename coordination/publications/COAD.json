@@ -630,6 +630,21 @@
           "new_tests": false
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T13:41:58.870671+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "d5d6310ffd644bf5a1933f2cf0a26f5b2e520933",
+      "verification": "Remote branch and open unmerged PR head match",
+      "batches": [
+        {
+          "stage_id": "03_PATIENT",
+          "run_id": "20260921T134000Z_paired_p_counts_view_v1",
+          "analysis_status": "DONE",
+          "paired_p_significant": 101,
+          "new_tests": false
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
