@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "original_39_rows_130_fields_exact": true,
+  "original_sha_unchanged": true,
+  "eight_sections": true,
+  "execution_code_hashes_match": true,
+  "git_code_identical_except_CRLF_normalization": true,
+  "private_source_files_exported": false
+}
