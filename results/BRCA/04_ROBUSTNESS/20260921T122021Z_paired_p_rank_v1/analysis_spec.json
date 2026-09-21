@@ -1,0 +1,6 @@
+{
+  "version": "paired_p_rank_v1",
+  "filter": "existing paired_processed p_value < 0.05",
+  "sort": "max(higher,lower)/45 descending; key ascending for ties",
+  "new_tests": 0
+}

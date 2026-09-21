@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "n_total": 318,
+    "n_p_lt005": 190,
+    "n_q_lt005": 176,
+    "directions": {
+      "UP": 146,
+      "DOWN": 44,
+      "TIED": 0
+    },
+    "majority_mean_disagreements": 0
+  },
+  "unique_keys": 318,
+  "all_pair_counts_sum_45": true,
+  "original_fields_preserved": true
+}
