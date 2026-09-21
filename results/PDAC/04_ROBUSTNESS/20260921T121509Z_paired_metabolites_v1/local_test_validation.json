@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "test_count": 19,
+  "output": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.152s\n\nOK\n",
+  "scope": "Synthetic tests plus separate server aggregate validation;no full-pipeline claim"
+}
