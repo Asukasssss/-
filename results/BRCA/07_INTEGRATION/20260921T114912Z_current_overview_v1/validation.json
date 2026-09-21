@@ -1,0 +1,11 @@
+{
+  "metabolites": 318,
+  "genes": 117,
+  "master_columns": 249,
+  "new11": 11,
+  "old21": 21,
+  "RNA_significant": 60,
+  "RNA_up": 39,
+  "RNA_down": 21,
+  "new_patient_statistics": 0
+}
