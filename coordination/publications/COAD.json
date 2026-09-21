@@ -463,6 +463,22 @@
           "arrangement_unchanged": true
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T04:53:15.617785+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "5988567127cddb9ca49d5c031d663666604aa89a",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T044221Z_paired_search_v1",
+          "analysis_status": "PARTIAL",
+          "new_dataset_leads": 4,
+          "processed_matrices_acquired": 0,
+          "new_tests": false
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
