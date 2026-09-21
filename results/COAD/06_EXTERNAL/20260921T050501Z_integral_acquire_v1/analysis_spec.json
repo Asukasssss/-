@@ -1,0 +1,37 @@
+{
+  "analysis_version": "COAD_integral_acquire_v1",
+  "status": "PARTIAL",
+  "run_id": "20260921T050501Z_integral_acquire_v1",
+  "scope": "Acquisition and coverage DONE; association NOT_RUN",
+  "statistical_unit": "6 explicit patient IDs with one tumor specimen each in author map",
+  "test_family": "NOT_RUN",
+  "seed": null,
+  "normalization": "No transformation or imputation added",
+  "metabolite_identity": "Name screen only; no chemical identity certification",
+  "rna": "Exact gene symbols; numbers present does not establish comparability of expression scale",
+  "protein": "Exact gene labels only; protein groups and aliases not resolved",
+  "software": "server Python 3.8;openpyxl 3.1.5;pdftotext",
+  "parent_commit": "ee30131b37d06f0fc4dbb0fc0f007c912d089ba8",
+  "inputs": [
+    {
+      "article": 28156574,
+      "doi": "10.1021/acs.analchem.4c04421.s003",
+      "url": "https://ndownloader.figshare.com/files/51527561",
+      "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/coad_integral_20260921/ac4c04421_si_003.xlsx",
+      "bytes": 20533241,
+      "md5": "4427070a2fb1b9c007edcc4da2de00eb",
+      "sha256": "30037314867bf80f4b05b3ced26766094aa6e63ae939bf45b69731819358d67c",
+      "transfer": "HTTPS memory chunks directly to server165 SFTP; no local source file"
+    },
+    {
+      "article": 28156568,
+      "doi": "10.1021/acs.analchem.4c04421.s001",
+      "url": "https://ndownloader.figshare.com/files/51527555",
+      "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/coad_integral_20260921/ac4c04421_si_001.pdf",
+      "bytes": 1912901,
+      "md5": "21ab42e9573e355da75224ce3d298d5f",
+      "sha256": "96e15a4e9a72c5fa1c08a6fd18ada1be7f8850b87366c997b0c04901f8b080e1",
+      "transfer": "HTTPS memory chunks directly to server165 SFTP; no local source file"
+    }
+  ]
+}

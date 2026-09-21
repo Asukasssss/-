@@ -1,5 +1,8 @@
 # COAD / B 交接
 
+Integral-Omics正式S4和方法PDF已取得并存165；6患者的跨组学12标本标签一致。RNA35基因、蛋白22条目；23代谢物17名称相容/3条件/3未找到，关联尚未计算。须先锁定尺度、身份与CRC部位适用性。详见`results/COAD/06_EXTERNAL/20260921T050501Z_integral_acquire_v1/README_CN.md`。
+
+
 配套数据搜索新增Integral-Omics 6人同组织多组学及明确S4 Excel入口、PRRX2预印本67例匹配线索；均未取得可运行矩阵。已记录下载阻塞和不适用入口，无新统计或邮件，原39及9/21/5不变。见`results/COAD/06_EXTERNAL/20260921T044221Z_paired_search_v1/README_CN.md`。
 
 
