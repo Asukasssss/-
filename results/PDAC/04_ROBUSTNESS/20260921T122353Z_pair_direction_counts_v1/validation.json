@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "rows": 614,
+  "primary_features": 307,
+  "author_pairs": 11,
+  "counts_sum_to_n": true,
+  "n_and_mean_match_previous": true,
+  "new_p_q_calculated": false,
+  "patient_rows_exported": false,
+  "workbook_307_rows_roundtrip_counts_ratios_primary_p_q": true,
+  "old42_group_count_checked": 42,
+  "unverified": [
+    "Raw mass spectrometry detection",
+    "All27 tumor patient independence",
+    "Frozen CAMP original contrast coding"
+  ]
+}
