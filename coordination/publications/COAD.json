@@ -441,6 +441,28 @@
           "arrangement_unchanged": true
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T03:22:44.108512+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "2a15c794dc5d808086268f01e1f396be6326cd0d",
+      "verification": "Remote SHA and open PR head match;not merged",
+      "batches": [
+        {
+          "stage_id": "05_FUNCTION",
+          "run_id": "20260921T031711Z_mediation4_v1",
+          "result_path": "results/COAD/05_FUNCTION/20260921T031711Z_mediation4_v1",
+          "analysis_status": "PARTIAL",
+          "scoped_review": "DONE",
+          "reviewed_relations": 4,
+          "reviewed_genes": 3,
+          "prior_studies_reread": 4,
+          "new_studies": 2,
+          "correction_records": 1,
+          "new_tests": false,
+          "arrangement_unchanged": true
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
