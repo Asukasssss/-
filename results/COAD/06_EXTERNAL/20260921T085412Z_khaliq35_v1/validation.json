@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "analysis_version": "COAD_Khaliq35_v1",
+  "lock_commit": "0c03572",
+  "cells_geo": 49859,
+  "cells_analyzed": 42696,
+  "cells_unassigned": 7163,
+  "genes_requested": 35,
+  "genes_available": 32,
+  "samples": 23,
+  "tumor_samples": 16,
+  "exact_cell_join": true,
+  "unique_cells": true,
+  "full_gene_denominator_matches_author": true,
+  "table_S1_S2_all_samples_matched": true,
+  "table_S2_all_compartment_counts_match": true,
+  "patient_unit": "Author Table S2 Patient labels within separate tissue strata;no cross-tissue pairing inferred",
+  "p_q_computed": false,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "openpyxl": "3.1.5"
+  }
+}

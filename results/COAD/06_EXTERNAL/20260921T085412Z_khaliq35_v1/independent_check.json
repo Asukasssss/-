@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "rows_independently_reaggregated": 7140,
+  "cell_vectors_and_group_masks_used": true,
+  "patient_values_exported": false
+}

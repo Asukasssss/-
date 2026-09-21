@@ -1,0 +1,36 @@
+gene	eligible_lineages	highest_median_CPM_lineage	median_CPM	median_detection	n_qualified_patients	status	reason
+ADSS2	5	Tcells_including_NK_ILC	65.02566130676367	0.13534558776222322	16	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+AQP9	5	Myeloid	32.44698973052775	0.08759124087591241	11	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+ASPA	5	NO_POSITIVE_MEDIAN	0.0	0.0	NA	NOT_EVALUABLE	ALL_ELIGIBLE_MEDIANS_ZERO;no localization by median;does not imply all cells zero
+B4GALT2	5	Fibroblast	14.351594940584397	0.04040404040404041	7	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+BCAT2	5	Epithelial	28.36593314464735	0.08235294117647059	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+BPGM	5	Fibroblast	31.62742888770286	0.13131313131313133	7	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+CANT1	5	Epithelial	72.38327260059545	0.22395209580838324	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+ENO2	5	Tcells_including_NK_ILC	19.61965446370689	0.05486981677917068	16	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+ENTPD3	5	NO_POSITIVE_MEDIAN	0.0	0.0	NA	NOT_EVALUABLE	ALL_ELIGIBLE_MEDIANS_ZERO;no localization by median;does not imply all cells zero
+GMPR	5	Epithelial	11.504148204106595	0.03333333333333333	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+GNPAT	5	Epithelial	41.17616782229543	0.1411764705882353	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+GSTA4	5	Fibroblast	19.135459920779198	0.08108108108108109	7	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+GSTO2	5	Epithelial	41.30553012205784	0.109375	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+GSTT2	0	NA	NA	NA	NA	NOT_EVALUABLE	SOURCE_GENE_NOT_FOUND_OR_AMBIGUOUS;not zero expression
+GSTT2B	5	Fibroblast	37.11188558743054	0.07751937984496124	7	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+HAGH	5	Tcells_including_NK_ILC	52.14832846563516	0.12769423558897242	16	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+HDC	5	NO_POSITIVE_MEDIAN	0.0	0.0	NA	NOT_EVALUABLE	ALL_ELIGIBLE_MEDIANS_ZERO;no localization by median;does not imply all cells zero
+ICMT	5	Fibroblast	47.83864980194799	0.17391304347826086	7	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+KMT5A	5	Epithelial	10.327164573694647	0.03125	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+NME6	5	Fibroblast	21.69632735418712	0.08108108108108109	7	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+NNMT	5	Fibroblast	775.9757895553658	0.8181818181818182	7	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+NT5C3A	5	Tcells_including_NK_ILC	49.35922608505406	0.11324374493264869	16	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+PGAM2	5	NO_POSITIVE_MEDIAN	0.0	0.0	NA	NOT_EVALUABLE	ALL_ELIGIBLE_MEDIANS_ZERO;no localization by median;does not imply all cells zero
+PLA2G15	5	Myeloid	12.837794466910584	0.05263157894736842	11	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+PRMT7	5	Epithelial	22.75791833321006	0.07341092211280215	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+SLC15A3	5	Myeloid	62.00692569662396	0.18571428571428572	11	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+SLC29A1	5	Myeloid	36.71187471810525	0.08421052631578947	11	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+SLC29A3	5	Myeloid	17.000185113126786	0.06956521739130435	11	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+SLC38A3	5	NO_POSITIVE_MEDIAN	0.0	0.0	NA	NOT_EVALUABLE	ALL_ELIGIBLE_MEDIANS_ZERO;no localization by median;does not imply all cells zero
+SLC6A17	0	NA	NA	NA	NA	NOT_EVALUABLE	SOURCE_GENE_NOT_FOUND_OR_AMBIGUOUS;not zero expression
+SLC6A6	5	Fibroblast	39.534286109628574	0.1935483870967742	7	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+SLC7A8	5	Myeloid	15.970670750426327	0.06569343065693431	11	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+UAP1	5	Epithelial	56.89479583302516	0.16470588235294117	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+UCKL1	5	Epithelial	43.833694961316766	0.13541666666666666	15	DONE	Descriptive maximum among eligible author compartments;not specificity or function;ties retained
+UPP2	0	NA	NA	NA	NA	NOT_EVALUABLE	SOURCE_GENE_NOT_FOUND_OR_AMBIGUOUS;not zero expression
