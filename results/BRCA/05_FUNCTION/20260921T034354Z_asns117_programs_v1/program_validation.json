@@ -1,0 +1,8 @@
+{
+  "status": "DONE",
+  "program_tests": 12,
+  "limma": "3.58.1",
+  "inter_gene_correlation": "assumed0.01;not_estimated_from_samples",
+  "target_Asns_removed_from_sets_and_background": true,
+  "old_edgeR_fits_reused": true
+}

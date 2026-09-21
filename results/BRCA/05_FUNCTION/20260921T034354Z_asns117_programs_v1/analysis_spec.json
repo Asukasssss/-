@@ -1,0 +1,22 @@
+{
+  "version": "asns117_programs_v1",
+  "ensembl_release": 110,
+  "orthology": "unique_one2one_only;stable_id_lookup_to_mouse_symbol;exact_author_matrix_symbol_join",
+  "genes": 117,
+  "prior_DE_q": "49246 family q reused;no subset correction",
+  "response_classes": "same direction both original_q<0.05;one only;neither;opposite point signs;not_evaluable",
+  "programs": [
+    "HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION",
+    "GOBP_RESPONSE_TO_AMINO_ACID_STARVATION",
+    "GOBP_AMINO_ACID_TRANSMEMBRANE_TRANSPORT"
+  ],
+  "MSigDB_version": "2025.1.Mm",
+  "program_method": "limma cameraPR competitive rank test of signed sqrt edgeR QLF;fixed intergene correlation0.01",
+  "program_family": "3 programs x4 contrasts joint BH12",
+  "minimum_tested_set_size": 10,
+  "Asns_excluded_from_program_and_background": true,
+  "descriptive_effect": "median gene log2FC;not a flux or activation effect",
+  "post_selection_exploratory": true,
+  "source_commit": "7f77c0b",
+  "previous_public": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260921T025937Z_asns_gls_intervention_v1/public"
+}

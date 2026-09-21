@@ -1,0 +1,11 @@
+{
+  "genes": 117,
+  "long_rows": 468,
+  "site_summary_rows": 234,
+  "mapping_status": {
+    "DONE": 111,
+    "NEEDS_REVIEW": 6
+  },
+  "no_new_DE_tests": true,
+  "old_FDR_unchanged": true
+}

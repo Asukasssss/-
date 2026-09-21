@@ -1,0 +1,9 @@
+{
+  "status": "DONE",
+  "all117_retained": true,
+  "response_rows": 468,
+  "no_new_candidate_DE_test": true,
+  "old_stat_max_abs_error": 0.0,
+  "program_BH12_max_abs_error": 8.881784197001252e-16,
+  "interpretation": "Asns downstream RNA response;not own gene target validation;programs not flux or phenotype"
+}

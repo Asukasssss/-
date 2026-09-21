@@ -1,0 +1,12 @@
+{
+  "initial_mapping": {
+    "one2one": 103,
+    "pending": 14
+  },
+  "final_mapping": {
+    "one2one": 111,
+    "pending": 6
+  },
+  "refinement": "For multiple human homology source matches require one exact human display_name from stable ID lookup; no statistics used for identity resolution",
+  "frozen_analysis_spec_unchanged": true
+}
