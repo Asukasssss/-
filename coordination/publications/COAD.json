@@ -496,6 +496,23 @@
           "new_tests": false
         }
       ]
+    },
+    {
+      "verified_utc": "2026-09-21T08:38:05.800572+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "e56c97de1e07d2fb6a18e1c90c666a679f72b14b",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T082557Z_integral_admission_v1",
+          "analysis_status": "PARTIAL",
+          "rna_structural_candidates": 30,
+          "protein_structural_candidates": 11,
+          "real_patient_associations": false,
+          "new_tests": false
+        }
+      ]
     }
   ],
   "preanalysis_verification": {
