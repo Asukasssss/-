@@ -1,0 +1,23 @@
+{
+  "genes": 39,
+  "queries": 78,
+  "queries_done": 78,
+  "unique_returned_sources": 450,
+  "curated_records": 26,
+  "genes_with_curated_records": 24,
+  "fulltext_audit_all": false,
+  "new_patient_tests": 0,
+  "resource_matrices_analyzed": 0,
+  "curated_source_classes": {
+    "BRCA_GENETIC": 9,
+    "BRCA_GENETIC_DIRECTION_CAUTION": 4,
+    "FUNCTION_MODEL_DETAIL_PENDING": 3,
+    "BRCA_FUNCTION_CONTEXT": 2,
+    "BRCA_PHARMACOLOGY": 2,
+    "BRCA_GENETIC_NULL_SPECIFIC_ENDPOINT": 2,
+    "BRCA_PHARMACOLOGY_WITH_GENETIC_NULL": 1,
+    "EPITHELIAL_MODEL_PENDING": 1,
+    "BRCA_DRUG_TRANSPORT_CONTEXT": 1,
+    "ASSOCIATION_NOT_SELF_PERTURBATION": 1
+  }
+}

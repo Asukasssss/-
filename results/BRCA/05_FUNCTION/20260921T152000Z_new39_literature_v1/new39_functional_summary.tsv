@@ -1,0 +1,40 @@
+gene	searches	searches_done	returned_hits	curated_evidence_records	evidence_ids	functional_evidence_class	status	reason_cn	model_and_limits_cn	next_minimum_work_cn	depmap_status	singlecell_extension_status	public_intervention_matrix_status
+ABHD12	2	2	6	1	N39E001	BRCA_GENETIC	DONE	本轮已摘录指定来源，未穷尽全部文献	MCF7;MDA-MB-231：摘要层；不能证明当前脂质介导	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ABHD6	2	2	2	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ACSL1	2	2	36	1	N39E002	BRCA_GENETIC	DONE	本轮已摘录指定来源，未穷尽全部文献	MDA-MB-231;TNFalpha条件：直接终点是炎症因子；triacsin C并非单基因特异证明	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ACSL3	2	2	23	1	N39E003	BRCA_GENETIC_DIRECTION_CAUTION	DONE	本轮已摘录指定来源，未穷尽全部文献	MCF7;MDA-MB-231：不能直接建议抑制；原研究新数据需申请	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ACSL4	2	2	36	2	N39E004;N39E005	BRCA_GENETIC	DONE	本轮已摘录指定来源，未穷尽全部文献	TNBC;MDA-MB-231 RNA实验：脂肪酸氧化与表观调控背景；不是全部BRCA通用结论 | 乳腺癌细胞及肺转移模型：与ZEB2共同背景；不是独立患者复现	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	SOURCE_IDENTIFIED_METADATA_CHECKED
+ACSL5	2	2	14	2	N39E006;N39E007	BRCA_FUNCTION_CONTEXT;BRCA_GENETIC_DIRECTION_CAUTION	DONE	本轮已摘录指定来源，未穷尽全部文献	MDA-MB-231;BT-549;COL I：体外COL I环境；不推广至肺转移营养背景 | 肺偏好转移乳腺癌;富棕榈酸环境：摘要未逐项区分基因构建；与COL I模型方向不可简单合并	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ACSL6	2	2	9	1	N39E008	FUNCTION_MODEL_DETAIL_PENDING	DONE	本轮已摘录指定来源，未穷尽全部文献	结直肠癌与乳腺癌;DHA条件：需分开乳腺与结直肠各实验；不能把肠癌小鼠疗效转到乳腺癌	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ACSM1	2	2	2	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ALOX15	2	2	34	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ALOX5	2	2	25	1	N39E009	BRCA_FUNCTION_CONTEXT	DONE	本轮已摘录指定来源，未穷尽全部文献	HER2背景;SKBR3;BT-474：本轮不把HER2 siRNA当作ALOX5自身遗传验证；干预细节待核对	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+CYP4F2	2	2	3	1	N39E010	BRCA_GENETIC	DONE	本轮已摘录指定来源，未穷尽全部文献	ER阳性;MCF7;雌激素背景：CYP4F11并行；不把其结果全归CYP4F2	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+ENPP2	2	2	30	1	N39E011	BRCA_PHARMACOLOGY_WITH_GENETIC_NULL	DONE	本轮已摘录指定来源，未穷尽全部文献	E0771;MMTV-PyMT;脂肪细胞特异敲除：细胞来源重要；负结果必须保留；GSE176078是背景不是自身干预	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+LPCAT1	2	2	25	1	N39E012	BRCA_GENETIC	DONE	本轮已摘录指定来源，未穷尽全部文献	MDA-MB-231;紫杉醇耐药株：FOXA1救援不等于证明CAMP特定LPC介导	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+LPCAT2	2	2	2	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+LPCAT3	2	2	8	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+LPCAT4	2	2	0	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	Q643R3与旧LPCAT4/MBOAT2命名歧义；按稳定ID核对前不合并文献		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+LYPLA1	2	2	8	1	N39E013	BRCA_PHARMACOLOGY	DONE	本轮已摘录指定来源，未穷尽全部文献	MDA-MB-468 TNBC：不是本项目新DepMap分析；主要药理证据，未证明当前LPC关联介导	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+LYPLA2	2	2	6	1	N39E014	EPITHELIAL_MODEL_PENDING	DONE	本轮已摘录指定来源，未穷尽全部文献	Snail转化的上皮细胞;具体来源待核对：不能仅凭摘要称为已验证乳腺癌模型；全文取得失败	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+MGLL	2	2	22	1	N39E015	BRCA_PHARMACOLOGY	DONE	本轮已摘录指定来源，未穷尽全部文献	TNBC-HBMEC共培养;4T1-BrM5：药理为主；不能由CAMP整体RNA下降判定抑制方向	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+NT5C2	2	2	3	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+PTGS1	2	2	24	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+PTGS2	2	2	35	1	N39E016	BRCA_GENETIC	DONE	本轮已摘录指定来源，未穷尽全部文献	DANCR/脑转移背景乳腺癌细胞：公开GEO多为背景队列，不能当PTGS2直接干预数据	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+PUDP	2	2	0	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SDHA	2	2	24	1	N39E017	BRCA_GENETIC	DONE	本轮已摘录指定来源，未穷尽全部文献	MCF7;SKBR3：全文取得失败；不据此把所有SDH亚基统一抑制	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SDHB	2	2	27	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SDHC	2	2	11	1	N39E018	BRCA_GENETIC_DIRECTION_CAUTION	DONE	本轮已摘录指定来源，未穷尽全部文献	MCF7：球体生长/稳定性也下降；不能只用一种终点判断促癌抑癌	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SDHD	2	2	14	1	N39E019	BRCA_GENETIC_DIRECTION_CAUTION	DONE	本轮已摘录指定来源，未穷尽全部文献	MCF7：不能把SDHA的干预方向直接移到SDHD	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC13A3	2	2	2	1	N39E020	FUNCTION_MODEL_DETAIL_PENDING	DONE	本轮已摘录指定来源，未穷尽全部文献	肿瘤-巨噬细胞;模型谱待核对：摘要未确认具体乳腺模型；此衣康酸关系不等于CAMP当前映射底物	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC22A2	2	2	16	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC22A4	2	2	4	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC25A10	2	2	4	1	N39E021	FUNCTION_MODEL_DETAIL_PENDING	DONE	本轮已摘录指定来源，未穷尽全部文献	慢性循环低氧;肿瘤模型待核对：乳腺患者生存证据不等于乳腺模型直接干预；全文未取得	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC25A20	2	2	1	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC29A2	2	2	0	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC47A1	2	2	14	1	N39E022	BRCA_DRUG_TRANSPORT_CONTEXT	DONE	本轮已摘录指定来源，未穷尽全部文献	MDA-MB-436及其他癌细胞：涉及药物摄取敏感性，非当前肌酐异常的功能解释	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC47A2	2	2	2	1	N39E023	ASSOCIATION_NOT_SELF_PERTURBATION	DONE	本轮已摘录指定来源，未穷尽全部文献	19癌细胞系;非乳腺专属：未证明SLC47A2自身干预；不能借用为直接遗传功能支持	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SLC5A10	2	2	0	0		NO_CURATED_BREAST_SELF_PERTURBATION_THIS_PASS	NEEDS_REVIEW	定向检索已记录；尚未提取可核对的直接乳腺自身干预证据，不是生物学阴性		保留候选；需要深入时扩展别名或全文检索	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SUCLA2	2	2	2	1	N39E024	BRCA_GENETIC	DONE	本轮已摘录指定来源，未穷尽全部文献	MDA-MB231;MDA-MB468;脱附条件：乳腺细胞与肺癌小鼠实验分开；琥珀酸未变且补充不救援，提示非经典功能	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SUCLG1	2	2	1	1	N39E025	BRCA_GENETIC_NULL_SPECIFIC_ENDPOINT	DONE	本轮已摘录指定来源，未穷尽全部文献	A549及MDA-MB231;脱附：只限定该研究终点；不是无任何生物学作用	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS
+SUCLG2	2	2	5	1	N39E026	BRCA_GENETIC_NULL_SPECIFIC_ENDPOINT	DONE	本轮已摘录指定来源，未穷尽全部文献	A549及MDA-MB231;脱附：不能从同一复合体成员推断相同功能	先核对具体模型及可用公开干预数据；不直接开始机制分析	NOT_RUN	NOT_RUN	NOT_ESTABLISHED_THIS_PASS

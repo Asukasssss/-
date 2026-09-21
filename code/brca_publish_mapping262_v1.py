@@ -10,7 +10,7 @@ def register(stage,run,version,path,code,scope,status='DONE',reason='Historical 
  save(pd.concat([d,pd.DataFrame([row])],ignore_index=True).sort_values(['stage_id','run_id']),p)
 def checks(p):
  (p/'.gitattributes').write_text('* -text\n')
- files=[x for x in p.rglob('*') if x.is_file() and x.name!='checksums.tsv']
+ files=[x for x in p.rglob('*') if x.is_file() and x.name!='checksums.tsv' and not {'sources','fulltext'}.intersection(x.relative_to(p).parts) and not x.name.startswith('literature_hits') and x.name!='public_resource_lookup.tsv']
  save(pd.DataFrame([dict(file=str(x.relative_to(p)).replace('\\','/'),sha256=hashlib.sha256(x.read_bytes()).hexdigest()) for x in sorted(files)]),p/'checksums.tsv')
 if mode=='camp':
  run='20260921T150000Z_mapping262_patient_v1';path='results/BRCA/03_PATIENT/'+run;p=repo/path;d=pd.read_csv(p/'CAMP_relations262.tsv',sep='\t');e=pd.read_csv(p/'paired_RNA150.tsv',sep='\t');v=json.loads((p/'validation.json').read_text())
@@ -54,6 +54,8 @@ BH分别在255条可评估主分析、255条可评估敏感性分析和148个可
 代码：code/brca_mapping262_patient_v1.py。运行路径及输入SHA256见source_manifest.tsv；脚本核对旧统计n/效应、配对t公式、BH与输入不变性。
 '''
  (p/'README_CN.md').write_text(text,encoding='utf-8');checks(p);register('03_PATIENT',run,'mapping262_patient_v1',path,'code/brca_mapping262_patient_v1.py','262 relations x2;150 paired RNA;60 tumor cases/45pairs;old statistics reused;new BH')
+elif mode=='function':
+ run='20260921T152000Z_new39_literature_v1';path='results/BRCA/05_FUNCTION/'+run;p=repo/path;checks(p);register('05_FUNCTION',run,'new39_literature_v1',path,'code/brca_new39_curate_v1.py','39 new genes;78 searches;26 curated records;GSE283282 metadata;not exhaustive','PARTIAL','Some genes lack curated breast self-perturbation evidence;reading depth explicit','Use model-specific evidence;verify ACSL4 counts design before new intervention analysis')
 elif mode=='external':
  run='20260921T151000Z_mapping262_external_v1';path='results/BRCA/06_EXTERNAL/'+run;p=repo/path;d=pd.read_csv(p/'external_relations262.tsv',sep='\t');assert len(d)==786
  api=pd.read_csv(p/'FUSCC_new_gene_api_coverage.tsv',sep='\t');blocked=set(api.loc[api.status.eq('ACCESS_BLOCKED'),'gene']);mask=d.cohort.eq('FUSCC_TNBC')&d.gene.isin(blocked)&d.reason.eq('RNA_unavailable;see_gene_API_coverage');d.loc[mask,'status']='ACCESS_BLOCKED';d.loc[mask,'reason']='RNA_API_connection_refused;not_biological_negative'

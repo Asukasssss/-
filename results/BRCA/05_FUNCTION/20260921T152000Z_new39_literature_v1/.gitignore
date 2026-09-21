@@ -1,0 +1,4 @@
+sources/
+fulltext/
+literature_hits*.tsv
+public_resource_lookup.tsv
