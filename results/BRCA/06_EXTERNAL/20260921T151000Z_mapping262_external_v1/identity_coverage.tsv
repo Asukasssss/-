@@ -1,0 +1,187 @@
+cohort	metabolite_key	metabolite_name	status	reason	feature	external_name	row_index
+FUSCC	HMDB:HMDB00721	glycylproline	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	HMDB:HMDB00721	glycylproline	DONE	unique_author_name;not_spectral_reidentification	314	glycylproline	233
+FUSCC	HMDB:HMDB00736	isobutyrylcarnitine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	HMDB:HMDB00736	isobutyrylcarnitine	DONE	unique_author_name;not_spectral_reidentification	210	isobutyrylcarnitine	257
+FUSCC	HMDB:HMDB00848	stearoylcarnitine	DONE	unique_author_identifier	M428T136_POS	Stearoylcarnitine	-1
+Tang	HMDB:HMDB00848	stearoylcarnitine	DONE	unique_author_name;not_spectral_reidentification	913	stearoylcarnitine	378
+FUSCC	HMDB:HMDB05065	oleoylcarnitine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	HMDB:HMDB05065	oleoylcarnitine	DONE	unique_author_name;not_spectral_reidentification	914	oleoylcarnitine	318
+FUSCC	HMDB:HMDB10384	1-stearoyl-GPC (18:0)	NOT_EVALUABLE	multiple_features_unresolved			-1
+Tang	HMDB:HMDB10384	1-stearoyl-GPC (18:0)	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	HMDB:HMDB61702	2-palmitoyl-GPC (16:0)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	HMDB:HMDB61702	2-palmitoyl-GPC (16:0)	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	KEGG:C00009	phosphate	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00009	phosphate	DONE	unique_author_name;not_spectral_reidentification	671	phosphate	339
+FUSCC	KEGG:C00013	pyrophosphate (PPi)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00013	pyrophosphate (PPi)	DONE	unique_author_name;not_spectral_reidentification	672	pyrophosphate (PPi)	354
+FUSCC	KEGG:C00021	S-adenosylhomocysteine (SAH)	DONE	unique_author_identifier	M385T401_POS	S-Adenosyl-L-homocysteine	-1
+Tang	KEGG:C00021	S-adenosylhomocysteine (SAH)	DONE	unique_author_name;not_spectral_reidentification	236	S-adenosylhomocysteine (SAH)	360
+FUSCC	KEGG:C00025	glutamate	DONE	unique_author_identifier	M146T388_NEG	L-Glutamate	-1
+Tang	KEGG:C00025	glutamate	DONE	unique_author_name;not_spectral_reidentification	39	glutamate	211
+FUSCC	KEGG:C00037	glycine	DONE	unique_author_identifier	M74T364_NEG	Glycine	-1
+Tang	KEGG:C00037	glycine	DONE	unique_author_name;not_spectral_reidentification	1	glycine	224
+FUSCC	KEGG:C00042	succinate	DONE	unique_author_identifier	M117T364_NEG	Succinate	-1
+Tang	KEGG:C00042	succinate	DONE	unique_author_name;not_spectral_reidentification	659	succinate	379
+FUSCC	KEGG:C00047	lysine	DONE	unique_author_identifier	M188T505_POS	L-Lysine	-1
+Tang	KEGG:C00047	lysine	DONE	unique_author_name;not_spectral_reidentification	75	lysine	276
+FUSCC	KEGG:C00049	aspartate	DONE	unique_author_identifier	M134T396_POS	L-Aspartate	-1
+Tang	KEGG:C00049	aspartate	DONE	unique_author_name;not_spectral_reidentification	24	aspartate	134
+FUSCC	KEGG:C00051	glutathione, reduced (GSH)	DONE	unique_author_identifier	M308T256_POS	Glutathione	-1
+Tang	KEGG:C00051	glutathione, reduced (GSH)	DONE	unique_author_name;not_spectral_reidentification	295	glutathione, reduced (GSH)	217
+FUSCC	KEGG:C00055	cytidine 5'-monophosphate (5'-CMP)	DONE	unique_author_identifier	M324T256_POS	Cytidine 5'-monophosphate	-1
+Tang	KEGG:C00055	cytidine 5'-monophosphate (5'-CMP)	DONE	unique_author_name;not_spectral_reidentification	1255	cytidine 5'-monophosphate (5'-CMP)	171
+FUSCC	KEGG:C00062	arginine	DONE	unique_author_identifier	M175T501_POS	L-Arginine	-1
+Tang	KEGG:C00062	arginine	DONE	unique_author_name;not_spectral_reidentification	255	arginine	131
+FUSCC	KEGG:C00064	glutamine	DONE	unique_author_identifier	M147T365_POS	L-Glutamine	-1
+Tang	KEGG:C00064	glutamine	DONE	unique_author_name;not_spectral_reidentification	45	glutamine	213
+FUSCC	KEGG:C00065	serine	DONE	unique_author_identifier	M106T367_POS	L-Serine	-1
+Tang	KEGG:C00065	serine	DONE	unique_author_name;not_spectral_reidentification	8	serine	367
+FUSCC	KEGG:C00077	ornithine	DONE	unique_author_identifier	M133T489_POS	Ornithine	-1
+Tang	KEGG:C00077	ornithine	DONE	unique_author_name;not_spectral_reidentification	258	ornithine	320
+FUSCC	KEGG:C00095	fructose	DONE	unique_author_identifier	M359T295_NEG	D-Fructose	-1
+Tang	KEGG:C00095	fructose	DONE	unique_author_name;not_spectral_reidentification	537	fructose	194
+FUSCC	KEGG:C00097	cysteine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00097	cysteine	DONE	unique_author_name;not_spectral_reidentification	224	cysteine	165
+FUSCC	KEGG:C00099	beta-alanine	DONE	unique_author_identifier	M126T163_NEG	Beta-Alanine	-1
+Tang	KEGG:C00099	beta-alanine	DONE	unique_author_name;not_spectral_reidentification	28	beta-alanine	140
+FUSCC	KEGG:C00106	uracil	DONE	unique_author_identifier	M111T82_NEG	Uracil	-1
+Tang	KEGG:C00106	uracil	DONE	unique_author_name;not_spectral_reidentification	1277	uracil	399
+FUSCC	KEGG:C00114	choline	DONE	unique_author_identifier	M104T293_POS	Choline	-1
+Tang	KEGG:C00114	choline	DONE	unique_author_name;not_spectral_reidentification	960	choline	154
+FUSCC	KEGG:C00121	ribose	DONE	unique_author_identifier	M149T177_NEG	D-Ribose	-1
+Tang	KEGG:C00121	ribose	DONE	unique_author_name;not_spectral_reidentification	622	ribose	358
+FUSCC	KEGG:C00134	putrescine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00134	putrescine	DONE	unique_author_name;not_spectral_reidentification	282	putrescine	351
+FUSCC	KEGG:C00135	histidine	DONE	unique_author_identifier	M156T391_POS	L-Histidine	-1
+Tang	KEGG:C00135	histidine	DONE	unique_author_name;not_spectral_reidentification	53	histidine	245
+FUSCC	KEGG:C00140	N-acetylglucosamine	DONE	unique_author_identifier	M222T255_POS	N-Acetyl-D-glucosamine	-1
+Tang	KEGG:C00140	N-acetylglucosamine	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	KEGG:C00148	proline	DONE	unique_author_identifier	M116T307_POS	L-Proline	-1
+Tang	KEGG:C00148	proline	DONE	unique_author_name;not_spectral_reidentification	261	proline	347
+FUSCC	KEGG:C00149	malate	DONE	unique_author_identifier	M133T397_NEG	L-Malic acid	-1
+Tang	KEGG:C00149	malate	DONE	unique_author_name;not_spectral_reidentification	667	malate	277
+FUSCC	KEGG:C00153	nicotinamide	DONE	unique_author_identifier	M123T51_POS	Nicotinamide	-1
+Tang	KEGG:C00153	nicotinamide	DONE	unique_author_name;not_spectral_reidentification	1324	nicotinamide	312
+FUSCC	KEGG:C00186	lactate	NEEDS_REVIEW	L_vs_DL_lactate_scope_unresolved	M89T227_NEG	DL-lactate	-1
+Tang	KEGG:C00186	lactate	NEEDS_REVIEW	L_lactate_scope_unresolved	604	lactate	265
+FUSCC	KEGG:C00187	cholesterol	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00187	cholesterol	DONE	unique_author_name;not_spectral_reidentification	1102	cholesterol	153
+FUSCC	KEGG:C00189	ethanolamine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00189	ethanolamine	DONE	unique_author_name;not_spectral_reidentification	955	ethanolamine	192
+FUSCC	KEGG:C00208	maltose	DONE	unique_author_identifier	M341T442_NEG	D-Maltose	-1
+Tang	KEGG:C00208	maltose	DONE	unique_author_name;not_spectral_reidentification	547	maltose	280
+FUSCC	KEGG:C00212	adenosine	DONE	unique_author_identifier	M268T169_POS	Adenosine	-1
+Tang	KEGG:C00212	adenosine	DONE	unique_author_name;not_spectral_reidentification	1199	adenosine	111
+FUSCC	KEGG:C00219	arachidonate (20:4n6)	DONE	unique_author_identifier	M303T41_NEG	Arachidonic Acid (peroxide free)	-1
+Tang	KEGG:C00219	arachidonate (20:4n6)	DONE	unique_author_name;not_spectral_reidentification	728	arachidonate (20:4n6)	130
+FUSCC	KEGG:C00242	guanine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00242	guanine	DONE	unique_author_name;not_spectral_reidentification	1220	guanine	235
+FUSCC	KEGG:C00245	taurine	DONE	unique_author_identifier	M124T285_NEG	Taurine	-1
+Tang	KEGG:C00245	taurine	DONE	unique_author_name;not_spectral_reidentification	233	taurine	381
+FUSCC	KEGG:C00255	riboflavin (Vitamin B2)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00255	riboflavin (Vitamin B2)	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	KEGG:C00257	gluconate	DONE	unique_author_identifier	M195T348_NEG	D-gluconate	-1
+Tang	KEGG:C00257	gluconate	DONE	unique_author_name;not_spectral_reidentification	620	gluconate	208
+FUSCC	KEGG:C00262	hypoxanthine	DONE	unique_author_identifier	M137T169_POS	Hypoxanthine	-1
+Tang	KEGG:C00262	hypoxanthine	DONE	unique_author_name;not_spectral_reidentification	1190	hypoxanthine	250
+FUSCC	KEGG:C00270	N-acetylneuraminate	DONE	unique_author_identifier	M308T366_NEG	N-Acetylneuraminic acid	-1
+Tang	KEGG:C00270	N-acetylneuraminate	DONE	unique_author_name;not_spectral_reidentification	517	N-acetylneuraminate	303
+FUSCC	KEGG:C00275	mannose 6-phosphate	DONE	unique_author_identifier	M243T455_POS	D-Mannose-6-phosphate	-1
+Tang	KEGG:C00275	mannose 6-phosphate	DONE	unique_author_name;not_spectral_reidentification	554	mannose-6-phosphate	285
+FUSCC	KEGG:C00294	inosine	DONE	unique_author_identifier	M267T210_NEG	Inosine	-1
+Tang	KEGG:C00294	inosine	DONE	unique_author_name;not_spectral_reidentification	1192	inosine	251
+FUSCC	KEGG:C00300	creatine	DONE	unique_author_identifier	M132T356_POS	Creatine	-1
+Tang	KEGG:C00300	creatine	DONE	unique_author_name;not_spectral_reidentification	274	creatine	162
+FUSCC	KEGG:C00307	cytidine 5'-diphosphocholine	DONE	unique_author_identifier	M489T434_POS	Cytidine 5'-diphosphocholine (CDP-choline)	-1
+Tang	KEGG:C00307	cytidine 5'-diphosphocholine	DONE	unique_author_name;not_spectral_reidentification	965	cytidine 5'-diphosphocholine	170
+FUSCC	KEGG:C00319	sphingosine	DONE	unique_author_identifier	M300T86_POS	Sphingosine	-1
+Tang	KEGG:C00319	sphingosine	DONE	unique_author_name;not_spectral_reidentification	1077	sphingosine	373
+FUSCC	KEGG:C00327	citrulline	DONE	unique_author_identifier	M176T383_POS	L-Citrulline	-1
+Tang	KEGG:C00327	citrulline	DONE	unique_author_name;not_spectral_reidentification	263	citrulline	159
+FUSCC	KEGG:C00328	kynurenine	DONE	unique_author_identifier	M207T247_NEG	L-Kynurenine	-1
+Tang	KEGG:C00328	kynurenine	DONE	unique_author_name;not_spectral_reidentification	152	kynurenine	264
+FUSCC	KEGG:C00345	6-phosphogluconate	DONE	unique_author_identifier	M241T229_POS	6-Phospho-D-gluconate	-1
+Tang	KEGG:C00345	6-phosphogluconate	DONE	unique_author_name;not_spectral_reidentification	613	6-phosphogluconate	105
+FUSCC	KEGG:C00346	phosphoethanolamine	DONE	unique_author_identifier	M142T451_POS	O-Phosphoethanolamine	-1
+Tang	KEGG:C00346	phosphoethanolamine	DONE	unique_author_name;not_spectral_reidentification	956	phosphoethanolamine	340
+FUSCC	KEGG:C00357	N-acetylglucosamine 6-phosphate	DONE	unique_author_identifier	M302T441_POS	N-Acetyl-D-Glucosamine 6-Phosphate	-1
+Tang	KEGG:C00357	N-acetylglucosamine 6-phosphate	DONE	unique_author_name;not_spectral_reidentification	513	N-acetylglucosamine 6-phosphate	300
+FUSCC	KEGG:C00385	xanthine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00385	xanthine	DONE	unique_author_name;not_spectral_reidentification	1187	xanthine	414
+FUSCC	KEGG:C00429	5,6-dihydrouracil	DONE	unique_author_identifier	M173T307_NEG	Dihydrouracil	-1
+Tang	KEGG:C00429	5,6-dihydrouracil	DONE	unique_author_name;not_spectral_reidentification	1278	5,6-dihydrouracil	99
+FUSCC	KEGG:C00491	cystine	DONE	unique_author_identifier	M241T421_POS	L-Cystine	-1
+Tang	KEGG:C00491	cystine	DONE	unique_author_name;not_spectral_reidentification	228	cystine	168
+FUSCC	KEGG:C00668	glucose 6-phosphate	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00668	glucose 6-phosphate	DONE	unique_author_name;not_spectral_reidentification	587	glucose-6-phosphate (G6P)	210
+FUSCC	KEGG:C00670	glycerophosphorylcholine (GPC)	DONE	unique_author_identifier	M258T238_POS	Glycerophosphocholine	-1
+Tang	KEGG:C00670	glycerophosphorylcholine (GPC)	DONE	unique_author_name;not_spectral_reidentification	962	glycerophosphorylcholine (GPC)	223
+FUSCC	KEGG:C00712	oleate (18:1n9)	DONE	unique_author_identifier	M281T42_NEG	Oleic acid	-1
+Tang	KEGG:C00712	oleate (18:1n9)	DONE	unique_author_name;not_spectral_reidentification	708	oleate (18:1n9)	317
+FUSCC	KEGG:C00751	squalene	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00751	squalene	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	KEGG:C00791	creatinine	DONE	unique_author_identifier	M112T161_NEG	Creatinine	-1
+Tang	KEGG:C00791	creatinine	DONE	unique_author_name;not_spectral_reidentification	275	creatinine	163
+FUSCC	KEGG:C00794	sorbitol	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C00794	sorbitol	DONE	unique_author_name;not_spectral_reidentification	560	sorbitol	370
+FUSCC	KEGG:C00864	pantothenate	DONE	unique_author_identifier	M218T268_NEG	Pantothenate	-1
+Tang	KEGG:C00864	pantothenate	DONE	unique_author_name;not_spectral_reidentification	1347	pantothenate	327
+FUSCC	KEGG:C01157	trans-4-hydroxyproline	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C01157	trans-4-hydroxyproline	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	KEGG:C01179	4-hydroxyphenylpyruvate	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C01179	4-hydroxyphenylpyruvate	DONE	unique_author_name;not_spectral_reidentification	113	4-hydroxyphenylpyruvate	96
+FUSCC	KEGG:C01181	deoxycarnitine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C01181	deoxycarnitine	DONE	unique_author_name;not_spectral_reidentification	898	deoxycarnitine	176
+FUSCC	KEGG:C01530	stearate (18:0)	DONE	unique_author_identifier	M283T42_NEG	Stearic acid	-1
+Tang	KEGG:C01530	stearate (18:0)	DONE	unique_author_name;not_spectral_reidentification	706	stearate (18:0)	375
+FUSCC	KEGG:C01762	xanthosine	DONE	unique_author_identifier	M285T222_POS	Xanthosine	-1
+Tang	KEGG:C01762	xanthosine	DONE	unique_author_name;not_spectral_reidentification	1188	xanthosine	415
+FUSCC	KEGG:C01835	maltotriose	DONE	unique_author_identifier	M522T379_POS	Maltotriose	-1
+Tang	KEGG:C01835	maltotriose	DONE	unique_author_name;not_spectral_reidentification	567	maltotriose	282
+FUSCC	KEGG:C01885	1-palmitoylglycerol (1-monopalmitin)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C01885	1-palmitoylglycerol (1-monopalmitin)	DONE	unique_author_name;not_spectral_reidentification	1051	1-palmitoylglycerol (1-monopalmitin)	35
+FUSCC	KEGG:C02067	pseudouridine	DONE	unique_author_identifier	M243T236_NEG	Pseudouridine	-1
+Tang	KEGG:C02067	pseudouridine	DONE	unique_author_name;not_spectral_reidentification	1280	pseudouridine	350
+FUSCC	KEGG:C02477	alpha-tocopherol	DONE	unique_author_identifier	M429T28_NEG	alpha-Tocopherol (Vitamin E)	-1
+Tang	KEGG:C02477	alpha-tocopherol	DONE	unique_author_name;not_spectral_reidentification	1372	alpha-tocopherol	126
+FUSCC	KEGG:C02483	gamma-tocopherol	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C02483	gamma-tocopherol	DONE	unique_author_name;not_spectral_reidentification	1377	gamma-tocopherol	207
+FUSCC	KEGG:C02679	laurate (12:0)	DONE	unique_author_identifier	M199T45_2_NEG	Dodecanoic acid	-1
+Tang	KEGG:C02679	laurate (12:0)	DONE	unique_author_name;not_spectral_reidentification	694	laurate (12:0)	267
+FUSCC	KEGG:C02862	butyrylcarnitine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C02862	butyrylcarnitine	DONE	unique_author_name;not_spectral_reidentification	890	butyrylcarnitine	143
+FUSCC	KEGG:C02918	1-methylnicotinamide	DONE	unique_author_identifier	M137T286_POS	1-Methylnicotinamide	-1
+Tang	KEGG:C02918	1-methylnicotinamide	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	KEGG:C02990	palmitoylcarnitine	DONE	unique_author_identifier	M400T145_POS	L-Palmitoylcarnitine	-1
+Tang	KEGG:C02990	palmitoylcarnitine	DONE	unique_author_name;not_spectral_reidentification	912	palmitoylcarnitine	326
+FUSCC	KEGG:C03017	propionylcarnitine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C03017	propionylcarnitine	DONE	unique_author_name;not_spectral_reidentification	888	propionylcarnitine	348
+FUSCC	KEGG:C03916	1-oleoylglycerophosphocholine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C03916	1-oleoylglycerophosphocholine	DONE	unique_author_name;not_spectral_reidentification	1017	1-oleoylglycerophosphocholine	32
+FUSCC	KEGG:C04006	inositol 1-phosphate (I1P)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C04006	inositol 1-phosphate (I1P)	DONE	unique_author_name;not_spectral_reidentification	974	inositol 1-phosphate (I1P)	253
+FUSCC	KEGG:C04102	1-palmitoyl-GPC (16:0)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C04102	1-palmitoyl-GPC (16:0)	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	KEGG:C05282	gamma-glutamylglutamate	DONE	unique_author_identifier	M277T451_POS	gamma-L-Glutamyl-L-glutamic acid	-1
+Tang	KEGG:C05282	gamma-glutamylglutamate	DONE	unique_author_name;not_spectral_reidentification	467	gamma-glutamylglutamate	199
+FUSCC	KEGG:C05345	fructose-6-phosphate	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C05345	fructose-6-phosphate	DONE	unique_author_name;not_spectral_reidentification	592	fructose-6-phosphate	195
+FUSCC	KEGG:C06424	myristate (14:0)	DONE	unique_author_identifier	M227T44_NEG	Myristic acid	-1
+Tang	KEGG:C06424	myristate (14:0)	DONE	unique_author_name;not_spectral_reidentification	698	myristate (14:0)	295
+FUSCC	KEGG:C06428	eicosapentaenoate (EPA; 20:5n3)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C06428	eicosapentaenoate (EPA; 20:5n3)	DONE	unique_author_name;not_spectral_reidentification	679	eicosapentaenoate (EPA; 20:5n3)	186
+FUSCC	KEGG:C06429	docosahexaenoate (DHA; 22:6n3)	DONE	unique_author_identifier	M327T41_NEG	(4Z,7Z,10Z,13Z,16Z,19Z)-4,7,10,13,1 6,19-Docosahexaenoic acid	-1
+Tang	KEGG:C06429	docosahexaenoate (DHA; 22:6n3)	DONE	unique_author_name;not_spectral_reidentification	682	docosahexaenoate (DHA; 22:6n3)	182
+FUSCC	KEGG:C07326	1,5-anhydroglucitol (1,5-AG)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C07326	1,5-anhydroglucitol (1,5-AG)	DONE	unique_author_name;not_spectral_reidentification	583	1,5-anhydroglucitol (1,5-AG)	20
+FUSCC	KEGG:C10172	stachydrine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C10172	stachydrine	DONE	unique_author_name;not_spectral_reidentification	1753	stachydrine	374
+FUSCC	KEGG:C12270	N-acetyl-aspartyl-glutamate (NAAG)	DONE	unique_author_identifier	M305T437_POS	N-Acetylaspartylglutamate (NAAG)	-1
+Tang	KEGG:C12270	N-acetyl-aspartyl-glutamate (NAAG)	DONE	unique_author_name;not_spectral_reidentification	51	N-acetyl-aspartyl-glutamate (NAAG)	297
+FUSCC	KEGG:C16527	adrenate (22:4n6)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:C16527	adrenate (22:4n6)	DONE	unique_author_name;not_spectral_reidentification	735	adrenate (22:4n6)	119
+FUSCC	KEGG:D01947	1-stearoylglycerol (18:0)	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	KEGG:D01947	1-stearoylglycerol (18:0)	NOT_EVALUABLE	no_unique_author_name			-1
+FUSCC	NAME:2-oleoylglycerophosphoethanolamine	2-oleoylglycerophosphoethanolamine	NOT_EVALUABLE	no_exact_author_identifier			-1
+Tang	NAME:2-oleoylglycerophosphoethanolamine	2-oleoylglycerophosphoethanolamine	DONE	unique_author_name;not_spectral_reidentification	997	2-oleoylglycerophosphoethanolamine*	71

@@ -1,6 +1,7 @@
 """Create aggregate reports and stage records; never reads patient matrices."""
 from pathlib import Path
 import sys,json,hashlib,pandas as pd
+import numpy as np
 repo=Path(__file__).resolve().parents[1];mode=sys.argv[1]
 def save(d,p):d.to_csv(p,sep='\t',index=False,na_rep='NA',lineterminator='\n')
 def register(stage,run,version,path,code,scope,status='DONE',reason='Historical results immutable; new family q separately recorded',next_action='Combine patient and external evidence with functional sources; no hard significance intersection'):
@@ -53,3 +54,45 @@ BH分别在255条可评估主分析、255条可评估敏感性分析和148个可
 代码：code/brca_mapping262_patient_v1.py。运行路径及输入SHA256见source_manifest.tsv；脚本核对旧统计n/效应、配对t公式、BH与输入不变性。
 '''
  (p/'README_CN.md').write_text(text,encoding='utf-8');checks(p);register('03_PATIENT',run,'mapping262_patient_v1',path,'code/brca_mapping262_patient_v1.py','262 relations x2;150 paired RNA;60 tumor cases/45pairs;old statistics reused;new BH')
+elif mode=='external':
+ run='20260921T151000Z_mapping262_external_v1';path='results/BRCA/06_EXTERNAL/'+run;p=repo/path;d=pd.read_csv(p/'external_relations262.tsv',sep='\t');assert len(d)==786
+ api=pd.read_csv(p/'FUSCC_new_gene_api_coverage.tsv',sep='\t');blocked=set(api.loc[api.status.eq('ACCESS_BLOCKED'),'gene']);mask=d.cohort.eq('FUSCC_TNBC')&d.gene.isin(blocked)&d.reason.eq('RNA_unavailable;see_gene_API_coverage');d.loc[mask,'status']='ACCESS_BLOCKED';d.loc[mask,'reason']='RNA_API_connection_refused;not_biological_negative'
+ errors=[]
+ for f,z in d.groupby('test_family'):
+  assert len(z)==262 and z.relation_id.is_unique
+  ps=z.p_value.fillna(1).to_numpy() if f.startswith('FUSCC') else z.loc[z.p_value.notna(),'p_value'].to_numpy();o=np.argsort(ps);q=np.empty(len(ps));q[o]=np.minimum(1,np.minimum.accumulate((ps[o]*len(ps)/np.arange(1,len(ps)+1))[::-1])[::-1]);expected=q[z.p_value.notna().to_numpy()] if f.startswith('FUSCC') else q;errors.extend(abs(expected-z.loc[z.p_value.notna(),'q_value'].to_numpy()))
+ assert max(errors)<1e-12;save(d,p/'external_relations262.tsv');v=json.loads((p/'validation.json').read_text());v.update(status='PARTIAL',FUSCC_API_blocked_genes=len(blocked),blocked_relation_rows=int(mask.sum()),BH_independently_checked=True,max_BH_error=max(errors),connectivity_retry='server165 HTTPS443 and HTTP80 connection refused; DNS resolves; cached values reused')
+ (p/'validation.json').write_text(json.dumps(v,indent=2));text='''# 新版262关系外部关联
+
+## 本轮问题
+为新版262条关系提供FUSCC、Tang外部患者证据。全部条目保留，不只检验CAMP显著项。
+
+## 输入与范围
+沿用明确作者样本连接：FUSCC 258例TNBC、Tang 20例当前RNA版本可连接病例；同源数据不重复算独立验证。源矩阵仍在server165。
+
+## 实际结果
+|家族|计划|可评估|复用|新算|新q<0.05|
+|---|---:|---:|---:|---:|---:|
+'''
+ for f,x in v['families'].items():text+=f"|{f}|{x['planned']}|{x['evaluable']}|{x['reused']}|{x['newly_calculated']}|{x['q_lt005']}|\n"
+ text+=f'\nFUSCC新增RNA接口拒绝连接，{len(blocked)}个基因的请求受阻；涉及主分析{int(mask.sum()/2)}条已匹配代谢物但缺RNA的关系，标ACCESS_BLOCKED。旧缓存继续使用。Tang新版唯一q<0.05关系为MDH1—苹果酸；旧效应/P未改，PNP原线索保留。\n'
+ text+='''
+## 新手解释
+扩展名单后，旧关系的P值和效应保持不变，但新版q会随检验范围变化。q是否过0.05的改变不是生物学作用突然出现或消失。
+
+## 限制与反证
+FUSCC是阶段性可用覆盖：接口恢复后补齐受阻项，再另建完整q版本。此次BH按262个计划项、缺项内部p=1处理，公开缺项p/q仍NA；Tang按235个可评估检验校正。两队列q不能当作统一重要性分数。
+作者处理代谢组包含既有填补，原始仪器缺失标志未额外核实。名字或标识匹配不等于重新确认化合物身份。LPCAT4待稳定基因身份核对。相关不能证明代谢介导、酶活或因果；Tang小队列区间不精确。Oslo真实编号连接仍未解决，不猜连接。
+
+## 当前决定
+保留未支持、缺测、受阻结果；已有ASNS/GLS/SLC6A8等线索继续保留。新增候选不能因FUSCC尚未下载RNA被淘汰。
+
+## 下一步
+与CAMP、新39功能材料回接；接口恢复时只补缺口。新版q不能覆盖旧174结果。
+
+## 复现
+独占server165运行目录，source/direct_relations.tsv放置新版映射，.running内容mapping262_external_v1。
+`python3 brca_mapping262_external_v1.py <new_run_directory>`
+脚本code/brca_mapping262_external_v1.py。公开标记和独立BH复核由code/brca_publish_mapping262_v1.py external生成。
+'''
+ (p/'README_CN.md').write_text(text,encoding='utf-8');checks(p);register('06_EXTERNAL',run,'mapping262_external_v1',path,'code/brca_mapping262_external_v1.py','262 relationships x3 families;Tang235 evaluable;FUSCC126 available;new family q','PARTIAL','FUSCC new RNA API connection refused;missing data not negative','Retry missing RNA when endpoint restored; preserve provisional q version')

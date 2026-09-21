@@ -1,0 +1,21 @@
+{
+  "version": "mapping262_external_v1",
+  "source_commit": "9e4387f",
+  "planned_relations_per_family": 262,
+  "FUSCC_families": [
+    "FUSCC_PRIMARY262",
+    "FUSCC_EXCLUDE_WARNING262"
+  ],
+  "Tang_family": "Tang262",
+  "FUSCC_BH": "262 planned;missing p=1 internally;public p/q stay NA",
+  "Tang_BH": "all evaluable of262",
+  "method": "Spearman9999 permutation plus1;2000case percentile bootstrap95CI",
+  "min_n": {
+    "FUSCC": 20,
+    "Tang": 10
+  },
+  "reuse": "same source matrices+join;exact relation;n/effect checked;reuse old P/CI then new BH",
+  "LPCAT4": "pending stable gene identity;no symbol-only substitution",
+  "Oslo": "not reattempted;true crosswalk still required",
+  "patient_values_exported": false
+}

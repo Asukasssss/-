@@ -1,0 +1,34 @@
+{
+  "status": "PARTIAL",
+  "old_overlap_n_and_effect_verified": true,
+  "old_statistics_unchanged": true,
+  "patient_values_exported": false,
+  "families": {
+    "FUSCC_EXCLUDE_WARNING262": {
+      "planned": 262,
+      "evaluable": 126,
+      "reused": 125,
+      "newly_calculated": 1,
+      "q_lt005": 12
+    },
+    "FUSCC_PRIMARY262": {
+      "planned": 262,
+      "evaluable": 126,
+      "reused": 125,
+      "newly_calculated": 1,
+      "q_lt005": 13
+    },
+    "Tang262": {
+      "planned": 262,
+      "evaluable": 235,
+      "reused": 153,
+      "newly_calculated": 82,
+      "q_lt005": 1
+    }
+  },
+  "FUSCC_API_blocked_genes": 32,
+  "blocked_relation_rows": 128,
+  "BH_independently_checked": true,
+  "max_BH_error": 2.220446049250313e-16,
+  "connectivity_retry": "server165 HTTPS443 and HTTP80 connection refused; DNS resolves; cached values reused"
+}
