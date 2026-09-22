@@ -1,0 +1,26 @@
+{
+  "status": "DONE",
+  "counts": {
+    "metabolites": 318,
+    "workpool": 190,
+    "relations": 262,
+    "genes": 156,
+    "current_genes": 150
+  },
+  "input_commit": "8663004f8d98acaf1368badc7436c84b059e4462",
+  "new_P_q": 0,
+  "raw_patient_data_used": false,
+  "report_pages": 15,
+  "new_figures": 26,
+  "reused_assets": 4,
+  "appendix_tables_preserved": true,
+  "text_boxes_fit": true,
+  "modules": {
+    "rna": "DONE",
+    "subtypes": "DONE",
+    "single_cell": "DONE"
+  },
+  "visual_review": "PASS",
+  "cross_cancer_real_data_validation": "NOT_RUN",
+  "visual_review_scope": "All 15 rendered main pages reviewed; page12 and one appendix heatmap inspected at full size. Existing 156-gene atlases reused byte-for-byte, not individually re-reviewed."
+}

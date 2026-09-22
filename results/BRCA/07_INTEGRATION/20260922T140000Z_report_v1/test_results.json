@@ -1,0 +1,6 @@
+{
+  "tests_passed": 7,
+  "failures": 0,
+  "scope": "synthetic alternate counts; missing RNA/subtype/sensitivity; one SC study; source status mask; zero vs NA; read-only validation; overwrite refusal",
+  "real_other_cancer": "NOT_RUN"
+}
