@@ -1,0 +1,25 @@
+{
+  "version": "prad_patient_v1",
+  "code_commit": "a893c1329906a8bccb75b3196af637d6b30867d6",
+  "relation_family_planned": 161,
+  "RNA_gene_family_planned": 101,
+  "minimum_n": 8,
+  "input_relations_sha256": "384c0f682bba8c1a4c767437cbc07eda3e3d89da10cd29f6529b17e60888b6b1",
+  "unit": "unique author case within tissue; same-CAMP postselection; no genotypes",
+  "association_primary": "Spearman rho on unchanged author processed tumor values;9999 global independent-case permutations plus1;4000 whole-case bootstrap;post-preprocessing exchangeability assumed",
+  "association_available": "Same full relation family;require finite value in author data sheet;not certified detection mask",
+  "association_batch": "Partial Spearman by residualizing average ranks on author batch indicators;9999 within-batch permutations;4000 batch-stratified case bootstrap",
+  "RNA_primary": "Paired t on continuous RMA author BatchAdj matrix;43 author-case pairs;analytic t95CI and4000 bootstrap mean sensitivity;not raw counts",
+  "RNA_CAPT": "Repeat full gene family in36 CAPT-concordant pairs;independent BH",
+  "missing_gene": "NOT_EVALUABLE;no synonym inference or best probe selection",
+  "transform": "none;reuse author processed scales",
+  "BH": "Separate all evaluable tests per five fixed families;missing P and q remain NA",
+  "master_seed": 20260922,
+  "seed": "SHA256(version|20260922|family|stable_relation_or_gene_id) first8hex",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  }
+}

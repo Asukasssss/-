@@ -1,0 +1,41 @@
+{
+  "status": "DONE",
+  "families": {
+    "REL_TUMOR_AVAILABLE": {
+      "planned": 161,
+      "evaluable": 161,
+      "p_lt005": 15,
+      "q_lt005": 0
+    },
+    "REL_TUMOR_BATCH": {
+      "planned": 161,
+      "evaluable": 161,
+      "p_lt005": 15,
+      "q_lt005": 0
+    },
+    "REL_TUMOR_PRIMARY": {
+      "planned": 161,
+      "evaluable": 161,
+      "p_lt005": 18,
+      "q_lt005": 0
+    },
+    "RNA_PAIRED_CAPT": {
+      "planned": 101,
+      "evaluable": 101,
+      "p_lt005": 34,
+      "q_lt005": 20
+    },
+    "RNA_PAIRED_CURRENT": {
+      "planned": 101,
+      "evaluable": 101,
+      "p_lt005": 35,
+      "q_lt005": 21
+    }
+  },
+  "relation_unique": true,
+  "RNA_gene_unique": true,
+  "BH_independent_check": true,
+  "RNA_t_independent_check": true,
+  "Spearman_independent_check": true,
+  "original_values_modified": false
+}
