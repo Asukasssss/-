@@ -1,0 +1,10 @@
+{
+  "status": "DONE",
+  "genes": 156,
+  "pdf_pages": 156,
+  "focus_png": 12,
+  "all_cells_retained": true,
+  "coordinate_identity_between_panels": true,
+  "unique_gene_match": true,
+  "source_hash_unchanged": true
+}

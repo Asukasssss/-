@@ -1,0 +1,10 @@
+author_celltype	n_cells	color
+B-cells	3206	#d73027
+CAFs	6573	#4575b4
+Cancer Epithelial	24489	#78b436
+Endothelial	7605	#7b3294
+Myeloid	9675	#ef8a0c
+Normal Epithelial	4355	#43a2ca
+Plasmablasts	3524	#d95f9f
+PVL	5423	#888888
+T-cells	35214	#66a98c

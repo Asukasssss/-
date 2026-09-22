@@ -1,0 +1,15 @@
+{
+  "run_id": "20260922T085000Z_sc156_umap_pairs_v1",
+  "version": "sc156_umap_pairs_v1",
+  "source": "Wu frozen obsm/X_umap",
+  "genes": 156,
+  "cells": 100064,
+  "annotation": "author-derived celltype_major",
+  "new_P_q": 0,
+  "new_embedding": false,
+  "normalization": "unchanged log1p(raw/library*10000)",
+  "style": "white,small points,light borders;matched axes;right legend with counts",
+  "color_cap": "each gene positive-expression99th percentile;unchanged from preceding UMAP",
+  "source_sha256": "ef9e792e3e25a811af7778e38913fe0758fb887284899b47bdd54c8af0e91281",
+  "matplotlib": "3.6.3"
+}
