@@ -1,0 +1,12 @@
+{
+  "input_commit": "8952c54b61709c875ec83881b66ee43bd1de59f3",
+  "scientific_baseline": "8663004",
+  "method": "curated overlapping descriptive modules; all original statistics retained",
+  "new_P_q": 0,
+  "new_patient_models": 0,
+  "new_cell_analysis": 0,
+  "cooccurrence_counts": "NOT_RUN",
+  "literature_exhaustive_review": "NOT_RUN",
+  "module_enrichment": "NOT_RUN",
+  "candidate_priority": "qualitative;no composite score"
+}

@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "metabolites": 318,
+    "relations": 262,
+    "genes": 156,
+    "modules": 15,
+    "assigned_unique_features": 70
+  },
+  "all_frozen_tables_preserved": true,
+  "no_new_statistics": true,
+  "module_counts_overlap": true,
+  "excel_opened": true,
+  "excel_sheet_count": 16
+}

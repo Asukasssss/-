@@ -1,0 +1,265 @@
+module_id	module	gene	cohort	source_status	reason	display_top	mechanical_top	top_n	top_detection	bootstrap
+M01	氨基酸氮分配与谷氨酸分支	ASNS	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.1508810884292284	0.972
+M01	氨基酸氮分配与谷氨酸分支	ASNS	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.09018248858357214	0.926
+M01	氨基酸氮分配与谷氨酸分支	GLS	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.2494653201914888	0.785
+M01	氨基酸氮分配与谷氨酸分支	GLS	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.22559818587289113	0.964
+M01	氨基酸氮分配与谷氨酸分支	GLS2	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.013858228594218097	0.847
+M01	氨基酸氮分配与谷氨酸分支	GLS2	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Malignant_epithelial	33	0.007380267698945014	NA
+M01	氨基酸氮分配与谷氨酸分支	GLUL	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.7318867464882862	0.984
+M01	氨基酸氮分配与谷氨酸分支	GLUL	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.6081745021829451	1.0
+M01	氨基酸氮分配与谷氨酸分支	BCAT1	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.21238581844159743	1.0
+M01	氨基酸氮分配与谷氨酸分支	BCAT1	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.16811247698933432	1.0
+M01	氨基酸氮分配与谷氨酸分支	BCAT2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2772445937009146	0.967
+M01	氨基酸氮分配与谷氨酸分支	BCAT2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.11940134747308176	0.95
+M01	氨基酸氮分配与谷氨酸分支	FOLH1	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.05014393209259673	0.728
+M01	氨基酸氮分配与谷氨酸分支	FOLH1	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.0378694732058969	1.0
+M01	氨基酸氮分配与谷氨酸分支	GCLC	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.09126192923015838	0.931
+M01	氨基酸氮分配与谷氨酸分支	GCLC	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.08358571607698674	0.996
+M01	氨基酸氮分配与谷氨酸分支	GOT1	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2690767183910951	0.881
+M01	氨基酸氮分配与谷氨酸分支	GOT1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.10619193402557416	0.995
+M01	氨基酸氮分配与谷氨酸分支	GOT2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.26313019938138227	0.495
+M01	氨基酸氮分配与谷氨酸分支	GOT2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.1562445759136066	0.997
+M01	氨基酸氮分配与谷氨酸分支	OAT	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.6293088039029497	0.988
+M01	氨基酸氮分配与谷氨酸分支	OAT	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.37393952229495553	0.999
+M01	氨基酸氮分配与谷氨酸分支	SLC7A11	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.045730349791350725	0.555
+M01	氨基酸氮分配与谷氨酸分支	SLC7A11	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.026823172580960983	0.938
+M01	氨基酸氮分配与谷氨酸分支	TAT	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.04619901503519761	0.938
+M01	氨基酸氮分配与谷氨酸分支	TAT	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.032195308653484855	0.991
+M01	氨基酸氮分配与谷氨酸分支	ASS1	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.27376529588008985	0.649
+M01	氨基酸氮分配与谷氨酸分支	ASS1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.1573033283696286	0.61
+M01	氨基酸氮分配与谷氨酸分支	PEPD	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.3122209279984801	0.933
+M01	氨基酸氮分配与谷氨酸分支	PEPD	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.15632231468112964	0.608
+M01	氨基酸氮分配与谷氨酸分支	PRODH	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.0219370942659773	0.89
+M01	氨基酸氮分配与谷氨酸分支	PRODH	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Malignant_epithelial	33	0.004061031693209193	NA
+M01	氨基酸氮分配与谷氨酸分支	PYCR1	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.5434593493820177	1.0
+M01	氨基酸氮分配与谷氨酸分支	PYCR1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.2760125648536717	1.0
+M01	氨基酸氮分配与谷氨酸分支	PYCR2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.1934833720386784	0.78
+M01	氨基酸氮分配与谷氨酸分支	PYCR2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.16861382374804612	0.995
+M01	氨基酸氮分配与谷氨酸分支	PYCR3	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.17392507838055832	1.0
+M01	氨基酸氮分配与谷氨酸分支	PYCR3	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.08200779936224989	1.0
+M01	氨基酸氮分配与谷氨酸分支	ARG1	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	T_NK_cells	26	0.000616526144050964	NA
+M01	氨基酸氮分配与谷氨酸分支	ARG1	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Fibroblasts	30	0.00011051811605828228	NA
+M01	氨基酸氮分配与谷氨酸分支	ARG2	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.15689804878268826	0.993
+M01	氨基酸氮分配与谷氨酸分支	ARG2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.034646157978638105	0.574
+M01	氨基酸氮分配与谷氨酸分支	ODC1	Wu2021	DONE	NA	B_cells	B_cells	20	0.23909605048100052	0.823
+M01	氨基酸氮分配与谷氨酸分支	ODC1	Pal2021_reprocessed	DONE	NA	B_cells	B_cells	14	0.13581776388600084	0.985
+M01	氨基酸氮分配与谷氨酸分支	OTC	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Endothelial	24	0.003938575616220473	NA
+M01	氨基酸氮分配与谷氨酸分支	OTC	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Endothelial	23	0.00031055900621118014	NA
+M02	乙醇胺至磷酸乙醇胺短链	CHKA	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.20915045892899614	0.905
+M02	乙醇胺至磷酸乙醇胺短链	CHKA	Pal2021_reprocessed	DONE	NA	Mast_cells	Mast_cells	12	0.039814390917028805	0.447
+M02	乙醇胺至磷酸乙醇胺短链	CHKB	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.0830120666502571	0.833
+M02	乙醇胺至磷酸乙醇胺短链	CHKB	Pal2021_reprocessed	DONE	NA	Fibroblasts	Fibroblasts	30	0.028556890670259374	0.567
+M02	乙醇胺至磷酸乙醇胺短链	ETNK1	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.3576991814771576	0.611
+M02	乙醇胺至磷酸乙醇胺短链	ETNK1	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.1220671235418073	0.774
+M02	乙醇胺至磷酸乙醇胺短链	ETNK2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.11918172112648087	0.902
+M02	乙醇胺至磷酸乙醇胺短链	ETNK2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.08934752286807657	1.0
+M02	乙醇胺至磷酸乙醇胺短链	PCYT2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.24641499391233546	0.998
+M02	乙醇胺至磷酸乙醇胺短链	PCYT2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.11297084774900562	0.997
+M03	胆碱与溶血磷脂重塑背景	CHKA	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.20915045892899614	0.905
+M03	胆碱与溶血磷脂重塑背景	CHKA	Pal2021_reprocessed	DONE	NA	Mast_cells	Mast_cells	12	0.039814390917028805	0.447
+M03	胆碱与溶血磷脂重塑背景	CHKB	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.0830120666502571	0.833
+M03	胆碱与溶血磷脂重塑背景	CHKB	Pal2021_reprocessed	DONE	NA	Fibroblasts	Fibroblasts	30	0.028556890670259374	0.567
+M03	胆碱与溶血磷脂重塑背景	GDPD5	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.0648705901083636	0.935
+M03	胆碱与溶血磷脂重塑背景	GDPD5	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.05308516652857115	0.999
+M03	胆碱与溶血磷脂重塑背景	GPCPD1	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.2711731456654018	0.998
+M03	胆碱与溶血磷脂重塑背景	GPCPD1	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.16136437726453365	0.996
+M03	胆碱与溶血磷脂重塑背景	SLC22A2	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Perivascular	24	0.0006621103708613322	NA
+M03	胆碱与溶血磷脂重塑背景	SLC22A2	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Perivascular	15	0.0009389939622497761	NA
+M03	胆碱与溶血磷脂重塑背景	CEPT1	Wu2021	DONE	NA	B_cells	B_cells	20	0.08120934984430635	0.946
+M03	胆碱与溶血磷脂重塑背景	CEPT1	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.07953414103276377	0.721
+M03	胆碱与溶血磷脂重塑背景	CHPT1	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.45044259361814865	0.996
+M03	胆碱与溶血磷脂重塑背景	CHPT1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.30372043883225386	1.0
+M03	胆碱与溶血磷脂重塑背景	PCYT1A	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.12231150316964283	0.854
+M03	胆碱与溶血磷脂重塑背景	PCYT1A	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.09327181623835774	0.934
+M03	胆碱与溶血磷脂重塑背景	PCYT1B	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Nonmalignant_epithelial	10	0.005182984123908408	NA
+M03	胆碱与溶血磷脂重塑背景	PCYT1B	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Fibroblasts	30	0.000981351263564329	NA
+M03	胆碱与溶血磷脂重塑背景	LYPLA1	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.6060192987299409	1.0
+M03	胆碱与溶血磷脂重塑背景	LYPLA1	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.41780489889559347	1.0
+M03	胆碱与溶血磷脂重塑背景	LYPLA2	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.4157441859752439	1.0
+M03	胆碱与溶血磷脂重塑背景	LYPLA2	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.20347354508123644	0.996
+M03	胆碱与溶血磷脂重塑背景	ENPP2	Wu2021	DONE		Endothelial	Endothelial	24	0.2899376535963007	1.0
+M03	胆碱与溶血磷脂重塑背景	ENPP2	Pal2021_reprocessed	DONE		Endothelial	Endothelial	23	0.14891889960381532	1.0
+M03	胆碱与溶血磷脂重塑背景	LPCAT1	Wu2021	DONE		Myeloid	Myeloid	26	0.11586232405889303	0.853
+M03	胆碱与溶血磷脂重塑背景	LPCAT1	Pal2021_reprocessed	DONE		Endothelial	Endothelial	23	0.07512762736120684	0.79
+M03	胆碱与溶血磷脂重塑背景	LPCAT2	Wu2021	DONE		Myeloid	Myeloid	26	0.27291867723581037	0.931
+M03	胆碱与溶血磷脂重塑背景	LPCAT2	Pal2021_reprocessed	DONE		Mast_cells	Mast_cells	12	0.14578204408603065	0.992
+M03	胆碱与溶血磷脂重塑背景	LPCAT3	Wu2021	DONE		Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.3003918894827421	0.7
+M03	胆碱与溶血磷脂重塑背景	LPCAT3	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.1243857406821653	0.999
+M03	胆碱与溶血磷脂重塑背景	LPCAT4	Wu2021	DONE		Endothelial	Endothelial	24	0.22856766221082636	1.0
+M03	胆碱与溶血磷脂重塑背景	LPCAT4	Pal2021_reprocessed	DONE		Endothelial	Endothelial	23	0.07070519953044238	0.999
+M03	胆碱与溶血磷脂重塑背景	ABHD12	Wu2021	DONE		Myeloid	Myeloid	26	0.3650958058389028	1.0
+M03	胆碱与溶血磷脂重塑背景	ABHD12	Pal2021_reprocessed	DONE		Myeloid	Myeloid	30	0.1929072555594944	1.0
+M04	嘌呤降解与回收背景	ADA	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.1402325345121873	0.835
+M04	嘌呤降解与回收背景	ADA	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.05665600345817483	0.734
+M04	嘌呤降解与回收背景	ADA2	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.40997838875943426	1.0
+M04	嘌呤降解与回收背景	ADA2	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.2741744657592467	1.0
+M04	嘌呤降解与回收背景	AHCY	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.5379956558543251	0.714
+M04	嘌呤降解与回收背景	AHCY	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.24862902674218015	1.0
+M04	嘌呤降解与回收背景	SLC29A2	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.10825403506589722	0.998
+M04	嘌呤降解与回收背景	SLC29A2	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.05232978542222368	0.961
+M04	嘌呤降解与回收背景	NT5C2	Wu2021	DONE		Myeloid	Myeloid	26	0.1333739435694144	0.776
+M04	嘌呤降解与回收背景	NT5C2	Pal2021_reprocessed	DONE		Endothelial	Endothelial	23	0.06896657521635786	0.941
+M04	嘌呤降解与回收背景	PNP	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.4701804152643045	1.0
+M04	嘌呤降解与回收背景	PNP	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.23696620764224768	1.0
+M04	嘌呤降解与回收背景	HPRT1	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.3660080658480825	0.825
+M04	嘌呤降解与回收背景	HPRT1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.19798263622995974	0.548
+M04	嘌呤降解与回收背景	GDA	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	B_cells	20	0.00047619047619047624	NA
+M04	嘌呤降解与回收背景	GDA	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Mast_cells	12	0.0006887052341597796	NA
+M05	丝氨酸甘氨酸与同工酶相反RNA	SHMT1	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.17002799430317922	0.885
+M05	丝氨酸甘氨酸与同工酶相反RNA	SHMT1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.05482723270192949	0.895
+M05	丝氨酸甘氨酸与同工酶相反RNA	SHMT2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.3325361491556528	0.995
+M05	丝氨酸甘氨酸与同工酶相反RNA	SHMT2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.16337946232255743	0.915
+M05	丝氨酸甘氨酸与同工酶相反RNA	GSS	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2997292943829862	0.849
+M05	丝氨酸甘氨酸与同工酶相反RNA	GSS	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.1294909857190932	0.99
+M05	丝氨酸甘氨酸与同工酶相反RNA	PEPD	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.3122209279984801	0.933
+M05	丝氨酸甘氨酸与同工酶相反RNA	PEPD	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.15632231468112964	0.608
+M06	烟酰胺与甲基化产物	NAMPT	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.6640439890214732	1.0
+M06	烟酰胺与甲基化产物	NAMPT	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.47312717268238796	1.0
+M06	烟酰胺与甲基化产物	NNMT	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.7261004994697219	1.0
+M06	烟酰胺与甲基化产物	NNMT	Pal2021_reprocessed	DONE	NA	Fibroblasts	Fibroblasts	30	0.6088995647616221	1.0
+M06	烟酰胺与甲基化产物	SLC29A2	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.10825403506589722	0.998
+M06	烟酰胺与甲基化产物	SLC29A2	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.05232978542222368	0.961
+M06	烟酰胺与甲基化产物	AOX1	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.06678326723940269	0.998
+M06	烟酰胺与甲基化产物	AOX1	Pal2021_reprocessed	DONE	NA	Fibroblasts	Fibroblasts	30	0.04196328355586136	1.0
+M06	烟酰胺与甲基化产物	SLC22A2	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Perivascular	24	0.0006621103708613322	NA
+M06	烟酰胺与甲基化产物	SLC22A2	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Perivascular	15	0.0009389939622497761	NA
+M06	烟酰胺与甲基化产物	AHCY	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.5379956558543251	0.714
+M06	烟酰胺与甲基化产物	AHCY	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.24862902674218015	1.0
+M07	糖酵解节点与磷酸戊糖背景	GPI	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.49471968795163723	0.999
+M07	糖酵解节点与磷酸戊糖背景	GPI	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.2944649998594604	0.989
+M07	糖酵解节点与磷酸戊糖背景	MPI	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.14011610215759843	0.816
+M07	糖酵解节点与磷酸戊糖背景	MPI	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.0628302042481667	0.704
+M07	糖酵解节点与磷酸戊糖背景	PFKL	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.40686565317605855	0.608
+M07	糖酵解节点与磷酸戊糖背景	PFKL	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.1885598549054193	0.538
+M07	糖酵解节点与磷酸戊糖背景	PFKM	Wu2021	DONE	NA	Perivascular	Perivascular	24	0.10589211980019042	0.702
+M07	糖酵解节点与磷酸戊糖背景	PFKM	Pal2021_reprocessed	DONE	NA	Perivascular	Perivascular	15	0.046640541568278605	0.867
+M07	糖酵解节点与磷酸戊糖背景	PFKP	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.18368946883836457	0.573
+M07	糖酵解节点与磷酸戊糖背景	PFKP	Pal2021_reprocessed	DONE	NA	T_NK_cells	T_NK_cells	24	0.047517784037688894	0.244
+M07	糖酵解节点与磷酸戊糖背景	LDHA	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.7979982962875549	0.729
+M07	糖酵解节点与磷酸戊糖背景	LDHA	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.6070217666533342	0.536
+M07	糖酵解节点与磷酸戊糖背景	LDHB	Wu2021	DONE	NA	Perivascular	Perivascular	24	0.5981636946211756	0.678
+M07	糖酵解节点与磷酸戊糖背景	LDHB	Pal2021_reprocessed	DONE	NA	Perivascular	Perivascular	15	0.4655397347851074	0.767
+M07	糖酵解节点与磷酸戊糖背景	IDNK	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.0974167674036849	0.955
+M07	糖酵解节点与磷酸戊糖背景	IDNK	Pal2021_reprocessed	DONE	NA	Mast_cells	Mast_cells	12	0.028137158850465843	0.966
+M07	糖酵解节点与磷酸戊糖背景	PGD	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.39951490685339636	0.471
+M07	糖酵解节点与磷酸戊糖背景	PGD	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.17221112335056893	1.0
+M07	糖酵解节点与磷酸戊糖背景	RBKS	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.22486672489557286	0.798
+M07	糖酵解节点与磷酸戊糖背景	RBKS	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.02297531422569608	0.737
+M08	多元醇与果糖	SORD	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.29118123329405676	0.963
+M08	多元醇与果糖	SORD	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.14367586699097232	0.97
+M08	多元醇与果糖	KHK	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.08705638933666895	0.824
+M08	多元醇与果糖	KHK	Pal2021_reprocessed	DONE	NA	Plasma_cells	Plasma_cells	17	0.03297714165488448	0.692
+M09	氨基糖与糖基化前体背景	NAGK	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.4228477909776761	1.0
+M09	氨基糖与糖基化前体背景	NAGK	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.293328883937938	1.0
+M09	氨基糖与糖基化前体背景	AMDHD2	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.1403290292433203	0.793
+M09	氨基糖与糖基化前体背景	AMDHD2	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.09362242896526002	0.994
+M09	氨基糖与糖基化前体背景	GNPNAT1	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2843038208848643	1.0
+M09	氨基糖与糖基化前体背景	GNPNAT1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.17094065830642546	1.0
+M09	氨基糖与糖基化前体背景	PGM3	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.20149013012593106	0.822
+M09	氨基糖与糖基化前体背景	PGM3	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.12961584547551078	0.541
+M09	氨基糖与糖基化前体背景	MPI	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.14011610215759843	0.816
+M09	氨基糖与糖基化前体背景	MPI	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.0628302042481667	0.704
+M09	氨基糖与糖基化前体背景	PMM1	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.20795305887697374	0.777
+M09	氨基糖与糖基化前体背景	PMM1	Pal2021_reprocessed	DONE	NA	Perivascular	Perivascular	15	0.13008723101028835	1.0
+M09	氨基糖与糖基化前体背景	PMM2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.27886965433393973	0.998
+M09	氨基糖与糖基化前体背景	PMM2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.0903482211741804	0.72
+M10	半胱氨酸与抗氧化背景	CDO1	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.1230266340995476	1.0
+M10	半胱氨酸与抗氧化背景	CDO1	Pal2021_reprocessed	DONE	NA	Fibroblasts	Fibroblasts	30	0.04271730448338715	1.0
+M10	半胱氨酸与抗氧化背景	GCLC	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.09126192923015838	0.931
+M10	半胱氨酸与抗氧化背景	GCLC	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.08358571607698674	0.996
+M10	半胱氨酸与抗氧化背景	CTNS	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.08178399792434804	0.794
+M10	半胱氨酸与抗氧化背景	CTNS	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.03397584331281907	0.93
+M10	半胱氨酸与抗氧化背景	SLC7A11	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.045730349791350725	0.555
+M10	半胱氨酸与抗氧化背景	SLC7A11	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.026823172580960983	0.938
+M10	半胱氨酸与抗氧化背景	ASNS	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.1508810884292284	0.972
+M10	半胱氨酸与抗氧化背景	ASNS	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.09018248858357214	0.926
+M10	半胱氨酸与抗氧化背景	BCAT1	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.21238581844159743	1.0
+M10	半胱氨酸与抗氧化背景	BCAT1	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.16811247698933432	1.0
+M10	半胱氨酸与抗氧化背景	BCAT2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2772445937009146	0.967
+M10	半胱氨酸与抗氧化背景	BCAT2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.11940134747308176	0.95
+M10	半胱氨酸与抗氧化背景	FOLH1	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.05014393209259673	0.728
+M10	半胱氨酸与抗氧化背景	FOLH1	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.0378694732058969	1.0
+M10	半胱氨酸与抗氧化背景	GLS	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.2494653201914888	0.785
+M10	半胱氨酸与抗氧化背景	GLS	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.22559818587289113	0.964
+M10	半胱氨酸与抗氧化背景	GLS2	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.013858228594218097	0.847
+M10	半胱氨酸与抗氧化背景	GLS2	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Malignant_epithelial	33	0.007380267698945014	NA
+M10	半胱氨酸与抗氧化背景	GLUL	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.7318867464882862	0.984
+M10	半胱氨酸与抗氧化背景	GLUL	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.6081745021829451	1.0
+M10	半胱氨酸与抗氧化背景	GOT1	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2690767183910951	0.881
+M10	半胱氨酸与抗氧化背景	GOT1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.10619193402557416	0.995
+M10	半胱氨酸与抗氧化背景	GOT2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.26313019938138227	0.495
+M10	半胱氨酸与抗氧化背景	GOT2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.1562445759136066	0.997
+M10	半胱氨酸与抗氧化背景	OAT	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.6293088039029497	0.988
+M10	半胱氨酸与抗氧化背景	OAT	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.37393952229495553	0.999
+M10	半胱氨酸与抗氧化背景	TAT	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.04619901503519761	0.938
+M10	半胱氨酸与抗氧化背景	TAT	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.032195308653484855	0.991
+M10	半胱氨酸与抗氧化背景	GSS	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2997292943829862	0.849
+M10	半胱氨酸与抗氧化背景	GSS	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.1294909857190932	0.99
+M10	半胱氨酸与抗氧化背景	PEPD	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.3122209279984801	0.933
+M10	半胱氨酸与抗氧化背景	PEPD	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.15632231468112964	0.608
+M10	半胱氨酸与抗氧化背景	SHMT1	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.17002799430317922	0.885
+M10	半胱氨酸与抗氧化背景	SHMT1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.05482723270192949	0.895
+M10	半胱氨酸与抗氧化背景	SHMT2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.3325361491556528	0.995
+M10	半胱氨酸与抗氧化背景	SHMT2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.16337946232255743	0.915
+M10	半胱氨酸与抗氧化背景	GSR	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.1586446643036416	1.0
+M10	半胱氨酸与抗氧化背景	GSR	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.06483381053741535	0.98
+M10	半胱氨酸与抗氧化背景	SLC6A6	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.15842738760577874	0.795
+M10	半胱氨酸与抗氧化背景	SLC6A6	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.12301293057768209	0.933
+M11	色氨酸犬尿氨酸与髓系背景	AFMID	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2899685076505993	0.826
+M11	色氨酸犬尿氨酸与髓系背景	AFMID	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.20377732635338566	1.0
+M11	色氨酸犬尿氨酸与髓系背景	KMO	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.13145972454465749	0.947
+M11	色氨酸犬尿氨酸与髓系背景	KMO	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.05056387642772537	0.762
+M11	色氨酸犬尿氨酸与髓系背景	KYNU	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.3050631185546465	0.997
+M11	色氨酸犬尿氨酸与髓系背景	KYNU	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.15518848634692925	1.0
+M12	肌酸肌酐	CKB	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.2439676626229633	0.615
+M12	肌酸肌酐	CKB	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.2183288345808745	0.635
+M12	肌酸肌酐	CKM	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.015098987503918655	1.0
+M12	肌酸肌酐	CKM	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Myeloid	30	0.007759627478631905	NA
+M12	肌酸肌酐	GAMT	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.31109696451795477	0.554
+M12	肌酸肌酐	GAMT	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.21013230329839883	0.995
+M12	肌酸肌酐	SLC6A8	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.09965765814830138	0.974
+M12	肌酸肌酐	SLC6A8	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.09802700755550633	0.977
+M12	肌酸肌酐	SLC22A2	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Perivascular	24	0.0006621103708613322	NA
+M12	肌酸肌酐	SLC22A2	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Perivascular	15	0.0009389939622497761	NA
+M12	肌酸肌酐	SLC47A1	Wu2021	DONE		Myeloid	Myeloid	26	0.033327407902098045	0.914
+M12	肌酸肌酐	SLC47A1	Pal2021_reprocessed	DONE		Myeloid	Myeloid	30	0.015514644557016545	0.864
+M12	肌酸肌酐	SLC47A2	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Nonmalignant_epithelial	10	0.001764270251858474	NA
+M12	肌酸肌酐	SLC47A2	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Malignant_epithelial	33	0.0011201979640143615	NA
+M13	TCA节点不均一变化	SDHA	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.3921243707450345	0.965
+M13	TCA节点不均一变化	SDHA	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.1996384688523395	0.794
+M13	TCA节点不均一变化	SDHB	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.4847934530762072	0.972
+M13	TCA节点不均一变化	SDHB	Pal2021_reprocessed	DONE		Myeloid	Myeloid	30	0.19680026115203242	0.828
+M13	TCA节点不均一变化	SDHC	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.7157859779729135	1.0
+M13	TCA节点不均一变化	SDHC	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.4808676288803304	1.0
+M13	TCA节点不均一变化	SDHD	Wu2021	DONE		Myeloid	Myeloid	26	0.2982218708899904	0.38
+M13	TCA节点不均一变化	SDHD	Pal2021_reprocessed	DONE		Perivascular	Perivascular	15	0.16038125694838995	0.657
+M13	TCA节点不均一变化	SLC13A3	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.037542440446787416	0.553
+M13	TCA节点不均一变化	SLC13A3	Pal2021_reprocessed	DONE		Fibroblasts	Fibroblasts	30	0.008892264234015413	0.662
+M13	TCA节点不均一变化	SLC25A10	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.16263118098752452	1.0
+M13	TCA节点不均一变化	SLC25A10	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.09699019818563805	1.0
+M13	TCA节点不均一变化	SUCLA2	Wu2021	DONE		Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.24746855633805448	0.525
+M13	TCA节点不均一变化	SUCLA2	Pal2021_reprocessed	DONE		Perivascular	Perivascular	15	0.12313524413334544	1.0
+M13	TCA节点不均一变化	SUCLG1	Wu2021	DONE		Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.5502640827223629	0.965
+M13	TCA节点不均一变化	SUCLG1	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.2929927606838115	0.938
+M13	TCA节点不均一变化	SUCLG2	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.35164528009324697	0.746
+M13	TCA节点不均一变化	SUCLG2	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.21538757421712038	0.548
+M13	TCA节点不均一变化	FH	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.3769928093120195	0.997
+M13	TCA节点不均一变化	FH	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.14720893001943275	1.0
+M13	TCA节点不均一变化	MDH1	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.5841528818186899	0.871
+M13	TCA节点不均一变化	MDH1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.31407879405543426	0.965
+M13	TCA节点不均一变化	MDH2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.7586745213248328	1.0
+M13	TCA节点不均一变化	MDH2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.4924333123568161	1.0
+M14	尿嘧啶降解	DPYD	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.24875042549573476	1.0
+M14	尿嘧啶降解	DPYD	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.1293650918313014	1.0
+M14	尿嘧啶降解	SLC29A2	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.10825403506589722	0.998
+M14	尿嘧啶降解	SLC29A2	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.05232978542222368	0.961
+M14	尿嘧啶降解	UPP1	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.38181024603957764	0.959
+M14	尿嘧啶降解	UPP1	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.21125886237321237	0.551
+M14	尿嘧啶降解	UPP2	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Malignant_epithelial	20	0.0007532647747341754	NA
+M14	尿嘧啶降解	UPP2	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Malignant_epithelial	33	0.0003557146398191043	NA
+M14	尿嘧啶降解	DPYS	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.012413675776582575	0.998
+M14	尿嘧啶降解	DPYS	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Fibroblasts	30	0.004413763766948887	NA
+M14	尿嘧啶降解	UPB1	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Endothelial	24	0.004549859104117124	NA
+M14	尿嘧啶降解	UPB1	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Endothelial	23	0.0032938843095243475	NA
+M15	赖氨酸与AASS背景	AASS	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.08610458093909357	0.888
+M15	赖氨酸与AASS背景	AASS	Pal2021_reprocessed	DONE	NA	Fibroblasts	Fibroblasts	30	0.05055605690939104	0.726
