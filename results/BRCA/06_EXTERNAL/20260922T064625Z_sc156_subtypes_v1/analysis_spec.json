@@ -1,0 +1,29 @@
+{
+  "version": "sc156_subtypes_v1",
+  "run_id": "20260922T064625Z_sc156_subtypes_v1",
+  "input_commit": "d390f8f2c0cacbec200d80f2963ccece6c3f63cd",
+  "scope": "all156=150_current+6_historical;no_P_gate",
+  "subtypes": {
+    "ER+": 11,
+    "HER2+": 5,
+    "TNBC": 10
+  },
+  "unit": "published_source_donor_label",
+  "normalization": "frozen mean log1p(counts per10k), equal donor weight",
+  "min_cells_per_donor_type": 20,
+  "min_source_labels_per_subtype_type": 3,
+  "low_detection_top_flag": 0.01,
+  "new_hypothesis_tests": 0,
+  "new_P_q": 0,
+  "seed": "NA_deterministic_reuse",
+  "uncertainty": "No new bootstrap or intervals from aggregate means; existing quartiles and coverage retained",
+  "treatment": "mixed as in original subtype partitions;not treatment-adjusted",
+  "omit_one": "equal weight for subtype means on common categories;descriptive ranking sensitivity, not donor bootstrap",
+  "pal": "not included: subtype crosswalk not connected",
+  "software": {
+    "python": "3.10.8 (tags/v3.10.8:aaaf517, Oct 11 2022, 16:50:30) [MSC v.1933 64 bit (AMD64)]",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9"
+  }
+}

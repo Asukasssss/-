@@ -1,0 +1,19 @@
+{
+  "status": "DONE",
+  "genes": 156,
+  "subtype_celltype_rows": 4212,
+  "covered_rows": 3900,
+  "insufficient_rows": 312,
+  "same_top_all3": 54,
+  "same_top_shared3": 80,
+  "pattern_counts": {
+    "SAME_TOP": 80,
+    "DIFFERENT_TOP_DESCRIPTIVE": 50,
+    "LOW_DETECTION_OR_COVERAGE": 26
+  },
+  "max_ALL_reconstruction_error": 4.440892098500626e-16,
+  "ALL_checks": 1092,
+  "all_historical_columns_preserved": true,
+  "new_P_q": 0,
+  "plot_pages": 4
+}
