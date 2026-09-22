@@ -114,9 +114,10 @@ def audit(out, commit):
     for p in ['source','private','public/01_CAMP']: (out/p).mkdir(parents=True,exist_ok=True)
     pub=out/'public/01_CAMP'
     source=out/'source/PRAD_original.xlsx'
-    with tarfile.open(SRC/'pancancer_metabolomics_v.0.3.4.tar.gz') as t:
-        with t.extractfile('pancancer_metabolomics/data/metabolomics_original/PRAD.xlsx') as f:
-            source.write_bytes(f.read())
+    if not source.exists():
+        with tarfile.open(SRC/'pancancer_metabolomics_v.0.3.4.tar.gz') as t:
+            with t.extractfile('pancancer_metabolomics/data/metabolomics_original/PRAD.xlsx') as f:
+                source.write_bytes(f.read())
     a=pd.read_excel(source,sheet_name='sampleinfo',dtype=str)
     mp=SRC/'metadata/MasterMapping_MetImmune_03_16_2022_release.csv'
     m=pd.read_csv(mp,dtype=str);m=m[m.Dataset.eq('PRAD')].copy()
@@ -135,6 +136,8 @@ def audit(out, commit):
     rna=pd.read_csv(rp,index_col=0);x=pd.ExcelFile(metp)
     matrix=pd.read_excel(x,sheet_name='data_imputed',index_col=0)
     raw=pd.read_excel(x,sheet_name='data',index_col=0)
+    author_names=matrix.index.astype(str).tolist()
+    matrix.index=matrix.index.astype(str).str.strip();raw.index=raw.index.astype(str).str.strip()
     anno=pd.read_excel(x,sheet_name='sampleanno',index_col=0)
     assert matrix.index.is_unique and matrix.columns.is_unique and rna.columns.is_unique
     assert m.MetabID.isin(matrix.columns).all() and m.RNAID.isin(rna.columns).all()
@@ -143,6 +146,7 @@ def audit(out, commit):
     indices=[]
     for tissue in ['Tumor','Normal']:
         d=pd.read_excel(x,sheet_name='metabo_imputed_filtered_'+tissue,index_col=0)
+        d.index=d.index.astype(str).str.strip();assert d.index.is_unique
         assert np.array_equal(d.values,matrix.loc[d.index,d.columns].values)
         assert set(d.columns)==set(m.loc[m.TN.eq(tissue),'MetabID'])
         indices.append(set(d.index))
@@ -155,7 +159,7 @@ def audit(out, commit):
     save(m,out/'private/sample_identity_audit_private.tsv');save(pairs,out/'private/metabolite_pairs_private.tsv')
     save(pairs,out/'private/RNA_pairs_private.tsv');save(t,out/'private/tumor_multiomics_map_private.tsv')
     save(old,pub/'historical_cohort_effects_preserved.tsv');save(frozen,pub/'historical_cancer_effects_preserved.tsv')
-    feature=pd.DataFrame({'feature_name':matrix.index})
+    feature=pd.DataFrame({'feature_name':matrix.index,'author_feature_name':author_names})
     feature['retained_both_author_tissue_filters']=feature.feature_name.isin(retained)
     feature['feature_id']=feature.feature_name.map(lambda z:'PRAD_FEATURE:'+hashlib.sha256(z.encode()).hexdigest()[:16])
     feature=feature.merge(old[['feature_name','metabolite_key','identity_confidence']],on='feature_name',how='left',validate='one_to_one')
@@ -176,7 +180,7 @@ def audit(out, commit):
     save(m.groupby(['Identifier','TN']).size().rename('n_specimens').reset_index(),pub/'batch_tissue_counts.tsv')
     spec=dict(version=V,code_commit=commit,author_pair_field='PRAD.xlsx/sampleinfo/case',same_batch_pairs=True,
         unit='author case, unique within tissue; no genotype verification',primary_pairs=len(pairs),CAPT_concordant_sensitivity=int(pairs.CAPT_concordant.sum()),
-        full_input_inventory=len(matrix),planned_retained_features=len(retained),feature_key='feature_id hash of exact author harmonized feature name; chemical key separately retained; never collapse chemical-key collisions',
+        full_input_inventory=len(matrix),planned_retained_features=len(retained),feature_key='feature_id hash of outer-whitespace-trimmed author harmonized feature name; original spelling retained; uniqueness checked; never collapse chemical-key collisions',
         main_test='two-sided signed rank; exact sign flips n_nonzero<=16;99999 MC n_nonzero17-29 plus1;normal ties+continuity>=30;all zero p1',
         minimum_n=8,bootstrap=4000,master_seed=20260922,seed_derivation='SHA256(version|20260922|PRAD|family|feature_id) first8hex',
         families=['METAB_PAIRED_PRIMARY','METAB_PAIRED_AVAILABLE','METAB_PAIRED_CAPT_CONCORDANT'],BH='separate all evaluable retained features in each family',
@@ -199,6 +203,8 @@ def paired(out):
     pp=out/'private/metabolite_pairs_private.tsv';pairs=pd.read_csv(pp,sep='\t',dtype=str)
     ip=out/'public/01_CAMP/feature_inventory.tsv';inv=pd.read_csv(ip,sep='\t');inv=inv[inv.retained_both_author_tissue_filters]
     metp=SRC/'processed_metabolomics/PreprocessedData_PRAD.xlsx';matrix=pd.read_excel(metp,sheet_name='data_imputed',index_col=0);raw=pd.read_excel(metp,sheet_name='data',index_col=0)
+    matrix.index=matrix.index.astype(str).str.strip();raw.index=raw.index.astype(str).str.strip()
+    assert matrix.index.is_unique and raw.index.is_unique
     rows=[]
     for i,r in inv.iterrows():
         name=r.feature_name; x=matrix.loc[name,pairs.MetabID_tumor].to_numpy(float); y=matrix.loc[name,pairs.MetabID_normal].to_numpy(float)
