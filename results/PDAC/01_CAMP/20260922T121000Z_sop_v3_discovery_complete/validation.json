@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "all614_direction_counts_and_n_match_server": true,
+  "all_existing_means_and_medians_match_server": true,
+  "primary_and_sensitivity_P_q_unchanged_from_v3_preflight": true,
+  "per_tissue_missing_rates_now_from_server": true,
+  "private_maps_server_only": true,
+  "signedrank_original_validation": "Inherited verified exact sign-enumeration batch;not independently rerun now"
+}
