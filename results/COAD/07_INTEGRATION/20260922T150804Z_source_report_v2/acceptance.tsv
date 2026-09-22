@@ -12,4 +12,4 @@ check_id	scope	requirement	status	evidence_path	reason
 11	integration	Full relation IDs; history preserved; evidence and interpretation separate	PASS	appendix	实际结果及缺项均已记录；历史统计保留
 12	presentation	Actual PDF MD Excel figures data captions and full source appendix	PASS	figure_manifest.tsv	实际结果及缺项均已记录；历史统计保留
 13	validation	Immutable input; no silent overwrite; page review; ZIP and hash validation	PASS	validation.json	实际结果及缺项均已记录；历史统计保留
-14	publication	No restricted data; stage index; verified remote commit; merge status	PENDING_PUBLICATION	README_CN.md	最终提交后记录已核实远端SHA；不合并PR
+14	publication	No restricted data; stage index; verified remote commit; merge status	PASS	README_CN.md	Report content remote verified 0c80c1cbabc57e007eb65bdc601c7204f4947f38; PR remains unmerged

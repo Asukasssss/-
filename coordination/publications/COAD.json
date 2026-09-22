@@ -680,6 +680,13 @@
       ],
       "verification": "push and ls-remote exact SHA",
       "merged": false
+    },
+    {
+      "event": "source_contract_final_report",
+      "verified_commit": "0c80c1cbabc57e007eb65bdc601c7204f4947f38",
+      "verification": "push and ls-remote exact SHA",
+      "report_path": "results/COAD/07_INTEGRATION/20260922T150804Z_source_report_v2",
+      "merged": false
     }
   ],
   "preanalysis_verification": {
