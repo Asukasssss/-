@@ -1,0 +1,10 @@
+{
+  "status": "DONE",
+  "all_epithelial_cells_retained": true,
+  "cells": 28844,
+  "genes": 156,
+  "pages": 156,
+  "counts_match_reference": true,
+  "finite_embedding": true,
+  "source_hash_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "run_id": "20260922T092000Z_epithelial_umap_v1",
+  "analysis_version": "epithelial_umap_v1",
+  "source_sha256": "ef9e792e3e25a811af7778e38913fe0758fb887284899b47bdd54c8af0e91281",
+  "scope": "all28844 epithelial cells;all156 genes",
+  "annotation": "frozen celltype_minor;all normal epithelial subtypes pooled",
+  "embedding": "NEW, not author coordinates",
+  "normalization": "log1p(raw/all-raw-gene library*10000)",
+  "feature_selection": "top2000 log-expression variance;detected>=20cells;exclude MT-/RPL/RPS prefix;not dispersion-corrected HVG",
+  "PCA": "centered unscaled,30 randomized components",
+  "pca_variance_explained": 0.3680253326892853,
+  "UMAP": {
+    "n_neighbors": 30,
+    "min_dist": 0.3,
+    "metric": "euclidean",
+    "random_state": 20260922,
+    "n_jobs": 1
+  },
+  "new_clustering": false,
+  "batch_correction": false,
+  "new_P_q": 0,
+  "software": {
+    "sklearn": "1.3.2",
+    "umap": "0.5.7",
+    "matplotlib": "3.6.3"
+  }
+}
