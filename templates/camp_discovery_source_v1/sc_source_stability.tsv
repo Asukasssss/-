@@ -1,0 +1,1 @@
+cancer	cohort	gene	stable_gene_id	partition	n_evaluable_celltypes	top_celltype	runner_celltype	top_gap	max_detection	tie_status	bootstrap_top_frequency	bootstrap_valid	bootstrap_total	loo_top_frequency	paired_source_labels	paired_positive_fraction	paired_mean_delta	seed	status	reason	source_id
