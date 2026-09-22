@@ -36,7 +36,8 @@ c['narratives']={
  'discussion':['当前可以提出哪些问题？','保留ABAT的内部联系、AASS的未支持结果、MGLL/SLC6A19的版本边界和TDO2的来源线索。完整715关系及687基因保留。','机制、临床分型和外部同关系验证不由本报告补证；停在来源。'],
  'gaps':['哪些模块目前不能展示？','两队列恶性身份、临床分型连接、作者UMAP坐标和跨研究患者独立性仍有缺项。点图与热图覆盖完整基因池。','不以细胞Classical/Basal状态代替患者分型；不凭肿瘤组织来源认定恶性，不临时新建嵌入。'],
  'stability':['来源一致和可靠定位覆盖怎样？','三研究可解释来源分别621、593、610/687；120基因三队列首位相同，72个同时保持率≥80%，当前直接池30个。','缺项显示暂不可定位；共同类别另表。不同恶性/正常/身份未定类别不强行合并。']}
-c['mapping_labels']={'DIRECT_MAPPED':'直接映射','CONDITIONAL_ONLY':'仅条件性','UNRESOLVED':'暂未映射','NAMED_UNRESOLVED':'身份待核','UNKNOWN_FEATURE':'未知特征'}
+c['mapping_labels']={'DIRECT_RELATION_FOUND':'直接映射','CONDITIONAL_ONLY':'仅条件性','IDENTITY_REVIEW_REQUIRED':'身份待复核','NO_RELIABLE_EXACT_RELATION_FOUND_IN_SCOPE':'本次未找到可靠精确关系'}
+c['narratives']['mapping'][1]=c['narratives']['mapping'][1].replace('7项无可靠关系','7项没有计划关系')
 for n in range(1,16):
  for ext in ['png','svg']:
   c['assets'].append(dict(role='appendix',path=S+f'figures/dotplot_{n:02d}.{ext}',source_table=S+'figures/figure_manifest.tsv',caption=f'v4全基因点图第{n}页，原字节复用。共用色标仅保留历史展示，不用于跨研究绝对表达比较；新版主报告各研究单独色标。'))

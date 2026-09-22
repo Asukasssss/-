@@ -14,6 +14,11 @@ def delivery_files():
   dirs[:]=[x for x in dirs if x not in {'node_modules','rendered_pages','workbook_previews'}]
   for name in files:
    if name not in {'workbook_data.json','build.mjs','checksums.tsv','package_validation.json'} and not name.endswith('.inspect.ndjson'):yield Path(root)/name
+def normalize_public():
+ for p in PUBLIC.rglob('*'):
+  if p.is_file() and p.suffix.lower() in {'.md','.tsv','.py','.json','.txt','.yaml','.mjs','.svg'}:p.write_bytes(p.read_bytes().replace(b'\r\n',b'\n'))
+ files=sorted(p for p in PUBLIC.rglob('*') if p.is_file() and p.name!='checksums.tsv')
+ tsv(PUBLIC/'checksums.tsv',pd.DataFrame([dict(path=p.relative_to(PUBLIC).as_posix(),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in files]))
 def extras():
  c=json.loads((ROOT/'configs/PDAC_report_v5.yaml').read_text(encoding='utf8'));manifest=read(OUT/'source_manifest.tsv')
  more={
@@ -147,6 +152,7 @@ python code/pdac/render_report_v5.py --config configs/PDAC_report_v5.yaml --out 
  shutil.copyfile(OUT/'package_validation.json',PUBLIC/'package_validation.json')
  pubfiles=[p for p in PUBLIC.rglob('*') if p.is_file() and p.name!='checksums.tsv']
  tsv(PUBLIC/'checksums.tsv',pd.DataFrame([dict(path=p.relative_to(PUBLIC).as_posix(),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(pubfiles)]))
+ normalize_public()
  print(json.dumps(dict(public=str(PUBLIC),zip=str(zip_path),files=len(files)),ensure_ascii=False))
 if __name__=='__main__':
  ap=argparse.ArgumentParser();ap.add_argument('mode',choices=['extras','finalize']);a=ap.parse_args();globals()[a.mode]()

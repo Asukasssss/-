@@ -12,4 +12,4 @@ check_id	scope	requirement	status	evidence_path	reason
 11	integration	Full relation IDs; history preserved; evidence and interpretation separate	DONE	validation.json	Actual output and immutable aggregate checks completed
 12	presentation	Actual PDF MD Excel figures data captions and full source appendix	DONE	validation.json	Actual output and immutable aggregate checks completed
 13	validation	Immutable input; no silent overwrite; page review; ZIP and hash validation	DONE	validation.json	Actual output and immutable aggregate checks completed
-14	publication	No restricted data; stage index; verified remote commit; merge status	PARTIAL	PUBLICATION_CN.md	Public package ready;remote publication must be verified after commit
+14	publication	No restricted data; stage index; verified remote commit; merge status	DONE	publication_verified.json	Actual public report commit verified remotely; PR remains draft and unmerged
