@@ -1,0 +1,15 @@
+check_id	scope	requirement	status	evidence_path	reason
+01	design	Author-supported pairing and cross-omics mapping; unique statistical units	NOT_RUN	NA	Fill actual evidence
+02	metabolites	All features retained; primary and sensitivity families separate	NOT_RUN	NA	Fill actual evidence
+03	workpool	Exploratory P<0.05 view retains q and full background	NOT_RUN	NA	Fill actual evidence
+04	mapping	Exact direct relations; conditional and unknown retained; history union	NOT_RUN	NA	Fill actual evidence
+05	association	All current relations; tumor only; n CI P q and missing reasons	NOT_RUN	NA	Fill actual evidence
+06	rna	Actual design and scale; all current genes; P and q; missing normal documented	NOT_RUN	NA	Fill actual evidence
+07	sc_coverage	All current and history genes; stable IDs and author labels	NOT_RUN	NA	Fill actual evidence
+08	sc_source	Equal-donor summaries; detection and coverage; uncertain source masked	NOT_RUN	NA	Fill actual evidence
+09	sc_replication	Separate studies and shared categories; one-study limits if applicable	NOT_RUN	NA	Fill actual evidence
+10	subtypes	Existing subtype metadata only; own/shared/pooled distinction or absence	NOT_RUN	NA	Fill actual evidence
+11	integration	Full relation IDs; history preserved; evidence and interpretation separate	NOT_RUN	NA	Fill actual evidence
+12	presentation	Actual PDF MD Excel figures data captions and full source appendix	NOT_RUN	NA	Fill actual evidence
+13	validation	Immutable input; no silent overwrite; page review; ZIP and hash validation	NOT_RUN	NA	Fill actual evidence
+14	publication	No restricted data; stage index; verified remote commit; merge status	NOT_RUN	NA	Fill actual evidence
