@@ -1,0 +1,6712 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q06520",
+  "uniProtkbId": "ST2A1_HUMAN",
+  "entryAudit": {
+    "firstPublicDate": "1995-11-01",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 222,
+    "sequenceVersion": 3
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Sulfotransferase 2A1"
+      },
+      "shortNames": [
+        {
+          "value": "ST2A1"
+        }
+      ],
+      "ecNumbers": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "14573603"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18042734"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21187059"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "2268288"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "29671343"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7678732"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7854148"
+            }
+          ],
+          "value": "2.8.2.2"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "Bile salt sulfotransferase"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19589875"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2268288"
+              }
+            ],
+            "value": "2.8.2.14"
+          }
+        ]
+      },
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "7678732"
+            }
+          ],
+          "value": "Dehydroepiandrosterone sulfotransferase"
+        },
+        "shortNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "7678732"
+              }
+            ],
+            "value": "DHEA-ST"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "7678732"
+              }
+            ],
+            "value": "DHEA-ST8"
+          }
+        ]
+      },
+      {
+        "fullName": {
+          "value": "Hydroxysteroid Sulfotransferase"
+        },
+        "shortNames": [
+          {
+            "value": "HST"
+          }
+        ]
+      },
+      {
+        "fullName": {
+          "value": "ST2"
+        }
+      },
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "10854859"
+            }
+          ],
+          "value": "SULT2A3"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "SULT2A1"
+      },
+      "synonyms": [
+        {
+          "value": "HST"
+        },
+        {
+          "value": "STD"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P15709"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "14573603"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18042734"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "19589875"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21187059"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "2268288"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "29671343"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7678732"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7854148"
+            }
+          ],
+          "value": "Sulfotransferase that utilizes 3'-phospho-5'-adenylyl sulfate (PAPS) as sulfonate donor to catalyze the sulfonation of steroids and bile acids in the liver and adrenal glands (PubMed:14573603, PubMed:18042734, PubMed:19589875, PubMed:20102295, PubMed:21187059, PubMed:2268288, PubMed:29671343, PubMed:7678732, PubMed:7854148). Mediates the sulfation of a wide range of steroids and sterols, including pregnenolone, androsterone, DHEA, bile acids, cholesterol and as well many xenobiotics that contain alcohol and phenol functional groups (PubMed:14573603, PubMed:18042734, PubMed:19589875, PubMed:20102295, PubMed:21187059, PubMed:2268288, PubMed:29671343, PubMed:7678732, PubMed:7854148). Sulfonation increases the water solubility of most compounds, and therefore their renal excretion, but it can also result in bioactivation to form active metabolites. Plays an important role in maintening steroid and lipid homeostasis (PubMed:14573603, PubMed:19589875, PubMed:21187059). Plays a key role in bile acid metabolism, mediating formation of 3-sulfated bile acids (PubMed:2268288, PubMed:20102295). In addition, catalyzes the metabolic activation of potent carcinogenic polycyclic arylmethanols (By similarity)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "an alcohol + 3'-phosphoadenylyl sulfate = an alkyl sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:22552"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:30879"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:83414"
+          }
+        ],
+        "ecNumber": "2.8.2.2",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "18042734"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19589875"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "21187059"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "2268288"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7678732"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7854148"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:22553"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "2268288"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(24S)-hydroxycholesterol + 3'-phosphoadenylyl sulfate = (24S)-hydroxycholesterol 24-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:52344"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:34310"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:136566"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19589875"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:52345"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "19589875"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(24S)-hydroxycholesterol + 3'-phosphoadenylyl sulfate = (24S)-hydroxycholesterol 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:52348"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:34310"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:136567"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19589875"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:52349"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "19589875"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(24S)-hydroxycholesterol 24-sulfate + 3'-phosphoadenylyl sulfate = (24S)-hydroxycholesterol 3,24-disulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:52352"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:136566"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:136568"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19589875"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:52353"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "19589875"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "3beta-hydroxyandrost-5-en-17-one + 3'-phosphoadenylyl sulfate = dehydroepiandrosterone 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:51216"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:28689"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57905"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "14573603"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "18042734"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19589875"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "21187059"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "2268288"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7678732"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:51217"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "19589875"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "pregnenolone + 3'-phosphoadenylyl sulfate = pregnenolone sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:52356"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16581"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:133000"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "29671343"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:52357"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "29671343"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "androsterone + 3'-phosphoadenylyl sulfate = androsterone 3alpha-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:60644"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16032"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:133003"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "14573603"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "18042734"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:60645"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "14573603"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "lithocholate + 3'-phosphoadenylyl sulfate = lithocholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:51064"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29744"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:133940"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "2268288"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:51065"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "2268288"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "glycolithocholate + 3'-phosphoadenylyl sulfate = glycolithocholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10908"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:60007"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:60008"
+          }
+        ],
+        "ecNumber": "2.8.2.14",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:10909"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "taurolithocholate + 3'-phosphoadenylyl sulfate = taurolithocholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:14013"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17179"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58301"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          }
+        ],
+        "ecNumber": "2.8.2.14",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "2268288"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:14014"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "2268288"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "deoxycholate + 3'-phosphoadenylyl sulfate = deoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:77203"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:23614"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:195622"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:77204"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "glycodeoxycholate + 3'-phosphoadenylyl sulfate = glycodeoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:77207"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:82982"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:195624"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:77208"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "taurodeoxycholate + 3'-phosphoadenylyl sulfate = taurodeoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:77211"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:36261"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:195625"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:77212"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "ursodeoxycholate + 3'-phosphoadenylyl sulfate = ursodeoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:85723"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:78604"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:234529"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:85724"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "glycoursodeoxycholate + 3'-phosphoadenylyl sulfate = glycoursodeoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:85735"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:132030"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:234531"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:85736"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "tauroursodeoxycholate + 3'-phosphoadenylyl sulfate = tauroursodeoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:85727"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:132028"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:234530"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:85728"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "chenodeoxycholate + 3'-phosphoadenylyl sulfate = chenodeoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:85739"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:36234"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:234532"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:85740"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "glycochenodeoxycholate + 3'-phosphoadenylyl sulfate = glycochenodeoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:85747"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:36252"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:234533"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:85748"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "taurochenodeoxycholate + 3'-phosphoadenylyl sulfate = taurochenodeoxycholate 3-sulfate + adenosine 3',5'-bisphosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:85743"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:9407"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58339"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58343"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:166912"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20102295"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:85744"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20102295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18042734"
+            }
+          ],
+          "value": "Subject to substrate inhibition. Alternate orientations for binding of steroid substrates to SULT2A1 may play a role in substrate inhibition"
+        }
+      ],
+      "commentType": "ACTIVITY REGULATION"
+    },
+    {
+      "commentType": "BIOPHYSICOCHEMICAL PROPERTIES",
+      "kineticParameters": {
+        "maximumVelocities": [
+          {
+            "velocity": 227.0,
+            "unit": "nmol/min/mg",
+            "enzyme": "enzyme with DHEA",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18042734"
+              }
+            ]
+          },
+          {
+            "velocity": 22.55,
+            "unit": "nmol/min/mg",
+            "enzyme": "enzyme with DHEA",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "29671343"
+              }
+            ]
+          },
+          {
+            "velocity": 203.0,
+            "unit": "nmol/min/mg",
+            "enzyme": "enzyme with androsterone as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18042734"
+              }
+            ]
+          },
+          {
+            "velocity": 245.0,
+            "unit": "nmol/min/mg",
+            "enzyme": "enzyme with DHEA as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21187059"
+              }
+            ]
+          },
+          {
+            "velocity": 130.81,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with DHEA as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 54.3,
+            "unit": "umol/min/mg",
+            "enzyme": "enzyme with lithocholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2268288"
+              }
+            ]
+          },
+          {
+            "velocity": 46.87,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with lithocholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 42.9,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with glycolithocholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 30.95,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with taurolithocholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 11.65,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with ursodeoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 50.33,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with glycoursodeoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 9.62,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with tauroursodeoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 1.93,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with chenodeoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 8.02,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with glycochenodeoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 0.62,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with taurochenodeoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 5.43,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with deoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 9.73,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with glycodeoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "velocity": 2.51,
+            "unit": "pmol/min/mg",
+            "enzyme": "enzyme with taurodeoxycholate as substrate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          }
+        ],
+        "michaelisConstants": [
+          {
+            "constant": 0.8,
+            "unit": "uM",
+            "substrate": "DHEA",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21187059"
+              }
+            ]
+          },
+          {
+            "constant": 3.1,
+            "unit": "uM",
+            "substrate": "DHEA",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14573603"
+              }
+            ]
+          },
+          {
+            "constant": 1.6,
+            "unit": "uM",
+            "substrate": "DHEA",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2268288"
+              }
+            ]
+          },
+          {
+            "constant": 3.83,
+            "unit": "uM",
+            "substrate": "DHEA",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 0.1,
+            "unit": "uM",
+            "substrate": "(24S)-hydroxycholesterol 24-sulfate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19589875"
+              }
+            ]
+          },
+          {
+            "constant": 3.7,
+            "unit": "uM",
+            "substrate": "(24S)-hydroxycholesterol",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19589875"
+              }
+            ]
+          },
+          {
+            "constant": 2.1,
+            "unit": "uM",
+            "substrate": "3alpha-hydroxy-5alpha-androstan-17-one,",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14573603"
+              }
+            ]
+          },
+          {
+            "constant": 1.4,
+            "unit": "uM",
+            "substrate": "androsterone",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18042734"
+              }
+            ]
+          },
+          {
+            "constant": 24.88,
+            "unit": "uM",
+            "substrate": "PAPS",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "29671343"
+              }
+            ]
+          },
+          {
+            "constant": 1.5,
+            "unit": "uM",
+            "substrate": "lithocholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2268288"
+              }
+            ]
+          },
+          {
+            "constant": 2.02,
+            "unit": "uM",
+            "substrate": "lithocholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 1.92,
+            "unit": "uM",
+            "substrate": "glycolithocholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 4.2,
+            "unit": "uM",
+            "substrate": "taurolithocholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2268288"
+              }
+            ]
+          },
+          {
+            "constant": 1.86,
+            "unit": "uM",
+            "substrate": "taurolithocholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 12.86,
+            "unit": "uM",
+            "substrate": "ursodeoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 49.57,
+            "unit": "uM",
+            "substrate": "glycoursodeoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 9.93,
+            "unit": "uM",
+            "substrate": "tauroursodeoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 15.66,
+            "unit": "uM",
+            "substrate": "chenodeoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 48.99,
+            "unit": "uM",
+            "substrate": "glycochenodeoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 45.09,
+            "unit": "uM",
+            "substrate": "taurochenodeoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 8.86,
+            "unit": "uM",
+            "substrate": "deoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 54.59,
+            "unit": "uM",
+            "substrate": "glycodeoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          },
+          {
+            "constant": 18.36,
+            "unit": "uM",
+            "substrate": "taurodeoxycholate",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20102295"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10854859"
+            }
+          ],
+          "value": "Homodimer"
+        }
+      ],
+      "commentType": "SUBUNIT"
+    },
+    {
+      "commentType": "INTERACTION",
+      "interactions": [
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "Q06520",
+            "intActId": "EBI-3921363"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "Q9GZT8",
+            "geneName": "NIF3L1",
+            "intActId": "EBI-740897"
+          },
+          "numberOfExperiments": 3,
+          "organismDiffer": false
+        },
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "Q06520",
+            "intActId": "EBI-3921363"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P40763",
+            "geneName": "STAT3",
+            "intActId": "EBI-518675"
+          },
+          "numberOfExperiments": 2,
+          "organismDiffer": false
+        },
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "Q06520",
+            "intActId": "EBI-3921363"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "O43704",
+            "geneName": "SULT1B1",
+            "intActId": "EBI-10179062"
+          },
+          "numberOfExperiments": 6,
+          "organismDiffer": false
+        }
+      ]
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2268288"
+              }
+            ],
+            "value": "Cytoplasm",
+            "id": "SL-0086"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "value": "Liver, adrenal and at lower level in the kidney. Is present in human fetus in higher level in the adrenal than the liver and the kidney"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "texts": [
+        {
+          "value": "The N-terminus is blocked"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the sulfotransferase 1 family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 285,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Sulfotransferase 2A1",
+      "featureId": "PRO_0000085141"
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 99,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 99,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Proton acceptor",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "11988089"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14573603"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1J99"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1OV4"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 44,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14573603"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1OV4"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 45,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 45,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 46,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 46,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14573603"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1OV4"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 47,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 47,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 48,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 48,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14573603"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1OV4"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 49,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 49,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 121,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 121,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 129,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 129,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 184,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 184,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 218,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 218,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 223,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 223,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 247,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 247,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 248,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 248,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 249,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 249,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58339"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ],
+      "ligand": {
+        "name": "3'-phosphoadenylyl sulfate",
+        "id": "ChEBI:CHEBI:58339"
+      }
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 251,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 251,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphoserine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PubMed",
+          "id": "24275569"
+        }
+      ]
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 44,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "sulfating activity toward both DHEA and pregnenolone is completely abolished; dbSNP:rs772897551",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs772897551"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29671343"
+        }
+      ],
+      "featureId": "VAR_083881",
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "E"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 63,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 63,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs11569681",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs11569681"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7678732"
+        }
+      ],
+      "featureId": "VAR_052520",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "P"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 76,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 76,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "decreases of the sulfotransferase activity toward DHEA; decreases of the sulfotransferase activity toward pregnenolone; dbSNP:rs775030275",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs775030275"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29671343"
+        }
+      ],
+      "featureId": "VAR_083882",
+      "alternativeSequence": {
+        "originalSequence": "P",
+        "alternativeSequences": [
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 147,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 147,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "decreases of the sulfotransferase activity toward DHEA; no effect on the sulfotransferase activity toward pregnenolone; dbSNP:rs751309613",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs751309613"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29671343"
+        }
+      ],
+      "featureId": "VAR_083883",
+      "alternativeSequence": {
+        "originalSequence": "E",
+        "alternativeSequences": [
+          "K"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 148,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 148,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "decreases of the sulfotransferase activity toward DHEA; decreases of the sulfotransferase activity toward pregnenolone; dbSNP:rs368067020",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs368067020"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29671343"
+        }
+      ],
+      "featureId": "VAR_083884",
+      "alternativeSequence": {
+        "originalSequence": "E",
+        "alternativeSequences": [
+          "K"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 246,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 246,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "decreases of the sulfotransferase activity toward DHEA; decreases of the sulfotransferase activity toward pregnenolone; dbSNP:rs757338859",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs757338859"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29671343"
+        }
+      ],
+      "featureId": "VAR_083885",
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "P"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 258,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 258,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "decreases of the sulfotransferase activity toward DHEA; decreases of the sulfotransferase activity toward pregnenolone; dbSNP:rs746239667 and dbSNP:rs779218418",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs779218418"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29671343"
+        }
+      ],
+      "featureId": "VAR_083886",
+      "alternativeSequence": {
+        "originalSequence": "F",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 261,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 261,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs11569679",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs11569679"
+        }
+      ],
+      "featureId": "VAR_052521",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 262,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 262,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "decreases of the sulfotransferase activity toward DHEA; no effect on the sulfotransferase activity toward pregnenolone; dbSNP:rs753928755",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs753928755"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "29671343"
+        }
+      ],
+      "featureId": "VAR_083887",
+      "alternativeSequence": {
+        "originalSequence": "Q",
+        "alternativeSequences": [
+          "E"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 137,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 137,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Strongly reduces substrate inhibition when ADT or DHEA are used as substrates.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18042734"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "M",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 137,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 137,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Substrate inhibition is completely eliminated for DHEA; when associated with A-238.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18042734"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "M",
+        "alternativeSequences": [
+          "W"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 238,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 238,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Completely eliminates the substrate inhibition when ADT is used as substrate. Partially eliminates substrate inhibition when DHEA is used as substrate. Completely eliminates the substrate inhibition for DHEA, when associated with I-137.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18042734"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 238,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 238,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Strongly reduces substrate inhibition when ADT or DHEA are used as substrates.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18042734"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 238,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 238,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Strongly reduces substrate inhibition when ADT or DHEA are used as substrates.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18042734"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "W"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 90,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 90,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 1; AAA35758/CAA49755",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 119,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 119,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 1; AA sequence",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 159,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 159,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 6; AAB23169",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 4,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 8,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 11,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 13,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 15,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 17,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 20,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 28,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 30,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 33,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3F3Y"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 37,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 40,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 43,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 46,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2QP4"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 47,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 58,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 59,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 61,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 64,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 68,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 71,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 74,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 81,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 87,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 95,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 98,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 102,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 104,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 107,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 111,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 115,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 120,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 123,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 134,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 137,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 140,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1EFH"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 141,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 143,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 146,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 155,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 163,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 170,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 171,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 173,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 179,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 183,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 184,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 189,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 191,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 202,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 208,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 217,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 220,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 224,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 227,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 229,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 236,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 238,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 239,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 241,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3F3Y"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 242,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 246,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 254,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 256,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 260,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 274,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 279,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 281,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0002",
+      "category": "Technical term",
+      "name": "3D-structure"
+    },
+    {
+      "id": "KW-0088",
+      "category": "Biological process",
+      "name": "Bile acid catabolism"
+    },
+    {
+      "id": "KW-0963",
+      "category": "Cellular component",
+      "name": "Cytoplasm"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-0442",
+      "category": "Biological process",
+      "name": "Lipid degradation"
+    },
+    {
+      "id": "KW-0443",
+      "category": "Biological process",
+      "name": "Lipid metabolism"
+    },
+    {
+      "id": "KW-0597",
+      "category": "PTM",
+      "name": "Phosphoprotein"
+    },
+    {
+      "id": "KW-1267",
+      "category": "Technical term",
+      "name": "Proteomics identification"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0753",
+      "category": "Biological process",
+      "name": "Steroid metabolism"
+    },
+    {
+      "id": "KW-0808",
+      "category": "Molecular function",
+      "name": "Transferase"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "7678732",
+        "citationType": "journal article",
+        "authors": [
+          "Comer K.A.",
+          "Falany J.L.",
+          "Falany C.N."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7678732"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1042/bj2890233"
+          }
+        ],
+        "title": "Cloning and expression of human liver dehydroepiandrosterone sulphotransferase.",
+        "publicationDate": "1993",
+        "journal": "Biochem. J.",
+        "firstPage": "233",
+        "lastPage": "240",
+        "volume": "289"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]",
+        "PROTEIN SEQUENCE OF 61-65; 105-120 AND 274-285",
+        "VARIANT PRO-63",
+        "CATALYTIC ACTIVITY",
+        "FUNCTION"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "1588921",
+        "citationType": "journal article",
+        "authors": [
+          "Otterness D.M.",
+          "Wieben E.D.",
+          "Wood T.C.",
+          "Watson R.W.G.",
+          "Madden B.J.",
+          "McCormick D.J.",
+          "Weinshilboum R.M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "1588921"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0026-895x(25)09136-9"
+          }
+        ],
+        "title": "Human liver dehydroepiandrosterone sulfotransferase: molecular cloning and expression of cDNA.",
+        "publicationDate": "1992",
+        "journal": "Mol. Pharmacol.",
+        "firstPage": "865",
+        "lastPage": "872",
+        "volume": "41"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]",
+        "PROTEIN SEQUENCE OF 81-108 AND 177-199"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "7589785",
+        "citationType": "journal article",
+        "authors": [
+          "Forbes K.J.",
+          "Hagen M.",
+          "Coughtrie M.W.H.",
+          "Glatt H.R.",
+          "Hume R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7589785"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/0303-7207(95)03585-u"
+          }
+        ],
+        "title": "Human fetal adrenal hydroxysteroid sulphotransferase: cDNA cloning, stable expression in V79 cells and functional characterisation of the expressed enzyme.",
+        "publicationDate": "1995",
+        "journal": "Mol. Cell. Endocrinol.",
+        "firstPage": "53",
+        "lastPage": "60",
+        "volume": "112"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Adrenal gland",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "7598806",
+        "citationType": "journal article",
+        "authors": [
+          "Luu-The V.",
+          "Dufort I.",
+          "Paquet N.",
+          "Reimnitz G.",
+          "Labrie F."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7598806"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1089/dna.1995.14.511"
+          }
+        ],
+        "title": "Structural characterization and expression of the human dehydroepiandrosterone sulfotransferase gene.",
+        "publicationDate": "1995",
+        "journal": "DNA Cell Biol.",
+        "firstPage": "511",
+        "lastPage": "518",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "7710689",
+        "citationType": "journal article",
+        "authors": [
+          "Otterness D.M.",
+          "Her C.",
+          "Aksoy S.",
+          "Kimura S.",
+          "Wieben E.D.",
+          "Weinshilboum R.M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7710689"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1089/dna.1995.14.331"
+          }
+        ],
+        "title": "Human dehydroepiandrosterone sulfotransferase gene: molecular cloning and structural characterization.",
+        "publicationDate": "1995",
+        "journal": "DNA Cell Biol.",
+        "firstPage": "331",
+        "lastPage": "341",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "1520333",
+        "citationType": "journal article",
+        "authors": [
+          "Kong A.-N.T.",
+          "Yang L.",
+          "Ma M.",
+          "Tao D.",
+          "Bjornsson T.D."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "1520333"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0006-291x(05)81514-1"
+          }
+        ],
+        "title": "Molecular cloning of the alcohol/hydroxysteroid form (hSTa) of sulfotransferase from human liver.",
+        "publicationDate": "1992",
+        "journal": "Biochem. Biophys. Res. Commun.",
+        "firstPage": "448",
+        "lastPage": "454",
+        "volume": "187"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "15489334",
+        "citationType": "journal article",
+        "authoringGroup": [
+          "The MGC Project Team"
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15489334"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1101/gr.2596504"
+          }
+        ],
+        "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+        "publicationDate": "2004",
+        "journal": "Genome Res.",
+        "firstPage": "2121",
+        "lastPage": "2127",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 8,
+      "citation": {
+        "id": "2268288",
+        "citationType": "journal article",
+        "authors": [
+          "Radominska A.",
+          "Comer K.A.",
+          "Zimniak P.",
+          "Falany J.",
+          "Iscan M.",
+          "Falany C.N."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "2268288"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1042/bj2720597"
+          }
+        ],
+        "title": "Human liver steroid sulphotransferase sulphates bile acids.",
+        "publicationDate": "1990",
+        "journal": "Biochem. J.",
+        "firstPage": "597",
+        "lastPage": "604",
+        "volume": "272"
+      },
+      "referencePositions": [
+        "CATALYTIC ACTIVITY",
+        "FUNCTION",
+        "BIOPHYSICOCHEMICAL PROPERTIES",
+        "SUBCELLULAR LOCATION"
+      ]
+    },
+    {
+      "referenceNumber": 9,
+      "citation": {
+        "id": "7854148",
+        "citationType": "journal article",
+        "authors": [
+          "Glatt H.",
+          "Seidel A.",
+          "Harvey R.G.",
+          "Coughtrie M.W."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7854148"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1093/mutage/9.6.553"
+          }
+        ],
+        "title": "Activation of benzylic alcohols to mutagens by human hepatic sulphotransferases.",
+        "publicationDate": "1994",
+        "journal": "Mutagenesis",
+        "firstPage": "553",
+        "lastPage": "557",
+        "volume": "9"
+      },
+      "referencePositions": [
+        "CATALYTIC ACTIVITY",
+        "FUNCTION"
+      ]
+    },
+    {
+      "referenceNumber": 10,
+      "citation": {
+        "id": "20102295",
+        "citationType": "journal article",
+        "authors": [
+          "Huang J.",
+          "Bathena S.P.",
+          "Tong J.",
+          "Roth M.",
+          "Hagenbuch B.",
+          "Alnouti Y."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "20102295"
+          },
+          {
+            "database": "DOI",
+            "id": "10.3109/00498250903514607"
+          }
+        ],
+        "title": "Kinetic analysis of bile acid sulfation by stably expressed human sulfotransferase 2A1 (SULT2A1).",
+        "publicationDate": "2010",
+        "journal": "Xenobiotica",
+        "firstPage": "184",
+        "lastPage": "194",
+        "volume": "40"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "BIOPHYSICOCHEMICAL PROPERTIES"
+      ]
+    },
+    {
+      "referenceNumber": 11,
+      "citation": {
+        "id": "21269460",
+        "citationType": "journal article",
+        "authors": [
+          "Burkard T.R.",
+          "Planyavsky M.",
+          "Kaupe I.",
+          "Breitwieser F.P.",
+          "Buerckstuemmer T.",
+          "Bennett K.L.",
+          "Superti-Furga G.",
+          "Colinge J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "21269460"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1186/1752-0509-5-17"
+          }
+        ],
+        "title": "Initial characterization of the human central proteome.",
+        "publicationDate": "2011",
+        "journal": "BMC Syst. Biol.",
+        "firstPage": "17",
+        "lastPage": "17",
+        "volume": "5"
+      },
+      "referencePositions": [
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ]
+    },
+    {
+      "referenceNumber": 12,
+      "citation": {
+        "id": "24275569",
+        "citationType": "journal article",
+        "authors": [
+          "Bian Y.",
+          "Song C.",
+          "Cheng K.",
+          "Dong M.",
+          "Wang F.",
+          "Huang J.",
+          "Sun D.",
+          "Wang L.",
+          "Ye M.",
+          "Zou H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "24275569"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.jprot.2013.11.014"
+          }
+        ],
+        "title": "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.",
+        "publicationDate": "2014",
+        "journal": "J. Proteomics",
+        "firstPage": "253",
+        "lastPage": "262",
+        "volume": "96"
+      },
+      "referencePositions": [
+        "PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-251",
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 13,
+      "citation": {
+        "id": "10854859",
+        "citationType": "journal article",
+        "authors": [
+          "Pedersen L.C.",
+          "Petrotchenko E.V.",
+          "Negishi M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10854859"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0014-5793(00)01479-4"
+          }
+        ],
+        "title": "Crystal structure of SULT2A3, human hydroxysteroid sulfotransferase.",
+        "publicationDate": "2000",
+        "journal": "FEBS Lett.",
+        "firstPage": "61",
+        "lastPage": "64",
+        "volume": "475"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) IN COMPLEX WITH ADENOSINE-3'-5'-DIPHOSPHATE (PAP)",
+        "SUBUNIT"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1EFH"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 14,
+      "citation": {
+        "id": "11988089",
+        "citationType": "journal article",
+        "authors": [
+          "Rehse P.H.",
+          "Zhou M.",
+          "Lin S.X."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "11988089"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1042/bj3640165"
+          }
+        ],
+        "title": "Crystal structure of human dehydroepiandrosterone sulphotransferase in complex with substrate.",
+        "publicationDate": "2002",
+        "journal": "Biochem. J.",
+        "firstPage": "165",
+        "lastPage": "171",
+        "volume": "364"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (1.99 ANGSTROMS) IN COMPLEX WITH DEHYDROEPIANDROSTERONE (DHEA)",
+        "ACTIVE SITE"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1J99"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 15,
+      "citation": {
+        "id": "14573603",
+        "citationType": "journal article",
+        "authors": [
+          "Chang H.J.",
+          "Shi R.",
+          "Rehse P.",
+          "Lin S.X."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "14573603"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/jbc.m310446200"
+          }
+        ],
+        "title": "Identifying androsterone (ADT) as a cognate substrate for human dehydroepiandrosterone sulfotransferase (DHEA-ST) important for steroid homeostasis: structure of the enzyme-ADT complex.",
+        "publicationDate": "2004",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "2689",
+        "lastPage": "2696",
+        "volume": "279"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.7 ANGSTROMS) IN COMPLEX WITH ANDROSTERONE (ADT)",
+        "CATALYTIC ACTIVITY",
+        "FUNCTION",
+        "ACTIVE SITE"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "1OV4"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 16,
+      "citation": {
+        "id": "18042734",
+        "citationType": "journal article",
+        "authors": [
+          "Lu L.Y.",
+          "Hsieh Y.C.",
+          "Liu M.Y.",
+          "Lin Y.H.",
+          "Chen C.J.",
+          "Yang Y.S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18042734"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1124/mol.107.041038"
+          }
+        ],
+        "title": "Identification and characterization of two amino acids critical for the substrate inhibition of human dehydroepiandrosterone sulfotransferase (SULT2A1).",
+        "publicationDate": "2008",
+        "journal": "Mol. Pharmacol.",
+        "firstPage": "660",
+        "lastPage": "668",
+        "volume": "73"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.60 ANGSTROMS) IN COMPLEX WITH DEHYDROEPIANDROSTERONE (DHEA)",
+        "MUTAGENESIS OF MET-137 AND TYR-238",
+        "CATALYTIC ACTIVITY",
+        "FUNCTION",
+        "BIOPHYSICOCHEMICAL PROPERTIES",
+        "ACTIVITY REGULATION"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "2QP3"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "2QP4"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 17,
+      "citation": {
+        "id": "CI-5R0BKV94SUM57",
+        "citationType": "submission",
+        "authors": [
+          "Pan P.W.",
+          "Dong A.",
+          "Amaya M.",
+          "Edwards A.M."
+        ],
+        "title": "rystal structure of human cytosolic sulfotransferase SULT2A1 in complex with PAP and lithocholic acid.",
+        "publicationDate": "OCT-2008",
+        "submissionDatabase": "PDB data bank"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS)"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "3F3Y"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 18,
+      "citation": {
+        "id": "CI-DP4S8UNP4TEDK",
+        "citationType": "submission",
+        "authors": [
+          "Kim J.",
+          "Toro R.",
+          "Bhosle R.",
+          "Cook I.",
+          "Wang T.",
+          "Falany C.N.",
+          "Leyh T.S.",
+          "Almo S.C."
+        ],
+        "title": "Sulfotransferase Selectivity at the Molecular level.",
+        "publicationDate": "DEC-2012",
+        "submissionDatabase": "PDB data bank"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.30 ANGSTROMS)"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4IFB"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 19,
+      "citation": {
+        "id": "19589875",
+        "citationType": "journal article",
+        "authors": [
+          "Cook I.T.",
+          "Duniec-Dmuchowski Z.",
+          "Kocarek T.A.",
+          "Runge-Morris M.",
+          "Falany C.N."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "19589875"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1124/dmd.108.025759"
+          }
+        ],
+        "title": "24-hydroxycholesterol sulfation by human cytosolic sulfotransferases: formation of monosulfates and disulfates, molecular modeling, sulfatase sensitivity, and inhibition of liver x receptor activation.",
+        "publicationDate": "2009",
+        "journal": "Drug Metab. Dispos.",
+        "firstPage": "2069",
+        "lastPage": "2078",
+        "volume": "37"
+      },
+      "referencePositions": [
+        "CATALYTIC ACTIVITY",
+        "FUNCTION",
+        "BIOPHYSICOCHEMICAL PROPERTIES"
+      ]
+    },
+    {
+      "referenceNumber": 20,
+      "citation": {
+        "id": "21187059",
+        "citationType": "journal article",
+        "authors": [
+          "Gulcan H.O.",
+          "Duffel M.W."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "21187059"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.abb.2010.12.027"
+          }
+        ],
+        "title": "Substrate inhibition in human hydroxysteroid sulfotransferase SULT2A1: studies on the formation of catalytically non-productive enzyme complexes.",
+        "publicationDate": "2011",
+        "journal": "Arch. Biochem. Biophys.",
+        "firstPage": "232",
+        "lastPage": "240",
+        "volume": "507"
+      },
+      "referencePositions": [
+        "CATALYTIC ACTIVITY",
+        "FUNCTION"
+      ]
+    },
+    {
+      "referenceNumber": 21,
+      "citation": {
+        "id": "29671343",
+        "citationType": "journal article",
+        "authors": [
+          "Abunnaja M.S.",
+          "Alherz F.A.",
+          "El Daibani A.A.",
+          "Bairam A.F.",
+          "Rasool M.I.",
+          "Gohal S.A.",
+          "Kurogi K.",
+          "Suiko M.",
+          "Sakakibara Y.",
+          "Liu M.C."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "29671343"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1139/bcb-2017-0341"
+          }
+        ],
+        "title": "Effects of genetic polymorphisms on the sulfation of dehydroepiandrosterone and pregnenolone by human cytosolic sulfotransferase SULT2A1.",
+        "publicationDate": "2018",
+        "journal": "Biochem. Cell Biol.",
+        "firstPage": "655",
+        "lastPage": "662",
+        "volume": "96"
+      },
+      "referencePositions": [
+        "CHARACTERIZATION OF VARIANTS GLU-44; THR-76; LYS-147; LYS-148; PRO-246; LEU-258 AND GLU-262",
+        "CATALYTIC ACTIVITY",
+        "BIOPHYSICOCHEMICAL PROPERTIES",
+        "FUNCTION"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "L20000",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA35758.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "X70222",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "CAA49755.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U08024",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA17749.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U08025",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA17750.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "X84816",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "CAA59274.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "L36196",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA75491.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "L36191",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA75491.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "L36192",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA75491.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "L36193",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA75491.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "L36194",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA75491.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "L36195",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA75491.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U13061",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC51353.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U13056",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC51353.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U13057",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC51353.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U13058",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC51353.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U13059",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC51353.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U13060",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC51353.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "S43859",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAB23169.2"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC020755",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH20755.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS12707.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "I53037",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "I38548"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_003158.2",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_003167.4"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1EFH",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.40 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-285"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1J99",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.99 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-285"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1OV4",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.70 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-285"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2QP3",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.60 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-285"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2QP4",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "3.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-285"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3F3Y",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.20 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C/D=1-285"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "4IFB",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.30 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-285"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1EFH",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1J99",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "1OV4",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "2QP3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "2QP4",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3F3Y",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "4IFB",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "112691",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "200"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "database": "NDEx",
+      "id": "IQUERY-CP-SULT2A1",
+      "properties": [
+        {
+          "key": "Evidences",
+          "value": "12 NDEx IQuery Curated Pathways"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9606.ENSP00000222002",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BindingDB",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ChEMBL",
+      "id": "CHEMBL2077",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB05812",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Abiraterone"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB01812",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Adenosine 3',5'-diphosphate"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB02854",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Aetiocholanolone"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB12243",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Edaravone"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB12471",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Ibrexafungerp"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB04445",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Mercuric iodide"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB00968",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Methyldopa"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB09073",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Palbociclib"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB00960",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Pindolol"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB01708",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Prasterone"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB09288",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Propacetamol"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB00867",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Ritodrine"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB00675",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Tamoxifen"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB00871",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Terbutaline"
+        }
+      ]
+    },
+    {
+      "database": "SwissLipids",
+      "id": "SLP:000001650",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GlyGen",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "1 site, 3 N-linked glycans (1 site)"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhosphoSitePlus",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioMuta",
+      "id": "SULT2A1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DMDM",
+      "id": "1711591",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "jPOST",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MassIVE",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9606-ENSP00000222002",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "58456",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Antibodypedia",
+      "id": "4362",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "513 antibodies from 42 providers"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "6822",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000222002.4",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000222002.2"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000105398.5"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "6822",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "hsa:6822",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MANE-Select",
+      "id": "ENST00000222002.4",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000222002.2"
+        },
+        {
+          "key": "RefSeqNucleotideId",
+          "value": "NM_003167.4"
+        },
+        {
+          "key": "RefSeqProteinId",
+          "value": "NP_003158.2"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "uc002phr.2",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "AGR",
+      "id": "HGNC:11458",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ClinPGx",
+      "id": "PA346",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "6822",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DisGeNET",
+      "id": "6822",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneCards",
+      "id": "SULT2A1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HGNC",
+      "id": "HGNC:11458",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "SULT2A1"
+        }
+      ]
+    },
+    {
+      "database": "HPA",
+      "id": "ENSG00000105398",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Tissue enriched (liver)"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "125263",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "gene"
+        }
+      ]
+    },
+    {
+      "database": "OpenTargets",
+      "id": "ENSG00000105398",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSG00000105398",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG1584",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00940000154432",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_027239_1_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "CQGLSAY",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "205623at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PAN-GO",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Number of GO annotations",
+          "value": "3 GO annotations based on evolutionary models"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "MetaCyc:HS02732-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "2.8.2.14",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "2.8.2.15",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "2.8.2.2",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "2.8.2.32",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "PathwayCommons",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-156584",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Cytosolic sulfonation of small molecules"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-1989781",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "PPARA activates gene expression"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-9753281",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Paracetamol ADME"
+        }
+      ]
+    },
+    {
+      "database": "SABIO-RK",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SignaLink",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Agora",
+      "id": "ENSG00000105398",
+      "properties": [
+        {
+          "key": "NominatedTarget",
+          "value": "Agora Nominated Target for Alzheimer's Disease"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "6822",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "6 hits in 1148 CRISPR screens"
+        }
+      ]
+    },
+    {
+      "database": "ChiTaRS",
+      "id": "SULT2A1",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "EvolutionaryTrace",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneWiki",
+      "id": "Bile_salt_sulfotransferase",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "6822",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Pharos",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "DevelopmentLevel",
+          "value": "Tbio"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:Q06520",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005640",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 19"
+        }
+      ]
+    },
+    {
+      "database": "RNAct",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "moleculeType",
+          "value": "protein"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSG00000105398",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in adrenal tissue and 89 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "ExpressionAtlas",
+      "id": "Q06520",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "baseline and differential"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005737",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytoplasm"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "EXP:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "2268288"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005829",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytosol"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "2268288"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0050656",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:3'-phosphoadenosine 5'-phosphosulfate binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "10854859"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "12471039"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004027",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:alcohol sulfotransferase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "19589875"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "7854148"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0047704",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:bile-salt sulfotransferase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "20102295"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "2268288"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0050294",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:steroid sulfotransferase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:CAFA"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "23207770"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008146",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:sulfotransferase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:MGI"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "19548878"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "20056724"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0050427",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:3'-phosphoadenosine 5'-phosphosulfate metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:CAFA"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "23207770"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008206",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:bile acid metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProt"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "20102295"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008203",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:cholesterol metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "19589875"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006068",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:ethanol catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:CAFA"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "23207770"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0160025",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:sensory perception of itch"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProt"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "39476841"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008202",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:steroid metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:GO_Central"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "1588921"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "23207770"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0051923",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:sulfation"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:MGI"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "19548878"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "20056724"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "23207770"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042403",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:thyroid hormone metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "10199779"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006805",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:xenobiotic metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "7854148"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.40.50.300:FF:000433",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Estrogen sulfotransferase"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.40.50.300",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "P-loop containing nucleotide triphosphate hydrolases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR027417",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "P-loop_NTPase"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR000863",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Sulfotransferase_dom"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR11783",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "SULFOTRANSFERASE SULT"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00685",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Sulfotransfer_1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF52540",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "P-loop containing nucleoside triphosphate hydrolases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MSDDFLWFEGIAFPTMGFRSETLRKVRDEFVIRDEDVIILTYPKSGTNWLAEILCLMHSKGDAKWIQSVPIWERSPWVESEIGYTALSETESPRLFSSHLPIQLFPKSFFSSKAKVIYLMRNPRDVLVSGYFFWKNMKFIKKPKSWEEYFEWFCQGTVLYGSWFDHIHGWMPMREEKNFLLLSYEELKQDTGRTIEKICQFLGKTLEPEELNLILKNSSFQSMKENKMSNYSLLSVDYVVDKAQLLRKGVSGDWKNHFTVAQAEDFDKLFQEKMADLPRELFPWE",
+    "length": 285,
+    "molWeight": 33780,
+    "crc64": "06DFF2006B284A08",
+    "md5": "96E5DDA8D2007273880E2698EADC3143"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 19,
+      "ACTIVITY REGULATION": 1,
+      "BIOPHYSICOCHEMICAL PROPERTIES": 1,
+      "SUBUNIT": 1,
+      "INTERACTION": 3,
+      "SUBCELLULAR LOCATION": 1,
+      "TISSUE SPECIFICITY": 1,
+      "PTM": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Active site": 1,
+      "Binding site": 14,
+      "Modified residue": 1,
+      "Natural variant": 9,
+      "Mutagenesis": 5,
+      "Sequence conflict": 3,
+      "Beta strand": 10,
+      "Helix": 21,
+      "Turn": 3
+    },
+    "uniParcId": "UPI000013C7E8"
+  }
+}

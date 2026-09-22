@@ -1,0 +1,33 @@
+XDH xanthine + NAD(+) + H2O = urate + NADH + H(+)
+XDH hypoxanthine + NAD(+) + H2O = xanthine + NADH + H(+)
+XDH xanthine + O2 + H2O = urate + H2O2
+SLC2A9 urate(out) = urate(in)
+SLC22A12 urate(out) + (S)-lactate(in) = urate(in) + (S)-lactate(out)
+SLC22A12 nicotinate(in) + urate(out) = nicotinate(out) + urate(in)
+SLC22A12 urate(out) + n chloride(in) = urate(in) + n chloride(out)
+SLC22A12 orotate(out) + nicotinate(in) = orotate(in) + nicotinate(out)
+MGAM Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-glucose residues with release of alpha-D-glucose.
+MGAM D-maltoheptaose + H2O = D-maltohexaose + alpha-D-glucose
+MGAM D-maltohexaose + H2O = D-maltopentaose + alpha-D-glucose
+MGAM D-maltopentaose + H2O = D-maltotetraose + alpha-D-glucose
+MGAM D-maltotetraose + H2O = D-maltotriose + alpha-D-glucose
+MGAM D-maltotriose + H2O = D-maltose + alpha-D-glucose
+MGAM D-maltose + H2O = alpha-D-glucose + D-glucose
+MGAM nigerose + H2O = alpha-D-glucose + D-glucose
+MGAM kojibiose + H2O = alpha-D-glucose + D-glucose
+MGAM isomaltose + H2O = alpha-D-glucose + D-glucose
+MGAM 6-O-alpha-D-glucopyranosyl-D-fructose + H2O = alpha-D-glucose + D-fructose
+GAA Hydrolysis of terminal, non-reducing (1->4)-linked alpha-D-glucose residues with release of alpha-D-glucose.
+AMY1A Endohydrolysis of (1->4)-alpha-D-glucosidic linkages in polysaccharides containing three or more (1->4)-alpha-linked D-glucose units.
+AMY2A Endohydrolysis of (1->4)-alpha-D-glucosidic linkages in polysaccharides containing three or more (1->4)-alpha-linked D-glucose units.
+SULT1A1 a phenol + 3'-phosphoadenylyl sulfate = an aryl sulfate + adenosine 3',5'-bisphosphate + H(+)
+SULT1A1 17beta-estradiol + 3'-phosphoadenylyl sulfate = 17beta-estradiol 3-sulfate + adenosine 3',5'-bisphosphate + H(+)
+SULT1A1 4-ethylphenol + 3'-phosphoadenylyl sulfate = 4-ethylphenyl sulfate + adenosine 3',5'-bisphosphate + H(+)
+SULT1A1 4-nitrophenol + 3'-phosphoadenylyl sulfate = 4-nitrophenyl sulfate + adenosine 3',5'-bisphosphate
+SULT1A1 dopamine + 3'-phosphoadenylyl sulfate = dopamine 3-O-sulfate + adenosine 3',5'-bisphosphate + H(+)
+SULT1A1 dopamine + 3'-phosphoadenylyl sulfate = dopamine 4-O-sulfate + adenosine 3',5'-bisphosphate + H(+)
+SULT1A1 3,3',5-triiodo-L-thyronine + 3'-phosphoadenylyl sulfate = 3,3',5-triiodo-L-thyronine sulfate + adenosine 3',5'-bisphosphate + H(+)
+SULT1A1 3,3',5'-triiodo-L-thyronine + 3'-phosphoadenylyl sulfate = 3,3',5'-triiodo-L-thyronine sulfate + adenosine 3',5'-bisphosphate + H(+)
+SULT1A1 3,3'-diiodo-L-thyronine + 3'-phosphoadenylyl sulfate = 3,3'-diiodo-L-thyronine sulfate + adenosine 3',5'-bisphosphate + H(+)
+SULT1A1 L-thyroxine + 3'-phosphoadenylyl sulfate = L-thyroxine sulfate + adenosine 3',5'-bisphosphate + H(+)
+batch_complete 9

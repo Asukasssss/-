@@ -1,0 +1,4446 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "O75908",
+  "secondaryAccessions": [
+    "F5H7W4",
+    "I6L9H9",
+    "Q4VB99",
+    "Q4VBA1",
+    "Q96TD4",
+    "Q9UNR2"
+  ],
+  "uniProtkbId": "SOAT2_HUMAN",
+  "entryAudit": {
+    "firstPublicDate": "2001-10-18",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "1998-11-01",
+    "entryVersion": 189,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000305"
+          }
+        ],
+        "value": "Sterol O-acyltransferase 2"
+      },
+      "ecNumbers": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16647063"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "11294643"
+            }
+          ],
+          "value": "2.3.1.26"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "Acyl-coenzyme A:cholesterol acyltransferase 2"
+        },
+        "shortNames": [
+          {
+            "value": "ACAT-2"
+          }
+        ]
+      },
+      {
+        "fullName": {
+          "value": "Cholesterol acyltransferase 2"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "HGNC",
+            "id": "HGNC:11178"
+          }
+        ],
+        "value": "SOAT2"
+      },
+      "synonyms": [
+        {
+          "value": "ACACT2"
+        },
+        {
+          "value": "ACAT2"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11294643"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16647063"
+            }
+          ],
+          "value": "Catalyzes the formation of fatty acid-cholesterol esters, which are less soluble in membranes than cholesterol (PubMed:11294643, PubMed:16647063). Plays a role in lipoprotein assembly and dietary cholesterol absorption (PubMed:11294643). Utilizes oleoyl-CoA ((9Z)-octadecenoyl-CoA) and linolenoyl-CoA ((9Z,12Z,15Z)-octadecatrienoyl-CoA) as substrates (PubMed:11294643). May provide cholesteryl esters for lipoprotein secretion from hepatocytes and intestinal mucosa (PubMed:11294643)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16331323"
+            }
+          ],
+          "value": "Has lower enzymatic activity compared to isoform 1"
+        }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 2"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16331323"
+            }
+          ],
+          "value": "Has lower enzymatic activity compared to isoform 1"
+        }
+      ],
+      "commentType": "FUNCTION",
+      "molecule": "Isoform 3"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "a sterol + a long-chain fatty acyl-CoA = a long-chain 3-hydroxysterol ester + CoA",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:59816"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15889"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57287"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:83139"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:232093"
+          }
+        ],
+        "ecNumber": "2.3.1.26",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "16647063"
+          },
+          {
+            "evidenceCode": "ECO:0000305",
+            "source": "PubMed",
+            "id": "11294643"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:59817"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16647063"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "11294643"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "an acyl-CoA + cholesterol = a cholesterol ester + CoA",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:17729"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16113"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17002"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57287"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58342"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "16647063"
+          },
+          {
+            "evidenceCode": "ECO:0000305",
+            "source": "PubMed",
+            "id": "11294643"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:17730"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16647063"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "11294643"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "cholesterol + (9Z)-octadecenoyl-CoA = cholesteryl (9Z-octadecenoate) + CoA",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:41436"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16113"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:46898"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57287"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57387"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "11294643"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:41437"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "11294643"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA + cholesterol = (5Z,8Z,11Z,14Z,17Z-eicosapentaenoyl)-cholesterol + CoA",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46612"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16113"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57287"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:73862"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:84969"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "11294643"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46613"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "11294643"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(9Z,12Z,15Z)-octadecatrienoyl-CoA + cholesterol = (9Z,12Z,15Z-octadecatrienoyl)-cholesterol + CoA",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46620"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16113"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57287"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:74034"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:84341"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "11294643"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46621"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "11294643"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA + cholesterol = cholesteryl (5Z,8Z,11Z,14Z)-eicosatetraenoate + CoA",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:42816"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16113"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57287"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57368"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:82751"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "11294643"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:42817"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "11294643"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P35610"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "28604676"
+            }
+          ],
+          "value": "May form homo- or heterodimers (By similarity). Interacts with INSIG1; the interaction is direct and promotes association with AMFR/gp78 (PubMed:28604676)"
+        }
+      ],
+      "commentType": "SUBUNIT"
+    },
+    {
+      "commentType": "INTERACTION",
+      "interactions": [
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "O75908",
+            "intActId": "EBI-9055438"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P55061",
+            "geneName": "TMBIM6",
+            "intActId": "EBI-1045825"
+          },
+          "numberOfExperiments": 3,
+          "organismDiffer": false
+        }
+      ]
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "O88908"
+              }
+            ],
+            "value": "Endoplasmic reticulum membrane",
+            "id": "SL-0097"
+          },
+          "topology": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255"
+              }
+            ],
+            "value": "Multi-pass membrane protein",
+            "id": "SL-9909"
+          }
+        }
+      ]
+    },
+    {
+      "commentType": "ALTERNATIVE PRODUCTS",
+      "events": [
+        "Alternative splicing"
+      ],
+      "isoforms": [
+        {
+          "name": {
+            "value": "1"
+          },
+          "synonyms": [
+            {
+              "value": "ACAD2a"
+            }
+          ],
+          "isoformIds": [
+            "O75908-1"
+          ],
+          "isoformSequenceStatus": "Displayed"
+        },
+        {
+          "name": {
+            "value": "2"
+          },
+          "synonyms": [
+            {
+              "value": "ACAD2b"
+            }
+          ],
+          "isoformIds": [
+            "O75908-2"
+          ],
+          "sequenceIds": [
+            "VSP_057159"
+          ],
+          "isoformSequenceStatus": "Described"
+        },
+        {
+          "name": {
+            "value": "3"
+          },
+          "synonyms": [
+            {
+              "value": "ACAD2c"
+            }
+          ],
+          "isoformIds": [
+            "O75908-3"
+          ],
+          "sequenceIds": [
+            "VSP_057158",
+            "VSP_057160"
+          ],
+          "isoformSequenceStatus": "Described"
+        },
+        {
+          "name": {
+            "value": "4"
+          },
+          "isoformIds": [
+            "O75908-4"
+          ],
+          "sequenceIds": [
+            "VSP_057161",
+            "VSP_057162"
+          ],
+          "isoformSequenceStatus": "Described"
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16331323"
+            }
+          ],
+          "value": "Expression seems confined in hepatocytes and enterocytes"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P35610"
+            }
+          ],
+          "value": "Each protomer consists of 9 transmembrane segments, which enclose a cytosolic tunnel and a transmembrane tunnel that converge at the predicted catalytic site: acyl-CoA enters the active site through the cytosolic tunnel, whereas cholesterol enters from the side through the transmembrane tunnel"
+        }
+      ],
+      "commentType": "DOMAIN"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "28604676"
+            }
+          ],
+          "value": "Polyubiquitinated by AMFR/gp78 at Cys-277, leading to its degradation when the lipid levels are low (PubMed:28604676). Association with AMFR/gp78 is mediated via interaction with INSIG1 (PubMed:28604676). High concentration of cholesterol and fatty acid results in Cys-277 oxidation, preventing ubiquitination at the same site, resulting in protein stabilization (PubMed:28604676)"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "28604676"
+            }
+          ],
+          "value": "Oxidized at Cys-277: high concentration of cholesterol and fatty acid induce reactive oxygen species, which oxidizes Cys-277, preventing ubiquitination at the same site, and resulting in protein stabilization"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the membrane-bound acyltransferase family. Sterol o-acyltransferase subfamily"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 522,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Sterol O-acyltransferase 2",
+      "featureId": "PRO_0000207645"
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 120,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 121,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 142,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=1",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 143,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 162,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Lumenal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 163,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 188,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 189,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 196,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 197,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 220,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=3",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 221,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 228,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Lumenal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 229,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 252,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=4",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 253,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 293,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 294,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 326,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=5",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 327,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 343,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Lumenal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 344,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 369,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=6",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 370,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 417,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 418,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 442,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=7",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 443,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 448,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Lumenal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 449,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 464,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=8",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 465,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 470,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 471,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 502,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical; Name=9",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 503,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 522,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Lumenal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 36,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Disordered",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 74,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 96,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Disordered",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Motif",
+      "location": {
+        "start": {
+          "value": 377,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 383,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "FYXDWWN motif",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ]
+    },
+    {
+      "type": "Compositional bias",
+      "location": {
+        "start": {
+          "value": 17,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 36,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Basic and acidic residues",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 434,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 434,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "16647063"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 119,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 119,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:16113"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ],
+      "ligand": {
+        "name": "cholesterol",
+        "id": "ChEBI:CHEBI:16113"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 389,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 389,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58342"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ],
+      "ligand": {
+        "name": "an acyl-CoA",
+        "id": "ChEBI:CHEBI:58342"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 392,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 392,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58342"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ],
+      "ligand": {
+        "name": "an acyl-CoA",
+        "id": "ChEBI:CHEBI:58342"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 395,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 395,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58342"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ],
+      "ligand": {
+        "name": "an acyl-CoA",
+        "id": "ChEBI:CHEBI:58342"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 399,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 399,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58342"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ],
+      "ligand": {
+        "name": "an acyl-CoA",
+        "id": "ChEBI:CHEBI:58342"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 407,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 407,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58342"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ],
+      "ligand": {
+        "name": "an acyl-CoA",
+        "id": "ChEBI:CHEBI:58342"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 430,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 430,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58342"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P35610"
+        }
+      ],
+      "ligand": {
+        "name": "an acyl-CoA",
+        "id": "ChEBI:CHEBI:58342"
+      }
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 277,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 277,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cysteine sulfenic acid (-SOH); alternate",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ]
+    },
+    {
+      "type": "Cross-link",
+      "location": {
+        "start": {
+          "value": 277,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 277,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Glycyl cysteine thioester (Cys-Gly) (interchain with G-Cter in ubiquitin); alternate",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ]
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 93,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 148,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 3",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16331323"
+        }
+      ],
+      "featureId": "VSP_057158",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 93,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 112,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16331323"
+        }
+      ],
+      "featureId": "VSP_057159",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 236,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 261,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 3",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16331323"
+        }
+      ],
+      "featureId": "VSP_057160",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 289,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 310,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 4",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15489334"
+        }
+      ],
+      "featureId": "VSP_057161",
+      "alternativeSequence": {
+        "originalSequence": "TPYVRWNYVAKNFAQALGCVLY",
+        "alternativeSequences": [
+          "PWDVCSMPASSWAASVFLSLPT"
+        ]
+      }
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 311,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 522,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 4",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15489334"
+        }
+      ],
+      "featureId": "VSP_057162",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 14,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 14,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs9658625",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs9658625"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15489334"
+        }
+      ],
+      "featureId": "VAR_020373",
+      "alternativeSequence": {
+        "originalSequence": "E",
+        "alternativeSequences": [
+          "G"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 254,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 254,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs2272296",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs2272296"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10846185"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15489334"
+        }
+      ],
+      "featureId": "VAR_020374",
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 49,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 49,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "In K-null mutant; does not affect ubiquitination and sterol-regulated stabilization; when associated with R-80, R-100, R-102, R-108, R-242 and R-299.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 80,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 80,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "In K-null mutant; does not affect ubiquitination and sterol-regulated stabilization; when associated with R-49, R-100, R-102, R-108, R-242 and R-299.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 100,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 100,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "In K-null mutant; does not affect ubiquitination and sterol-regulated stabilization; when associated with R-49, R-80, R-102, R-108, R-242 and R-299.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 102,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 102,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "In K-null mutant; does not affect ubiquitination and sterol-regulated stabilization; when associated with R-49, R-80, R-100, R-108, R-242 and R-299.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 108,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 108,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "In K-null mutant; does not affect ubiquitination and sterol-regulated stabilization; when associated with R-49, R-80, R-100, R-102, R-242 and R-299.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 242,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 242,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "In K-null mutant; does not affect ubiquitination and sterol-regulated stabilization; when associated with R-49, R-80, R-100, R-102, R-108 and R-299.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 254,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 254,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Does not affect ubiquitination and sterol-regulated stabilization; when associated with R-279.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 267,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 270,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Does not affect ubiquitination and sterol-regulated stabilization.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "SFSS",
+        "alternativeSequences": [
+          "AFAA"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 277,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 277,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Abolished ubiquitination and sterol-regulated stabilization.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "C",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 279,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 279,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Does not affect ubiquitination and sterol-regulated stabilization; when associated with R-54.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 299,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 299,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "In K-null mutant; does not affect ubiquitination and sterol-regulated stabilization; when associated with R-49, R-80, R-100, R-102, R-108 and R-242.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "28604676"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 360,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 360,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Abolished cholesterol O-acyltransferase activity.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16647063"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "H",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 399,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 399,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Abolished cholesterol O-acyltransferase activity.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16647063"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "H",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 22,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 22,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 4; AAK48829",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "P"
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0002",
+      "category": "Technical term",
+      "name": "3D-structure"
+    },
+    {
+      "id": "KW-0012",
+      "category": "Molecular function",
+      "name": "Acyltransferase"
+    },
+    {
+      "id": "KW-0025",
+      "category": "Coding sequence diversity",
+      "name": "Alternative splicing"
+    },
+    {
+      "id": "KW-0153",
+      "category": "Biological process",
+      "name": "Cholesterol metabolism"
+    },
+    {
+      "id": "KW-0256",
+      "category": "Cellular component",
+      "name": "Endoplasmic reticulum"
+    },
+    {
+      "id": "KW-0443",
+      "category": "Biological process",
+      "name": "Lipid metabolism"
+    },
+    {
+      "id": "KW-0472",
+      "category": "Cellular component",
+      "name": "Membrane"
+    },
+    {
+      "id": "KW-0558",
+      "category": "PTM",
+      "name": "Oxidation"
+    },
+    {
+      "id": "KW-1267",
+      "category": "Technical term",
+      "name": "Proteomics identification"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0753",
+      "category": "Biological process",
+      "name": "Steroid metabolism"
+    },
+    {
+      "id": "KW-1207",
+      "category": "Biological process",
+      "name": "Sterol metabolism"
+    },
+    {
+      "id": "KW-0882",
+      "category": "PTM",
+      "name": "Thioester bond"
+    },
+    {
+      "id": "KW-0808",
+      "category": "Molecular function",
+      "name": "Transferase"
+    },
+    {
+      "id": "KW-0812",
+      "category": "Domain",
+      "name": "Transmembrane"
+    },
+    {
+      "id": "KW-1133",
+      "category": "Domain",
+      "name": "Transmembrane helix"
+    },
+    {
+      "id": "KW-0832",
+      "category": "PTM",
+      "name": "Ubl conjugation"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "9756920",
+        "citationType": "journal article",
+        "authors": [
+          "Oelkers P.",
+          "Behari A.",
+          "Cromley D.",
+          "Billheimer J.T.",
+          "Sturley S.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9756920"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/jbc.273.41.26765"
+          }
+        ],
+        "title": "Characterization of two human genes encoding acyl coenzyme A:cholesterol acyltransferase-related enzymes.",
+        "publicationDate": "1998",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "26765",
+        "lastPage": "26771",
+        "volume": "273"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "10846185",
+        "citationType": "journal article",
+        "authors": [
+          "Chang C.C.Y.",
+          "Sakashita N.",
+          "Ornvold K.",
+          "Lee O.",
+          "Chang E.T.",
+          "Dong R.",
+          "Lin S.",
+          "Lee C.-Y.G.",
+          "Strom S.C.",
+          "Kashyap R.",
+          "Fung J.J.",
+          "Farese R.V. Jr.",
+          "Patoiseau J.-F.",
+          "Delhon A.",
+          "Chang T.-Y."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10846185"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/jbc.m003927200"
+          }
+        ],
+        "title": "Immunological quantitation and localization of ACAT-1 and ACAT-2 in human liver and small intestine.",
+        "publicationDate": "2000",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "28083",
+        "lastPage": "28092",
+        "volume": "275"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)",
+        "VARIANT ILE-254"
+      ],
+      "referenceComments": [
+        {
+          "value": "Intestine",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "11325614",
+        "citationType": "journal article",
+        "authors": [
+          "Katsuren K.",
+          "Tamura T.",
+          "Arashiro R.",
+          "Takata K.",
+          "Matsuura T.",
+          "Niikawa N.",
+          "Ohta T."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "11325614"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s1388-1981(01)00106-8"
+          }
+        ],
+        "title": "Structure of the human acyl-CoA:cholesterol acyltransferase-2 (ACAT-2) gene and its relation to dyslipidemia.",
+        "publicationDate": "2001",
+        "journal": "Biochim. Biophys. Acta",
+        "firstPage": "230",
+        "lastPage": "240",
+        "volume": "1531"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "11401500",
+        "citationType": "journal article",
+        "authors": [
+          "Song B.L.",
+          "Qi W.",
+          "Yang X.Y.",
+          "Chang C.C.Y.",
+          "Zhu J.Q.",
+          "Chang T.Y.",
+          "Li B.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "11401500"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1006/bbrc.2001.4612"
+          }
+        ],
+        "title": "Organization of human ACAT-2 gene and its cell-type-specific promoter activity.",
+        "publicationDate": "2001",
+        "journal": "Biochem. Biophys. Res. Commun.",
+        "firstPage": "580",
+        "lastPage": "588",
+        "volume": "282"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "16541075",
+        "citationType": "journal article",
+        "authors": [
+          "Scherer S.E.",
+          "Muzny D.M.",
+          "Buhay C.J.",
+          "Chen R.",
+          "Cree A.",
+          "Ding Y.",
+          "Dugan-Rocha S.",
+          "Gill R.",
+          "Gunaratne P.",
+          "Harris R.A.",
+          "Hawes A.C.",
+          "Hernandez J.",
+          "Hodgson A.V.",
+          "Hume J.",
+          "Jackson A.",
+          "Khan Z.M.",
+          "Kovar-Smith C.",
+          "Lewis L.R.",
+          "Lozado R.J.",
+          "Metzker M.L.",
+          "Milosavljevic A.",
+          "Miner G.R.",
+          "Montgomery K.T.",
+          "Morgan M.B.",
+          "Nazareth L.V.",
+          "Scott G.",
+          "Sodergren E.",
+          "Song X.-Z.",
+          "Steffen D.",
+          "Lovering R.C.",
+          "Wheeler D.A.",
+          "Worley K.C.",
+          "Yuan Y.",
+          "Zhang Z.",
+          "Adams C.Q.",
+          "Ansari-Lari M.A.",
+          "Ayele M.",
+          "Brown M.J.",
+          "Chen G.",
+          "Chen Z.",
+          "Clerc-Blankenburg K.P.",
+          "Davis C.",
+          "Delgado O.",
+          "Dinh H.H.",
+          "Draper H.",
+          "Gonzalez-Garay M.L.",
+          "Havlak P.",
+          "Jackson L.R.",
+          "Jacob L.S.",
+          "Kelly S.H.",
+          "Li L.",
+          "Li Z.",
+          "Liu J.",
+          "Liu W.",
+          "Lu J.",
+          "Maheshwari M.",
+          "Nguyen B.-V.",
+          "Okwuonu G.O.",
+          "Pasternak S.",
+          "Perez L.M.",
+          "Plopper F.J.H.",
+          "Santibanez J.",
+          "Shen H.",
+          "Tabor P.E.",
+          "Verduzco D.",
+          "Waldron L.",
+          "Wang Q.",
+          "Williams G.A.",
+          "Zhang J.",
+          "Zhou J.",
+          "Allen C.C.",
+          "Amin A.G.",
+          "Anyalebechi V.",
+          "Bailey M.",
+          "Barbaria J.A.",
+          "Bimage K.E.",
+          "Bryant N.P.",
+          "Burch P.E.",
+          "Burkett C.E.",
+          "Burrell K.L.",
+          "Calderon E.",
+          "Cardenas V.",
+          "Carter K.",
+          "Casias K.",
+          "Cavazos I.",
+          "Cavazos S.R.",
+          "Ceasar H.",
+          "Chacko J.",
+          "Chan S.N.",
+          "Chavez D.",
+          "Christopoulos C.",
+          "Chu J.",
+          "Cockrell R.",
+          "Cox C.D.",
+          "Dang M.",
+          "Dathorne S.R.",
+          "David R.",
+          "Davis C.M.",
+          "Davy-Carroll L.",
+          "Deshazo D.R.",
+          "Donlin J.E.",
+          "D'Souza L.",
+          "Eaves K.A.",
+          "Egan A.",
+          "Emery-Cohen A.J.",
+          "Escotto M.",
+          "Flagg N.",
+          "Forbes L.D.",
+          "Gabisi A.M.",
+          "Garza M.",
+          "Hamilton C.",
+          "Henderson N.",
+          "Hernandez O.",
+          "Hines S.",
+          "Hogues M.E.",
+          "Huang M.",
+          "Idlebird D.G.",
+          "Johnson R.",
+          "Jolivet A.",
+          "Jones S.",
+          "Kagan R.",
+          "King L.M.",
+          "Leal B.",
+          "Lebow H.",
+          "Lee S.",
+          "LeVan J.M.",
+          "Lewis L.C.",
+          "London P.",
+          "Lorensuhewa L.M.",
+          "Loulseged H.",
+          "Lovett D.A.",
+          "Lucier A.",
+          "Lucier R.L.",
+          "Ma J.",
+          "Madu R.C.",
+          "Mapua P.",
+          "Martindale A.D.",
+          "Martinez E.",
+          "Massey E.",
+          "Mawhiney S.",
+          "Meador M.G.",
+          "Mendez S.",
+          "Mercado C.",
+          "Mercado I.C.",
+          "Merritt C.E.",
+          "Miner Z.L.",
+          "Minja E.",
+          "Mitchell T.",
+          "Mohabbat F.",
+          "Mohabbat K.",
+          "Montgomery B.",
+          "Moore N.",
+          "Morris S.",
+          "Munidasa M.",
+          "Ngo R.N.",
+          "Nguyen N.B.",
+          "Nickerson E.",
+          "Nwaokelemeh O.O.",
+          "Nwokenkwo S.",
+          "Obregon M.",
+          "Oguh M.",
+          "Oragunye N.",
+          "Oviedo R.J.",
+          "Parish B.J.",
+          "Parker D.N.",
+          "Parrish J.",
+          "Parks K.L.",
+          "Paul H.A.",
+          "Payton B.A.",
+          "Perez A.",
+          "Perrin W.",
+          "Pickens A.",
+          "Primus E.L.",
+          "Pu L.-L.",
+          "Puazo M.",
+          "Quiles M.M.",
+          "Quiroz J.B.",
+          "Rabata D.",
+          "Reeves K.",
+          "Ruiz S.J.",
+          "Shao H.",
+          "Sisson I.",
+          "Sonaike T.",
+          "Sorelle R.P.",
+          "Sutton A.E.",
+          "Svatek A.F.",
+          "Svetz L.A.",
+          "Tamerisa K.S.",
+          "Taylor T.R.",
+          "Teague B.",
+          "Thomas N.",
+          "Thorn R.D.",
+          "Trejos Z.Y.",
+          "Trevino B.K.",
+          "Ukegbu O.N.",
+          "Urban J.B.",
+          "Vasquez L.I.",
+          "Vera V.A.",
+          "Villasana D.M.",
+          "Wang L.",
+          "Ward-Moore S.",
+          "Warren J.T.",
+          "Wei X.",
+          "White F.",
+          "Williamson A.L.",
+          "Wleczyk R.",
+          "Wooden H.S.",
+          "Wooden S.H.",
+          "Yen J.",
+          "Yoon L.",
+          "Yoon V.",
+          "Zorrilla S.E.",
+          "Nelson D.",
+          "Kucherlapati R.",
+          "Weinstock G.",
+          "Gibbs R.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16541075"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature04569"
+          }
+        ],
+        "title": "The finished DNA sequence of human chromosome 12.",
+        "publicationDate": "2006",
+        "journal": "Nature",
+        "firstPage": "346",
+        "lastPage": "351",
+        "volume": "440"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "15489334",
+        "citationType": "journal article",
+        "authoringGroup": [
+          "The MGC Project Team"
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15489334"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1101/gr.2596504"
+          }
+        ],
+        "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+        "publicationDate": "2004",
+        "journal": "Genome Res.",
+        "firstPage": "2121",
+        "lastPage": "2127",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 4)",
+        "VARIANTS GLY-14 AND ILE-254"
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "16647063",
+        "citationType": "journal article",
+        "authors": [
+          "An S.",
+          "Cho K.H.",
+          "Lee W.S.",
+          "Lee J.O.",
+          "Paik Y.K.",
+          "Jeong T.S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16647063"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.febslet.2006.04.035"
+          }
+        ],
+        "title": "A critical role for the histidine residues in the catalytic function of acyl-CoA:cholesterol acyltransferase catalysis: evidence for catalytic difference between ACAT1 and ACAT2.",
+        "publicationDate": "2006",
+        "journal": "FEBS Lett.",
+        "firstPage": "2741",
+        "lastPage": "2749",
+        "volume": "580"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "ACTIVE SITE",
+        "MUTAGENESIS OF HIS-360 AND HIS-399"
+      ]
+    },
+    {
+      "referenceNumber": 8,
+      "citation": {
+        "id": "11294643",
+        "citationType": "journal article",
+        "authors": [
+          "Seo T.",
+          "Oelkers P.M.",
+          "Giattina M.R.",
+          "Worgall T.S.",
+          "Sturley S.L.",
+          "Deckelbaum R.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "11294643"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/bi0022947"
+          }
+        ],
+        "title": "Differential modulation of ACAT1 and ACAT2 transcription and activity by long chain free fatty acids in cultured cells.",
+        "publicationDate": "2001",
+        "journal": "Biochemistry",
+        "firstPage": "4756",
+        "lastPage": "4762",
+        "volume": "40"
+      },
+      "referencePositions": [
+        "CATALYTIC ACTIVITY",
+        "FUNCTION"
+      ]
+    },
+    {
+      "referenceNumber": 9,
+      "citation": {
+        "id": "16331323",
+        "citationType": "journal article",
+        "authors": [
+          "Yao X.M.",
+          "Wang C.H.",
+          "Song B.L.",
+          "Yang X.Y.",
+          "Wang Z.Z.",
+          "Qi W.",
+          "Lin Z.X.",
+          "Chang C.C.",
+          "Chang T.Y.",
+          "Li B.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16331323"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1111/j.1745-7270.2005.00118.x"
+          }
+        ],
+        "title": "Two human ACAT2 mRNA variants produced by alternative splicing and coding for novel isoenzymes.",
+        "publicationDate": "2005",
+        "journal": "Acta Biochim. Biophys. Sin.",
+        "firstPage": "797",
+        "lastPage": "806",
+        "volume": "37"
+      },
+      "referencePositions": [
+        "TISSUE SPECIFICITY",
+        "FUNCTION (ISOFORMS 2 AND 3)",
+        "ALTERNATIVE SPLICING (ISOFORMS 2 AND 3)"
+      ]
+    },
+    {
+      "referenceNumber": 10,
+      "citation": {
+        "id": "28604676",
+        "citationType": "journal article",
+        "authors": [
+          "Wang Y.J.",
+          "Bian Y.",
+          "Luo J.",
+          "Lu M.",
+          "Xiong Y.",
+          "Guo S.Y.",
+          "Yin H.Y.",
+          "Lin X.",
+          "Li Q.",
+          "Chang C.C.Y.",
+          "Chang T.Y.",
+          "Li B.L.",
+          "Song B.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "28604676"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/ncb3551"
+          }
+        ],
+        "title": "Cholesterol and fatty acids regulate cysteine ubiquitylation of ACAT2 through competitive oxidation.",
+        "publicationDate": "2017",
+        "journal": "Nat. Cell Biol.",
+        "firstPage": "808",
+        "lastPage": "819",
+        "volume": "19"
+      },
+      "referencePositions": [
+        "INTERACTION WITH INSIG1",
+        "UBIQUITINATION AT CYS-277",
+        "OXIDATION AT CYS-277",
+        "MUTAGENESIS OF LYS-49; LYS-80; LYS-100; LYS-102; LYS-108; LYS-242; THR-254; 267-SER--SER-270; CYS-277; THR-279 AND LYS-299"
+      ]
+    },
+    {
+      "referenceNumber": 11,
+      "citation": {
+        "id": "29184177",
+        "citationType": "journal article",
+        "authors": [
+          "Wang Y.J.",
+          "Bian Y.",
+          "Luo J.",
+          "Lu M.",
+          "Xiong Y.",
+          "Guo S.Y.",
+          "Yong H.",
+          "Lin X.",
+          "Li Q.",
+          "Chang C.C.Y.",
+          "Chang T.Y.",
+          "Li B.L.",
+          "Song B.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "29184177"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/ncb3651"
+          }
+        ],
+        "title": "Corrigendum: Cholesterol and fatty acids regulate cysteine ubiquitylation of ACAT2 through competitive oxidation.",
+        "publicationDate": "2017",
+        "journal": "Nat. Cell Biol.",
+        "firstPage": "1441",
+        "lastPage": "1441",
+        "volume": "19"
+      },
+      "referencePositions": [
+        "ERRATUM OF PUBMED:28604676"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AF059203",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC63998.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF099031",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC78335.2"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331516",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331502",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331503",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331504",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331505",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331506",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331507",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331508",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331509",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331510",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331511",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331512",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331513",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331514",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF331515",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK18275.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF332858",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK48829.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF332857",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK48829.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AC073573",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC096090",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH96090.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC096091",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH96091.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC096092",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH96092.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC099626",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH99626.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS8847.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "O75908-1"
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_003569.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_003578.4"
+        }
+      ],
+      "isoformId": "O75908-1"
+    },
+    {
+      "database": "PDB",
+      "id": "7N6Q",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "3.87 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C/D=2-522"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7N6R",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "3.93 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C/D=2-522"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7N6Q",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7N6R",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-24208",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-24209",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "114015",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "155"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "database": "MINT",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "NDEx",
+      "id": "IQUERY-CP-SOAT2",
+      "properties": [
+        {
+          "key": "Evidences",
+          "value": "2 NDEx IQuery Curated Pathways"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9606.ENSP00000301466",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BindingDB",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ChEMBL",
+      "id": "CHEMBL4465",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB01094",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Hesperetin"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB16254",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Nevanimibe"
+        }
+      ]
+    },
+    {
+      "database": "SwissLipids",
+      "id": "SLP:000001262",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "O75908-1"
+    },
+    {
+      "database": "TCDB",
+      "id": "2.A.50.4.11",
+      "properties": [
+        {
+          "key": "FamilyName",
+          "value": "the glycerol uptake (gup) or membrane-bound acyl transferase (mboat) family"
+        }
+      ]
+    },
+    {
+      "database": "GlyGen",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "1 site, 1 O-linked glycan (1 site)"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhosphoSitePlus",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SwissPalm",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioMuta",
+      "id": "SOAT2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "jPOST",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MassIVE",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9606-ENSP00000301466",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "27608",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "50258",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "O75908-1"
+    },
+    {
+      "database": "Antibodypedia",
+      "id": "43294",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "143 antibodies from 20 providers"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "8435",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000301466.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000301466.3"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000167780.13"
+        }
+      ],
+      "isoformId": "O75908-1"
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000542365.1",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000442234.1"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000167780.13"
+        }
+      ],
+      "isoformId": "O75908-4"
+    },
+    {
+      "database": "GeneID",
+      "id": "8435",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "hsa:8435",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MANE-Select",
+      "id": "ENST00000301466.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000301466.3"
+        },
+        {
+          "key": "RefSeqNucleotideId",
+          "value": "NM_003578.4"
+        },
+        {
+          "key": "RefSeqProteinId",
+          "value": "NP_003569.1"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "uc001sbv.4",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ],
+      "isoformId": "O75908-1"
+    },
+    {
+      "database": "AGR",
+      "id": "HGNC:11178",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ClinPGx",
+      "id": "PA36016",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "8435",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DisGeNET",
+      "id": "8435",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneCards",
+      "id": "SOAT2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HGNC",
+      "id": "HGNC:11178",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "SOAT2"
+        }
+      ]
+    },
+    {
+      "database": "HPA",
+      "id": "ENSG00000167780",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Tissue enriched (intestine)"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "601311",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "gene"
+        }
+      ]
+    },
+    {
+      "database": "OpenTargets",
+      "id": "ENSG00000167780",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSG00000167780",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG0380",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00950000183081",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_031845_1_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "TMNDRHT",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "10039049at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PAN-GO",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Number of GO annotations",
+          "value": "6 GO annotations based on evolutionary models"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "MetaCyc:HS09636-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "2.3.1.26",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "PathwayCommons",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-8964038",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "LDL clearance"
+        }
+      ]
+    },
+    {
+      "database": "SABIO-RK",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SignaLink",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Agora",
+      "id": "ENSG00000167780",
+      "properties": [
+        {
+          "key": "NominatedTarget",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "8435",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "32 hits in 1148 CRISPR screens"
+        }
+      ]
+    },
+    {
+      "database": "GeneWiki",
+      "id": "SOAT2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "8435",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Pharos",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "DevelopmentLevel",
+          "value": "Tchem"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:O75908",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005640",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 12"
+        }
+      ]
+    },
+    {
+      "database": "RNAct",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "moleculeType",
+          "value": "protein"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSG00000167780",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in jejunal mucosa and 87 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "ExpressionAtlas",
+      "id": "O75908",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "baseline and differential"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005903",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:brush border"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "14615411"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005783",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:endoplasmic reticulum"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "15451793"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005789",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:endoplasmic reticulum membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "12808042"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0016746",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:acyltransferase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:ProtInc"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000304",
+          "source": "PubMed",
+          "id": "9756920"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0015485",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:cholesterol binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16647063"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0034736",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:cholesterol O-acyltransferase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16647063"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0000062",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:fatty-acyl-CoA binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16647063"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004772",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:sterol O-acyltransferase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "11294643"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0033344",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:cholesterol efflux"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "15308631"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042632",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:cholesterol homeostasis"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000304",
+          "source": "PubMed",
+          "id": "11401500"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008203",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:cholesterol metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "11294643"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0030299",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:intestinal cholesterol absorption"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IC:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "14615411"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006869",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:lipid transport"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "15308631"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0034383",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:low-density lipoprotein particle clearance"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:Reactome"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0010742",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:macrophage derived foam cell differentiation"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000304",
+          "source": "PubMed",
+          "id": "14615411"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0045797",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:positive regulation of intestinal cholesterol absorption"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0034379",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:very-low-density lipoprotein particle assembly"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "15308631"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR004299",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "MBOAT_fam"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR014371",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Oat_ACAT_DAG_ARE"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR030687",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Sterol_acyltranf_meta"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR10408",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "STEROL O-ACYLTRANSFERASE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR10408:SF10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "STEROL O-ACYLTRANSFERASE 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF03062",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "MBOAT"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PIRSF",
+      "id": "PIRSF000439",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Oat_ACAT_DAG_ARE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PIRSF",
+      "id": "PIRSF500230",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Sterol_acyltranf_ACAT"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MEPGGARLRLQRTEGLGGERERQPCGDGNTETHRAPDLVQWTRHMEAVKAQLLEQAQGQLRELLDRAMREAIQSYPSQDKPLPPPPPGSLSRTQEPSLGKQKVFIIRKSLLDELMEVQHFRTIYHMFIAGLCVFIISTLAIDFIDEGRLLLEFDLLIFSFGQLPLALVTWVPMFLSTLLAPYQALRLWARGTWTQATGLGCALLAAHAVVLCALPVHVAVEHQLPPASRCVLVFEQVRFLMKSYSFLREAVPGTLRARRGEGIQAPSFSSYLYFLFCPTLIYRETYPRTPYVRWNYVAKNFAQALGCVLYACFILGRLCVPVFANMSREPFSTRALVLSILHATLPGIFMLLLIFFAFLHCWLNAFAEMLRFGDRMFYRDWWNSTSFSNYYRTWNVVVHDWLYSYVYQDGLRLLGARARGVAMLGVFLVSAVAHEYIFCFVLGFFYPVMLILFLVIGGMLNFMMHDQRTGPAWNVLMWTMLFLGQGIQVSLYCQEWYARRHCPLPQATFWGLVTPRSWSCHT",
+    "length": 522,
+    "molWeight": 59896,
+    "crc64": "EEAC2DB569FFE729",
+    "md5": "BBD2F49DCE98DBFEEE4CE9E7EDC0553F"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 3,
+      "CATALYTIC ACTIVITY": 6,
+      "SUBUNIT": 1,
+      "INTERACTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "ALTERNATIVE PRODUCTS": 4,
+      "TISSUE SPECIFICITY": 1,
+      "DOMAIN": 1,
+      "PTM": 2,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Topological domain": 10,
+      "Transmembrane": 9,
+      "Region": 2,
+      "Motif": 1,
+      "Compositional bias": 1,
+      "Active site": 1,
+      "Binding site": 7,
+      "Modified residue": 1,
+      "Cross-link": 1,
+      "Alternative sequence": 5,
+      "Natural variant": 2,
+      "Mutagenesis": 13,
+      "Sequence conflict": 1
+    },
+    "uniParcId": "UPI0000135B61"
+  }
+}

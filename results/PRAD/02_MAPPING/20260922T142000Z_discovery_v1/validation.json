@@ -1,0 +1,13 @@
+{
+  "status": "DONE",
+  "work_features": 69,
+  "direct_features": 48,
+  "direct_relations": 161,
+  "genes": 101,
+  "features_needing_review": 21,
+  "unique_relation_keys": true,
+  "all_genes_HGNC_verified": true,
+  "name_and_chemical_key_joint_match": true,
+  "BRCA_statistics_transferred": false,
+  "biochemical_exhaustiveness_claimed": false
+}

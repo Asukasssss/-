@@ -1,0 +1,6358 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q12882",
+  "secondaryAccessions": [
+    "A2RRQ2",
+    "A2RRQ3",
+    "A8K5A2",
+    "A8MWG9",
+    "B1AN21",
+    "E9PFN1",
+    "Q16694",
+    "Q16761",
+    "Q32NB0",
+    "Q96HL6",
+    "Q96TH1"
+  ],
+  "uniProtkbId": "DPYD_HUMAN",
+  "entryAudit": {
+    "firstPublicDate": "1997-11-01",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2007-11-13",
+    "entryVersion": 228,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000305"
+          }
+        ],
+        "value": "Dihydropyrimidine dehydrogenase [NADP(+)]"
+      },
+      "shortNames": [
+        {
+          "value": "DHPDHase"
+        },
+        {
+          "value": "DPD"
+        }
+      ],
+      "ecNumbers": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1512248"
+            }
+          ],
+          "value": "1.3.1.2"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "Dihydrothymine dehydrogenase"
+        }
+      },
+      {
+        "fullName": {
+          "value": "Dihydrouracil dehydrogenase"
+        }
+      }
+    ],
+    "flag": "Precursor"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "HGNC",
+            "id": "HGNC:3012"
+          }
+        ],
+        "value": "DPYD"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1512248"
+            }
+          ],
+          "value": "Catalyzes the reduction of uracil and thymine in the initial step of reductive pyrimidine catabolism, a pathway that yields beta-alanine from uracil and beta-aminoisobutyrate from thymine (PubMed:1512248). Also capable of degrading the chemotherapeutic drug 5-fluorouracil (PubMed:1512248)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "5,6-dihydrouracil + NADP(+) = uracil + NADPH + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:18093"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15901"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17568"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57783"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58349"
+          }
+        ],
+        "ecNumber": "1.3.1.2",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "1512248"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "right-to-left",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:18095"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "1512248"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "5,6-dihydrothymine + NADP(+) = thymine + NADPH + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:58284"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17821"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:27468"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57783"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58349"
+          }
+        ],
+        "ecNumber": "1.3.1.2",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "1512248"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "right-to-left",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:58286"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "1512248"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "COFACTOR",
+      "cofactors": [
+        {
+          "name": "FAD",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q28943"
+            }
+          ],
+          "cofactorCrossReference": {
+            "database": "ChEBI",
+            "id": "CHEBI:57692"
+          }
+        }
+      ],
+      "note": {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q28943"
+              }
+            ],
+            "value": "Binds 1 FAD per subunit."
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "COFACTOR",
+      "cofactors": [
+        {
+          "name": "FMN",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q28943"
+            }
+          ],
+          "cofactorCrossReference": {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          }
+        }
+      ],
+      "note": {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q28943"
+              }
+            ],
+            "value": "Binds 1 FMN per subunit."
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "COFACTOR",
+      "cofactors": [
+        {
+          "name": "[4Fe-4S] cluster",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q28943"
+            }
+          ],
+          "cofactorCrossReference": {
+            "database": "ChEBI",
+            "id": "CHEBI:49883"
+          }
+        }
+      ],
+      "note": {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q28943"
+              }
+            ],
+            "value": "Binds 4 [4Fe-4S] clusters per subunit. Contains approximately 16 iron atoms per subunit."
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "BIOPHYSICOCHEMICAL PROPERTIES",
+      "kineticParameters": {
+        "maximumVelocities": [
+          {
+            "velocity": 0.6,
+            "unit": "umol/min/mg",
+            "enzyme": "enzyme for uracil",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          },
+          {
+            "velocity": 0.7,
+            "unit": "umol/min/mg",
+            "enzyme": "enzyme for thymine",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          },
+          {
+            "velocity": 0.9,
+            "unit": "umol/min/mg",
+            "enzyme": "enzyme for 5-fluorouracil",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          }
+        ],
+        "michaelisConstants": [
+          {
+            "constant": 4.9,
+            "unit": "uM",
+            "substrate": "uracil",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          },
+          {
+            "constant": 4.8,
+            "unit": "uM",
+            "substrate": "thymine",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          },
+          {
+            "constant": 3.3,
+            "unit": "uM",
+            "substrate": "5-fluorouracil",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          },
+          {
+            "constant": 9.6,
+            "unit": "uM",
+            "substrate": "NADPH (with uracil)",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          },
+          {
+            "constant": 15.8,
+            "unit": "uM",
+            "substrate": "NADPH (with thymine)",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          },
+          {
+            "constant": 10.1,
+            "unit": "uM",
+            "substrate": "NADPH (with 5-fluorouracil)",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1512248"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1512248"
+            }
+          ],
+          "value": "Amino-acid biosynthesis; beta-alanine biosynthesis"
+        }
+      ],
+      "commentType": "PATHWAY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q28943"
+            }
+          ],
+          "value": "Homodimer"
+        }
+      ],
+      "commentType": "SUBUNIT"
+    },
+    {
+      "commentType": "INTERACTION",
+      "interactions": [
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "Q12882",
+            "intActId": "EBI-2839838"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "Q9HD26",
+            "geneName": "GOPC",
+            "intActId": "EBI-349832"
+          },
+          "numberOfExperiments": 3,
+          "organismDiffer": false
+        },
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "Q12882",
+            "intActId": "EBI-2839838"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "Q9BS40",
+            "geneName": "LXN",
+            "intActId": "EBI-1044504"
+          },
+          "numberOfExperiments": 3,
+          "organismDiffer": false
+        }
+      ]
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "O89000"
+              }
+            ],
+            "value": "Cytoplasm, cytosol",
+            "id": "SL-0091"
+          }
+        }
+      ]
+    },
+    {
+      "commentType": "ALTERNATIVE PRODUCTS",
+      "events": [
+        "Alternative splicing"
+      ],
+      "isoforms": [
+        {
+          "name": {
+            "value": "1"
+          },
+          "isoformIds": [
+            "Q12882-1"
+          ],
+          "isoformSequenceStatus": "Displayed"
+        },
+        {
+          "name": {
+            "value": "2"
+          },
+          "isoformIds": [
+            "Q12882-2"
+          ],
+          "sequenceIds": [
+            "VSP_044929",
+            "VSP_044930"
+          ],
+          "isoformSequenceStatus": "Described"
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "value": "Found in most tissues with greatest activity found in liver and peripheral blood mononuclear cells"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "commentType": "DISEASE",
+      "disease": {
+        "diseaseId": "Dihydropyrimidine dehydrogenase deficiency",
+        "diseaseAccession": "DI-01488",
+        "acronym": "DPYDD",
+        "description": "A metabolic disorder with large phenotypic variability, ranging from no symptoms to a convulsive disorder with motor and intellectual disability. It is characterized by persistent urinary excretion of excessive amounts of uracil, thymine and 5-hydroxymethyluracil. Patients suffering from this disease show a severe reaction to the anticancer drug 5-fluorouracil.",
+        "diseaseCrossReference": {
+          "database": "MIM",
+          "id": "274270"
+        },
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "14702039"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "16710414"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9266349"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9439663"
+          }
+        ]
+      },
+      "note": {
+        "texts": [
+          {
+            "value": "The disease is caused by variants affecting the gene represented in this entry"
+          }
+        ]
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the dihydropyrimidine dehydrogenase family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Propeptide",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 3,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureId": "PRO_0000021114"
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 4,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1025,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Dihydropyrimidine dehydrogenase [NADP(+)]",
+      "featureId": "PRO_0000021115"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 69,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 100,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "4Fe-4S ferredoxin-type 1",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00711"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 944,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 976,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "4Fe-4S ferredoxin-type 2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00711"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 978,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1007,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "4Fe-4S ferredoxin-type 3",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00711"
+        }
+      ]
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 671,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 671,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Proton acceptor",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 79,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 79,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "1"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 82,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 82,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "1"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 87,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 87,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "1"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 91,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 91,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "2"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 129,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 129,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 130,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 130,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "2"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 136,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 136,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "2"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 140,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 140,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "1"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 156,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 156,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "2"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 195,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 195,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 198,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 198,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 218,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 218,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 219,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 219,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 226,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 226,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 235,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 235,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 260,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 260,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 261,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 261,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 291,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 291,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 340,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 340,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 342,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 342,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 343,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 343,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 364,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 364,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 365,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 365,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 371,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 371,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 376,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 376,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 438,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 438,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 481,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 481,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 481,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 481,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 487,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 487,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58349"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "NADP(+)",
+        "id": "ChEBI:CHEBI:58349"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 489,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 489,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:57692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FAD",
+        "id": "ChEBI:CHEBI:57692"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 550,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 550,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 574,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 574,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 575,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 575,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 609,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 609,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17821"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "thymine",
+        "id": "ChEBI:CHEBI:17821"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 609,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 609,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17568"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "uracil",
+        "id": "ChEBI:CHEBI:17568"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 668,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 668,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 668,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 668,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17821"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "thymine",
+        "id": "ChEBI:CHEBI:17821"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 668,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 668,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17568"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "uracil",
+        "id": "ChEBI:CHEBI:17568"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 670,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 670,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17821"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "thymine",
+        "id": "ChEBI:CHEBI:17821"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 709,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 709,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 735,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 735,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 736,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 736,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 736,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 736,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17821"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "thymine",
+        "id": "ChEBI:CHEBI:17821"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 736,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 736,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17568"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "uracil",
+        "id": "ChEBI:CHEBI:17568"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 737,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 737,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17821"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "thymine",
+        "id": "ChEBI:CHEBI:17821"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 737,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 737,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:17568"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "uracil",
+        "id": "ChEBI:CHEBI:17568"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 767,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 767,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 793,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 793,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 795,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 795,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 816,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 816,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 817,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 817,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:58210"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "FMN",
+        "id": "ChEBI:CHEBI:58210"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 953,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 953,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "3"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 956,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 956,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "3"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 959,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 959,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "3"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 963,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 963,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "4"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 986,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 986,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "4"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 989,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 989,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "4"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 992,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 992,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "4"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 996,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 996,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:49883"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "Q28943"
+        }
+      ],
+      "ligand": {
+        "name": "[4Fe-4S] cluster",
+        "id": "ChEBI:CHEBI:49883",
+        "label": "3"
+      }
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 384,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 384,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-acetyllysine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PubMed",
+          "id": "19608861"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 905,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 905,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphoserine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PubMed",
+          "id": "23186163"
+        }
+      ]
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 162,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 173,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15489334"
+        },
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "Reference",
+          "id": "Ref.4"
+        }
+      ],
+      "featureId": "VSP_044929",
+      "alternativeSequence": {
+        "originalSequence": "VFKAMSIPQIRN",
+        "alternativeSequences": [
+          "TLILAFSLMNHL"
+        ]
+      }
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 174,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1025,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15489334"
+        },
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "Reference",
+          "id": "Ref.4"
+        }
+      ],
+      "featureId": "VSP_044930",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 29,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 29,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in DPYDD; allele DPYD*9A and allele DPYD*9B; loss of activity; dbSNP:rs1801265",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1801265"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14702039"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16710414"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18987736"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9266349"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9439663"
+        }
+      ],
+      "featureId": "VAR_005173",
+      "alternativeSequence": {
+        "originalSequence": "C",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 166,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 166,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs2297595",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs2297595"
+        }
+      ],
+      "featureId": "VAR_054034",
+      "alternativeSequence": {
+        "originalSequence": "M",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 235,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 235,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in DPYDD; allele DPYD*8; loss of activity; dbSNP:rs1801266",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1801266"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9266349"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9439663"
+        }
+      ],
+      "featureId": "VAR_005174",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "W"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 534,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 534,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in allele DPYD*4; dbSNP:rs1801158",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1801158"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9472650"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9723824"
+        }
+      ],
+      "featureId": "VAR_005175",
+      "alternativeSequence": {
+        "originalSequence": "S",
+        "alternativeSequences": [
+          "N"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 543,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 543,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in allele DPYD*5; dbSNP:rs1801159",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1801159"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15489334"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9472650"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9723824"
+        }
+      ],
+      "featureId": "VAR_005176",
+      "alternativeSequence": {
+        "originalSequence": "I",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 732,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 732,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs1801160",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1801160"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15489334"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9723824"
+        }
+      ],
+      "featureId": "VAR_014760",
+      "alternativeSequence": {
+        "originalSequence": "V",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 886,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 886,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in DPYDD; allele DPYD*9B; 25% of activity; dbSNP:rs1801267",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1801267"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9266349"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9439663"
+        }
+      ],
+      "featureId": "VAR_005177",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "H"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 995,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 995,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in allele DPYD*10; low activity; dbSNP:rs1801268",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1801268"
+        }
+      ],
+      "featureId": "VAR_005178",
+      "alternativeSequence": {
+        "originalSequence": "V",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 131,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 131,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 6; AAI08743",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "P",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 845,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 845,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 5; BAF83906",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "E",
+        "alternativeSequences": [
+          "G"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 910,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 910,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 1; AAA57474",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "N",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 1024,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1024,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 8; AAI31779",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "V",
+        "alternativeSequences": [
+          "G"
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0004",
+      "category": "Ligand",
+      "name": "4Fe-4S"
+    },
+    {
+      "id": "KW-0007",
+      "category": "PTM",
+      "name": "Acetylation"
+    },
+    {
+      "id": "KW-0025",
+      "category": "Coding sequence diversity",
+      "name": "Alternative splicing"
+    },
+    {
+      "id": "KW-0963",
+      "category": "Cellular component",
+      "name": "Cytoplasm"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-0225",
+      "category": "Disease",
+      "name": "Disease variant"
+    },
+    {
+      "id": "KW-0274",
+      "category": "Ligand",
+      "name": "FAD"
+    },
+    {
+      "id": "KW-0285",
+      "category": "Ligand",
+      "name": "Flavoprotein"
+    },
+    {
+      "id": "KW-0288",
+      "category": "Ligand",
+      "name": "FMN"
+    },
+    {
+      "id": "KW-0408",
+      "category": "Ligand",
+      "name": "Iron"
+    },
+    {
+      "id": "KW-0411",
+      "category": "Ligand",
+      "name": "Iron-sulfur"
+    },
+    {
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "id": "KW-0521",
+      "category": "Ligand",
+      "name": "NADP"
+    },
+    {
+      "id": "KW-0547",
+      "category": "Ligand",
+      "name": "Nucleotide-binding"
+    },
+    {
+      "id": "KW-0560",
+      "category": "Molecular function",
+      "name": "Oxidoreductase"
+    },
+    {
+      "id": "KW-0597",
+      "category": "PTM",
+      "name": "Phosphoprotein"
+    },
+    {
+      "id": "KW-1267",
+      "category": "Technical term",
+      "name": "Proteomics identification"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0677",
+      "category": "Domain",
+      "name": "Repeat"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "8083224",
+        "citationType": "journal article",
+        "authors": [
+          "Yokota H.",
+          "Fernandez-Salguero P.",
+          "Furuya H.",
+          "Lin K.",
+          "McBride O.W.",
+          "Podschun B.",
+          "Schnackerz K.D.",
+          "Gonzalez F.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8083224"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0021-9258(17)31638-1"
+          }
+        ],
+        "title": "cDNA cloning and chromosome mapping of human dihydropyrimidine dehydrogenase, an enzyme associated with 5-fluorouracil toxicity and congenital thymine uraciluria.",
+        "publicationDate": "1994",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "23192",
+        "lastPage": "23196",
+        "volume": "269"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "9135003",
+        "citationType": "journal article",
+        "authors": [
+          "Johnson M.R.",
+          "Wang K.",
+          "Tillmanns S.",
+          "Albin N.",
+          "Diasio R.B."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9135003"
+          }
+        ],
+        "title": "Structural organization of the human dihydropyrimidine dehydrogenase gene.",
+        "publicationDate": "1997",
+        "journal": "Cancer Res.",
+        "firstPage": "1660",
+        "lastPage": "1663",
+        "volume": "57"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)"
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "9464498",
+        "citationType": "journal article",
+        "authors": [
+          "Ogura K.",
+          "Nishiyama T.",
+          "Takubo H.",
+          "Kato A.",
+          "Okuda H.",
+          "Arakawa K.",
+          "Fukushima M.",
+          "Nagayama S.",
+          "Kawaguchi Y.",
+          "Watabe T."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9464498"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0304-3835(97)00377-7"
+          }
+        ],
+        "title": "Suicidal inactivation of human dihydropyrimidine dehydrogenase by (E)-5-(2-bromovinyl)uracil derived from the antiviral, sorivudine.",
+        "publicationDate": "1998",
+        "journal": "Cancer Lett.",
+        "firstPage": "107",
+        "lastPage": "113",
+        "volume": "122"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)"
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "CI-4IUTJLP3044AK",
+        "citationType": "submission",
+        "authors": [
+          "Kalnine N.",
+          "Chen X.",
+          "Rolfs A.",
+          "Halleck A.",
+          "Hines L.",
+          "Eisenstein S.",
+          "Koundinya M.",
+          "Raphael J.",
+          "Moreira D.",
+          "Kelley T.",
+          "LaBaer J.",
+          "Lin Y.",
+          "Phelan M.",
+          "Farmer A."
+        ],
+        "title": "Cloning of human full-length CDSs in BD Creator(TM) system donor vector.",
+        "publicationDate": "MAY-2003",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)"
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "14702039",
+        "citationType": "journal article",
+        "authors": [
+          "Ota T.",
+          "Suzuki Y.",
+          "Nishikawa T.",
+          "Otsuki T.",
+          "Sugiyama T.",
+          "Irie R.",
+          "Wakamatsu A.",
+          "Hayashi K.",
+          "Sato H.",
+          "Nagai K.",
+          "Kimura K.",
+          "Makita H.",
+          "Sekine M.",
+          "Obayashi M.",
+          "Nishi T.",
+          "Shibahara T.",
+          "Tanaka T.",
+          "Ishii S.",
+          "Yamamoto J.",
+          "Saito K.",
+          "Kawai Y.",
+          "Isono Y.",
+          "Nakamura Y.",
+          "Nagahari K.",
+          "Murakami K.",
+          "Yasuda T.",
+          "Iwayanagi T.",
+          "Wagatsuma M.",
+          "Shiratori A.",
+          "Sudo H.",
+          "Hosoiri T.",
+          "Kaku Y.",
+          "Kodaira H.",
+          "Kondo H.",
+          "Sugawara M.",
+          "Takahashi M.",
+          "Kanda K.",
+          "Yokoi T.",
+          "Furuya T.",
+          "Kikkawa E.",
+          "Omura Y.",
+          "Abe K.",
+          "Kamihara K.",
+          "Katsuta N.",
+          "Sato K.",
+          "Tanikawa M.",
+          "Yamazaki M.",
+          "Ninomiya K.",
+          "Ishibashi T.",
+          "Yamashita H.",
+          "Murakawa K.",
+          "Fujimori K.",
+          "Tanai H.",
+          "Kimata M.",
+          "Watanabe M.",
+          "Hiraoka S.",
+          "Chiba Y.",
+          "Ishida S.",
+          "Ono Y.",
+          "Takiguchi S.",
+          "Watanabe S.",
+          "Yosida M.",
+          "Hotuta T.",
+          "Kusano J.",
+          "Kanehori K.",
+          "Takahashi-Fujii A.",
+          "Hara H.",
+          "Tanase T.-O.",
+          "Nomura Y.",
+          "Togiya S.",
+          "Komai F.",
+          "Hara R.",
+          "Takeuchi K.",
+          "Arita M.",
+          "Imose N.",
+          "Musashino K.",
+          "Yuuki H.",
+          "Oshima A.",
+          "Sasaki N.",
+          "Aotsuka S.",
+          "Yoshikawa Y.",
+          "Matsunawa H.",
+          "Ichihara T.",
+          "Shiohata N.",
+          "Sano S.",
+          "Moriya S.",
+          "Momiyama H.",
+          "Satoh N.",
+          "Takami S.",
+          "Terashima Y.",
+          "Suzuki O.",
+          "Nakagawa S.",
+          "Senoh A.",
+          "Mizoguchi H.",
+          "Goto Y.",
+          "Shimizu F.",
+          "Wakebe H.",
+          "Hishigaki H.",
+          "Watanabe T.",
+          "Sugiyama A.",
+          "Takemoto M.",
+          "Kawakami B.",
+          "Yamazaki M.",
+          "Watanabe K.",
+          "Kumagai A.",
+          "Itakura S.",
+          "Fukuzumi Y.",
+          "Fujimori Y.",
+          "Komiyama M.",
+          "Tashiro H.",
+          "Tanigami A.",
+          "Fujiwara T.",
+          "Ono T.",
+          "Yamada K.",
+          "Fujii Y.",
+          "Ozaki K.",
+          "Hirao M.",
+          "Ohmori Y.",
+          "Kawabata A.",
+          "Hikiji T.",
+          "Kobatake N.",
+          "Inagaki H.",
+          "Ikema Y.",
+          "Okamoto S.",
+          "Okitani R.",
+          "Kawakami T.",
+          "Noguchi S.",
+          "Itoh T.",
+          "Shigeta K.",
+          "Senba T.",
+          "Matsumura K.",
+          "Nakajima Y.",
+          "Mizuno T.",
+          "Morinaga M.",
+          "Sasaki M.",
+          "Togashi T.",
+          "Oyama M.",
+          "Hata H.",
+          "Watanabe M.",
+          "Komatsu T.",
+          "Mizushima-Sugano J.",
+          "Satoh T.",
+          "Shirai Y.",
+          "Takahashi Y.",
+          "Nakagawa K.",
+          "Okumura K.",
+          "Nagase T.",
+          "Nomura N.",
+          "Kikuchi H.",
+          "Masuho Y.",
+          "Yamashita R.",
+          "Nakai K.",
+          "Yada T.",
+          "Nakamura Y.",
+          "Ohara O.",
+          "Isogai T.",
+          "Sugano S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "14702039"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/ng1285"
+          }
+        ],
+        "title": "Complete sequencing and characterization of 21,243 full-length human cDNAs.",
+        "publicationDate": "2004",
+        "journal": "Nat. Genet.",
+        "firstPage": "40",
+        "lastPage": "45",
+        "volume": "36"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)",
+        "VARIANT DPYDD ARG-29"
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "16710414",
+        "citationType": "journal article",
+        "authors": [
+          "Gregory S.G.",
+          "Barlow K.F.",
+          "McLay K.E.",
+          "Kaul R.",
+          "Swarbreck D.",
+          "Dunham A.",
+          "Scott C.E.",
+          "Howe K.L.",
+          "Woodfine K.",
+          "Spencer C.C.A.",
+          "Jones M.C.",
+          "Gillson C.",
+          "Searle S.",
+          "Zhou Y.",
+          "Kokocinski F.",
+          "McDonald L.",
+          "Evans R.",
+          "Phillips K.",
+          "Atkinson A.",
+          "Cooper R.",
+          "Jones C.",
+          "Hall R.E.",
+          "Andrews T.D.",
+          "Lloyd C.",
+          "Ainscough R.",
+          "Almeida J.P.",
+          "Ambrose K.D.",
+          "Anderson F.",
+          "Andrew R.W.",
+          "Ashwell R.I.S.",
+          "Aubin K.",
+          "Babbage A.K.",
+          "Bagguley C.L.",
+          "Bailey J.",
+          "Beasley H.",
+          "Bethel G.",
+          "Bird C.P.",
+          "Bray-Allen S.",
+          "Brown J.Y.",
+          "Brown A.J.",
+          "Buckley D.",
+          "Burton J.",
+          "Bye J.",
+          "Carder C.",
+          "Chapman J.C.",
+          "Clark S.Y.",
+          "Clarke G.",
+          "Clee C.",
+          "Cobley V.",
+          "Collier R.E.",
+          "Corby N.",
+          "Coville G.J.",
+          "Davies J.",
+          "Deadman R.",
+          "Dunn M.",
+          "Earthrowl M.",
+          "Ellington A.G.",
+          "Errington H.",
+          "Frankish A.",
+          "Frankland J.",
+          "French L.",
+          "Garner P.",
+          "Garnett J.",
+          "Gay L.",
+          "Ghori M.R.J.",
+          "Gibson R.",
+          "Gilby L.M.",
+          "Gillett W.",
+          "Glithero R.J.",
+          "Grafham D.V.",
+          "Griffiths C.",
+          "Griffiths-Jones S.",
+          "Grocock R.",
+          "Hammond S.",
+          "Harrison E.S.I.",
+          "Hart E.",
+          "Haugen E.",
+          "Heath P.D.",
+          "Holmes S.",
+          "Holt K.",
+          "Howden P.J.",
+          "Hunt A.R.",
+          "Hunt S.E.",
+          "Hunter G.",
+          "Isherwood J.",
+          "James R.",
+          "Johnson C.",
+          "Johnson D.",
+          "Joy A.",
+          "Kay M.",
+          "Kershaw J.K.",
+          "Kibukawa M.",
+          "Kimberley A.M.",
+          "King A.",
+          "Knights A.J.",
+          "Lad H.",
+          "Laird G.",
+          "Lawlor S.",
+          "Leongamornlert D.A.",
+          "Lloyd D.M.",
+          "Loveland J.",
+          "Lovell J.",
+          "Lush M.J.",
+          "Lyne R.",
+          "Martin S.",
+          "Mashreghi-Mohammadi M.",
+          "Matthews L.",
+          "Matthews N.S.W.",
+          "McLaren S.",
+          "Milne S.",
+          "Mistry S.",
+          "Moore M.J.F.",
+          "Nickerson T.",
+          "O'Dell C.N.",
+          "Oliver K.",
+          "Palmeiri A.",
+          "Palmer S.A.",
+          "Parker A.",
+          "Patel D.",
+          "Pearce A.V.",
+          "Peck A.I.",
+          "Pelan S.",
+          "Phelps K.",
+          "Phillimore B.J.",
+          "Plumb R.",
+          "Rajan J.",
+          "Raymond C.",
+          "Rouse G.",
+          "Saenphimmachak C.",
+          "Sehra H.K.",
+          "Sheridan E.",
+          "Shownkeen R.",
+          "Sims S.",
+          "Skuce C.D.",
+          "Smith M.",
+          "Steward C.",
+          "Subramanian S.",
+          "Sycamore N.",
+          "Tracey A.",
+          "Tromans A.",
+          "Van Helmond Z.",
+          "Wall M.",
+          "Wallis J.M.",
+          "White S.",
+          "Whitehead S.L.",
+          "Wilkinson J.E.",
+          "Willey D.L.",
+          "Williams H.",
+          "Wilming L.",
+          "Wray P.W.",
+          "Wu Z.",
+          "Coulson A.",
+          "Vaudin M.",
+          "Sulston J.E.",
+          "Durbin R.M.",
+          "Hubbard T.",
+          "Wooster R.",
+          "Dunham I.",
+          "Carter N.P.",
+          "McVean G.",
+          "Ross M.T.",
+          "Harrow J.",
+          "Olson M.V.",
+          "Beck S.",
+          "Rogers J.",
+          "Bentley D.R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16710414"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature04727"
+          }
+        ],
+        "title": "The DNA sequence and biological annotation of human chromosome 1.",
+        "publicationDate": "2006",
+        "journal": "Nature",
+        "firstPage": "315",
+        "lastPage": "321",
+        "volume": "441"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]",
+        "VARIANT DPYDD ARG-29"
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "CI-56FTJV1JKRRTT",
+        "citationType": "submission",
+        "authors": [
+          "Mural R.J.",
+          "Istrail S.",
+          "Sutton G.",
+          "Florea L.",
+          "Halpern A.L.",
+          "Mobarry C.M.",
+          "Lippert R.",
+          "Walenz B.",
+          "Shatkay H.",
+          "Dew I.",
+          "Miller J.R.",
+          "Flanigan M.J.",
+          "Edwards N.J.",
+          "Bolanos R.",
+          "Fasulo D.",
+          "Halldorsson B.V.",
+          "Hannenhalli S.",
+          "Turner R.",
+          "Yooseph S.",
+          "Lu F.",
+          "Nusskern D.R.",
+          "Shue B.C.",
+          "Zheng X.H.",
+          "Zhong F.",
+          "Delcher A.L.",
+          "Huson D.H.",
+          "Kravitz S.A.",
+          "Mouchard L.",
+          "Reinert K.",
+          "Remington K.A.",
+          "Clark A.G.",
+          "Waterman M.S.",
+          "Eichler E.E.",
+          "Adams M.D.",
+          "Hunkapiller M.W.",
+          "Myers E.W.",
+          "Venter J.C."
+        ],
+        "publicationDate": "SEP-2005",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 8,
+      "citation": {
+        "id": "15489334",
+        "citationType": "journal article",
+        "authoringGroup": [
+          "The MGC Project Team"
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15489334"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1101/gr.2596504"
+          }
+        ],
+        "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+        "publicationDate": "2004",
+        "journal": "Genome Res.",
+        "firstPage": "2121",
+        "lastPage": "2127",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)",
+        "VARIANTS VAL-543 AND ILE-732"
+      ],
+      "referenceComments": [
+        {
+          "value": "Skin",
+          "type": "TISSUE"
+        },
+        {
+          "value": "Uterus",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 9,
+      "citation": {
+        "id": "8892022",
+        "citationType": "journal article",
+        "authors": [
+          "Vreken P.",
+          "van Kuilenburg A.B.P.",
+          "Meinsma R.",
+          "Smit G.P.A.",
+          "Bakker H.D.",
+          "de Abreu R.A.",
+          "van Gennip A.H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8892022"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1007/bf01799841"
+          }
+        ],
+        "title": "A point mutation in an invariant splice donor site leads to exon skipping in two unrelated Dutch patients with dihydropyrimidine dehydrogenase deficiency.",
+        "publicationDate": "1996",
+        "journal": "J. Inherit. Metab. Dis.",
+        "firstPage": "645",
+        "lastPage": "654",
+        "volume": "19"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 581-635"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 10,
+      "citation": {
+        "id": "9170156",
+        "citationType": "journal article",
+        "authors": [
+          "Fernandez-Salguero P.M.",
+          "Sapone A.",
+          "Wei X.",
+          "Holt J.R.",
+          "Jones S.",
+          "Idle J.R.",
+          "Gonzalez F.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9170156"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1097/00008571-199704000-00012"
+          }
+        ],
+        "title": "Lack of correlation between phenotype and genotype for the polymorphically expressed dihydropyrimidine dehydrogenase in a family of Pakistani origin.",
+        "publicationDate": "1997",
+        "journal": "Pharmacogenetics",
+        "firstPage": "161",
+        "lastPage": "163",
+        "volume": "7"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 581-635"
+      ]
+    },
+    {
+      "referenceNumber": 11,
+      "citation": {
+        "id": "1512248",
+        "citationType": "journal article",
+        "authors": [
+          "Lu Z.-H.",
+          "Zhang R.",
+          "Diasio R.B."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "1512248"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0021-9258(18)41899-6"
+          }
+        ],
+        "title": "Purification and characterization of dihydropyrimidine dehydrogenase from human liver.",
+        "publicationDate": "1992",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "17102",
+        "lastPage": "17109",
+        "volume": "267"
+      },
+      "referencePositions": [
+        "PARTIAL PROTEIN SEQUENCE",
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "BIOPHYSICOCHEMICAL PROPERTIES"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 12,
+      "citation": {
+        "id": "19608861",
+        "citationType": "journal article",
+        "authors": [
+          "Choudhary C.",
+          "Kumar C.",
+          "Gnad F.",
+          "Nielsen M.L.",
+          "Rehman M.",
+          "Walther T.C.",
+          "Olsen J.V.",
+          "Mann M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "19608861"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1126/science.1175371"
+          }
+        ],
+        "title": "Lysine acetylation targets protein complexes and co-regulates major cellular functions.",
+        "publicationDate": "2009",
+        "journal": "Science",
+        "firstPage": "834",
+        "lastPage": "840",
+        "volume": "325"
+      },
+      "referencePositions": [
+        "ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-384",
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ]
+    },
+    {
+      "referenceNumber": 13,
+      "citation": {
+        "id": "22814378",
+        "citationType": "journal article",
+        "authors": [
+          "Van Damme P.",
+          "Lasa M.",
+          "Polevoda B.",
+          "Gazquez C.",
+          "Elosegui-Artola A.",
+          "Kim D.S.",
+          "De Juan-Pardo E.",
+          "Demeyer K.",
+          "Hole K.",
+          "Larrea E.",
+          "Timmerman E.",
+          "Prieto J.",
+          "Arnesen T.",
+          "Sherman F.",
+          "Gevaert K.",
+          "Aldabe R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "22814378"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1073/pnas.1210303109"
+          }
+        ],
+        "title": "N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.",
+        "publicationDate": "2012",
+        "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+        "firstPage": "12449",
+        "lastPage": "12454",
+        "volume": "109"
+      },
+      "referencePositions": [
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ]
+    },
+    {
+      "referenceNumber": 14,
+      "citation": {
+        "id": "23186163",
+        "citationType": "journal article",
+        "authors": [
+          "Zhou H.",
+          "Di Palma S.",
+          "Preisinger C.",
+          "Peng M.",
+          "Polat A.N.",
+          "Heck A.J.",
+          "Mohammed S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "23186163"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/pr300630k"
+          }
+        ],
+        "title": "Toward a comprehensive characterization of a human cancer cell phosphoproteome.",
+        "publicationDate": "2013",
+        "journal": "J. Proteome Res.",
+        "firstPage": "260",
+        "lastPage": "271",
+        "volume": "12"
+      },
+      "referencePositions": [
+        "PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-905",
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Cervix carcinoma",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 15,
+      "citation": {
+        "id": "24275569",
+        "citationType": "journal article",
+        "authors": [
+          "Bian Y.",
+          "Song C.",
+          "Cheng K.",
+          "Dong M.",
+          "Wang F.",
+          "Huang J.",
+          "Sun D.",
+          "Wang L.",
+          "Ye M.",
+          "Zou H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "24275569"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.jprot.2013.11.014"
+          }
+        ],
+        "title": "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.",
+        "publicationDate": "2014",
+        "journal": "J. Proteomics",
+        "firstPage": "253",
+        "lastPage": "262",
+        "volume": "96"
+      },
+      "referencePositions": [
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 16,
+      "citation": {
+        "id": "9439663",
+        "citationType": "journal article",
+        "authors": [
+          "Vreken P.",
+          "van Kuilenburg A.B.P.",
+          "Meinsma R.",
+          "van Gennip A.H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9439663"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1007/s004390050637"
+          }
+        ],
+        "title": "Dihydropyrimidine dehydrogenase (DPD) deficiency: identification and expression of missense mutations C29R, R886H and R235W.",
+        "publicationDate": "1997",
+        "journal": "Hum. Genet.",
+        "firstPage": "333",
+        "lastPage": "338",
+        "volume": "101"
+      },
+      "referencePositions": [
+        "VARIANTS DPYDD ARG-29; TRP-235 AND HIS-886"
+      ]
+    },
+    {
+      "referenceNumber": 17,
+      "citation": {
+        "id": "9266349",
+        "citationType": "journal article",
+        "authors": [
+          "Vreken P.",
+          "van Kuilenburg A.B.P.",
+          "Meinsma R.",
+          "van Gennip A.H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9266349"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1023/a:1005357307122"
+          }
+        ],
+        "title": "Identification of novel point mutations in the dihydropyrimidine dehydrogenase gene.",
+        "publicationDate": "1997",
+        "journal": "J. Inherit. Metab. Dis.",
+        "firstPage": "335",
+        "lastPage": "338",
+        "volume": "20"
+      },
+      "referencePositions": [
+        "VARIANTS DPYDD ARG-29; TRP-235 AND HIS-886"
+      ]
+    },
+    {
+      "referenceNumber": 18,
+      "citation": {
+        "id": "9472650",
+        "citationType": "journal article",
+        "authors": [
+          "Ridge S.A.",
+          "Sludden J.",
+          "Wei X.",
+          "Sapone A.",
+          "Brown O.",
+          "Hardy S.",
+          "Canney P.",
+          "Fernandez-Salguero P.",
+          "Gonzalez F.J.",
+          "Cassidy J.",
+          "McLeod H.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9472650"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/bjc.1998.79"
+          }
+        ],
+        "title": "Dihydropyrimidine dehydrogenase pharmacogenetics in patients with colorectal cancer.",
+        "publicationDate": "1998",
+        "journal": "Br. J. Cancer",
+        "firstPage": "497",
+        "lastPage": "500",
+        "volume": "77"
+      },
+      "referencePositions": [
+        "VARIANTS ASN-534 AND VAL-543"
+      ]
+    },
+    {
+      "referenceNumber": 19,
+      "citation": {
+        "id": "9723824",
+        "citationType": "journal article",
+        "authors": [
+          "Ridge S.A.",
+          "Sludden J.",
+          "Brown O.",
+          "Robertson L.",
+          "Wei X.",
+          "Sapone A.",
+          "Fernandez-Salguero P.M.",
+          "Gonzalez F.J.",
+          "Vreken P.",
+          "van Kuilenburg A.B.",
+          "van Gennip A.H.",
+          "McLeod H.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9723824"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1046/j.1365-2125.1998.00751.x"
+          }
+        ],
+        "title": "Dihydropyrimidine dehydrogenase pharmacogenetics in Caucasian subjects.",
+        "publicationDate": "1998",
+        "journal": "Br. J. Clin. Pharmacol.",
+        "firstPage": "151",
+        "lastPage": "156",
+        "volume": "46"
+      },
+      "referencePositions": [
+        "VARIANTS ASN-534; VAL-543 AND ILE-732"
+      ]
+    },
+    {
+      "referenceNumber": 20,
+      "citation": {
+        "id": "18987736",
+        "citationType": "journal article",
+        "authors": [
+          "Ley T.J.",
+          "Mardis E.R.",
+          "Ding L.",
+          "Fulton B.",
+          "McLellan M.D.",
+          "Chen K.",
+          "Dooling D.",
+          "Dunford-Shore B.H.",
+          "McGrath S.",
+          "Hickenbotham M.",
+          "Cook L.",
+          "Abbott R.",
+          "Larson D.E.",
+          "Koboldt D.C.",
+          "Pohl C.",
+          "Smith S.",
+          "Hawkins A.",
+          "Abbott S.",
+          "Locke D.",
+          "Hillier L.W.",
+          "Miner T.",
+          "Fulton L.",
+          "Magrini V.",
+          "Wylie T.",
+          "Glasscock J.",
+          "Conyers J.",
+          "Sander N.",
+          "Shi X.",
+          "Osborne J.R.",
+          "Minx P.",
+          "Gordon D.",
+          "Chinwalla A.",
+          "Zhao Y.",
+          "Ries R.E.",
+          "Payton J.E.",
+          "Westervelt P.",
+          "Tomasson M.H.",
+          "Watson M.",
+          "Baty J.",
+          "Ivanovich J.",
+          "Heath S.",
+          "Shannon W.D.",
+          "Nagarajan R.",
+          "Walter M.J.",
+          "Link D.C.",
+          "Graubert T.A.",
+          "DiPersio J.F.",
+          "Wilson R.K."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18987736"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature07485"
+          }
+        ],
+        "title": "DNA sequencing of a cytogenetically normal acute myeloid leukaemia genome.",
+        "publicationDate": "2008",
+        "journal": "Nature",
+        "firstPage": "66",
+        "lastPage": "72",
+        "volume": "456"
+      },
+      "referencePositions": [
+        "VARIANT [LARGE SCALE ANALYSIS] ARG-29"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "U09178",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA57474.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U20938",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAB51366.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AB003063",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "BAA89789.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BT006740",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAP35386.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AK291217",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "BAF83906.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AC091608",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AC093576",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AC099787",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AC114878",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AC138135",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AL356457",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BX908805",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "CH471097",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "EAW73002.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC008379",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH08379.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC064027",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH64027.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC108742",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAI08743.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC131777",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAI31778.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC131778",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAI31779.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "X95670",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "CAA64973.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U57655",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAB07049.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS30777.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q12882-1"
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS53346.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q12882-2"
+    },
+    {
+      "database": "PIR",
+      "id": "A54718",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "A54718"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_000101.2",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_000110.4"
+        }
+      ],
+      "isoformId": "Q12882-1"
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_001153773.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001160301.1"
+        }
+      ],
+      "isoformId": "Q12882-2"
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "108140",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "19"
+        }
+      ]
+    },
+    {
+      "database": "CORUM",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "1647"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "21"
+        }
+      ]
+    },
+    {
+      "database": "NDEx",
+      "id": "IQUERY-CP-DPYD",
+      "properties": [
+        {
+          "key": "Evidences",
+          "value": "4 NDEx IQuery Curated Pathways"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9606.ENSP00000359211",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BindingDB",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ChEMBL",
+      "id": "CHEMBL3172",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB02303",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "(5S)-5-Iododihydro-2,4(1H,3H)-pyrimidinedione"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB03554",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "5-Iodouracil"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB03048",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "6-Carboxymethyluracil"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB03516",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Eniluracil"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB03147",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Flavin adenine dinucleotide"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB03247",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Flavin mononucleotide"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB00544",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Fluorouracil"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB09257",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Gimeracil"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB02338",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "NADPH"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB09327",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Tegafur-uracil"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB03419",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Uracil"
+        }
+      ]
+    },
+    {
+      "database": "DrugCentral",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CarbonylDB",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GlyGen",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "4 sites, 1 O-linked glycan (4 sites)"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MetOSite",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhosphoSitePlus",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioMuta",
+      "id": "DPYD",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DMDM",
+      "id": "160332325",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "jPOST",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MassIVE",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9606-ENSP00000359211",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "20139",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "58999",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q12882-1"
+    },
+    {
+      "database": "Pumba",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Antibodypedia",
+      "id": "33674",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "265 antibodies from 36 providers"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "1806",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000306031.5",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000307107.5"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000188641.15"
+        }
+      ],
+      "isoformId": "Q12882-2"
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000370192.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000359211.3"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000188641.15"
+        }
+      ],
+      "isoformId": "Q12882-1"
+    },
+    {
+      "database": "GeneID",
+      "id": "1806",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "hsa:1806",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MANE-Select",
+      "id": "ENST00000370192.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000359211.3"
+        },
+        {
+          "key": "RefSeqNucleotideId",
+          "value": "NM_000110.4"
+        },
+        {
+          "key": "RefSeqProteinId",
+          "value": "NP_000101.2"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "uc001drv.4",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ],
+      "isoformId": "Q12882-1"
+    },
+    {
+      "database": "AGR",
+      "id": "HGNC:3012",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CIViC",
+      "id": "1806",
+      "properties": [
+        {
+          "key": "Number of evidences",
+          "value": "4 evidence items across 4 molecular profiles"
+        }
+      ]
+    },
+    {
+      "database": "ClinPGx",
+      "id": "PA145",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "1806",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DisGeNET",
+      "id": "1806",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneCards",
+      "id": "DPYD",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HGNC",
+      "id": "HGNC:3012",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "DPYD"
+        }
+      ]
+    },
+    {
+      "database": "HPA",
+      "id": "ENSG00000188641",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Tissue enhanced (liver)"
+        }
+      ]
+    },
+    {
+      "database": "MalaCards",
+      "id": "DPYD",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "274270",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "phenotype"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "612779",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "gene"
+        }
+      ]
+    },
+    {
+      "database": "OpenTargets",
+      "id": "ENSG00000188641",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "293948",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "1p21.3 microdeletion syndrome"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "1675",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Dihydropyrimidine dehydrogenase deficiency"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSG00000188641",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG1799",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00500000044896",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_003991_0_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "SIHCQLQ",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "4327079at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PAN-GO",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Number of GO annotations",
+          "value": "6 GO annotations based on evolutionary models"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "MetaCyc:HS06975-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "1.3.1.2",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "PathwayCommons",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-73621",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Pyrimidine catabolism"
+        }
+      ]
+    },
+    {
+      "database": "SignaLink",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SIGNOR",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "UniPathway",
+      "id": "UPA00131",
+      "properties": [
+        {
+          "key": "RectionId",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Agora",
+      "id": "ENSG00000188641",
+      "properties": [
+        {
+          "key": "NominatedTarget",
+          "value": "Agora Nominated Target for Alzheimer's Disease"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "1806",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "15 hits in 1150 CRISPR screens"
+        }
+      ]
+    },
+    {
+      "database": "ChiTaRS",
+      "id": "DPYD",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "GeneWiki",
+      "id": "DPYD",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "1806",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Pharos",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "DevelopmentLevel",
+          "value": "Tclin"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:Q12882",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005640",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 1"
+        }
+      ]
+    },
+    {
+      "database": "RNAct",
+      "id": "Q12882",
+      "properties": [
+        {
+          "key": "moleculeType",
+          "value": "protein"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSG00000188641",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in germinal epithelium of ovary and 190 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005829",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytosol"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "1512248"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0017113",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:dihydropyrimidine dehydrogenase (NADP+) activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "10410956"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "1512248"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "18075467"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0050660",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:flavin adenine dinucleotide binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0051536",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:iron-sulfur cluster binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0050661",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:NADP binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042803",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:protein homodimerization activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "1512248"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0002058",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:uracil binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0019483",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:beta-alanine biosynthetic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-UniPathway"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006248",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:CMP catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006249",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:dCMP catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0046079",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:dUMP catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006145",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:purine nucleobase catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "11988088"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006208",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:pyrimidine nucleobase catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "11988088"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006210",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:thymine catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "10410956"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "1512248"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0046045",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:TMP catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:MGI"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "8083224"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0046050",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:UMP catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:MGI"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "8083224"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006212",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:uracil catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "1512248"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "18075467"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042178",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:xenobiotic catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:MGI"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "8083224"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd02940",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHPD_FMN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.1060.10:FF:000007",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Dihydropyrimidine dehydrogenase [NADP(+)]"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.20.20.70:FF:000027",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Dihydropyrimidine dehydrogenase [NADP(+)]"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.30.70.20:FF:000023",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Dihydropyrimidine dehydrogenase [NADP(+)]"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.50.50.60:FF:000056",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Dihydropyrimidine dehydrogenase [NADP(+)]"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.50.50.60:FF:000061",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Dihydropyrimidine dehydrogenase [NADP(+)]"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.30.70.20",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "-"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.20.20.70",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Aldolase class I"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.1060.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Alpha-helical ferredoxin"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.50.50.60",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "FAD/NAD(P)-binding domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR017896",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "4Fe4S_Fe-S-bd"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR017900",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "4Fe4S_Fe_S_CS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR013785",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Aldolase_TIM"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR005720",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Dihydroorotate_DH_cat"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR028261",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DPD_II"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036188",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "FAD/NAD-bd_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR023753",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "FAD/NAD-binding_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR009051",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Helical_ferredxn"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR43073",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DIHYDROPYRIMIDINE DEHYDROGENASE [NADP(+)]"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR43073:SF2",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DIHYDROPYRIMIDINE DEHYDROGENASE [NADP(+)]"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF01180",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DHO_dh"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF14691",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Fer4_20"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF14697",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Fer4_21"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF07992",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Pyr_redox_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00419",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "ADXRDTASE"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF54862",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "4Fe-4S ferredoxins"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF46548",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "alpha-helical ferredoxin"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF51395",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "FMN-linked oxidoreductases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF51971",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Nucleotide-binding domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00198",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "4FE4S_FER_1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51379",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "4FE4S_FER_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "3"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MAPVLSKDSADIESILALNPRTQTHATLCSTSAKKLDKKHWKRNPDKNCFNCEKLENNFDDIKHTTLGERGALREAMRCLKCADAPCQKSCPTNLDIKSFITSIANKNYYGAAKMIFSDNPLGLTCGMVCPTSDLCVGGCNLYATEEGPINIGGLQQFATEVFKAMSIPQIRNPSLPPPEKMSEAYSAKIALFGAGPASISCASFLARLGYSDITIFEKQEYVGGLSTSEIPQFRLPYDVVNFEIELMKDLGVKIICGKSLSVNEMTLSTLKEKGYKAAFIGIGLPEPNKDAIFQGLTQDQGFYTSKDFLPLVAKGSKAGMCACHSPLPSIRGVVIVLGAGDTAFDCATSALRCGARRVFIVFRKGFVNIRAVPEEMELAKEEKCEFLPFLSPRKVIVKGGRIVAMQFVRTEQDETGKWNEDEDQMVHLKADVVISAFGSVLSDPKVKEALSPIKFNRWGLPEVDPETMQTSEAWVFAGGDVVGLANTTVESVNDGKQASWYIHKYVQSQYGASVSAKPELPLFYTPIDLVDISVEMAGLKFINPFGLASATPATSTSMIRRAFEAGWGFALTKTFSLDKDIVTNVSPRIIRGTTSGPMYGPGQSSFLNIELISEKTAAYWCQSVTELKADFPDNIVIASIMCSYNKNDWTELAKKSEDSGADALELNLSCPHGMGERGMGLACGQDPELVRNICRWVRQAVQIPFFAKLTPNVTDIVSIARAAKEGGANGVTATNTVSGLMGLKSDGTPWPAVGIAKRTTYGGVSGTAIRPIALRAVTSIARALPGFPILATGGIDSAESGLQFLHSGASVLQVCSAIQNQDFTVIEDYCTGLKALLYLKSIEELQDWDGQSPATVSHQKGKPVPRIAELMDKKLPSFGPYLEQRKKIIAENKIRLKEQNVAFSPLKRNCFIPKRPIPTIKDVIGKALQYLGTFGELSNVEQVVAMIDEEMCINCGKCYMTCNDSGYQAIQFDPETHLPTITDTCTGCTLCLSVCPIVDCIKMVSRTTPYEPKRGVPLSVNPVC",
+    "length": 1025,
+    "molWeight": 111401,
+    "crc64": "0201943955AB2C21",
+    "md5": "7F01CFE1E88D3EDC86E92EA41F308D61"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 2,
+      "COFACTOR": 3,
+      "BIOPHYSICOCHEMICAL PROPERTIES": 1,
+      "PATHWAY": 1,
+      "SUBUNIT": 1,
+      "INTERACTION": 2,
+      "SUBCELLULAR LOCATION": 1,
+      "ALTERNATIVE PRODUCTS": 2,
+      "TISSUE SPECIFICITY": 1,
+      "DISEASE": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Propeptide": 1,
+      "Chain": 1,
+      "Domain": 3,
+      "Active site": 1,
+      "Binding site": 59,
+      "Modified residue": 2,
+      "Alternative sequence": 2,
+      "Natural variant": 8,
+      "Sequence conflict": 4
+    },
+    "uniParcId": "UPI00000727C7"
+  }
+}

@@ -1,0 +1,3145 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q8N159",
+  "secondaryAccessions": [
+    "B2RAZ9",
+    "Q8IWR4"
+  ],
+  "uniProtkbId": "NAGS_HUMAN",
+  "entryAudit": {
+    "firstPublicDate": "2005-09-13",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2002-10-01",
+    "entryVersion": 174,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "N-acetylglutamate synthase, mitochondrial"
+      },
+      "ecNumbers": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12459178"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "23894642"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7126172"
+            }
+          ],
+          "value": "2.3.1.1"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "Amino-acid acetyltransferase"
+        }
+      }
+    ],
+    "contains": [
+      {
+        "recommendedName": {
+          "fullName": {
+            "value": "N-acetylglutamate synthase long form"
+          }
+        }
+      },
+      {
+        "recommendedName": {
+          "fullName": {
+            "value": "N-acetylglutamate synthase short form"
+          }
+        }
+      },
+      {
+        "recommendedName": {
+          "fullName": {
+            "value": "N-acetylglutamate synthase conserved domain form"
+          }
+        }
+      }
+    ],
+    "flag": "Precursor"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "NAGS"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12459178"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "23894642"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7126172"
+            }
+          ],
+          "value": "Plays a role in the regulation of ureagenesis by producing the essential cofactor N-acetylglutamate (NAG), thus modulating carbamoylphosphate synthase I (CPS1) activity"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "L-glutamate + acetyl-CoA = N-acetyl-L-glutamate + CoA + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:24292"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29985"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:44337"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57287"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57288"
+          }
+        ],
+        "ecNumber": "2.3.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12459178"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "23894642"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7126172"
+          }
+        ]
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12459178"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "23894642"
+            }
+          ],
+          "value": "Increased by L-arginine"
+        }
+      ],
+      "commentType": "ACTIVITY REGULATION"
+    },
+    {
+      "texts": [
+        {
+          "value": "Amino-acid biosynthesis; L-arginine biosynthesis; N(2)-acetyl-L-ornithine from L-glutamate: step 1/4"
+        }
+      ],
+      "commentType": "PATHWAY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "23894642"
+            }
+          ],
+          "value": "Homodimer. Homotetramer"
+        }
+      ],
+      "commentType": "SUBUNIT"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "7126172"
+              }
+            ],
+            "value": "Mitochondrion matrix",
+            "id": "SL-0170"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12459178"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12754705"
+            }
+          ],
+          "value": "Highly expressed in the adult liver, kidney and small intestine. Weakly expressed in the fetal liver, lung, pancreas, placenta, heart and brain tissue"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "23894642"
+            }
+          ],
+          "value": "The amino-acid kinase (AAK) domain mediates binding of the allosteric activator L-arginine"
+        }
+      ],
+      "commentType": "DOMAIN"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Probably processed by mitochondrial processing peptidase (MPP). The long form has not yet been isolated (By similarity)"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "commentType": "DISEASE",
+      "disease": {
+        "diseaseId": "N-acetylglutamate synthase deficiency",
+        "diseaseAccession": "DI-02025",
+        "acronym": "NAGSD",
+        "description": "Rare autosomal recessively inherited metabolic disorder leading to severe neonatal or late-onset hyperammonemia without increased excretion of orotic acid. Clinical symptoms are somnolence, tachypnea, feeding difficulties, a severe neurologic presentation characterized by uncontrollable movements, developmental delay, visual impairment, failure to thrive and hyperammonemia precipitated by the introduction of high-protein diet or febrile illness.",
+        "diseaseCrossReference": {
+          "database": "MIM",
+          "id": "237310"
+        },
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12754705"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "15878741"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "27037498"
+          }
+        ]
+      },
+      "note": {
+        "texts": [
+          {
+            "value": "The disease is caused by variants affecting the gene represented in this entry"
+          }
+        ]
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the acetyltransferase family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "commentType": "WEB RESOURCE",
+      "resourceName": "Wikipedia",
+      "resourceUrl": "https://en.wikipedia.org/wiki/N-acetylglutamate_synthase",
+      "ftp": false,
+      "note": "N-acetylglutamate synthase entry"
+    }
+  ],
+  "features": [
+    {
+      "type": "Transit peptide",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 18,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Mitochondrion",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 534,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-acetylglutamate synthase long form",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": "PRO_0000041930"
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 51,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 534,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-acetylglutamate synthase short form",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ],
+      "featureId": "PRO_0000041931"
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 92,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 534,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-acetylglutamate synthase conserved domain form",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ],
+      "featureId": "PRO_0000041932"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 375,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 526,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-acetyltransferase",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00532"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 376,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Amino-acid kinase domain (AAK)"
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 99,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Disordered",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Compositional bias",
+      "location": {
+        "start": {
+          "value": 81,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 96,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Pro residues",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 401,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 401,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23894642"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ],
+      "ligand": {
+        "name": "substrate"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 444,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 444,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23894642"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ],
+      "ligand": {
+        "name": "substrate"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 474,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 479,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23894642"
+        },
+        {
+          "evidenceCode": "ECO:0007744",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ],
+      "ligand": {
+        "name": "substrate"
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 167,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 167,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; uncertain significance; dbSNP:rs760267963",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs760267963"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037498"
+        }
+      ],
+      "featureId": "VAR_077329",
+      "alternativeSequence": {
+        "originalSequence": "M",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 200,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 200,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; markedly decreases activity; dbSNP:rs1188223411",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1188223411"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15878741"
+        }
+      ],
+      "featureId": "VAR_023505",
+      "alternativeSequence": {
+        "originalSequence": "C",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 260,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 260,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; uncertain significance",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037498"
+        }
+      ],
+      "featureId": "VAR_077330",
+      "alternativeSequence": {
+        "originalSequence": "P",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 264,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 264,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; uncertain significance; dbSNP:rs1251891037",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1251891037"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037498"
+        }
+      ],
+      "featureId": "VAR_077331",
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 279,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 279,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12754705"
+        }
+      ],
+      "featureId": "VAR_023506",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "P"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 291,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 291,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; uncertain significance",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037498"
+        }
+      ],
+      "featureId": "VAR_077332",
+      "alternativeSequence": {
+        "originalSequence": "I",
+        "alternativeSequences": [
+          "N"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 391,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 391,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; uncertain significance",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037498"
+        }
+      ],
+      "featureId": "VAR_077333",
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 398,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 398,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; uncertain significance; dbSNP:rs1312599995",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1312599995"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037498"
+        }
+      ],
+      "featureId": "VAR_077334",
+      "alternativeSequence": {
+        "originalSequence": "S",
+        "alternativeSequences": [
+          "C"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 410,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 410,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; markedly decreases activity",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15878741"
+        }
+      ],
+      "featureId": "VAR_023507",
+      "alternativeSequence": {
+        "originalSequence": "S",
+        "alternativeSequences": [
+          "P"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 430,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 430,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; markedly decreases activity; dbSNP:rs104894605",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs104894605"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12754705"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15878741"
+        }
+      ],
+      "featureId": "VAR_023508",
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "P"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 457,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 457,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; uncertain significance; dbSNP:rs1204011876",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1204011876"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037498"
+        }
+      ],
+      "featureId": "VAR_077335",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 484,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 484,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; markedly decreases activity; dbSNP:rs104894606",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs104894606"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12754705"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15878741"
+        }
+      ],
+      "featureId": "VAR_023509",
+      "alternativeSequence": {
+        "originalSequence": "W",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 512,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 512,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; uncertain significance; dbSNP:rs752415489",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs752415489"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27037498"
+        }
+      ],
+      "featureId": "VAR_077336",
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "C"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 518,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 518,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in NAGSD; markedly decreases activity; dbSNP:rs745511282",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs745511282"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15878741"
+        }
+      ],
+      "featureId": "VAR_023510",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 441,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 441,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "15% reduction in catalytic activity.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23894642"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 479,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 479,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "7-fold reduction in catalytic activity.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23894642"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "N",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Mutagenesis",
+      "location": {
+        "start": {
+          "value": 485,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 485,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "10-fold reduction in catalytic activity.",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23894642"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Sequence conflict",
+      "location": {
+        "start": {
+          "value": 94,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 94,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in Ref. 3; AAN76451",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ],
+      "alternativeSequence": {
+        "originalSequence": "E",
+        "alternativeSequences": [
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 378,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 382,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 383,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 385,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 388,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 399,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 407,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 411,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 412,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 414,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 415,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 420,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 424,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 435,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 438,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 447,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 451,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 467,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 471,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 476,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 482,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 487,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 489,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 494,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 496,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 503,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 508,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 510,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 511,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 519,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "4K30"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0002",
+      "category": "Technical term",
+      "name": "3D-structure"
+    },
+    {
+      "id": "KW-0012",
+      "category": "Molecular function",
+      "name": "Acyltransferase"
+    },
+    {
+      "id": "KW-0225",
+      "category": "Disease",
+      "name": "Disease variant"
+    },
+    {
+      "id": "KW-0496",
+      "category": "Cellular component",
+      "name": "Mitochondrion"
+    },
+    {
+      "id": "KW-1267",
+      "category": "Technical term",
+      "name": "Proteomics identification"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0808",
+      "category": "Molecular function",
+      "name": "Transferase"
+    },
+    {
+      "id": "KW-0809",
+      "category": "Domain",
+      "name": "Transit peptide"
+    },
+    {
+      "id": "KW-0835",
+      "category": "Biological process",
+      "name": "Urea cycle"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "12754705",
+        "citationType": "journal article",
+        "authors": [
+          "Haeberle J.",
+          "Schmidt E.",
+          "Pauli S.",
+          "Kreuder J.G.",
+          "Plecko B.",
+          "Galler A.",
+          "Wermuth B.",
+          "Harms E.",
+          "Koch H.G."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12754705"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/humu.10216"
+          }
+        ],
+        "title": "Mutation analysis in patients with N-acetylglutamate synthase deficiency.",
+        "publicationDate": "2003",
+        "journal": "Hum. Mutat.",
+        "firstPage": "593",
+        "lastPage": "597",
+        "volume": "21"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]",
+        "TISSUE SPECIFICITY",
+        "VARIANTS NAGSD PRO-279; PRO-430 AND ARG-484"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "14702039",
+        "citationType": "journal article",
+        "authors": [
+          "Ota T.",
+          "Suzuki Y.",
+          "Nishikawa T.",
+          "Otsuki T.",
+          "Sugiyama T.",
+          "Irie R.",
+          "Wakamatsu A.",
+          "Hayashi K.",
+          "Sato H.",
+          "Nagai K.",
+          "Kimura K.",
+          "Makita H.",
+          "Sekine M.",
+          "Obayashi M.",
+          "Nishi T.",
+          "Shibahara T.",
+          "Tanaka T.",
+          "Ishii S.",
+          "Yamamoto J.",
+          "Saito K.",
+          "Kawai Y.",
+          "Isono Y.",
+          "Nakamura Y.",
+          "Nagahari K.",
+          "Murakami K.",
+          "Yasuda T.",
+          "Iwayanagi T.",
+          "Wagatsuma M.",
+          "Shiratori A.",
+          "Sudo H.",
+          "Hosoiri T.",
+          "Kaku Y.",
+          "Kodaira H.",
+          "Kondo H.",
+          "Sugawara M.",
+          "Takahashi M.",
+          "Kanda K.",
+          "Yokoi T.",
+          "Furuya T.",
+          "Kikkawa E.",
+          "Omura Y.",
+          "Abe K.",
+          "Kamihara K.",
+          "Katsuta N.",
+          "Sato K.",
+          "Tanikawa M.",
+          "Yamazaki M.",
+          "Ninomiya K.",
+          "Ishibashi T.",
+          "Yamashita H.",
+          "Murakawa K.",
+          "Fujimori K.",
+          "Tanai H.",
+          "Kimata M.",
+          "Watanabe M.",
+          "Hiraoka S.",
+          "Chiba Y.",
+          "Ishida S.",
+          "Ono Y.",
+          "Takiguchi S.",
+          "Watanabe S.",
+          "Yosida M.",
+          "Hotuta T.",
+          "Kusano J.",
+          "Kanehori K.",
+          "Takahashi-Fujii A.",
+          "Hara H.",
+          "Tanase T.-O.",
+          "Nomura Y.",
+          "Togiya S.",
+          "Komai F.",
+          "Hara R.",
+          "Takeuchi K.",
+          "Arita M.",
+          "Imose N.",
+          "Musashino K.",
+          "Yuuki H.",
+          "Oshima A.",
+          "Sasaki N.",
+          "Aotsuka S.",
+          "Yoshikawa Y.",
+          "Matsunawa H.",
+          "Ichihara T.",
+          "Shiohata N.",
+          "Sano S.",
+          "Moriya S.",
+          "Momiyama H.",
+          "Satoh N.",
+          "Takami S.",
+          "Terashima Y.",
+          "Suzuki O.",
+          "Nakagawa S.",
+          "Senoh A.",
+          "Mizoguchi H.",
+          "Goto Y.",
+          "Shimizu F.",
+          "Wakebe H.",
+          "Hishigaki H.",
+          "Watanabe T.",
+          "Sugiyama A.",
+          "Takemoto M.",
+          "Kawakami B.",
+          "Yamazaki M.",
+          "Watanabe K.",
+          "Kumagai A.",
+          "Itakura S.",
+          "Fukuzumi Y.",
+          "Fujimori Y.",
+          "Komiyama M.",
+          "Tashiro H.",
+          "Tanigami A.",
+          "Fujiwara T.",
+          "Ono T.",
+          "Yamada K.",
+          "Fujii Y.",
+          "Ozaki K.",
+          "Hirao M.",
+          "Ohmori Y.",
+          "Kawabata A.",
+          "Hikiji T.",
+          "Kobatake N.",
+          "Inagaki H.",
+          "Ikema Y.",
+          "Okamoto S.",
+          "Okitani R.",
+          "Kawakami T.",
+          "Noguchi S.",
+          "Itoh T.",
+          "Shigeta K.",
+          "Senba T.",
+          "Matsumura K.",
+          "Nakajima Y.",
+          "Mizuno T.",
+          "Morinaga M.",
+          "Sasaki M.",
+          "Togashi T.",
+          "Oyama M.",
+          "Hata H.",
+          "Watanabe M.",
+          "Komatsu T.",
+          "Mizushima-Sugano J.",
+          "Satoh T.",
+          "Shirai Y.",
+          "Takahashi Y.",
+          "Nakagawa K.",
+          "Okumura K.",
+          "Nagase T.",
+          "Nomura N.",
+          "Kikuchi H.",
+          "Masuho Y.",
+          "Yamashita R.",
+          "Nakai K.",
+          "Yada T.",
+          "Nakamura Y.",
+          "Ohara O.",
+          "Isogai T.",
+          "Sugano S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "14702039"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/ng1285"
+          }
+        ],
+        "title": "Complete sequencing and characterization of 21,243 full-length human cDNAs.",
+        "publicationDate": "2004",
+        "journal": "Nat. Genet.",
+        "firstPage": "40",
+        "lastPage": "45",
+        "volume": "36"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Small intestine",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "12459178",
+        "citationType": "journal article",
+        "authors": [
+          "Caldovic L.",
+          "Morizono H.",
+          "Gracia Panglao M.",
+          "Gallegos R.",
+          "Yu X.",
+          "Shi D.",
+          "Malamy M.H.",
+          "Allewell N.M.",
+          "Tuchman M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12459178"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0006-291x(02)02696-7"
+          }
+        ],
+        "title": "Cloning and expression of the human N-acetylglutamate synthase gene.",
+        "publicationDate": "2002",
+        "journal": "Biochem. Biophys. Res. Commun.",
+        "firstPage": "581",
+        "lastPage": "586",
+        "volume": "299"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] OF 94-534",
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "ACTIVITY REGULATION",
+        "TISSUE SPECIFICITY"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "7126172",
+        "citationType": "journal article",
+        "authors": [
+          "Bachmann C.",
+          "Kraehenbuehl S.",
+          "Colombo J.P."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7126172"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1042/bj2050123"
+          }
+        ],
+        "title": "Purification and properties of acetyl-CoA:L-glutamate N-acetyltransferase from human liver.",
+        "publicationDate": "1982",
+        "journal": "Biochem. J.",
+        "firstPage": "123",
+        "lastPage": "127",
+        "volume": "205"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "SUBCELLULAR LOCATION"
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "23894642",
+        "citationType": "journal article",
+        "authors": [
+          "Zhao G.",
+          "Jin Z.",
+          "Allewell N.M.",
+          "Tuchman M.",
+          "Shi D."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "23894642"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1371/journal.pone.0070369"
+          }
+        ],
+        "title": "Crystal structure of the N-acetyltransferase domain of human N-acetyl-L-glutamate synthase in complex with N-acetyl-L-glutamate provides insights into its catalytic and regulatory mechanisms.",
+        "publicationDate": "2013",
+        "journal": "PLoS ONE",
+        "firstPage": "E70369",
+        "lastPage": "E70369",
+        "volume": "8"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS) OF 377-534 IN COMPLEX WITH N-ACETYL-GLUTAMATE",
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "ACTIVITY REGULATION",
+        "SUBSTRATE-BINDING SITES",
+        "SUBUNIT",
+        "DOMAIN",
+        "MUTAGENESIS OF TYR-441; ASN-479 AND TYR-485"
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "15878741",
+        "citationType": "journal article",
+        "authors": [
+          "Schmidt E.",
+          "Nuoffer J.-M.",
+          "Haeberle J.",
+          "Pauli S.",
+          "Guffon N.",
+          "Vianey-Saban C.",
+          "Wermuth B.",
+          "Koch H.G."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15878741"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.bbadis.2005.02.006"
+          }
+        ],
+        "title": "Identification of novel mutations of the human N-acetylglutamate synthase gene and their functional investigation by expression studies.",
+        "publicationDate": "2005",
+        "journal": "Biochim. Biophys. Acta",
+        "firstPage": "54",
+        "lastPage": "59",
+        "volume": "1740"
+      },
+      "referencePositions": [
+        "VARIANTS NAGSD ARG-200; PRO-410; PRO-430; ARG-484 AND THR-518",
+        "CHARACTERIZATION OF VARIANTS NAGSD ARG-200; PRO-410; PRO-430; ARG-484 AND THR-518"
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "27037498",
+        "citationType": "journal article",
+        "authors": [
+          "Sancho-Vaello E.",
+          "Marco-Marin C.",
+          "Gougeard N.",
+          "Fernandez-Murga L.",
+          "Ruefenacht V.",
+          "Mustedanagic M.",
+          "Rubio V.",
+          "Haeberle J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "27037498"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/humu.22995"
+          }
+        ],
+        "title": "Understanding N-acetyl-L-glutamate synthase deficiency: mutational spectrum, impact of clinical mutations on enzyme functionality, and structural considerations.",
+        "publicationDate": "2016",
+        "journal": "Hum. Mutat.",
+        "firstPage": "679",
+        "lastPage": "694",
+        "volume": "37"
+      },
+      "referencePositions": [
+        "VARIANTS NAGSD VAL-167; LEU-260; MET-264; ASN-291; ARG-391; CYS-398; ASP-457 AND CYS-512"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AY116537",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAM75385.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AY116538",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAM75386.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AK314432",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "BAG37046.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AY158070",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAN76451.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS11473.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_694551.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_153006.3"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "4K30",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.10 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/X/Y=377-534"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "4K30",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "127816",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "12"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "407"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "database": "NDEx",
+      "id": "IQUERY-CP-NAGS",
+      "properties": [
+        {
+          "key": "Evidences",
+          "value": "4 NDEx IQuery Curated Pathways"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9606.ENSP00000293404",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB09326",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Ammonia N-13"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB00142",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "Glutamic acid"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhosphoSitePlus",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioMuta",
+      "id": "NAGS",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DMDM",
+      "id": "74714699",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "jPOST",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MassIVE",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9606-ENSP00000293404",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "71564",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Antibodypedia",
+      "id": "29652",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "80 antibodies from 23 providers"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "162417",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000293404.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000293404.2"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000161653.12"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "162417",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "hsa:162417",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MANE-Select",
+      "id": "ENST00000293404.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000293404.2"
+        },
+        {
+          "key": "RefSeqNucleotideId",
+          "value": "NM_153006.3"
+        },
+        {
+          "key": "RefSeqProteinId",
+          "value": "NP_694551.1"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "uc002ies.4",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "AGR",
+      "id": "HGNC:17996",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ClinPGx",
+      "id": "PA134968729",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "162417",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DisGeNET",
+      "id": "162417",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneCards",
+      "id": "NAGS",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneReviews",
+      "id": "NAGS",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HGNC",
+      "id": "HGNC:17996",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "NAGS"
+        }
+      ]
+    },
+    {
+      "database": "HPA",
+      "id": "ENSG00000161653",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Group enriched (intestine, liver)"
+        }
+      ]
+    },
+    {
+      "database": "MalaCards",
+      "id": "NAGS",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "237310",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "phenotype"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "608300",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "gene"
+        }
+      ]
+    },
+    {
+      "database": "OpenTargets",
+      "id": "ENSG00000161653",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "927",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Hyperammonemia due to N-acetylglutamate synthase deficiency"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSG00000161653",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG2436",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00390000005602",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "FQTCYHS",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "438291at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PAN-GO",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Number of GO annotations",
+          "value": "4 GO annotations based on evolutionary models"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "2.3.1.1",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "PathwayCommons",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-70635",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Urea cycle"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-9955693",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "NAGS variants cause NAGS deficiency"
+        }
+      ]
+    },
+    {
+      "database": "SignaLink",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "UniPathway",
+      "id": "UPA00068",
+      "properties": [
+        {
+          "key": "RectionId",
+          "value": "UER00106"
+        }
+      ]
+    },
+    {
+      "database": "Agora",
+      "id": "ENSG00000161653",
+      "properties": [
+        {
+          "key": "NominatedTarget",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "162417",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "14 hits in 1167 CRISPR screens"
+        }
+      ]
+    },
+    {
+      "database": "ChiTaRS",
+      "id": "NAGS",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "EvolutionaryTrace",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "162417",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Pharos",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "DevelopmentLevel",
+          "value": "Tbio"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:Q8N159",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005640",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 17"
+        }
+      ]
+    },
+    {
+      "database": "RNAct",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "moleculeType",
+          "value": "protein"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSG00000161653",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in ileal mucosa and 98 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "ExpressionAtlas",
+      "id": "Q8N159",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "baseline and differential"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005759",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mitochondrial matrix"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005739",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mitochondrion"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "7126172"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0016747",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:acyltransferase activity, transferring groups other than amino-acyl groups"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004042",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:L-glutamate N-acetyltransferase activity, acting on acetyl-CoA as donor"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "23894642"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "7126172"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006536",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:glutamate metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0090461",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:intracellular glutamate homeostasis"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "21757002"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006526",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:L-arginine biosynthetic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0000050",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:urea cycle"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:BHF-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "21757002"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd04236",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "AAK_NAGS-Urea"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd04265",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DUF619-NAGS-U"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.40.1160.10:FF:000026",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "N-acetylglutamate synthase, mitochondrial"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.40.630.30:FF:000045",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "N-acetylglutamate synthase, mitochondrial"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.40.630.30",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "-"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.40.1160.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Acetylglutamate kinase-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036393",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "AceGlu_kinase-like_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR016181",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Acyl_CoA_acyltransferase"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR001048",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Asp/Glu/Uridylate_kinase"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR011243",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GlcNAc_Synth_met"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR000182",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GNAT_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR006855",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Vertebrate-like_GNAT_dom"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR23342",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "N-ACETYLGLUTAMATE SYNTHASE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR23342:SF0",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "N-ACETYLGLUTAMATE SYNTHASE, MITOCHONDRIAL"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00696",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "AA_kinase"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF04768",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "NAT"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PIRSF",
+      "id": "PIRSF036442",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "NAGS_animal"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF55729",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Acyl-CoA N-acyltransferases (Nat)"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF53633",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Carbamate kinase-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51731",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GNAT_NAGS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MATALMAVVLRAAAVAPRLRGRGGTGGARRLSCGARRRAARGTSPGRRLSTAWSQPQPPPEEYAGADDVSQSPVAEEPSWVPSPRPPVPHESPEPPSGRSLVQRDIQAFLNQCGASPGEARHWLTQFQTCHHSADKPFAVIEVDEEVLKCQQGVSSLAFALAFLQRMDMKPLVVLGLPAPTAPSGCLSFWEAKAQLAKSCKVLVDALRHNAAAAVPFFGGGSVLRAAEPAPHASYGGIVSVETDLLQWCLESGSIPILCPIGETAARRSVLLDSLEVTASLAKALRPTKIIFLNNTGGLRDSSHKVLSNVNLPADLDLVCNAEWVSTKERQQMRLIVDVLSRLPHHSSAVITAASTLLTELFSNKGSGTLFKNAERMLRVRSLDKLDQGRLVDLVNASFGKKLRDDYLASLRPRLHSIYVSEGYNAAAILTMEPVLGGTPYLDKFVVSSSRQGQGSGQMLWECLRRDLQTLFWRSRVTNPINPWYFKHSDGSFSNKQWIFFWFGLADIRDSYELVNHAKGLPDSFHKPASDPGS",
+    "length": 534,
+    "molWeight": 58156,
+    "crc64": "1328039080EB936C",
+    "md5": "72FD08D104E5496E5BC2603CE91B24D5"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 1,
+      "ACTIVITY REGULATION": 1,
+      "PATHWAY": 1,
+      "SUBUNIT": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "TISSUE SPECIFICITY": 1,
+      "DOMAIN": 1,
+      "PTM": 1,
+      "DISEASE": 1,
+      "SIMILARITY": 1,
+      "WEB RESOURCE": 1
+    },
+    "countByFeatureType": {
+      "Transit peptide": 1,
+      "Chain": 3,
+      "Domain": 1,
+      "Region": 2,
+      "Compositional bias": 1,
+      "Binding site": 3,
+      "Natural variant": 14,
+      "Mutagenesis": 3,
+      "Sequence conflict": 1,
+      "Beta strand": 7,
+      "Helix": 8
+    },
+    "uniParcId": "UPI000006E37E"
+  }
+}

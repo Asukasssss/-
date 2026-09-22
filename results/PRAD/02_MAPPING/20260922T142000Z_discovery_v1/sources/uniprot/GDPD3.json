@@ -1,0 +1,2379 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q7L5L3",
+  "secondaryAccessions": [
+    "Q9H652"
+  ],
+  "uniProtkbId": "GDPD3_HUMAN",
+  "entryAudit": {
+    "firstPublicDate": "2006-10-03",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2009-04-14",
+    "entryVersion": 155,
+    "sequenceVersion": 3
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000305"
+          }
+        ],
+        "value": "Lysophospholipase D GDPD3"
+      },
+      "ecNumbers": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ],
+          "value": "3.1.4.-"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q99LY2"
+            }
+          ],
+          "value": "Glycerophosphodiester phosphodiesterase 7"
+        }
+      },
+      {
+        "fullName": {
+          "value": "Glycerophosphodiester phosphodiesterase domain-containing protein 3"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "HGNC",
+            "id": "HGNC:28638"
+          }
+        ],
+        "value": "GDPD3"
+      },
+      "synonyms": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ],
+          "value": "GDE7"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q99LY2"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ],
+          "value": "Hydrolyzes lysoglycerophospholipids to produce lysophosphatidic acid (LPA) and the corresponding amines (PubMed:27637550). Shows a preference for 1-O-alkyl-sn-glycero-3-phosphocholine (lyso-PAF), lysophosphatidylcholine (lyso-PC) and N-acylethanolamine lysophospholipids (PubMed:27637550). Does not display glycerophosphodiester phosphodiesterase activity, since it cannot hydrolyze either glycerophosphoinositol or glycerophosphocholine"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = 1-hexadecanoyl-sn-glycero-3-phosphate + choline + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:38975"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15354"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57518"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:72998"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "Q99LY2"
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "1-hexadecanoyl-sn-glycero-3-phosphocholine + H2O = sn-glycerol 3-phosphocholine + hexadecanoate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:40435"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:7896"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16870"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:72998"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "27637550"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:40436"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "1-O-(1Z-octadecenyl)-sn-glycero-3-phospho-N-hexadecanoyl-ethanolamine + H2O = 1-O-(1Z-octadecenyl)-sn-glycero-3-phosphate + N-hexadecanoylethanolamine + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:53184"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:71464"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:137009"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:137017"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "27637550"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:53185"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "N-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-1-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + H2O = N-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-ethanolamine + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:45544"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:2700"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:74544"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:85223"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "27637550"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:45545"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "N,1-di-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + H2O = N-(9Z-octadecenoyl) ethanolamine + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:56460"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:71466"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:74544"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:85222"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "27637550"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:56461"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "N-hexadecanoyl-1-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine + H2O = N-hexadecanoylethanolamine + 1-(9Z-octadecenoyl)-sn-glycero-3-phosphate + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:53168"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:71464"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:74544"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:85217"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "27637550"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:53169"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "1-O-hexadecyl-sn-glycero-3-phosphocholine + H2O = 1-O-hexadecyl-sn-glycero-3-phosphate + choline + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:41143"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15354"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:64496"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:77580"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "Q99LY2"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:41144"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q99LY2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ],
+          "value": "Lysophospholipase D activity is stimulated by calcium. Loss of lysophospholipase D activity in presence of EDTA"
+        }
+      ],
+      "commentType": "ACTIVITY REGULATION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "note": {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q99LY2"
+              }
+            ],
+            "value": "Partially co-localized with CANX"
+          }
+        ]
+      },
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q99LY2"
+              }
+            ],
+            "value": "Membrane",
+            "id": "SL-0162"
+          },
+          "topology": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q99LY2"
+              }
+            ],
+            "value": "Multi-pass membrane protein",
+            "id": "SL-9909"
+          }
+        },
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q99LY2"
+              }
+            ],
+            "value": "Cytoplasm, perinuclear region",
+            "id": "SL-0198"
+          }
+        },
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "27637550"
+              }
+            ],
+            "value": "Endoplasmic reticulum",
+            "id": "SL-0095"
+          }
+        }
+      ]
+    },
+    {
+      "commentType": "ALTERNATIVE PRODUCTS",
+      "events": [
+        "Alternative splicing"
+      ],
+      "isoforms": [
+        {
+          "name": {
+            "value": "1"
+          },
+          "isoformIds": [
+            "Q7L5L3-2"
+          ],
+          "isoformSequenceStatus": "Displayed"
+        },
+        {
+          "name": {
+            "value": "2"
+          },
+          "isoformIds": [
+            "Q7L5L3-1"
+          ],
+          "sequenceIds": [
+            "VSP_036888"
+          ],
+          "isoformSequenceStatus": "Described"
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "27637550"
+            }
+          ],
+          "value": "Widely expressed, with high level in kidney and ovary"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the glycerophosphoryl diester phosphodiesterase family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "commentType": "SEQUENCE CAUTION",
+      "sequenceCautionType": "Erroneous initiation",
+      "sequence": "AAH02714.2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 318,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Lysophospholipase D GDPD3",
+      "featureId": "PRO_0000251936"
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 2,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 3,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 23,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 24,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 198,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 199,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 221,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 222,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 318,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 39,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 308,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "GP-PDE"
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 71,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 71,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:60240"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "ligand": {
+        "name": "a divalent metal cation",
+        "id": "ChEBI:CHEBI:60240"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 73,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 73,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:60240"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "ligand": {
+        "name": "a divalent metal cation",
+        "id": "ChEBI:CHEBI:60240"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 86,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 86,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:60240"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "ligand": {
+        "name": "a divalent metal cation",
+        "id": "ChEBI:CHEBI:60240"
+      }
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 62,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "14702039"
+        }
+      ],
+      "featureId": "VSP_036888",
+      "alternativeSequence": {}
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0025",
+      "category": "Coding sequence diversity",
+      "name": "Alternative splicing"
+    },
+    {
+      "id": "KW-0963",
+      "category": "Cellular component",
+      "name": "Cytoplasm"
+    },
+    {
+      "id": "KW-0256",
+      "category": "Cellular component",
+      "name": "Endoplasmic reticulum"
+    },
+    {
+      "id": "KW-0378",
+      "category": "Molecular function",
+      "name": "Hydrolase"
+    },
+    {
+      "id": "KW-0443",
+      "category": "Biological process",
+      "name": "Lipid metabolism"
+    },
+    {
+      "id": "KW-0472",
+      "category": "Cellular component",
+      "name": "Membrane"
+    },
+    {
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "id": "KW-1267",
+      "category": "Technical term",
+      "name": "Proteomics identification"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0812",
+      "category": "Domain",
+      "name": "Transmembrane"
+    },
+    {
+      "id": "KW-1133",
+      "category": "Domain",
+      "name": "Transmembrane helix"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "14702039",
+        "citationType": "journal article",
+        "authors": [
+          "Ota T.",
+          "Suzuki Y.",
+          "Nishikawa T.",
+          "Otsuki T.",
+          "Sugiyama T.",
+          "Irie R.",
+          "Wakamatsu A.",
+          "Hayashi K.",
+          "Sato H.",
+          "Nagai K.",
+          "Kimura K.",
+          "Makita H.",
+          "Sekine M.",
+          "Obayashi M.",
+          "Nishi T.",
+          "Shibahara T.",
+          "Tanaka T.",
+          "Ishii S.",
+          "Yamamoto J.",
+          "Saito K.",
+          "Kawai Y.",
+          "Isono Y.",
+          "Nakamura Y.",
+          "Nagahari K.",
+          "Murakami K.",
+          "Yasuda T.",
+          "Iwayanagi T.",
+          "Wagatsuma M.",
+          "Shiratori A.",
+          "Sudo H.",
+          "Hosoiri T.",
+          "Kaku Y.",
+          "Kodaira H.",
+          "Kondo H.",
+          "Sugawara M.",
+          "Takahashi M.",
+          "Kanda K.",
+          "Yokoi T.",
+          "Furuya T.",
+          "Kikkawa E.",
+          "Omura Y.",
+          "Abe K.",
+          "Kamihara K.",
+          "Katsuta N.",
+          "Sato K.",
+          "Tanikawa M.",
+          "Yamazaki M.",
+          "Ninomiya K.",
+          "Ishibashi T.",
+          "Yamashita H.",
+          "Murakawa K.",
+          "Fujimori K.",
+          "Tanai H.",
+          "Kimata M.",
+          "Watanabe M.",
+          "Hiraoka S.",
+          "Chiba Y.",
+          "Ishida S.",
+          "Ono Y.",
+          "Takiguchi S.",
+          "Watanabe S.",
+          "Yosida M.",
+          "Hotuta T.",
+          "Kusano J.",
+          "Kanehori K.",
+          "Takahashi-Fujii A.",
+          "Hara H.",
+          "Tanase T.-O.",
+          "Nomura Y.",
+          "Togiya S.",
+          "Komai F.",
+          "Hara R.",
+          "Takeuchi K.",
+          "Arita M.",
+          "Imose N.",
+          "Musashino K.",
+          "Yuuki H.",
+          "Oshima A.",
+          "Sasaki N.",
+          "Aotsuka S.",
+          "Yoshikawa Y.",
+          "Matsunawa H.",
+          "Ichihara T.",
+          "Shiohata N.",
+          "Sano S.",
+          "Moriya S.",
+          "Momiyama H.",
+          "Satoh N.",
+          "Takami S.",
+          "Terashima Y.",
+          "Suzuki O.",
+          "Nakagawa S.",
+          "Senoh A.",
+          "Mizoguchi H.",
+          "Goto Y.",
+          "Shimizu F.",
+          "Wakebe H.",
+          "Hishigaki H.",
+          "Watanabe T.",
+          "Sugiyama A.",
+          "Takemoto M.",
+          "Kawakami B.",
+          "Yamazaki M.",
+          "Watanabe K.",
+          "Kumagai A.",
+          "Itakura S.",
+          "Fukuzumi Y.",
+          "Fujimori Y.",
+          "Komiyama M.",
+          "Tashiro H.",
+          "Tanigami A.",
+          "Fujiwara T.",
+          "Ono T.",
+          "Yamada K.",
+          "Fujii Y.",
+          "Ozaki K.",
+          "Hirao M.",
+          "Ohmori Y.",
+          "Kawabata A.",
+          "Hikiji T.",
+          "Kobatake N.",
+          "Inagaki H.",
+          "Ikema Y.",
+          "Okamoto S.",
+          "Okitani R.",
+          "Kawakami T.",
+          "Noguchi S.",
+          "Itoh T.",
+          "Shigeta K.",
+          "Senba T.",
+          "Matsumura K.",
+          "Nakajima Y.",
+          "Mizuno T.",
+          "Morinaga M.",
+          "Sasaki M.",
+          "Togashi T.",
+          "Oyama M.",
+          "Hata H.",
+          "Watanabe M.",
+          "Komatsu T.",
+          "Mizushima-Sugano J.",
+          "Satoh T.",
+          "Shirai Y.",
+          "Takahashi Y.",
+          "Nakagawa K.",
+          "Okumura K.",
+          "Nagase T.",
+          "Nomura N.",
+          "Kikuchi H.",
+          "Masuho Y.",
+          "Yamashita R.",
+          "Nakai K.",
+          "Yada T.",
+          "Nakamura Y.",
+          "Ohara O.",
+          "Isogai T.",
+          "Sugano S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "14702039"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/ng1285"
+          }
+        ],
+        "title": "Complete sequencing and characterization of 21,243 full-length human cDNAs.",
+        "publicationDate": "2004",
+        "journal": "Nat. Genet.",
+        "firstPage": "40",
+        "lastPage": "45",
+        "volume": "36"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)"
+      ],
+      "referenceComments": [
+        {
+          "value": "Small intestine",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "15616553",
+        "citationType": "journal article",
+        "authors": [
+          "Martin J.",
+          "Han C.",
+          "Gordon L.A.",
+          "Terry A.",
+          "Prabhakar S.",
+          "She X.",
+          "Xie G.",
+          "Hellsten U.",
+          "Chan Y.M.",
+          "Altherr M.",
+          "Couronne O.",
+          "Aerts A.",
+          "Bajorek E.",
+          "Black S.",
+          "Blumer H.",
+          "Branscomb E.",
+          "Brown N.C.",
+          "Bruno W.J.",
+          "Buckingham J.M.",
+          "Callen D.F.",
+          "Campbell C.S.",
+          "Campbell M.L.",
+          "Campbell E.W.",
+          "Caoile C.",
+          "Challacombe J.F.",
+          "Chasteen L.A.",
+          "Chertkov O.",
+          "Chi H.C.",
+          "Christensen M.",
+          "Clark L.M.",
+          "Cohn J.D.",
+          "Denys M.",
+          "Detter J.C.",
+          "Dickson M.",
+          "Dimitrijevic-Bussod M.",
+          "Escobar J.",
+          "Fawcett J.J.",
+          "Flowers D.",
+          "Fotopulos D.",
+          "Glavina T.",
+          "Gomez M.",
+          "Gonzales E.",
+          "Goodstein D.",
+          "Goodwin L.A.",
+          "Grady D.L.",
+          "Grigoriev I.",
+          "Groza M.",
+          "Hammon N.",
+          "Hawkins T.",
+          "Haydu L.",
+          "Hildebrand C.E.",
+          "Huang W.",
+          "Israni S.",
+          "Jett J.",
+          "Jewett P.B.",
+          "Kadner K.",
+          "Kimball H.",
+          "Kobayashi A.",
+          "Krawczyk M.-C.",
+          "Leyba T.",
+          "Longmire J.L.",
+          "Lopez F.",
+          "Lou Y.",
+          "Lowry S.",
+          "Ludeman T.",
+          "Manohar C.F.",
+          "Mark G.A.",
+          "McMurray K.L.",
+          "Meincke L.J.",
+          "Morgan J.",
+          "Moyzis R.K.",
+          "Mundt M.O.",
+          "Munk A.C.",
+          "Nandkeshwar R.D.",
+          "Pitluck S.",
+          "Pollard M.",
+          "Predki P.",
+          "Parson-Quintana B.",
+          "Ramirez L.",
+          "Rash S.",
+          "Retterer J.",
+          "Ricke D.O.",
+          "Robinson D.L.",
+          "Rodriguez A.",
+          "Salamov A.",
+          "Saunders E.H.",
+          "Scott D.",
+          "Shough T.",
+          "Stallings R.L.",
+          "Stalvey M.",
+          "Sutherland R.D.",
+          "Tapia R.",
+          "Tesmer J.G.",
+          "Thayer N.",
+          "Thompson L.S.",
+          "Tice H.",
+          "Torney D.C.",
+          "Tran-Gyamfi M.",
+          "Tsai M.",
+          "Ulanovsky L.E.",
+          "Ustaszewska A.",
+          "Vo N.",
+          "White P.S.",
+          "Williams A.L.",
+          "Wills P.L.",
+          "Wu J.-R.",
+          "Wu K.",
+          "Yang J.",
+          "DeJong P.",
+          "Bruce D.",
+          "Doggett N.A.",
+          "Deaven L.",
+          "Schmutz J.",
+          "Grimwood J.",
+          "Richardson P.",
+          "Rokhsar D.S.",
+          "Eichler E.E.",
+          "Gilna P.",
+          "Lucas S.M.",
+          "Myers R.M.",
+          "Rubin E.M.",
+          "Pennacchio L.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15616553"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature03187"
+          }
+        ],
+        "title": "The sequence and analysis of duplication-rich human chromosome 16.",
+        "publicationDate": "2004",
+        "journal": "Nature",
+        "firstPage": "988",
+        "lastPage": "994",
+        "volume": "432"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "15489334",
+        "citationType": "journal article",
+        "authoringGroup": [
+          "The MGC Project Team"
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15489334"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1101/gr.2596504"
+          }
+        ],
+        "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+        "publicationDate": "2004",
+        "journal": "Genome Res.",
+        "firstPage": "2121",
+        "lastPage": "2127",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)"
+      ],
+      "referenceComments": [
+        {
+          "value": "Placenta",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "27637550",
+        "citationType": "journal article",
+        "authors": [
+          "Rahman I.A.",
+          "Tsuboi K.",
+          "Hussain Z.",
+          "Yamashita R.",
+          "Okamoto Y.",
+          "Uyama T.",
+          "Yamazaki N.",
+          "Tanaka T.",
+          "Tokumura A.",
+          "Ueda N."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "27637550"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.bbalip.2016.09.008"
+          }
+        ],
+        "title": "Calcium-dependent generation of N-acylethanolamines and lysophosphatidic acids by glycerophosphodiesterase GDE7.",
+        "publicationDate": "2016",
+        "journal": "Biochim. Biophys. Acta",
+        "firstPage": "1881",
+        "lastPage": "1892",
+        "volume": "1861"
+      },
+      "referencePositions": [
+        "CATALYTIC ACTIVITY",
+        "FUNCTION",
+        "SUBCELLULAR LOCATION",
+        "ACTIVITY REGULATION",
+        "TISSUE SPECIFICITY"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AK026256",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "BAB15414.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AC012645",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC002714",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH02714.2"
+        },
+        {
+          "key": "Status",
+          "value": "ALT_INIT"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS10671.2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q7L5L3-2"
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_077283.2",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_024307.3"
+        }
+      ],
+      "isoformId": "Q7L5L3-2"
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "122571",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "57"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "190"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "database": "NDEx",
+      "id": "IQUERY-CP-GDPD3",
+      "properties": [
+        {
+          "key": "Evidences",
+          "value": "1 NDEx IQuery Curated Pathway"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9606.ENSP00000384363",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SwissLipids",
+      "id": "SLP:000001905",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GlyGen",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "1 site, 1 O-linked glycan (1 site)"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhosphoSitePlus",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioMuta",
+      "id": "GDPD3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DMDM",
+      "id": "226694188",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "jPOST",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MassIVE",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9606-ENSP00000384363",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "68809",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q7L5L3-2"
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "68810",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q7L5L3-1"
+    },
+    {
+      "database": "Pumba",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Antibodypedia",
+      "id": "51979",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "122 antibodies from 16 providers"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "79153",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000406256.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000384363.3"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000102886.15"
+        }
+      ],
+      "isoformId": "Q7L5L3-2"
+    },
+    {
+      "database": "GeneID",
+      "id": "79153",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "hsa:79153",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MANE-Select",
+      "id": "ENST00000406256.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000384363.3"
+        },
+        {
+          "key": "RefSeqNucleotideId",
+          "value": "NM_024307.3"
+        },
+        {
+          "key": "RefSeqProteinId",
+          "value": "NP_077283.2"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "uc002dwp.4",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ],
+      "isoformId": "Q7L5L3-2"
+    },
+    {
+      "database": "AGR",
+      "id": "HGNC:28638",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ClinPGx",
+      "id": "PA142671741",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "79153",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DisGeNET",
+      "id": "79153",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneCards",
+      "id": "GDPD3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HGNC",
+      "id": "HGNC:28638",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "GDPD3"
+        }
+      ]
+    },
+    {
+      "database": "HPA",
+      "id": "ENSG00000102886",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Tissue enhanced (esophagus)"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "616318",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "gene"
+        }
+      ]
+    },
+    {
+      "database": "OpenTargets",
+      "id": "ENSG00000102886",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSG00000102886",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG2258",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00940000160759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_030006_5_1_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "KWAIMRK",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "1058301at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PAN-GO",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Number of GO annotations",
+          "value": "4 GO annotations based on evolutionary models"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "3.1.4.39",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "PathwayCommons",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-6814848",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Glycerophospholipid catabolism"
+        }
+      ]
+    },
+    {
+      "database": "SignaLink",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Agora",
+      "id": "ENSG00000102886",
+      "properties": [
+        {
+          "key": "NominatedTarget",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "79153",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "10 hits in 1153 CRISPR screens"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "79153",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Pharos",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "DevelopmentLevel",
+          "value": "Tbio"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:Q7L5L3",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005640",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 16"
+        }
+      ]
+    },
+    {
+      "database": "RNAct",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "moleculeType",
+          "value": "protein"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSG00000102886",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in mucosa of transverse colon and 149 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "ExpressionAtlas",
+      "id": "Q7L5L3",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "baseline and differential"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005783",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:endoplasmic reticulum"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "27637550"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005789",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:endoplasmic reticulum membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0070062",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular exosome"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "HDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007005",
+          "source": "PubMed",
+          "id": "19056867"
+        },
+        {
+          "evidenceCode": "ECO:0007005",
+          "source": "PubMed",
+          "id": "23533145"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0016020",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0048471",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:perinuclear region of cytoplasm"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004622",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:phosphatidylcholine lysophospholipase A1 activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008081",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:phosphoric diester hydrolase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "27637550"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0046475",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:glycerophospholipid catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0070291",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:N-acylethanolamine metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "27637550"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0034638",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:phosphatidylcholine catabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd08612",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GDPD_GDE4"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.20.20.190:FF:000033",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Glycerophosphodiester phosphodiesterase domain containing 3"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.20.20.190",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Phosphatidylinositol (PI) phosphodiesterase"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR052271",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GDPD-Related"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR030395",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GP_PDE_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR017946",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "PLC-like_Pdiesterase_TIM-brl"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR42758:SF3",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "LYSOPHOSPHOLIPASE D GDPD3"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR42758",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "PHOSPHATIDYLGLYCEROL PHOSPHOLIPASE C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF03009",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GDPD"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF51695",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "PLC-like phosphodiesterases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51704",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GP_PDE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MSLLLYYALPALGSYAMLSIFFLRRPHLLHTPRAPTFRIRLGAHRGGSGELLENTMEAMENSMAQRSDLLELDCQLTRDRVVVVSHDENLCRQSGLNRDVGSLDFEDLPLYKEKLEVYFSPGHFAHGSDRRMVRLEDLFQRFPRTPMSVEIKGKNEELIREIAGLVRRYDRNEITIWASEKSSVMKKCKAANPEMPLSFTISRGFWVLLSYYLGLLPFIPIPEKFFFCFLPNIINRTYFPFSCSCLNQLLAVVSKWLIMRKSLIRHLEERGVQVVFWCLNEESDFEAAFSVGATGVITDYPTALRHYLDNHGPAARTS",
+    "length": 318,
+    "molWeight": 36596,
+    "crc64": "4BD2FF25CF0CA22E",
+    "md5": "F4A2F4DBC7CF19FADE959D801A498957"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 7,
+      "ACTIVITY REGULATION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "ALTERNATIVE PRODUCTS": 2,
+      "TISSUE SPECIFICITY": 1,
+      "SIMILARITY": 1,
+      "SEQUENCE CAUTION": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Topological domain": 3,
+      "Transmembrane": 2,
+      "Domain": 1,
+      "Binding site": 3,
+      "Alternative sequence": 1
+    },
+    "uniParcId": "UPI00001FFEC4"
+  }
+}

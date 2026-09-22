@@ -1,0 +1,3763 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "O75881",
+  "secondaryAccessions": [
+    "B2RN07",
+    "Q9UNF5"
+  ],
+  "uniProtkbId": "CP7B1_HUMAN",
+  "entryAudit": {
+    "firstPublicDate": "1999-07-15",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2002-02-11",
+    "entryVersion": 207,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Cytochrome P450 7B1"
+      }
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q60991"
+            }
+          ],
+          "value": "24-hydroxycholesterol 7-alpha-hydroxylase"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q60991"
+              }
+            ],
+            "value": "1.14.14.26"
+          }
+        ]
+      },
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "10588945"
+            }
+          ],
+          "value": "25/26-hydroxycholesterol 7-alpha-hydroxylase"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10588945"
+              }
+            ],
+            "value": "1.14.14.29"
+          }
+        ]
+      },
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "24491228"
+            }
+          ],
+          "value": "3-hydroxysteroid 7-alpha hydroxylase"
+        }
+      },
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "10588945"
+            }
+          ],
+          "value": "Oxysterol 7-alpha-hydroxylase"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000303",
+            "source": "PubMed",
+            "id": "24491228"
+          },
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "HGNC",
+            "id": "HGNC:2652"
+          }
+        ],
+        "value": "CYP7B1"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q60991"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10588945"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "24491228"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9802883"
+            }
+          ],
+          "value": "A cytochrome P450 monooxygenase involved in the metabolism of endogenous oxysterols and steroid hormones, including neurosteroids (PubMed:10588945, PubMed:24491228). Mechanistically, uses molecular oxygen inserting one oxygen atom into a substrate, and reducing the second into a water molecule, with two electrons provided by NADPH via cytochrome P450 reductase (CPR; NADPH-ferrihemoprotein reductase) (PubMed:10588945, PubMed:24491228). Catalyzes the hydroxylation of carbon hydrogen bonds of steroids with a preference for 7-alpha position (PubMed:10588945, PubMed:24491228). Usually metabolizes steroids carrying a hydroxy group at position 3, functioning as a 3-hydroxy steroid 7-alpha hydroxylase (PubMed:24491228). Hydroxylates oxysterols, including 25-hydroxycholesterol and (25R)-cholest-5-ene-3beta,26-diol toward 7-alpha hydroxy derivatives, which may be transported to the liver and converted to bile acids (PubMed:10588945, PubMed:9802883). Via its product 7-alpha,25-dihydroxycholesterol, a ligand for the chemotactic G protein-coupled receptor GPR183/EBI2, regulates B cell migration in germinal centers of lymphoid organs, thus guiding efficient maturation of plasma B cells and overall antigen-specific humoral immune response (By similarity). 7-alpha hydroxylates neurosteroids, including 3beta-hydroxyandrost-5-en-17-one (dehydroepiandrosterone) and pregnenolone, both involved in hippocampus-associated memory and learning (PubMed:24491228). Metabolizes androstanoids toward 6- or 7-alpha hydroxy derivatives (PubMed:24491228)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "25-hydroxycholesterol + reduced [NADPH--hemoprotein reductase] + O2 = 7alpha,25-dihydroxycholesterol + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:24308"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:37623"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:42977"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          }
+        ],
+        "ecNumber": "1.14.14.29",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10588945"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9802883"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:24309"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "10588945"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "9802883"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(25R)-cholest-5-ene-3beta,26-diol + reduced [NADPH--hemoprotein reductase] + O2 = (25R)-cholest-5-en-3beta,7alpha,26-triol + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:19041"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:76591"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:76592"
+          }
+        ],
+        "ecNumber": "1.14.14.29",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10588945"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:19042"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "10588945"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(24S)-hydroxycholesterol + reduced [NADPH--hemoprotein reductase] + O2 = (24S)-7alpha-dihydroxycholesterol + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46124"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:34310"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:37640"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          }
+        ],
+        "ecNumber": "1.14.14.26",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "Q60991"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46125"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q60991"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(24S)-25-epoxycholesterol + reduced [NADPH--hemoprotein reductase] + O2 = (24S,25)-epoxy-7alpha-hydroxycholesterol + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46464"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:41633"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:86146"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "Q60991"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46465"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q60991"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "(22R)-hydroxycholesterol + reduced [NADPH--hemoprotein reductase] + O2 = (22R,7alpha)-dihydroxycholesterol + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46460"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:67237"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:86145"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "Q60991"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46461"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q60991"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "androst-5-en-3beta,17beta-diol + reduced [NADPH--hemoprotein reductase] + O2 = androst-5-en-3beta,7alpha,17beta-triol + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46204"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:2710"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:85810"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "24491228"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46205"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "24491228"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "5alpha-androstane-3beta,17beta-diol + reduced [NADPH--hemoprotein reductase] + O2 = 5alpha-androstane-3beta,6alpha,17beta-triol + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46200"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:18329"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:85809"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "24491228"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46201"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "24491228"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "3beta-hydroxyandrost-5-en-17-one + reduced [NADPH--hemoprotein reductase] + O2 = 3beta,7alpha-dihydroxyandrost-5-en-17-one + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46192"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:28689"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:81471"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "24491228"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46193"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "24491228"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "3beta-hydroxy-5alpha-androstan-17-one + reduced [NADPH--hemoprotein reductase] + O2 = 3beta,7alpha-dihydroxy-5alpha-androstan-17-one + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:43896"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:85816"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:541975"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "24491228"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:43897"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "24491228"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "pregnenolone + reduced [NADPH--hemoprotein reductase] + O2 = 7alpha-hydroxypregnenolone + oxidized [NADPH--hemoprotein reductase] + H2O + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:46196"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11964"
+          },
+          {
+            "database": "Rhea",
+            "id": "RHEA-COMP:11965"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15379"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16581"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57618"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58210"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:81467"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "24491228"
+          }
+        ]
+      },
+      "physiologicalReactions": [
+        {
+          "directionType": "left-to-right",
+          "reactionCrossReference": {
+            "database": "Rhea",
+            "id": "RHEA:46197"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "24491228"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "commentType": "COFACTOR",
+      "cofactors": [
+        {
+          "name": "heme",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "P22680"
+            }
+          ],
+          "cofactorCrossReference": {
+            "database": "ChEBI",
+            "id": "CHEBI:30413"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "24491228"
+            }
+          ],
+          "value": "Inhibited by drugs voriconazole and metyrapone"
+        }
+      ],
+      "commentType": "ACTIVITY REGULATION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10588945"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9802883"
+            }
+          ],
+          "value": "Lipid metabolism; bile acid biosynthesis"
+        }
+      ],
+      "commentType": "PATHWAY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "24491228"
+            }
+          ],
+          "value": "Steroid hormone biosynthesis"
+        }
+      ],
+      "commentType": "PATHWAY"
+    },
+    {
+      "commentType": "INTERACTION",
+      "interactions": [
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "O75881",
+            "intActId": "EBI-21841279"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P0CG47",
+            "geneName": "UBB",
+            "intActId": "EBI-413034"
+          },
+          "numberOfExperiments": 2,
+          "organismDiffer": false
+        }
+      ]
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "9802883"
+              }
+            ],
+            "value": "Endoplasmic reticulum membrane",
+            "id": "SL-0097"
+          },
+          "topology": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Multi-pass membrane protein",
+            "id": "SL-9909"
+          }
+        },
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "9802883"
+              }
+            ],
+            "value": "Microsome membrane",
+            "id": "SL-0165"
+          },
+          "topology": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Multi-pass membrane protein",
+            "id": "SL-9909"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10588945"
+            }
+          ],
+          "value": "Widely expressed. Expressed in brain, testis, ovary, prostate, liver, colon, kidney, small intestine, thymus and spleen"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "commentType": "DISEASE",
+      "disease": {
+        "diseaseId": "Spastic paraplegia 5A, autosomal recessive",
+        "diseaseAccession": "DI-01043",
+        "acronym": "SPG5A",
+        "description": "A form of spastic paraplegia, a neurodegenerative disorder characterized by a slow, gradual, progressive weakness and spasticity of the lower limbs. Rate of progression and the severity of symptoms are quite variable. Initial symptoms may include difficulty with balance, weakness and stiffness in the legs, muscle spasms, and dragging the toes when walking. In some forms of the disorder, bladder symptoms (such as incontinence) may appear, or the weakness and stiffness may spread to other parts of the body.",
+        "diseaseCrossReference": {
+          "database": "MIM",
+          "id": "270800"
+        },
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "18252231"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19439420"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "21214876"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "24117163"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "26714052"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "27217339"
+          }
+        ]
+      },
+      "note": {
+        "texts": [
+          {
+            "value": "The disease is caused by variants affecting the gene represented in this entry"
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "DISEASE",
+      "disease": {
+        "diseaseId": "Congenital bile acid synthesis defect 3",
+        "diseaseAccession": "DI-00331",
+        "acronym": "CBAS3",
+        "description": "A disorder resulting in severe cholestasis, cirrhosis and liver synthetic failure. Hepatic microsomal oxysterol 7-alpha-hydroxylase activity is undetectable.",
+        "diseaseCrossReference": {
+          "database": "MIM",
+          "id": "613812"
+        },
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9802883"
+          }
+        ]
+      },
+      "note": {
+        "texts": [
+          {
+            "value": "The disease is caused by variants affecting the gene represented in this entry"
+          }
+        ]
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the cytochrome P450 family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "commentType": "WEB RESOURCE",
+      "resourceName": "Atlas of Genetics and Cytogenetics in Oncology and Haematology",
+      "resourceUrl": "https://atlasgeneticsoncology.org/gene/40255/CYP7B1",
+      "ftp": false
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 506,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytochrome P450 7B1",
+      "featureId": "PRO_0000051906"
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 17,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 37,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 289,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 309,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 449,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 449,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:30413"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P22680"
+        }
+      ],
+      "ligand": {
+        "name": "heme",
+        "id": "ChEBI:CHEBI:30413"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 19,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs72554624",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs72554624"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        }
+      ],
+      "featureId": "VAR_075505",
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "P"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 57,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 57,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs121908614",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121908614"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18252231"
+        }
+      ],
+      "featureId": "VAR_044382",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 87,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 87,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs587777221",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs587777221"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21214876"
+        }
+      ],
+      "featureId": "VAR_075506",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 106,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 106,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        }
+      ],
+      "featureId": "VAR_075507",
+      "alternativeSequence": {
+        "originalSequence": "H",
+        "alternativeSequences": [
+          "Y"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 147,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 147,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; uncertain significance; dbSNP:rs754730601",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs754730601"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24117163"
+        }
+      ],
+      "featureId": "VAR_075508",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 198,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 198,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; uncertain significance; dbSNP:rs1805436635",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1805436635"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26714052"
+        }
+      ],
+      "featureId": "VAR_075509",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 216,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 216,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs121908612",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121908612"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18252231"
+        }
+      ],
+      "featureId": "VAR_044383",
+      "alternativeSequence": {
+        "originalSequence": "F",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 285,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 285,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs750781606",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs750781606"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21214876"
+        }
+      ],
+      "featureId": "VAR_075510",
+      "alternativeSequence": {
+        "originalSequence": "H",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 287,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 287,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        }
+      ],
+      "featureId": "VAR_075511",
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 297,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 297,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs587777222",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs587777222"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21214876"
+        }
+      ],
+      "featureId": "VAR_075512",
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 316,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 316,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; uncertain significance",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24117163"
+        }
+      ],
+      "featureId": "VAR_075513",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "AA"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 324,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 324,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs59035258",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs59035258"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "26714052"
+        }
+      ],
+      "featureId": "VAR_075514",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "H"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 363,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 363,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs121908610",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121908610"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18252231"
+        }
+      ],
+      "featureId": "VAR_044384",
+      "alternativeSequence": {
+        "originalSequence": "S",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 417,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 417,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs367916692",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs367916692"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        }
+      ],
+      "featureId": "VAR_075515",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "C"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 417,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 417,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs121908611",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121908611"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18252231"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        }
+      ],
+      "featureId": "VAR_044385",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "H"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 443,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 443,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs1190562443",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1190562443"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "21214876"
+        }
+      ],
+      "featureId": "VAR_075516",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 470,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 470,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs267606758",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs267606758"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        }
+      ],
+      "featureId": "VAR_075517",
+      "alternativeSequence": {
+        "originalSequence": "F",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 486,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 486,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in SPG5A; dbSNP:rs116171274",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs116171274"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19439420"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "24117163"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "27217339"
+        }
+      ],
+      "featureId": "VAR_075518",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "C"
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0153",
+      "category": "Biological process",
+      "name": "Cholesterol metabolism"
+    },
+    {
+      "id": "KW-0225",
+      "category": "Disease",
+      "name": "Disease variant"
+    },
+    {
+      "id": "KW-0256",
+      "category": "Cellular component",
+      "name": "Endoplasmic reticulum"
+    },
+    {
+      "id": "KW-0349",
+      "category": "Ligand",
+      "name": "Heme"
+    },
+    {
+      "id": "KW-0890",
+      "category": "Disease",
+      "name": "Hereditary spastic paraplegia"
+    },
+    {
+      "id": "KW-0988",
+      "category": "Disease",
+      "name": "Intrahepatic cholestasis"
+    },
+    {
+      "id": "KW-0408",
+      "category": "Ligand",
+      "name": "Iron"
+    },
+    {
+      "id": "KW-0444",
+      "category": "Biological process",
+      "name": "Lipid biosynthesis"
+    },
+    {
+      "id": "KW-0443",
+      "category": "Biological process",
+      "name": "Lipid metabolism"
+    },
+    {
+      "id": "KW-0472",
+      "category": "Cellular component",
+      "name": "Membrane"
+    },
+    {
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "id": "KW-0492",
+      "category": "Cellular component",
+      "name": "Microsome"
+    },
+    {
+      "id": "KW-0503",
+      "category": "Molecular function",
+      "name": "Monooxygenase"
+    },
+    {
+      "id": "KW-0523",
+      "category": "Disease",
+      "name": "Neurodegeneration"
+    },
+    {
+      "id": "KW-0560",
+      "category": "Molecular function",
+      "name": "Oxidoreductase"
+    },
+    {
+      "id": "KW-1267",
+      "category": "Technical term",
+      "name": "Proteomics identification"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0752",
+      "category": "Biological process",
+      "name": "Steroid biosynthesis"
+    },
+    {
+      "id": "KW-0753",
+      "category": "Biological process",
+      "name": "Steroid metabolism"
+    },
+    {
+      "id": "KW-1207",
+      "category": "Biological process",
+      "name": "Sterol metabolism"
+    },
+    {
+      "id": "KW-0812",
+      "category": "Domain",
+      "name": "Transmembrane"
+    },
+    {
+      "id": "KW-1133",
+      "category": "Domain",
+      "name": "Transmembrane helix"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "9802883",
+        "citationType": "journal article",
+        "authors": [
+          "Setchell K.D.R.",
+          "Schwarz M.",
+          "O'Connell N.C.",
+          "Lund E.G.",
+          "Davis D.L.",
+          "Lathe R.",
+          "Thompson H.R.",
+          "Tyson W.R.",
+          "Sokol R.J.",
+          "Russell D.W."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9802883"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1172/jci2962"
+          }
+        ],
+        "title": "Identification of a new inborn error in bile acid synthesis: mutation of the oxysterol 7-alpha-hydroxylase gene causes severe neonatal liver disease.",
+        "publicationDate": "1998",
+        "journal": "J. Clin. Invest.",
+        "firstPage": "1690",
+        "lastPage": "1703",
+        "volume": "102"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]",
+        "INVOLVEMENT IN CBAS3",
+        "VARIANT HIS-324",
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "PATHWAY",
+        "SUBCELLULAR LOCATION"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        },
+        {
+          "value": "Spleen",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "10588945",
+        "citationType": "journal article",
+        "authors": [
+          "Wu Z.L.",
+          "Martin K.O.",
+          "Javitt N.B.",
+          "Chiang J.Y.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10588945"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0022-2275(20)32094-0"
+          }
+        ],
+        "title": "Structure and functions of human oxysterol 7alpha-hydroxylase cDNAs and gene CYP7B1.",
+        "publicationDate": "1999",
+        "journal": "J. Lipid Res.",
+        "firstPage": "2195",
+        "lastPage": "2203",
+        "volume": "40"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]",
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "PATHWAY",
+        "TISSUE SPECIFICITY"
+      ],
+      "referenceComments": [
+        {
+          "value": "Hippocampus",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "CI-5GBDQ6B103N1E",
+        "citationType": "submission",
+        "authors": [
+          "Mural R.J.",
+          "Istrail S.",
+          "Sutton G.G.",
+          "Florea L.",
+          "Halpern A.L.",
+          "Mobarry C.M.",
+          "Lippert R.",
+          "Walenz B.",
+          "Shatkay H.",
+          "Dew I.",
+          "Miller J.R.",
+          "Flanigan M.J.",
+          "Edwards N.J.",
+          "Bolanos R.",
+          "Fasulo D.",
+          "Halldorsson B.V.",
+          "Hannenhalli S.",
+          "Turner R.",
+          "Yooseph S.",
+          "Lu F.",
+          "Nusskern D.R.",
+          "Shue B.C.",
+          "Zheng X.H.",
+          "Zhong F.",
+          "Delcher A.L.",
+          "Huson D.H.",
+          "Kravitz S.A.",
+          "Mouchard L.",
+          "Reinert K.",
+          "Remington K.A.",
+          "Clark A.G.",
+          "Waterman M.S.",
+          "Eichler E.E.",
+          "Adams M.D.",
+          "Hunkapiller M.W.",
+          "Myers E.W.",
+          "Venter J.C."
+        ],
+        "publicationDate": "JUL-2005",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "15489334",
+        "citationType": "journal article",
+        "authoringGroup": [
+          "The MGC Project Team"
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15489334"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1101/gr.2596504"
+          }
+        ],
+        "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+        "publicationDate": "2004",
+        "journal": "Genome Res.",
+        "firstPage": "2121",
+        "lastPage": "2127",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "24491228",
+        "citationType": "journal article",
+        "authors": [
+          "Yantsevich A.V.",
+          "Dichenko Y.V.",
+          "Mackenzie F.",
+          "Mukha D.V.",
+          "Baranovsky A.V.",
+          "Gilep A.A.",
+          "Usanov S.A.",
+          "Strushkevich N.V."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "24491228"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1111/febs.12733"
+          }
+        ],
+        "title": "Human steroid and oxysterol 7alpha-hydroxylase CYP7B1: substrate specificity, azole binding and misfolding of clinically relevant mutants.",
+        "publicationDate": "2014",
+        "journal": "FEBS J.",
+        "firstPage": "1700",
+        "lastPage": "1713",
+        "volume": "281"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "CATALYTIC ACTIVITY",
+        "ACTIVITY REGULATION",
+        "PATHWAY"
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "24275569",
+        "citationType": "journal article",
+        "authors": [
+          "Bian Y.",
+          "Song C.",
+          "Cheng K.",
+          "Dong M.",
+          "Wang F.",
+          "Huang J.",
+          "Sun D.",
+          "Wang L.",
+          "Ye M.",
+          "Zou H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "24275569"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.jprot.2013.11.014"
+          }
+        ],
+        "title": "An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.",
+        "publicationDate": "2014",
+        "journal": "J. Proteomics",
+        "firstPage": "253",
+        "lastPage": "262",
+        "volume": "96"
+      },
+      "referencePositions": [
+        "IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liver",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "18252231",
+        "citationType": "journal article",
+        "authors": [
+          "Tsaousidou M.K.",
+          "Ouahchi K.",
+          "Warner T.T.",
+          "Yang Y.",
+          "Simpson M.A.",
+          "Laing N.G.",
+          "Wilkinson P.A.",
+          "Madrid R.E.",
+          "Patel H.",
+          "Hentati F.",
+          "Patton M.A.",
+          "Hentati A.",
+          "Lamont P.J.",
+          "Siddique T.",
+          "Crosby A.H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18252231"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.ajhg.2007.10.001"
+          }
+        ],
+        "title": "Sequence alterations within CYP7B1 implicate defective cholesterol homeostasis in motor-neuron degeneration.",
+        "publicationDate": "2008",
+        "journal": "Am. J. Hum. Genet.",
+        "firstPage": "510",
+        "lastPage": "515",
+        "volume": "82"
+      },
+      "referencePositions": [
+        "VARIANTS SPG5A ARG-57; SER-216; PHE-363 AND HIS-417"
+      ]
+    },
+    {
+      "referenceNumber": 8,
+      "citation": {
+        "id": "19439420",
+        "citationType": "journal article",
+        "authors": [
+          "Goizet C.",
+          "Boukhris A.",
+          "Durr A.",
+          "Beetz C.",
+          "Truchetto J.",
+          "Tesson C.",
+          "Tsaousidou M.",
+          "Forlani S.",
+          "Guyant-Marechal L.",
+          "Fontaine B.",
+          "Guimaraes J.",
+          "Isidor B.",
+          "Chazouilleres O.",
+          "Wendum D.",
+          "Grid D.",
+          "Chevy F.",
+          "Chinnery P.F.",
+          "Coutinho P.",
+          "Azulay J.P.",
+          "Feki I.",
+          "Mochel F.",
+          "Wolf C.",
+          "Mhiri C.",
+          "Crosby A.",
+          "Brice A.",
+          "Stevanin G."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "19439420"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1093/brain/awp073"
+          }
+        ],
+        "title": "CYP7B1 mutations in pure and complex forms of hereditary spastic paraplegia type 5.",
+        "publicationDate": "2009",
+        "journal": "Brain",
+        "firstPage": "1589",
+        "lastPage": "1600",
+        "volume": "132"
+      },
+      "referencePositions": [
+        "VARIANTS SPG5A ALA-297; CYS-417; HIS-417; ILE-470 AND CYS-486",
+        "VARIANTS PRO-19; TYR-106; SER-287 AND HIS-324"
+      ]
+    },
+    {
+      "referenceNumber": 9,
+      "citation": {
+        "id": "21214876",
+        "citationType": "journal article",
+        "authors": [
+          "Arnoldi A.",
+          "Crimella C.",
+          "Tenderini E.",
+          "Martinuzzi A.",
+          "D'Angelo M.G.",
+          "Musumeci O.",
+          "Toscano A.",
+          "Scarlato M.",
+          "Fantin M.",
+          "Bresolin N.",
+          "Bassi M.T."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "21214876"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1111/j.1399-0004.2011.01624.x"
+          }
+        ],
+        "title": "Clinical phenotype variability in patients with hereditary spastic paraplegia type 5 associated with CYP7B1 mutations.",
+        "publicationDate": "2012",
+        "journal": "Clin. Genet.",
+        "firstPage": "150",
+        "lastPage": "157",
+        "volume": "81"
+      },
+      "referencePositions": [
+        "VARIANTS SPG5A VAL-87; LEU-285; ALA-297 AND ALA-443"
+      ]
+    },
+    {
+      "referenceNumber": 10,
+      "citation": {
+        "id": "24117163",
+        "citationType": "journal article",
+        "authors": [
+          "Roos P.",
+          "Svenstrup K.",
+          "Danielsen E.R.",
+          "Thomsen C.",
+          "Nielsen J.E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "24117163"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1111/ane.12188"
+          }
+        ],
+        "title": "CYP7B1: novel mutations and magnetic resonance spectroscopy abnormalities in hereditary spastic paraplegia type 5A.",
+        "publicationDate": "2014",
+        "journal": "Acta Neurol. Scand.",
+        "firstPage": "330",
+        "lastPage": "334",
+        "volume": "129"
+      },
+      "referencePositions": [
+        "VARIANTS SPG5A ASP-147; ALA-316 INS AND CYS-486"
+      ]
+    },
+    {
+      "referenceNumber": 11,
+      "citation": {
+        "id": "27217339",
+        "citationType": "journal article",
+        "authors": [
+          "Kara E.",
+          "Tucci A.",
+          "Manzoni C.",
+          "Lynch D.S.",
+          "Elpidorou M.",
+          "Bettencourt C.",
+          "Chelban V.",
+          "Manole A.",
+          "Hamed S.A.",
+          "Haridy N.A.",
+          "Federoff M.",
+          "Preza E.",
+          "Hughes D.",
+          "Pittman A.",
+          "Jaunmuktane Z.",
+          "Brandner S.",
+          "Xiromerisiou G.",
+          "Wiethoff S.",
+          "Schottlaender L.",
+          "Proukakis C.",
+          "Morris H.",
+          "Warner T.",
+          "Bhatia K.P.",
+          "Korlipara L.V.",
+          "Singleton A.B.",
+          "Hardy J.",
+          "Wood N.W.",
+          "Lewis P.A.",
+          "Houlden H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "27217339"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1093/brain/aww111"
+          }
+        ],
+        "title": "Genetic and phenotypic characterization of complex hereditary spastic paraplegia.",
+        "publicationDate": "2016",
+        "journal": "Brain",
+        "firstPage": "1904",
+        "lastPage": "1918",
+        "volume": "139"
+      },
+      "referencePositions": [
+        "VARIANT SPG5A CYS-486"
+      ]
+    },
+    {
+      "referenceNumber": 12,
+      "citation": {
+        "id": "26714052",
+        "citationType": "journal article",
+        "authors": [
+          "Schubert S.F.",
+          "Hoffjan S.",
+          "Dekomien G."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "26714052"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.mcp.2015.12.001"
+          }
+        ],
+        "title": "Mutational analysis of the CYP7B1, PNPLA6 and C19orf12 genes in autosomal recessive hereditary spastic paraplegia.",
+        "publicationDate": "2016",
+        "journal": "Mol. Cell. Probes",
+        "firstPage": "53",
+        "lastPage": "55",
+        "volume": "30"
+      },
+      "referencePositions": [
+        "VARIANT SPG5A ARG-198",
+        "VARIANT HIS-324"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AF029403",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC95426.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF127090",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAD20021.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF176805",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK11850.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF176800",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK11850.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF176801",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK11850.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF176802",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK11850.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF176803",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK11850.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF176804",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAK11850.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "CH471068",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "EAW86877.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC136574",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAI36575.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS6180.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_004811.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_004820.5"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "114813",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "7"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "280"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "database": "NDEx",
+      "id": "IQUERY-CP-CYP7B1",
+      "properties": [
+        {
+          "key": "Evidences",
+          "value": "4 NDEx IQuery Curated Pathways"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9606.ENSP00000310721",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ChEMBL",
+      "id": "CHEMBL6067456",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DrugBank",
+      "id": "DB01530",
+      "properties": [
+        {
+          "key": "GenericName",
+          "value": "5alpha-androstane-3alpha,17beta-diol"
+        }
+      ]
+    },
+    {
+      "database": "SwissLipids",
+      "id": "SLP:000001207",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhosphoSitePlus",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioMuta",
+      "id": "CYP7B1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MassIVE",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9606-ENSP00000310721",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "50237",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Antibodypedia",
+      "id": "3058",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "306 antibodies from 36 providers"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "9420",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000310193.4",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000310721.3"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000172817.5"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000864435.1",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000534494.1"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000172817.5"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "9420",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "hsa:9420",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MANE-Select",
+      "id": "ENST00000310193.4",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000310721.3"
+        },
+        {
+          "key": "RefSeqNucleotideId",
+          "value": "NM_004820.5"
+        },
+        {
+          "key": "RefSeqProteinId",
+          "value": "NP_004811.1"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "uc003xvj.3",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "AGR",
+      "id": "HGNC:2652",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ClinPGx",
+      "id": "PA27124",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "9420",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DisGeNET",
+      "id": "9420",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneCards",
+      "id": "CYP7B1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HGNC",
+      "id": "HGNC:2652",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "CYP7B1"
+        }
+      ]
+    },
+    {
+      "database": "HPA",
+      "id": "ENSG00000172817",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Low tissue specificity"
+        }
+      ]
+    },
+    {
+      "database": "MalaCards",
+      "id": "CYP7B1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "270800",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "phenotype"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "603711",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "gene"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "613812",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "phenotype"
+        }
+      ]
+    },
+    {
+      "database": "OpenTargets",
+      "id": "ENSG00000172817",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "100986",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Autosomal recessive spastic paraplegia type 5A"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "79302",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Congenital bile acid synthesis defect type 3"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSG00000172817",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG0684",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00940000153141",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_018012_1_2_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "WSEVVQM",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "6692864at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PAN-GO",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Number of GO annotations",
+          "value": "3 GO annotations based on evolutionary models"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BRENDA",
+      "id": "1.14.14.29",
+      "properties": [
+        {
+          "key": "OrganismId",
+          "value": "2681"
+        }
+      ]
+    },
+    {
+      "database": "PathwayCommons",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-192105",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Synthesis of bile acids and bile salts"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-193368",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-193807",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Synthesis of bile acids and bile salts via 27-hydroxycholesterol"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-211976",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Endogenous sterols"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-5579013",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Defective CYP7B1 causes SPG5A and CBAS3"
+        }
+      ]
+    },
+    {
+      "database": "SignaLink",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SIGNOR",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "UniPathway",
+      "id": "UPA00221",
+      "properties": [
+        {
+          "key": "RectionId",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Agora",
+      "id": "ENSG00000172817",
+      "properties": [
+        {
+          "key": "NominatedTarget",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "9420",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "11 hits in 1151 CRISPR screens"
+        }
+      ]
+    },
+    {
+      "database": "ChiTaRS",
+      "id": "CYP7B1",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "GeneWiki",
+      "id": "CYP7B1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "9420",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Pharos",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "DevelopmentLevel",
+          "value": "Tbio"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:O75881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005640",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 8"
+        }
+      ]
+    },
+    {
+      "database": "RNAct",
+      "id": "O75881",
+      "properties": [
+        {
+          "key": "moleculeType",
+          "value": "protein"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSG00000172817",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in seminal vesicle and 163 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005789",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:endoplasmic reticulum membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:Reactome"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0033782",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:24S-hydroxycholesterol 7-alpha-hydroxylase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0033783",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:25-hydroxycholesterol 7-alpha-hydroxylase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "EXP:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10588945"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9802883"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0020037",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:heme binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005506",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:iron ion binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008396",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:oxysterol 7-alpha-hydroxylase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:Reactome"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008395",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:steroid hydroxylase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0035754",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:B cell chemotaxis"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006699",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:bile acid biosynthetic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042632",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:cholesterol homeostasis"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0016125",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:sterol metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "TAS:Reactome"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd20632",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYP7B1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.630.10:FF:000065",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome P450 family 7 subfamily B member 1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.630.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome P450"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR050529",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYP51A1-like"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR001128",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_P450"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR024204",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_P450_CYP7A1-type"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002403",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_P450_E_grp-IV"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036396",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_P450_sf"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR24304:SF0",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOCHROME P450 7B1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR24304",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOCHROME P450 FAMILY 7"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00067",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "p450"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PIRSF",
+      "id": "PIRSF000047",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome_CYPVIIA1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00465",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "EP450IV"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00385",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "P450"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF48264",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome P450"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MAGEVSAATGRFSLERLGLPGLALAAALLLLALCLLVRRTRRPGEPPLIKGWLPYLGVVLNLRKDPLRFMKTLQKQHGDTFTVLLGGKYITFILDPFQYQLVIKNHKQLSFRVFSNKLLEKAFSISQLQKNHDMNDELHLCYQFLQGKSLDILLESMMQNLKQVFEPQLLKTTSWDTAELYPFCSSIIFEITFTTIYGKVIVCDNNKFISELRDDFLKFDDKFAYLVSNIPIELLGNVKSIREKIIKCFSSEKLAKMQGWSEVFQSRQDVLEKYYVHEDLEIGAHHLGFLWASVANTIPTMFWAMYYLLRHPEAMAAVRDEIDRLLQSTGQKKGSGFPIHLTREQLDSLICLESSIFEALRLSSYSTTIRFVEEDLTLSSETGDYCVRKGDLVAIFPPVLHGDPEIFEAPEEFRYDRFIEDGKKKTTFFKRGKKLKCYLMPFGTGTSKCPGRFFALMEIKQLLVILLTYFDLEIIDDKPIGLNYSRLLFGIQYPDSDVLFRYKVKS",
+    "length": 506,
+    "molWeight": 58256,
+    "crc64": "07D3D4B801B6DBD9",
+    "md5": "10B8E8E9580FBA60CBBA34D642177E4D"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 10,
+      "COFACTOR": 1,
+      "ACTIVITY REGULATION": 1,
+      "PATHWAY": 2,
+      "INTERACTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "TISSUE SPECIFICITY": 1,
+      "DISEASE": 2,
+      "SIMILARITY": 1,
+      "WEB RESOURCE": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Transmembrane": 2,
+      "Binding site": 1,
+      "Natural variant": 18
+    },
+    "uniParcId": "UPI0000128218"
+  }
+}

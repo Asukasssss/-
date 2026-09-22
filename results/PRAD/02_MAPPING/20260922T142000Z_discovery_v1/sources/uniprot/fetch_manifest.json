@@ -1,0 +1,940 @@
+[
+  {
+    "gene": "GSS",
+    "status": "DONE",
+    "accession": "P48637",
+    "sha256": "1bde424fa7b869a6aa865a91438776f87f31ecd97fde9d74d5c94c92f8bb2321",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "GCLC",
+    "status": "DONE",
+    "accession": "P48506",
+    "sha256": "1103b7e2c31f4aed937c7988850ab21abf72fdf521eaac593d27a121cc4598f8",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "GSR",
+    "status": "DONE",
+    "accession": "P00390",
+    "sha256": "04503c166ca3d0e5f3e2e2570a5f9fa354badec79a0badb55b00e7517cb5490a",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "GPX1",
+    "status": "DONE",
+    "accession": "P07203",
+    "sha256": "9ae3f37fa7bcb0d6371db8ebcb8b81a5617dd3eb450659df8c2ce81aecf43003",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "GPX4",
+    "status": "DONE",
+    "accession": "P36969",
+    "sha256": "6732d87aac370541eb90c5a370b20c1e672391d5d036a3e804774879fbb0c2c2",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "PGK1",
+    "status": "DONE",
+    "accession": "P00558",
+    "sha256": "e5e2bf9e644d00616847bfd7a652671c2db35c9d73792436647d7ca25c5ed834",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "PGK2",
+    "status": "DONE",
+    "accession": "P07205",
+    "sha256": "ffa9f925f31aedf0af17084bd49c29f057c69d38d4cdb10d7179319b73d026a7",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "PGAM1",
+    "status": "DONE",
+    "accession": "P18669",
+    "sha256": "8372377e13843dba97071aa8afc6bf5d3122d4ab4435963e72ed80edc7f131c4",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "PGAM2",
+    "status": "DONE",
+    "accession": "P15259",
+    "sha256": "cc9b88825f50415db023889c004e5dd758b23b23cab189d6eb0b548f77eeb013",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "PHGDH",
+    "status": "DONE",
+    "accession": "O43175",
+    "sha256": "f63fb49925e6331304a9b80f2ead679b155abac6ac07a18b6b31d633d4ccf1bf",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "AADAT",
+    "status": "DONE",
+    "accession": "Q8N5Z0",
+    "sha256": "e0374f19fd56a2023743c24b433022ed4dbc686c5e3aab75c77c7568b8c2851c",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "AASS",
+    "status": "DONE",
+    "accession": "Q9UDR5",
+    "sha256": "a132e1eb04246cea9f4a6699088d030835f5e83c8c4629e460ee2c51bedf487a",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSS+OR+gene_exact%3AGCLC+OR+gene_exact%3AGSR+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX4+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APHGDH+OR+gene_exact%3AAADAT+OR+gene_exact%3AAASS%29&format=json&size=500"
+  },
+  {
+    "gene": "DHTKD1",
+    "status": "DONE",
+    "accession": "Q96HY7",
+    "sha256": "f4711625eef9cfc88fbe12d8684a729b6e7bc01798ac4900db469ee557fd36d5",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "GCK",
+    "status": "DONE",
+    "accession": "P35557",
+    "sha256": "0c28af8f1522fe5982a4a82b8b7f65f800832756800e4dc8abce067003c39509",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "HK1",
+    "status": "DONE",
+    "accession": "P19367",
+    "sha256": "f8a48d1b1e38bbabbd38cb96a1591442101b7814a501a9ff08ab1289cfef09f8",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "HK2",
+    "status": "DONE",
+    "accession": "P52789",
+    "sha256": "862a0a4e77c5d3e320ae94f03da9b1d6b06274ad10a60c70a6fd6e6f3cf8632e",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "HK3",
+    "status": "DONE",
+    "accession": "P52790",
+    "sha256": "f85c9e07e91b715929f03c7510ec4ef3f9205dc8744b942c1a737d93cee805bc",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC2A1",
+    "status": "DONE",
+    "accession": "P11166",
+    "sha256": "b9130b3b45310bae2a8329cdfcc1fd2262e21c6085a3c174261433bf25f4f38b",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC2A3",
+    "status": "DONE",
+    "accession": "P11169",
+    "sha256": "bd8c7a4147f940f58dbd4ee01be148ddab0bb716d3b4eeffcee50571381424e6",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "AKR7A2",
+    "status": "DONE",
+    "accession": "O43488",
+    "sha256": "4b35f38872ddbe43cf125ac59bdf254ef7c43464a1ded8e2da08085b01039692",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "AKR7A3",
+    "status": "DONE",
+    "accession": "O95154",
+    "sha256": "6629881a559e23a2c2eecc8026bd795aefe717df34ffe565a9a1cde3d6f4221d",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "ADHFE1",
+    "status": "DONE",
+    "accession": "Q8IWW8",
+    "sha256": "472f70605593f37012a8f14297d04f24aad5e9074db66eac8a06a2c313220838",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "PNP",
+    "status": "DONE",
+    "accession": "P00491",
+    "sha256": "edfd3452bbd08051875823409c653ee508b03f5f7d10506733af3290a01c1411",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "NT5C2",
+    "status": "DONE",
+    "accession": "P49902",
+    "sha256": "0bd1ffab795560ce4c3eade4a0fcc31d94e572adb36a280b735d76327d1f48a3",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADHTKD1+OR+gene_exact%3AGCK+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3ASLC2A1+OR+gene_exact%3ASLC2A3+OR+gene_exact%3AAKR7A2+OR+gene_exact%3AAKR7A3+OR+gene_exact%3AADHFE1+OR+gene_exact%3APNP+OR+gene_exact%3ANT5C2%29&format=json&size=500"
+  },
+  {
+    "gene": "NT5C1A",
+    "status": "DONE",
+    "accession": "Q9BXI3",
+    "sha256": "15aa11e0dbf0ffd0933e230e5a404e9217b574a9261eafbf32cbecd561633ff6",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "CTBS",
+    "status": "DONE",
+    "accession": "Q01459",
+    "sha256": "eee47026992593d62cb701cd49fc4765b5110edf6d5fa3285563204975f83833",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "GNPNAT1",
+    "status": "DONE",
+    "accession": "Q96EK6",
+    "sha256": "d44ec72a536530dbb071f154ae86f5604df542f14be1163416903cdc54bdade1",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "GLYCTK",
+    "status": "DONE",
+    "accession": "Q8IVS8",
+    "sha256": "bcebb2913fe5fa8c1ae462e4f838ae8421bec1a087f9d45f835f592be451f235",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "SHMT1",
+    "status": "DONE",
+    "accession": "P34896",
+    "sha256": "6550f8e3a085b1c6a2e5c1ab1bc9e78ab443f89c491dad8aef18387bc9a08888",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "SHMT2",
+    "status": "DONE",
+    "accession": "P34897",
+    "sha256": "3bc3eb9a541c528c7cb3ad986052d47d784d8452c35739f20304016454d8e8e5",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "SDS",
+    "status": "DONE",
+    "accession": "P20132",
+    "sha256": "4d526b3808f1c67242bcab9910edb1e395a422f74308dfd17aa359d6719926aa",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "SDSL",
+    "status": "DONE",
+    "accession": "Q96GA7",
+    "sha256": "743589128f6d9b04c5cf45bea02c83fccacc7a128e5aba0276162ccfcc91d148",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "GCAT",
+    "status": "DONE",
+    "accession": "O75600",
+    "sha256": "206ac2e069a741d82701f55923e099bb8213582dcd736737a988245b293bbf4d",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "GGT1",
+    "status": "DONE",
+    "accession": "P19440",
+    "sha256": "9ad8a7e8614db1c9edfd2e9a2c953084515baded486674a415fa5f84a4d388ba",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "GGT5",
+    "status": "DONE",
+    "accession": "P36269",
+    "sha256": "df18eed4156f4bc8386e7e7938e722924ecd540826d8ce6127df24ead5314584",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "GDPD1",
+    "status": "DONE",
+    "accession": "Q8N9F7",
+    "sha256": "fb2a8c8819c347871eaed38fee863538b8d9b45afbcedce448f31d0d18e94a4a",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANT5C1A+OR+gene_exact%3ACTBS+OR+gene_exact%3AGNPNAT1+OR+gene_exact%3AGLYCTK+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3AGCAT+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGDPD1%29&format=json&size=500"
+  },
+  {
+    "gene": "GDPD3",
+    "status": "DONE",
+    "accession": "Q7L5L3",
+    "sha256": "0407d98588f60facb22a93f3bebc0c0df11c98ea86ff37877d4906ed5d4ed9bb",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "ETNPPL",
+    "status": "DONE",
+    "accession": "Q8TBG4",
+    "sha256": "2ebc7cc34e2670b8117e8aa77fb7f6fb7a34b5468939a5abf96ae31ffced3143",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "SUGCT",
+    "status": "DONE",
+    "accession": "Q9HAC7",
+    "sha256": "dba90b8e94a59ab872f984b9931304f78d94b12eb4f1ded48bb49348a85da450",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "APRT",
+    "status": "DONE",
+    "accession": "P07741",
+    "sha256": "dcd81c2c68be16c6f8b4528cc524f64d11e460411446d16f50751b99246ca060",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "BCAT1",
+    "status": "DONE",
+    "accession": "P54687",
+    "sha256": "22e25a79ea1d57ff3ed2da12c65cac166db782f7398334c44f152cb8b1aee8b5",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "BCAT2",
+    "status": "DONE",
+    "accession": "O15382",
+    "sha256": "e2557f818ea9c0e8de86e5b768da9ae986215526fce8f7499d475b42e6fe71f0",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "NAGS",
+    "status": "DONE",
+    "accession": "Q8N159",
+    "sha256": "1d1871b4faa8d91802bd74ce48ed9ab5d103803b2923ce1fd6e4e37cc4e7e727",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "ACY1",
+    "status": "DONE",
+    "accession": "Q03154",
+    "sha256": "13c09dc78960ff75247748500fe7b906e7c72aa4d6796bbefe2444d262a0a59f",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "IMPA1",
+    "status": "DONE",
+    "accession": "P29218",
+    "sha256": "e407da29891866b396deeec90dd049ccf4190c5ec5686d775dd3448e1feeb529",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "IMPA2",
+    "status": "DONE",
+    "accession": "O14732",
+    "sha256": "2ce6155b76e71a81ddf452d638c9af86a48764d41e3bbb5fc2cf966a2bc005e5",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "ISYNA1",
+    "status": "DONE",
+    "accession": "Q9NPH2",
+    "sha256": "63b91c58c558d2a820792b868aea2a9d3ed89b1338a3f2d331b0c9dd1db63ecf",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "NUDT5",
+    "status": "DONE",
+    "accession": "Q9UKK9",
+    "sha256": "3b0cf65abf14e7e0d28c85a03a0eb8cc63030129e3d89a373c2caffe8a6345ee",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGDPD3+OR+gene_exact%3AETNPPL+OR+gene_exact%3ASUGCT+OR+gene_exact%3AAPRT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ANAGS+OR+gene_exact%3AACY1+OR+gene_exact%3AIMPA1+OR+gene_exact%3AIMPA2+OR+gene_exact%3AISYNA1+OR+gene_exact%3ANUDT5%29&format=json&size=500"
+  },
+  {
+    "gene": "NUDT9",
+    "status": "DONE",
+    "accession": "Q9BW91",
+    "sha256": "9770623784fa0129c26b9bc7c7583f7e2dcee94ba9b14b2bed8e848da3d83422",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "ADPRH",
+    "status": "DONE",
+    "accession": "P54922",
+    "sha256": "b7eb383892e301f6f0acf3a45a3636853e239aebd33ee3fd8e28f7f69a0f2c4f",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "ADPRHL2",
+    "status": "NEEDS_REVIEW",
+    "exact_primary_hits": 0
+  },
+  {
+    "gene": "GALK2",
+    "status": "DONE",
+    "accession": "Q01415",
+    "sha256": "3d719f3616c5dfe92b4e0fa0d48ae5631769219565bca15663ed776aa9e71a91",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "STS",
+    "status": "DONE",
+    "accession": "P08842",
+    "sha256": "69c61b16ba3cd4caa854a250b676ab727be728163dcfb6255e3f52404366c314",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "SULT2A1",
+    "status": "DONE",
+    "accession": "Q06520",
+    "sha256": "3abaf3621b0c68516b7cc1830b79cb7b6d7cd8b639ee25426397fb3113992044",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "HSD3B7",
+    "status": "DONE",
+    "accession": "Q9H2F3",
+    "sha256": "43b9c5bcdd033ff36626b3a14082661691135cf35466ba53e8e95c3dd4e8e6da",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "CYP7B1",
+    "status": "DONE",
+    "accession": "O75881",
+    "sha256": "50aa093bcd9e81158d41200c9e4a6dbef9e7e8e319d6463b11cad87039ff9522",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "MGLL",
+    "status": "DONE",
+    "accession": "Q99685",
+    "sha256": "61eb68c667472c2b14f5a28067cdf0e7cf8afc7c5d885016bff873dc16e5c56b",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "ABHD6",
+    "status": "DONE",
+    "accession": "Q9BV23",
+    "sha256": "d94f159728b124dbf5af70ef149820508c481daa263289e30c979d77137b1a0f",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "ABHD12",
+    "status": "DONE",
+    "accession": "Q8N2K0",
+    "sha256": "5163a85d1be5b2f48bf056b45a3f0989e89fb88c3c3355a5492d822668c6fbd7",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "ENO1",
+    "status": "DONE",
+    "accession": "P06733",
+    "sha256": "8c862d3030ee908cac5f43d4bf60b9307fbd2cedcd8267d81bbdf206c83d02e7",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANUDT9+OR+gene_exact%3AADPRH+OR+gene_exact%3AADPRHL2+OR+gene_exact%3AGALK2+OR+gene_exact%3ASTS+OR+gene_exact%3ASULT2A1+OR+gene_exact%3AHSD3B7+OR+gene_exact%3ACYP7B1+OR+gene_exact%3AMGLL+OR+gene_exact%3AABHD6+OR+gene_exact%3AABHD12+OR+gene_exact%3AENO1%29&format=json&size=500"
+  },
+  {
+    "gene": "ENO2",
+    "status": "DONE",
+    "accession": "P09104",
+    "sha256": "52aa605103fe9d09dcff338c3420a3713b3bdb50b85cb33d992050214dbc0208",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3APLA2G4A+OR+gene_exact%3APLA2G6+OR+gene_exact%3ACYP27A1+OR+gene_exact%3ADPEP1+OR+gene_exact%3ACNDP2%29&format=json&size=500"
+  },
+  {
+    "gene": "ENO3",
+    "status": "DONE",
+    "accession": "P13929",
+    "sha256": "cb55f3c3c404d1cad5eade405908dc31fa91bda38b7f9fff2939cd902265b50a",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3APLA2G4A+OR+gene_exact%3APLA2G6+OR+gene_exact%3ACYP27A1+OR+gene_exact%3ADPEP1+OR+gene_exact%3ACNDP2%29&format=json&size=500"
+  },
+  {
+    "gene": "PLA2G4A",
+    "status": "DONE",
+    "accession": "P47712",
+    "sha256": "34d9bc404305f245440ea20e5ad8541a8485867d204c055b57e3ed8505427a15",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3APLA2G4A+OR+gene_exact%3APLA2G6+OR+gene_exact%3ACYP27A1+OR+gene_exact%3ADPEP1+OR+gene_exact%3ACNDP2%29&format=json&size=500"
+  },
+  {
+    "gene": "PLA2G6",
+    "status": "DONE",
+    "accession": "O60733",
+    "sha256": "d67dbe99a25aef8f9982da839a884c570f2f77f809579834cd5943368de18c17",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3APLA2G4A+OR+gene_exact%3APLA2G6+OR+gene_exact%3ACYP27A1+OR+gene_exact%3ADPEP1+OR+gene_exact%3ACNDP2%29&format=json&size=500"
+  },
+  {
+    "gene": "CYP27A1",
+    "status": "DONE",
+    "accession": "Q02318",
+    "sha256": "1ee56cfb84c288a3b08b9b7bd5f5a6d4780b08e462b40c7bb851acc1159a25ad",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3APLA2G4A+OR+gene_exact%3APLA2G6+OR+gene_exact%3ACYP27A1+OR+gene_exact%3ADPEP1+OR+gene_exact%3ACNDP2%29&format=json&size=500"
+  },
+  {
+    "gene": "DPEP1",
+    "status": "DONE",
+    "accession": "P16444",
+    "sha256": "32db06184bc90ef4a4af01a3f394e369dcb3e6febbc1f1c24cc968caa184a7a3",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3APLA2G4A+OR+gene_exact%3APLA2G6+OR+gene_exact%3ACYP27A1+OR+gene_exact%3ADPEP1+OR+gene_exact%3ACNDP2%29&format=json&size=500"
+  },
+  {
+    "gene": "CNDP2",
+    "status": "DONE",
+    "accession": "Q96KP4",
+    "sha256": "172033ed9ef33e757fdae198998c1f5108abd3e0ef10dd2139a490bb4bcd04a7",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3APLA2G4A+OR+gene_exact%3APLA2G6+OR+gene_exact%3ACYP27A1+OR+gene_exact%3ADPEP1+OR+gene_exact%3ACNDP2%29&format=json&size=500"
+  },
+  {
+    "gene": "ADPRHL2",
+    "status": "NEEDS_REVIEW",
+    "exact_primary_hits": 0
+  },
+  {
+    "gene": "XDH",
+    "status": "DONE",
+    "accession": "P47989",
+    "sha256": "1a46eaa7d3b6d069ae038f88d8c1f4f459925f4b9a4588fa28f72f3156739f03",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AADPRHL2+OR+gene_exact%3AXDH+OR+gene_exact%3ASLC2A9+OR+gene_exact%3ASLC22A12+OR+gene_exact%3AMGAM+OR+gene_exact%3AGAA+OR+gene_exact%3AAMY1A+OR+gene_exact%3AAMY2A+OR+gene_exact%3ASULT1A1%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC2A9",
+    "status": "DONE",
+    "accession": "Q9NRM0",
+    "sha256": "ae800aa59736d4377f4c1ba1752d1e55339a37a9acf9f31bb93cc5d962772a54",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AADPRHL2+OR+gene_exact%3AXDH+OR+gene_exact%3ASLC2A9+OR+gene_exact%3ASLC22A12+OR+gene_exact%3AMGAM+OR+gene_exact%3AGAA+OR+gene_exact%3AAMY1A+OR+gene_exact%3AAMY2A+OR+gene_exact%3ASULT1A1%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC22A12",
+    "status": "DONE",
+    "accession": "Q96S37",
+    "sha256": "ba6e70c78f23d20c2e33895290d3b3a9a934c64429567b4f43f24bb24bd20324",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AADPRHL2+OR+gene_exact%3AXDH+OR+gene_exact%3ASLC2A9+OR+gene_exact%3ASLC22A12+OR+gene_exact%3AMGAM+OR+gene_exact%3AGAA+OR+gene_exact%3AAMY1A+OR+gene_exact%3AAMY2A+OR+gene_exact%3ASULT1A1%29&format=json&size=500"
+  },
+  {
+    "gene": "MGAM",
+    "status": "DONE",
+    "accession": "O43451",
+    "sha256": "bb61a65df1aeb314fc8c5bc1dafbc3bb0a635f1fd8c5cdbfe6d2d10e61e48a6d",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AADPRHL2+OR+gene_exact%3AXDH+OR+gene_exact%3ASLC2A9+OR+gene_exact%3ASLC22A12+OR+gene_exact%3AMGAM+OR+gene_exact%3AGAA+OR+gene_exact%3AAMY1A+OR+gene_exact%3AAMY2A+OR+gene_exact%3ASULT1A1%29&format=json&size=500"
+  },
+  {
+    "gene": "GAA",
+    "status": "DONE",
+    "accession": "P10253",
+    "sha256": "f6c9f873c6ef783e9dd6a9664fe08176df6bf13c0ebe5c528326b9dc6d35a81f",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AADPRHL2+OR+gene_exact%3AXDH+OR+gene_exact%3ASLC2A9+OR+gene_exact%3ASLC22A12+OR+gene_exact%3AMGAM+OR+gene_exact%3AGAA+OR+gene_exact%3AAMY1A+OR+gene_exact%3AAMY2A+OR+gene_exact%3ASULT1A1%29&format=json&size=500"
+  },
+  {
+    "gene": "AMY1A",
+    "status": "DONE",
+    "accession": "P0DUB6",
+    "sha256": "9e3254fbc317101e844c9019e39082bbba161e9f6c18d5ae53ee40b88331dc70",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AADPRHL2+OR+gene_exact%3AXDH+OR+gene_exact%3ASLC2A9+OR+gene_exact%3ASLC22A12+OR+gene_exact%3AMGAM+OR+gene_exact%3AGAA+OR+gene_exact%3AAMY1A+OR+gene_exact%3AAMY2A+OR+gene_exact%3ASULT1A1%29&format=json&size=500"
+  },
+  {
+    "gene": "AMY2A",
+    "status": "DONE",
+    "accession": "P04746",
+    "sha256": "77bb4f198cae8508e0b0658238b26e477de497b52dd596f1a7a95ab504d58a97",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AADPRHL2+OR+gene_exact%3AXDH+OR+gene_exact%3ASLC2A9+OR+gene_exact%3ASLC22A12+OR+gene_exact%3AMGAM+OR+gene_exact%3AGAA+OR+gene_exact%3AAMY1A+OR+gene_exact%3AAMY2A+OR+gene_exact%3ASULT1A1%29&format=json&size=500"
+  },
+  {
+    "gene": "SULT1A1",
+    "status": "DONE",
+    "accession": "P50225",
+    "sha256": "571757dce82bb1d0dc6131da9bb1dfc950d1dbbc6ad6cc165073e51940d702e2",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AADPRHL2+OR+gene_exact%3AXDH+OR+gene_exact%3ASLC2A9+OR+gene_exact%3ASLC22A12+OR+gene_exact%3AMGAM+OR+gene_exact%3AGAA+OR+gene_exact%3AAMY1A+OR+gene_exact%3AAMY2A+OR+gene_exact%3ASULT1A1%29&format=json&size=500"
+  },
+  {
+    "gene": "HPRT1",
+    "status": "DONE",
+    "accession": "P00492",
+    "sha256": "e354d7c8940b18357e1794e9b5fe9b326ef79e748104efa78a6163e433e46e1f",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC29A2",
+    "status": "DONE",
+    "accession": "Q14542",
+    "sha256": "2ec692aa6f82a6a769f21ef9cab6077e7ab1b73759dc5ad246465ab0fe5c5396",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "DPYD",
+    "status": "DONE",
+    "accession": "Q12882",
+    "sha256": "f9fa0e8aca1fd2198664346fd41a56afd1a3136150edf577ad90c396e872d4dd",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "UPP1",
+    "status": "DONE",
+    "accession": "Q16831",
+    "sha256": "33d7ca2bb96c81e73a378b9a2929cfaf24c9d9897ec20f91e8637d4afa53d63e",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "UPP2",
+    "status": "DONE",
+    "accession": "O95045",
+    "sha256": "df70ce1b442aac1e71eb0d5a9aec3dfa1c89e7607f882f4adb893bd1b73f3b1f",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "NAGK",
+    "status": "DONE",
+    "accession": "Q9UJ70",
+    "sha256": "874aedd80999f7bdb522b40eafaf5931bdc2685c27b43be99ee868040b7234cd",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "FOLH1",
+    "status": "DONE",
+    "accession": "Q04609",
+    "sha256": "c35041046bc9611a90020c4c6c2938d68d23123d478e6cac9e0270073370170d",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "ADA",
+    "status": "DONE",
+    "accession": "P00813",
+    "sha256": "f5828f31c4a34c071281e328e1f3460a629f3ef1e1adb0f6ddc460d26ecf5e89",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "ADA2",
+    "status": "DONE",
+    "accession": "Q9NZK5",
+    "sha256": "38e2e599214e2d88b3635a3bf318a60b85a5afd00dddd44e71807f8064f7558c",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "ARG1",
+    "status": "DONE",
+    "accession": "P05089",
+    "sha256": "2a23e0e9bfd57e2eaca3b3b50f0b73a0650cf1caebf9ac67fcdef25938bbb8af",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "ARG2",
+    "status": "DONE",
+    "accession": "P78540",
+    "sha256": "b8f295fde9a183def5b7c30fb1e040bc0cbc307602063e2451f11950bd2e8751",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "OAT",
+    "status": "DONE",
+    "accession": "P04181",
+    "sha256": "404d182f1fdc7e13ddf483de8ac64f02523b4a6c1d2845f01ab4bbed78ed35b5",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHPRT1+OR+gene_exact%3ASLC29A2+OR+gene_exact%3ADPYD+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3ANAGK+OR+gene_exact%3AFOLH1+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AOAT%29&format=json&size=500"
+  },
+  {
+    "gene": "ODC1",
+    "status": "DONE",
+    "accession": "P11926",
+    "sha256": "86402b1ee36c8e0e01101537cc26cf4b3cdc5f42339832634f7d249f41f7832a",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "OTC",
+    "status": "DONE",
+    "accession": "P00480",
+    "sha256": "b624996f8aba6d15c8ffb7d6eaee4cf5d7493b9d980a44e7c6a8957c0bc8b086",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "SOAT1",
+    "status": "DONE",
+    "accession": "P35610",
+    "sha256": "340fa0f1ceb42a51c28bc88c487da6a650800df8e146674f25813985ece2a0bf",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "SOAT2",
+    "status": "DONE",
+    "accession": "O75908",
+    "sha256": "b018368a29ee76d19225910da34d465ff0e18e307809c1574d858833e7a12880",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "CRAT",
+    "status": "DONE",
+    "accession": "P43155",
+    "sha256": "56677ee763c12aa1d46128a77f854e9d6e3482211c4b64a0ad479513a40b148b",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "CTNS",
+    "status": "DONE",
+    "accession": "O60931",
+    "sha256": "31aa786d23e419e61f359cae2b0c2214eeba893632210622adac083e4007b561",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC7A11",
+    "status": "DONE",
+    "accession": "Q9UPY5",
+    "sha256": "13018fa2d50b712e5f3b8bcc2161c291859ef96a209d4f62f21c364a3b15037c",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "AHCY",
+    "status": "DONE",
+    "accession": "P23526",
+    "sha256": "744da062f3b7abbb5e56df11127400d66442127bc0ecdd5ccfb8941f349db733",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "CPT1A",
+    "status": "DONE",
+    "accession": "P50416",
+    "sha256": "9a543b4b173c83fda8fb482a0f3029669f4e06c99a098e17273bebde68083974",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "CPT1B",
+    "status": "DONE",
+    "accession": "Q92523",
+    "sha256": "45c3067e94e586124a548431788b1e744f2819cf846dd25fc99e80d4918b7f34",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "CPT2",
+    "status": "DONE",
+    "accession": "P23786",
+    "sha256": "cc6e2e0706d562e990a114a74410a4dcce2fda5785396e8a2c3695154c13157d",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC25A20",
+    "status": "DONE",
+    "accession": "O43772",
+    "sha256": "44005ae5469b20ecffc2394426e169518690159fb0e6bd640bf4f4df755ff95d",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AODC1+OR+gene_exact%3AOTC+OR+gene_exact%3ASOAT1+OR+gene_exact%3ASOAT2+OR+gene_exact%3ACRAT+OR+gene_exact%3ACTNS+OR+gene_exact%3ASLC7A11+OR+gene_exact%3AAHCY+OR+gene_exact%3ACPT1A+OR+gene_exact%3ACPT1B+OR+gene_exact%3ACPT2+OR+gene_exact%3ASLC25A20%29&format=json&size=500"
+  },
+  {
+    "gene": "CKB",
+    "status": "DONE",
+    "accession": "P12277",
+    "sha256": "ebfe055e44f116d86a1eaf907defe7e4f1eb50ab92081df170099e0b28031986",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "CKM",
+    "status": "DONE",
+    "accession": "P06732",
+    "sha256": "39ee970a629532b73bbe229fd847343a5118765e7e263d29fc489149f8f5e5d8",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "GAMT",
+    "status": "DONE",
+    "accession": "Q14353",
+    "sha256": "30ca886cdffea50a7bde688a5760610321ee23c39c8ba1923922b7ea739178db",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC6A8",
+    "status": "DONE",
+    "accession": "P48029",
+    "sha256": "bb075b7598d4fb30df7a81764eeb8167c3f460d80765ed3f4c988c6c26e7f2a3",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "CDO1",
+    "status": "DONE",
+    "accession": "Q16878",
+    "sha256": "c0c98e89271d9bc4267f34427129c018a67bf827ba2707e27c37bb2aed6f68fb",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC6A6",
+    "status": "DONE",
+    "accession": "P31641",
+    "sha256": "796ac648e554e0d3c1ccbbea4c4e09e78d148312c3ad07e2b4632ff0b5f53a92",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "ACSL1",
+    "status": "DONE",
+    "accession": "P33121",
+    "sha256": "603caa43f7dbc0649a6be386c56fff61e7d3ea94fef1c76f9a9630865ff53d13",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "ACSL3",
+    "status": "DONE",
+    "accession": "O95573",
+    "sha256": "ad1407b87c8af5331fa2bd6ad71b6e3a7b225cae4b9f7d91305e08f9f6e5d0ba",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "ACSL5",
+    "status": "DONE",
+    "accession": "Q9ULC5",
+    "sha256": "f82ac3579838f3a65fe09130f2e9cfa7ee2e0dc4b4653dce42bd3559a2dcb8c5",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "LYPLA1",
+    "status": "DONE",
+    "accession": "O75608",
+    "sha256": "4571e9bc0d3cb4c115146bef1f57e216ff85a19c86c088b7dd610f7eef085dda",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "PEPD",
+    "status": "DONE",
+    "accession": "P12955",
+    "sha256": "b857f608dd24227ba7b1dbff3bf7a340632d5cf0af76fa72bceb29a17cf3f555",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC22A2",
+    "status": "DONE",
+    "accession": "O15244",
+    "sha256": "8fb836dfd5856317c2242f8b20c872d99cc55adb0f68ca41052f5be7c0a75cb3",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3AGAMT+OR+gene_exact%3ASLC6A8+OR+gene_exact%3ACDO1+OR+gene_exact%3ASLC6A6+OR+gene_exact%3AACSL1+OR+gene_exact%3AACSL3+OR+gene_exact%3AACSL5+OR+gene_exact%3ALYPLA1+OR+gene_exact%3APEPD+OR+gene_exact%3ASLC22A2%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC47A1",
+    "status": "DONE",
+    "accession": "Q96FL8",
+    "sha256": "252535805b0abfb0eb69f756d93a2eaaf1af22c8391f723888a9ecb22e998e52",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ASLC47A1+OR+gene_exact%3ASLC47A2+OR+gene_exact%3AASNS+OR+gene_exact%3AGLS+OR+gene_exact%3AGLS2+OR+gene_exact%3AGLUL%29&format=json&size=500"
+  },
+  {
+    "gene": "SLC47A2",
+    "status": "DONE",
+    "accession": "Q86VL8",
+    "sha256": "aab9cc4e29c5f7dbf213c0a6565cd4239eb00e283276af64d5aac9bd00b65c02",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ASLC47A1+OR+gene_exact%3ASLC47A2+OR+gene_exact%3AASNS+OR+gene_exact%3AGLS+OR+gene_exact%3AGLS2+OR+gene_exact%3AGLUL%29&format=json&size=500"
+  },
+  {
+    "gene": "ASNS",
+    "status": "DONE",
+    "accession": "P08243",
+    "sha256": "f872e580cb90a1343d5fd0df343ee95482bacec487a21225276f3f561babd100",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ASLC47A1+OR+gene_exact%3ASLC47A2+OR+gene_exact%3AASNS+OR+gene_exact%3AGLS+OR+gene_exact%3AGLS2+OR+gene_exact%3AGLUL%29&format=json&size=500"
+  },
+  {
+    "gene": "GLS",
+    "status": "DONE",
+    "accession": "O94925",
+    "sha256": "fa39f1b239b6350574fd05bcd69125eb4bd2082fe8fecce4b8ccf349bb801e39",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ASLC47A1+OR+gene_exact%3ASLC47A2+OR+gene_exact%3AASNS+OR+gene_exact%3AGLS+OR+gene_exact%3AGLS2+OR+gene_exact%3AGLUL%29&format=json&size=500"
+  },
+  {
+    "gene": "GLS2",
+    "status": "DONE",
+    "accession": "Q9UI32",
+    "sha256": "2f232ff7bd08783e2db21ad075daaba952bcba5a131748d80fe113ef3247fbcc",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ASLC47A1+OR+gene_exact%3ASLC47A2+OR+gene_exact%3AASNS+OR+gene_exact%3AGLS+OR+gene_exact%3AGLS2+OR+gene_exact%3AGLUL%29&format=json&size=500"
+  },
+  {
+    "gene": "GLUL",
+    "status": "DONE",
+    "accession": "P15104",
+    "sha256": "c7374e968825755d47c8680fddf58d9c0326a3be8a338d26026c5d9e2d4c122c",
+    "release": "2026_03",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ASLC47A1+OR+gene_exact%3ASLC47A2+OR+gene_exact%3AASNS+OR+gene_exact%3AGLS+OR+gene_exact%3AGLS2+OR+gene_exact%3AGLUL%29&format=json&size=500"
+  }
+]
