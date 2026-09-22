@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "all722_internal_rows_and_columns_unchanged_after_scRNA_append": true,
+  "all715_relation_source_joins_match_gene_source_table": true,
+  "source_numeric_csv_roundtrip_tolerance": 1e-12,
+  "max_observed_source_numeric_abs_delta": 8.881784197001252e-16,
+  "unresolved_features_retained": 7,
+  "source_gene_count": 538,
+  "all51_nominal_not_FDR_supported": true,
+  "candidate_class_counts_reconciled": true
+}

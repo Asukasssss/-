@@ -30,4 +30,6 @@ A：DIRECT、R-strong、可用性可计算、RNA背景可计算、稳定来源�
 
 实现细化（新关联结果读取前）：D的数据不足也包括配对代谢物双方原有值子集不可评估，或该子集均值差方向与主分析相反。不会因配对RNA差异不显著归D。类别按关系逐行记录，同一基因在不同代谢物关系中可以不同。
 
+来源术语细化（单细胞v2结果读取前，阈值不变）：B的实现为稳定的非Epithelial/Ductal来源，报告应称“组织组成/微环境背景候选”。Acinar和Endocrine仍属于胰腺上皮实质，不能因归B称为非上皮或免疫/间质；另列source_context说明。A的Epithelial/Ductal也不等于已经CNV确认恶性。
+
 产物 candidate_pre_scRNA.tsv 和 candidate_scRNA_appended.tsv 包括全部关系和未映射特征占位。功能/外部 matched-omics 后置，明确 NOT_RUN，不以三套表达定位冒充同一关系外部复现。

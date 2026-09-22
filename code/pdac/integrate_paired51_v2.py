@@ -31,7 +31,7 @@ def main():
  pre=pd.DataFrame(rows);assert len(pre)==722 and pre.metabolite_name.nunique()==51 and pre.relation_id.is_unique
  # Both invocations construct exactly the same pre-scRNA table; reject unintended drift.
  path=out/'candidate_pre_scRNA.tsv'
- if path.exists():assert path.read_text(encoding='utf-8')==pre.to_csv(sep='\t',index=False,na_rep='NA'), 'Pre-scRNA content changed'
+ if path.exists():assert path.read_bytes()==pre.to_csv(sep='\t',index=False,na_rep='NA').encode('utf-8'), 'Pre-scRNA content changed'
  else:write(path,pre)
  if args.append_sc:
   sc=pd.read_csv(SC/'cross_cohort_source.tsv',sep='\t');assert sc.gene.is_unique and set(sc.gene)==set(planned.gene);merged=pre.merge(sc,on='gene',how='left',validate='many_to_one');grades=[];reasons=[]
@@ -50,8 +50,10 @@ def main():
    elif r.relation_label=='R-strong' and r.stable_source==True:grade='A' if r.consensus_top=='Epithelial/Ductal' else 'B';reason=['EXPLORATORY_INTERNAL_PRIORITY;NOT_EXTERNAL_VALIDATION']
    else:grade='C';reason=['BIOCHEMICAL_CANDIDATE_RETAINED',r.relation_label,'STABLE_SOURCE' if r.stable_source==True else 'SOURCE_UNSTABLE_OR_COHORT_DEPENDENT']
    grades.append(grade);reasons.append(';'.join(reason))
-  merged['candidate_class']=grades;merged['class_reason']=reasons;merged['exact_relation_external_validation']='NOT_PERFORMED';merged['functional_perturbation']='NOT_PERFORMED';write(out/'candidate_scRNA_appended.tsv',merged)
-  summary={'metabolites':51,'relations':715,'unresolved_feature_rows':7,'genes':538,'rows':722,'relation_labels':pre.relation_label.value_counts().to_dict(),'candidate_classes':merged.candidate_class.value_counts().to_dict(),'candidate_class_scope':'Relation rows plus7 unresolved placeholders;not gene counts','all_metabolites_nominal_exploratory':True}
+  merged['candidate_class']=grades;merged['class_reason']=reasons
+  merged['source_context']=merged.consensus_top.map(lambda x:'PANCREATIC_PARENCHYMAL_BACKGROUND_NOT_MALIGNANCY_PROOF' if x in ['Acinar','Endocrine'] else 'EPITHELIAL_DUCTAL_AUTHOR_LABEL_NOT_MALIGNANCY_PROOF' if x=='Epithelial/Ductal' else 'MICROENVIRONMENT_OR_OTHER_CELL_BACKGROUND' if pd.notna(x) and x!='COHORT_DEPENDENT_OR_NOT_EVALUABLE' else 'COHORT_DEPENDENT_OR_NOT_EVALUABLE')
+  merged['exact_relation_external_validation']='NOT_PERFORMED';merged['functional_perturbation']='NOT_PERFORMED';write(out/'candidate_scRNA_appended.tsv',merged)
+  summary={'metabolites':51,'relations':715,'unresolved_feature_rows':7,'genes':538,'rows':722,'relation_labels':pre.relation_label.value_counts().to_dict(),'candidate_classes':{k:int((merged.candidate_class==k).sum()) for k in ['A','B','C','D']},'candidate_class_scope':'Relation rows plus7 unresolved placeholders;not gene counts','all_metabolites_nominal_exploratory':True}
   (out/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
   (out/'validation.json').write_text(json.dumps({'status':'PASS','all51_metabolites_retained':True,'all715_relations_retained':True,'all538_genes_appended':True,'pre_scRNA_unchanged_after_append':True,'no_significance_gate':True,'external_validation':'NOT_PERFORMED'},indent=2)+'\n')
  else:print('pre_scRNA ready',len(pre),'rows;all538 genes',flush=True)
