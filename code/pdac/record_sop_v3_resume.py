@@ -12,7 +12,11 @@ INTEGRATION=ROOT/'07_INTEGRATION/20260922T121100Z_sop_v3_integrated'
 PRE_ROOT=ROOT/'01_CAMP/20260922T112500Z_sop_v3_discovery'
 MAP=ROOT/'02_MAPPING/20260922T112600Z_sop_v3_mapping'
 
-def read(p):return pd.read_csv(p,sep='\t')
+def read(p):
+    if p.name=='sc_celltype_profiles.tsv' and not p.exists():
+        parts=pd.read_csv(p.parent/'sc_celltype_profile_parts.tsv',sep='\t')
+        return pd.concat([pd.read_csv(p.parent/f,sep='\t') for f in parts.file],ignore_index=True)
+    return pd.read_csv(p,sep='\t')
 def write(path,df):
     template=TEMPLATES/path.name
     if template.exists():
