@@ -108,8 +108,9 @@ def paired_stats(delta, family, key):
 
 def audit(out, commit):
     out.resolve().relative_to(ROOT/'results/collaborative/PRAD/B')
-    out.mkdir(parents=True,exist_ok=False)
-    (out/'.running').write_text(V)
+    out.mkdir(parents=True,exist_ok=True)
+    assert not (out/'public').exists() and not (out/'private').exists()
+    with (out/'.running').open('x') as lock: lock.write(V)
     for p in ['source','private','public/01_CAMP']: (out/p).mkdir(parents=True,exist_ok=True)
     pub=out/'public/01_CAMP'
     source=out/'source/PRAD_original.xlsx'
