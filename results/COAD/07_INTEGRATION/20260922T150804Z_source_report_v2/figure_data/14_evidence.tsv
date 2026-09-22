@@ -1,0 +1,11 @@
+gene	relation_id	代谢物	内部相关	相关敏感性	配对RNA
+BCAT2	COAD|isoleucine|KEGG:C00407|hsa:587	q<0.05	仅P<0.05	仅P<0.05	q<0.05
+AQP9	COAD|adenine|KEGG:C00147|hsa:366	q<0.05	仅P<0.05	仅P<0.05	q<0.05
+NNMT	COAD|1-methylnicotinamide|KEGG:C02918|hsa:4837	q<0.05	仅P<0.05	仅P<0.05	P>=0.05
+HDC	COAD|histamine|KEGG:C00388|hsa:3067	q<0.05	仅P<0.05	仅P<0.05	q<0.05
+GSTA4	COAD|glutathione, reduced (GSH)|KEGG:C00051|hsa:2941	q<0.05	仅P<0.05	仅P<0.05	P>=0.05
+UCKL1	COAD|uridine|KEGG:C00299|hsa:54963	q<0.05	仅P<0.05	仅P<0.05	q<0.05
+SLC38A3	COAD|asparagine|KEGG:C00152|hsa:10991	q<0.05	仅P<0.05	仅P<0.05	q<0.05
+SLC6A6	COAD|taurine|KEGG:C00245|hsa:6533	q<0.05	仅P<0.05	仅P<0.05	q<0.05
+OPLAH	COAD|5-oxoproline|KEGG:C01879|hsa:26873	q<0.05	P>=0.05	P>=0.05	仅P<0.05
+GSTA1	COAD|glutathione, reduced (GSH)|KEGG:C00051|hsa:2938	q<0.05	不可评估	不可评估	不可评估

@@ -1,0 +1,305 @@
+{
+  "cancer": "COAD",
+  "cohort": "CAMP_COAD",
+  "input_commit": "3c64c24ec171b2753b0226fdd5aafb7766e45b00",
+  "protocol_commit": "45c6ae9ab489a9bd4ead4e47d28185785a448156",
+  "expected": {
+    "metabolites": 159,
+    "workpool": 101,
+    "relations": 891,
+    "genes": 811,
+    "current_genes": 526
+  },
+  "files": {
+    "statistics": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/statistics_long.tsv",
+    "genes": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/candidate_genes.tsv",
+    "reader": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/candidate_genes_reader.tsv",
+    "relations": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/candidate_relations.tsv",
+    "mapping": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/metabolite_mapping_status.tsv",
+    "rna": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/rna_results.tsv",
+    "all_relation_history": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/all_relation_history.tsv",
+    "progress_summary": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/progress_summary.tsv",
+    "Lee_profiles": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/Lee_sc_celltype_profiles.tsv",
+    "Uhlitz_profiles": "results/COAD/07_INTEGRATION/20260922T151000Z_source_contract_integration_v2/Uhlitz_sc_celltype_profiles.tsv",
+    "metabolites": "results/COAD/04_ROBUSTNESS/20260922T143500Z_metabolite_descriptors_v2/metabolite_results.tsv",
+    "association": "results/COAD/03_PATIENT/20260922T135816Z_source_contract_patient_v2/association_results.tsv",
+    "gene_membership": "results/COAD/03_PATIENT/20260922T135816Z_source_contract_patient_v2/gene_membership.tsv",
+    "Lee_stability": "results/COAD/06_EXTERNAL/20260922T141755Z_source_contract_sc_v2/Lee_source_status.tsv",
+    "Uhlitz_stability": "results/COAD/06_EXTERNAL/20260922T141755Z_source_contract_sc_v2/Uhlitz_source_status.tsv",
+    "sc_cross_study": "results/COAD/06_EXTERNAL/20260922T141755Z_source_contract_sc_v2/sc_cross_study.tsv",
+    "sc_feature_coverage": "results/COAD/06_EXTERNAL/20260922T141755Z_source_contract_sc_v2/Lee_feature_coverage.tsv"
+  },
+  "columns": {
+    "gene": "gene",
+    "relation_id": "relation_id",
+    "metabolite_id": "metabolite_key",
+    "metabolite_name": "metabolite_name",
+    "effect": "effect",
+    "p": "p_value",
+    "q": "q_value",
+    "status": "status",
+    "n": "n",
+    "analysis": "analysis_type"
+  },
+  "families": {
+    "metabolite_primary": "metabolite_primary",
+    "metabolite_sensitivity": "metabolite_available",
+    "association_primary": "association_primary",
+    "association_sensitivity": "association_available"
+  },
+  "sc": {
+    "profile_sources": [
+      "Lee_profiles",
+      "Uhlitz_profiles"
+    ],
+    "stability_sources": [
+      "Lee_stability",
+      "Uhlitz_stability"
+    ],
+    "partition": "ALL",
+    "cohorts": [
+      "Lee",
+      "Uhlitz"
+    ],
+    "celltypes": [
+      "Epithelial cells",
+      "Stromal cells",
+      "Myeloids",
+      "T cells",
+      "B cells",
+      "Mast cells",
+      "Epithelial",
+      "Fibroblast",
+      "Endothelial",
+      "Pericytes",
+      "Glia",
+      "Monocyte",
+      "Tcells",
+      "Bcells",
+      "Plasma",
+      "Mast"
+    ],
+    "labels": {
+      "Epithelial cells": "上皮",
+      "Stromal cells": "基质",
+      "Myeloids": "髓系",
+      "T cells": "T细胞",
+      "B cells": "B细胞",
+      "Mast cells": "肥大细胞",
+      "Epithelial": "上皮",
+      "Fibroblast": "成纤维",
+      "Endothelial": "内皮",
+      "Pericytes": "周细胞",
+      "Glia": "胶质",
+      "Monocyte": "单核",
+      "Tcells": "T细胞",
+      "Bcells": "B细胞",
+      "Plasma": "浆细胞",
+      "Mast": "肥大细胞"
+    },
+    "partition_field": "partition",
+    "cohort_field": "cohort",
+    "type_field": "celltype",
+    "detection_field": "mean_detection_fraction",
+    "stability_top_field": "top_lineage",
+    "stability_max_detection": "max_detection",
+    "heatmap_page_rows": 26
+  },
+  "subtypes": [],
+  "subtype_examples": [],
+  "examples": [
+    {
+      "gene": "BCAT2",
+      "relation_id": "COAD|isoleucine|KEGG:C00407|hsa:587",
+      "role": "历史名义关联",
+      "reason": "历史名义关联；按证据类型展示，不按q排名",
+      "limitation": "两研究原类别不同，不能指定唯一来源"
+    },
+    {
+      "gene": "AQP9",
+      "relation_id": "COAD|adenine|KEGG:C00147|hsa:366",
+      "role": "髓系背景",
+      "reason": "髓系背景；按证据类型展示，不按q排名",
+      "limitation": "单核与宽髓系不是完全相同亚型"
+    },
+    {
+      "gene": "NNMT",
+      "relation_id": "COAD|1-methylnicotinamide|KEGG:C02918|hsa:4837",
+      "role": "基质背景",
+      "reason": "基质背景；按证据类型展示，不按q排名",
+      "limitation": "RNA配对未通过FDR；不是机制证明"
+    },
+    {
+      "gene": "HDC",
+      "relation_id": "COAD|histamine|KEGG:C00388|hsa:3067",
+      "role": "覆盖边界",
+      "reason": "覆盖边界；按证据类型展示，不按q排名",
+      "limitation": "Uhlitz肥大细胞明确；Lee暂不可定位"
+    },
+    {
+      "gene": "GSTA4",
+      "relation_id": "COAD|glutathione, reduced (GSH)|KEGG:C00051|hsa:2941",
+      "role": "来源稳定性",
+      "reason": "来源稳定性；按证据类型展示，不按q排名",
+      "limitation": "Uhlitz最高类别保持率约60%，来源不唯一"
+    },
+    {
+      "gene": "UCKL1",
+      "relation_id": "COAD|uridine|KEGG:C00299|hsa:54963",
+      "role": "上皮背景",
+      "reason": "上皮背景；按证据类型展示，不按q排名",
+      "limitation": "RNA与来源不能证明尿苷介导"
+    },
+    {
+      "gene": "SLC38A3",
+      "relation_id": "COAD|asparagine|KEGG:C00152|hsa:10991",
+      "role": "低检出示例",
+      "reason": "低检出示例；按证据类型展示，不按q排名",
+      "limitation": "两研究低于定位检出门槛"
+    },
+    {
+      "gene": "SLC6A6",
+      "relation_id": "COAD|taurine|KEGG:C00245|hsa:6533",
+      "role": "多来源背景",
+      "reason": "多来源背景；按证据类型展示，不按q排名",
+      "limitation": "保留研究和类别差异"
+    },
+    {
+      "gene": "OPLAH",
+      "relation_id": "COAD|5-oxoproline|KEGG:C01879|hsa:26873",
+      "role": "新增未支持关系",
+      "reason": "新增未支持关系；按证据类型展示，不按q排名",
+      "limitation": "相关P约0.79，仍保留来源分析"
+    },
+    {
+      "gene": "GSTA1",
+      "relation_id": "COAD|glutathione, reduced (GSH)|KEGG:C00051|hsa:2938",
+      "role": "RNA缺项",
+      "reason": "RNA缺项；按证据类型展示，不按q排名",
+      "limitation": "当前RNA行未找到，关联不可评估"
+    }
+  ],
+  "design": [
+    {
+      "label": "主分析患者",
+      "value": 33
+    },
+    {
+      "label": "同患者配对",
+      "value": 33
+    },
+    {
+      "label": "配对组织标本",
+      "value": 66
+    },
+    {
+      "label": "当前直接关系",
+      "value": 891
+    }
+  ],
+  "design_source": "results/COAD/03_PATIENT/20260922T135816Z_source_contract_patient_v2/README_CN.md",
+  "mapping_labels": {
+    "HAS_DIRECT_RELATIONS": "有直接关系",
+    "CONDITIONAL_IDENTITY": "身份暂挂",
+    "NO_DIRECT_HIT_IN_SCOPED_SEARCH": "本轮无直接支持",
+    "CONDITIONAL_RELATIONS_ONLY": "仅条件关系"
+  },
+  "font_candidates": [
+    "C:/Windows/Fonts/msyh.ttc",
+    "C:/Windows/Fonts/simhei.ttf",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
+  ],
+  "modules": {
+    "rna": true,
+    "subtypes": false,
+    "single_cell": true
+  },
+  "assets": [],
+  "narratives": {
+    "design": [
+      "哪些测量可以对应？",
+      "33名Ⅰ–Ⅳ期患者，各有肿瘤和自身正常；66个组织标本在两组学按显式标签连接。",
+      "不把66个标本当66名患者，肿瘤内部关联只用33个肿瘤。"
+    ],
+    "metabolites": [
+      "哪些代谢物在患者配对中变化？",
+      "159项全量分析，101项P<0.05，其中94项q<0.05。原P/q保留，图展示新增均值描述。",
+      "原Wilcoxon无连续性校正；均值区间不是其反演区间。作者log底数未核实，不称浓度倍数。"
+    ],
+    "paired_counts": [
+      "有多少患者的配对方向相同？",
+      "比例分母包含相等配对。多数升降是方向描述，不是逐患者显著次数。",
+      "展示的是固定关系示例对应代谢物，完整159项和101项入口均保留。"
+    ],
+    "sensitivity": [
+      "作者表可用值子集怎样变化？",
+      "157项可评估，97项q<0.05；该历史敏感性仍保留固定159项BH。",
+      "作者表有值不是重新核实的质谱检出；不能选择两种分析中更显著的一套。"
+    ],
+    "mapping": [
+      "为什么候选基因较多？",
+      "101项入口中78项有直接关系，形成891关系和526基因。另有15项身份暂挂、2项仅条件关系、6项本轮无直接支持。",
+      "全来源台账811个稳定ID记录，含条件性和历史保留及3个身份待核，不是811个验证靶点。"
+    ],
+    "associations": [
+      "不同肿瘤患者的代谢物与RNA是否相关？",
+      "891计划关系中871项可评估，52项P<0.05、0项q<0.05。595条旧P和效应经哈希及向量核对后复用。",
+      "全部是同CAMP队列探索，尚无新FDR关联或独立代谢验证。"
+    ],
+    "forest": [
+      "相关方向和敏感性是否稳定？",
+      "主分析与可用值分析分别报告效应、区间和n。可用值56项P<0.05，仍无q<0.05。",
+      "展示名义支持、未支持和RNA缺项示例，不形成最终排名。每个区间是逐项区间。"
+    ],
+    "rna": [
+      "同患者RNA是否改变？",
+      "526基因中515项可评估，372项P<0.05、361项q<0.05；11项缺RNA。",
+      "新版为作者log2连续RNA配对t，旧Wilcoxon另存。RNA变化不能替代代谢物关联。"
+    ],
+    "rna_counts": [
+      "RNA配对方向是否一致？",
+      "升、降、相等人数分别保留，每个可评估基因最多33对。",
+      "GSTA1缺RNA，图中不绘制人数；缺测不能画成33对无变化。"
+    ],
+    "dot": [
+      "候选在哪些细胞背景表达？",
+      "Lee与Uhlitz分别有646和642条记录可描述来源。NNMT基质/成纤维背景稳定，HDC仅Uhlitz肥大细胞可定位。",
+      "供者等权log1p(CP10K)，每研究独立色标。低检出、少类别显示暂不可定位。"
+    ],
+    "subtypes": [
+      "能按可靠患者临床分型展示吗？",
+      "本批没有已核实的患者临床分型表。",
+      "细胞表达推断的CMS不替代临床患者分型。"
+    ],
+    "umap": [
+      "是否已有可复用的作者UMAP？",
+      "已准入表达矩阵与注释中未取得可用坐标，改用完整来源表和分页热图。",
+      "不编造坐标，不为每个基因重算嵌入；UMAP模块明确缺项。"
+    ],
+    "evidence": [
+      "不同证据怎样并列？",
+      "代谢物、内部关联、敏感性和RNA各自保留P/q，不机械取全部显著交集。",
+      "条件性映射不因单细胞有表达而升级。来源是RNA背景，不是代谢物产地。"
+    ],
+    "discussion": [
+      "这些结果支持怎样的讨论？",
+      "605项在共同宽类别中均可评估，466项最高类别相同，380项两侧描述性保持率均≥80%。",
+      "宽类别相容不等于相同亚型或机制。单细胞到来源停止，历史功能证据只作索引。"
+    ]
+  },
+  "legacy_source_display_columns": [],
+  "missing_modules": [
+    {
+      "title": "临床分型：暂无适用输入",
+      "reason": "未取得经核实的患者临床分型对应表。",
+      "decision": "保留缺项，不把细胞CMS表达标签当患者分型。",
+      "narrative": "subtypes"
+    },
+    {
+      "title": "UMAP：已准入资料未提供坐标",
+      "reason": "本批计数矩阵和作者注释可用于来源统计，但没有可用坐标。",
+      "decision": "交付全候选供者来源表及分页热图，不生成替代嵌入。",
+      "narrative": "umap"
+    }
+  ]
+}

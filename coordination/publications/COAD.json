@@ -671,6 +671,15 @@
       ],
       "verification": "push and ls-remote exact SHA",
       "merged": false
+    },
+    {
+      "event": "source_contract_sc_and_integration",
+      "verified_commits": [
+        "81a2d0f58099ec9e70240d0c2c5d11bd693e3af4",
+        "3c64c24ec171b2753b0226fdd5aafb7766e45b00"
+      ],
+      "verification": "push and ls-remote exact SHA",
+      "merged": false
     }
   ],
   "preanalysis_verification": {

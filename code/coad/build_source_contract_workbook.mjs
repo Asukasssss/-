@@ -7,7 +7,8 @@ const wb=Workbook.create();
 function letter(n){let s='';while(n){n--;s=String.fromCharCode(65+n%26)+s;n=Math.floor(n/26);}return s;}
 const labels={gene:'基因',human_gene_id:'稳定基因ID',current_direct:'当前直接池',current_conditional:'当前条件池',current_unresolved:'当前未解决',historical_retained:'历史保留',identity_status:'身份状态',RNA_effect:'RNA配对均值差',RNA_p_value:'RNA P值',RNA_q_value:'RNA q值',RNA_status:'RNA状态',Lee_display_top:'Lee来源',Uhlitz_display_top:'Uhlitz来源',Lee_shared_top:'Lee共同类别来源',Uhlitz_shared_top:'Uhlitz共同类别来源',descriptive_stable_concordance:'宽类别描述性稳定一致',counterevidence_or_limit_cn:'反证与限制',metabolite_name:'代谢物',metabolite_key:'代谢物稳定键',effect:'效应',p_value:'P值',q_value:'q值',status:'状态',reason:'原因',n:'实际样本数',cohort:'队列',run_id:'运行版本',analysis_type:'分析类型',celltype:'细胞类别',mean_expression:'供者等权平均表达',mean_detection_fraction:'供者平均检出比例',source_status:'来源状态',display_top:'可解释来源',mechanical_top:'机械最高类别'};
 let index=0;const qa=[];
-for(const [name,data] of Object.entries(payload)){
+for(const [sourceName,data] of Object.entries(payload)){
+ const name=({all_relation_history:'当前与历史全部关系',gene_membership:'候选身份与归属',sc_cross_study:'共同类别来源对照',sc_feature_coverage:'基因测量覆盖',progress_summary:'阶段进度'})[sourceName]||sourceName;
  if(!data.columns.length)continue;
  const s=wb.worksheets.add(name);s.showGridLines=false;
  const rows=data.rows.map(row=>row.map((v,j)=>{

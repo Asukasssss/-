@@ -186,7 +186,7 @@ def build(c,d,z,blobs,manifest,out,config_path):
   for j,(cohort,t) in enumerate(z['rna'].groupby('cohort',sort=False)):
    suff='' if j==0 else '_'+str(j+1)
    save('08_RNA'+suff,'配对RNA：全量效应概览 / '+cohort,t,overview(t,'RNA平均肿瘤−正常差（作者表达尺度）'),'rna',[c['files']['rna']])
-   t1=t[t.gene.isin(names)].set_index('gene').reindex(names).reset_index();t1=t1[t1.status.notna()]
+   t1=t[t.gene.isin(names)].set_index('gene').reindex(names).reset_index();t1=t1[t1.status.eq('DONE')]
    save('09_RNA_counts'+suff,'示例基因：配对RNA方向人数',t1,directions(t1,t1.gene.tolist(),'positive_pairs','negative_pairs','equal_pairs'),'rna_counts',[c['files']['rna']])
  if len(z['profiles']) and c.get('modules',{}).get('single_cell',True):
   sc=c['sc'];labels=sc.get('labels',{});allprofiles=z['profiles'];allprofiles=allprofiles[allprofiles[sc['partition_field']].eq(sc['partition'])]

@@ -1,0 +1,812 @@
+gene	human_gene_id	current_direct	current_conditional	current_unresolved	historical_retained	identity_status	RNA_effect	RNA_p_value	RNA_q_value	RNA_status	Lee_display_top	Uhlitz_display_top	Lee_shared_top	Uhlitz_shared_top	descriptive_stable_concordance	counterevidence_or_limit_cn
+ [hsa:102724197]	hsa:102724197	False	True	True	True	NEEDS_REVIEW	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+AADAT	hsa:51166	True	True	False	True	DONE	1.1175085363728539	0.001700340151651311	0.0034072964128421214	DONE	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+AANAT	hsa:15	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+AASS	hsa:10157	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+ABAT	hsa:18	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+ABCC1	hsa:4363	True	False	False	True	DONE	1.3651875430158649	6.591873045122917e-09	5.066887489907913e-08	DONE	Epithelial cells	Mast	Epithelial	Myeloid	False	NA
+ABCC4	hsa:10257	True	False	False	True	DONE	0.05956491226573652	0.8058023708196562	0.8299764419442459	DONE	Stromal cells	Mast	Stromal	Stromal	True	NA
+ABCC5	hsa:10057	True	False	False	True	DONE	-0.0007380661772739431	0.9955035033809236	0.9955035033809237	DONE	Myeloids	Monocyte	Myeloid	Myeloid	False	NA
+ABCG2	hsa:9429	True	False	False	True	DONE	-2.60010137817878	1.459939757889612e-12	8.354099725701668e-11	DONE	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+ABHD3	hsa:171586	True	True	False	False	DONE	-2.2206971080042504	1.3329370931940458e-11	3.12028455906788e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ACHE	hsa:43	True	False	False	True	DONE	-0.3929465586892317	0.00040427110909394996	0.000933630588266297	DONE	Epithelial cells	Pericytes	Epithelial	Epithelial	True	NA
+ACLY	hsa:47	True	False	False	True	DONE	0.8346034636629339	1.904870464992705e-09	1.7354117342936226e-08	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+ACO1	hsa:48	True	True	True	True	DONE	0.3229016620181968	0.006093948397701947	0.010426523006034891	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+ACO2	hsa:50	True	True	True	True	DONE	-0.9658685023907999	3.2026115883761266e-13	4.123362420034263e-11	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ACOD1	hsa:730249	True	False	False	True	DONE	-0.04860800279189879	0.7773847047992566	0.8102140786288381	DONE	暂不可定位	Monocyte	暂不可定位	Myeloid	False	NA
+ACOT8	hsa:10005	True	True	False	False	DONE	-0.42401262788466365	0.0030340440539112267	0.00568193704641557	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ACSF3	hsa:197322	True	False	False	False	DONE	-0.1819518723915944	0.022946693597778702	0.03425376000827835	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ACYP1	hsa:97	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Epithelial	True	NA
+ACYP2	hsa:98	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Myeloid	False	NA
+ADA	hsa:100	True	False	False	True	DONE	1.0079503918325579	5.008718970357108e-06	1.7312015233113497e-05	DONE	T cells	Endothelial	Tcells	Tcells	True	NA
+ADA2	hsa:51816	True	False	False	True	DONE	-1.346197010958427	6.768294924291729e-06	2.220173175802701e-05	DONE	暂不可定位	Monocyte	暂不可定位	Myeloid	False	NA
+ADHFE1	hsa:137872	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+ADK	hsa:132	True	False	False	True	DONE	0.8471459552545461	1.4682925169209742e-06	5.601264046031865e-06	DONE	Epithelial cells	Bcells	Epithelial	Epithelial	True	NA
+ADO	hsa:84890	True	False	False	True	DONE	0.4494201576402886	1.6747303187575224e-06	6.29551908146076e-06	DONE	Stromal cells	Endothelial	Stromal	Epithelial	False	NA
+ADPGK	hsa:83440	True	False	False	True	DONE	-0.3358698464874487	0.05837387863720241	0.07932070579989246	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+ADPRM	hsa:56985	True	False	False	False	DONE	-0.7151106293542521	5.493980085776564e-07	2.397796393368585e-06	DONE	Stromal cells	Bcells	Stromal	Tcells	False	NA
+ADSL	hsa:158	True	False	False	True	DONE	0.5935027382009846	0.00017016322452918244	0.00042748322259770225	DONE	Stromal cells	暂不可定位	Stromal	暂不可定位	False	NA
+ADSS1	hsa:122622	True	False	False	True	DONE	-1.0857598181051455	3.3703375211422844e-06	1.1970509126815699e-05	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+ADSS2	hsa:159	True	False	False	True	DONE	0.3184567294790425	8.333692588231354e-05	0.00022009495809944347	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	ADSS1、ADSL及其他癌种结果不能替代；未命中不等于无功能
+AFMID	hsa:125061	True	False	False	True	DONE	0.3699361315435083	0.022203488849798822	0.033240688248972076	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+AGMAT	hsa:79814	True	False	False	True	DONE	0.7008241684993027	0.0005802236946511412	0.0012769880459202467	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+AGXT	hsa:189	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+AGXT2	hsa:64902	True	True	False	True	DONE	-0.5258507161057603	0.008169549666468814	0.013571993800746578	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+AHCY	hsa:191	True	False	False	True	DONE	1.7685134055464777	9.617670726045971e-11	1.4151715496896216e-09	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+AHCYL1	hsa:10768	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+AHCYL2	hsa:23382	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+AK3	hsa:50808	True	False	True	True	DONE	-0.35956352317788476	0.0001685730469956809	0.0004255643098175278	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+AK4	hsa:205	True	False	False	False	DONE	0.3312956172160192	0.2044430185075286	0.24773683419147582	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+AK9	hsa:221264	True	False	False	True	DONE	0.7398540321315381	0.00019929260161788236	0.0004910798556612891	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+AKR1A1	hsa:10327	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+ALDH18A1	hsa:5832	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ALDH1B1	hsa:219	True	False	True	True	DONE	0.9472631774997254	6.715363318063219e-05	0.00018202168993697676	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ALDH2	hsa:217	True	False	True	True	DONE	-0.2599015661866819	0.02992912640117825	0.043070625189626	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+ALDH3A1	hsa:218	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ALDH3A2	hsa:224	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ALDH3B1	hsa:221	True	False	True	True	DONE	0.26669579093293194	0.010615149436111998	0.01730000620125848	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+ALDH3B2	hsa:222	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+ALDH4A1	hsa:8659	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+ALDH5A1	hsa:7915	True	False	False	False	DONE	0.3953914076303057	0.06243829298486346	0.08439821755171832	DONE	Epithelial cells	Mast	Epithelial	Epithelial	True	NA
+ALDH7A1	hsa:501	True	False	True	True	DONE	0.4313601777639726	0.0028108090459138943	0.005321936245020792	DONE	Epithelial cells	Fibroblast	Epithelial	Epithelial	False	NA
+ALDH9A1	hsa:223	True	False	True	True	DONE	-0.18170089001615145	0.024456439743678792	0.03616114450828556	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+ALDOA	hsa:226	True	True	False	True	DONE	-0.14069100080492436	0.2851123904680342	0.32996153054165756	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ALDOB	hsa:229	True	True	False	True	DONE	0.6410611745900987	0.3423094794776478	0.38915978351211616	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ALDOC	hsa:230	True	True	False	True	DONE	-0.06400858917556182	0.8303488716575615	0.850158387482394	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+ALG5	hsa:29880	True	False	False	True	DONE	0.7891421580259151	3.62909868443564e-09	3.167772580481957e-08	DONE	Epithelial cells	Plasma	Epithelial	B_lineage	False	NA
+ALLC	hsa:55821	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+AMD1	hsa:262	True	False	False	True	DONE	0.1490055775432366	0.094009148935839	0.12195141486639065	DONE	T cells	Tcells	Tcells	Tcells	True	NA
+AMDHD2	hsa:51005	True	False	False	True	DONE	-0.06588867780186375	0.6701894934711443	0.7175625553797076	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+AMPD1	hsa:270	True	False	False	True	DONE	-3.5266125907601418	1.1787282477798816e-10	1.640662290828754e-09	DONE	B cells	Plasma	B_lineage	B_lineage	True	NA
+AMPD2	hsa:271	True	False	False	True	DONE	1.242645279583471	2.0391225910531917e-12	9.826015681989232e-11	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+AMPD3	hsa:272	True	False	False	True	DONE	0.26429139887951325	0.13608649961403987	0.17052201289837113	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+ANKH	hsa:56172	True	False	False	True	DONE	0.4848351139631685	0.005169253327938222	0.00899481548091141	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+AOC1	hsa:26	True	False	False	True	DONE	-1.8583801028755935	1.5675892971464097e-07	7.993153346835653e-07	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+AOX1	hsa:316	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	暂不可定位	False	NA
+APRT	hsa:353	True	False	False	True	DONE	0.6595148231158245	3.7053843222720493e-09	3.1804548766168426e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+AQP10	hsa:89872	True	False	False	True	DONE	-0.3044461409378309	0.10784200462607701	0.13815580194634244	DONE	暂不可定位	Mast	暂不可定位	暂不可定位	False	NA
+AQP3	hsa:360	True	False	False	True	DONE	-0.32037094663669174	0.31945873957816845	0.3656027797394595	DONE	T cells	Tcells	Tcells	Tcells	True	NA
+AQP7	hsa:364	True	False	False	True	DONE	-1.2929214445908268	9.084144490318064e-06	2.887860748465311e-05	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+AQP9	hsa:366	True	False	False	True	DONE	0.8927933206094316	0.024505319288139146	0.03616114450828556	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	不能据同一基因标签确定统一抑制方向
+ARF1	hsa:375	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+ARF6	hsa:382	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Tcells	Tcells	Tcells	True	NA
+ARG1	hsa:383	True	False	False	True	DONE	-0.5336184485968565	0.012952898902776025	0.020399825489081508	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+ARG2	hsa:384	True	False	False	True	DONE	0.6200198455977343	0.017566590163155957	0.02668670776998619	DONE	Epithelial cells	Mast	Epithelial	Tcells	False	NA
+ARL8B	hsa:55207	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+ASH1L	hsa:55870	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Epithelial	Stromal	Epithelial	False	NA
+ASMT	hsa:438	True	False	False	True	DONE	0.46838643510149064	0.06453093665822482	0.086771363913801	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+ASMTL	hsa:8623	True	False	False	False	DONE	0.25965359934499704	0.02371835336132532	0.03530332942509405	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+ASNS	hsa:440	True	True	False	True	DONE	1.295009069615676	3.945467412523679e-07	1.7981555021678713e-06	DONE	Epithelial cells	Plasma	Epithelial	B_lineage	False	NA
+ASPA	hsa:443	True	False	False	True	DONE	-3.1755987307549964	8.366270272923583e-13	7.630356979195547e-11	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	ASPN/asporin不是ASPA；E40仅作为排除记录
+ASRGL1	hsa:80150	True	False	False	True	DONE	-0.39489420901054534	0.02785847713691454	0.04052857549579375	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+ATIC	hsa:471	True	False	False	True	DONE	1.1522517716324665	2.098760631104496e-12	9.826015681989232e-11	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ATP13A2	hsa:23400	True	False	False	True	DONE	0.02435242684562061	0.8180843211659714	0.8392697717140942	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+B3GALNT2	hsa:148789	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+B3GNT2	hsa:10678	True	False	False	True	DONE	-0.6510278702630061	3.4421293271831166e-07	1.582764824552951e-06	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+B3GNT3	hsa:10331	True	False	False	True	DONE	-0.20754224517514372	0.43694766616683134	0.4839312861847702	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+B3GNT4	hsa:79369	True	False	False	True	DONE	-0.4482741769871872	0.06557184453686724	0.0877129868480172	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+B4GALNT1	hsa:2583	True	False	False	True	DONE	-0.8421550917891379	5.177341592695968e-05	0.00014490928914339258	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+B4GALT1	hsa:2683	True	False	False	True	DONE	-0.4887825317776302	0.0013166467097487115	0.002724080759826024	DONE	Myeloids	Fibroblast	Myeloid	Stromal	False	NA
+B4GALT2	hsa:8704	True	False	False	True	DONE	0.8089672001821243	9.64242358459577e-07	3.81988318928217e-06	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	不能把同文B3GNT2/ST6GALNAC2的迁移表型归给B4GALT2
+B4GALT4	hsa:8702	True	False	False	True	DONE	-0.5565221143252728	5.331163029323985e-05	0.00014840805189739742	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+B4GALT5	hsa:9334	True	False	False	True	DONE	0.03931931259426354	0.7722692080188451	0.8067315256180634	DONE	Epithelial cells	Mast	Epithelial	Myeloid	False	NA
+B4GALT6	hsa:9331	True	False	False	True	DONE	0.5360600778893889	0.002262997963304437	0.004381368237224756	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+BAAT	hsa:570	True	False	False	True	DONE	-0.125586340717673	0.6520667638303397	0.7025405509887551	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+BBOX1	hsa:8424	True	False	False	False	DONE	-0.8468047523270735	0.006626958197337393	0.011263641820556955	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+BCAT1	hsa:586	True	True	False	True	DONE	-0.09657292767910743	0.7268505794261891	0.7686407564773868	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+BCAT2	hsa:587	True	True	False	True	DONE	-0.28730967842853894	0.02849634548293381	0.04133976879918567	DONE	Epithelial cells	Pericytes	Epithelial	Epithelial	True	正常BCAA饮食下，单独sh-BCAT2与对照的肿瘤发展未见显著差异；作用依circRNA和营养背景，不能概括为单独抑制BCAT2普遍抑瘤。图中原始数值和全部生物重复未独立重分析。
+BCKDHA	hsa:593	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+BCKDHB	hsa:594	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+BDH1	hsa:622	True	False	False	False	DONE	-1.356335556253889	2.3338693797789343e-08	1.4308842030787512e-07	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+BDH2	hsa:56898	True	False	False	False	DONE	-1.305188903302543	5.635006320768455e-08	3.154378538256255e-07	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+BEST1	hsa:7439	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+BEST2	hsa:54831	True	True	False	True	DONE	-2.437614357177436	2.273934740167428e-09	2.0190972261831473e-08	DONE	暂不可定位	Epithelial	暂不可定位	Epithelial	False	NA
+BHMT	hsa:635	True	False	False	False	DONE	-0.516743648335855	0.030872968832715585	0.0441654970801348	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+BHMT2	hsa:23743	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+BPGM	hsa:669	True	False	False	True	DONE	-0.025557291047212268	0.7340538023477222	0.7746087226046634	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	子集n=11，rho约0.209、P约0.540；其他癌种不作CRC验证
+CAD	hsa:790	True	True	False	True	DONE	1.67477339430591	5.8784547152275965e-15	2.0393545792236828e-12	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+CAMKMT	hsa:79823	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CANT1	hsa:124583	True	False	False	True	DONE	-0.5848040613112141	0.003650347157410786	0.006738096007407006	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	数据库反应注释不等同IMP特异性，其他癌种证据不代替
+CARM1	hsa:10498	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CARNMT1	hsa:138199	True	False	False	True	DONE	0.5989398434463654	1.2786809564354316e-05	3.919766027168139e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CARNS1	hsa:57571	True	True	False	True	DONE	-0.44691299389463335	0.04997763393079216	0.06918946632891924	DONE	暂不可定位	Fibroblast	暂不可定位	暂不可定位	False	NA
+CBS [hsa:102724560]	hsa:102724560	False	True	False	False	NEEDS_REVIEW	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+CBS [hsa:875]	hsa:875	False	True	False	False	NEEDS_REVIEW	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+CDA	hsa:978	True	False	False	True	DONE	-1.3199850796062171	6.568616560963396e-06	2.168485595446249e-05	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+CDADC1	hsa:81602	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Mast	Stromal	Stromal	True	NA
+CDIPT	hsa:10423	True	False	False	False	DONE	-0.39879318066784364	0.0003433200860051158	0.00080735088718098	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+CDKAL1	hsa:54901	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+CEPT1	hsa:10390	True	False	False	True	DONE	0.2897900912032478	0.0004983602875386233	0.0011256822284315396	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+CHAC1	hsa:79094	True	False	False	True	DONE	0.6491004620276642	0.0020560163574095966	0.0040414061987249705	DONE	Epithelial cells	Plasma	Epithelial	Epithelial	False	NA
+CHAC2	hsa:494143	True	False	False	True	DONE	0.2071905908459913	0.06509115762677609	0.08729673483799398	DONE	Epithelial cells	Plasma	Epithelial	B_lineage	False	NA
+CHAT	hsa:1103	True	False	False	True	DONE	-0.39861006372741625	0.0022558980221949717	0.004381368237224756	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+CHPF	hsa:79586	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+CHPF2	hsa:54480	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+CHPT1	hsa:56994	True	False	False	True	DONE	-0.41555082497179674	0.0011219777954852477	0.002368108871618453	DONE	Epithelial cells	Mast	Epithelial	Myeloid	False	NA
+CHSY1	hsa:22856	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+CHSY3	hsa:337876	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+CISD1	hsa:55847	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+CKB	hsa:1152	True	False	False	True	DONE	-2.9245234094647055	3.6549692937654436e-10	4.590998015339521e-09	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CKM	hsa:1158	True	False	False	True	DONE	1.1340849001071318	0.004935080461465673	0.008664213042144814	DONE	Myeloids	暂不可定位	Myeloid	暂不可定位	False	NA
+CKMT1A	hsa:548596	True	False	False	True	DONE	-0.9211692435938904	0.002882099100166704	0.005436926873940852	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CKMT1B	hsa:1159	True	False	False	True	DONE	NA	NA	NA	NOT_EVALUABLE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CKMT2	hsa:1160	True	False	False	True	DONE	2.41530087744069	0.00048541079978693083	0.0011012623871818035	DONE	Epithelial cells	Fibroblast	Epithelial	Epithelial	False	NA
+CLIC1	hsa:1192	True	False	False	False	DONE	0.30036180112933025	0.010754860655073509	0.01747240768884182	DONE	Epithelial cells	Mast	Epithelial	Myeloid	False	NA
+CLIC2	hsa:1193	True	False	False	False	DONE	-1.0186669184839725	3.747563406995707e-05	0.00010722195303348829	DONE	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+CMAS	hsa:55907	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CMPK1	hsa:51727	True	False	False	True	DONE	-0.3144368434529515	0.0023433730863273374	0.004486383418061631	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CMPK2	hsa:129607	True	False	True	True	DONE	-0.3645196602765946	0.1472983475767282	0.18279192530606028	DONE	Stromal cells	暂不可定位	Stromal	暂不可定位	False	NA
+CMTR1	hsa:23070	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Tcells	False	NA
+CMTR2	hsa:55783	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CNDP1	hsa:84735	True	True	False	True	DONE	-0.755422013160966	0.0058533239005065865	0.010048206029202972	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+CNDP2	hsa:55748	True	True	True	True	DONE	-0.5122569543539788	0.0005331558773974701	0.0011835141243952462	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+CNPY3-GNMT	hsa:107080644	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+COLGALT1	hsa:79709	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Myeloid	False	NA
+COLGALT2	hsa:23127	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	暂不可定位	Myeloid	暂不可定位	False	NA
+COMT	hsa:1312	True	False	False	True	DONE	0.8165957478166695	9.466560079213666e-08	5.026060248242307e-07	DONE	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+COQ3	hsa:51805	True	False	False	True	DONE	0.5127521711939106	0.00010399702986023104	0.00027187040801024864	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+COQ5	hsa:84274	True	False	False	True	DONE	-0.11880183733002116	0.05249801648622644	0.0719055279000176	DONE	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+CRACR2A	hsa:84766	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+CRLS1	hsa:54675	True	False	False	False	DONE	0.6105521371913364	7.446262473787621e-05	0.00019869560487049872	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CS	hsa:1431	True	False	False	True	DONE	-0.11260442163125453	0.10212863331085499	0.13182016580223138	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+CSAD	hsa:51380	True	False	False	True	DONE	-0.012605452076537819	0.935127755912668	0.9424477383464266	DONE	Stromal cells	Epithelial	Stromal	Epithelial	False	NA
+CTPS1	hsa:1503	True	True	False	True	DONE	1.9216867504084623	1.3336964062443638e-08	8.585670615198093e-08	DONE	Epithelial cells	Fibroblast	Epithelial	Epithelial	False	NA
+CTPS2	hsa:56474	True	True	False	True	DONE	0.7965006658219423	1.1617048789647371e-10	1.640662290828754e-09	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+D2HGDH	hsa:728294	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+DBT	hsa:1629	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+DDC	hsa:1644	True	False	True	True	DONE	0.04327480288178087	0.8440442493691309	0.860757996881391	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+DDO	hsa:8528	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Pericytes	暂不可定位	暂不可定位	False	NA
+DGLUCY	hsa:80017	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Pericytes	暂不可定位	Epithelial	False	NA
+DIMT1	hsa:27292	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+DLD	hsa:1738	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+DNMT1	hsa:1786	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Monocyte	Stromal	Myeloid	False	NA
+DNMT3A	hsa:1788	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+DNMT3B	hsa:1789	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+DOT1L	hsa:84444	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+DPAGT1	hsa:1798	True	False	False	True	DONE	0.6882517771184463	1.35300215415026e-07	6.967961093873839e-07	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+DPH1	hsa:1801	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+DPH5	hsa:51611	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+DPM1	hsa:8813	True	False	False	False	DONE	0.7819067429310607	7.070517487160953e-07	2.984685660563845e-06	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+DPM2	hsa:8818	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+DPM3	hsa:54344	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+DPYD	hsa:1806	True	False	False	True	DONE	-1.1102628679085573	6.878022683103626e-06	2.2418871403787135e-05	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+EARS2	hsa:124454	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+EHMT1	hsa:79813	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	B cells	Endothelial	B_lineage	B_lineage	True	NA
+EHMT2	hsa:10919	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Epithelial	True	NA
+ENO1	hsa:2023	True	False	False	True	DONE	0.7203568495375605	5.646758019683184e-06	1.8761808904108642e-05	DONE	Myeloids	Monocyte	Myeloid	Myeloid	False	NA
+ENO2	hsa:2026	True	False	False	True	DONE	0.25699973933322806	0.30480907970000026	0.3503943661729914	DONE	Stromal cells	Mast	Stromal	Stromal	True	2-PG可用性子集n=11、rho约0.073；功能存在不等于当前2-PG机制成立
+ENO3	hsa:2027	True	False	False	True	DONE	-0.05071454879519613	0.7787494542160678	0.8102140786288381	DONE	Myeloids	Epithelial	Myeloid	Epithelial	False	NA
+ENO4	hsa:387712	True	False	False	True	DONE	-0.6717769520685147	0.004021978096566356	0.007345101843020119	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+ENPP1	hsa:5167	True	False	True	False	DONE	-1.393584148670745	2.5966788931050575e-06	9.482377711547815e-06	DONE	Stromal cells	Pericytes	Stromal	Epithelial	False	NA
+ENPP3	hsa:5169	True	False	True	False	DONE	-1.8982554201757549	6.629039924536537e-05	0.00018063256937229187	DONE	Epithelial cells	Mast	Epithelial	Epithelial	True	NA
+ENTPD1	hsa:953	True	False	False	True	DONE	-0.3278287015234211	0.0005750546543485783	0.0012710435493112353	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+ENTPD3	hsa:956	True	False	False	True	DONE	-1.8771424121673113	4.307411515186493e-07	1.9458920441412667e-06	DONE	暂不可定位	Fibroblast	暂不可定位	Stromal	False	CRC外泌体研究命中为ENTPD2，不是ENTPD3
+ENTPD4	hsa:9583	True	False	True	True	DONE	-0.6712633567539591	8.504491922277888e-07	3.476042333311994e-06	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+ENTPD5	hsa:957	True	False	False	True	DONE	-2.2055670004418957	1.0011001937980485e-12	7.630356979195547e-11	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ENTPD6	hsa:955	True	False	False	True	DONE	0.2254784429778636	0.07819740975835328	0.10326068211679984	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+ENTPD8	hsa:377841	True	False	True	True	DONE	-2.730561681637518	2.1129325090530472e-08	1.311036436340144e-07	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+EOGT	hsa:285203	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+EPRS1	hsa:2058	True	True	False	True	DONE	0.7068422277456029	6.85665984248565e-08	3.7565742754043714e-07	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+ESD	hsa:2098	True	False	False	True	DONE	0.602137135174373	1.1031276664198582e-06	4.303869304592628e-06	DONE	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+ETHE1	hsa:23474	True	False	False	True	DONE	-1.9291495415744937	9.946682686126061e-12	2.696074517555222e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+EZH1	hsa:2145	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+EZH2	hsa:2146	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Tcells	Tcells	Tcells	False	NA
+FAAH	hsa:2166	True	True	False	False	DONE	-0.2969384531241457	0.01053875211071448	0.0172300232921205	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+FARS2	hsa:10667	True	False	False	False	DONE	0.1756162550584411	0.037917393664152976	0.05379464941332998	DONE	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+FARSA	hsa:2193	True	False	False	False	DONE	0.8854506362003907	5.9749445143440995e-09	4.733994499826479e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+FARSB	hsa:10056	True	False	False	False	DONE	0.9674317786464602	1.6699016156741496e-09	1.6590477150936525e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+FBP1	hsa:2203	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+FBP2	hsa:8789	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+FGGY	hsa:55277	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+FMO1	hsa:2326	True	False	False	True	DONE	-0.6089836348072725	0.0032133667903903713	0.005955801326131326	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+FMO2	hsa:2327	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+FMO3	hsa:2328	True	False	False	True	DONE	1.0538592915775786	0.0007057647339244361	0.0015466759062599345	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+FMO4	hsa:2329	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	暂不可定位	Epithelial	Epithelial	False	NA
+FMO5	hsa:2330	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+FOLH1	hsa:2346	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+FPGS	hsa:2356	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+FTCD	hsa:10841	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+FTO	hsa:79068	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+G6PC1	hsa:2538	True	False	False	True	DONE	-1.8471968042718343	1.6663703536620515e-05	5.04812195374092e-05	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+G6PC2	hsa:57818	True	False	False	True	DONE	-0.233494548349877	0.04209524376080251	0.059070982389137036	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+G6PC3	hsa:92579	True	False	False	True	DONE	0.5649164447638764	2.5948886504660698e-06	9.482377711547815e-06	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+GAA	hsa:2548	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+GAD1	hsa:2571	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GAD2	hsa:2572	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GADL1	hsa:339896	True	False	False	True	DONE	-0.4478817855282088	0.011244153278338795	0.018152786640578306	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GALE	hsa:2582	True	False	False	False	DONE	-0.2295816152250217	0.11154288746291807	0.1418384865269205	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GALT	hsa:2592	True	False	False	False	DONE	-0.3079596880013383	0.0007236994590788185	0.001579259412820303	DONE	T cells	Fibroblast	Tcells	Stromal	False	NA
+GAMT	hsa:2593	True	False	False	True	DONE	-0.9510314273491368	3.3995801460007175e-05	9.780914945197594e-05	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+GANAB	hsa:23193	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+GANC	hsa:2595	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Epithelial	Stromal	Epithelial	False	NA
+GATB	hsa:5188	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Myeloid	False	NA
+GATC	hsa:283459	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+GATM	hsa:2628	True	False	False	True	DONE	-1.2003527273544348	3.928998607778893e-05	0.00011179194933735524	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+GBA1	hsa:2629	True	False	False	True	DONE	-0.6072562893133726	2.753403261334915e-06	9.84724083046862e-06	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GBA2	hsa:57704	True	False	False	True	DONE	-0.9400387033936198	1.4729740105491092e-09	1.5803783654849818e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GBA3	hsa:57733	True	False	False	True	DONE	-4.370153962700628	2.023128037793386e-11	4.196154321978745e-10	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GCK	hsa:2645	True	False	False	True	DONE	-0.31972176927980156	0.0026742786135220036	0.005100938836903081	DONE	暂不可定位	Pericytes	暂不可定位	Stromal	False	NA
+GCLC	hsa:2729	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+GCLM	hsa:2730	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+GDA	hsa:9615	True	False	False	True	DONE	-0.7737331955071622	0.00433332986908745	0.007775835827805007	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GDPD5	hsa:81544	True	False	False	True	DONE	-1.2563902063517802	5.192539774457032e-12	1.7827719892302477e-10	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+GFPT1	hsa:2673	True	True	False	True	DONE	-0.030995237924260514	0.8340444062073518	0.8522477563428297	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GFPT2	hsa:9945	True	True	False	True	DONE	-0.3960437313332956	0.27696440633138086	0.3219789373829822	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+GGCT	hsa:79017	True	False	False	False	DONE	1.4808433491015909	1.1935902735504579e-11	3.037133168479516e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GGH	hsa:8836	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GGT1	hsa:2678	True	True	True	True	DONE	-0.3535291804844361	0.00040162595164231445	0.0009316998427738376	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GGT5	hsa:2687	True	True	True	True	DONE	-0.01987624902290186	0.938894620815843	0.9443959564846858	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+GGT6	hsa:124975	True	True	True	True	DONE	-1.7633244337738336	1.7073694932031761e-09	1.6590477150936525e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GGT7	hsa:2686	True	True	True	True	DONE	0.030851356969917	0.7941251477619583	0.81958807835152	DONE	Epithelial cells	Pericytes	Epithelial	Epithelial	True	NA
+GLA	hsa:2717	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+GLO1	hsa:2739	True	False	False	True	DONE	0.9327856396875154	3.3118828501195276e-08	1.9604823767948927e-07	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+GLS	hsa:2744	True	True	False	True	DONE	-0.3685462930500387	0.10332940152957898	0.13303660446933294	DONE	Stromal cells	Tcells	Stromal	Tcells	False	NA
+GLS2	hsa:27165	True	True	False	True	DONE	1.456940633287852	7.859982302361753e-06	2.529931803572689e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GLUD1	hsa:2746	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Myeloid	False	NA
+GLUD2	hsa:2747	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GLUL	hsa:2752	True	True	False	True	DONE	-0.196282015183824	0.3183637162060724	0.3651610553365864	DONE	Myeloids	Mast	Myeloid	Myeloid	True	NA
+GLYCTK	hsa:132158	True	False	True	True	DONE	-0.5434695029495177	0.011441273074566596	0.018413298854380616	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GMPR	hsa:2766	True	False	False	True	DONE	0.9123259882783683	0.0031946490466181576	0.005955801326131326	DONE	Epithelial cells	Mast	Epithelial	Epithelial	False	GMPR2、GMPS或其他癌种研究不能直接替代
+GMPR2	hsa:51292	True	False	False	True	DONE	-0.4142880214905271	8.461587987431561e-07	3.476042333311994e-06	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+GMPS	hsa:8833	True	True	False	True	DONE	1.2610592921040942	4.7290086120832135e-12	1.7395995965877535e-10	DONE	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+GNAI1	hsa:2770	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+GNE	hsa:10020	True	False	False	True	DONE	-0.7360103640471907	0.0023010686611979964	0.004421829703421523	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GNMT	hsa:27232	True	False	False	True	DONE	-0.3929478847799931	0.054046403770657926	0.07382996801562025	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GNPAT	hsa:8443	True	False	False	True	DONE	0.5378961393539211	2.6145585146403683e-06	9.482377711547815e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	不能用AGPS或其他醚脂酶的作用替代GNPAT
+GNPNAT1	hsa:64841	True	False	False	True	DONE	0.7836020011709244	4.6055767611891e-06	1.602616237846207e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GOT1	hsa:2805	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GOT1L1	hsa:137362	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GOT2	hsa:2806	True	True	True	True	DONE	0.2882730956352031	0.01976842885778429	0.02985554504914636	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GPCPD1	hsa:56261	True	False	False	True	DONE	0.7546288809493079	0.00018101602306424793	0.0004525400576606198	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+GPD1	hsa:2819	True	False	False	True	DONE	-0.39948558139010404	0.247686437674747	0.29323796644251654	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GPD1L	hsa:23171	True	False	False	True	DONE	-1.2204459781133121	7.32729130321473e-09	5.314866226979699e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GPD2	hsa:2820	True	False	False	True	DONE	-0.6701109965249403	5.902115152288962e-05	0.00016254488253630029	DONE	Epithelial cells	Epithelial	Epithelial	Stromal	False	NA
+GPT	hsa:2875	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GPT2	hsa:84706	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GPX1	hsa:2876	True	False	False	True	DONE	0.6256790312507211	4.4422401885712334e-07	1.9893510409688564e-06	DONE	Myeloids	暂不可定位	Myeloid	暂不可定位	False	NA
+GPX2	hsa:2877	True	False	False	True	DONE	1.46145540185217	7.48933009440099e-08	4.017713540225531e-07	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GPX3	hsa:2878	True	False	False	True	DONE	-1.9146414666325493	8.619977480103292e-09	5.9190512030042605e-08	DONE	Myeloids	Pericytes	Myeloid	Stromal	False	NA
+GPX4	hsa:2879	True	False	False	True	DONE	0.14489305167813027	0.1679829445584689	0.20696463264978826	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+GPX5	hsa:2880	True	False	False	True	DONE	-0.2802140790412111	0.01630821994848244	0.02492205719130106	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GPX6	hsa:257202	True	False	False	True	DONE	-0.5694561473428442	0.0037064293645907675	0.006817182581300876	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GPX7	hsa:2882	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+GPX8	hsa:493869	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+GSR	hsa:2936	True	False	False	True	DONE	-0.36481361739039375	0.01302659507564471	0.020453342877917762	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GSS	hsa:2937	True	True	False	True	DONE	0.47486648117489705	0.00021150989597139356	0.0005187028401203223	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GSTA1	hsa:2938	True	False	False	True	DONE	NA	NA	NA	NOT_EVALUABLE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GSTA2	hsa:2939	True	False	False	True	DONE	-1.070361423309242	0.0008453057991045758	0.0018138853605785688	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GSTA3	hsa:2940	True	False	False	True	DONE	-0.4896090780905931	0.005424904570855627	0.00940682105720757	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GSTA4	hsa:2941	True	False	False	True	DONE	0.3138517426915877	0.08949908673591274	0.11698440324345812	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	肿瘤上皮和正常巨噬细胞作用不能混写，部分宿主背景炎症反而更重
+GSTA5	hsa:221357	True	False	False	True	DONE	-2.3948936339721256	1.936182749989596e-05	5.763781018755155e-05	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GSTK1	hsa:373156	True	False	False	True	DONE	-0.04174300715686364	0.6129965380967217	0.6646172991996036	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+GSTM1	hsa:2944	True	False	False	True	DONE	-0.3469239336105706	0.012702139520121593	0.020231331310655114	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GSTM2	hsa:2946	True	False	False	True	DONE	-1.4786090406695467	8.152300720204588e-12	2.3472871778722316e-10	DONE	B cells	暂不可定位	B_lineage	暂不可定位	False	NA
+GSTM3	hsa:2947	True	False	False	True	DONE	0.3255684853186453	0.17288125546817695	0.21198534896693128	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+GSTM4	hsa:2948	True	False	False	True	DONE	-0.8069636281073485	4.7121667877460774e-07	2.0920395652493363e-06	DONE	Epithelial cells	Pericytes	Epithelial	Epithelial	True	NA
+GSTM5	hsa:2949	True	False	False	True	DONE	-1.201489085699018	6.9187003957357626e-09	5.090186719719882e-08	DONE	Stromal cells	暂不可定位	Stromal	暂不可定位	False	NA
+GSTO1	hsa:9446	True	False	False	True	DONE	0.5036839224843516	1.988441332580739e-05	5.885329231488968e-05	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+GSTO2	hsa:119391	True	False	False	True	DONE	0.5483032835641939	0.03317004744515674	0.047320150787411974	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	体外范围有限；主要使用筛选后siRNA，救援和动物支持本轮未确认
+GSTP1	hsa:2950	True	False	False	True	DONE	1.1452870405469338	4.775557997512958e-09	3.9038291566971005e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+GSTT1	hsa:2952	True	False	False	True	DONE	-0.52080840580963	0.009566134716123307	0.015790254419242	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GSTT2	hsa:2953	True	False	False	True	DONE	-0.18160444321752223	0.3782055483748604	0.42434827323105256	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	与GSTT2B高度相似，探针特异性及基因归属需核查
+GSTT2B	hsa:653689	True	False	False	True	DONE	0.014217130343209348	0.9443303989519812	0.9480119989478955	DONE	Stromal cells	暂不可定位	Stromal	暂不可定位	False	高度同源/近名基因可能导致文献和测量归属问题
+GSTT4	hsa:25774	True	False	False	True	DONE	-0.5898397731726406	0.029745495893429542	0.04303070332897813	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+GUK1	hsa:2987	True	False	False	False	DONE	0.25231850031320613	0.00048073687912553593	0.001095484481193146	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+GUSB	hsa:2990	True	False	False	False	DONE	-0.14514109745679693	0.12533490051166213	0.15859330163023586	DONE	Stromal cells	Monocyte	Stromal	Myeloid	False	NA
+GYG1	hsa:2992	True	False	False	True	DONE	0.5581284829991517	0.00026240052294966364	0.0006285407875305896	DONE	T cells	Monocyte	Tcells	Myeloid	False	NA
+GYG2	hsa:8908	True	False	False	True	DONE	0.40946913348839914	0.08499595718488008	0.11138147061122962	DONE	Epithelial cells	Fibroblast	Epithelial	Epithelial	True	NA
+GYS1	hsa:2997	True	False	False	True	DONE	-0.034827821799528896	0.6845470512335613	0.7264415282526081	DONE	Stromal cells	Pericytes	Stromal	Epithelial	False	NA
+GYS2	hsa:2998	True	False	False	True	DONE	-0.15270934096124242	0.5696205244959993	0.6228334821983856	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+H6PD	hsa:9563	True	True	False	True	DONE	0.317472365164496	0.0897259015168271	0.11698440324345812	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+HAGH	hsa:3029	True	False	False	True	DONE	-0.483792777939391	1.0415306029124523e-05	3.250837942423715e-05	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	GLO1不是HAGH；前列腺模型不当作CRC复现
+HDC	hsa:3067	True	False	False	True	DONE	-1.218287232603699	1.0362973938679582e-07	5.390839978202006e-07	DONE	暂不可定位	Mast	暂不可定位	暂不可定位	False	不能由正相关推出抑制HDC；bulk数据不能定位癌细胞来源
+HDDC3	hsa:374659	True	False	False	False	DONE	0.3098379889430606	0.001341577088442199	0.0027636488021909296	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+HEMK1	hsa:51409	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+HIF1AN	hsa:55662	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+HK1	hsa:3098	True	False	False	True	DONE	0.1253049340189727	0.359818448169141	0.40548468447944774	DONE	Stromal cells	Monocyte	Stromal	Myeloid	False	NA
+HK2	hsa:3099	True	False	False	True	DONE	-0.8987433536681416	0.0019622471234162888	0.0038718669293463168	DONE	Myeloids	Epithelial	Myeloid	Epithelial	False	NA
+HK3	hsa:3101	True	False	False	True	DONE	-0.1462561041586557	0.40268867292395705	0.446949712404823	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+HKDC1	hsa:80201	True	False	False	True	DONE	0.8220260389832306	0.014495085632306904	0.022350206888137894	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+HNMT	hsa:3176	True	False	False	True	DONE	-0.206949731794945	0.0619688648117963	0.08398411941598709	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+HPGDS	hsa:27306	True	False	False	True	DONE	-1.5149582762494125	3.984917441650659e-06	1.4056386866096504e-05	DONE	Myeloids	Mast	Myeloid	Myeloid	True	NA
+HPRT1	hsa:3251	True	False	True	True	DONE	0.9330324448824182	1.8617400145178286e-09	1.7354117342936226e-08	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+HYKK	hsa:123688	True	False	False	True	DONE	-0.07006897243554062	0.6344079899709022	0.6863867958718795	DONE	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+IARS1	hsa:3376	True	False	False	True	DONE	1.559471754465185	3.932713498378958e-12	1.557959578203972e-10	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+IARS2	hsa:55699	True	False	False	True	DONE	0.1354301957647758	0.09519328696291211	0.12317724318065261	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+ICMT	hsa:23463	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	ICMT敲低减弱某药杀伤，不可改写成敲低本身抑瘤
+IDH1	hsa:3417	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+IDH2	hsa:3418	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+IDH3A	hsa:3419	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+IDH3B	hsa:3420	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+IDH3G	hsa:3421	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+IDNK	hsa:414328	True	False	False	True	DONE	-0.7606467816101496	1.2892424112828742e-06	4.992179261734437e-06	DONE	T cells	Mast	Tcells	Myeloid	False	NA
+IDO1	hsa:3620	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+IDO2	hsa:169355	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+IL4I1	hsa:259307	True	False	True	True	DONE	0.7128096201458576	0.007665785655353219	0.012776309425588698	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+IMPDH1	hsa:3614	True	False	False	True	DONE	1.809678044070506	2.2632374145425334e-13	3.885224228298016e-11	DONE	Stromal cells	Monocyte	Stromal	Myeloid	False	NA
+IMPDH2	hsa:3615	True	False	False	True	DONE	1.113386821181797	1.0301636491844613e-07	5.390839978202006e-07	DONE	Epithelial cells	Pericytes	Epithelial	Epithelial	False	NA
+INMT	hsa:11185	True	False	True	True	DONE	-0.2979997525106155	0.2621885156653364	0.30687973992647327	DONE	Stromal cells	暂不可定位	Stromal	暂不可定位	False	NA
+ITPA	hsa:3704	True	False	False	True	DONE	0.6484394969437878	7.795009147796557e-06	2.524798560449828e-05	DONE	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+KCNK1	hsa:3775	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+KCNK2	hsa:3776	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+KDM2A	hsa:22992	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Endothelial	Tcells	Tcells	False	NA
+KDM2B	hsa:84678	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Monocyte	Tcells	Myeloid	False	NA
+KL	hsa:9365	True	False	False	False	DONE	-0.04879149734784392	0.8803760595531742	0.8942675950096346	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+KMO	hsa:8564	True	False	False	True	DONE	-0.5035177493215748	0.001431922097483684	0.0029263487309686403	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+KMT2A	hsa:4297	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Tcells	False	NA
+KMT2B	hsa:9757	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+KMT2C	hsa:58508	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Epithelial	Stromal	Epithelial	False	NA
+KMT2D	hsa:8085	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Epithelial	Stromal	Epithelial	False	NA
+KMT2E	hsa:55904	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Tcells	Tcells	Tcells	True	NA
+KMT5A	hsa:387893	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	False	不应合成一个统一的抑制建议；模型、底物和终点均需拆分
+KMT5B	hsa:51111	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+KMT5C	hsa:84787	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+KYAT1	hsa:883	True	True	False	True	DONE	1.217015979552963	6.835242741211819e-09	5.090186719719882e-08	DONE	暂不可定位	Pericytes	暂不可定位	Stromal	False	NA
+KYAT3	hsa:56267	True	True	False	True	DONE	-0.091049074649172	0.14214628443700833	0.1772526307144293	DONE	暂不可定位	Pericytes	暂不可定位	Myeloid	False	NA
+KYNU	hsa:8942	True	False	False	True	DONE	0.5048839656690094	0.13008802048333487	0.16340324524126212	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+L2HGDH	hsa:79944	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+L3HYPDH	hsa:112849	True	False	False	True	DONE	0.5756930953785869	0.014278189759500322	0.022148396765489957	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+LACC1	hsa:144811	True	False	False	True	DONE	0.007244003212317524	0.9605781059735533	0.9624469349735018	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+LALBA	hsa:3906	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+LANCL1	hsa:10314	True	False	False	True	DONE	0.4271951051713541	0.0015471138332326753	0.0031368646618694005	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+LAP3	hsa:51056	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+LARS1	hsa:51520	True	False	False	True	DONE	0.7848323259535576	4.154743837538771e-09	3.507693567758142e-08	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+LARS2	hsa:23395	True	False	False	True	DONE	0.6718442490961531	5.9504319667905277e-05	0.00016300385440942136	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+LCMT2	hsa:9836	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	False	NA
+LCT	hsa:3938	True	False	False	True	DONE	-0.39217693283881816	0.11481886275998177	0.1456446165551493	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+LDHA	hsa:3939	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+LDHAL6A	hsa:160287	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+LDHAL6B	hsa:92483	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+LDHB	hsa:3945	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Mast	Epithelial	Tcells	False	NA
+LDHC	hsa:3948	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+LDHD	hsa:197257	True	False	False	False	DONE	-3.0674978460527966	2.0724622698443608e-11	4.196154321978745e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+LIAS	hsa:11019	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+LRRC8A	hsa:56262	True	True	False	True	DONE	0.17097101133062434	0.04504237963317691	0.0628640257753011	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+LRRC8B	hsa:23507	True	False	False	True	DONE	0.49992269908689585	3.26387526083967e-07	1.5280870539385728e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+LRRC8C	hsa:84230	True	False	False	True	DONE	-0.5067280818384878	0.009802463655851105	0.016128654258029774	DONE	Myeloids	暂不可定位	Myeloid	暂不可定位	False	NA
+LRRC8D	hsa:55144	True	False	False	True	DONE	-0.25210272360008185	0.004213793796231475	0.007614399315997227	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+LRRC8E	hsa:80131	True	False	False	True	DONE	2.2627271762995984	2.8893472452854193e-11	5.131082176972382e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+LRTOMT	hsa:220074	True	False	False	True	DONE	-0.15060167008948755	0.22207601483094153	0.2659747619486858	DONE	Epithelial cells	Pericytes	Epithelial	暂不可定位	False	NA
+LSG1	hsa:55341	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+LTC4S	hsa:4056	True	False	False	True	DONE	-0.792547684239641	0.0020863079678557716	0.004085355906637727	DONE	Myeloids	Mast	Myeloid	Stromal	False	NA
+LYPLA1	hsa:10434	True	False	False	True	DONE	0.4141268805849243	0.00035772458889883423	0.0008336115985651567	DONE	Epithelial cells	Endothelial	Epithelial	Myeloid	False	NA
+LYPLA2	hsa:11313	True	False	False	True	DONE	-0.1743234469825364	0.04477270372247608	0.06265745222031299	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+MAOA	hsa:4128	True	False	True	True	DONE	-1.9084686147821182	8.204110524601976e-12	2.3472871778722316e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+MAOB	hsa:4129	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Mast	Stromal	Stromal	False	NA
+MAT1A	hsa:4143	True	False	False	True	DONE	1.097573687640569	0.0017654753028067403	0.003524107678083222	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+MAT2A	hsa:4144	True	False	False	True	DONE	0.19488810882151839	0.06659668216806207	0.08885308631231079	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+MAT2B	hsa:27430	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Endothelial	Tcells	Tcells	True	NA
+MDH1	hsa:4190	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+MECOM	hsa:2122	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+METTL3	hsa:56339	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+METTL6	hsa:131965	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+MGAM	hsa:8972	True	False	False	True	DONE	-1.142152474640299	0.00025450368444182174	0.0006124738200352253	DONE	暂不可定位	Monocyte	暂不可定位	Myeloid	False	NA
+MGAM2	hsa:93432	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Epithelial	暂不可定位	Epithelial	False	NA
+MGST1	hsa:4257	True	False	False	True	DONE	-0.32318324088151706	0.20310620026147344	0.24669738946853495	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+MGST2	hsa:4258	True	False	False	True	DONE	-0.13029880618542727	0.25691422335287195	0.30207950919344534	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+MGST3	hsa:4259	True	False	False	True	DONE	-0.9063865007940672	3.636796299522273e-10	4.590998015339521e-09	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+MINPP1	hsa:9562	True	False	False	True	DONE	-0.6418622175121502	0.0003095032335003877	0.0007345353237451596	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+MIOX	hsa:55586	True	False	False	False	DONE	0.20758793552875518	0.0917020043129453	0.11925891975042129	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+MOCS1	hsa:4337	True	False	False	True	DONE	-1.294347789192637	1.8017742280009889e-07	9.008871140004944e-07	DONE	Stromal cells	Pericytes	Stromal	暂不可定位	False	NA
+MTAP	hsa:4507	True	False	False	True	DONE	0.8625195840806633	2.9776795460600225e-05	8.615196439443323e-05	DONE	Epithelial cells	Pericytes	Epithelial	Epithelial	False	NA
+NADSYN1	hsa:55191	True	True	False	True	DONE	-0.4498522212914697	0.0001414507514162241	0.00036062939098690795	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+NAGK	hsa:55577	True	False	False	True	DONE	-0.14026021710657938	0.16983596828539418	0.20874826650830072	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+NAGS	hsa:162417	True	True	False	True	DONE	-0.5181953518707493	0.005169835693883062	0.00899481548091141	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+NANP	hsa:140838	True	False	False	True	DONE	1.150376916073123	6.759890604365277e-05	0.0001822693016360271	DONE	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+NANS	hsa:54187	True	False	False	True	DONE	-0.6510822094541333	0.00019182263469367226	0.00047494546570789044	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+NARS1	hsa:4677	True	False	False	True	DONE	-0.34369971799790605	0.00012199203590213849	0.0003141294924480066	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+NARS2	hsa:79731	True	False	False	True	DONE	0.8884155376547059	7.751146306519821e-10	9.283349646180716e-09	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+NAT8L	hsa:339983	True	False	False	True	DONE	-0.37167849566342914	0.00446193750233632	0.007951203507623546	DONE	暂不可定位	Monocyte	暂不可定位	Myeloid	False	NA
+NEU1	hsa:4758	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Mast	Epithelial	Myeloid	False	NA
+NEU2	hsa:4759	True	False	False	True	DONE	0.35593100485421664	0.04710479567934209	0.06556478317530047	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+NEU3	hsa:10825	True	False	False	True	DONE	-0.07894994554677147	0.7355022628226804	0.7746087226046634	DONE	Myeloids	暂不可定位	Myeloid	暂不可定位	False	NA
+NEU4	hsa:129807	True	False	False	True	DONE	-2.364012175335457	8.342356167015631e-09	5.8058289540716894e-08	DONE	Myeloids	Epithelial	Myeloid	Epithelial	False	NA
+NME1	hsa:4830	True	False	False	True	DONE	1.270308290875518	2.8588668378484188e-11	5.131082176972382e-10	DONE	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+NME1-NME2	hsa:654364	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+NME2	hsa:4831	True	False	False	True	DONE	0.9674938938703452	6.267731634528753e-10	7.685432837576924e-09	DONE	Epithelial cells	暂不可定位	Epithelial	Epithelial	True	NA
+NME3	hsa:4832	True	False	False	True	DONE	0.03297160574753641	0.7404192741152755	0.7781957676925855	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+NME4	hsa:4833	True	False	False	True	DONE	0.842966548420942	0.00012493334046273584	0.00032010283750402463	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+NME6	hsa:10201	True	False	True	True	DONE	0.08640691392985128	0.23631344894801407	0.2817162643708964	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	K562及乳腺癌证据不是COAD功能；组织UDP不是线粒体UDP池
+NME7	hsa:29922	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+NNMT	hsa:4837	True	False	False	True	DONE	0.15085274259078196	0.5876497474629381	0.6398300633053131	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	已知轴研究较多；癌细胞与基质作用需要区分
+NPL	hsa:80896	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+NSD1	hsa:64324	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Epithelial	False	NA
+NSD2	hsa:7468	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Epithelial	暂不可定位	Epithelial	False	NA
+NSD3	hsa:54904	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Tcells	暂不可定位	Tcells	False	NA
+NT5C	hsa:30833	True	False	True	True	DONE	-0.32351066258405753	0.004754805879704563	0.008386044616602226	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+NT5C1A	hsa:84618	True	False	True	True	DONE	-0.07097778968346097	0.6853077679169545	0.7264415282526081	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+NT5C1B	hsa:93034	True	False	True	True	DONE	-0.14423754396153024	0.48375820971191674	0.5323407649607631	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+NT5C1B-RDH14	hsa:100526794	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+NT5C2	hsa:22978	True	False	False	True	DONE	-0.1945499181601699	0.04079826104147084	0.05740738917037564	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+NT5C3A	hsa:51251	True	False	False	True	DONE	-0.28748007407470916	0.05517404537062987	0.07517098774040842	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NT5C2/NT5C3及不同剪接名称不可混用；AML不作CRC证据
+NT5C3B	hsa:115024	True	False	False	True	DONE	1.111001168070242	1.8902097653294193e-07	9.360173357160105e-07	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+NT5DC4	hsa:284958	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+NT5E	hsa:4907	True	False	False	True	DONE	-0.8771099282787038	0.0011329455991153394	0.002381497892017958	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+NT5M	hsa:56953	True	False	True	True	DONE	-0.2951287798651929	0.24388314194843053	0.28940050254249244	DONE	Stromal cells	Mast	Stromal	暂不可定位	False	NA
+NUDT16	hsa:131870	True	False	False	True	DONE	-0.8464330538212639	7.723156703596367e-09	5.524202364377957e-08	DONE	Epithelial cells	Endothelial	Epithelial	Myeloid	False	NA
+NUDT2	hsa:318	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+OAT	hsa:4942	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+OGT	hsa:8473	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+OPLAH	hsa:26873	True	True	False	True	DONE	-0.27145810064401515	0.038876638233471664	0.05485333887736413	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+OXCT1	hsa:5019	True	False	False	False	DONE	-0.07525109870586581	0.7918336340728658	0.8188640994930239	DONE	T cells	Tcells	Tcells	Tcells	False	NA
+OXCT2	hsa:64064	True	False	False	False	DONE	-0.5344427975262975	0.004546146401274694	0.008045585555520507	DONE	Myeloids	暂不可定位	Myeloid	暂不可定位	False	NA
+P4HA1	hsa:5033	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+P4HA2	hsa:8974	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+P4HA3	hsa:283208	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	暂不可定位	Stromal	暂不可定位	False	NA
+PAH	hsa:5053	True	False	False	True	DONE	1.3134984182363847	0.000759897316034433	0.0016512536614250338	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+PANK1	hsa:53354	True	False	False	False	DONE	-0.3465187792726819	0.024637722277551722	0.0361873254161211	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PANK2	hsa:80025	True	False	False	False	DONE	-0.028886769900390897	0.7662327943932943	0.8036861285387914	DONE	Stromal cells	Pericytes	Stromal	Myeloid	False	NA
+PANK3	hsa:79646	True	False	False	False	DONE	-0.8906600714769183	1.7958508367942625e-11	4.0211442649958486e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PANX1	hsa:24145	True	True	False	True	DONE	0.5165908113772243	2.594943679893489e-06	9.482377711547815e-06	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+PANX2	hsa:56666	True	False	False	False	DONE	-0.4311459294764199	0.001927169294034991	0.0038172776401077706	DONE	暂不可定位	Monocyte	暂不可定位	Myeloid	False	NA
+PAOX	hsa:196743	True	False	False	True	DONE	-0.717410074620697	3.189784727650759e-07	1.5071001236148083e-06	DONE	B cells	暂不可定位	B_lineage	暂不可定位	False	NA
+PARS2	hsa:25973	True	False	False	True	DONE	0.15467579866492212	0.11027124678458572	0.14056854478728129	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PCK1	hsa:5105	True	False	False	True	DONE	-3.4926237052848634	1.774408486852389e-09	1.6922599457944078e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PCK2	hsa:5106	True	False	False	True	DONE	-1.1266434550765925	1.0719196399390236e-09	1.2267524768191046e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PCYT1A	hsa:5130	True	False	False	True	DONE	-0.18838764979596775	0.02994035692793419	0.043070625189626	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+PCYT1B	hsa:9468	True	False	False	True	DONE	-0.26288917366206305	0.03551278360678624	0.050522330269322964	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+PEMT	hsa:10400	True	False	False	True	DONE	0.9128137435452236	1.829638825664136e-05	5.478279041959477e-05	DONE	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+PFAS	hsa:5198	True	True	False	True	DONE	1.2481968197189521	3.098503782550794e-07	1.4775272666793137e-06	DONE	Epithelial cells	Pericytes	Epithelial	Epithelial	True	NA
+PFKL	hsa:5211	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+PFKM	hsa:5213	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+PFKP	hsa:5214	False	True	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Epithelial	True	NA
+PGAM1	hsa:5223	True	False	False	True	DONE	-0.25783235448779407	0.004946172105612767	0.008664213042144814	DONE	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+PGAM2	hsa:5224	True	False	False	True	DONE	-0.3341736857093744	0.00035177483398087124	0.0008234729068188577	DONE	暂不可定位	Fibroblast	暂不可定位	暂不可定位	False	不能借用PGAM1论文；小样本不证明无功能但当前信号不足
+PGAM4	hsa:441531	True	False	False	True	DONE	-0.25917034568363045	0.0014634730384495474	0.0029790063826146914	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+PGD	hsa:5226	True	True	False	True	DONE	0.8274368542840731	8.676898143884398e-07	3.5185846803940664e-06	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+PGK1	hsa:5230	True	False	False	True	DONE	0.5792779756006876	8.588248020887774e-05	0.00022566059850802057	DONE	Myeloids	Monocyte	Myeloid	Myeloid	False	NA
+PGK2	hsa:5232	True	False	False	True	DONE	-0.3596151787223045	0.006398051558888373	0.01091058461201163	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+PGLS	hsa:25796	True	False	False	True	DONE	0.1371691548975181	0.05146904831727276	0.07106316322626131	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+PGM2L1	hsa:283209	True	False	False	True	DONE	0.5798011528865217	0.004304218675535565	0.0077506035590937635	DONE	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+PGM3	hsa:5238	True	False	False	True	DONE	0.7209476428358907	6.654155351490568e-07	2.8321405008410265e-06	DONE	Stromal cells	Plasma	Stromal	Epithelial	False	NA
+PGS1	hsa:9489	True	False	False	False	DONE	-0.12893015627193832	0.2012637316765771	0.24503740381427236	DONE	Stromal cells	暂不可定位	Stromal	暂不可定位	False	NA
+PHGDH	hsa:26227	True	True	False	True	DONE	1.1449699235178425	0.007112796758070636	0.011931890327056603	DONE	Epithelial cells	Plasma	Epithelial	B_lineage	False	NA
+PKLR	hsa:5313	True	False	True	True	DONE	-0.1982402521154317	0.33175591614666666	0.37799623189277287	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+PKM	hsa:5315	True	False	True	True	DONE	0.9166422978132939	4.287888753421638e-06	1.5022195292599617e-05	DONE	Stromal cells	Monocyte	Stromal	Myeloid	False	NA
+PLA2G15	hsa:23659	True	False	False	True	DONE	0.4078409554372304	0.00025209789764895084	0.0006095324755361957	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	融合特异siRNA不能作为普通基因抑制的支持证据
+PLB1	hsa:151056	True	False	False	True	DONE	-0.5543440131469783	0.010535545128383724	0.0172300232921205	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+PLOD1	hsa:5351	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+PLOD2	hsa:5352	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+PLOD3	hsa:8985	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+PNMT	hsa:5409	True	False	False	True	DONE	0.06831054493366699	0.8679717282615166	0.8834099605823736	DONE	暂不可定位	Mast	暂不可定位	暂不可定位	False	NA
+PNP	hsa:4860	True	False	True	True	DONE	0.4448794001929545	0.001255572750055803	0.002628536448287555	DONE	Myeloids	Endothelial	Myeloid	Myeloid	False	NA
+PNPLA6	hsa:10908	True	False	False	True	DONE	-0.2507851339096374	0.006986691366954923	0.011758647235234591	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+PNPLA7	hsa:375775	True	False	False	True	DONE	-1.1555516577612437	1.159442000152552e-05	3.597064036617857e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+POMGNT2	hsa:84892	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+PPAT	hsa:5471	True	True	False	True	DONE	1.6523485507037983	1.185298171525522e-12	7.630356979195547e-11	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PRDM16	hsa:63976	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+PRDM2	hsa:7799	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	B cells	Bcells	B_lineage	B_lineage	False	NA
+PRDM6	hsa:93166	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+PRDM7	hsa:11105	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+PRDM9	hsa:56979	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+PRDX6	hsa:9588	True	False	False	True	DONE	-1.311295563803203	2.214385600694327e-11	4.2237354976206605e-10	DONE	Stromal cells	Mast	Stromal	Stromal	True	NA
+PRMT1	hsa:3276	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+PRMT2	hsa:3275	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+PRMT3	hsa:10196	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PRMT5	hsa:10419	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PRMT6	hsa:55170	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+PRMT7	hsa:54496	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	剪接背景未明时不能推广到全PRMT7或所有CRC
+PRMT8	hsa:56341	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+PRMT9	hsa:90826	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+PRODH	hsa:5625	True	False	False	True	DONE	-0.2666019812504539	0.30465152561868436	0.3503943661729914	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+PSAT1	hsa:29968	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Plasma	Epithelial	B_lineage	False	NA
+PSPH	hsa:5723	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PTDSS1	hsa:9791	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Myeloid	False	NA
+PTDSS2	hsa:81490	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+PYCR1	hsa:5831	True	False	False	True	DONE	2.125729294063594	3.47478053230243e-11	5.965039913785838e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+PYCR2	hsa:29920	True	False	False	True	DONE	0.8128620037127848	1.9207469680531357e-09	1.7354117342936226e-08	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+PYCR3	hsa:65263	True	False	False	True	DONE	1.1840269017181855	3.9264907197238106e-11	6.350362877460763e-10	DONE	暂不可定位	Epithelial	暂不可定位	Epithelial	False	NA
+QARS1	hsa:5859	True	False	False	True	DONE	0.09859662623639094	0.12792786078651602	0.16108275869206784	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+QRSL1	hsa:55278	True	True	False	True	DONE	0.10580571190762665	0.3575004475249737	0.40375598788456457	DONE	Epithelial cells	Bcells	Epithelial	Epithelial	True	NA
+QTRT1	hsa:81890	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+RAB10	hsa:10890	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	False	NA
+RAB11A	hsa:8766	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+RAB11B	hsa:9230	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+RAB12	hsa:201475	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+RAB13	hsa:5872	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+RAB14	hsa:51552	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+RAB15	hsa:376267	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+RAB17	hsa:64284	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+RAB18	hsa:22931	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+RAB1A	hsa:5861	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	False	NA
+RAB1B	hsa:81876	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Epithelial	False	NA
+RAB20	hsa:55647	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+RAB21	hsa:23011	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+RAB22A	hsa:57403	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+RAB23	hsa:51715	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+RAB24	hsa:53917	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Myeloid	False	NA
+RAB25	hsa:57111	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+RAB26	hsa:25837	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+RAB29	hsa:8934	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Bcells	Stromal	Stromal	False	NA
+RAB2A	hsa:5862	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+RAB2B	hsa:84932	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+RAB33B	hsa:83452	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+RAB34	hsa:83871	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+RAB35	hsa:11021	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Endothelial	Tcells	Myeloid	False	NA
+RAB36	hsa:9609	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+RAB37	hsa:326624	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Mast	Tcells	Tcells	False	NA
+RAB38	hsa:23682	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Mast	Myeloid	Myeloid	True	NA
+RAB39A	hsa:54734	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+RAB39B	hsa:116442	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Tcells	Tcells	Tcells	True	NA
+RAB3A	hsa:5864	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+RAB3B	hsa:5865	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+RAB3C	hsa:115827	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+RAB3D	hsa:9545	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+RAB4A	hsa:5867	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+RAB4B	hsa:53916	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	暂不可定位	Myeloid	暂不可定位	False	NA
+RAB5A	hsa:5868	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Mast	Epithelial	Myeloid	False	NA
+RAB5B	hsa:5869	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Epithelial	False	NA
+RAB5C	hsa:5878	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Monocyte	Stromal	Myeloid	False	NA
+RAB6A	hsa:5870	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+RAB6B	hsa:51560	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+RAB7A	hsa:7879	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+RAB8A	hsa:4218	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+RAB8B	hsa:51762	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Tcells	Tcells	Tcells	False	NA
+RAB9A	hsa:9367	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+RAB9B	hsa:51209	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Mast	Stromal	Stromal	True	NA
+RAN	hsa:5901	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Tcells	False	NA
+RGN	hsa:9104	True	False	False	False	DONE	0.10984487819665541	0.7843680729392508	0.8127757697459037	DONE	Stromal cells	Fibroblast	Stromal	Stromal	False	NA
+RHOB	hsa:388	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+RIMKLA	hsa:284716	True	True	False	True	DONE	-1.5323005378026788	5.556168963263079e-06	1.8702137360003175e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+RIMKLB	hsa:57494	True	True	False	True	DONE	-0.9845516826797417	0.0019012981961560051	0.003780573633283176	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+RNMT	hsa:8731	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Bcells	Tcells	Myeloid	False	NA
+RPE	hsa:6120	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Myeloid	False	NA
+RPEL1	hsa:729020	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+RPIA	hsa:22934	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+RRM1	hsa:6240	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Tcells	False	NA
+RRM2	hsa:6241	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+RRM2B	hsa:50484	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+SAR1A	hsa:56681	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+SAR1B	hsa:51128	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+SARS1	hsa:6301	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SARS2	hsa:54938	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SDHA	hsa:6389	True	False	False	False	DONE	-0.7624111539602301	3.945856545218338e-11	6.350362877460763e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SDHB	hsa:6390	True	False	False	False	DONE	-0.6361394512043607	1.1260757205309566e-08	7.340873368018261e-08	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+SDHC	hsa:6391	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+SDHD	hsa:6392	False	False	True	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	暂不可定位	Stromal	暂不可定位	False	NA
+SDS	hsa:10993	True	True	False	False	DONE	-0.5866114859127357	0.013759104916468756	0.02140767079148462	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SDSL	hsa:113675	True	True	False	False	DONE	-0.8209718605223333	1.7573559190203032e-07	8.872924493092707e-07	DONE	Myeloids	Mast	Myeloid	Myeloid	True	NA
+SELENOI	hsa:85465	True	False	False	False	DONE	0.4299665777033547	0.0007755693946120359	0.0016782278917025148	DONE	暂不可定位	Epithelial	暂不可定位	Epithelial	False	NA
+SETD1A	hsa:9739	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+SETD1B	hsa:23067	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Pericytes	Tcells	Tcells	True	NA
+SETD2	hsa:29072	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Endothelial	Tcells	Epithelial	False	NA
+SETD7	hsa:80854	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+SETDB1	hsa:9869	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+SETDB2	hsa:83852	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SETDB2-PHF11	hsa:107303344	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SETMAR	hsa:6419	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+SFXN1	hsa:94081	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	T cells	Epithelial	Tcells	Epithelial	False	NA
+SFXN2	hsa:118980	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SFXN3	hsa:81855	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+SFXN5	hsa:94097	True	False	False	True	DONE	-0.3665306043950091	0.0005233450924835599	0.001171837924474058	DONE	Stromal cells	Epithelial	Stromal	Epithelial	False	NA
+SHMT1	hsa:6470	True	True	False	False	DONE	0.13441921683953456	0.3957708921281786	0.44213017233408236	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SHMT2	hsa:6472	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Epithelial	True	NA
+SI	hsa:6476	True	False	False	True	DONE	-3.1999495676978933	1.8275612893843731e-06	6.820246840818494e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC13A2	hsa:9058	True	False	False	True	DONE	-0.40407731697808214	0.00016294327991791123	0.0004133782717129275	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC13A3	hsa:64849	True	True	False	True	DONE	0.6071334430063933	0.004477876741750925	0.007952091455178367	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+SLC13A5	hsa:284111	True	False	False	True	DONE	0.09250472747984972	0.5867872797435076	0.6398300633053131	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC14A1	hsa:6563	True	False	False	True	DONE	-1.1881427149190171	0.00022357660463700254	0.0005456964520760962	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+SLC14A2	hsa:8170	True	False	False	True	DONE	-0.4761073541533479	0.001592792127961585	0.0032042497886727197	DONE	暂不可定位	Pericytes	暂不可定位	暂不可定位	False	NA
+SLC15A1	hsa:6564	True	False	False	True	DONE	-1.732655870534012	4.991551260337331e-05	0.0001404726174357227	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC15A2	hsa:6565	True	False	False	True	DONE	-0.3495705512826061	0.22031838669678297	0.26510273165617576	DONE	Epithelial cells	Plasma	Epithelial	B_lineage	False	NA
+SLC15A3	hsa:51296	True	False	False	True	DONE	-0.1641734009448768	0.3616455617019779	0.40665385213213673	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	淋巴瘤、SLC15A4或试验登记不能替代已完成CRC功能
+SLC15A4	hsa:121260	True	False	False	True	DONE	0.4218263152086005	8.25048855394584e-05	0.0002190207013032014	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC16A1	hsa:6566	True	False	False	True	DONE	-1.3182043688737257	1.0970353722651677e-06	4.303869304592628e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+SLC16A10	hsa:117247	True	False	False	True	DONE	0.8080606240974185	0.0003353385618784947	0.0007921988961808477	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC16A6	hsa:9120	True	False	False	True	DONE	0.20270885070395178	0.38729100370446645	0.4335975367560874	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC16A7	hsa:9194	True	False	False	True	DONE	-0.8833166074320539	0.0013154668093942853	0.002724080759826024	DONE	Stromal cells	Endothelial	Stromal	Tcells	False	NA
+SLC16A9	hsa:220963	True	False	False	True	DONE	-2.5977374851106916	1.7000287031617579e-09	1.6590477150936525e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC17A1	hsa:6568	True	False	False	True	DONE	-0.3390363083482548	0.20973692715673384	0.25355520536553505	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC17A2	hsa:10246	True	False	False	True	DONE	-0.3535277994081605	0.00914679378691051	0.015146619936523834	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC17A3	hsa:10786	True	False	False	True	DONE	0.029018459183750976	0.9078336194928299	0.9185349981116059	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC17A4	hsa:10050	True	False	False	True	DONE	-3.6549211973395455	3.0437550654714625e-12	1.3062782155981694e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC17A5	hsa:26503	True	True	False	True	DONE	-0.9255433581779302	2.7193320932680195e-07	1.321184932106632e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC17A6	hsa:57084	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC17A7	hsa:57030	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Fibroblast	暂不可定位	Stromal	False	NA
+SLC17A8	hsa:246213	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC18A1	hsa:6570	True	False	False	True	DONE	-0.4473633099400972	0.12627468910558207	0.159390845317095	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC18A2	hsa:6571	True	False	False	True	DONE	-0.9918507462575225	5.104082202836548e-06	1.745784578591897e-05	DONE	暂不可定位	Mast	暂不可定位	暂不可定位	False	NA
+SLC18A3	hsa:6572	True	False	False	True	DONE	-0.10678231881067075	0.3445971779252335	0.39089767980505563	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC18B1	hsa:116843	True	False	False	True	DONE	-0.016837090639642498	0.8981508192693445	0.9105269132356544	DONE	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+SLC1A1	hsa:6505	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC1A2	hsa:6506	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Pericytes	暂不可定位	Myeloid	False	NA
+SLC1A3	hsa:6507	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC1A4	hsa:6509	True	True	False	True	DONE	0.8450939980821481	6.851305599462156e-09	5.090186719719882e-08	DONE	Myeloids	Plasma	Myeloid	B_lineage	False	NA
+SLC1A5	hsa:6510	True	True	False	True	DONE	0.9871187462972814	1.3158663872212633e-06	5.0572476822309745e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC1A6	hsa:6511	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC1A7	hsa:6512	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC22A1	hsa:6580	True	False	False	True	DONE	0.042753995638654535	0.7710753585170151	0.8067315256180634	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC22A11	hsa:55867	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+SLC22A12	hsa:116085	True	False	False	True	DONE	-0.22470258659075157	0.29648866971163235	0.3423579930526697	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC22A15	hsa:55356	True	False	False	True	DONE	0.733997081091761	0.00010501625659691106	0.0002731483441788343	DONE	Myeloids	Monocyte	Myeloid	Myeloid	False	NA
+SLC22A16	hsa:85413	True	False	False	True	DONE	-0.3170032238442935	0.07511114781896185	0.09944020855209601	DONE	暂不可定位	Monocyte	暂不可定位	Myeloid	False	NA
+SLC22A2	hsa:6582	True	False	False	True	DONE	-0.5013603264328418	0.024493314080819072	0.03616114450828556	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC22A24	hsa:283238	True	True	False	False	DONE	-0.3467071263640297	0.08193886842974292	0.10792459652510895	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC22A3	hsa:6581	True	False	False	True	DONE	1.9057192777670708	7.551084838541535e-07	3.161633082803976e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC22A4	hsa:6583	True	False	False	True	DONE	-1.194694221734438	2.4125247331698203e-05	7.099715643328329e-05	DONE	Myeloids	Monocyte	Myeloid	Myeloid	False	NA
+SLC22A5	hsa:6584	True	False	False	False	DONE	-1.5708612035249885	1.0615868509344688e-08	7.009195233733993e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC22A7	hsa:10864	True	True	False	True	DONE	0.08048341048950793	0.6550110481967675	0.7042394359526831	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC22A8	hsa:9376	True	True	False	True	DONE	-0.25999010347560875	0.0013170798236828737	0.002724080759826024	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC23A1	hsa:9963	True	False	False	True	DONE	-1.6260329539552991	9.187423755160036e-06	2.9027749901272506e-05	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC25A1	hsa:6576	True	False	False	True	DONE	-0.4210590607076	2.6683753625769125e-05	7.80803018026767e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC25A10	hsa:1468	True	False	False	False	DONE	0.3733640799593936	0.012679245927709176	0.020231331310655114	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC25A11	hsa:8402	True	False	False	False	DONE	-0.6582042856761425	1.533432583826436e-09	1.5996564609795087e-08	DONE	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+SLC25A12	hsa:8604	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+SLC25A13	hsa:10165	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+SLC25A14	hsa:9016	True	True	False	True	DONE	0.7423238985571241	3.808622118282909e-08	2.2238947624163754e-07	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+SLC25A18	hsa:83733	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC25A21	hsa:89874	True	True	False	True	DONE	-0.16259174495941334	0.6747151107661196	0.7209092988476173	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+SLC25A22	hsa:79751	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+SLC25A26	hsa:115286	True	False	False	True	DONE	0.5323970958656199	0.0057231192015560605	0.009890625465776412	DONE	T cells	Fibroblast	Tcells	Stromal	False	NA
+SLC25A30	hsa:253512	True	False	False	False	DONE	0.08264249902319475	0.6088113638424457	0.6614722624026573	DONE	Stromal cells	Endothelial	Stromal	Myeloid	False	NA
+SLC25A33	hsa:84275	True	False	False	True	DONE	0.14457059472083444	0.2527166725471961	0.29850707881148164	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+SLC25A35	hsa:399512	True	False	False	True	DONE	-0.432394503780041	0.01534933431811547	0.023526509445921034	DONE	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+SLC25A36	hsa:55186	True	False	False	True	DONE	0.4145026246539716	0.0004697992412771983	0.0010753182633678094	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+SLC25A39	hsa:51629	True	False	False	True	DONE	0.5691701219185457	4.886997354645305e-07	2.1511142202071215e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC25A40	hsa:55972	True	False	False	True	DONE	0.09990124424437508	0.39864681521181866	0.44341924370213087	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC25A44	hsa:9673	True	False	False	True	DONE	-0.38685101143873946	5.118708181890804e-06	1.745784578591897e-05	DONE	Stromal cells	Mast	Stromal	Myeloid	False	NA
+SLC26A7	hsa:115111	True	False	False	False	DONE	-0.6728151013725712	0.0029857105398576568	0.005611828204476982	DONE	暂不可定位	Pericytes	暂不可定位	暂不可定位	False	NA
+SLC28A1	hsa:9154	True	False	False	True	DONE	-0.6530869412746887	0.0246635946039971	0.0361873254161211	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC28A2	hsa:9153	True	False	False	True	DONE	-2.8266246481075403	5.208045888885781e-06	1.764568179458011e-05	DONE	暂不可定位	Epithelial	暂不可定位	Epithelial	False	NA
+SLC28A3	hsa:64078	True	False	False	True	DONE	0.9292748351964496	0.005788644209384284	0.009970407250277279	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC29A1	hsa:2030	True	False	False	True	DONE	1.9405586967489004	8.628274205108599e-10	1.0099002762797564e-08	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	抑制转运可能降低特定药物疗效，不宜直接建议抑制
+SLC29A2	hsa:3177	True	False	False	True	DONE	0.8340404251992869	5.411687400708266e-08	3.0626582542469856e-07	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC29A3	hsa:55315	True	False	False	True	DONE	0.5708589549735935	6.411055009679052e-07	2.751411108320593e-06	DONE	Myeloids	Monocyte	Myeloid	暂不可定位	False	不能借用ENT1功能，也不能因旧资料未列鸟嘌呤就直接否定
+SLC29A4	hsa:222962	True	False	False	True	DONE	-0.5700615190617133	0.024974267639932282	0.03653905634819638	DONE	Stromal cells	Fibroblast	Stromal	Stromal	False	NA
+SLC2A1	hsa:6513	True	False	False	True	DONE	0.8556509251495417	0.0032149762498339973	0.005955801326131326	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC2A10	hsa:81031	True	False	False	True	DONE	-0.5053339443417197	0.030175703994051957	0.043288266175311306	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+SLC2A11	hsa:66035	True	False	False	True	DONE	0.32708801499009366	0.05190174328962209	0.07127839411774767	DONE	B cells	Plasma	B_lineage	B_lineage	False	NA
+SLC2A12	hsa:154091	True	False	False	True	DONE	0.3388066659100494	0.1371447116821928	0.171430889602741	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC2A14	hsa:144195	True	False	False	True	DONE	0.2688173860041024	0.2810817646129846	0.3260295242695655	DONE	Stromal cells	暂不可定位	Stromal	暂不可定位	False	NA
+SLC2A2	hsa:6514	True	False	False	True	DONE	-0.5209858935887671	0.0478740603703576	0.06645590590494384	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC2A3	hsa:6515	True	False	False	True	DONE	0.4123413091361399	0.18306554007958484	0.22394003121374392	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC2A4	hsa:6517	True	False	False	True	DONE	-0.9101252742073241	0.019954348226097342	0.03004821443403547	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+SLC2A7	hsa:155184	True	False	False	True	DONE	-0.2525376655210197	0.22967652942570968	0.27443947251563916	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC2A8	hsa:29988	True	False	False	True	DONE	0.7026564852601997	1.1705988301468392e-05	3.609930524105522e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC32A1	hsa:140679	True	False	False	True	DONE	-0.8326444629058612	0.00029524863743106227	0.0007039492975786901	DONE	Myeloids	暂不可定位	Myeloid	暂不可定位	False	NA
+SLC35A1	hsa:10559	True	False	False	False	DONE	-0.6601788660974778	1.5143286744731214e-05	4.614670221027559e-05	DONE	Stromal cells	Endothelial	Stromal	Epithelial	False	NA
+SLC35A2	hsa:7355	True	False	False	True	DONE	0.4695593053805547	0.000809925540502114	0.0017452370433413752	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+SLC35A3	hsa:23443	True	False	False	True	DONE	-1.0471295944162322	2.7965262546903373e-07	1.3459916085659099e-06	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+SLC35A5	hsa:55032	True	False	False	True	DONE	-0.4359686237065218	0.0001876182879305996	0.0004667797984746802	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+SLC35B1	hsa:10237	True	False	False	True	DONE	0.20941022086219402	0.1092717984466362	0.13964013945413808	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA
+SLC35B4	hsa:84912	True	False	False	True	DONE	0.3902631817698558	0.004121364154394493	0.007473600491243535	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+SLC35D1	hsa:23169	True	False	False	True	DONE	-1.3955540768924388	3.277629626531197e-10	4.3281519427270935e-09	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+SLC35D2	hsa:11046	True	False	False	True	DONE	-0.7663631163861839	5.620704511081031e-06	1.8761808904108642e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC35D3	hsa:340146	True	False	False	False	DONE	2.4001797275830885	6.790129565763864e-08	3.7565742754043714e-07	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC35D4	hsa:85019	True	False	False	True	DONE	0.9041337327006665	9.281549000008855e-07	3.707222119741377e-06	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC36A1	hsa:206358	True	True	False	True	DONE	-1.8426968199468388	1.4842731428630842e-10	2.0115807067749695e-09	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC36A2	hsa:153201	True	True	False	True	DONE	-0.3325076626231643	0.012799861725048552	0.020255310421122167	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC36A4	hsa:120103	True	False	False	True	DONE	0.07525212903462361	0.6855351120985778	0.7264415282526081	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC38A1	hsa:81539	True	True	False	True	DONE	-0.015420148027718147	0.9151176019538497	0.9240893431494758	DONE	T cells	Tcells	Tcells	Tcells	True	NA
+SLC38A10	hsa:124565	True	True	False	True	DONE	-0.26408083855624537	0.0021750624045389234	0.004243019463399793	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+SLC38A2	hsa:54407	True	True	False	True	DONE	0.15448017682466064	0.2705956080136549	0.31600167375744276	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+SLC38A3	hsa:10991	True	False	False	True	DONE	-0.5480667358739096	0.012728060863402441	0.020231331310655114	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	单主要模型；尚未获得广泛CRC体内证据
+SLC38A4	hsa:55089	True	True	False	True	DONE	-1.542644847891881	0.0004162389672373489	0.0009569779827108691	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC38A6	hsa:145389	True	True	False	True	DONE	-0.30484325797823913	0.010884800517709394	0.01762790020949792	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC38A7	hsa:55238	True	False	False	True	DONE	0.2109164792481697	0.07111221143407981	0.09438863115605954	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC38A8	hsa:146167	True	False	False	True	DONE	-0.3453887856714658	0.06333387637490195	0.08538467626459295	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC38A9	hsa:153129	True	False	False	True	DONE	-0.24296895657103776	0.018939001280802503	0.02868701664592144	DONE	Myeloids	Endothelial	Myeloid	Myeloid	False	NA
+SLC43A1	hsa:8501	True	False	False	True	DONE	0.5991741034298396	0.02128530441197688	0.03195898475850756	DONE	Epithelial cells	Fibroblast	Epithelial	Epithelial	False	NA
+SLC43A2	hsa:124935	True	False	False	True	DONE	-0.04347113156253115	0.7836523597866745	0.8127757697459037	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC43A3	hsa:29015	True	False	False	True	DONE	0.3154053412409882	0.23968634446779563	0.2850772919189717	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC45A1	hsa:50651	True	False	False	True	DONE	-0.09807561287084753	0.5374924474975398	0.5889544903430489	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+SLC45A2	hsa:51151	True	False	False	True	DONE	-0.6662448237645737	0.00023341107818717317	0.0005670127606905385	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC45A4	hsa:57210	True	False	False	True	DONE	0.2631993160341116	0.14263989936198174	0.17743852215318984	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+SLC47A1	hsa:55244	True	False	False	True	DONE	-0.8802325949412959	0.0015742265241223017	0.0031793202349921	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC47A2	hsa:146802	True	False	False	True	DONE	-0.8116517818447101	0.001352789346383448	0.0027756434796313775	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC5A1	hsa:6523	True	False	False	True	DONE	0.6458319463863217	0.015203272425525138	0.023372194922822227	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC5A11	hsa:115584	True	False	False	True	DONE	-1.6152493068177314	5.618313310731498e-05	0.00015556082553907103	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC5A2	hsa:6524	True	False	False	True	DONE	-0.13450003225695295	0.038654951855335073	0.05469038517993836	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC5A6	hsa:8884	True	False	False	False	DONE	0.34774923140844244	8.595520140533183e-06	2.7494986784935337e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC5A8	hsa:160728	True	True	False	True	DONE	-0.2020960586140979	0.4479580351953053	0.4940008311040305	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC60A2	hsa:91749	True	False	False	True	DONE	-0.3049792049689837	0.0005020394713716739	0.0011290407325607514	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC6A1	hsa:6529	True	False	False	True	DONE	-0.2820466886637494	0.1589248617887976	0.19627410988304742	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+SLC6A11	hsa:6538	True	False	False	True	DONE	-0.5568777088193478	0.012821808150069567	0.020255310421122167	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC6A12	hsa:6539	True	False	False	False	DONE	-0.25610350357002515	0.39681003136945325	0.442331528474607	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC6A13	hsa:6540	True	False	False	True	DONE	-0.6652138869721068	0.004369039700458926	0.007812692519917872	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC6A14	hsa:11254	True	True	False	True	DONE	2.0366156740099606	0.0037961939509023887	0.006957437312152064	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC6A15	hsa:55117	True	True	False	True	DONE	-0.44438951575589725	0.006652105429673361	0.011269191764084805	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC6A17	hsa:388662	True	False	False	True	DONE	0.048946109249656256	0.6488824129931003	0.7005753515543955	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	相关较强不等于CRC依赖；不能把囊泡转运视作癌细胞质膜摄取
+SLC6A19	hsa:340024	True	True	False	True	DONE	-3.3028091643460855	6.288468291020928e-09	4.9069108634481486e-08	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC6A20	hsa:54716	True	False	False	True	DONE	0.5559142581230687	0.0847955426289172	0.11138147061122962	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC6A4	hsa:6532	True	False	False	True	DONE	0.5839367473143684	0.34612362141341757	0.3917662967646375	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+SLC6A6	hsa:6533	True	False	False	True	DONE	2.569528912012918	1.1186975636706886e-12	7.630356979195547e-11	DONE	Stromal cells	Endothelial	Stromal	Myeloid	False	主要为存活/耐药和侧群表型，非全部条件增殖加速；机制已知
+SLC6A7	hsa:6534	True	False	False	True	DONE	-0.962738690914072	0.0027380111211795103	0.005203231466448147	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+SLC6A8	hsa:6535	True	False	False	True	DONE	-1.4824029376534928	2.7013778101184955e-06	9.728738267209966e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SLC7A10	hsa:56301	True	True	False	True	DONE	-0.07564219285571507	0.8096499832409774	0.8322749328724618	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC7A11	hsa:23657	True	True	False	True	DONE	2.052017411806586	7.922194084354234e-07	3.2902660914858314e-06	DONE	Myeloids	Epithelial	Myeloid	Epithelial	False	NA
+SLC7A13	hsa:157724	True	True	False	True	DONE	-0.1992510568491755	0.22163802980901492	0.2659747619486858	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLC7A5	hsa:8140	True	True	False	True	DONE	3.6914888644255046	1.238442651224657e-11	3.037133168479516e-10	DONE	Myeloids	Monocyte	Myeloid	Myeloid	False	NA
+SLC7A6	hsa:9057	True	False	False	True	DONE	0.8464701663498105	2.1256221853513767e-07	1.0425670718628181e-06	DONE	Stromal cells	Endothelial	Stromal	Tcells	False	NA
+SLC7A7	hsa:9056	True	False	False	True	DONE	0.21497951166309784	0.2593859986608065	0.3042910918230418	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+SLC7A8	hsa:23428	True	True	False	True	DONE	0.9809574210479604	1.7364686214990577e-05	5.22971543901763e-05	DONE	Myeloids	Epithelial	Myeloid	Epithelial	False	LAT1/SLC7A5不是LAT2/SLC7A8；其他癌种不能自动迁移
+SLC7A9	hsa:11136	True	False	False	True	DONE	-0.27635108334391056	0.5257483743138571	0.5773143129459198	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SLCO3A1	hsa:28232	True	False	False	True	DONE	0.3972732888912385	0.017272368554137815	0.026317366288109392	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+SLCO4A1	hsa:28231	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SMOX	hsa:54498	True	False	False	True	DONE	2.1029130827986746	5.961180347148738e-12	1.9187549242385e-10	DONE	Stromal cells	Endothelial	Stromal	Myeloid	False	NA
+SMS	hsa:6611	True	False	False	True	DONE	0.9198885811875697	5.02667902104774e-11	7.844665744968443e-10	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+SMYD1	hsa:150572	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+SMYD2	hsa:56950	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Epithelial	False	NA
+SMYD3	hsa:64754	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Mast	Stromal	Stromal	True	NA
+SPTLC1	hsa:10558	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+SPTLC2	hsa:9517	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Myeloid	False	NA
+SPTLC3	hsa:55304	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Fibroblast	Epithelial	Stromal	False	NA
+SQOR	hsa:58472	True	False	False	True	DONE	-1.4914267862005182	1.5530645252228239e-09	1.5996564609795087e-08	DONE	暂不可定位	Monocyte	暂不可定位	Myeloid	False	NA
+SRM	hsa:6723	True	False	False	True	DONE	1.2913686718821007	5.470628527016238e-11	8.286393210039302e-10	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+SRR	hsa:63826	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+ST6GALNAC3	hsa:256435	True	False	False	False	DONE	-0.979270494399889	1.533983627977341e-06	5.808835061825961e-06	DONE	Stromal cells	Endothelial	Stromal	Stromal	True	NA
+ST6GALNAC4	hsa:27090	True	False	False	False	DONE	-0.24110238410602045	0.013711639518029065	0.021398467732681725	DONE	B cells	Plasma	B_lineage	B_lineage	True	NA
+SUCLA2	hsa:8803	True	False	True	False	DONE	0.1536158839342712	0.18820264224242012	0.2296785799877876	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SUCLG1	hsa:8802	True	False	False	False	DONE	-0.602957963265394	8.097208984817428e-09	5.712414557782158e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SUCLG2	hsa:8801	True	False	False	False	DONE	-0.8631864284982242	5.451797721367132e-09	4.386993478912614e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+SUGCT	hsa:79783	True	True	False	False	DONE	-1.2864819046864613	2.4100408308819562e-08	1.4602012092990675e-07	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+SUV39H1	hsa:6839	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+SUV39H2	hsa:79723	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+TARS1	hsa:6897	True	False	False	False	DONE	0.47038138672523633	4.8731646718971945e-05	0.0001378944948366514	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+TARS2	hsa:80222	True	False	False	False	DONE	0.6982150140681378	5.269058333881545e-08	3.0150722688322174e-07	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+TARS3	hsa:123283	True	False	False	False	DONE	-0.39341508039730033	0.0072925987725303626	0.012193793402120573	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+TAT	hsa:6898	True	True	True	True	DONE	-0.4912125716443206	0.002288214765321659	0.0044135977683170576	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+TET1	hsa:80312	False	True	False	False	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+TH	hsa:7054	True	False	False	True	DONE	0.4230439954070201	7.099473967082069e-05	0.00019042859859621174	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+TKFC	hsa:26007	True	False	False	True	DONE	0.36614967109649676	0.025796561766800542	0.03763521050963818	DONE	Epithelial cells	暂不可定位	Epithelial	暂不可定位	False	NA
+TKT	hsa:7086	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+TKTL1	hsa:8277	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+TKTL2	hsa:84076	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+TMEM86A	hsa:144110	True	False	False	True	DONE	-0.24193287078677939	0.25510233958636924	0.3006354802905724	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+TMEM86B	hsa:255043	True	False	False	True	DONE	-0.7627831440260162	1.0375522594809964e-05	3.250837942423715e-05	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	True	NA
+TMLHE	hsa:55217	True	False	False	False	DONE	-0.06800903345523598	0.6677516018568896	0.7164418228256212	DONE	Epithelial cells	Pericytes	Epithelial	Stromal	False	NA
+TOMT	hsa:120356740	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+TPI1	hsa:7167	True	False	False	True	DONE	0.1264615679670422	0.1477530538042596	0.18291543920479253	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+TPMT	hsa:7172	True	False	False	True	DONE	-0.8502074720582513	2.7436336779754314e-08	1.6429899350666828e-07	DONE	Epithelial cells	Monocyte	Epithelial	Myeloid	False	NA
+TPO	hsa:7173	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Endothelial	暂不可定位	Stromal	False	NA
+TREH	hsa:11181	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	暂不可定位	Epithelial	暂不可定位	Epithelial	False	NA
+TRMT5	hsa:57570	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Pericytes	Epithelial	Epithelial	False	NA
+TTYH1	hsa:57348	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Pericytes	Stromal	Stromal	False	NA
+TTYH2	hsa:94015	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+TTYH3	hsa:80727	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+TXNDC12	hsa:51060	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Stromal cells	Endothelial	Stromal	Stromal	False	NA
+TYMP	hsa:1890	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+TYR	hsa:7299	True	False	False	True	DONE	-0.3570080439977578	0.10620468972015701	0.13639754415431635	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UAP1	hsa:6675	True	False	False	True	DONE	-0.9326303312235789	6.16613054606425e-07	2.6685354884227634e-06	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	UAP1L1、GFPT1或其他通路基因不能替代UAP1
+UAP1L1	hsa:91373	False	False	True	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+UCK1	hsa:83549	True	False	True	True	DONE	-0.2532843394801	0.0009999777470066295	0.002128051816976918	DONE	Stromal cells	Fibroblast	Stromal	Stromal	True	NA
+UCK2	hsa:7371	True	False	True	True	DONE	0.27789210970444866	0.051667850935818896	0.07114690703729072	DONE	Stromal cells	Endothelial	Stromal	Epithelial	False	NA
+UCKL1	hsa:54963	True	False	True	True	DONE	0.5604350701428212	2.9649203526252594e-05	8.615196439443323e-05	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	不能把非经典NRF2/SLC7A11功能改写成尿苷消耗机制
+UCP2	hsa:7351	True	False	False	False	DONE	-0.1039575322505704	0.6854418213223301	0.7264415282526081	DONE	Myeloids	Monocyte	Myeloid	Myeloid	True	NA
+UGCG	hsa:7357	True	False	False	True	DONE	-0.7655623655289466	9.286051523235682e-07	3.707222119741377e-06	DONE	Stromal cells	Pericytes	Stromal	Stromal	True	NA
+UGDH	hsa:7358	True	False	False	True	DONE	-1.657052003098618	2.1184468421640265e-11	4.196154321978745e-10	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+UGP2	hsa:7360	True	False	False	False	DONE	-1.8778690745549242	7.919823608635661e-15	2.0393545792236828e-12	DONE	Stromal cells	Pericytes	Stromal	Epithelial	False	NA
+UGT1A1	hsa:54658	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT1A10	hsa:54575	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT1A3	hsa:54659	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT1A4	hsa:54657	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT1A5	hsa:54579	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT1A6	hsa:54578	True	False	True	True	DONE	-2.5566775255495178	1.3757555419913784e-09	1.5074768172884252e-08	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT1A7	hsa:54577	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT1A8	hsa:54576	True	False	True	True	DONE	-2.72998377736239	4.228594614446706e-09	3.512461655548473e-08	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT1A9	hsa:54600	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT2A1	hsa:10941	True	False	True	True	DONE	-0.6233602308306773	0.001073143622640678	0.0022743578833742764	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT2A2	hsa:574537	True	False	True	True	DONE	-0.3022361382930699	0.07104509281305615	0.09438863115605954	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT2A3	hsa:79799	True	False	True	True	DONE	-3.291396158719411	1.2700695953468731e-09	1.421925742616608e-08	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+UGT2B10	hsa:7365	True	False	True	True	DONE	-1.5861830832057144	9.618343908865051e-09	6.517693569823028e-08	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT2B11	hsa:10720	True	False	True	True	DONE	-1.583025279010331	1.0435863323718586e-08	6.979830664565028e-08	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT2B15	hsa:7366	True	False	True	True	DONE	-0.6141222991598291	0.21183410228509117	0.2554907791026275	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+UGT2B17	hsa:7367	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	Epithelial	暂不可定位	Epithelial	False	NA
+UGT2B28	hsa:54490	True	False	True	True	DONE	NA	NA	NA	NOT_EVALUABLE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT2B4	hsa:7363	True	False	True	True	DONE	-0.5388414747761724	0.004088050752982206	0.007439385645886348	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+UGT2B7	hsa:7364	True	False	True	True	DONE	-1.1770375190387525	0.000858277374187038	0.0018340782062503092	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+UGT8	hsa:7368	True	False	False	True	DONE	-0.17020305757941726	0.44041833455628565	0.4867284169452513	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+UMPS	hsa:7372	True	False	False	False	DONE	0.9110789089299	7.17207236065157e-08	3.888018174458483e-07	DONE	Epithelial cells	Mast	Epithelial	Epithelial	True	NA
+UPB1	hsa:51733	True	False	False	True	DONE	-0.5575881788123968	0.013137584002114759	0.020564911127930397	DONE	暂不可定位	Endothelial	暂不可定位	暂不可定位	False	NA
+UPP1	hsa:7378	True	False	False	True	DONE	-0.8010041992324627	0.00011518202310617384	0.00029808413014914336	DONE	Myeloids	Endothelial	Myeloid	Myeloid	True	NA
+UPP2	hsa:151531	True	False	False	True	DONE	-0.4850098033421302	0.01272321787203196	0.020231331310655114	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	UPP1不是UPP2；不得把UPP1肿瘤论文转记
+URAD	hsa:646625	True	False	False	True	DONE	-0.16383648301900042	0.3305906258236646	0.37750370798045957	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+UXS1	hsa:80146	True	False	False	True	DONE	0.3066398177136381	0.0005277464672314996	0.0011765776217498804	DONE	T cells	Mast	Tcells	Stromal	False	NA
+VDAC1	hsa:7416	True	True	False	True	DONE	0.330785196144888	0.006705488744243926	0.01132238263372335	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+VNN1	hsa:8876	True	False	False	False	DONE	0.5007211455114438	0.27635179131938004	0.3219789373829822	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	False	NA
+VNN2	hsa:8875	True	False	False	False	DONE	-0.6064374907290948	0.014340426098821796	0.022178136459138815	DONE	Myeloids	Monocyte	Myeloid	Myeloid	False	NA
+XDH	hsa:7498	True	False	True	True	DONE	-2.2553435622052542	3.843235608836066e-08	2.2238947624163754e-07	DONE	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+XYLB	hsa:9942	False	True	False	True	DONE	NA	NA	NA	NOT_RUN_CURRENT_FAMILY	Epithelial cells	Epithelial	Epithelial	Epithelial	True	NA
+YARS1	hsa:8565	True	False	False	True	DONE	0.9786922786944069	1.896931503454294e-08	1.1913655174133675e-07	DONE	暂不可定位	暂不可定位	暂不可定位	暂不可定位	False	NA
+YARS2	hsa:51067	True	False	False	True	DONE	0.7234865065047733	1.4895232736052292e-08	9.470425751934482e-08	DONE	Epithelial cells	Endothelial	Epithelial	Epithelial	False	NA
+YRDC	hsa:79693	True	False	False	False	DONE	0.5357733265853364	3.382123180500005e-07	1.5691832774391916e-06	DONE	Epithelial cells	Endothelial	Epithelial	Stromal	False	NA

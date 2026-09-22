@@ -1,0 +1,15 @@
+check_id	scope	requirement	status	evidence_path	reason
+01	design	Author-supported pairing and cross-omics mapping; unique statistical units	PASS	source_manifest.tsv	实际结果及缺项均已记录；历史统计保留
+02	metabolites	All features retained; primary and sensitivity families separate	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+03	workpool	Exploratory P<0.05 view retains q and full background	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+04	mapping	Exact direct relations; conditional and unknown retained; history union	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+05	association	All current relations; tumor only; n CI P q and missing reasons	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+06	rna	Actual design and scale; all current genes; P and q; missing normal documented	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+07	sc_coverage	All current and history genes; stable IDs and author labels	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+08	sc_source	Equal-donor summaries; detection and coverage; uncertain source masked	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+09	sc_replication	Separate studies and shared categories; one-study limits if applicable	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+10	subtypes	Existing subtype metadata only; own/shared/pooled distinction or absence	PASS	COAD_主报告.md	无适用患者临床分型表；明确NOT_EVALUABLE，不用细胞CMS替代
+11	integration	Full relation IDs; history preserved; evidence and interpretation separate	PASS	appendix	实际结果及缺项均已记录；历史统计保留
+12	presentation	Actual PDF MD Excel figures data captions and full source appendix	PASS	figure_manifest.tsv	实际结果及缺项均已记录；历史统计保留
+13	validation	Immutable input; no silent overwrite; page review; ZIP and hash validation	PASS	validation.json	实际结果及缺项均已记录；历史统计保留
+14	publication	No restricted data; stage index; verified remote commit; merge status	PENDING_PUBLICATION	README_CN.md	最终提交后记录已核实远端SHA；不合并PR
