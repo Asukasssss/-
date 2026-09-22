@@ -662,6 +662,15 @@
           "new_patient_tests": false
         }
       ]
+    },
+    {
+      "event": "source_contract_patient_and_descriptors",
+      "verified_commits": [
+        "4d7137e0448241bd4d8b53f4a68b16b34e464d37",
+        "c8a3bc35a31797eb4152bb645659682e8ce31194"
+      ],
+      "verification": "push and ls-remote exact SHA",
+      "merged": false
     }
   ],
   "preanalysis_verification": {
