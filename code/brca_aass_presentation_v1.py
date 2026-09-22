@@ -47,8 +47,8 @@ for ext in ['png','pdf','svg']:fig.savefig(OUT/('AASS_summary.'+ext),dpi=180)
 plt.close(fig)
 path='results/BRCA/06_EXTERNAL/20260922T085000Z_sc156_umap_pairs_v1/all156_expression_celltype_pairs.pdf'
 src=fitz.open(stream=raw(path),filetype='pdf');index=pd.read_csv(io.BytesIO(raw(path.rsplit('/',1)[0]+'/gene_page_index.tsv')),sep='\t');page=int(index.loc[index.gene.eq('AASS'),'page'].iloc[0]);assert page==13
-umap=fitz.open();umap.insert_pdf(src,from_page=page-1,to_page=page-1);umap.save(OUT/'AASS_UMAP.pdf');umap[0].get_pixmap(matrix=fitz.Matrix(1.5,1.5)).save(OUT/'AASS_UMAP.png')
-report=fitz.open(OUT/'AASS_summary.pdf');report.insert_pdf(umap);report.save(OUT/'AASS_图册.pdf');report.close();umap.close();src.close()
+umap=fitz.open();umap.insert_pdf(src,from_page=page-1,to_page=page-1);umap[0].clean_contents();umap.save(OUT/'AASS_UMAP.pdf',garbage=4,deflate=True);umap[0].get_pixmap(matrix=fitz.Matrix(1.5,1.5)).save(OUT/'AASS_UMAP.png')
+report=fitz.open(OUT/'AASS_summary.pdf');report.insert_pdf(umap);report.save(OUT/'AASS_图册.pdf',garbage=4,deflate=True);report.close();umap.close();src.close()
 text='''# AASS—赖氨酸：当前BRCA结果
 
 ## 问题与输入
