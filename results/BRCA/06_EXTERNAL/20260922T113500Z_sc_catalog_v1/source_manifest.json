@@ -1,0 +1,13 @@
+{
+  "source_commit": "8663004f8d98acaf1368badc7436c84b059e4462",
+  "source_directories": [
+    "06_EXTERNAL/20260919T140105Z_scRNA117_v1",
+    "04_ROBUSTNESS/20260919T151200Z_all117_robustness_v2",
+    "06_EXTERNAL/20260922T023000Z_sc39_v1",
+    "06_EXTERNAL/20260922T064625Z_sc156_subtypes_v1",
+    "06_EXTERNAL/20260922T082327Z_sc156_umap_v1",
+    "06_EXTERNAL/20260922T085000Z_sc156_umap_pairs_v1",
+    "06_EXTERNAL/20260922T092000Z_epithelial_umap_v1"
+  ],
+  "hashes": "single_cell_artifact_catalog.tsv"
+}

@@ -1,0 +1,7 @@
+{
+  "operation": "catalog_only",
+  "source_commit": "8663004f8d98acaf1368badc7436c84b059e4462",
+  "new_statistics": 0,
+  "new_images": 0,
+  "scope": "All published BRCA single-cell source artifacts in seven registered runs; mixed composition-analysis files excluded"
+}

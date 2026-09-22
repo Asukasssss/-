@@ -1,0 +1,11 @@
+{
+  "status": "DONE",
+  "catalog_files": 147,
+  "groups": 7,
+  "all_files_tracked": true,
+  "all_paths_exist": true,
+  "all_files_sha256_recorded": true,
+  "full156_pdf_links": 3,
+  "selected_gene_png_pairs": 12,
+  "no_patient_matrix_read": true
+}
