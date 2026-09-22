@@ -1,0 +1,18 @@
+{
+  "status": "DONE",
+  "input_cells": 68322,
+  "primary_cancer_cells": 39755,
+  "cancer_donors": 24,
+  "all_candidate_genes": 101,
+  "measured_genes": 100,
+  "missing_genes": [
+    "GPX1"
+  ],
+  "primary_source_rank_evaluable": 91,
+  "raw_integer_count_error": 0.0,
+  "full_gene_denominator": 32397,
+  "donor_equal": true,
+  "new_clustering": false,
+  "new_UMAP": false,
+  "second_independent_tumor_study_completed": false
+}
