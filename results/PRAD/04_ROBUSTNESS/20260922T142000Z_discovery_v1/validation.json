@@ -1,0 +1,28 @@
+{
+  "status": "DONE",
+  "families": {
+    "METAB_PAIRED_AVAILABLE": {
+      "planned": 361,
+      "evaluable": 344,
+      "p_lt005": 66,
+      "q_lt005": 9
+    },
+    "METAB_PAIRED_CAPT_CONCORDANT": {
+      "planned": 361,
+      "evaluable": 361,
+      "p_lt005": 57,
+      "q_lt005": 2
+    },
+    "METAB_PAIRED_PRIMARY": {
+      "planned": 361,
+      "evaluable": 361,
+      "p_lt005": 69,
+      "q_lt005": 9
+    }
+  },
+  "counts_checked": true,
+  "feature_identity_unique": true,
+  "BH_independent_formula_checked": true,
+  "normal_P_independent_formula_checked": true,
+  "original_statistics_modified": false
+}

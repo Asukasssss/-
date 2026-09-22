@@ -235,10 +235,16 @@ def paired(out):
     summary={f:dict(planned=len(z),evaluable=int(z.p_value.notna().sum()),p_lt005=int(z.p_value.lt(.05).sum()),q_lt005=int(z.q_value.lt(.05).sum())) for f,z in d.groupby('test_family')}
     js(pub/'validation.json',dict(status='DONE',families=summary,counts_checked=True,feature_identity_unique=True,BH_independent_formula_checked=True,normal_P_independent_formula_checked=True,original_statistics_modified=False))
     manifest([pp,ip,metp,out/'public/01_CAMP/analysis_spec.json',Path(__file__)],pub)
-    (pub/'README_CN.md').write_text('# PRAD 全量配对代谢物发现\n\n问题：作者case定义的肿瘤与正常配对有哪些代谢差异？\n\n输入：审计确认的43对，作者两组织过滤交集361特征；CAPT一致36对另列敏感性。使用作者尺度，无新增填补或变换。\n\n实际结果：\n\n'+pd.DataFrame(summary).T.to_markdown()+'\n\n新手解释：P<0.05是探索工作池，q<0.05另标FDR支持；升降比例是配对内方向人数比例，不是显著患者比例。效应是作者log2尺度均值差，不称浓度倍数。\n\n限制：作者case身份；CAPT不一致7对保留敏感性；可用值掩码不是已验证原始检出；同队列敏感性不是独立验证。\n\n当前决定：用主分析P<0.05全池进入直接生化映射，不按敏感性显著性删候选。\n\n下一步：全部工作特征映射、全关系肿瘤相关、全基因RNA与单细胞来源。\n\n复现：python prad_discovery_v1.py --mode paired --out AUDITED_RUN。\n',encoding='utf-8')
+    report(out)
+
+def report(out):
+    pub=out/'public/04_ROBUSTNESS'
+    summary=json.loads((pub/'validation.json').read_text())['families']
+    (pub/'README_CN.md').write_text('# PRAD 全量配对代谢物发现\n\n问题：作者case定义的肿瘤与正常配对有哪些代谢差异？\n\n输入：审计确认的43对，作者两组织过滤交集361特征；CAPT一致36对另列敏感性。使用作者尺度，无新增填补或变换。\n\n实际结果：\n\n'+'\n'.join(f'- {k}: {v}' for k,v in summary.items())+'\n\n新手解释：P<0.05是探索工作池，q<0.05另标FDR支持；升降比例是配对内方向人数比例，不是显著患者比例。效应是作者log2尺度均值差，不称浓度倍数。\n\n限制：作者case身份；CAPT不一致7对保留敏感性；可用值掩码不是已验证原始检出；同队列敏感性不是独立验证。\n\n当前决定：用主分析P<0.05全池进入直接生化映射，不按敏感性显著性删候选。\n\n下一步：全部工作特征映射、全关系肿瘤相关、全基因RNA与单细胞来源。\n\n复现：python prad_discovery_v1.py --mode paired --out AUDITED_RUN。\n',encoding='utf-8')
     checksums(pub);print(json.dumps(summary),flush=True)
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser();ap.add_argument('--mode',choices=['audit','paired'],required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--code-commit',default='UNRECORDED');a=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument('--mode',choices=['audit','paired','report'],required=True);ap.add_argument('--out',type=Path,required=True);ap.add_argument('--code-commit',default='UNRECORDED');a=ap.parse_args()
     if a.mode=='audit':audit(a.out,a.code_commit)
-    else:paired(a.out)
+    elif a.mode=='paired':paired(a.out)
+    else:report(a.out)

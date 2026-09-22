@@ -1,0 +1,36 @@
+{
+  "version": "prad_discovery_v1",
+  "code_commit": "c62b6c8f8a5da0aad54bfe8dc6d519f735992ee7",
+  "author_pair_field": "PRAD.xlsx/sampleinfo/case",
+  "same_batch_pairs": true,
+  "unit": "author case, unique within tissue; no genotype verification",
+  "primary_pairs": 43,
+  "CAPT_concordant_sensitivity": 36,
+  "full_input_inventory": 476,
+  "planned_retained_features": 361,
+  "feature_key": "feature_id hash of outer-whitespace-trimmed author harmonized feature name; original spelling retained; uniqueness checked; never collapse chemical-key collisions",
+  "main_test": "two-sided signed rank; exact sign flips n_nonzero<=16;99999 MC n_nonzero17-29 plus1;normal ties+continuity>=30;all zero p1",
+  "minimum_n": 8,
+  "bootstrap": 4000,
+  "master_seed": 20260922,
+  "seed_derivation": "SHA256(version|20260922|PRAD|family|feature_id) first8hex",
+  "families": [
+    "METAB_PAIRED_PRIMARY",
+    "METAB_PAIRED_AVAILABLE",
+    "METAB_PAIRED_CAPT_CONCORDANT"
+  ],
+  "BH": "separate all evaluable retained features in each family",
+  "workpool": "primary nominal P<0.05; FDR label separately retained",
+  "data_scale": "CAMP author batch median scaling, PQN, log2, minimum imputation; no new transformations",
+  "observed_mask": "finite author data values; unchanged observed values verified against data_imputed",
+  "assumptions": "sign-flip exchangeability; signed-rank location interpretation assumes symmetric differences; pointwise bootstrap intervals",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  },
+  "source_paper": "https://doi.org/10.1038/s42255-023-00817-8",
+  "BRCA_reference_commit": "f18a215dc8a269e4f16c55011633d557f069f631",
+  "scope": "Discovery to all-candidate cell expression source; no automatic mechanism extensions"
+}
