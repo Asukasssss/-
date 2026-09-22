@@ -1,0 +1,84 @@
+{
+  "protocol": "camp_discovery_to_cell_source_v1",
+  "status": "TEMPLATE_NOT_RUN",
+  "cancer": "REPLACE_ASSIGNED_CANCER",
+  "cohort": "REPLACE_COHORT",
+  "run_id": "REPLACE_UTC_RUN_ID",
+  "input_files": [],
+  "sample_design": {
+    "pair_evidence": null,
+    "unit": null,
+    "duplicate_policy": null,
+    "normal_tissue_definition": null
+  },
+  "data_scale": {
+    "metabolite": null,
+    "RNA": null,
+    "availability_mask_semantics": null
+  },
+  "min_pairs": 8,
+  "min_correlation_n": 8,
+  "metabolite_test": {
+    "profile": "new_cohort_default_v1",
+    "test": "two_sided_signed_rank",
+    "zero_method": "wilcox",
+    "ties": "average_ranks",
+    "all_zero_p": 1,
+    "exact_signflip_max_nonzero": 16,
+    "MC_signflip_max_nonzero": 29,
+    "MC_B": 99999,
+    "large_n_method": "normal_tie_corrected_with_continuity",
+    "rounding_policy": "predeclare_from_measurement_precision"
+  },
+  "correlation": {
+    "method": "spearman",
+    "p_method": "two_sided_patient_permutation",
+    "B": 9999,
+    "plus_one": true
+  },
+  "bootstrap": {
+    "B": 4000,
+    "unit": "whole_patient_or_pair",
+    "ci": "percentile95_pointwise",
+    "min_valid_fraction": 0.9
+  },
+  "RNA": {
+    "input_type": "MUST_SET",
+    "continuous_model": "paired_t_on_documented_author_scale",
+    "count_model": "separate_edgeR_paired_design_required"
+  },
+  "multiplicity": {
+    "method": "BH",
+    "family_denominator": "all_evaluable_in_prespecified_family",
+    "missing_P_q": "NA",
+    "families": [
+      "METAB_PAIRED_PRIMARY",
+      "METAB_PAIRED_AVAILABLE",
+      "REL_TUMOR_PRIMARY",
+      "REL_TUMOR_AVAILABLE",
+      "RNA_PAIRED_CURRENT"
+    ]
+  },
+  "workpool": {
+    "primary_metabolite_P_lt": 0.05,
+    "keep_all_q": true,
+    "no_RNA_or_correlation_gate_for_sc": true
+  },
+  "single_cell": {
+    "min_cells_per_donor_type": 20,
+    "min_labels_per_type": 3,
+    "low_detection_flag": 0.01,
+    "bootstrap_B": 1000,
+    "stability_tag": 0.8,
+    "rank_tie_rtol": 1e-10,
+    "rank_tie_atol": 1e-12,
+    "new_P_q": false,
+    "stop_after": "expression_source",
+    "allow_new_umap_only_if_explicitly_scoped": true
+  },
+  "master_seed": 20260922,
+  "software_versions": {},
+  "source_commit": null,
+  "planned_counts": {},
+  "historical_results_immutable": true
+}

@@ -1,0 +1,196 @@
+{
+  "sop_commit": "6dd0a73fb77a392e428254ad265b8710ce967c73",
+  "pdac_remote": "109410a8f80537c428746e4551bdd760230a6e7f",
+  "files": [
+    {
+      "path": "docs/CAMP_DISCOVERY_TO_CELL_SOURCE_SOP_CN.md",
+      "git_blob": "fadf65e9d2df5c5720442c60df34e364c41ac115",
+      "sha256": "5a5dcdb84cd4f657caef9525fb8ab3cc431938f52811be044326adc298200e40"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/.gitattributes",
+      "git_blob": "fa1385d99a319b43c06f5309d1aae9fdd3adea46",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/README_CN.md",
+      "git_blob": "c05aff57660b63941e949591a91471312a2459d5",
+      "sha256": "c5cccd2d5f24b3ba828134cac17f3ca9446fbf0d12fc6ef61c51e06fa5162bce"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/RNA_P005_view.tsv",
+      "git_blob": "1379bc91b31744afea14197dbd98435b6e659476",
+      "sha256": "2815b02411fa2216f1c2130ae99d19aac50de85b21f734822fa72631743fd3cf"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/RNA_identity_coverage.tsv",
+      "git_blob": "697f65635a9fe5426b855eafba7b312cde0deb3c",
+      "sha256": "a95da1465ed4a8bb97fcafe364098a8c6b18d8506160742c44104b0b6757a698"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/RNA_pairs_private.tsv",
+      "git_blob": "5ebfa800b5200e0c89f82f5a516ca84870848ff4",
+      "sha256": "e276e1bc972c406ee497c41c63e90a792b83538b8d5f5f6735606e936a72b2be"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/analysis_spec.template.json",
+      "git_blob": "763f519c24923d146c63d37b0fabdd092c881d7e",
+      "sha256": "7c5c1bb748bfeeafb7400717c802cdcbea78b8254fccf4250e184711e4059166"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/candidate_genes_integrated.tsv",
+      "git_blob": "1187323f80986b20c4f0c109be361a0f67012a0c",
+      "sha256": "a3c0ef2313ad4a963ea70d11457c870297e41344d1c173ce4659f93810f67afe"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/candidate_relations_integrated.tsv",
+      "git_blob": "5c93a6d314f8af185eba5c93d2182e3ccba65aa9",
+      "sha256": "8a4d37c0cd0cc249771889c012fbc38e257f38fc930c2190fc6ac013f488b079"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/checksums.tsv",
+      "git_blob": "6b11e327b894b5201bd12b6653a3dddaeb615655",
+      "sha256": "f42b8cf5b723924206dccbbe57192bd561acbbe501a6927b49a750ed18be08b1"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/conditional_relations.tsv",
+      "git_blob": "324b64756a90a9e8bccbdca537e78f2391b9b006",
+      "sha256": "1d0f0d29fa5a8d33d977d11b495ffdc0f404b108fd5a1c44a0a8401384cc42d1"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/direct_relations.tsv",
+      "git_blob": "324b64756a90a9e8bccbdca537e78f2391b9b006",
+      "sha256": "1d0f0d29fa5a8d33d977d11b495ffdc0f404b108fd5a1c44a0a8401384cc42d1"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/gene_pool_current.tsv",
+      "git_blob": "d3466848dfdfd6ed8e8497ff9b2e2163552df0c4",
+      "sha256": "b6fdf9f9ff44cc45b7bf8a679a505fee38a02ffac4bc47bd4d3de8842a9513eb"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/gene_pool_history_union.tsv",
+      "git_blob": "d3466848dfdfd6ed8e8497ff9b2e2163552df0c4",
+      "sha256": "b6fdf9f9ff44cc45b7bf8a679a505fee38a02ffac4bc47bd4d3de8842a9513eb"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/mapping_evidence.tsv",
+      "git_blob": "324b64756a90a9e8bccbdca537e78f2391b9b006",
+      "sha256": "1d0f0d29fa5a8d33d977d11b495ffdc0f404b108fd5a1c44a0a8401384cc42d1"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/metabolite_available_sensitivity.tsv",
+      "git_blob": "cf9b5975140b39f6a430c0c56c7eb5a8ee7731e6",
+      "sha256": "d6027fd1a8f43dee37301a10e722e47e41a4cb7d35756dc41c6401d0889d391e"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/metabolite_direction_ranking.tsv",
+      "git_blob": "cf9b5975140b39f6a430c0c56c7eb5a8ee7731e6",
+      "sha256": "d6027fd1a8f43dee37301a10e722e47e41a4cb7d35756dc41c6401d0889d391e"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/metabolite_identity.tsv",
+      "git_blob": "6b160239e89a1533561767dc398ac7dc94e00c55",
+      "sha256": "bd2865b7446a88f25f16088479ae79f32fe6238ddb8b893e96305846e40b9190"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/metabolite_paired.tsv",
+      "git_blob": "cf9b5975140b39f6a430c0c56c7eb5a8ee7731e6",
+      "sha256": "d6027fd1a8f43dee37301a10e722e47e41a4cb7d35756dc41c6401d0889d391e"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/metabolite_pairs_private.tsv",
+      "git_blob": "286c38e5740180966adb77feb6bcd8a08a258a81",
+      "sha256": "680bdf272ea38f1563424a0e7cbd8b820b2487906f0a90229f968d66b2d6bced"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/metabolite_workpool.tsv",
+      "git_blob": "cf9b5975140b39f6a430c0c56c7eb5a8ee7731e6",
+      "sha256": "d6027fd1a8f43dee37301a10e722e47e41a4cb7d35756dc41c6401d0889d391e"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/paired_RNA.tsv",
+      "git_blob": "1379bc91b31744afea14197dbd98435b6e659476",
+      "sha256": "2815b02411fa2216f1c2130ae99d19aac50de85b21f734822fa72631743fd3cf"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/relation_coverage.tsv",
+      "git_blob": "34b1f34021406b8e49d7800650f6a8b445ffb030",
+      "sha256": "35377bc650f0bd7a10287f57d05f5db231b3b4a008edfc9a60436b19051191c4"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sample_audit_summary.tsv",
+      "git_blob": "412256cad3ce76447b2fdce63e5697da210ce311",
+      "sha256": "b7d069fa24d8fbd348273e0a2a2ef56d57829bbef02f1357c64c8a9bf3796f92"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sample_identity_audit_private.tsv",
+      "git_blob": "ee767217538b22a4534204933c83a100edc54661",
+      "sha256": "d6a9bcc8800d433d50c0d938d701c7c7fbc793895e115908ccb4779d9a9135ad"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sc_annotation_map.tsv",
+      "git_blob": "6ab6e09587d6d5685da68b70c6616dfd3987e045",
+      "sha256": "6a4239fb2c348e769ab6d729293f1db6dd9762381f79dc70ba4d9b1197e728a3"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sc_celltype_profiles.tsv",
+      "git_blob": "69952a5bbb7eb090d464d11716ea302250d999d8",
+      "sha256": "fc0741c3748b9f5db7c0b83a2dc2d54021fee62f9726f37f35903aba47cf01a0"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sc_cross_study.tsv",
+      "git_blob": "cdbb155009ea41f6efb365aae80004d485b18ca9",
+      "sha256": "3f094479923f24681bb400ff3104b8d78ae5a8aed4294bd55e4f758aaa7394b9"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sc_dataset_registry.tsv",
+      "git_blob": "5ed32063aa9fb3855c966e6286a0900b94dcb0e3",
+      "sha256": "a7109ea74b3fa6e079b6721af46db7b8b6fe9848b6382dd053b0cfd4fba7bb90"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sc_donor_profiles_private.tsv",
+      "git_blob": "5ba2291c2bd763fcd966b1914a8f5410878b1498",
+      "sha256": "2f73f4d562e952fa522a4c30e7d00c2f653661611e0d55266b266d0a01d3e760"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sc_gene_coverage.tsv",
+      "git_blob": "475100c032543d4ec95eda9c0b4b0e60481fc304",
+      "sha256": "c4c036fad4402cc2a14ccdf497b8475c2b9a79226c5415db5724a20bf49e5e5d"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/sc_source_stability.tsv",
+      "git_blob": "e0aa110c78d9480bc153a414a96dbb2f74f10d71",
+      "sha256": "e3d3ac81372209a4f95f0caf2898a9973bb4e776fd956bef1dfc2ff68138cb04"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/source_manifest.tsv",
+      "git_blob": "6a014b8077a11694492c998585a77c4f56aaa978",
+      "sha256": "7cb63e56f1a3e117644e0df491b2c1d4ded123fc8049961c12785cca8397803b"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/table_catalog.tsv",
+      "git_blob": "0f0c282adcb15485b05949aaf349d46b79c2b48c",
+      "sha256": "6b1be4207a81b6107a3c09c32512ca7eeaba73dad3d14c28c3ed34ee79d3677d"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/tumor_association.tsv",
+      "git_blob": "defdf1c6a204c7f8f54688d102cef54cf6621426",
+      "sha256": "3192864ca33eb00fe5bdb43895a05994f34394d9d459658cb152c58823b9fcc3"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/tumor_association_available.tsv",
+      "git_blob": "defdf1c6a204c7f8f54688d102cef54cf6621426",
+      "sha256": "3192864ca33eb00fe5bdb43895a05994f34394d9d459658cb152c58823b9fcc3"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/tumor_multiomics_map_private.tsv",
+      "git_blob": "257a5d10fd13b2b2e439fb579828abe0b79d85a9",
+      "sha256": "ad76a718a6758b688ea408e6d92f4ed55eacb0985faee718c820444780b5769e"
+    },
+    {
+      "path": "templates/camp_discovery_source_v1/validation.json",
+      "git_blob": "3215f2e8daf656e1624216e5e790e6ea9a284997",
+      "sha256": "2d8fbc7940dc6eb7c7ce256e174cdb12efce259e7ebce6f6b33ac96acee1ca6b"
+    }
+  ]
+}
