@@ -1,0 +1,9 @@
+{
+  "status": "TEMPLATES_VALIDATED_NOT_ANALYSIS",
+  "tables": 31,
+  "empty_tables_only": true,
+  "unique_headers": true,
+  "statistical_prefix_matches_repository": true,
+  "config_json_parseable": true,
+  "patient_data_included": false
+}
