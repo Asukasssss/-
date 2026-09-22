@@ -1,0 +1,8 @@
+{
+  "input_commit": "8952c54b61709c875ec83881b66ee43bd1de59f3",
+  "gene": "AASS",
+  "relation": "KEGG:C00047|AASS",
+  "new_tests": 0,
+  "new_embedding": false,
+  "source_page": 13
+}
