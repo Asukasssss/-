@@ -1,52 +1,45 @@
-# PDAC 当前进度：发现至表达来源SOP本轮交付完成
+# PDAC 当前进度：作者细胞身份整改 v4
 
 ## 本轮问题
 
-按GitHub固定规范6dd0a73执行PDAC，主线为身份连接→配对代谢物→直接映射→内部相关与配对RNA→全候选表达来源→关系/基因比较表。单细胞止于来源描述。
+接回作者恶性/正常标签，并更正此前把三队列统一为上皮/导管后丢失的身份解释。
 
 ## 输入与范围
 
-11个作者明确配对，21个作者病例键互不重复的肿瘤单位。全307项代谢物、51项探索工作池；357直接关系、358条件关系。当前DIRECT池250基因，含条件及历史的并集687基因。
+原687基因、148777细胞、715关系保留。GSE242230采用cell_type_specific；其他两队列已核对现有GEO元数据只有导管大类。原始计数和完整逐细胞映射留服务器。
 
 ## 实际结果
 
-|环节|实际结果|
-|---|---|
-|配对代谢物|307项可评估；51项P<0.05、0项q<0.05；双方原有值敏感性193项可评估|
-|内部关联|21作者单位；直接主354项可评估、1条q<0.05；条件主350项可评估、4条q<0.05。效应/P复用，新有效集合BH另存|
-|配对RNA当前池|247/250可评估；91项P<0.05，40项q<0.05|
-|RNA条件/历史补充|429/437可评估；151项P<0.05，0项q<0.05，独立补充检验族|
-|三队列表达来源|全部687基因；细胞逐个log1p10k后供者/样本标签等权。245基因同最高类别；158基因同最高且各队列保持率≥80%|
-|来源图|15页点图、15页热图，全部687基因按字母分页，未按显著性筛图|
-|完整整合|715关系表、687基因表、7项未映射特征单列；原42池362关系ID另索引；无综合总分|
-
-676行RNA配对t、t区间和bootstrap重放、两个RNA BH族通过独立核对；来源全体供者汇总和排名通过独立核对；完整关系键连接与图表覆盖验证通过。没有声称独立重读全部原始单细胞计数或重放全部SCbootstrap。
+- GSE242230：宽类Malignant的11133细胞中，细分为5660 Classical、5123 Basal和350 Normal Epithelial。现10783个作者恶性与350个作者正常上皮分开计算；350/11133=3.14%。
+- GSE263733与GSE278688：保留Ductal (unresolved)，不能将肿瘤组织来源直接等同恶性身份。作者论文做过恶性分析，但当前没有接回完整逐细胞判定。
+- 三队列严格同首位类别120基因，同首位且各自保持率≥80%为72基因（旧158）；当前250直接基因中为30（旧65）。身份类别不等价导致的变化不称生物学证据消失。
+- GSE242230拆分后146基因的首位跨宽谱系改变；完整标签变化见source_identity_changes.tsv。正常上皮350细胞中291细胞分布于6个合格来源标签，恶性10783细胞中10759细胞分布于23个合格来源标签，两组不是匹配对照。
+- 配对代谢物仍307项/51项P<0.05/0项q<0.05；当前RNA仍247项可评估/91项P<0.05/40项q<0.05。357直接、358条件关系及所有关联P/q不变。
+- ABAT在GSE242230的首位为Myeloid；完整候选来源与比较表已更新，不以ABAT等少数候选决定规则。
 
 ## 新手解释
 
-P<0.05代谢物是探索入口，51项均未通过配对FDR。RNA差异、肿瘤内部相关和单细胞来源回答不同问题，不以全部显著才保留。80%只是来源排名的描述性重采样保持率，不是80%患者符合，也不是机制证据。
+“作者注释恶性”保留作者的证据来源；“身份未定”是尚未得到逐细胞判定，既不称正常也不称恶性。细分正常上皮标签优先于冲突的宽标签。旧29个上皮/导管稳定来源基因不能写成29个三队列恶性来源复现。
 
 ## 限制/反证
 
-临床身份重新认证、同一分装、跨研究患者去重、临床协变量、恶性CNV、外部matched-omics和功能干预均未因本次交付完成。GSE242230按作者25样本标签分析，不能提升为25已核实独立患者。原303/42及旧关联/RNA/来源结果完全保留。
+本轮未自行运行CNV或做机制分析。两队列身份连接仍待解决；临床身份去重与外部代谢关系验证未因本次整改完成。正常上皮350细胞分布及每类≥3来源标签/每标签≥20细胞阈值会限制可评估性；不可评估不当作零。
 
 ## 当前决定
 
-本规范范围的计算、来源图和比较表完成，各交付批次DONE；03/04/05/06/07总研究阶段仍有上述范围外缺项，不宣称PDAC所有研究已完成。PR #2保持草稿、未合并。
+GSE242230已完成作者身份接回、重新计算、独立核对和全候选图。06身份总任务仍PARTIAL；另两队列NEEDS_REVIEW。v4来源解释优先，旧数值不覆盖。PR #2仍草稿、未合并。
 
 ## 下一步
 
-以完整比较表进行选题讨论；不自动追加机制任务。
+取得其他两队列可连接到细胞条码的作者恶性/正常判定后，另建版本接入；不自动用表达高低或肿瘤样本标签替代。
 
 ## 复现命令
 
-代码位于code/pdac/run_sop_v3_server.py、verify_sop_v3_server.py、record_sop_v3_resume.py、plot_sop_v3_sources.py与integrate_sop_v3_complete.py。真实患者、细胞级数据和完整映射表继续留服务器。
+服务器run_author_identity_v4_server.py；本地deliver_author_identity_v4.py。保留完整参数、输入哈希、逐细胞连接核查和旧新比较。
 
-交付入口：
-
-- [结果解释](../../results/PDAC/07_INTEGRATION/20260922T121100Z_sop_v3_integrated/FINDINGS_CN.md)
-- [关系比较表](../../results/PDAC/07_INTEGRATION/20260922T121100Z_sop_v3_integrated/candidate_relations_integrated.tsv)
-- [基因比较表](../../results/PDAC/07_INTEGRATION/20260922T121100Z_sop_v3_integrated/candidate_genes_integrated.tsv)
-- [RNA P<0.05展示](../../results/PDAC/03_PATIENT/20260922T120300Z_sop_v3_internal/RNA_P005_view.tsv)
-- [全候选来源图](../../results/PDAC/06_EXTERNAL/20260922T120400Z_sop_v3_source/figures/README_CN.md)
-- [31项规范表交付索引](../../results/PDAC/07_INTEGRATION/20260922T121100Z_sop_v3_integrated/SOP_DELIVERY_STATUS.tsv)
+- [身份整改结果](../../results/PDAC/06_EXTERNAL/20260922T131800Z_author_identity_v4/README_CN.md)
+- [来源图](../../results/PDAC/06_EXTERNAL/20260922T131800Z_author_identity_v4/figures/README_CN.md)
+- [关系比较](../../results/PDAC/07_INTEGRATION/20260922T131900Z_author_identity_v4/candidate_relations_integrated.tsv)
+- [基因比较](../../results/PDAC/07_INTEGRATION/20260922T131900Z_author_identity_v4/candidate_genes_integrated.tsv)
+- [恶性与正常表达汇总](../../results/PDAC/07_INTEGRATION/20260922T131900Z_author_identity_v4/author_malignant_normal_gene_profiles.tsv)
+- [完整旧新来源比较](../../results/PDAC/07_INTEGRATION/20260922T131900Z_author_identity_v4/source_identity_changes.tsv)

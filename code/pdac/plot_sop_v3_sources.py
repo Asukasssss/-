@@ -14,13 +14,14 @@ def main():
     df=read(SOURCE/'sc_celltype_profiles.tsv');pool=pd.read_csv(MAP/'gene_pool_history_union.tsv',sep='\t');genes=sorted(pool.gene);cohorts=['GSE263733','GSE278688','GSE242230'];out=SOURCE/'figures';out.mkdir(exist_ok=True)
     assert len(genes)==687 and set(df.gene)==set(genes) and not df.duplicated(['cohort','gene','celltype']).any()
     globalmax=float(df.effect.max());norm=Normalize(0,globalmax);cmap=plt.get_cmap('viridis').copy();cmap.set_bad('#d5d9de')
+    identity_v4=(SOURCE/'author_identity_counts.tsv').exists()
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':8,'svg.fonttype':'none','axes.spines.top':False,'axes.spines.right':False})
     manifest=[];npages=math.ceil(len(genes)/48)
     for page in range(npages):
         gg=genes[page*48:(page+1)*48]
         for kind in ['dotplot','heatmap']:
             fig,axes=plt.subplots(1,3,figsize=(18,15),sharey=True,gridspec_kw={'wspace':.18})
-            fig.subplots_adjust(left=.085,right=.92,top=.89,bottom=.17)
+            fig.subplots_adjust(left=.085,right=.92,top=.89,bottom=.21 if identity_v4 else .17)
             for ax,cohort in zip(axes,cohorts):
                 d=df[df.cohort==cohort];cats=sorted(d.celltype.unique());x=d.pivot(index='gene',columns='celltype',values='effect').reindex(index=gg,columns=cats).to_numpy(float);det=d.pivot(index='gene',columns='celltype',values='mean_detection_fraction').reindex(index=gg,columns=cats).to_numpy(float)
                 if kind=='heatmap':ax.imshow(np.ma.masked_invalid(x),aspect='auto',interpolation='nearest',cmap=cmap,norm=norm)
@@ -34,7 +35,7 @@ def main():
             barax=fig.add_axes([.94,.43,.012,.32]);fig.colorbar(ScalarMappable(norm=norm,cmap=cmap),cax=barax,label='Equal-label mean cellwise log1p(counts per 10k)')
             fig.suptitle(f'PDAC | All-candidate {kind} | {page+1}/{npages}',x=.085,ha='left',y=.965,fontsize=18,weight='bold')
             fig.text(.085,.931,f'{gg[0]} - {gg[-1]} | Alphabetical pages; all687 genes retained. No RNA/association significance filter.',fontsize=10)
-            fig.text(.085,.03,'Author broad cell labels. >=20cells per source label/type and >=3labels per type. Gray = missing or insufficient coverage; not zero.\nSource labels equally weighted. GSE242230 uses author sample labels. Descriptive expression only; no SC P/q or mechanism inference.',fontsize=9,linespacing=1.5)
+            fig.text(.085,.03,('Author identities: malignant, normal epithelium, unresolved ductal are distinct. ' if identity_v4 else 'Author broad cell labels. ')+'>=20cells per label/type;>=3labels per type. Gray = missing, not zero.\nSource labels equally weighted. GSE242230 uses author sample labels. Descriptive expression only; no SC P/q or mechanism inference.',fontsize=9,linespacing=1.5)
             if kind=='dotplot':
                 hs=[axes[2].scatter([],[],s=4+110*v,facecolor='#718096',edgecolor='#718096') for v in [0,.1,.5,1]]
                 fig.legend(hs,['0%','10%','50%','100%'],title='Equal-label detection fraction (dot area)',loc='lower center',bbox_to_anchor=(.59,.053),ncol=4,frameon=False,fontsize=9,title_fontsize=9)

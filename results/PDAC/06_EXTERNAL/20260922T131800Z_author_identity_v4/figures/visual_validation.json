@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "all30_contact_sheet_inspected": true,
+  "first_dotplot_last_heatmap_fullsize_checked": true,
+  "identity_labels_readable": true,
+  "legend_no_overlap": true,
+  "missing_shown_gray_not_zero": true,
+  "all687_alphabetical_no_P_filter": true
+}
