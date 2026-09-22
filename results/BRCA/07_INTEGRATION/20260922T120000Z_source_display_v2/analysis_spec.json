@@ -1,0 +1,11 @@
+{
+  "version": "source_display_v2",
+  "baseline": "8663004",
+  "source_commit": "53e70861e9aa49f4138a3ce89d93455ae3d7bc64",
+  "operation": "display_only",
+  "new_statistics": 0,
+  "display_rule": "source stability DONE and matching top-cell profile DONE; otherwise 暂不可定位",
+  "mechanical_top": "retained separately; not biological localization",
+  "interpretation_scope": "17 pre-existing named discussions versus generic retention; determined from original script notes",
+  "subtype": "source status shown; shared-category top distinct from equal-subtype pooled top"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "DONE",
+  "gene_rows": 156,
+  "relation_rows": 262,
+  "source_rows": 312,
+  "display_changes": 88,
+  "uninterpretable_source_rows": 39,
+  "all_non_display_reader_fields_preserved": true,
+  "all_historical_master_columns_preserved": true,
+  "all_relation_historical_columns_preserved": true,
+  "all_original_P_q_unchanged": true,
+  "CYP4F2_masked_both_studies": true,
+  "SHMT2_shared_top_verified": true,
+  "explanation_counts": {
+    "通用保留说明": 139,
+    "专门讨论": 17
+  },
+  "scope": "aggregate display and value preservation;not full scientific review"
+}
