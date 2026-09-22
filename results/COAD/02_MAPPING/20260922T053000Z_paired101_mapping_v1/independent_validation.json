@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "all159_source_statistic_strings_preserved": true,
+  "all1466_relation_keys_unique": true,
+  "main891_exact_support_join": true,
+  "all_feature_counts_reconciled": true,
+  "no_current_patient_stats_claimed": true,
+  "positive_boundary_controls": 7,
+  "conditional_boundary_controls": 6,
+  "complex_labels_checked": true
+}

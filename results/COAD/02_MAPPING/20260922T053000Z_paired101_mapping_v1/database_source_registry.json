@@ -1,0 +1,1310 @@
+{
+  "https://rest.kegg.jp/get/C00015+C00019+C00025+C00031+C00043+C00051+C00064+C00074+C00082+C00086": {
+    "url": "https://rest.kegg.jp/get/C00015+C00019+C00025+C00031+C00043+C00051+C00064+C00074+C00082+C00086",
+    "retrieved_utc": "2026-09-19T10:40:27.470828+00:00",
+    "sha256": "93c775de697fd2b271d20a3864aac030a267df75a0bb5ee12ee7ed15fda21cc9",
+    "bytes": 76786,
+    "cache_file": "ed5b315ad5eb72f942c731e13b6535dbd6f42938393521ae09f262de5c825012.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00099+C00106+C00111+C00123+C00130+C00147+C00148+C00152+C00158+C00167": {
+    "url": "https://rest.kegg.jp/get/C00099+C00106+C00111+C00123+C00130+C00147+C00148+C00152+C00158+C00167",
+    "retrieved_utc": "2026-09-19T10:40:28.749648+00:00",
+    "sha256": "95f2f5c4ee97d57feb4c32ba7b61fa80d02348c3623c5858915e106bada0646d",
+    "bytes": 31528,
+    "cache_file": "602b2d015cf3a6748226605e0118cb63f6d1215f407d349c6e74bd84604f538f.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00170+C00197+C00199+C00212+C00233+C00242+C00245+C00262+C00270+C00294": {
+    "url": "https://rest.kegg.jp/get/C00170+C00197+C00199+C00212+C00233+C00242+C00245+C00262+C00270+C00294",
+    "retrieved_utc": "2026-09-19T10:40:29.907817+00:00",
+    "sha256": "0e4e34a215822326cabeab5069c2a16163f5a80ff8df44cfa991a5328fcff6fd",
+    "bytes": 31226,
+    "cache_file": "09169264b6a60d135dfaef0151a7a510242242d912c428f60753a78e484e6d3d.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00299+C00300+C00307+C00311+C00315+C00328+C00345+C00357+C00366+C00386": {
+    "url": "https://rest.kegg.jp/get/C00299+C00300+C00307+C00311+C00315+C00328+C00345+C00357+C00366+C00386",
+    "retrieved_utc": "2026-09-19T10:40:31.045877+00:00",
+    "sha256": "1af2729d4972abc8cf0fccb669193bdbd17a0005a571bb9a2d8f90c4902d98f6",
+    "bytes": 23388,
+    "cache_file": "83c84d2fddce71a36b59f2b676e260b0c4ef9a77c2da2c0463aef0cb07f5526e.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00387+C00388+C00407+C00417+C00475+C00519+C00581+C00631+C00670+C00780": {
+    "url": "https://rest.kegg.jp/get/C00387+C00388+C00407+C00417+C00475+C00519+C00581+C00631+C00670+C00780",
+    "retrieved_utc": "2026-09-19T10:40:32.110039+00:00",
+    "sha256": "3563b57613b7ea62ea700d49754ff9890fa2f09ace9b01042a3f92d450cfa194",
+    "bytes": 23712,
+    "cache_file": "78551ca7a754bea021d2ccefb3bb94de76f22fec7e1e3b20a2606b8168ef53db.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00791+C01042+C01606+C01692+C01807+C01996+C02037+C02350+C02494+C02712": {
+    "url": "https://rest.kegg.jp/get/C00791+C01042+C01606+C01692+C01807+C01996+C02037+C02350+C02494+C02712",
+    "retrieved_utc": "2026-09-19T10:40:33.516986+00:00",
+    "sha256": "7b21434fe15f61ccede02a14a1e6eba24119ae5d41efe29ce7cf333c36bcea7e",
+    "bytes": 16601,
+    "cache_file": "f2e47855deb3f262f6eb61f39d3a8e179e0b2c41d1e9bb80306baa7b0c3e5519.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C02918+C03761+C03794+C04501+C05127+C05147+C06369+C06771+C06808+C08261": {
+    "url": "https://rest.kegg.jp/get/C02918+C03761+C03794+C04501+C05127+C05147+C06369+C06771+C06808+C08261",
+    "retrieved_utc": "2026-09-19T10:40:34.661068+00:00",
+    "sha256": "66c88bc60616e780c5a3836b4fb375de44530e96dde90015d60a30595b5b587a",
+    "bytes": 16665,
+    "cache_file": "773199b359c9c108df24e9144a03ff2fea60ef150d171b7d84d2ffc2aa75c6ea.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C16741": {
+    "url": "https://rest.kegg.jp/get/C16741",
+    "retrieved_utc": "2026-09-19T10:40:40.276772+00:00",
+    "sha256": "698260f2929590a1f80cb41e423076c7f474848706fe7994a19ab51e9264e028",
+    "bytes": 1284,
+    "cache_file": "65ae6ed969f5ad783fb65c1891e375cdd06b54dc5f1b87371a3745dd3656efba.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/ophthalmate": {
+    "url": "https://rest.kegg.jp/find/compound/ophthalmate",
+    "retrieved_utc": "2026-09-19T10:41:11.626278+00:00",
+    "sha256": "efcc87e9ee9acdf00289b04481068bb83f54e80f844686b07732295f6943321e",
+    "bytes": 61,
+    "cache_file": "a544bb4975661cbd61e2b0317f544389f89c906e033ebc468773165a7d3c4e9f.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/ophthalmic%20acid": {
+    "url": "https://rest.kegg.jp/find/compound/ophthalmic%20acid",
+    "retrieved_utc": "2026-09-19T10:41:14.025120+00:00",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "bytes": 1,
+    "cache_file": "c71bbb3932117571ba58e53377f81502e7a2c5bc999f8f550057f304e1ebeacf.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/glutathione%20cysteine": {
+    "url": "https://rest.kegg.jp/find/compound/glutathione%20cysteine",
+    "retrieved_utc": "2026-09-19T10:41:16.904023+00:00",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "bytes": 1,
+    "cache_file": "ca969a158993a8c0bae1db44920cac0ac1a39f5a8d5e3b33a2ee80aa01abc9fe.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/xylulose%205-phosphate": {
+    "url": "https://rest.kegg.jp/find/compound/xylulose%205-phosphate",
+    "retrieved_utc": "2026-09-19T10:41:18.474379+00:00",
+    "sha256": "af85e301da18c46f23510276664019cc69ae11a347b50c47ff1625dc0499454f",
+    "bytes": 144,
+    "cache_file": "e079faf7a0cabc3027c8d049c2f02eeb344320beedfab0a13a9ad76bbeda80c9.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/mucate": {
+    "url": "https://rest.kegg.jp/find/compound/mucate",
+    "retrieved_utc": "2026-09-19T10:41:20.117139+00:00",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "bytes": 1,
+    "cache_file": "88e158d6c18ba1937f196b5c70af54c7fbcb974a407df6e6db0df4caa66efecf.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/galactarate": {
+    "url": "https://rest.kegg.jp/find/compound/galactarate",
+    "retrieved_utc": "2026-09-19T10:41:21.578198+00:00",
+    "sha256": "3059539b9914cbdb52c133c4d3c777b7b973dcbda0b3ec7b99cbe4a04987525b",
+    "bytes": 186,
+    "cache_file": "3e587187ff51f55816b9d43766a9bcce6f1999900ffb92b3ef3e8822bfd50c32.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00900": {
+    "url": "https://rest.kegg.jp/get/R00900",
+    "retrieved_utc": "2026-09-19T10:41:22.605271+00:00",
+    "sha256": "e233df73d3b4fe70e53190b6b99b5be8186ec80ac3193bdde300fdb72a866e48",
+    "bytes": 971,
+    "cache_file": "c940d878e614ecb223c0994e9ff9a2f395ada293f4ad3d485aedc29a5501aca4.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/link/ko/hsa": {
+    "url": "https://rest.kegg.jp/link/ko/hsa",
+    "retrieved_utc": "2026-09-19T10:41:24.999455+00:00",
+    "sha256": "3c39fa89ba092e6e64309d589a11b4f4cd90342f1ab84d8d9a427745e17c3aa7",
+    "bytes": 380878,
+    "cache_file": "607fa173c2c3a548f138aa6cf2f2e4b6bf50ff67e115d68d68a73a8abcbe4c75.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/link/ko/reaction": {
+    "url": "https://rest.kegg.jp/link/ko/reaction",
+    "retrieved_utc": "2026-09-19T10:41:27.433724+00:00",
+    "sha256": "12986dcd804a901aa95f980fc21e5841b32bfae87b9dd74bd990608d4780b422",
+    "bytes": 246640,
+    "cache_file": "6ca2202a2aa2e3926b65c942fa01acc1d60eae63488fece4244391b75d798691.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00010+R00028+R00094+R00115+R00135+R00155+R00156+R00157+R00158+R00159": {
+    "url": "https://rest.kegg.jp/get/R00010+R00028+R00094+R00115+R00135+R00155+R00156+R00157+R00158+R00159",
+    "retrieved_utc": "2026-09-19T10:41:29.770484+00:00",
+    "sha256": "922d827516eae607060405fd700cc527d4e7e0c57f71921263d6d8eddb0f06b3",
+    "bytes": 9897,
+    "cache_file": "40770ef90405c01eab2112339406a5cb6b2041958b777b333c90d10566c02893.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00177+R00178+R00181+R00183+R00185+R00190+R00192+R00200+R00239+R00243": {
+    "url": "https://rest.kegg.jp/get/R00177+R00178+R00181+R00183+R00185+R00190+R00192+R00200+R00239+R00243",
+    "retrieved_utc": "2026-09-19T10:41:31.420603+00:00",
+    "sha256": "b95aba92cf77121545d2fa419a888e12841c5f6a55efe5ab2f5ecdce391c8308",
+    "bytes": 11349,
+    "cache_file": "4be068cd77298b43103cd8a11144857923543c67eee367079a71e695af6d46b7.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00245+R00248+R00251+R00253+R00256+R00257+R00258+R00259+R00261+R00267": {
+    "url": "https://rest.kegg.jp/get/R00245+R00248+R00251+R00253+R00256+R00257+R00258+R00259+R00261+R00267",
+    "retrieved_utc": "2026-09-19T10:41:33.446532+00:00",
+    "sha256": "b6effdd1d0320224a6dc8d4c2d86c9b5535748b81e4b79e9c4676292347f70e8",
+    "bytes": 15570,
+    "cache_file": "b88a06662573ba204d4f2cbef187d275638b4430482a2dabedba22d38a34bf5b.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00274+R00286+R00292+R00299+R00303+R00306+R00351+R00352+R00355+R00367": {
+    "url": "https://rest.kegg.jp/get/R00274+R00286+R00292+R00299+R00303+R00306+R00351+R00352+R00355+R00367",
+    "retrieved_utc": "2026-09-19T10:41:34.477208+00:00",
+    "sha256": "b5bdbdd3eb339132cd0f2a1949b65b4dee7106b15af77f87b4a3eb89731312ce",
+    "bytes": 13916,
+    "cache_file": "ee37ebdac3d76251cf01a72cfc15f7182d6358830b9931460739737cb3a530c3.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00372+R00414+R00416+R00430+R00431+R00485+R00487+R00488+R00489+R00494": {
+    "url": "https://rest.kegg.jp/get/R00372+R00414+R00416+R00430+R00431+R00485+R00487+R00488+R00489+R00494",
+    "retrieved_utc": "2026-09-19T10:41:35.504175+00:00",
+    "sha256": "c7f26b3af188d7be7b237fc3d559daae72e2bab252568c4a1c717a9844f031aa",
+    "bytes": 12325,
+    "cache_file": "c315dce31bc4bfccd0f60549454d978698f51aa3722a7b2ea8864e94f008340e.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00497+R00503+R00511+R00513+R00517+R00527+R00551+R00565+R00573+R00575": {
+    "url": "https://rest.kegg.jp/get/R00497+R00503+R00511+R00513+R00517+R00527+R00551+R00565+R00573+R00575",
+    "retrieved_utc": "2026-09-19T10:41:36.493645+00:00",
+    "sha256": "888565ad450b6112423853f15230eee139547df0661b08c5b08be8fe2b37f861",
+    "bytes": 11212,
+    "cache_file": "3c828be91a55ec7b7d561e5fb99b860651b34e66f562353b157fd2ff5ddb800d.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00578+R00597+R00650+R00658+R00667+R00694+R00707+R00708+R00709+R00720": {
+    "url": "https://rest.kegg.jp/get/R00578+R00597+R00650+R00658+R00667+R00694+R00707+R00708+R00709+R00720",
+    "retrieved_utc": "2026-09-19T10:41:38.947530+00:00",
+    "sha256": "b05dffd4c8d9db2d4f58adc3df55d6dc1ae3f7c3f5fb98441ee94757db528de6",
+    "bytes": 12324,
+    "cache_file": "077285bd38c607d4f29ae87d2b5bb8d13001fceea8578b2361a4b3e0f4f40247.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00726+R00729+R00731+R00734+R00736+R00768+R00801+R00842+R00848+R00894": {
+    "url": "https://rest.kegg.jp/get/R00726+R00729+R00731+R00734+R00736+R00768+R00801+R00842+R00848+R00894",
+    "retrieved_utc": "2026-09-19T10:41:41.054462+00:00",
+    "sha256": "29d20ff3b7e301775cec99df183fd30a87bb7f5a8d51c5378c8cab68f1c4e0db",
+    "bytes": 14769,
+    "cache_file": "8badc8c3836669328d87fd914704c99790831c93f8e3162f4927fd6f3f077897.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00895+R00904+R00905+R00908+R00910+R00912+R00942+R00961+R00963+R00964": {
+    "url": "https://rest.kegg.jp/get/R00895+R00904+R00905+R00908+R00910+R00912+R00942+R00961+R00963+R00964",
+    "retrieved_utc": "2026-09-19T10:41:42.164147+00:00",
+    "sha256": "dd174fabc4f8501309714145b3fbb47e7134295ee3c5669079303777e67be948",
+    "bytes": 12359,
+    "cache_file": "cd66053cdd433a5980ecf05a821dbc5efe89c114c0994ab6601eeaa1e1e90fff.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00968+R00978+R00987+R01005+R01011+R01013+R01015+R01023+R01026+R01030": {
+    "url": "https://rest.kegg.jp/get/R00968+R00978+R00987+R01005+R01011+R01013+R01015+R01023+R01026+R01030",
+    "retrieved_utc": "2026-09-19T10:41:44.700134+00:00",
+    "sha256": "cdf553df7a847e096a93ca53a0f215b46914c0e700444d46ec1d4e28820e400b",
+    "bytes": 10078,
+    "cache_file": "a1b64cb83b1f88e6bad92d12bfc732e49d623def02659b1147ff3aa9e6f8f977.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01056+R01068+R01070+R01072+R01083+R01090+R01101+R01117+R01126+R01127": {
+    "url": "https://rest.kegg.jp/get/R01056+R01068+R01070+R01072+R01083+R01090+R01101+R01117+R01126+R01127",
+    "retrieved_utc": "2026-09-19T10:41:46.751617+00:00",
+    "sha256": "1b60dce8e38bec5d95ddbd4b139bb90df297039b2eda882f1f14042bd7997e46",
+    "bytes": 13965,
+    "cache_file": "3a1088db8e047bed838e5590713c57c4e82c2fcafefae8d4498c0fc6e033f7c1.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01130+R01132+R01134+R01135+R01138+R01164+R01166+R01167+R01201+R01214": {
+    "url": "https://rest.kegg.jp/get/R01130+R01132+R01134+R01135+R01138+R01164+R01166+R01167+R01201+R01214",
+    "retrieved_utc": "2026-09-19T10:41:47.767349+00:00",
+    "sha256": "97f1951f05055333e7ff7a1d0342c6a715a249acd12affc28067813621139611",
+    "bytes": 10104,
+    "cache_file": "e3b0a18ea42e4963f84ff628e3b7195d1787ac05e404d7df7ae4a3138ac2451c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01227+R01229+R01231+R01248+R01251+R01252+R01253+R01262+R01269+R01320": {
+    "url": "https://rest.kegg.jp/get/R01227+R01229+R01231+R01248+R01251+R01252+R01253+R01262+R01269+R01320",
+    "retrieved_utc": "2026-09-19T10:41:48.745917+00:00",
+    "sha256": "c5ac35e8f14433fc30ff8a65c35548d18286c5cc194c19267a92bb07f5f781f2",
+    "bytes": 11576,
+    "cache_file": "a49ac0630f7a31e378b0c4bd9a736933c1b2fb5fbd33d21e2908d7665ab435de.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01321+R01324+R01325+R01383+R01384+R01402+R01497+R01498+R01500+R01512": {
+    "url": "https://rest.kegg.jp/get/R01321+R01324+R01325+R01383+R01384+R01402+R01497+R01498+R01500+R01512",
+    "retrieved_utc": "2026-09-19T10:41:50.155454+00:00",
+    "sha256": "27919fd05508c2ef645f46f521db23306d804e1076fe8629c2316847181cabd1",
+    "bytes": 11475,
+    "cache_file": "042d83a7f248d29ca6d5afe1d051309adc26c58f351cf1ed98525c047d8c2c15.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01513+R01515+R01516+R01518+R01526+R01528+R01529+R01560+R01561+R01648": {
+    "url": "https://rest.kegg.jp/get/R01513+R01515+R01516+R01518+R01526+R01528+R01529+R01560+R01561+R01648",
+    "retrieved_utc": "2026-09-19T10:41:51.591038+00:00",
+    "sha256": "035d35ef3923248e562e9c7fd0b2e9140038c7842d5e6510ca0e6f9ab2aca740",
+    "bytes": 12329,
+    "cache_file": "a0495a228d7ea560fd649df90bdd334bd47df7015a3c723e261c6fde9256c83c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01651+R01660+R01676+R01682+R01687+R01702+R01718+R01736+R01737+R01768": {
+    "url": "https://rest.kegg.jp/get/R01651+R01660+R01676+R01682+R01687+R01702+R01718+R01736+R01737+R01768",
+    "retrieved_utc": "2026-09-19T10:41:52.586667+00:00",
+    "sha256": "11fa84831e74aef15aab7fc3ef6aaf4da279e6ebf950db8f1918f0a2bfa6dfcd",
+    "bytes": 11201,
+    "cache_file": "5e285edb15db2cbbf6e8f6076ac44f67177c9d8f2918abd2d4e67734928a8aeb.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01769+R01790+R01791+R01795+R01805+R01811+R01815+R01829+R01858+R01863": {
+    "url": "https://rest.kegg.jp/get/R01769+R01790+R01791+R01795+R01805+R01811+R01815+R01829+R01858+R01863",
+    "retrieved_utc": "2026-09-19T10:41:54.552491+00:00",
+    "sha256": "a11c83814804e21470f7f430466a66dba4f6a4c23a82edee75265380d244770d",
+    "bytes": 10503,
+    "cache_file": "0ccb4ca0dab6e6adbd35903d512283b98f853e07cf9358990a5abba4272fd742.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01876+R01878+R01881+R01883+R01890+R01899+R01900+R01920+R01928+R01939": {
+    "url": "https://rest.kegg.jp/get/R01876+R01878+R01881+R01883+R01890+R01899+R01900+R01920+R01928+R01939",
+    "retrieved_utc": "2026-09-19T10:41:55.639443+00:00",
+    "sha256": "7f67654818e806a96a11941cc4c43a39dacb65c84c54b286b1ef2e423b540e82",
+    "bytes": 12336,
+    "cache_file": "c2300be03a8ac2d5eac414d49a3ced6cdc0a501642a17f0bd4c9f90250309704.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01956+R01959+R01960+R01969+R01990+R02018+R02035+R02056+R02058+R02059": {
+    "url": "https://rest.kegg.jp/get/R01956+R01959+R01960+R01969+R01990+R02018+R02035+R02056+R02058+R02059",
+    "retrieved_utc": "2026-09-19T10:41:56.750729+00:00",
+    "sha256": "e45285fc183c87ea9a5cef194a4800afe00505eafffd6b3cb05e07d113251b9e",
+    "bytes": 11606,
+    "cache_file": "06cd4a89724affc56f34e03b45fd55da0a53d556003bc1459ce8dd5313d560a4.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02078+R02103+R02107+R02144+R02147+R02150+R02155+R02174+R02197+R02199": {
+    "url": "https://rest.kegg.jp/get/R02078+R02103+R02107+R02144+R02147+R02150+R02155+R02174+R02197+R02199",
+    "retrieved_utc": "2026-09-19T10:41:58.047966+00:00",
+    "sha256": "c67d0570fc951f90f25596087790268bdd520f4ef07ee719f3772ad0ca668b02",
+    "bytes": 11783,
+    "cache_file": "a7c268bf1cd2eada7488b2be38fe15e37cc2c9713be64546c3589eadb909a5fa.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02237+R02243+R02287+R02313+R02320+R02358+R02389+R02422+R02433+R02466": {
+    "url": "https://rest.kegg.jp/get/R02237+R02243+R02287+R02313+R02320+R02358+R02389+R02422+R02433+R02466",
+    "retrieved_utc": "2026-09-19T10:41:59.412488+00:00",
+    "sha256": "02a7cc2a0491911b586c7599e02e9aa5ae6ab6fb31d14c1365b0a921238238d4",
+    "bytes": 10428,
+    "cache_file": "0cfa4b1a56a5b79b02d5e49bac7a2e7cf197430fae4dab9df6f3bdf35054707b.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02467+R02478+R02484+R02502+R02530+R02533+R02534+R02557+R02558+R02568": {
+    "url": "https://rest.kegg.jp/get/R02467+R02478+R02484+R02502+R02530+R02533+R02534+R02557+R02558+R02568",
+    "retrieved_utc": "2026-09-19T10:42:00.432188+00:00",
+    "sha256": "b0f5cd5018bde7fda7f89039bc5b0a51533d6e826dc77ab1a2160e2df7ad1c4b",
+    "bytes": 10354,
+    "cache_file": "ec29003d8086c5461aa985aa7946a0bace74c4b7525578e3c31d1f294e518120.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02619+R02671+R02701+R02745+R02746+R02747+R02748+R02824+R02869+R02887": {
+    "url": "https://rest.kegg.jp/get/R02619+R02671+R02701+R02745+R02746+R02747+R02748+R02824+R02869+R02887",
+    "retrieved_utc": "2026-09-19T10:42:01.357466+00:00",
+    "sha256": "1d33b2bddbd0526458a4da271110e8da3d1f36b671b3a569d3c3de22f2888ae8",
+    "bytes": 9384,
+    "cache_file": "84ad25f484aee5fbd66595984ae7a46f0e8c9cb811d43c81c7c7cb1574a1a162.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02902+R02908+R02909+R02910+R02911+R02912+R02918+R02920+R02985+R03059": {
+    "url": "https://rest.kegg.jp/get/R02902+R02908+R02909+R02910+R02911+R02912+R02918+R02920+R02985+R03059",
+    "retrieved_utc": "2026-09-19T10:42:02.714798+00:00",
+    "sha256": "b79f9d22f991733095549a6ad5ead74bb3cdda1fc1935a464bc80bcb6c22d4f4",
+    "bytes": 9737,
+    "cache_file": "8150b08d5d1599247f137918b59b5a41ea688f4b4527b75c0c956601a34406c5.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R03091+R03130+R03167+R03189+R03238+R03286+R03288+R03304+R03354+R03378": {
+    "url": "https://rest.kegg.jp/get/R03091+R03130+R03167+R03189+R03238+R03286+R03288+R03304+R03354+R03378",
+    "retrieved_utc": "2026-09-19T10:42:03.709663+00:00",
+    "sha256": "92d6ecd5736b6b9d402d9f4abbb9f17f32c45d44578618b475534bf28f5cc7b8",
+    "bytes": 9999,
+    "cache_file": "ee58929164d20618c9a571626227578e73beee363817aa6dabda0ed6fee40a6a.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R03380+R03424+R03491+R03522+R03527+R03539+R03648+R03652+R03656+R03657": {
+    "url": "https://rest.kegg.jp/get/R03380+R03424+R03491+R03522+R03527+R03539+R03648+R03652+R03656+R03657",
+    "retrieved_utc": "2026-09-19T10:42:05.902832+00:00",
+    "sha256": "717393384269fa0da7d750cbcc96b9c11f41136dc07089d585192f601a451273",
+    "bytes": 9807,
+    "cache_file": "fd84dcbd5e8eeeddbd239eaf6c2214a83cc9be96f6f2e2cfdf1257edb6f48548.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R03661+R03681+R03720+R03789+R03805+R03875+R03899+R03905+R03915+R03916": {
+    "url": "https://rest.kegg.jp/get/R03661+R03681+R03720+R03789+R03805+R03875+R03899+R03905+R03915+R03916",
+    "retrieved_utc": "2026-09-19T10:42:09.454230+00:00",
+    "sha256": "fa3b2693473fd1015b06791922013050dcb61ed86a5cefc4669946cb108c23d5",
+    "bytes": 14517,
+    "cache_file": "df000df0489493b44a656a7a23eee0ac9a4989f8b1ad81eb27aa3afe7af7a3af.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R03922+R03955+R03970+R03971+R04018+R04085+R04171+R04173+R04188+R04212": {
+    "url": "https://rest.kegg.jp/get/R03922+R03955+R03970+R03971+R04018+R04085+R04171+R04173+R04188+R04212",
+    "retrieved_utc": "2026-09-19T10:42:10.832928+00:00",
+    "sha256": "f7c5cd5acdd88004606a8b675ba9d3be304f67875c7f2b960a02cf6fe25e244a",
+    "bytes": 9804,
+    "cache_file": "54675914e62bbc31343ac202640fbb8c7fffedb8687bf72bad742273a4ef4d2c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R04241+R04242+R04301+R04321+R04322+R04352+R04353+R04354+R04374+R04435": {
+    "url": "https://rest.kegg.jp/get/R04241+R04242+R04301+R04321+R04322+R04352+R04353+R04354+R04374+R04435",
+    "retrieved_utc": "2026-09-19T10:42:11.881918+00:00",
+    "sha256": "9204c14a39deddff7cc0e63837e3345b2d770f2681ba59b2d3e2f8b1ab417ba7",
+    "bytes": 11798,
+    "cache_file": "510b499e36ab9096f03eaa5d23359e46f598b498c69e0086274f99c092307214.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R04463+R04491+R04496+R04603+R04636+R04659+R04674+R04683+R04711+R04762": {
+    "url": "https://rest.kegg.jp/get/R04463+R04491+R04496+R04603+R04636+R04659+R04674+R04683+R04711+R04762",
+    "retrieved_utc": "2026-09-19T10:42:12.901163+00:00",
+    "sha256": "7ef377da9a258d2f1bd3a8e6e37d25407a78eeb141ddd6448539dd05c72b621d",
+    "bytes": 12840,
+    "cache_file": "972ef0465ff9004d5a67b9b951dcd5f46e2d283fed150377bd4916ee370d9a10.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R04764+R04858+R04866+R04867+R04881+R04887+R04905+R04949+R04998+R05052": {
+    "url": "https://rest.kegg.jp/get/R04764+R04858+R04866+R04867+R04881+R04887+R04905+R04949+R04998+R05052",
+    "retrieved_utc": "2026-09-19T10:42:14.298531+00:00",
+    "sha256": "97b4fbfb53032a2c7158e4b707c75f0a9bad68678d03a65e26cdc864e19cd204",
+    "bytes": 18431,
+    "cache_file": "4f952b0c30b99a67bc612fc52054519e8b2e745d9ba6e189db12d5c9dca87bbc.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R05085+R05578+R05804+R05969+R05980+R05981+R05999+R06067+R06087+R06091": {
+    "url": "https://rest.kegg.jp/get/R05085+R05578+R05804+R05969+R05980+R05981+R05999+R06067+R06087+R06091",
+    "retrieved_utc": "2026-09-19T10:42:15.293154+00:00",
+    "sha256": "ec2d2ca64f085d884c2a55bed8155e0ac23b2c91c1ca8f915abe5e05a15f2a4a",
+    "bytes": 9159,
+    "cache_file": "509f56dc99568f398ab039bab0d8b8ea5762d3a2a9fd4f85503e9fda7920f470.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R06114+R06147+R06604+R07002+R07003+R07004+R07023+R07024+R07025+R07026": {
+    "url": "https://rest.kegg.jp/get/R06114+R06147+R06604+R07002+R07003+R07004+R07023+R07024+R07025+R07026",
+    "retrieved_utc": "2026-09-19T10:42:16.346991+00:00",
+    "sha256": "58582b8bcadfd36c502424f82ff997d4584a6a3b59c946a786414f2a3368113f",
+    "bytes": 11375,
+    "cache_file": "3fd59813b493a7192b748617bcf45df919ac5406102d4650fb2104d1c0bfdfdb.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R07034+R07035+R07069+R07070+R07083+R07084+R07091+R07092+R07093+R07094": {
+    "url": "https://rest.kegg.jp/get/R07034+R07035+R07069+R07070+R07083+R07084+R07091+R07092+R07093+R07094",
+    "retrieved_utc": "2026-09-19T10:42:17.354438+00:00",
+    "sha256": "1bfcc65af3df5be5d6da2508e123f80326677564bec0540b5e96f42e5896136f",
+    "bytes": 12340,
+    "cache_file": "4f3ca141002d7212172ea2af72f0b1e23f6aab3ffeccaeccb9dd2dda978a47bc.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R07100+R07106+R07113+R07116+R07211+R07212+R07336+R07389+R07396+R07601": {
+    "url": "https://rest.kegg.jp/get/R07100+R07106+R07113+R07116+R07211+R07212+R07336+R07389+R07396+R07601",
+    "retrieved_utc": "2026-09-19T10:42:18.282866+00:00",
+    "sha256": "8fe74ec275f68bd73c28ca87df3c263af9c5ac170f45769139a4641d7388b8e4",
+    "bytes": 11620,
+    "cache_file": "28e114b658972917d33233b3c449e6d4c0a16decb46289f0e50ae47583e1696c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R07767+R08193+R08236+R08239+R08244+R08246+R08259+R08261+R08262+R08263": {
+    "url": "https://rest.kegg.jp/get/R07767+R08193+R08236+R08239+R08244+R08246+R08259+R08261+R08262+R08263",
+    "retrieved_utc": "2026-09-19T10:42:20.642349+00:00",
+    "sha256": "f78cb8f3edebf2a83afe6d5a32c91b6048a65d57498914e6040d912cfc5981b1",
+    "bytes": 10346,
+    "cache_file": "f961a1f63d5eedbba4f02dd8f5f61fcf9cb3ab12dfe04b6cc3c2f87939061f1d.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R08280+R08359+R08408+R08572+R08615+R08678+R08745+R08771+R08781+R09076": {
+    "url": "https://rest.kegg.jp/get/R08280+R08359+R08408+R08572+R08615+R08678+R08745+R08771+R08781+R09076",
+    "retrieved_utc": "2026-09-19T10:42:22.083983+00:00",
+    "sha256": "e6c7b4e82f285a13b384b78c555243c03a36f67b0e4f8177ac14b79d66b90976",
+    "bytes": 11914,
+    "cache_file": "2acc8b6f4a219eca49c4bba0a1e8929bd00278111f2c58a857b3d2751617ef81.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R09370+R09394+R09409+R09426+R09427+R09428+R09532+R09676+R09737+R09755": {
+    "url": "https://rest.kegg.jp/get/R09370+R09394+R09409+R09426+R09427+R09428+R09532+R09676+R09737+R09755",
+    "retrieved_utc": "2026-09-19T10:42:23.166675+00:00",
+    "sha256": "f2ded05414c522fe71bb73a71867d60fe3e02601f0c70353e2014de1dda71be3",
+    "bytes": 10726,
+    "cache_file": "2f3e67b68c8b8ef6ef7bb197cf4d9f1c8a0ea11f72627abcaf709e03f6ec6a5c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R09875+R10221+R10455+R10586+R10587+R10596+R10620+R10649+R10677+R10678": {
+    "url": "https://rest.kegg.jp/get/R09875+R10221+R10455+R10586+R10587+R10596+R10620+R10649+R10677+R10678",
+    "retrieved_utc": "2026-09-19T10:42:24.256051+00:00",
+    "sha256": "ce2c45248dff0d48a545fe650ec60550fda7c87cefc63626bec7bbc5f4e26367",
+    "bytes": 11063,
+    "cache_file": "621b8be3a67f58906e4a65c9a2ed619dc12fac11b8a4c11ab0f2d9b7411f7edc.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R10679+R10687+R10688+R10693+R10716+R10804+R10806+R10812+R10991+R10993": {
+    "url": "https://rest.kegg.jp/get/R10679+R10687+R10688+R10693+R10716+R10804+R10806+R10812+R10991+R10993",
+    "retrieved_utc": "2026-09-19T10:42:25.228099+00:00",
+    "sha256": "22779e2084c79a53ee768d906955b7755da19718b4a3722be3cb8996728a9854",
+    "bytes": 10775,
+    "cache_file": "d285ba78fb1347ccc96c345171536e62fbd294d4c414f102a9c337abd47d3000.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R11165+R11216+R11217+R11218+R11219+R11220+R11439+R11861+R11905+R11929": {
+    "url": "https://rest.kegg.jp/get/R11165+R11216+R11217+R11218+R11219+R11220+R11439+R11861+R11905+R11929",
+    "retrieved_utc": "2026-09-19T10:42:26.417938+00:00",
+    "sha256": "ec113ce1fa8983df656229d3931fac0c88fbdf22ccf5786181b65230429012db",
+    "bytes": 11505,
+    "cache_file": "867ea92ff5a69450195200266dbabb6d8cf9426bb9a237aa1b985ffa4699c576.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R12011+R12423+R12424+R12578+R12959+R12962+R12987+R12989+R13043+R13148": {
+    "url": "https://rest.kegg.jp/get/R12011+R12423+R12424+R12578+R12959+R12962+R12987+R12989+R13043+R13148",
+    "retrieved_utc": "2026-09-19T10:42:28.591465+00:00",
+    "sha256": "a842c784ad38d48697a61b9c96413ded0d803c1538bbe6666df5e77142b72b23",
+    "bytes": 10511,
+    "cache_file": "59b6c1c581560f7fa0f54f0308935c8219604359ff44b6a6ab9616f8c785203e.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R13178": {
+    "url": "https://rest.kegg.jp/get/R13178",
+    "retrieved_utc": "2026-09-19T10:42:29.957762+00:00",
+    "sha256": "d77489f13f2d50a7aee3e2e518a399e7546914df97418b78131e69aca661cdd1",
+    "bytes": 785,
+    "cache_file": "f4bb2ca51006e8377b7478f70161007d2935f5c0f92bf6a847f67711cc08fa7d.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/list/hsa": {
+    "url": "https://rest.kegg.jp/list/hsa",
+    "retrieved_utc": "2026-09-19T10:42:31.886210+00:00",
+    "sha256": "ec3c5896ed611b526b681d40a95ac593b802954574a36e357bf1827e70db94e3",
+    "bytes": 2622690,
+    "cache_file": "040555485b765ca2e6c31685dcf39007086a8db8085f6d6be9dd6cc814c06a6f.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00217+C00231+C00879+C05526+C21016": {
+    "url": "https://rest.kegg.jp/get/C00217+C00231+C00879+C05526+C21016",
+    "retrieved_utc": "2026-09-19T10:43:17.552221+00:00",
+    "sha256": "c547faf24413d9752f5abf7dad3e2eb7097b0444fd006117764dc9bf0dfe9eda",
+    "bytes": 10255,
+    "cache_file": "efbf67baf51770348d64869d3d8b9dd544446db652ccbae2ca25a64c2f21dbd8.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01056+R01067+R01068+R01070+R01072+R01083+R01090+R01101+R01117+R01126": {
+    "url": "https://rest.kegg.jp/get/R01056+R01067+R01068+R01070+R01072+R01083+R01090+R01101+R01117+R01126",
+    "retrieved_utc": "2026-09-19T10:43:18.978262+00:00",
+    "sha256": "fbce57df00f2f36861a777445a4e4c50f005e2176572ab9d0a346d4f478f3b30",
+    "bytes": 14502,
+    "cache_file": "37aeb4162c11e619a6d3d3e53ea2db5123be3c3ca2f825678d7a2d50a855623f.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01127+R01130+R01132+R01134+R01135+R01138+R01164+R01166+R01167+R01201": {
+    "url": "https://rest.kegg.jp/get/R01127+R01130+R01132+R01134+R01135+R01138+R01164+R01166+R01167+R01201",
+    "retrieved_utc": "2026-09-19T10:43:20.019686+00:00",
+    "sha256": "797198af16efdf7440e63a7f2541a09c8e34a5232d600e6ded7a76db162e891c",
+    "bytes": 9585,
+    "cache_file": "5ff26506fcadf271142ffc0823fa0cf2d89ac533a06baa566b980c7203b9ed16.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01214+R01227+R01229+R01231+R01248+R01251+R01252+R01253+R01262+R01269": {
+    "url": "https://rest.kegg.jp/get/R01214+R01227+R01229+R01231+R01248+R01251+R01252+R01253+R01262+R01269",
+    "retrieved_utc": "2026-09-19T10:43:21.030488+00:00",
+    "sha256": "19eb36a57331a5dabd05e975204560832bcdef7c8ca66b14ee641a1fb0aaa0d7",
+    "bytes": 11596,
+    "cache_file": "6a9c64eaa584c74bee60723ce7b670231f0ea5fc2a25e38702683bcd1cdaf4e5.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01320+R01321+R01324+R01325+R01383+R01384+R01402+R01497+R01498+R01500": {
+    "url": "https://rest.kegg.jp/get/R01320+R01321+R01324+R01325+R01383+R01384+R01402+R01497+R01498+R01500",
+    "retrieved_utc": "2026-09-19T10:43:22.022480+00:00",
+    "sha256": "92e457c8df1ef803af4139f8254d1c4dacaff6a8dbcf0885764b6efe2edf5931",
+    "bytes": 11238,
+    "cache_file": "f058fde1006762a399f03dbfe07d062b4f6acb49cde7f970e2fede98f751202e.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01512+R01513+R01515+R01516+R01518+R01526+R01528+R01529+R01560+R01561": {
+    "url": "https://rest.kegg.jp/get/R01512+R01513+R01515+R01516+R01518+R01526+R01528+R01529+R01560+R01561",
+    "retrieved_utc": "2026-09-19T10:43:23.332506+00:00",
+    "sha256": "42ce1b426cf89ec70d352cadf6fa0ed6caae4ac1f7e60b1c643766cbfddb503d",
+    "bytes": 12701,
+    "cache_file": "ad4eddff7fd60fde1d0d6c1081c5de88275df96815dbad649474294c614fc132.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01579+R01583+R01639+R01641+R01648+R01651+R01660+R01676+R01682+R01687": {
+    "url": "https://rest.kegg.jp/get/R01579+R01583+R01639+R01641+R01648+R01651+R01660+R01676+R01682+R01687",
+    "retrieved_utc": "2026-09-19T10:43:24.291325+00:00",
+    "sha256": "d203b7148ecd32496aa40ae7e5c10e15163a72060f7bc8eadb1984dcdf0b6f15",
+    "bytes": 10870,
+    "cache_file": "1dbbac18097776c5dcebe13bdebb207818ac611c1a8e0fd84503b2ce0c17f21c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01702+R01718+R01736+R01737+R01768+R01769+R01790+R01791+R01795+R01805": {
+    "url": "https://rest.kegg.jp/get/R01702+R01718+R01736+R01737+R01768+R01769+R01790+R01791+R01795+R01805",
+    "retrieved_utc": "2026-09-19T10:43:25.272983+00:00",
+    "sha256": "5a967d84cb122dea1df88cd89b0524a788dae3ea98f65bd9e2728bb849956925",
+    "bytes": 11049,
+    "cache_file": "8c97887ebaf74745931727904383bf29a7d42dff14d4ddc2be295b06d35761ce.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01811+R01815+R01829+R01830+R01858+R01863+R01876+R01878+R01881+R01883": {
+    "url": "https://rest.kegg.jp/get/R01811+R01815+R01829+R01830+R01858+R01863+R01876+R01878+R01881+R01883",
+    "retrieved_utc": "2026-09-19T10:43:26.383235+00:00",
+    "sha256": "c46ec1e1e4511a124a4336aed3ab94cea261170015c1967dbd61c14e490609e7",
+    "bytes": 10018,
+    "cache_file": "7f2cb69320004f5fd10e2a74bd8d4a119e15d258c04e4f214597c2e190f8077c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01890+R01899+R01900+R01920+R01928+R01939+R01956+R01959+R01960+R01969": {
+    "url": "https://rest.kegg.jp/get/R01890+R01899+R01900+R01920+R01928+R01939+R01956+R01959+R01960+R01969",
+    "retrieved_utc": "2026-09-19T10:43:27.526589+00:00",
+    "sha256": "7ba62a7a7f15c0ab0b51759886f16c9aa9da87ce408131628a11824700e3e1fa",
+    "bytes": 13221,
+    "cache_file": "558c5a2e495d27dff599a31ce9b826bec12533def94d5647fbe11b37f8bb81d0.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01990+R02018+R02035+R02056+R02058+R02059+R02078+R02103+R02107+R02144": {
+    "url": "https://rest.kegg.jp/get/R01990+R02018+R02035+R02056+R02058+R02059+R02078+R02103+R02107+R02144",
+    "retrieved_utc": "2026-09-19T10:43:28.572864+00:00",
+    "sha256": "5ff9db5a74b0b03040df4874b3e67460e5129e9559c3b2bb7236303de548e673",
+    "bytes": 11805,
+    "cache_file": "e0be99fb6529853bf7436888ad72aa9be3754dae73307242ef98a1a8f2cd26d1.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02147+R02150+R02155+R02174+R02197+R02199+R02237+R02243+R02287+R02313": {
+    "url": "https://rest.kegg.jp/get/R02147+R02150+R02155+R02174+R02197+R02199+R02237+R02243+R02287+R02313",
+    "retrieved_utc": "2026-09-19T10:43:29.707812+00:00",
+    "sha256": "b9e2eee5e133b0a7f666d573df7f9f7f8e474bcaa45b0ecfe5d4509dc7a6748e",
+    "bytes": 11611,
+    "cache_file": "4afd46e09c44217df45c7a5517e26caba1f867f3a5905102eeaf08f3304a7fe8.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02320+R02358+R02389+R02422+R02433+R02466+R02467+R02478+R02484+R02502": {
+    "url": "https://rest.kegg.jp/get/R02320+R02358+R02389+R02422+R02433+R02466+R02467+R02478+R02484+R02502",
+    "retrieved_utc": "2026-09-19T10:43:30.769259+00:00",
+    "sha256": "f8290a2bfaf210102bbb0453983448e0283f88b81ece56f74d87357ad584868c",
+    "bytes": 9739,
+    "cache_file": "d03d210fd1e2864ef629e79823bbd07173ff8c481b8c2bddd02b3a1040c8b43a.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02530+R02533+R02534+R02557+R02558+R02568+R02619+R02671+R02701+R02745": {
+    "url": "https://rest.kegg.jp/get/R02530+R02533+R02534+R02557+R02558+R02568+R02619+R02671+R02701+R02745",
+    "retrieved_utc": "2026-09-19T10:43:32.709823+00:00",
+    "sha256": "2eeb9d3efe873d926060e80997c8613cb0600cddfc6602510f0608c6c21426fd",
+    "bytes": 9860,
+    "cache_file": "809e0b269299947ebf7aa2c3ecb14ee032b379adfce46bd9e1749ee0d4348c93.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02746+R02747+R02748+R02824+R02869+R02887+R02902+R02908+R02909+R02910": {
+    "url": "https://rest.kegg.jp/get/R02746+R02747+R02748+R02824+R02869+R02887+R02902+R02908+R02909+R02910",
+    "retrieved_utc": "2026-09-19T10:43:33.762960+00:00",
+    "sha256": "6d98f46af097edf8ebc11ee5c1ec457e92182d0c48ffb963998a5fdd81f3fc75",
+    "bytes": 9736,
+    "cache_file": "90a12920244a5f1b92b208437ccad5eb3f9fc2ce69ea0a503a45a70d631e41a7.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02911+R02912+R02918+R02920+R02985+R03059+R03091+R03130+R03167+R03189": {
+    "url": "https://rest.kegg.jp/get/R02911+R02912+R02918+R02920+R02985+R03059+R03091+R03130+R03167+R03189",
+    "retrieved_utc": "2026-09-19T10:43:34.850709+00:00",
+    "sha256": "c82a79ee1ee00b2c5408ac9922e7d87441b031916cb0da7a15a7b7a5dfd72a22",
+    "bytes": 10129,
+    "cache_file": "a92f3e3455326ec47801b3834407c15b8f7ece51fb40d5080db5ab46482a0a24.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R03238+R03286+R03288+R03304+R03354+R03378+R03380+R03424+R03491+R03522": {
+    "url": "https://rest.kegg.jp/get/R03238+R03286+R03288+R03304+R03354+R03378+R03380+R03424+R03491+R03522",
+    "retrieved_utc": "2026-09-19T10:43:36.650298+00:00",
+    "sha256": "dfa855e1053404f20421fc4821b5792572c379bc81353d102cad43559e7d4f16",
+    "bytes": 10692,
+    "cache_file": "8e81a3196823d998df2c83b107d3a2f13e75b875dcc95e711707e608b7115475.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R03527+R03539+R03648+R03652+R03656+R03657+R03661+R03681+R03720+R03789": {
+    "url": "https://rest.kegg.jp/get/R03527+R03539+R03648+R03652+R03656+R03657+R03661+R03681+R03720+R03789",
+    "retrieved_utc": "2026-09-19T10:43:37.929026+00:00",
+    "sha256": "672fa1f7cd877cbaf628cf1c9480bc8f5167eedac1a8b115cc0364324260c416",
+    "bytes": 8188,
+    "cache_file": "5e0ae0b8e098f8148bb5eb97a948759ebfab85aa9cebe35f2f24b9cc425bb353.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R03805+R03875+R03899+R03905+R03915+R03916+R03922+R03955+R03970+R03971": {
+    "url": "https://rest.kegg.jp/get/R03805+R03875+R03899+R03905+R03915+R03916+R03922+R03955+R03970+R03971",
+    "retrieved_utc": "2026-09-19T10:43:40.031268+00:00",
+    "sha256": "dd870c1bbf89948c32ba42a179e13abe0f3cd3ba7af25422ee691c8c9a3f9849",
+    "bytes": 14627,
+    "cache_file": "92103ff2996e2056181c353431d40576e4fef00ce05ab91bdd42e5a23333cf23.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R04018+R04085+R04171+R04173+R04188+R04212+R04241+R04242+R04301+R04321": {
+    "url": "https://rest.kegg.jp/get/R04018+R04085+R04171+R04173+R04188+R04212+R04241+R04242+R04301+R04321",
+    "retrieved_utc": "2026-09-19T10:43:41.174272+00:00",
+    "sha256": "f2a54365bd9b7e3a3ec87515ac9f33b83fb5d74ca249c8632476e6f5cda42d95",
+    "bytes": 11122,
+    "cache_file": "4c51a5c62b5b3fad8d4d47066ce0d2b3f3c1cd0dcc02d781b49c4abc8333551c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R04322+R04352+R04353+R04354+R04374+R04435+R04463+R04491+R04496+R04603": {
+    "url": "https://rest.kegg.jp/get/R04322+R04352+R04353+R04354+R04374+R04435+R04463+R04491+R04496+R04603",
+    "retrieved_utc": "2026-09-19T10:43:42.836348+00:00",
+    "sha256": "96fdcce7fb32303eb959e7b0335b59064f1b94c42b477fcb431ea1d994b75184",
+    "bytes": 12003,
+    "cache_file": "05ea15994aa1dea800b9a5bca769e50001db0e7feed15d47cfccc7fa6a5f0abc.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R04636+R04659+R04674+R04683+R04711+R04762+R04764+R04858+R04866+R04867": {
+    "url": "https://rest.kegg.jp/get/R04636+R04659+R04674+R04683+R04711+R04762+R04764+R04858+R04866+R04867",
+    "retrieved_utc": "2026-09-19T10:43:44.253412+00:00",
+    "sha256": "2bbd242cace64599cb5b1474d4944cc9695f6c83c1a6cf71fb8ac027d3604393",
+    "bytes": 20148,
+    "cache_file": "42aad69bbe192f4cb92e3aee63af5b7029e76ae50d07c05c53e3ffec739fcea3.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R04881+R04887+R04905+R04949+R04998+R05052+R05085+R05578+R05804+R05969": {
+    "url": "https://rest.kegg.jp/get/R04881+R04887+R04905+R04949+R04998+R05052+R05085+R05578+R05804+R05969",
+    "retrieved_utc": "2026-09-19T10:43:45.401268+00:00",
+    "sha256": "07a47896e028aa6def651d63b726b0c4554e1fccaae331990ed962ec5d6bc47c",
+    "bytes": 10654,
+    "cache_file": "5c335159c7a31b1ebb3c9be901750df5e9569b4bc2dc545f3e2e8fd1b6990968.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R05980+R05981+R05999+R06067+R06087+R06091+R06114+R06147+R06604+R07002": {
+    "url": "https://rest.kegg.jp/get/R05980+R05981+R05999+R06067+R06087+R06091+R06114+R06147+R06604+R07002",
+    "retrieved_utc": "2026-09-19T10:43:46.855154+00:00",
+    "sha256": "904fba2aa7b57432e996e6f452edc01737f231791256c18c194e3ef64866e522",
+    "bytes": 8661,
+    "cache_file": "1187ae1c4aa1f4bfd56319200a1430ec91486cd39ea04926c280e034233758d1.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R07003+R07004+R07023+R07024+R07025+R07026+R07034+R07035+R07069+R07070": {
+    "url": "https://rest.kegg.jp/get/R07003+R07004+R07023+R07024+R07025+R07026+R07034+R07035+R07069+R07070",
+    "retrieved_utc": "2026-09-19T10:43:49.409803+00:00",
+    "sha256": "713a2d79fd7d2f2ed31c0a0d8ff1804d4388c0e85cfacecac96d9ddd3b616c76",
+    "bytes": 12040,
+    "cache_file": "8e081b932389fc824ee29c4404658355bfe137f35950aaec7cc3b2dfe5db41c9.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R07083+R07084+R07091+R07092+R07093+R07094+R07100+R07106+R07113+R07116": {
+    "url": "https://rest.kegg.jp/get/R07083+R07084+R07091+R07092+R07093+R07094+R07100+R07106+R07113+R07116",
+    "retrieved_utc": "2026-09-19T10:43:50.375544+00:00",
+    "sha256": "7c17a490e37481c64e34104c69c1069e686fc296c0230fc35db9d5a7ff9fab1f",
+    "bytes": 12783,
+    "cache_file": "baf53ad53b2e9fbcc9345c968840dcc12fe403f704e8a6d567941ae33a78151a.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R07211+R07212+R07336+R07389+R07396+R07601+R07767+R08193+R08236+R08239": {
+    "url": "https://rest.kegg.jp/get/R07211+R07212+R07336+R07389+R07396+R07601+R07767+R08193+R08236+R08239",
+    "retrieved_utc": "2026-09-19T10:43:51.342808+00:00",
+    "sha256": "bc7e714f6ad1cbeb01418c445f041ed609bbd6d5d707363e57d741e7ec6fe639",
+    "bytes": 11164,
+    "cache_file": "4120b3329a2e6d829198966e46fedbd1945ece49346e43448fa5c93132036256.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R08244+R08246+R08259+R08261+R08262+R08263+R08280+R08359+R08408+R08572": {
+    "url": "https://rest.kegg.jp/get/R08244+R08246+R08259+R08261+R08262+R08263+R08280+R08359+R08408+R08572",
+    "retrieved_utc": "2026-09-19T10:43:52.732638+00:00",
+    "sha256": "c633dcb5576f288d954a3b959be3fb057fa40c0a977d5704c6c0a2ef96e9a3e6",
+    "bytes": 9963,
+    "cache_file": "ec01c56ba2f4614106604ef8b33de958a256228b72a04267e8d534bbd42bd162.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R08615+R08678+R08745+R08771+R08781+R09076+R09370+R09394+R09409+R09426": {
+    "url": "https://rest.kegg.jp/get/R08615+R08678+R08745+R08771+R08781+R09076+R09370+R09394+R09409+R09426",
+    "retrieved_utc": "2026-09-19T10:43:53.774807+00:00",
+    "sha256": "19a7c2385928f54842cd896e5076b0f45eb53b1c041d58e08246f190bcdac8a3",
+    "bytes": 11886,
+    "cache_file": "7c070a45d4a0dec9e068cae991138c36024b5b4ff333bc29e1360f3eac727b5b.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R09427+R09428+R09532+R09676+R09737+R09755+R09875+R10221+R10455+R10586": {
+    "url": "https://rest.kegg.jp/get/R09427+R09428+R09532+R09676+R09737+R09755+R09875+R10221+R10455+R10586",
+    "retrieved_utc": "2026-09-19T10:43:54.797535+00:00",
+    "sha256": "80e345c0ec45e97a9d1298a01b17e1aebd68e8285f5f80c3cc03834b864e80aa",
+    "bytes": 10759,
+    "cache_file": "f2cc79f4a0e72dcabcc66c7a4df5c296b35f56d5eddff21aab5c8f51569aa9a0.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R10587+R10596+R10620+R10649+R10677+R10678+R10679+R10687+R10688+R10693": {
+    "url": "https://rest.kegg.jp/get/R10587+R10596+R10620+R10649+R10677+R10678+R10679+R10687+R10688+R10693",
+    "retrieved_utc": "2026-09-19T10:43:55.770887+00:00",
+    "sha256": "e1b18a4789dd4d00df98837a1629b9b7e6e50724f9fba0546b45fd58a7262839",
+    "bytes": 10650,
+    "cache_file": "eec6645c7f4e8287f38a7ac3f0474173e3dbf856c83992fc2cdb0d72ba489044.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R10716+R10804+R10806+R10812+R10991+R10993+R10994+R11165+R11216+R11217": {
+    "url": "https://rest.kegg.jp/get/R10716+R10804+R10806+R10812+R10991+R10993+R10994+R11165+R11216+R11217",
+    "retrieved_utc": "2026-09-19T10:43:56.717123+00:00",
+    "sha256": "ca4034f04195c34c41056b16b9d96aecce956f1aacc7b4c9a3f2748944010062",
+    "bytes": 12111,
+    "cache_file": "04f9b974d4cc134700bb26d655346d93fa42bae303f3cc997ab5462e344bebc7.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R11218+R11219+R11220+R11439+R11861+R11905+R11929+R12011+R12423+R12424": {
+    "url": "https://rest.kegg.jp/get/R11218+R11219+R11220+R11439+R11861+R11905+R11929+R12011+R12423+R12424",
+    "retrieved_utc": "2026-09-19T10:43:58.214170+00:00",
+    "sha256": "11f210e5ff819e88987ef5671737dc755e4594b9031eb04d0759901e62fc0c9c",
+    "bytes": 11471,
+    "cache_file": "76b47876cb3456f0102d8d017888d08c2391e0eaf1282abafeafe724d02f4b8c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R12578+R12959+R12962+R12987+R12989+R13043+R13148+R13178": {
+    "url": "https://rest.kegg.jp/get/R12578+R12959+R12962+R12987+R12989+R13043+R13148+R13178",
+    "retrieved_utc": "2026-09-19T10:43:59.289639+00:00",
+    "sha256": "7b3824a07a5f8ec63622160482b53f866587d854b6bf267c8d78c3f36ad1b22e",
+    "bytes": 7067,
+    "cache_file": "f5128dd234fd6b4b5cf1b863d2afc3b71ea01dcecd34ea7923f87ae4d2778233.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_fresh_kegg_20260919\\sources.json"
+  },
+  "https://ftp.expasy.org/databases/rhea/tsv/rhea-directions.tsv": {
+    "url": "https://ftp.expasy.org/databases/rhea/tsv/rhea-directions.tsv",
+    "retrieved_utc": "2026-09-19T10:49:02.085658+00:00",
+    "sha256": "deae1911da372c70ee8fc97992809c7923e63b288a8702fc4396edcb2633fb04",
+    "cache_file": "dc9b7d81646158ea3b851edbfa8867ac66cd4712bccaba2600f453f62349505f.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://ftp.expasy.org/databases/rhea/tsv/rhea2kegg_reaction.tsv": {
+    "url": "https://ftp.expasy.org/databases/rhea/tsv/rhea2kegg_reaction.tsv",
+    "retrieved_utc": "2026-09-19T10:49:04.813720+00:00",
+    "sha256": "b3fa5a48631c7cae19e6258c058e7fc0fa6d2a241ebedc51844fdda325bd1d1b",
+    "cache_file": "f75928da72750f29900f73250999d322f8d0f87154dc7fdd3e9b8b585e784251.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AAADAT+OR+gene_exact%3AAANAT+OR+gene_exact%3AAASS+OR+gene_exact%3AABAT+OR+gene_exact%3AACHE+OR+gene_exact%3AACLY+OR+gene_exact%3AACO1+OR+gene_exact%3AACO2+OR+gene_exact%3AACOD1+OR+gene_exact%3AACYP1+OR+gene_exact%3AACYP2+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AADK+OR+gene_exact%3AADO+OR+gene_exact%3AADPGK+OR+gene_exact%3AADSL+OR+gene_exact%3AADSS1+OR+gene_exact%3AADSS2+OR+gene_exact%3AAFMID+OR+gene_exact%3AAGMAT+OR+gene_exact%3AAGXT+OR+gene_exact%3AAGXT2+OR+gene_exact%3AAHCY+OR+gene_exact%3AAHCYL1%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AAADAT+OR+gene_exact%3AAANAT+OR+gene_exact%3AAASS+OR+gene_exact%3AABAT+OR+gene_exact%3AACHE+OR+gene_exact%3AACLY+OR+gene_exact%3AACO1+OR+gene_exact%3AACO2+OR+gene_exact%3AACOD1+OR+gene_exact%3AACYP1+OR+gene_exact%3AACYP2+OR+gene_exact%3AADA+OR+gene_exact%3AADA2+OR+gene_exact%3AADK+OR+gene_exact%3AADO+OR+gene_exact%3AADPGK+OR+gene_exact%3AADSL+OR+gene_exact%3AADSS1+OR+gene_exact%3AADSS2+OR+gene_exact%3AAFMID+OR+gene_exact%3AAGMAT+OR+gene_exact%3AAGXT+OR+gene_exact%3AAGXT2+OR+gene_exact%3AAHCY+OR+gene_exact%3AAHCYL1%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:08.218573+00:00",
+    "sha256": "49886b88aab4a78bbcc7afed513457d246a8e967dd25431da6cec8a1ae9e26b6",
+    "cache_file": "8df6bdba5a5ac2309a4953b3ef34bd9851f9a04b34efe0ffd8e1c0d43c9ad080.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AAHCYL2+OR+gene_exact%3AAK3+OR+gene_exact%3AAK9+OR+gene_exact%3AALDH18A1+OR+gene_exact%3AALDH1B1+OR+gene_exact%3AALDH2+OR+gene_exact%3AALDH3A1+OR+gene_exact%3AALDH3A2+OR+gene_exact%3AALDH3B1+OR+gene_exact%3AALDH3B2+OR+gene_exact%3AALDH4A1+OR+gene_exact%3AALDH7A1+OR+gene_exact%3AALDH9A1+OR+gene_exact%3AALDOA+OR+gene_exact%3AALDOB+OR+gene_exact%3AALDOC+OR+gene_exact%3AALG5+OR+gene_exact%3AALLC+OR+gene_exact%3AAMD1+OR+gene_exact%3AAMDHD2+OR+gene_exact%3AAMPD1+OR+gene_exact%3AAMPD2+OR+gene_exact%3AAMPD3+OR+gene_exact%3AAOC1+OR+gene_exact%3AAOX1%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AAHCYL2+OR+gene_exact%3AAK3+OR+gene_exact%3AAK9+OR+gene_exact%3AALDH18A1+OR+gene_exact%3AALDH1B1+OR+gene_exact%3AALDH2+OR+gene_exact%3AALDH3A1+OR+gene_exact%3AALDH3A2+OR+gene_exact%3AALDH3B1+OR+gene_exact%3AALDH3B2+OR+gene_exact%3AALDH4A1+OR+gene_exact%3AALDH7A1+OR+gene_exact%3AALDH9A1+OR+gene_exact%3AALDOA+OR+gene_exact%3AALDOB+OR+gene_exact%3AALDOC+OR+gene_exact%3AALG5+OR+gene_exact%3AALLC+OR+gene_exact%3AAMD1+OR+gene_exact%3AAMDHD2+OR+gene_exact%3AAMPD1+OR+gene_exact%3AAMPD2+OR+gene_exact%3AAMPD3+OR+gene_exact%3AAOC1+OR+gene_exact%3AAOX1%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:11.476056+00:00",
+    "sha256": "4b6768e171fb3d95ccdcb257df418913259d58847bcd85a7ce5a8ec8f559de02",
+    "cache_file": "9fa0006a768b82d0d44f3dc78a5700633363dd7dc13da25640871e83f8162dd0.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AAPRT+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AASH1L+OR+gene_exact%3AASMT+OR+gene_exact%3AASNS+OR+gene_exact%3AASPA+OR+gene_exact%3AASRGL1+OR+gene_exact%3AATIC+OR+gene_exact%3AB3GALNT2+OR+gene_exact%3AB3GNT2+OR+gene_exact%3AB3GNT3+OR+gene_exact%3AB3GNT4+OR+gene_exact%3AB4GALNT1+OR+gene_exact%3AB4GALT1+OR+gene_exact%3AB4GALT2+OR+gene_exact%3AB4GALT4+OR+gene_exact%3AB4GALT5+OR+gene_exact%3AB4GALT6+OR+gene_exact%3ABAAT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ABCKDHA+OR+gene_exact%3ABCKDHB+OR+gene_exact%3ABHMT2%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AAPRT+OR+gene_exact%3AARG1+OR+gene_exact%3AARG2+OR+gene_exact%3AASH1L+OR+gene_exact%3AASMT+OR+gene_exact%3AASNS+OR+gene_exact%3AASPA+OR+gene_exact%3AASRGL1+OR+gene_exact%3AATIC+OR+gene_exact%3AB3GALNT2+OR+gene_exact%3AB3GNT2+OR+gene_exact%3AB3GNT3+OR+gene_exact%3AB3GNT4+OR+gene_exact%3AB4GALNT1+OR+gene_exact%3AB4GALT1+OR+gene_exact%3AB4GALT2+OR+gene_exact%3AB4GALT4+OR+gene_exact%3AB4GALT5+OR+gene_exact%3AB4GALT6+OR+gene_exact%3ABAAT+OR+gene_exact%3ABCAT1+OR+gene_exact%3ABCAT2+OR+gene_exact%3ABCKDHA+OR+gene_exact%3ABCKDHB+OR+gene_exact%3ABHMT2%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:14.320392+00:00",
+    "sha256": "26d83dc6142796336d0887683f273925032a9870efdd36afde760e8ed1ec7547",
+    "cache_file": "ed573997b9124ffdb2de42c3fefeba1c8695d4dcc5903a10fb68776db43e3567.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ABPGM+OR+gene_exact%3ACAD+OR+gene_exact%3ACAMKMT+OR+gene_exact%3ACANT1+OR+gene_exact%3ACARM1+OR+gene_exact%3ACARNMT1+OR+gene_exact%3ACARNS1+OR+gene_exact%3ACDA+OR+gene_exact%3ACDADC1+OR+gene_exact%3ACDKAL1+OR+gene_exact%3ACEPT1+OR+gene_exact%3ACHAC1+OR+gene_exact%3ACHAC2+OR+gene_exact%3ACHAT+OR+gene_exact%3ACHPF+OR+gene_exact%3ACHPF2+OR+gene_exact%3ACHPT1+OR+gene_exact%3ACHSY1+OR+gene_exact%3ACHSY3+OR+gene_exact%3ACISD1+OR+gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3ACKMT1A+OR+gene_exact%3ACKMT1B+OR+gene_exact%3ACKMT2%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ABPGM+OR+gene_exact%3ACAD+OR+gene_exact%3ACAMKMT+OR+gene_exact%3ACANT1+OR+gene_exact%3ACARM1+OR+gene_exact%3ACARNMT1+OR+gene_exact%3ACARNS1+OR+gene_exact%3ACDA+OR+gene_exact%3ACDADC1+OR+gene_exact%3ACDKAL1+OR+gene_exact%3ACEPT1+OR+gene_exact%3ACHAC1+OR+gene_exact%3ACHAC2+OR+gene_exact%3ACHAT+OR+gene_exact%3ACHPF+OR+gene_exact%3ACHPF2+OR+gene_exact%3ACHPT1+OR+gene_exact%3ACHSY1+OR+gene_exact%3ACHSY3+OR+gene_exact%3ACISD1+OR+gene_exact%3ACKB+OR+gene_exact%3ACKM+OR+gene_exact%3ACKMT1A+OR+gene_exact%3ACKMT1B+OR+gene_exact%3ACKMT2%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:16.833165+00:00",
+    "sha256": "83b1f54d05cdb791cfd74fff316d5acf88c8b597fd071e5affbc2c411f4cee9b",
+    "cache_file": "3574ad669e1aeb22e1a23f09fa7c189abb981ad2bf320cd14d4ac5bdc5639146.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACMAS+OR+gene_exact%3ACMPK1+OR+gene_exact%3ACMPK2+OR+gene_exact%3ACMTR1+OR+gene_exact%3ACMTR2+OR+gene_exact%3ACNDP1+OR+gene_exact%3ACNDP2+OR+gene_exact%3ACNPY3-GNMT+OR+gene_exact%3ACOLGALT1+OR+gene_exact%3ACOLGALT2+OR+gene_exact%3ACOMT+OR+gene_exact%3ACOQ3+OR+gene_exact%3ACOQ5+OR+gene_exact%3ACS+OR+gene_exact%3ACSAD+OR+gene_exact%3ACTPS1+OR+gene_exact%3ACTPS2+OR+gene_exact%3ADBT+OR+gene_exact%3ADDC+OR+gene_exact%3ADGLUCY+OR+gene_exact%3ADIMT1+OR+gene_exact%3ADLD+OR+gene_exact%3ADNMT1+OR+gene_exact%3ADNMT3A+OR+gene_exact%3ADNMT3B%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ACMAS+OR+gene_exact%3ACMPK1+OR+gene_exact%3ACMPK2+OR+gene_exact%3ACMTR1+OR+gene_exact%3ACMTR2+OR+gene_exact%3ACNDP1+OR+gene_exact%3ACNDP2+OR+gene_exact%3ACNPY3-GNMT+OR+gene_exact%3ACOLGALT1+OR+gene_exact%3ACOLGALT2+OR+gene_exact%3ACOMT+OR+gene_exact%3ACOQ3+OR+gene_exact%3ACOQ5+OR+gene_exact%3ACS+OR+gene_exact%3ACSAD+OR+gene_exact%3ACTPS1+OR+gene_exact%3ACTPS2+OR+gene_exact%3ADBT+OR+gene_exact%3ADDC+OR+gene_exact%3ADGLUCY+OR+gene_exact%3ADIMT1+OR+gene_exact%3ADLD+OR+gene_exact%3ADNMT1+OR+gene_exact%3ADNMT3A+OR+gene_exact%3ADNMT3B%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:19.332222+00:00",
+    "sha256": "8cd5c051b22b60dc9a2428552e35f8d97300cfe15c61b3fc0fe1185480370fac",
+    "cache_file": "66e2176afacdced07cc3a842f18d105ed80a401db06cb1768221be2d5700bd4c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADOT1L+OR+gene_exact%3ADPAGT1+OR+gene_exact%3ADPH1+OR+gene_exact%3ADPH5+OR+gene_exact%3ADPYD+OR+gene_exact%3AEARS2+OR+gene_exact%3AEHMT1+OR+gene_exact%3AEHMT2+OR+gene_exact%3AENO1+OR+gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3AENO4+OR+gene_exact%3AENTPD1+OR+gene_exact%3AENTPD3+OR+gene_exact%3AENTPD4+OR+gene_exact%3AENTPD5+OR+gene_exact%3AENTPD6+OR+gene_exact%3AENTPD8+OR+gene_exact%3AEOGT+OR+gene_exact%3AEPRS1+OR+gene_exact%3AESD+OR+gene_exact%3AETHE1+OR+gene_exact%3AEZH1+OR+gene_exact%3AEZH2+OR+gene_exact%3AFGGY%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ADOT1L+OR+gene_exact%3ADPAGT1+OR+gene_exact%3ADPH1+OR+gene_exact%3ADPH5+OR+gene_exact%3ADPYD+OR+gene_exact%3AEARS2+OR+gene_exact%3AEHMT1+OR+gene_exact%3AEHMT2+OR+gene_exact%3AENO1+OR+gene_exact%3AENO2+OR+gene_exact%3AENO3+OR+gene_exact%3AENO4+OR+gene_exact%3AENTPD1+OR+gene_exact%3AENTPD3+OR+gene_exact%3AENTPD4+OR+gene_exact%3AENTPD5+OR+gene_exact%3AENTPD6+OR+gene_exact%3AENTPD8+OR+gene_exact%3AEOGT+OR+gene_exact%3AEPRS1+OR+gene_exact%3AESD+OR+gene_exact%3AETHE1+OR+gene_exact%3AEZH1+OR+gene_exact%3AEZH2+OR+gene_exact%3AFGGY%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:22.164007+00:00",
+    "sha256": "197169d1d246986945126e7b41a35aba58f767f68e33378b721231c4786380a4",
+    "cache_file": "57a44941a125e4541f301431280170fd02ddddf52c56ba157466a41dfa71523b.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AFMO1+OR+gene_exact%3AFMO2+OR+gene_exact%3AFMO3+OR+gene_exact%3AFMO4+OR+gene_exact%3AFMO5+OR+gene_exact%3AFOLH1+OR+gene_exact%3AFPGS+OR+gene_exact%3AFTCD+OR+gene_exact%3AG6PC1+OR+gene_exact%3AG6PC2+OR+gene_exact%3AG6PC3+OR+gene_exact%3AGAA+OR+gene_exact%3AGAD1+OR+gene_exact%3AGAD2+OR+gene_exact%3AGADL1+OR+gene_exact%3AGAMT+OR+gene_exact%3AGANAB+OR+gene_exact%3AGANC+OR+gene_exact%3AGATB+OR+gene_exact%3AGATC+OR+gene_exact%3AGATM+OR+gene_exact%3AGBA1+OR+gene_exact%3AGBA2+OR+gene_exact%3AGBA3+OR+gene_exact%3AGCK%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AFMO1+OR+gene_exact%3AFMO2+OR+gene_exact%3AFMO3+OR+gene_exact%3AFMO4+OR+gene_exact%3AFMO5+OR+gene_exact%3AFOLH1+OR+gene_exact%3AFPGS+OR+gene_exact%3AFTCD+OR+gene_exact%3AG6PC1+OR+gene_exact%3AG6PC2+OR+gene_exact%3AG6PC3+OR+gene_exact%3AGAA+OR+gene_exact%3AGAD1+OR+gene_exact%3AGAD2+OR+gene_exact%3AGADL1+OR+gene_exact%3AGAMT+OR+gene_exact%3AGANAB+OR+gene_exact%3AGANC+OR+gene_exact%3AGATB+OR+gene_exact%3AGATC+OR+gene_exact%3AGATM+OR+gene_exact%3AGBA1+OR+gene_exact%3AGBA2+OR+gene_exact%3AGBA3+OR+gene_exact%3AGCK%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:24.774232+00:00",
+    "sha256": "843bd4400eac426fb781f9084132d8371ef098d2ce3f5f9f908de08fa93c746a",
+    "cache_file": "057af3c45f77c84012e9bc12e95a0684a9afbe86fd1e07cb8613207670ef6d9a.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGCLC+OR+gene_exact%3AGCLM+OR+gene_exact%3AGDA+OR+gene_exact%3AGDPD5+OR+gene_exact%3AGFPT1+OR+gene_exact%3AGFPT2+OR+gene_exact%3AGGH+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGGT6+OR+gene_exact%3AGGT7+OR+gene_exact%3AGLA+OR+gene_exact%3AGLO1+OR+gene_exact%3AGLS+OR+gene_exact%3AGLS2+OR+gene_exact%3AGLUD1+OR+gene_exact%3AGLUD2+OR+gene_exact%3AGLUL+OR+gene_exact%3AGLYCTK+OR+gene_exact%3AGMPR+OR+gene_exact%3AGMPR2+OR+gene_exact%3AGMPS+OR+gene_exact%3AGNE+OR+gene_exact%3AGNMT+OR+gene_exact%3AGNPAT%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGCLC+OR+gene_exact%3AGCLM+OR+gene_exact%3AGDA+OR+gene_exact%3AGDPD5+OR+gene_exact%3AGFPT1+OR+gene_exact%3AGFPT2+OR+gene_exact%3AGGH+OR+gene_exact%3AGGT1+OR+gene_exact%3AGGT5+OR+gene_exact%3AGGT6+OR+gene_exact%3AGGT7+OR+gene_exact%3AGLA+OR+gene_exact%3AGLO1+OR+gene_exact%3AGLS+OR+gene_exact%3AGLS2+OR+gene_exact%3AGLUD1+OR+gene_exact%3AGLUD2+OR+gene_exact%3AGLUL+OR+gene_exact%3AGLYCTK+OR+gene_exact%3AGMPR+OR+gene_exact%3AGMPR2+OR+gene_exact%3AGMPS+OR+gene_exact%3AGNE+OR+gene_exact%3AGNMT+OR+gene_exact%3AGNPAT%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:27.502742+00:00",
+    "sha256": "7cddca472cc5882a9143daf82611b04756d981a5924cb448f276b54a30e4b27c",
+    "cache_file": "9fe2be4a3632246406b1df3b04b9bb7bb9bc0f54d6368243b2279daf5fc6e5cd.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGNPNAT1+OR+gene_exact%3AGOT1+OR+gene_exact%3AGOT1L1+OR+gene_exact%3AGOT2+OR+gene_exact%3AGPCPD1+OR+gene_exact%3AGPD1+OR+gene_exact%3AGPD1L+OR+gene_exact%3AGPD2+OR+gene_exact%3AGPT+OR+gene_exact%3AGPT2+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX2+OR+gene_exact%3AGPX3+OR+gene_exact%3AGPX4+OR+gene_exact%3AGPX5+OR+gene_exact%3AGPX6+OR+gene_exact%3AGPX7+OR+gene_exact%3AGPX8+OR+gene_exact%3AGSR+OR+gene_exact%3AGSS+OR+gene_exact%3AGSTA1+OR+gene_exact%3AGSTA2+OR+gene_exact%3AGSTA3+OR+gene_exact%3AGSTA4+OR+gene_exact%3AGSTA5%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGNPNAT1+OR+gene_exact%3AGOT1+OR+gene_exact%3AGOT1L1+OR+gene_exact%3AGOT2+OR+gene_exact%3AGPCPD1+OR+gene_exact%3AGPD1+OR+gene_exact%3AGPD1L+OR+gene_exact%3AGPD2+OR+gene_exact%3AGPT+OR+gene_exact%3AGPT2+OR+gene_exact%3AGPX1+OR+gene_exact%3AGPX2+OR+gene_exact%3AGPX3+OR+gene_exact%3AGPX4+OR+gene_exact%3AGPX5+OR+gene_exact%3AGPX6+OR+gene_exact%3AGPX7+OR+gene_exact%3AGPX8+OR+gene_exact%3AGSR+OR+gene_exact%3AGSS+OR+gene_exact%3AGSTA1+OR+gene_exact%3AGSTA2+OR+gene_exact%3AGSTA3+OR+gene_exact%3AGSTA4+OR+gene_exact%3AGSTA5%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:30.085153+00:00",
+    "sha256": "af2c96e1183ed552c752b39c389d7f358f73d4291ddc7b8f238e981ee0a64f3f",
+    "cache_file": "aecd1f9e595954a367a05d4f175d220d62648739b02010b5fa127cdaac60ab14.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSTK1+OR+gene_exact%3AGSTM1+OR+gene_exact%3AGSTM2+OR+gene_exact%3AGSTM3+OR+gene_exact%3AGSTM4+OR+gene_exact%3AGSTM5+OR+gene_exact%3AGSTO1+OR+gene_exact%3AGSTO2+OR+gene_exact%3AGSTP1+OR+gene_exact%3AGSTT1+OR+gene_exact%3AGSTT2+OR+gene_exact%3AGSTT2B+OR+gene_exact%3AGSTT4+OR+gene_exact%3AGYG1+OR+gene_exact%3AGYG2+OR+gene_exact%3AGYS1+OR+gene_exact%3AGYS2+OR+gene_exact%3AH6PD+OR+gene_exact%3AHAGH+OR+gene_exact%3AHDC+OR+gene_exact%3AHEMK1+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3AHKDC1%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGSTK1+OR+gene_exact%3AGSTM1+OR+gene_exact%3AGSTM2+OR+gene_exact%3AGSTM3+OR+gene_exact%3AGSTM4+OR+gene_exact%3AGSTM5+OR+gene_exact%3AGSTO1+OR+gene_exact%3AGSTO2+OR+gene_exact%3AGSTP1+OR+gene_exact%3AGSTT1+OR+gene_exact%3AGSTT2+OR+gene_exact%3AGSTT2B+OR+gene_exact%3AGSTT4+OR+gene_exact%3AGYG1+OR+gene_exact%3AGYG2+OR+gene_exact%3AGYS1+OR+gene_exact%3AGYS2+OR+gene_exact%3AH6PD+OR+gene_exact%3AHAGH+OR+gene_exact%3AHDC+OR+gene_exact%3AHEMK1+OR+gene_exact%3AHK1+OR+gene_exact%3AHK2+OR+gene_exact%3AHK3+OR+gene_exact%3AHKDC1%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:32.766176+00:00",
+    "sha256": "1505d04d339341c635add3b3ddb73505de6bf343ca4021d7f055c4499daf34e8",
+    "cache_file": "b4c1c171dfd8d99426313acd82df62152da67e31333283ef21dbed87a547cb07.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHNMT+OR+gene_exact%3AHPGDS+OR+gene_exact%3AHPRT1+OR+gene_exact%3AHYKK+OR+gene_exact%3AIARS1+OR+gene_exact%3AIARS2+OR+gene_exact%3AICMT+OR+gene_exact%3AIDH1+OR+gene_exact%3AIDH2+OR+gene_exact%3AIDH3A+OR+gene_exact%3AIDH3B+OR+gene_exact%3AIDH3G+OR+gene_exact%3AIDNK+OR+gene_exact%3AIDO1+OR+gene_exact%3AIDO2+OR+gene_exact%3AIL4I1+OR+gene_exact%3AIMPDH1+OR+gene_exact%3AIMPDH2+OR+gene_exact%3AINMT+OR+gene_exact%3AITPA+OR+gene_exact%3AKMO+OR+gene_exact%3AKMT2A+OR+gene_exact%3AKMT2B+OR+gene_exact%3AKMT2C+OR+gene_exact%3AKMT2D%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AHNMT+OR+gene_exact%3AHPGDS+OR+gene_exact%3AHPRT1+OR+gene_exact%3AHYKK+OR+gene_exact%3AIARS1+OR+gene_exact%3AIARS2+OR+gene_exact%3AICMT+OR+gene_exact%3AIDH1+OR+gene_exact%3AIDH2+OR+gene_exact%3AIDH3A+OR+gene_exact%3AIDH3B+OR+gene_exact%3AIDH3G+OR+gene_exact%3AIDNK+OR+gene_exact%3AIDO1+OR+gene_exact%3AIDO2+OR+gene_exact%3AIL4I1+OR+gene_exact%3AIMPDH1+OR+gene_exact%3AIMPDH2+OR+gene_exact%3AINMT+OR+gene_exact%3AITPA+OR+gene_exact%3AKMO+OR+gene_exact%3AKMT2A+OR+gene_exact%3AKMT2B+OR+gene_exact%3AKMT2C+OR+gene_exact%3AKMT2D%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:35.288090+00:00",
+    "sha256": "05458b099657c86502e0b5d00a8d700c4f38712920b7cecaa8bdb99ffa31c053",
+    "cache_file": "3ab5c1f21c70f2e2b9b6e4187aedc5ba56c7c8ed880c00939a1aa32c646dd398.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AKMT2E+OR+gene_exact%3AKMT5A+OR+gene_exact%3AKMT5B+OR+gene_exact%3AKMT5C+OR+gene_exact%3AKYAT1+OR+gene_exact%3AKYAT3+OR+gene_exact%3AKYNU+OR+gene_exact%3AL3HYPDH+OR+gene_exact%3ALACC1+OR+gene_exact%3ALALBA+OR+gene_exact%3ALANCL1+OR+gene_exact%3ALAP3+OR+gene_exact%3ALARS1+OR+gene_exact%3ALARS2+OR+gene_exact%3ALCMT2+OR+gene_exact%3ALCT+OR+gene_exact%3ALIAS+OR+gene_exact%3ALRTOMT+OR+gene_exact%3ALTC4S+OR+gene_exact%3ALYPLA1+OR+gene_exact%3ALYPLA2+OR+gene_exact%3AMAOA+OR+gene_exact%3AMAOB+OR+gene_exact%3AMAT1A+OR+gene_exact%3AMAT2A%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AKMT2E+OR+gene_exact%3AKMT5A+OR+gene_exact%3AKMT5B+OR+gene_exact%3AKMT5C+OR+gene_exact%3AKYAT1+OR+gene_exact%3AKYAT3+OR+gene_exact%3AKYNU+OR+gene_exact%3AL3HYPDH+OR+gene_exact%3ALACC1+OR+gene_exact%3ALALBA+OR+gene_exact%3ALANCL1+OR+gene_exact%3ALAP3+OR+gene_exact%3ALARS1+OR+gene_exact%3ALARS2+OR+gene_exact%3ALCMT2+OR+gene_exact%3ALCT+OR+gene_exact%3ALIAS+OR+gene_exact%3ALRTOMT+OR+gene_exact%3ALTC4S+OR+gene_exact%3ALYPLA1+OR+gene_exact%3ALYPLA2+OR+gene_exact%3AMAOA+OR+gene_exact%3AMAOB+OR+gene_exact%3AMAT1A+OR+gene_exact%3AMAT2A%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:38.163944+00:00",
+    "sha256": "97666fb79cb6803331355adc1759f29ada007b2b0dbbe87465b50eea353d73af",
+    "cache_file": "5d71cb544b11ab5735443370ba4d702a43d2330fb23addfdbd609503d81332b4.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AMAT2B+OR+gene_exact%3AMECOM+OR+gene_exact%3AMETTL3+OR+gene_exact%3AMETTL6+OR+gene_exact%3AMGAM+OR+gene_exact%3AMGAM2+OR+gene_exact%3AMGST1+OR+gene_exact%3AMGST2+OR+gene_exact%3AMGST3+OR+gene_exact%3AMINPP1+OR+gene_exact%3AMOCS1+OR+gene_exact%3AMTAP+OR+gene_exact%3ANADSYN1+OR+gene_exact%3ANAGK+OR+gene_exact%3ANAGS+OR+gene_exact%3ANANP+OR+gene_exact%3ANANS+OR+gene_exact%3ANARS1+OR+gene_exact%3ANARS2+OR+gene_exact%3ANAT8L+OR+gene_exact%3ANEU1+OR+gene_exact%3ANEU2+OR+gene_exact%3ANEU3+OR+gene_exact%3ANEU4+OR+gene_exact%3ANME1%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AMAT2B+OR+gene_exact%3AMECOM+OR+gene_exact%3AMETTL3+OR+gene_exact%3AMETTL6+OR+gene_exact%3AMGAM+OR+gene_exact%3AMGAM2+OR+gene_exact%3AMGST1+OR+gene_exact%3AMGST2+OR+gene_exact%3AMGST3+OR+gene_exact%3AMINPP1+OR+gene_exact%3AMOCS1+OR+gene_exact%3AMTAP+OR+gene_exact%3ANADSYN1+OR+gene_exact%3ANAGK+OR+gene_exact%3ANAGS+OR+gene_exact%3ANANP+OR+gene_exact%3ANANS+OR+gene_exact%3ANARS1+OR+gene_exact%3ANARS2+OR+gene_exact%3ANAT8L+OR+gene_exact%3ANEU1+OR+gene_exact%3ANEU2+OR+gene_exact%3ANEU3+OR+gene_exact%3ANEU4+OR+gene_exact%3ANME1%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:40.773356+00:00",
+    "sha256": "c3906f1d17d667a10b60a0697fc436cf35015c4852972551df61e9bade3d3038",
+    "cache_file": "d946c1583554db09ff7616ded1412ab79056615c454e7a3fd9dfd787d08662fa.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANME1-NME2+OR+gene_exact%3ANME2+OR+gene_exact%3ANME3+OR+gene_exact%3ANME4+OR+gene_exact%3ANME6+OR+gene_exact%3ANME7+OR+gene_exact%3ANNMT+OR+gene_exact%3ANPL+OR+gene_exact%3ANSD1+OR+gene_exact%3ANSD2+OR+gene_exact%3ANSD3+OR+gene_exact%3ANT5C+OR+gene_exact%3ANT5C1A+OR+gene_exact%3ANT5C1B+OR+gene_exact%3ANT5C1B-RDH14+OR+gene_exact%3ANT5C2+OR+gene_exact%3ANT5C3A+OR+gene_exact%3ANT5C3B+OR+gene_exact%3ANT5DC4+OR+gene_exact%3ANT5E+OR+gene_exact%3ANT5M+OR+gene_exact%3ANUDT16+OR+gene_exact%3AOAT+OR+gene_exact%3AOGT+OR+gene_exact%3AOPLAH%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ANME1-NME2+OR+gene_exact%3ANME2+OR+gene_exact%3ANME3+OR+gene_exact%3ANME4+OR+gene_exact%3ANME6+OR+gene_exact%3ANME7+OR+gene_exact%3ANNMT+OR+gene_exact%3ANPL+OR+gene_exact%3ANSD1+OR+gene_exact%3ANSD2+OR+gene_exact%3ANSD3+OR+gene_exact%3ANT5C+OR+gene_exact%3ANT5C1A+OR+gene_exact%3ANT5C1B+OR+gene_exact%3ANT5C1B-RDH14+OR+gene_exact%3ANT5C2+OR+gene_exact%3ANT5C3A+OR+gene_exact%3ANT5C3B+OR+gene_exact%3ANT5DC4+OR+gene_exact%3ANT5E+OR+gene_exact%3ANT5M+OR+gene_exact%3ANUDT16+OR+gene_exact%3AOAT+OR+gene_exact%3AOGT+OR+gene_exact%3AOPLAH%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:43.723795+00:00",
+    "sha256": "aac9248e3218f7f131de204909b2376066baab64ee5bebf8b2adceabeaf7349f",
+    "cache_file": "b855c97ffc9e24d01bda1b5f0329417128cb3bf8f9010d94cb16e108e6771549.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AP4HA1+OR+gene_exact%3AP4HA2+OR+gene_exact%3AP4HA3+OR+gene_exact%3APAH+OR+gene_exact%3APAOX+OR+gene_exact%3APARS2+OR+gene_exact%3APCK1+OR+gene_exact%3APCK2+OR+gene_exact%3APCYT1A+OR+gene_exact%3APCYT1B+OR+gene_exact%3APEMT+OR+gene_exact%3APFAS+OR+gene_exact%3APFKL+OR+gene_exact%3APFKM+OR+gene_exact%3APFKP+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APGAM4+OR+gene_exact%3APGD+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGLS+OR+gene_exact%3APGM2L1+OR+gene_exact%3APGM3+OR+gene_exact%3APHGDH%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AP4HA1+OR+gene_exact%3AP4HA2+OR+gene_exact%3AP4HA3+OR+gene_exact%3APAH+OR+gene_exact%3APAOX+OR+gene_exact%3APARS2+OR+gene_exact%3APCK1+OR+gene_exact%3APCK2+OR+gene_exact%3APCYT1A+OR+gene_exact%3APCYT1B+OR+gene_exact%3APEMT+OR+gene_exact%3APFAS+OR+gene_exact%3APFKL+OR+gene_exact%3APFKM+OR+gene_exact%3APFKP+OR+gene_exact%3APGAM1+OR+gene_exact%3APGAM2+OR+gene_exact%3APGAM4+OR+gene_exact%3APGD+OR+gene_exact%3APGK1+OR+gene_exact%3APGK2+OR+gene_exact%3APGLS+OR+gene_exact%3APGM2L1+OR+gene_exact%3APGM3+OR+gene_exact%3APHGDH%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:46.207825+00:00",
+    "sha256": "308a4dccaddecfb2ef0f15cad2c5489e19e626b393b874733a97b4c45e4e7130",
+    "cache_file": "4bdd5f973ca21ba5c96330884069a06aaec82bf22b96583dcd3dc235fc70633e.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3APKLR+OR+gene_exact%3APKM+OR+gene_exact%3APLA2G15+OR+gene_exact%3APLB1+OR+gene_exact%3APLOD3+OR+gene_exact%3APNMT+OR+gene_exact%3APNP+OR+gene_exact%3APNPLA6+OR+gene_exact%3APNPLA7+OR+gene_exact%3APOMGNT2+OR+gene_exact%3APPAT+OR+gene_exact%3APRDM16+OR+gene_exact%3APRDM2+OR+gene_exact%3APRDM6+OR+gene_exact%3APRDM7+OR+gene_exact%3APRDM9+OR+gene_exact%3APRDX6+OR+gene_exact%3APRMT1+OR+gene_exact%3APRMT2+OR+gene_exact%3APRMT3+OR+gene_exact%3APRMT5+OR+gene_exact%3APRMT6+OR+gene_exact%3APRMT7+OR+gene_exact%3APRMT8+OR+gene_exact%3APRMT9%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3APKLR+OR+gene_exact%3APKM+OR+gene_exact%3APLA2G15+OR+gene_exact%3APLB1+OR+gene_exact%3APLOD3+OR+gene_exact%3APNMT+OR+gene_exact%3APNP+OR+gene_exact%3APNPLA6+OR+gene_exact%3APNPLA7+OR+gene_exact%3APOMGNT2+OR+gene_exact%3APPAT+OR+gene_exact%3APRDM16+OR+gene_exact%3APRDM2+OR+gene_exact%3APRDM6+OR+gene_exact%3APRDM7+OR+gene_exact%3APRDM9+OR+gene_exact%3APRDX6+OR+gene_exact%3APRMT1+OR+gene_exact%3APRMT2+OR+gene_exact%3APRMT3+OR+gene_exact%3APRMT5+OR+gene_exact%3APRMT6+OR+gene_exact%3APRMT7+OR+gene_exact%3APRMT8+OR+gene_exact%3APRMT9%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:49.489300+00:00",
+    "sha256": "1168793c7fdb6488ead2309b69464bf6cb69418c59d6281b8c26b2f238f97051",
+    "cache_file": "f879a3064069195f490d1ab3582ad0a7caf1fe7db3c295f0a576fd3822c3287b.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3APRODH+OR+gene_exact%3APSAT1+OR+gene_exact%3APYCR1+OR+gene_exact%3APYCR2+OR+gene_exact%3APYCR3+OR+gene_exact%3AQARS1+OR+gene_exact%3AQRSL1+OR+gene_exact%3AQTRT1+OR+gene_exact%3ARIMKLA+OR+gene_exact%3ARIMKLB+OR+gene_exact%3ARNMT+OR+gene_exact%3ARPE+OR+gene_exact%3ARPEL1+OR+gene_exact%3ARPIA+OR+gene_exact%3ARRM1+OR+gene_exact%3ARRM2+OR+gene_exact%3ARRM2B+OR+gene_exact%3ASETD1A+OR+gene_exact%3ASETD1B+OR+gene_exact%3ASETD2+OR+gene_exact%3ASETD7+OR+gene_exact%3ASETDB1+OR+gene_exact%3ASETDB2+OR+gene_exact%3ASETDB2-PHF11+OR+gene_exact%3ASETMAR%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3APRODH+OR+gene_exact%3APSAT1+OR+gene_exact%3APYCR1+OR+gene_exact%3APYCR2+OR+gene_exact%3APYCR3+OR+gene_exact%3AQARS1+OR+gene_exact%3AQRSL1+OR+gene_exact%3AQTRT1+OR+gene_exact%3ARIMKLA+OR+gene_exact%3ARIMKLB+OR+gene_exact%3ARNMT+OR+gene_exact%3ARPE+OR+gene_exact%3ARPEL1+OR+gene_exact%3ARPIA+OR+gene_exact%3ARRM1+OR+gene_exact%3ARRM2+OR+gene_exact%3ARRM2B+OR+gene_exact%3ASETD1A+OR+gene_exact%3ASETD1B+OR+gene_exact%3ASETD2+OR+gene_exact%3ASETD7+OR+gene_exact%3ASETDB1+OR+gene_exact%3ASETDB2+OR+gene_exact%3ASETDB2-PHF11+OR+gene_exact%3ASETMAR%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:51.941683+00:00",
+    "sha256": "3bfffdfb38995d6bd8b4b0135040b8fd6fe27a80bac1c673c6df998d4c5ae9f1",
+    "cache_file": "59724873d034a02ef0658bba1be1eedce0efdfca998195e244b43c8e7f166b13.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ASI+OR+gene_exact%3ASMOX+OR+gene_exact%3ASMS+OR+gene_exact%3ASMYD1+OR+gene_exact%3ASMYD2+OR+gene_exact%3ASMYD3+OR+gene_exact%3ASQOR+OR+gene_exact%3ASRM+OR+gene_exact%3ASUV39H1+OR+gene_exact%3ASUV39H2+OR+gene_exact%3ATAT+OR+gene_exact%3ATH+OR+gene_exact%3ATKFC+OR+gene_exact%3ATKT+OR+gene_exact%3ATKTL1+OR+gene_exact%3ATKTL2+OR+gene_exact%3ATMEM86A+OR+gene_exact%3ATMEM86B+OR+gene_exact%3ATOMT+OR+gene_exact%3ATPI1+OR+gene_exact%3ATPMT+OR+gene_exact%3ATPO+OR+gene_exact%3ATREH+OR+gene_exact%3ATRMT5+OR+gene_exact%3ATXNDC12%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ASI+OR+gene_exact%3ASMOX+OR+gene_exact%3ASMS+OR+gene_exact%3ASMYD1+OR+gene_exact%3ASMYD2+OR+gene_exact%3ASMYD3+OR+gene_exact%3ASQOR+OR+gene_exact%3ASRM+OR+gene_exact%3ASUV39H1+OR+gene_exact%3ASUV39H2+OR+gene_exact%3ATAT+OR+gene_exact%3ATH+OR+gene_exact%3ATKFC+OR+gene_exact%3ATKT+OR+gene_exact%3ATKTL1+OR+gene_exact%3ATKTL2+OR+gene_exact%3ATMEM86A+OR+gene_exact%3ATMEM86B+OR+gene_exact%3ATOMT+OR+gene_exact%3ATPI1+OR+gene_exact%3ATPMT+OR+gene_exact%3ATPO+OR+gene_exact%3ATREH+OR+gene_exact%3ATRMT5+OR+gene_exact%3ATXNDC12%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:49:54.434222+00:00",
+    "sha256": "c31497f5baaf61cdd1823126b1d1c2fb74582548be2505a148d69165d4a99fd8",
+    "cache_file": "103d96714408e1c721339049205e145323d56437341c47a794439636621132a0.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ATYMP+OR+gene_exact%3ATYR+OR+gene_exact%3AUAP1+OR+gene_exact%3AUAP1L1+OR+gene_exact%3AUCK1+OR+gene_exact%3AUCK2+OR+gene_exact%3AUCKL1+OR+gene_exact%3AUGCG+OR+gene_exact%3AUGDH+OR+gene_exact%3AUGT1A1+OR+gene_exact%3AUGT1A10+OR+gene_exact%3AUGT1A3+OR+gene_exact%3AUGT1A4+OR+gene_exact%3AUGT1A5+OR+gene_exact%3AUGT1A6+OR+gene_exact%3AUGT1A7+OR+gene_exact%3AUGT1A8+OR+gene_exact%3AUGT1A9+OR+gene_exact%3AUGT2A1+OR+gene_exact%3AUGT2A2+OR+gene_exact%3AUGT2A3+OR+gene_exact%3AUGT2B10+OR+gene_exact%3AUGT2B11+OR+gene_exact%3AUGT2B15+OR+gene_exact%3AUGT2B17%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ATYMP+OR+gene_exact%3ATYR+OR+gene_exact%3AUAP1+OR+gene_exact%3AUAP1L1+OR+gene_exact%3AUCK1+OR+gene_exact%3AUCK2+OR+gene_exact%3AUCKL1+OR+gene_exact%3AUGCG+OR+gene_exact%3AUGDH+OR+gene_exact%3AUGT1A1+OR+gene_exact%3AUGT1A10+OR+gene_exact%3AUGT1A3+OR+gene_exact%3AUGT1A4+OR+gene_exact%3AUGT1A5+OR+gene_exact%3AUGT1A6+OR+gene_exact%3AUGT1A7+OR+gene_exact%3AUGT1A8+OR+gene_exact%3AUGT1A9+OR+gene_exact%3AUGT2A1+OR+gene_exact%3AUGT2A2+OR+gene_exact%3AUGT2A3+OR+gene_exact%3AUGT2B10+OR+gene_exact%3AUGT2B11+OR+gene_exact%3AUGT2B15+OR+gene_exact%3AUGT2B17%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:50:40.954629+00:00",
+    "sha256": "e87b78873c3ead5ed0b6c5232d451423e5017e61d4935e342349c9e85462f6a3",
+    "cache_file": "1416d5331704bd8448a798824c68e8a9acbb50b58962fa3ebb6bd01c4f5a7d8d.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AUGT2B28+OR+gene_exact%3AUGT2B4+OR+gene_exact%3AUGT2B7+OR+gene_exact%3AUGT8+OR+gene_exact%3AUPB1+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3AURAD+OR+gene_exact%3AUXS1+OR+gene_exact%3AXDH+OR+gene_exact%3AXYLB+OR+gene_exact%3AYARS1+OR+gene_exact%3AYARS2%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AUGT2B28+OR+gene_exact%3AUGT2B4+OR+gene_exact%3AUGT2B7+OR+gene_exact%3AUGT8+OR+gene_exact%3AUPB1+OR+gene_exact%3AUPP1+OR+gene_exact%3AUPP2+OR+gene_exact%3AURAD+OR+gene_exact%3AUXS1+OR+gene_exact%3AXDH+OR+gene_exact%3AXYLB+OR+gene_exact%3AYARS1+OR+gene_exact%3AYARS2%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:50:43.350375+00:00",
+    "sha256": "20489ef56b8e89f89ef6a8bffa41ab884073ae780065dc19ed13f34fabdca35d",
+    "cache_file": "c6e6daeb2c4a60f7088374531241f8a376f6196680821cd294a2a8e5144d92e2.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv": {
+    "url": "https://ftp.expasy.org/databases/rhea/tsv/chebi_pH7_3_mapping.tsv",
+    "retrieved_utc": "2026-09-19T10:53:26.493590+00:00",
+    "sha256": "7076e992933d94e81b66e55d4977c4634b11ad5d9146052c0a25ebc72b5067b2",
+    "cache_file": "aeab57e97ae8086fe4bee86131f5f9aea76338ab8e3c1fc8a322797e141da8d7.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://ftp.expasy.org/databases/rhea/tsv/chebiId_name.tsv": {
+    "url": "https://ftp.expasy.org/databases/rhea/tsv/chebiId_name.tsv",
+    "retrieved_utc": "2026-09-19T10:53:29.786709+00:00",
+    "sha256": "a5ec0562b6aa09d793192328ee4ae93d627972ccf59bc382fe6519dc8352c4bc",
+    "cache_file": "8deeb5bb20a6e584450e1aa88eb7a8e4bbcba642018fd144be7256c2904bf9fd.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/stream?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+keyword%3AKW-0810&format=json&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/stream?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+keyword%3AKW-0810&format=json&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:53:32.837335+00:00",
+    "sha256": "63133cf1232cbaff8e09ee1a6a2dbbd91a43d5424945276f9225d30ed0e5ca45",
+    "cache_file": "756e8c57bb3bad0097d2b5eb58f11bbe23858c0b86d59adb1ff36e9acbd9029c.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/keywords/KW-0813": {
+    "url": "https://rest.uniprot.org/keywords/KW-0813",
+    "retrieved_utc": "2026-09-19T10:54:45.943792+00:00",
+    "sha256": "446649062c4a2d044ac7182f67fc94b8ea868b15b92656a2409eb938e16f9331",
+    "cache_file": "23ddaa7959f90f6405f68105e936f2300e1e7760c598fe7b4eb3de6b966c4727.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/stream?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+keyword%3AKW-0813&format=json&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/stream?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+keyword%3AKW-0813&format=json&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-19T10:54:51.394086+00:00",
+    "sha256": "0ba9e91d3c016c77191c514e18d2e52efb84940f22cc0f1805b964fdfc0b3733",
+    "cache_file": "40ca763bb746efd7666f4825c35dd1464228cd3843d7557cdb29f2a87331de4d.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_uniprot_rhea_20260919\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00021+C00029+C00035+C00042+C00055+C00065+C00079+C00105+C00188+C00191": {
+    "url": "https://rest.kegg.jp/get/C00021+C00029+C00035+C00042+C00055+C00065+C00079+C00105+C00188+C00191",
+    "retrieved_utc": "2026-09-22T05:19:32.604495+00:00",
+    "sha256": "91e4ab63bd25737a39b1eedab38b9d9b2b53059b34761ca6ec177572a55167d0",
+    "bytes": 58131,
+    "cache_file": "a724557be29d816b79bff112e5c908defd67923310b8b67d8f48bec1a73d5ffc.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00257+C00354+C00383+C00385+C00489+C00624+C00719+C00864+C00946+C01089": {
+    "url": "https://rest.kegg.jp/get/C00257+C00354+C00383+C00385+C00489+C00624+C00719+C00864+C00946+C01089",
+    "retrieved_utc": "2026-09-22T05:19:33.618429+00:00",
+    "sha256": "e0157e3e9cf25c0f9b8da9b05098e379d6a8c728966b55d385eb02e43ff5fd0b",
+    "bytes": 23374,
+    "cache_file": "f76ef457f4bd345142e556d04bfb072b4ecaafc92b2019ce190596baeb0d6875.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C01152+C01181+C01601+C01746+C01879+C02630+C05984+C08277": {
+    "url": "https://rest.kegg.jp/get/C01152+C01181+C01601+C01746+C01879+C02630+C05984+C08277",
+    "retrieved_utc": "2026-09-22T05:19:34.606136+00:00",
+    "sha256": "e5aeb771b6113ae9525ace499b92ec36ed83d64aed9e5b81fe0f1a94e1347788",
+    "bytes": 10894,
+    "cache_file": "b4c9c24aacf6f0df2c2c8f7ee3f876c82d224cf54567c7edccc2893c15fe5003.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/2-Hydroxypentanoate": {
+    "url": "https://rest.kegg.jp/find/compound/2-Hydroxypentanoate",
+    "retrieved_utc": "2026-09-22T05:19:35.990951+00:00",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "bytes": 1,
+    "cache_file": "418ec50f7fd8bb189c1d173c95a9cd7dc829063b4c0d89b5e9786284f416757e.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00220+R00287+R00289+R00291+R00328+R00330+R00332+R00335+R00336+R00410": {
+    "url": "https://rest.kegg.jp/get/R00220+R00287+R00289+R00291+R00328+R00330+R00332+R00335+R00336+R00410",
+    "retrieved_utc": "2026-09-22T05:19:37.000742+00:00",
+    "sha256": "f7cd4dd73757830ccfa8b48124b17ddcaacbaa5af81cf0e90e2bdd8352988ab9",
+    "bytes": 13092,
+    "cache_file": "c1330702f0e9c38783847fa4d0d1667cbccc66b41cbb024f3cfead602db03448.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00432+R00512+R00514+R00515+R00582+R00585+R00588+R00589+R00590+R00662": {
+    "url": "https://rest.kegg.jp/get/R00432+R00512+R00514+R00515+R00582+R00585+R00588+R00589+R00590+R00662",
+    "retrieved_utc": "2026-09-22T05:19:37.971528+00:00",
+    "sha256": "4315d2a293b43eb783ea91bf2b728a0e8c76365f25a6ef302b606f81dd611401",
+    "bytes": 11522,
+    "cache_file": "301988b13d070b4bd9adafb34f12091e9a2225c4eab32215bb86f4f5194e70c8.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00689+R00699+R00713+R00727+R00756+R00762+R00855+R00891+R00945+R00955": {
+    "url": "https://rest.kegg.jp/get/R00689+R00699+R00713+R00727+R00756+R00762+R00855+R00891+R00945+R00955",
+    "retrieved_utc": "2026-09-22T05:19:38.968661+00:00",
+    "sha256": "0194bd1b93a933364cc3971187f49e3797948a627cafcaf536723c8f25144fc1",
+    "bytes": 13067,
+    "cache_file": "44f8aa08bed5268a17c03ad53ccb22db2c0c91d1a870b4d1fadc151625327d15.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R00965+R00969+R00996+R01000+R01009+R01184+R01281+R01290+R01361+R01478": {
+    "url": "https://rest.kegg.jp/get/R00965+R00969+R00996+R01000+R01009+R01184+R01281+R01290+R01361+R01478",
+    "retrieved_utc": "2026-09-22T05:19:39.959989+00:00",
+    "sha256": "7d6a042fdfd87506ae137091f450e15c68ab9a04b391bfba70e7ec456c6eff52",
+    "bytes": 10015,
+    "cache_file": "2d9bab237a060566e8679435c2f2dd1fbded4639f0c19069ba010dd99534dd80.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R01481+R01519+R01801+R01802+R02019+R02030+R02057+R02142+R02164+R02297": {
+    "url": "https://rest.kegg.jp/get/R01481+R01519+R01801+R01802+R02019+R02030+R02057+R02142+R02164+R02297",
+    "retrieved_utc": "2026-09-22T05:19:40.905826+00:00",
+    "sha256": "cc245a1020f5db848ba775316deab9e197d326685fa2bba6f40cc7c6757fdd03",
+    "bytes": 13290,
+    "cache_file": "487db18a552d3e63eadeb1dc3ecf39c3781df52256cee790101342af97fe1ff4.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R02397+R02565+R02566+R02743+R02821+R02973+R03018+R03283+R03376+R03451": {
+    "url": "https://rest.kegg.jp/get/R02397+R02565+R02566+R02743+R02821+R02973+R03018+R03283+R03376+R03451",
+    "retrieved_utc": "2026-09-22T05:19:41.874372+00:00",
+    "sha256": "bd7dadd88098cc17a0c3198ed2e421ba2e932d695429d64e9af1ef41f0c6f85b",
+    "bytes": 10710,
+    "cache_file": "2fb3c0b35f44edc6b07651485736c0e4683c7aed896db9f31aff0754a586c8bb.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R03534+R03660+R03662+R03663+R03749+R04635+R04920+R04922+R04942+R04979": {
+    "url": "https://rest.kegg.jp/get/R03534+R03660+R03662+R03663+R03749+R04635+R04920+R04922+R04942+R04979",
+    "retrieved_utc": "2026-09-22T05:19:42.871077+00:00",
+    "sha256": "5ed116fbd84703fca09701e7ae8518543fbe920e9ab499f5da8b42e81efc85de",
+    "bytes": 10361,
+    "cache_file": "20ab37a052c56d4df22a203e5948883000edc5c8725395c799e3749d06bb5fcc.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R06364+R07376+R07377+R07384+R07818+R08127+R08218+R08260+R09099+R10056": {
+    "url": "https://rest.kegg.jp/get/R06364+R07376+R07377+R07384+R07818+R08127+R08218+R08260+R09099+R10056",
+    "retrieved_utc": "2026-09-22T05:19:43.885969+00:00",
+    "sha256": "c5910c4a0c440b7a88fa1e018f677340940801753571a8a15656fb761fa7576c",
+    "bytes": 9096,
+    "cache_file": "eeb71d4f28f4ff8d25e86f56cca9b05909246cd7f846d4382858f0d060c5b371.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/R10463+R10830+R11030+R12300+R13223": {
+    "url": "https://rest.kegg.jp/get/R10463+R10830+R11030+R12300+R13223",
+    "retrieved_utc": "2026-09-22T05:19:45.397013+00:00",
+    "sha256": "b7324f00de5d5ffcb386bd926b63fda8b3eb0bb76ba3b0ec109dda91fc565ac5",
+    "bytes": 4887,
+    "cache_file": "04bd10b45e0d671ae78a1cf417c9a439afad8a6770afc58d0d0d2c38687261d2.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/2-Hydroxyglutarate": {
+    "url": "https://rest.kegg.jp/find/compound/2-Hydroxyglutarate",
+    "retrieved_utc": "2026-09-22T05:20:45.378769+00:00",
+    "sha256": "55c0828fbff2e8ed82da76e31f9ca2f227a4fc5af1bcc09ee8ecf851866d9ade",
+    "bytes": 156,
+    "cache_file": "042a36fbd31218893bdd45644e32c8e76a8c333ef51bc5e4484e8b5769b904ab.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/find/compound/Glucose%201%2C6-bisphosphate": {
+    "url": "https://rest.kegg.jp/find/compound/Glucose%201%2C6-bisphosphate",
+    "status": "ACCESS_BLOCKED",
+    "error": "HTTP Error 400: Bad Request",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.kegg.jp/get/C00740+C01087+C03196": {
+    "url": "https://rest.kegg.jp/get/C00740+C01087+C03196",
+    "retrieved_utc": "2026-09-22T05:22:56.481985+00:00",
+    "sha256": "8f186e3460807e7a90041359d53101523a0a1487119ef276cba53d8e49dd584c",
+    "bytes": 4098,
+    "cache_file": "6e810457c1f0a89c116b9b064adae054becba34a2d8b7e2884d64f878a804502.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\kegg\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AACSF3+OR+gene_exact%3AADPRM+OR+gene_exact%3AAKR1A1+OR+gene_exact%3AALDH5A1+OR+gene_exact%3AASMTL+OR+gene_exact%3ABBOX1+OR+gene_exact%3ABDH1+OR+gene_exact%3ABHMT+OR+gene_exact%3ACBS+OR+gene_exact%3ACDIPT+OR+gene_exact%3ACNPY3-GNMT+OR+gene_exact%3ACRLS1+OR+gene_exact%3ADPM1+OR+gene_exact%3ADPM2+OR+gene_exact%3ADPM3+OR+gene_exact%3AENPP1+OR+gene_exact%3AENPP3+OR+gene_exact%3AFARS2+OR+gene_exact%3AFARSA+OR+gene_exact%3AFARSB+OR+gene_exact%3AFBP1+OR+gene_exact%3AFBP2+OR+gene_exact%3AGALE+OR+gene_exact%3AGALT+OR+gene_exact%3AGGCT%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AACSF3+OR+gene_exact%3AADPRM+OR+gene_exact%3AAKR1A1+OR+gene_exact%3AALDH5A1+OR+gene_exact%3AASMTL+OR+gene_exact%3ABBOX1+OR+gene_exact%3ABDH1+OR+gene_exact%3ABHMT+OR+gene_exact%3ACBS+OR+gene_exact%3ACDIPT+OR+gene_exact%3ACNPY3-GNMT+OR+gene_exact%3ACRLS1+OR+gene_exact%3ADPM1+OR+gene_exact%3ADPM2+OR+gene_exact%3ADPM3+OR+gene_exact%3AENPP1+OR+gene_exact%3AENPP3+OR+gene_exact%3AFARS2+OR+gene_exact%3AFARSA+OR+gene_exact%3AFARSB+OR+gene_exact%3AFBP1+OR+gene_exact%3AFBP2+OR+gene_exact%3AGALE+OR+gene_exact%3AGALT+OR+gene_exact%3AGGCT%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:23:00.737408+00:00",
+    "sha256": "944e5fc9aff2fea21e3cfa9402acfe558d6714680d4adf0b4fbf2d3babf3f1e2",
+    "cache_file": "9beef607eb1e57a1cbcced4ee1a3f12b75b56f6c029c706cd0f8f145f56e932e.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGUK1+OR+gene_exact%3AGUSB+OR+gene_exact%3AHDDC3+OR+gene_exact%3AKDM2A+OR+gene_exact%3AKDM2B+OR+gene_exact%3AKL+OR+gene_exact%3AL2HGDH+OR+gene_exact%3ALDHA+OR+gene_exact%3ALDHAL6A+OR+gene_exact%3ALDHAL6B+OR+gene_exact%3ALDHB+OR+gene_exact%3ALDHC+OR+gene_exact%3AMIOX+OR+gene_exact%3ANME1-NME2+OR+gene_exact%3ANT5C1B-RDH14+OR+gene_exact%3ANUDT2+OR+gene_exact%3AOXCT1+OR+gene_exact%3AOXCT2+OR+gene_exact%3APANK1+OR+gene_exact%3APANK2+OR+gene_exact%3APANK3+OR+gene_exact%3APGS1+OR+gene_exact%3APLOD1+OR+gene_exact%3APLOD2+OR+gene_exact%3APSPH%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3AGUK1+OR+gene_exact%3AGUSB+OR+gene_exact%3AHDDC3+OR+gene_exact%3AKDM2A+OR+gene_exact%3AKDM2B+OR+gene_exact%3AKL+OR+gene_exact%3AL2HGDH+OR+gene_exact%3ALDHA+OR+gene_exact%3ALDHAL6A+OR+gene_exact%3ALDHAL6B+OR+gene_exact%3ALDHB+OR+gene_exact%3ALDHC+OR+gene_exact%3AMIOX+OR+gene_exact%3ANME1-NME2+OR+gene_exact%3ANT5C1B-RDH14+OR+gene_exact%3ANUDT2+OR+gene_exact%3AOXCT1+OR+gene_exact%3AOXCT2+OR+gene_exact%3APANK1+OR+gene_exact%3APANK2+OR+gene_exact%3APANK3+OR+gene_exact%3APGS1+OR+gene_exact%3APLOD1+OR+gene_exact%3APLOD2+OR+gene_exact%3APSPH%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:23:03.144983+00:00",
+    "sha256": "becaadf0cb38ba6e51ed2b19886d3a62b581285e2474edbf51b9987070a3fabb",
+    "cache_file": "6010ff44ad5eb834b2725c5acfb15dbab64731660c64c9f4549a2809ad1a5ca4.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3APTDSS1+OR+gene_exact%3APTDSS2+OR+gene_exact%3ARGN+OR+gene_exact%3ASARS1+OR+gene_exact%3ASARS2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3ASELENOI+OR+gene_exact%3ASETDB2-PHF11+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASPTLC1+OR+gene_exact%3ASPTLC2+OR+gene_exact%3ASPTLC3+OR+gene_exact%3ASRR+OR+gene_exact%3AST6GALNAC3+OR+gene_exact%3AST6GALNAC4+OR+gene_exact%3ASUCLA2+OR+gene_exact%3ASUCLG1+OR+gene_exact%3ASUCLG2+OR+gene_exact%3ATARS1+OR+gene_exact%3ATARS2+OR+gene_exact%3ATARS3+OR+gene_exact%3ATET1+OR+gene_exact%3ATMLHE%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3APTDSS1+OR+gene_exact%3APTDSS2+OR+gene_exact%3ARGN+OR+gene_exact%3ASARS1+OR+gene_exact%3ASARS2+OR+gene_exact%3ASDS+OR+gene_exact%3ASDSL+OR+gene_exact%3ASELENOI+OR+gene_exact%3ASETDB2-PHF11+OR+gene_exact%3ASHMT1+OR+gene_exact%3ASHMT2+OR+gene_exact%3ASPTLC1+OR+gene_exact%3ASPTLC2+OR+gene_exact%3ASPTLC3+OR+gene_exact%3ASRR+OR+gene_exact%3AST6GALNAC3+OR+gene_exact%3AST6GALNAC4+OR+gene_exact%3ASUCLA2+OR+gene_exact%3ASUCLG1+OR+gene_exact%3ASUCLG2+OR+gene_exact%3ATARS1+OR+gene_exact%3ATARS2+OR+gene_exact%3ATARS3+OR+gene_exact%3ATET1+OR+gene_exact%3ATMLHE%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:23:05.704700+00:00",
+    "sha256": "c84c197ef3166f07432a831c30a699b7308768dd02f2b59d088f34993988f2bd",
+    "cache_file": "d1d80471c3ec15c0ff2e188824c8579edf4a1661115a72eb5962cd575f7b8666.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ATOMT+OR+gene_exact%3AUGP2+OR+gene_exact%3AUMPS+OR+gene_exact%3AVNN1+OR+gene_exact%3AVNN2+OR+gene_exact%3AYRDC%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28gene_exact%3ATOMT+OR+gene_exact%3AUGP2+OR+gene_exact%3AUMPS+OR+gene_exact%3AVNN1+OR+gene_exact%3AVNN2+OR+gene_exact%3AYRDC%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:23:07.733179+00:00",
+    "sha256": "8087a92251b0be153da88bbb80f27f145e2816a619a11ca8bd8691e8c7236706",
+    "cache_file": "5b9a040fa5967385c37ce5430afb025c1e4466f9b7b02f5f5b004dd0352216f5.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28hydroxyglutarate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28hydroxyglutarate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:24:44.182965+00:00",
+    "sha256": "2716e22e501c717204bad0f4abd2e94c3d76635bd02c7a65d8823058ed6983e8",
+    "cache_file": "eb7b5c1114effa59c8c6efc8d4358e44307f17b647f388261aeb68d3b4192a34.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28hydroxybutyrate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28hydroxybutyrate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:24:46.651185+00:00",
+    "sha256": "2aeb71431b7e236f80a73969dc5e4b5518d7569a1c3ceafe832ece778539b303",
+    "cache_file": "418e3bc95ed426e66bc10842cf1b0fa165c4c4a3ec1ba137d6332248582b083e.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28sebacic%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28sebacic%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:24:49.723174+00:00",
+    "sha256": "4491317085f6d0ec541bcdd7da496f9c3b365c11b494487d20b55d3fa7487e84",
+    "cache_file": "7b4cbc7f57ba50795161d526bbd33bf313bd4e21422a86e1d6a6149da01174ab.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28nonanoate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28nonanoate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:24:52.203451+00:00",
+    "sha256": "ea149fb881857eec20550989e72aeda3e10eee380cdaa6c2fd35a81424d0e170",
+    "cache_file": "656707ce2763e75021eed46578da1559604c3e7425b8543da173da7aa72e5a33.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28piperidine%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28piperidine%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:24:55.307919+00:00",
+    "sha256": "d3eb926a72d282ea4b074571a71a6e3a576433c1663b755dcbec345808ba8d5b",
+    "cache_file": "3b58a287a6b5f30d4bc0449cc79fde76c62e8446ffb9edbe33faae33a7e0349b.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28hydroxypentanoate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28hydroxypentanoate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:24:57.330812+00:00",
+    "sha256": "62d2056b4812bf96549dbaf4e0fd2377c46233f79fa7ede657d028720346d068",
+    "cache_file": "5154677a6525b8838e05cebd6ea25f59e91144c18b0a35fe728048b6f6898ebf.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28CNP%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28CNP%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:24:59.418034+00:00",
+    "sha256": "81c481561e79b773018cf77ffce988213f9ca91726d948f8d2fe94a1d77f5fca",
+    "cache_file": "256718f268c92bcacfa975f6d9d4406faa522e6c7e4885670eeeceefe165a5bf.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  },
+  "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28malonate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit": {
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=organism_id%3A9606+AND+reviewed%3Atrue+AND+%28malonate%29&format=json&size=500&fields=accession%2Cgene_names%2Corganism_id%2Cxref_geneid%2Ccc_catalytic_activity%2Ccc_subunit",
+    "retrieved_utc": "2026-09-22T05:25:02.030667+00:00",
+    "sha256": "00767fee43092b4c0b12672e8b348e8387856f5433e42ab60a326ef4a296c296",
+    "cache_file": "4ec2100ed5722e4f952505532514922b9eea3c378017f1c73faaef35c1e1395d.txt",
+    "status": "DONE",
+    "registry_path": "runtime\\coad_paired101_mapping_20260922\\uniprot\\sources.json"
+  }
+}
