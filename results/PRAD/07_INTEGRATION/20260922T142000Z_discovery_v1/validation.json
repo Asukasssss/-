@@ -1,0 +1,20 @@
+{
+  "status": "PARTIAL",
+  "completed": "paired discovery;bounded direct mapping;all candidate patient statistics;one tumor-study cell source;complete current candidate tables",
+  "retained_metabolites": 361,
+  "metabolite_workpool": 69,
+  "metabolite_FDR": 9,
+  "direct_features": 48,
+  "direct_relations": 161,
+  "candidate_genes": 101,
+  "RNA_FDR": 21,
+  "patient_relation_FDR": 0,
+  "single_cell_source_evaluable": 91,
+  "historical_genes_preserved": 3,
+  "mapping_unresolved": 21,
+  "second_sc_study_complete": false,
+  "functional_validation_complete": false,
+  "all_join_cardinalities_checked": true,
+  "all_current_and_historical_genes_preserved": true,
+  "numerical_statistics_recomputed": false
+}

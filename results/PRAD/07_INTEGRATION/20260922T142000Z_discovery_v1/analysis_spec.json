@@ -1,0 +1,9 @@
+{
+  "version": "prad_integration_v1",
+  "run_id": "20260922T142000Z_discovery_v1",
+  "key": "feature_id x stable_gene_id x version",
+  "statistics": "existing released values only",
+  "ranking": "no opaque score,no best-relation substitution",
+  "missing": "NA and explicit states",
+  "source_boundaries": "same-cohort association;RNA background;one-study descriptive SC;no independent mechanism claim"
+}

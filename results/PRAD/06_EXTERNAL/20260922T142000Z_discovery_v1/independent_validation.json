@@ -1,0 +1,10 @@
+{
+  "status": "DONE",
+  "scalar_mean_spotchecks": 6,
+  "max_mean_error": 2.9802322443206464e-08,
+  "detection_exact": true,
+  "independent_bootstrap_gene": "GSS",
+  "independent_bootstrap_repeats": 1000,
+  "bootstrap_frequency": 0.996,
+  "bootstrap_implementation_agrees": true
+}

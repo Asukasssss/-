@@ -15,3 +15,6 @@
 下一步：整合患者结果；第二研究需可靠作者细胞注释及供者映射后再接入。
 
 复现：python prad_sc_source_v1.py --out SAME_RUN --code-commit COMMIT。raw.X全基因库归一化，每供者类别至少20细胞，每类至少3供者；不重跑聚类或UMAP。
+
+
+展示与独立核验：图中星号标记来源排名不可评估的10行；GPX1测量n保留NA，细胞总数按类别实际覆盖展示，表达值未变。独立标量核验6个供者类别均值，最大差2.98e-8；GSS的1000次供者重采样排名频率用独立循环实现完全复核。展示脚本为code/prad_source_display_v1.py，核验脚本为code/prad_validate_sc_v1.py。
