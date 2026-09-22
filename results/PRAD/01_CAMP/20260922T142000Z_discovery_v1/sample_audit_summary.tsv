@@ -1,0 +1,25 @@
+audit_item	value	status
+status	DONE	DONE
+mapped_specimens	137	DONE
+tumor_author_cases	91	DONE
+normal_author_cases	46	DONE
+author_cases	94	DONE
+author_case_pairs	43	DONE
+CAPT_concordant_pairs	36	DONE
+case_pairs_CAPT_discordant	7	DONE
+tissue_conflicts	0	DONE
+duplicate_tumor_cases	0	DONE
+duplicate_normal_cases	0	DONE
+case_cross_batch	0	DONE
+total_input_features	476	DONE
+retained_both_tissues	361	DONE
+frozen_cancer_features	351	DONE
+frozen_q_lt005	34	DONE
+chemical_key_collision_features	10	DONE
+RNA_rows	27827	DONE
+RNA_unique_symbols	True	DONE
+numerical_results_this_audit	0	DONE
+original_statistics_modified	False	DONE
+genotype_identity	NOT_EVALUABLE_no_genotypes	NOT_EVALUABLE
+patient_identity_basis	Explicit author case field; not inferred from suffix/order; CAPT discrepancy retained for conservative subset sensitivity	DONE
+available_mask_semantics	finite_value_in_author_data_sheet; not an independently verified detection mask	DONE

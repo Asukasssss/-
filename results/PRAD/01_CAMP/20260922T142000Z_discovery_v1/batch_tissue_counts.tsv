@@ -1,0 +1,7 @@
+Identifier	TN	n_specimens
+PRAD_2014	Normal	10
+PRAD_2014	Tumor	20
+PRAD_2019A	Normal	23
+PRAD_2019A	Tumor	52
+PRAD_2019B	Normal	13
+PRAD_2019B	Tumor	19
