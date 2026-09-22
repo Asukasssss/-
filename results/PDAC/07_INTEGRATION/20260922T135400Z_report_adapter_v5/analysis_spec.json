@@ -1,0 +1,11 @@
+{
+  "version": "PDAC_report_adapter_v5",
+  "input_commit": "bcccc21ff60d6c57111efe72804d50db8020245e",
+  "handoff_commit": "45c6ae9ab489a9bd4ead4e47d28185785a448156",
+  "new_statistical_tests": 0,
+  "new_P_q": 0,
+  "units": "11 author pairs;21 distinct author case keys;source labels not certified clinical donors",
+  "reuse": "All numerical statistics reused exactly; aliases and display status only",
+  "method_deviations": "Metabolite exact signed-rank/10000 pair bootstrap preserved from locked prior run, not replaced by BRCA approximation/4000",
+  "scope": "357 direct main;358 conditional supplement;250 current DIRECT;687 total genes"
+}

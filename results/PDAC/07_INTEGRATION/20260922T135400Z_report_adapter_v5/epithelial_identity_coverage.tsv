@@ -1,0 +1,3 @@
+cohort	identity	cells_total	source_labels_total	eligible_source_labels	cells_in_eligible_labels	genes_measured	reason
+GSE242230	Malignant (author)	10783	25	23	10759	684	Unequal source-label coverage;descriptive means are not matched tumor-normal comparison
+GSE242230	Normal epithelial (author)	350	21	6	291	684	Unequal source-label coverage;descriptive means are not matched tumor-normal comparison
