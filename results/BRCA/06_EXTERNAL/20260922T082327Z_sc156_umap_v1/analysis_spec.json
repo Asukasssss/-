@@ -1,0 +1,18 @@
+{
+  "run_id": "20260922T082327Z_sc156_umap_v1",
+  "version": "sc156_umap_v1",
+  "source": "Wu2021 curated H5AD; frozen obsm/X_umap",
+  "genes": 156,
+  "cells": 100064,
+  "normalization": "log1p(raw count / all raw-gene library *10000)",
+  "color_cap": "99th percentile of positive cells for each gene; fixed across subtype panels",
+  "all_cells_preserved": true,
+  "draw_order": "ascending expression",
+  "new_embedding": false,
+  "new_clustering": false,
+  "new_P_q": 0,
+  "source_sha256": "ef9e792e3e25a811af7778e38913fe0758fb887284899b47bdd54c8af0e91281",
+  "matplotlib": "3.6.3",
+  "h5py": "3.11.0",
+  "style": "white;small dots;no ticks;light borders;no contour on expression panels to avoid obscuring gradients"
+}
