@@ -62,6 +62,8 @@ val=dict(status='TEMPLATES_VALIDATED_NOT_ANALYSIS',tables=len(tables),empty_tabl
 (OUT/'validation.json').write_text(json.dumps(val,indent=2)+'\n')
 (OUT/'.gitattributes').write_text('* -text\n',encoding='utf-8')
 paths=[p for p in sorted(OUT.iterdir()) if p.is_file() and p.name!='checksums.tsv']
+for p in paths:
+ p.write_bytes(p.read_bytes().replace(b'\r\n',b'\n'))
 with (OUT/'checksums.tsv').open('w',encoding='utf-8',newline='') as f:
  w=csv.writer(f,delimiter='\t',lineterminator='\n');w.writerow(['file','sha256']);w.writerows((p.name,hashlib.sha256(p.read_bytes()).hexdigest()) for p in paths)
 print(json.dumps(val))
