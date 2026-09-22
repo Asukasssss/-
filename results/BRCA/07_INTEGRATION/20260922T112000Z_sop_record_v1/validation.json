@@ -1,0 +1,20 @@
+{
+  "status": "DONE",
+  "scope": "structural_and_value_preservation_not_patient_reanalysis",
+  "historical_artifacts_indexed": 564,
+  "all_indexed_files_exist": true,
+  "gene_rows": 156,
+  "relation_rows": 262,
+  "gene_source_columns": 358,
+  "relation_source_columns": 86,
+  "all_historical_cells_preserved": true,
+  "standard_prefix_exact_copy": true,
+  "RNA_P_lt005": 85,
+  "no_new_patient_tests": true,
+  "not_verified": [
+    "server patient matrices",
+    "all historical literature claims",
+    "full historical statistical recomputation",
+    "exhaustiveness of uncommitted server-only outputs"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "sop_record_v1",
+  "run_id": "20260922T112000Z_sop_record_v1",
+  "source_commit": "5f78d08a696d5fac3d95c697b0eb05358cfa1868",
+  "operation": "aggregate_index_and_interpretation",
+  "new_statistical_tests": 0,
+  "new_P_q": 0,
+  "method_defaults_applied_retroactively": false,
+  "source_sop_branch": "docs/camp-source-sop-v1-20260922",
+  "source_sop_commit": "6dd0a73",
+  "source_sop_merge_status": "NOT_MERGED",
+  "scope": "BRCA only; single-cell stops at expression source",
+  "historical_q_preserved": true,
+  "FUSCC_BH": "262 planned with internal missing P=1; published missing NA",
+  "Tang_BH": "235 evaluable",
+  "CAMP_association_BH": "255 evaluable separately per primary/availability",
+  "RNA_BH": "148 evaluable",
+  "private_data_read": false
+}

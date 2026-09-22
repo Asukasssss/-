@@ -1,0 +1,6 @@
+source_path	analysis_type	planned_rows	evaluable	P_lt005	q_lt005	status_counts	family_n_evaluable
+results/BRCA/03_PATIENT/20260921T150000Z_mapping262_patient_v1/CAMP_relations262.tsv	available_Spearman262	262	255	56	9	"{""DONE"": 255, ""NEEDS_REVIEW"": 4, ""NOT_EVALUABLE"": 3}"	255.0
+results/BRCA/03_PATIENT/20260921T150000Z_mapping262_patient_v1/CAMP_relations262.tsv	processed_Spearman262	262	255	69	14	"{""DONE"": 255, ""NEEDS_REVIEW"": 4, ""NOT_EVALUABLE"": 3}"	255.0
+results/BRCA/03_PATIENT/20260921T150000Z_mapping262_patient_v1/paired_RNA150.tsv	paired_RNA150	150	148	85	79	"{""DONE"": 148, ""NOT_EVALUABLE"": 1, ""NEEDS_REVIEW"": 1}"	148.0
+results/BRCA/04_ROBUSTNESS/20260921T112611Z_metabolite318_paired_v1/paired_metabolite318.tsv	paired_author_available	318	288	148	121	"{""DONE"": 288, ""NOT_EVALUABLE"": 30}"	288.0
+results/BRCA/04_ROBUSTNESS/20260921T112611Z_metabolite318_paired_v1/paired_metabolite318.tsv	paired_processed	318	318	190	176	"{""DONE"": 318}"	318.0
