@@ -1,0 +1,21 @@
+{
+  "planned": 150,
+  "evaluable": 148,
+  "P_lt005": 85,
+  "up": 50,
+  "down": 35,
+  "q_lt005": 79,
+  "P_only": 6,
+  "added_genes": [
+    "BCAT1",
+    "CKM",
+    "CMPK1",
+    "PNP",
+    "SLC13A3",
+    "SOAT1"
+  ],
+  "old_statistics_unchanged": true,
+  "historical156_columns_preserved": true,
+  "new_tests": 0,
+  "new_BH": 0
+}

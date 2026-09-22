@@ -1,0 +1,9 @@
+{
+  "version": "pairedRNA_p005_view_v1",
+  "source_commit": "b6c6e1e34416fc14710d784bfc4aed51d61e7747",
+  "scope": "paired RNA only;current150;history6 retained",
+  "entry": "two-sided original paired RNA P<0.05;exploratory",
+  "q": "original full148 family q unchanged;no subset BH",
+  "sort": "fraction of all evaluable pairs in mean effect direction descending;gene tie-break",
+  "other_layers": "no change to metabolite-RNA or external thresholds;RNA not mandatory gate for functional work"
+}
