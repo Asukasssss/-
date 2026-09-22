@@ -1,0 +1,1 @@
+在仓库中保留固定输入提交，安装requirements.txt并提供中文字体。只读：python code/pdac/render_report_v5.py --config configs/PDAC_report_v5.yaml --validate-only。生成：同命令加--out <全新目录>。随后complete_report_v5.py extras补完整公开附录；build_report_v5_workbook.mjs使用Codex bundled @oai/artifact-tool生成工作簿。最后complete_report_v5.py finalize校验打包。后处理OUT/PUBLIC常量须指向新的目录。

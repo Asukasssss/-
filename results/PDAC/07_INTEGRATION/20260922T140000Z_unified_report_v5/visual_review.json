@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "main_report_pages_reviewed": 16,
+  "appendix_heatmaps_reviewed_in_contact_sheets": 81,
+  "workbook_sheet_previews_reviewed": 16,
+  "workbook_scope": "Representative populated ranges on every sheet; long identifier lists, RNA run labels and gap descriptions rechecked after final row-height adjustment. Not a claim to visually inspect every cell.",
+  "main_report_detail_pages": [5, 12, 13],
+  "mapping_labels_translated": true,
+  "missing_values_gray_or_explicit_NA": true,
+  "source_not_evaluable_labels_present": true,
+  "independent_study_color_scales_in_new_main_figures": true,
+  "text_boxes_fit": true,
+  "legacy_dotplots": "Exact previously reviewed v4 bytes; common color scale explicitly not for cross-study absolute comparisons",
+  "no_clipping_in_final_reviewed_ranges": true
+}
