@@ -1,0 +1,9 @@
+{
+  "version": "COAD_metabolite_descriptor_v2",
+  "scope": "159 features; primary and available subsets",
+  "new_hypothesis_tests": false,
+  "bootstrap": 4000,
+  "effect": "mean paired T-minus-N author normalized log scale; log base unverified",
+  "historical_P_q": "exact strings retained including fixed159 sensitivity BH",
+  "historical_median_CI": "retained separate fields; not relabeled mean CI"
+}

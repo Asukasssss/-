@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "rows": 318,
+  "all_existing_P_q_preserved": true,
+  "counts_verified": true,
+  "new_tests": 0,
+  "output_sha256": "13125df0fd81b8fbb7aa0f0781b80d35d852e6aa1d834253afde7a9983b867e8"
+}
