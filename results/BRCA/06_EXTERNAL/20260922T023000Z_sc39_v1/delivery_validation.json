@@ -1,0 +1,114 @@
+{
+  "status": "DONE",
+  "genes": 39,
+  "same_top": 16,
+  "same_top_both_bootstrap080": 12,
+  "same_top_shared": 23,
+  "source_hashes_unchanged": true,
+  "new_P_or_q": 0,
+  "cohorts": {
+    "Wu2021": {
+      "cohort": "Wu2021",
+      "status": "DONE",
+      "source_shape": [
+        100064,
+        28468
+      ],
+      "cells_selected": 100064,
+      "source_donor_labels": 26,
+      "gene_count": 39,
+      "genes_unique_in_dictionary": 39,
+      "cells_by_celltype": {
+        "T_NK_cells": 35214,
+        "Malignant_epithelial": 24489,
+        "Myeloid": 9675,
+        "Endothelial": 7605,
+        "Fibroblasts": 6573,
+        "Perivascular": 5423,
+        "Nonmalignant_epithelial": 4355,
+        "Plasma_cells": 3524,
+        "B_cells": 3206
+      },
+      "source_labels_by_stratum": {
+        "ER+": 11,
+        "HER2+": 5,
+        "TNBC": 10
+      },
+      "source_labels_by_treatment": {
+        "Na\u00efve": 21,
+        "Treated": 5
+      },
+      "unique_barcodes": true,
+      "nonnegative_integer_raw_entries_checked": 177379069,
+      "zero_libraries": 0,
+      "aggregate_cell_count_verified": true,
+      "public_rows": 2106,
+      "all39_retained": true,
+      "new_hypothesis_tests": 0,
+      "normalization": "log1p(raw gene count/all retained raw gene counts*10000)",
+      "statistical_independence_limit": "Publisher donor_id labels; no genotype-level identity check; treatment strata separated; malignant calls reused, not independently rederived",
+      "python": "3.8.10",
+      "numpy": "1.24.4",
+      "pandas": "1.5.3",
+      "scipy": "1.10.1",
+      "h5py": "3.11.0",
+      "script_sha256": "8dc6f3c651bef752054af53850065fb690f289317858b0c909066353dc4770dc",
+      "config_sha256": "e1a23aba7770698820d31ccc8adeb1ab61e6c6f849f8f1fac82a6f8f5554bde1"
+    },
+    "Pal2021_reprocessed": {
+      "cohort": "Pal2021_reprocessed",
+      "status": "DONE",
+      "source_shape": [
+        621200,
+        37389
+      ],
+      "cells_selected": 224823,
+      "source_donor_labels": 33,
+      "gene_count": 39,
+      "genes_unique_in_dictionary": 39,
+      "cells_by_celltype": {
+        "Malignant_epithelial": 130078,
+        "T_NK_cells": 43045,
+        "Myeloid": 20920,
+        "Fibroblasts": 12786,
+        "Plasma_cells": 7669,
+        "B_cells": 5423,
+        "Endothelial": 2473,
+        "Perivascular": 1494,
+        "Mast_cells": 876,
+        "Unresolved_stromal": 59
+      },
+      "source_labels_by_stratum": {
+        "all": 33
+      },
+      "source_labels_by_treatment": {
+        "not_available": 33
+      },
+      "unique_barcodes": true,
+      "nonnegative_integer_raw_entries_checked": 297852860,
+      "zero_libraries": 0,
+      "aggregate_cell_count_verified": true,
+      "public_rows": 780,
+      "all39_retained": true,
+      "new_hypothesis_tests": 0,
+      "normalization": "log1p(raw gene count/all retained raw gene counts*10000)",
+      "statistical_independence_limit": "33 published source donor labels; ambiguous original labels not merged from numeric suffix; no genotype identity check; primary-tumor subset only; original normal/preneoplastic and lymph-node analysis unavailable",
+      "python": "3.8.10",
+      "numpy": "1.24.4",
+      "pandas": "1.5.3",
+      "scipy": "1.10.1",
+      "h5py": "3.11.0",
+      "script_sha256": "8dc6f3c651bef752054af53850065fb690f289317858b0c909066353dc4770dc",
+      "config_sha256": "12f2b2da80b0ad9531fbe267d6bb0038f92006851ce56a2bbdde97a4345b414b"
+    }
+  },
+  "independent_summary_max_error": 1.6653345369377348e-16,
+  "all156_prior_columns_preserved": true,
+  "plots_missing_values_not_zero": true,
+  "plot_order": "alphabetical genes;fixed celltypes;no clustering",
+  "plot_software": {
+    "matplotlib": "3.10.9",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3"
+  }
+}

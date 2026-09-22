@@ -1,0 +1,5 @@
+cohort	requested_gene	feature_id	source_symbol	accepted_candidate_id	source
+Wu2021	LPCAT4	ENSG00000143797	MBOAT2	False	UniProt Q643R3 cached mapping190 source
+Wu2021	LPCAT4	ENSG00000176454	LPCAT4	True	UniProt Q643R3 cached mapping190 source
+Pal2021_reprocessed	LPCAT4	ENSG00000143797	MBOAT2	False	UniProt Q643R3 cached mapping190 source
+Pal2021_reprocessed	LPCAT4	ENSG00000176454	LPCAT4	True	UniProt Q643R3 cached mapping190 source
