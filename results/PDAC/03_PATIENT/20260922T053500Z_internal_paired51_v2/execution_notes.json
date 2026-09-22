@@ -1,0 +1,9 @@
+{
+  "base_commit": "9d7bcbd63390fc58ced00f3eac49eac7db8788d5",
+  "execution_code_published_commit": "b52b42f4a34ce30e8fa0bc44e16c36a20177bbee",
+  "verifier_sha256": "3aa637d6337b7e6e50c1050c7a7fb80368ff943aba7aa3775349c54e4bb13604",
+  "first_preflight_attempt": "20260922T053000Z_internal_paired51_v2",
+  "first_attempt_result": "Windows-generated path separators rejected by exact actual-path hash guard;no statistics calculated",
+  "successful_run_input_normalization": "POSIX paths matched actual four inputs;hashes unchanged",
+  "clinical_identity_scope": "Author explicit pair IDs;not protected clinical identity re-verification"
+}

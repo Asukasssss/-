@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Pre-scRNA table only",
+  "rows": 722,
+  "relations": 715,
+  "metabolites": 51,
+  "genes": 538,
+  "scRNA_append": "NOT_RUN"
+}
