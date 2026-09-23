@@ -1,0 +1,102 @@
+module	GO	description	overlap	module_annotated_genes	term_universe_genes	universe_genes	p	genes	q_all_module_terms
+pink	GO:0044242	cellular lipid catabolic process	8	199	84	5553	0.0099893016376916	ECH1;SCP2;ACADM;ETFB;MGST2;ACAT1;HEXA;PLBD1	0.336930709300623
+pink	GO:0006635	fatty acid beta-oxidation	5	199	39	5553	0.0120116915967416	ECH1;SCP2;ACADM;ETFB;ACAT1	0.378415950740205
+pink	GO:0016042	lipid catabolic process	9	199	107	5553	0.0140547944064458	ECH1;SCP2;ACADM;ETFB;MGST2;ACAT1;FMC1;HEXA;PLBD1	0.419765972482196
+pink	GO:0019395	fatty acid oxidation	5	199	49	5553	0.0298793223640802	ECH1;SCP2;ACADM;ETFB;ACAT1	0.667696221399149
+pink	GO:0034440	lipid oxidation	5	199	50	5553	0.0322674832604362	ECH1;SCP2;ACADM;ETFB;ACAT1	0.697539958079245
+pink	GO:0009062	fatty acid catabolic process	5	199	52	5553	0.037393429642936	ECH1;SCP2;ACADM;ETFB;ACAT1	0.762191323137649
+pink	GO:0046466	membrane lipid catabolic process	2	199	13	5553	0.0769048651295552	MGST2;HEXA	1.0
+pink	GO:0030258	lipid modification	5	199	65	5553	0.0823768102484495	ECH1;SCP2;ACADM;ETFB;ACAT1	1.0
+pink	GO:0043543	protein acylation	4	199	64	5553	0.195788230633794	MORF4L2;BLOC1S1;NAA10;NFYB	1.0
+pink	GO:0071616	acyl-CoA biosynthetic process	2	199	23	5553	0.198565271552289	MPC2;ACAT1	1.0
+pink	GO:0033993	response to lipid	14	199	314	5553	0.234355523606477	SLPI;ARPC1B;HES1;CEBPB;NDUFA13;CHMP5;ATP1A1;MGST2;CRLS1;PGRMC2;EGLN2;MAPK3;SOCS2;MTAP	1.0
+pink	GO:0045833	negative regulation of lipid metabolic process	2	199	28	5553	0.265450868104792	ATP1A1;FMC1	1.0
+pink	GO:0046474	glycerophospholipid biosynthetic process	4	199	74	5553	0.273322374648378	CHPT1;DPM1;CRLS1;SOCS2	1.0
+pink	GO:0008654	phospholipid biosynthetic process	5	199	98	5553	0.274190793695917	CHPT1;GGPS1;DPM1;CRLS1;SOCS2	1.0
+pink	GO:0035601	protein deacylation	2	199	29	5553	0.278908796488909	LYPLA1;SIRT7	1.0
+pink	GO:0098732	macromolecule deacylation	2	199	30	5553	0.292350280083636	LYPLA1;SIRT7	1.0
+pink	GO:0006490	oligosaccharide-lipid intermediate biosynthetic process	1	199	10	5553	0.305973632139476	DPM1	1.0
+pink	GO:0030149	sphingolipid catabolic process	1	199	10	5553	0.305973632139476	HEXA	1.0
+pink	GO:0006644	phospholipid metabolic process	6	199	129	5553	0.316109690697557	CHPT1;GGPS1;DPM1;CRLS1;PLBD1;SOCS2	1.0
+pink	GO:0044255	cellular lipid metabolic process	14	199	339	5553	0.329441699267839	ECH1;SCP2;LYPLA1;CHPT1;ACADM;ETFB;MGST2;GGPS1;DPM1;ACAT1;CRLS1;HEXA;PLBD1;SOCS2	1.0
+pink	GO:0032367	intracellular cholesterol transport	1	199	11	5553	0.330889967554278	SCP2	1.0
+pink	GO:0006629	lipid metabolic process	18	199	449	5553	0.343619729582265	ECH1;SCP2;LYPLA1;STUB1;ATP1A1;CHPT1;ACADM;ETFB;EBP;MGST2;GGPS1;DPM1;ACAT1;CRLS1;FMC1;HEXA;PLBD1;SOCS2	1.0
+pink	GO:0046949	fatty-acyl-CoA biosynthetic process	1	199	12	5553	0.354916112710665	ACAT1	1.0
+pink	GO:0045017	glycerolipid biosynthetic process	4	199	85	5553	0.363275140684091	CHPT1;DPM1;CRLS1;SOCS2	1.0
+pink	GO:0009395	phospholipid catabolic process	1	199	13	5553	0.378083716675758	PLBD1	1.0
+pink	GO:0006664	glycolipid metabolic process	2	199	37	5553	0.384771934816286	DPM1;HEXA	1.0
+pink	GO:0071398	cellular response to fatty acid	1	199	15	5553	0.421964338148537	HES1	1.0
+pink	GO:0006637	acyl-CoA metabolic process	2	199	41	5553	0.435289774463969	MPC2;ACAT1	1.0
+pink	GO:0032365	intracellular lipid transport	1	199	16	5553	0.442735211515897	SCP2	1.0
+pink	GO:0032374	regulation of cholesterol transport	1	199	16	5553	0.442735211515897	SCP2	1.0
+pink	GO:1901570	fatty acid derivative biosynthetic process	1	199	16	5553	0.442735211515897	ACAT1	1.0
+pink	GO:0006631	fatty acid metabolic process	6	199	150	5553	0.451620311631292	ECH1;SCP2;LYPLA1;ACADM;ETFB;ACAT1	1.0
+pink	GO:0006497	protein lipidation	2	199	43	5553	0.459708374224202	DPM1;SVIP	1.0
+pink	GO:0035337	fatty-acyl-CoA metabolic process	1	199	17	5553	0.462763330155655	ACAT1	1.0
+pink	GO:0050994	regulation of lipid catabolic process	1	199	17	5553	0.462763330155655	FMC1	1.0
+pink	GO:0051055	negative regulation of lipid biosynthetic process	1	199	17	5553	0.462763330155655	ATP1A1	1.0
+pink	GO:0006650	glycerophospholipid metabolic process	4	199	99	5553	0.476792365806871	CHPT1;DPM1;CRLS1;SOCS2	1.0
+pink	GO:0006687	glycosphingolipid metabolic process	1	199	18	5553	0.482075125187993	HEXA	1.0
+pink	GO:0006643	membrane lipid metabolic process	3	199	76	5553	0.516524714761989	MGST2;DPM1;HEXA	1.0
+pink	GO:0032370	positive regulation of lipid transport	1	199	21	5553	0.535963037271251	SCP2	1.0
+pink	GO:0008610	lipid biosynthetic process	9	199	251	5553	0.5490698240982	SCP2;ATP1A1;CHPT1;EBP;GGPS1;DPM1;ACAT1;CRLS1;SOCS2	1.0
+pink	GO:0009247	glycolipid biosynthetic process	1	199	23	5553	0.568750633557049	DPM1	1.0
+pink	GO:0070542	response to fatty acid	1	199	23	5553	0.568750633557049	HES1	1.0
+pink	GO:1901568	fatty acid derivative metabolic process	1	199	25	5553	0.599232366265256	ACAT1	1.0
+pink	GO:1905954	positive regulation of lipid localization	1	199	28	5553	0.640981445489882	SCP2	1.0
+pink	GO:0071396	cellular response to lipid	7	199	212	5553	0.643086878969097	HES1;NDUFA13;CHMP5;ATP1A1;PGRMC2;EGLN2;MAPK3	1.0
+pink	GO:0015908	fatty acid transport	1	199	29	5553	0.653912611525631	LYPLA1	1.0
+pink	GO:0015914	phospholipid transport	1	199	29	5553	0.653912611525631	SCP2	1.0
+pink	GO:0046486	glycerolipid metabolic process	4	199	125	5553	0.661670516733276	CHPT1;DPM1;CRLS1;SOCS2	1.0
+pink	GO:0019216	regulation of lipid metabolic process	3	199	97	5553	0.68215409204246	STUB1;ATP1A1;FMC1	1.0
+pink	GO:0001676	long-chain fatty acid metabolic process	1	199	34	5553	0.711937923032192	SCP2	1.0
+pink	GO:0019915	lipid storage	1	199	35	5553	0.722324651301189	HEXA	1.0
+pink	GO:0006695	cholesterol biosynthetic process	1	199	36	5553	0.732338677106021	EBP	1.0
+pink	GO:0030301	cholesterol transport	1	199	36	5553	0.732338677106021	SCP2	1.0
+pink	GO:0033559	unsaturated fatty acid metabolic process	1	199	37	5553	0.741993308836291	SCP2	1.0
+pink	GO:0032368	regulation of lipid transport	1	199	41	5553	0.777267858791771	SCP2	1.0
+pink	GO:1905952	regulation of lipid localization	1	199	51	5553	0.845845571429434	SCP2	1.0
+pink	GO:0046467	membrane lipid biosynthetic process	1	199	52	5553	0.851421131459521	DPM1	1.0
+pink	GO:0046890	regulation of lipid biosynthetic process	1	199	54	5553	0.861977388624562	ATP1A1	1.0
+pink	GO:0006665	sphingolipid metabolic process	1	199	55	5553	0.866972205802905	HEXA	1.0
+pink	GO:0010876	lipid localization	3	199	141	5553	0.887361576317511	SCP2;LYPLA1;HEXA	1.0
+pink	GO:0008203	cholesterol metabolic process	1	199	60	5553	0.889373638471468	EBP	1.0
+pink	GO:0006869	lipid transport	2	199	117	5553	0.927285924170692	SCP2;LYPLA1	1.0
+pink	GO:0000038	very long-chain fatty acid metabolic process	0	199	14	5553	1.0		1.0
+pink	GO:0006418	tRNA aminoacylation for protein translation	0	199	24	5553	1.0		1.0
+pink	GO:0006633	fatty acid biosynthetic process	0	199	57	5553	1.0		1.0
+pink	GO:0006636	unsaturated fatty acid biosynthetic process	0	199	17	5553	1.0		1.0
+pink	GO:0006638	neutral lipid metabolic process	0	199	42	5553	1.0		1.0
+pink	GO:0006639	acylglycerol metabolic process	0	199	42	5553	1.0		1.0
+pink	GO:0010883	regulation of lipid storage	0	199	16	5553	1.0		1.0
+pink	GO:0015909	long-chain fatty acid transport	0	199	18	5553	1.0		1.0
+pink	GO:0019217	regulation of fatty acid metabolic process	0	199	29	5553	1.0		1.0
+pink	GO:0030148	sphingolipid biosynthetic process	0	199	34	5553	1.0		1.0
+pink	GO:0032369	negative regulation of lipid transport	0	199	12	5553	1.0		1.0
+pink	GO:0033344	cholesterol efflux	0	199	15	5553	1.0		1.0
+pink	GO:0034204	lipid translocation	0	199	10	5553	1.0		1.0
+pink	GO:0034389	lipid droplet organization	0	199	21	5553	1.0		1.0
+pink	GO:0035336	long-chain fatty-acyl-CoA metabolic process	0	199	10	5553	1.0		1.0
+pink	GO:0042304	regulation of fatty acid biosynthetic process	0	199	17	5553	1.0		1.0
+pink	GO:0042632	cholesterol homeostasis	0	199	26	5553	1.0		1.0
+pink	GO:0043039	tRNA aminoacylation	0	199	25	5553	1.0		1.0
+pink	GO:0045332	phospholipid translocation	0	199	10	5553	1.0		1.0
+pink	GO:0045834	positive regulation of lipid metabolic process	0	199	36	5553	1.0		1.0
+pink	GO:0045922	negative regulation of fatty acid metabolic process	0	199	10	5553	1.0		1.0
+pink	GO:0045923	positive regulation of fatty acid metabolic process	0	199	10	5553	1.0		1.0
+pink	GO:0046460	neutral lipid biosynthetic process	0	199	15	5553	1.0		1.0
+pink	GO:0046461	neutral lipid catabolic process	0	199	10	5553	1.0		1.0
+pink	GO:0046463	acylglycerol biosynthetic process	0	199	15	5553	1.0		1.0
+pink	GO:0046464	acylglycerol catabolic process	0	199	10	5553	1.0		1.0
+pink	GO:0046503	glycerolipid catabolic process	0	199	17	5553	1.0		1.0
+pink	GO:0046889	positive regulation of lipid biosynthetic process	0	199	27	5553	1.0		1.0
+pink	GO:0055088	lipid homeostasis	0	199	52	5553	1.0		1.0
+pink	GO:0071825	protein-lipid complex organization	0	199	10	5553	1.0		1.0
+pink	GO:0090181	regulation of cholesterol metabolic process	0	199	14	5553	1.0		1.0
+pink	GO:0097035	regulation of membrane lipid distribution	0	199	12	5553	1.0		1.0
+pink	GO:0120009	intermembrane lipid transfer	0	199	15	5553	1.0		1.0
+pink	GO:0140353	lipid export from cell	0	199	12	5553	1.0		1.0
+pink	GO:0140354	lipid import into cell	0	199	10	5553	1.0		1.0
+pink	GO:1903725	regulation of phospholipid metabolic process	0	199	11	5553	1.0		1.0
+pink	GO:1905953	negative regulation of lipid localization	0	199	17	5553	1.0		1.0
+pink	GO:2000191	regulation of fatty acid transport	0	199	10	5553	1.0		1.0

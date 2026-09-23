@@ -1,0 +1,2 @@
+config	power	deepSplit	mergeCutHeight	minModuleSize	modules	grey_genes	input_genes	baseline_exact_labels
+power10	10	2	0.25	30	16	1254	6000	NA

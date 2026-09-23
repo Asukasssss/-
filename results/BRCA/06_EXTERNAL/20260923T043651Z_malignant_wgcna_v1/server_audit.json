@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "cohort": "Wu2021",
+      "donors": 20,
+      "metacells": 160,
+      "genes": 6000,
+      "cells": 2400,
+      "zero_overlap": true,
+      "exactly_15_cells_per_metacell": true,
+      "eight_metacells_per_donor": true,
+      "unique_donor_per_metacell": true,
+      "finite_expression": true
+    },
+    {
+      "cohort": "Pal2021_reprocessed",
+      "donors": 32,
+      "metacells": 256,
+      "genes": 5992,
+      "cells": 3840,
+      "zero_overlap": true,
+      "exactly_15_cells_per_metacell": true,
+      "eight_metacells_per_donor": true,
+      "unique_donor_per_metacell": true,
+      "finite_expression": true
+    }
+  ],
+  "source_identity": "publisher labels;no new genotype audit",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1",
+    "sklearn": "1.3.2",
+    "h5py": "3.11.0"
+  }
+}

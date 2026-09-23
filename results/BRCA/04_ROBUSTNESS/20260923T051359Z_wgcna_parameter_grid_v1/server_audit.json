@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "config": "baseline",
+      "genes": 6000,
+      "grey": 2003,
+      "modules": 17
+    },
+    {
+      "config": "power10",
+      "genes": 6000,
+      "grey": 1254,
+      "modules": 16
+    },
+    {
+      "config": "power14",
+      "genes": 6000,
+      "grey": 3317,
+      "modules": 15
+    },
+    {
+      "config": "split1",
+      "genes": 6000,
+      "grey": 2092,
+      "modules": 15
+    },
+    {
+      "config": "split3",
+      "genes": 6000,
+      "grey": 1862,
+      "modules": 20
+    },
+    {
+      "config": "merge015",
+      "genes": 6000,
+      "grey": 2003,
+      "modules": 17
+    },
+    {
+      "config": "merge035",
+      "genes": 6000,
+      "grey": 2003,
+      "modules": 10
+    },
+    {
+      "config": "min60",
+      "genes": 6000,
+      "grey": 2244,
+      "modules": 13
+    }
+  ],
+  "source_matrices_not_exported": true
+}

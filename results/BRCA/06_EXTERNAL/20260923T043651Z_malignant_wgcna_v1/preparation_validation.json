@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "zero_overlap": true,
+  "equal_metacells_per_donor": 8,
+  "all_raw_data_remain_server": true
+}

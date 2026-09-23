@@ -1,0 +1,9 @@
+config	power	deepSplit	mergeCutHeight	minModuleSize
+baseline	12	2	0.25	30
+power10	10	2	0.25	30
+power14	14	2	0.25	30
+split1	12	1	0.25	30
+split3	12	3	0.25	30
+merge015	12	2	0.15	30
+merge035	12	2	0.35	30
+min60	12	2	0.25	60

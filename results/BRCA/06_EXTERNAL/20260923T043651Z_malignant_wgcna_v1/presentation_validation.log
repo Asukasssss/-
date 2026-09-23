@@ -1,0 +1,79 @@
+{
+  "LYPLA1": [
+    {
+      "gene": "LYPLA1",
+      "module": "pink",
+      "kME": 0.497392237625962,
+      "rank_in_module": 127.0,
+      "Pal_kME": 0.498227272240242
+    }
+  ],
+  "module_size": 213,
+  "GO_q05": 48,
+  "top_GO": [
+    {
+      "description": "purine ribonucleoside triphosphate biosynthetic process",
+      "q_all_module_terms": 7.38808788139703e-05
+    },
+    {
+      "description": "proton motive force-driven ATP synthesis",
+      "q_all_module_terms": 7.46157726722208e-05
+    },
+    {
+      "description": "purine nucleoside triphosphate biosynthetic process",
+      "q_all_module_terms": 8.57783433171971e-05
+    },
+    {
+      "description": "ribonucleoside triphosphate biosynthetic process",
+      "q_all_module_terms": 9.89608974703045e-05
+    },
+    {
+      "description": "ATP biosynthetic process",
+      "q_all_module_terms": 0.0001212263228954
+    },
+    {
+      "description": "proton motive force-driven mitochondrial ATP synthesis",
+      "q_all_module_terms": 0.0001317530220661
+    },
+    {
+      "description": "nucleoside triphosphate biosynthetic process",
+      "q_all_module_terms": 0.0002348459319123
+    },
+    {
+      "description": "ribonucleotide biosynthetic process",
+      "q_all_module_terms": 0.0002533497751501
+    }
+  ],
+  "preservation": [
+    {
+      "module": "pink",
+      "moduleSize": 212,
+      "Zsummary.pres": 1.32053024543213,
+      "Zdensity.pres": 0.997176730286902,
+      "Zconnectivity.pres": 1.64388376057737,
+      "Z.propVarExplained.pres": -0.591507758912754,
+      "Z.meanSignAwareKME.pres": 2.08630997031244,
+      "Z.meanSignAwareCorDat.pres": 2.0775986231657,
+      "Z.meanAdj.pres": -0.083245162591898,
+      "Z.meanMAR.pres": 0.0353308883311636,
+      "Z.bicor.kIM": -0.554732566182874,
+      "Z.bicor.kME": 1.64388376057737,
+      "Z.bicor.kMEall": 21.1068817849558,
+      "Z.bicor.bicor": 6.09233578442336,
+      "Z.bicor.MAR": -0.722402789353956
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "delivery_status": "DONE",
+    "preservation_completed": true,
+    "gene_unique": true,
+    "module_counts_sum": 6000,
+    "BH_max_absolute_error": 1.058875209736243e-14,
+    "zero_metacell_cell_overlap": true,
+    "equal_metacells_per_donor": 8,
+    "source_matrices_recomputed_locally": false,
+    "full_network_leave_one_out": "NOT_RUN",
+    "causal_validation": "NOT_RUN"
+  }
+}

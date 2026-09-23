@@ -1,0 +1,18 @@
+{
+  "version": "wgcna_parameter_grid_v1",
+  "baseline_run": "20260923T043651Z_malignant_wgcna_v1",
+  "frozen_at_utc": "2026-09-23T05:15:18.008179",
+  "purpose": "bounded one-factor sensitivity,not optimize target ranks",
+  "input": "identical frozen Wu 6000 genes and 160 metacells;Pal fixed overlap",
+  "gene_scope": "all 20 choline_ethanolamine topic genes,including missing/unassigned",
+  "correlation": "signed bicor,maxPOutliers=.05,pearsonFallback=individual",
+  "seed": 20260923,
+  "primary_model": "baseline retained regardless of rank",
+  "reporting": "all 8 configurations,all genes and all modules;rank_fraction=rank/module_size;Jaccard to baseline;external fixed-module Pal kME",
+  "ranking_cutoffs": {
+    "top10_percent": 0.1,
+    "top20_percent": 0.2
+  },
+  "inference": "no new P/q;best rank is post-selection descriptive only;no causal hub claims",
+  "scope_limit": "does not vary metacell sampling,gene set or normalization;no exhaustive tuning"
+}

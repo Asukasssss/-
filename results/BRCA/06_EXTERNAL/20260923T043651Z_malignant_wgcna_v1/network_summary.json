@@ -1,0 +1,11 @@
+{
+  "WGCNA": "1.74",
+  "R": "R version 4.3.3 (2024-02-29)",
+  "power": 12,
+  "power_fallback": false,
+  "network_genes": 6000,
+  "Wu_metacells": 160,
+  "Pal_metacells": 256,
+  "modules_excluding_grey": 17,
+  "LYPLA1_module": "pink"
+}

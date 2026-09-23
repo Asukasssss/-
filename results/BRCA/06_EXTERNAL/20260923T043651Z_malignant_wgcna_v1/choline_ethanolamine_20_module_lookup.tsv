@@ -1,0 +1,21 @@
+gene	module	kME	rank_in_module	Pal_kME	eligible	detection	donors_detected	network_selected	status	reason
+ABHD12	black	0.525408427560097	90.0	0.378114288682362	True	0.3889298892989271	20	True	DONE	
+CEPT1					True	0.152103321033212	20	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+CHKA	blue	0.334987641180288	564.0	0.214157090585479	True	0.1667896678966827	20	True	DONE	
+CHKB					True	0.0688560885608865	20	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+CHPT1	pink	0.527192372868939	107.0	0.115198743568649	True	0.4170479704797428	20	True	DONE	
+ENPP2					False	0.0206642066420663	14	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+ETNK1	yellow	0.388863531916054	276.0	0.176446140580005	True	0.3691512915129465	20	True	DONE	
+ETNK2					True	0.1267158671586698	19	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+GDPD5					False	0.0468634686346869	18	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+GPCPD1	brown	0.501867053909178	194.0	0.190976206768195	True	0.2010332103321117	20	True	DONE	
+LPCAT1					True	0.14339483394834	19	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+LPCAT2					True	0.0899630996309961	19	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+LPCAT3	grey				True	0.3273062730627563	20	True	DONE	
+LPCAT4					True	0.1436162361623622	20	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+LYPLA1	pink	0.497392237625962	127.0	0.498227272240242	True	0.6180811808117848	20	True	DONE	
+LYPLA2	blue	0.501517077762915	261.0	0.31642757387487	True	0.4295940959409991	20	True	DONE	
+PCYT1A					True	0.1633948339483427	20	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+PCYT1B					False	0.0002952029520295	3	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative
+PCYT2	blue	0.376373185096616	504.0	0.377924030520416	True	0.2773431734317532	20	True	DONE	
+SLC22A2					False	0.000590405904059	1	False	NOT_EVALUABLE	did not enter network under common gene filtering/ranking;not biological negative

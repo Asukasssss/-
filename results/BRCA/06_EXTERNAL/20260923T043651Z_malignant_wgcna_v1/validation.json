@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "delivery_status": "DONE",
+  "preservation_completed": true,
+  "gene_unique": true,
+  "module_counts_sum": 6000,
+  "BH_max_absolute_error": 1.058875209736243e-14,
+  "zero_metacell_cell_overlap": true,
+  "equal_metacells_per_donor": 8,
+  "source_matrices_recomputed_locally": false,
+  "full_network_leave_one_out": "NOT_RUN",
+  "causal_validation": "NOT_RUN"
+}

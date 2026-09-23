@@ -1,0 +1,10 @@
+{
+  "reference_donors": 20,
+  "external_donors": 32,
+  "common_genes": 5983,
+  "permutations": 100,
+  "max_module_genes": 1000,
+  "statistical_unit": "donor aggregates",
+  "purpose": "exploratory preservation of metacell-discovered modules across donor-level expression",
+  "not_proof": "not causal or therapeutic validation"
+}

@@ -1,0 +1,10 @@
+{
+  "database_version": "3.18.0",
+  "GO_db_version": "3.18.0",
+  "universe": 5553,
+  "terms": 3736,
+  "module_term_tests": 63512,
+  "family": "all tested non-grey module x GO BP term pairs,including zero overlap",
+  "min_term": 10,
+  "max_term": 500
+}

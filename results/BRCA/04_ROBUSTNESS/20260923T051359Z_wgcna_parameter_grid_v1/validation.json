@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "all_8_configs": true,
+  "topic_rows": 160,
+  "all_gene_rows": 48000,
+  "unique_config_gene": true,
+  "baseline_reproduced_exact_module_labels": true,
+  "no_new_P_q": true,
+  "ranking_not_model_selection": true
+}

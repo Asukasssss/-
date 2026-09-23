@@ -1,0 +1,3 @@
+cohort	total_malignant_cells	source_donors	eligible_donors	candidate_cells	network_cells	metacells	genes	LYPLA1_in_network	cell_overlap
+Wu2021	24489	20	20	13550	2400	160	6000	True	0
+Pal2021_reprocessed	130078	33	32	30244	3840	256	5992	True	0

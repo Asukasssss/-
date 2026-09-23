@@ -1,0 +1,6 @@
+R=commandArgs(TRUE)[1];lib=file.path(R,'Rlib');dir.create(lib,showWarnings=FALSE)
+.libPaths(c(lib,.libPaths()));options(repos=c(CRAN='https://cloud.r-project.org'),timeout=300)
+install.packages(c('dynamicTreeCut','fastcluster'),lib=lib,Ncpus=2)
+BiocManager::install(c('impute','preprocessCore'),lib=lib,ask=FALSE,update=FALSE,Ncpus=2)
+install.packages('WGCNA',lib=lib,Ncpus=2)
+stopifnot(requireNamespace('WGCNA',quietly=TRUE))
