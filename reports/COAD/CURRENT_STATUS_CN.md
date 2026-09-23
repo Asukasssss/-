@@ -1,4 +1,8 @@
-# 最新：全候选来源与统一报告已完成
+# 最新：四组关系的证据分层展示已完成
+
+[四组重点报告](../../results/COAD/07_INTEGRATION/20260923T062640Z_four_questions_v1/README_CN.md)与[五基因单细胞表达图](../../results/COAD/07_INTEGRATION/20260923T062640Z_four_questions_v1/focus_source_five_genes.png)使用现有汇总，组织为UCKL1—尿苷、NNMT—1-MNA/SAM、HDC—组胺及GSTA4/CLIC2—GSH四组问题。没有新增患者或单细胞统计，也没有对基因重新排名；当前891条关系仍无q<0.05，旧674条协变量结果仅按旧范围引用。完整候选和历史9/21/5安排保留。
+
+# 全候选来源与统一报告已完成
 
 已按固定交接45c6ae9接续补齐；报告输入固定3c64c24，历史结果保留。
 
