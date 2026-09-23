@@ -1,0 +1,31 @@
+{
+  "method": "per donor/type pseudobulk sum gene counts / sum all-gene library counts * 1e6;ratio of equal-donor mean CPM",
+  "n": 8,
+  "genes": [
+    "ABHD12",
+    "CEPT1",
+    "CHKA",
+    "CHKB",
+    "CHPT1",
+    "ENPP2",
+    "ETNK1",
+    "ETNK2",
+    "GDPD5",
+    "GPCPD1",
+    "LPCAT1",
+    "LPCAT2",
+    "LPCAT3",
+    "LPCAT4",
+    "LYPLA1",
+    "LYPLA2",
+    "PCYT1A",
+    "PCYT1B",
+    "PCYT2",
+    "SLC22A2"
+  ],
+  "new_P_q": 0,
+  "no_pseudocount": true,
+  "prior_p_q": "separate historical columns;test mean cellular log1p10k,not this CPM ratio",
+  "limits": "relative RNA abundance,not absolute RNA molecules,protein,activity or malignant selectivity;cell library-size weights differ from prior logmean estimand",
+  "median_ratio": "secondary;zero reference excluded explicitly"
+}

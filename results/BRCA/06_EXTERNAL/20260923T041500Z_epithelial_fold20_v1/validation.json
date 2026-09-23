@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "same8_donors_per_gene": true,
+  "no_duplicates": true,
+  "min_cells20": true,
+  "new_P_q": 0,
+  "private_export": false
+}
