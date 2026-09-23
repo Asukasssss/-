@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope20": true,
+  "rows": 60,
+  "duplicate_donor_gene_type": false,
+  "exact_p_scipy_checks": 36,
+  "min_cells": 20,
+  "private_measurements_exported": false,
+  "source_profile_checksums": true,
+  "patient_identity_reverified": false,
+  "source_matrix_reread": false,
+  "visual_review": "PASS; adjusted bottom margin after PNG inspection",
+  "BH20_independently_rechecked": true,
+  "direction_counts_checked": true,
+  "main_p_lt_005": 5,
+  "main_q_lt_005": 0
+}
