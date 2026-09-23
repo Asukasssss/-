@@ -1,0 +1,24 @@
+{
+  "features": 22,
+  "relations": 41,
+  "genes": 20,
+  "association_rows": 82,
+  "sc_rows": 380,
+  "visual_review": "PASS: all three PNG panels inspected for labels and layout",
+  "new_P_q": 0,
+  "checks": {
+    "metabolites44": "EXACT_FROZEN_VALUES_PASS",
+    "relations41_history": "EXACT_FROZEN_VALUES_PASS",
+    "CAMP_associations82": "EXACT_FROZEN_VALUES_PASS",
+    "RNA20": "EXACT_FROZEN_VALUES_PASS",
+    "source_status": "EXACT_FROZEN_VALUES_PASS",
+    "single_cell_and_history": "EXACT_FROZEN_VALUES_PASS",
+    "summary_join": "PASS",
+    "workbook_pdf_and_LPC16_coverage": "PASS"
+  },
+  "patient_matrix_reanalysis": false,
+  "CAMP_evaluable_by_family": {
+    "available_Spearman262": 34,
+    "processed_Spearman262": 34
+  }
+}

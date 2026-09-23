@@ -1,0 +1,23 @@
+order	metabolite_name	display_label	group	metabolite_key	direct_relation_count
+1	choline	胆碱	胆碱乙醇胺小分子	KEGG:C00114	5
+2	phosphocholine	磷酸胆碱	胆碱乙醇胺小分子	KEGG:C00588	0
+3	cytidine 5'-diphosphocholine	CDP-胆碱	胆碱乙醇胺小分子	KEGG:C00307	4
+4	glycerophosphorylcholine (GPC)	游离GPC	胆碱乙醇胺小分子	KEGG:C00670	4
+5	ethanolamine	乙醇胺	胆碱乙醇胺小分子	KEGG:C00189	4
+6	phosphoethanolamine	磷酸乙醇胺	胆碱乙醇胺小分子	KEGG:C00346	5
+7	1-palmitoyl-GPC (16:0)	1-palmitoyl-GPC 16:0	具体LPC	KEGG:C04102	7
+8	2-palmitoyl-GPC (16:0)	2-palmitoyl-GPC 16:0	具体LPC	HMDB:HMDB61702	1
+9	1-stearoyl-GPC (18:0)	1-stearoyl-GPC 18:0	具体LPC	HMDB:HMDB10384	5
+10	1-oleoylglycerophosphocholine	1-oleoyl-GPC 18:1	具体LPC	KEGG:C03916	5
+11	2-oleoylglycerophosphocholine	2-oleoyl-GPC 18:1	具体LPC	NAME:2-oleoylglycerophosphocholine	0
+12	1-linoleoyl-GPC (18:2)	1-linoleoyl-GPC 18:2	具体LPC	KEGG:C04100	0
+13	2-linoleoylglycerophosphocholine	2-linoleoyl-GPC 18:2	具体LPC	NAME:2-linoleoylglycerophosphocholine	0
+14	2-arachidonoylglycerophosphocholine	2-arachidonoyl-GPC 20:4	具体LPC	NAME:2-arachidonoylglycerophosphocholine	0
+15	2-palmitoleoyl-GPC (16:1)	2-palmitoleoyl-GPC 16:1	具体LPC	HMDB:HMDB10383	0
+16	1-arachidonoyl-GPE (20:4n6)	1-arachidonoyl-GPE 20:4	乙醇胺相关脂质	HMDB:HMDB11517	0
+17	1-stearoylglycerophosphoethanolamine	1-stearoyl-GPE 18:0	乙醇胺相关脂质	HMDB:HMDB11130	0
+18	2-arachidonoylglycerophosphoethanolamine	2-arachidonoyl-GPE 20:4	乙醇胺相关脂质	NAME:2-arachidonoylglycerophosphoethanolamine	0
+19	2-docosahexaenoylglycerophosphoethanolamine	2-docosahexaenoyl-GPE 22:6	乙醇胺相关脂质	NAME:2-docosahexaenoylglycerophosphoethanolamine	0
+20	2-linoleoylglycerophosphoethanolamine	2-linoleoyl-GPE 18:2	乙醇胺相关脂质	NAME:2-linoleoylglycerophosphoethanolamine	0
+21	2-oleoylglycerophosphoethanolamine	2-oleoyl-GPE 18:1	乙醇胺相关脂质	NAME:2-oleoylglycerophosphoethanolamine	1
+22	1-palmitoylplasmenylethanolamine	1-palmitoylplasmenylethanolamine	乙醇胺相关脂质	NAME:1-palmitoylplasmenylethanolamine	0

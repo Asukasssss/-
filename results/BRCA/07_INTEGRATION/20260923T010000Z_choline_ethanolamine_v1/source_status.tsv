@@ -1,0 +1,41 @@
+gene	cohort	source_status	reason	display_top	mechanical_top	top_n	top_detection	bootstrap
+CEPT1	Wu2021	DONE	NA	B_cells	B_cells	20	0.08120934984430635	0.946
+CHKA	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.20915045892899614	0.905
+CHKB	Wu2021	DONE	NA	Fibroblasts	Fibroblasts	23	0.0830120666502571	0.833
+CHPT1	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.45044259361814865	0.996
+ETNK1	Wu2021	DONE	NA	Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.3576991814771576	0.611
+ETNK2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.11918172112648087	0.902
+GDPD5	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.0648705901083636	0.935
+GPCPD1	Wu2021	DONE	NA	Myeloid	Myeloid	26	0.2711731456654018	0.998
+PCYT1A	Wu2021	DONE	NA	Endothelial	Endothelial	24	0.12231150316964283	0.854
+PCYT1B	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Nonmalignant_epithelial	10	0.005182984123908408	NA
+PCYT2	Wu2021	DONE	NA	Malignant_epithelial	Malignant_epithelial	20	0.24641499391233546	0.998
+CEPT1	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.07953414103276377	0.721
+CHKA	Pal2021_reprocessed	DONE	NA	Mast_cells	Mast_cells	12	0.039814390917028805	0.447
+CHKB	Pal2021_reprocessed	DONE	NA	Fibroblasts	Fibroblasts	30	0.028556890670259374	0.567
+CHPT1	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.30372043883225386	1.0
+ETNK1	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.1220671235418073	0.774
+ETNK2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.08934752286807657	1.0
+GDPD5	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.05308516652857115	0.999
+GPCPD1	Pal2021_reprocessed	DONE	NA	Myeloid	Myeloid	30	0.16136437726453365	0.996
+PCYT1A	Pal2021_reprocessed	DONE	NA	Endothelial	Endothelial	23	0.09327181623835774	0.934
+PCYT1B	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Fibroblasts	30	0.000981351263564329	NA
+PCYT2	Pal2021_reprocessed	DONE	NA	Malignant_epithelial	Malignant_epithelial	33	0.11297084774900562	0.997
+ABHD12	Wu2021	DONE		Myeloid	Myeloid	26	0.3650958058389028	1.0
+ENPP2	Wu2021	DONE		Endothelial	Endothelial	24	0.2899376535963007	1.0
+LPCAT1	Wu2021	DONE		Myeloid	Myeloid	26	0.11586232405889303	0.853
+LPCAT2	Wu2021	DONE		Myeloid	Myeloid	26	0.27291867723581037	0.931
+LPCAT3	Wu2021	DONE		Nonmalignant_epithelial	Nonmalignant_epithelial	10	0.3003918894827421	0.7
+LPCAT4	Wu2021	DONE		Endothelial	Endothelial	24	0.22856766221082636	1.0
+LYPLA1	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.6060192987299409	1.0
+LYPLA2	Wu2021	DONE		Malignant_epithelial	Malignant_epithelial	20	0.4157441859752439	1.0
+SLC22A2	Wu2021	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Perivascular	24	0.0006621103708613322	NA
+ABHD12	Pal2021_reprocessed	DONE		Myeloid	Myeloid	30	0.1929072555594944	1.0
+ENPP2	Pal2021_reprocessed	DONE		Endothelial	Endothelial	23	0.14891889960381532	1.0
+LPCAT1	Pal2021_reprocessed	DONE		Endothelial	Endothelial	23	0.07512762736120684	0.79
+LPCAT2	Pal2021_reprocessed	DONE		Mast_cells	Mast_cells	12	0.14578204408603065	0.992
+LPCAT3	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.1243857406821653	0.999
+LPCAT4	Pal2021_reprocessed	DONE		Endothelial	Endothelial	23	0.07070519953044238	0.999
+LYPLA1	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.41780489889559347	1.0
+LYPLA2	Pal2021_reprocessed	DONE		Malignant_epithelial	Malignant_epithelial	33	0.20347354508123644	0.996
+SLC22A2	Pal2021_reprocessed	NOT_EVALUABLE	low_detection_or_fewer_than_two_covered_lineages	暂不可定位	Perivascular	15	0.0009389939622497761	NA
