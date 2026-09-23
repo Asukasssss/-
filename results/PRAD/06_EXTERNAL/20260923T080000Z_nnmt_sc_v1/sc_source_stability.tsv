@@ -1,0 +1,3 @@
+gene	stable_gene_id	partition	top_celltype	runner_celltype	top_gap	bootstrap_top_frequency	bootstrap_valid	n_eligible_celltypes	status	reason
+NNMT	ENSG00000166741	adj_benign	Endothelial	CAFs	0.24747006793816895	0.935	1000	10	DONE	descriptive_only
+NNMT	ENSG00000166741	cancer	Endothelial	CAFs	0.027903136114279414	0.637	1000	10	DONE	descriptive_only

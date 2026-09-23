@@ -1,0 +1,14 @@
+celltype_major_v2	malignant_anno_merged	source_celltype	annotation_origin
+CAFs	not_applicable	CAFs	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+SMCs	not_applicable	SMCs	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+Epithelial	altered_benign	Epithelial_altered_benign	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+Epithelial	malignant	Epithelial_malignant	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+Epithelial	normal	Epithelial_normal	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+T-cells	not_applicable	T-cells	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+Myeloid	not_applicable	Myeloid	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+B-cells	not_applicable	B-cells	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+PNS_glial	not_applicable	PNS_glial	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+Cycling	not_applicable	Cycling	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+Endothelial	not_applicable	Endothelial	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+Plasma_cells	not_applicable	Plasma_cells	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering
+Unassigned	not_applicable	Unassigned	Depositor author-v2 annotation via CELLxGENE; no inference/reclustering

@@ -1,0 +1,19 @@
+{
+  "status": "DONE",
+  "input_cells": 68322,
+  "primary_cancer_cells": 39755,
+  "cancer_donors": 24,
+  "all_candidate_genes": 1,
+  "measured_genes": 1,
+  "missing_genes": [],
+  "primary_source_rank_evaluable": 1,
+  "raw_integer_count_error": 0.0,
+  "full_gene_denominator": 32397,
+  "donor_equal": true,
+  "new_clustering": false,
+  "new_UMAP": false,
+  "second_independent_tumor_study_completed": false,
+  "independent_aggregation_max_error": 8.326672684688674e-17,
+  "target": "NNMT",
+  "target_ensembl": "ENSG00000166741"
+}

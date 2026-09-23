@@ -1,0 +1,4 @@
+source_id	status	role	cells	cancer_cells	cancer_donors	source_url	limitation
+PRAD24_Apostolov_CELLxGENE	DONE	single_study_cell_expression_context	68322.0	39755.0	24.0	https://cellxgene.cziscience.com/collections/bdac7a53-fe34-4f04-8c46-f9bd5297c099	Collection links GSE145843, which describes normal prostate elsewhere; do not adopt that accession. Use exact CELLxGENE dataset version and matching embedded title/citation; accession reconciliation pending
+GSE141445	NEEDS_REVIEW	second_tumor_study_candidate	NA	NA	NA	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141445	Processed expression archive available;author cell annotation and donor identity alignment not yet established;not analyzed
+TISCH2_PRAD	ACCESS_BLOCKED	possible_second_study_annotation	NA	NA	NA	https://tisch.compbio.cn/gallery/?cancer=PRAD&species=Human	Both local proxy and server HTTP endpoints timed out;no downloaded expression/annotation
