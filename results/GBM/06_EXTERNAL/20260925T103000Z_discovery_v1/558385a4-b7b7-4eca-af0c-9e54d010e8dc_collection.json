@@ -1,0 +1,260 @@
+{
+  "collection_id": "558385a4-b7b7-4eca-af0c-9e54d010e8dc",
+  "collection_url": "https://cellxgene.cziscience.com/collections/558385a4-b7b7-4eca-af0c-9e54d010e8dc",
+  "collection_version_id": "e16d0839-dd01-43ca-9d66-9b0101248124",
+  "consortia": [],
+  "contact_email": "spyros.darmanis@gmail.com",
+  "contact_name": "Spyros Darmanis",
+  "created_at": "2026-06-09T22:39:06+00:00",
+  "curator_name": "Jennifer Yu-Sheng Chien",
+  "datasets": [
+    {
+      "assay": [
+        {
+          "label": "Smart-seq2",
+          "ontology_term_id": "EFO:0008931"
+        }
+      ],
+      "assets": [
+        {
+          "filesize": 32960812,
+          "filetype": "H5AD",
+          "url": "https://datasets.cellxgene.cziscience.com/2e357b12-781b-4c90-9321-30206529cc4a.h5ad"
+        }
+      ],
+      "cell_count": 3589,
+      "cell_type": [
+        {
+          "label": "astrocyte",
+          "ontology_term_id": "CL:0000127"
+        },
+        {
+          "label": "myeloid cell",
+          "ontology_term_id": "CL:0000763"
+        },
+        {
+          "label": "neoplastic cell",
+          "ontology_term_id": "CL:0001063"
+        },
+        {
+          "label": "neuron",
+          "ontology_term_id": "CL:0000540"
+        },
+        {
+          "label": "oligodendrocyte",
+          "ontology_term_id": "CL:0000128"
+        },
+        {
+          "label": "oligodendrocyte precursor cell",
+          "ontology_term_id": "CL:0002453"
+        },
+        {
+          "label": "vascular lymphangioblast",
+          "ontology_term_id": "CL:0005022"
+        }
+      ],
+      "citation": "Publication: https://doi.org/10.1016/j.celrep.2017.10.030 Dataset Version: https://datasets.cellxgene.cziscience.com/2e357b12-781b-4c90-9321-30206529cc4a.h5ad curated and distributed by CZ CELLxGENE Discover in Collection: https://cellxgene.cziscience.com/collections/558385a4-b7b7-4eca-af0c-9e54d010e8dc",
+      "dataset_id": "774c18c5-efa1-4dc5-9e5e-2c824bab2e34",
+      "dataset_version_id": "2e357b12-781b-4c90-9321-30206529cc4a",
+      "development_stage": [
+        {
+          "label": "48-year-old stage",
+          "ontology_term_id": "HsapDv:0000142"
+        },
+        {
+          "label": "54-year-old stage",
+          "ontology_term_id": "HsapDv:0000148"
+        },
+        {
+          "label": "55-year-old stage",
+          "ontology_term_id": "HsapDv:0000149"
+        },
+        {
+          "label": "60-year-old stage",
+          "ontology_term_id": "HsapDv:0000154"
+        }
+      ],
+      "disease": [
+        {
+          "label": "glioblastoma",
+          "ontology_term_id": "MONDO:0018177"
+        }
+      ],
+      "donor_id": [
+        "BT_S2",
+        "BT_S1",
+        "BT_S4",
+        "BT_S6"
+      ],
+      "embeddings": [
+        "X_tsne"
+      ],
+      "explorer_url": "https://cellxgene.cziscience.com/e/774c18c5-efa1-4dc5-9e5e-2c824bab2e34.cxg/",
+      "feature_biotype": [
+        "gene"
+      ],
+      "feature_count": 22124,
+      "feature_reference": [
+        "NCBITaxon:9606"
+      ],
+      "genetic_perturbation_strategy": null,
+      "is_pre_analysis": false,
+      "is_primary_data": [
+        true
+      ],
+      "mean_genes_per_cell": 2509.505990526609,
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "ontology_term_id": "NCBITaxon:9606"
+        }
+      ],
+      "perturbation_types": null,
+      "primary_cell_count": 3589,
+      "published_at": "2021-03-16T21:53:17+00:00",
+      "raw_data_location": "X",
+      "revised_at": "2026-06-11T16:52:47+00:00",
+      "schema_version": "7.1.0",
+      "self_reported_ethnicity": [
+        {
+          "label": "unknown",
+          "ontology_term_id": "unknown"
+        }
+      ],
+      "sex": [
+        {
+          "label": "unknown",
+          "ontology_term_id": "unknown"
+        }
+      ],
+      "spatial": null,
+      "suspension_type": [
+        "cell"
+      ],
+      "tissue": [
+        {
+          "label": "cerebral cortex",
+          "ontology_term_id": "UBERON:0000956",
+          "tissue_type": "tissue"
+        }
+      ],
+      "title": "Infiltrating Neoplastic Cells Human Glioblastoma",
+      "tombstone": false,
+      "x_approximate_distribution": null
+    }
+  ],
+  "description": "Glioblastoma (GBM) is the most common primary brain cancer in adults and is notoriously difficult to treat because of its diffuse nature. We performed single-cell RNA sequencing (RNA-seq) on 3,589 cells in a cohort of four patients. We obtained cells from the tumor core as well as surrounding peripheral tissue. Our analysis revealed cellular variation in the tumor's genome and transcriptome. We were also able to identify infiltrating neoplastic cells in regions peripheral to the core lesions. Despite the existence of significant heterogeneity among neoplastic cells, we found that infiltrating GBM cells share a consistent gene signature between patients, suggesting a common mechanism of infiltration. Additionally, in investigating the immunological response to the tumors, we found transcriptionally distinct myeloid cell populations residing in the tumor core and the surrounding peritumoral space. Our data provide a detailed dissection of GBM cell types, revealing an abundance of information about tumor formation and migration.",
+  "doi": "10.1016/j.celrep.2017.10.030",
+  "is_pre_analysis": false,
+  "links": [
+    {
+      "link_name": "",
+      "link_type": "OTHER",
+      "link_url": "https://cells.ucsc.edu/?ds=quake-gbm"
+    },
+    {
+      "link_name": "",
+      "link_type": "RAW_DATA",
+      "link_url": "https://explore.data.humancellatlas.org/projects/2d846095-8a33-4f3c-97d4-585bafac13b4"
+    },
+    {
+      "link_name": "",
+      "link_type": "RAW_DATA",
+      "link_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84465"
+    },
+    {
+      "link_name": "",
+      "link_type": "OTHER",
+      "link_url": "http://gbmseq.org/"
+    },
+    {
+      "link_name": "",
+      "link_type": "OTHER",
+      "link_url": "https://www.ebi.ac.uk/gxa/sc/experiments/E-GEOD-84465"
+    }
+  ],
+  "name": "Single-Cell RNAseq analysis of diffuse neoplastic infiltrating cells at the migrating front of human glioblastoma",
+  "published_at": "2021-03-16T21:25:56+00:00",
+  "publisher_metadata": {
+    "authors": [
+      {
+        "family": "Darmanis",
+        "given": "Spyros"
+      },
+      {
+        "family": "Sloan",
+        "given": "Steven A."
+      },
+      {
+        "family": "Croote",
+        "given": "Derek"
+      },
+      {
+        "family": "Mignardi",
+        "given": "Marco"
+      },
+      {
+        "family": "Chernikova",
+        "given": "Sophia"
+      },
+      {
+        "family": "Samghababi",
+        "given": "Peyman"
+      },
+      {
+        "family": "Zhang",
+        "given": "Ye"
+      },
+      {
+        "family": "Neff",
+        "given": "Norma"
+      },
+      {
+        "family": "Kowarsky",
+        "given": "Mark"
+      },
+      {
+        "family": "Caneda",
+        "given": "Christine"
+      },
+      {
+        "family": "Li",
+        "given": "Gordon"
+      },
+      {
+        "family": "Chang",
+        "given": "Steven D."
+      },
+      {
+        "family": "Connolly",
+        "given": "Ian David"
+      },
+      {
+        "family": "Li",
+        "given": "Yingmei"
+      },
+      {
+        "family": "Barres",
+        "given": "Ben A."
+      },
+      {
+        "family": "Gephart",
+        "given": "Melanie Hayden"
+      },
+      {
+        "family": "Quake",
+        "given": "Stephen R."
+      }
+    ],
+    "is_preprint": false,
+    "journal": "Cell Reports",
+    "published_at": 1506816000.0,
+    "published_day": 1,
+    "published_month": 10,
+    "published_year": 2017
+  },
+  "revised_at": "2026-06-11T16:52:47+00:00",
+  "revising_in": null,
+  "revision_of": null,
+  "visibility": "PUBLIC"
+}

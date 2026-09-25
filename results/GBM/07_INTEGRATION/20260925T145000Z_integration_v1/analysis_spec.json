@@ -1,0 +1,11 @@
+{
+  "version": "gbm_integration_v1",
+  "joins": "exact feature_id+stable_gene_id;RNA/cell source gene one-to-one;no best P selection",
+  "code_commit": "2ee19f6c1e1568d704340ca9785f04c659f5ac40",
+  "new_statistics": false,
+  "figures": "all142 cell-source dotplots and heatmap;nominal14 association view explicitly not FDR",
+  "public_run_label_note": "server computation root retains discovery run ID;identity v2 delivery directory identifies revision batch",
+  "code_sha256": "d719579fca57550f6fc8e42471c3fa10ca745da92c8e772ab9428c09412488cf",
+  "runtime_used": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "runtime_note": "bundled Python inspected;matplotlib unavailable there;used existing verified Python310 with matplotlib/openpyxl"
+}

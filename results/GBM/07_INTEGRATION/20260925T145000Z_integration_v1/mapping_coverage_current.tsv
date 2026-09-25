@@ -1,0 +1,481 @@
+feature_id	metabolite_key	metabolite_name	n_direct_relations	status	reason
+GBM_FEATURE:068b02a1d3375ba5	KEGG:C02630	2-hydroxyglutarate	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:366993077ce453b4	KEGG:C00187	cholesterol	3	DONE	exact reviewed evidence reused
+GBM_FEATURE:3373c499464b3190	KEGG:C00158	citrate	12	DONE	exact reviewed evidence reused
+GBM_FEATURE:d11a2e5ffb2b2041	KEGG:C00791	creatinine	4	DONE	exact reviewed evidence reused
+GBM_FEATURE:0e666297b1d455c9	KEGG:C05345	fructose-6-phosphate	5	DONE	exact reviewed evidence reused
+GBM_FEATURE:88a2f109b13da155	KEGG:C00031	glucose	36	DONE	exact reviewed evidence reused
+GBM_FEATURE:98cbba4b871f6811	KEGG:C00956	2-aminoadipate_dupl	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1432b9e82c3172bb	KEGG:C00407	isoleucine	11	DONE	exact reviewed evidence reused
+GBM_FEATURE:1f6edaa42faab4e8	KEGG:C00392	mannitol	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:10511d2fb2642333	KEGG:C06429	docosahexaenoate (DHA; 22:6n3)	4	DONE	exact reviewed evidence reused
+GBM_FEATURE:afe317792d4966b5	KEGG:C00117	ribose 5-phosphate	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e2eddf72c7b0eceb	KEGG:C00199	ribulose 5-phosphate	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:fb407263b2f0840f	KEGG:C00794	sorbitol	1	DONE	exact reviewed evidence reused
+GBM_FEATURE:ebfd8396e9cacde7	KEGG:C00095	fructose	2	DONE	exact reviewed evidence reused
+GBM_FEATURE:42cb5c437c0f3ff2	KEGG:C00258	glycerate	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c9720c72406a9789	KEGG:C00037	glycine	8	DONE	exact reviewed evidence reused
+GBM_FEATURE:5ceab5f097502c1e	HMDB:HMDB02259	heptadecanoic acid	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:169ff670f3c26bd2	KEGG:C00519	hypotaurine	9	DONE	exact reviewed evidence reused
+GBM_FEATURE:b1d6fe29842d33ef	KEGG:C00186	lactate	2	DONE	exact reviewed evidence reused
+GBM_FEATURE:a936c376f6ff5b86	KEGG:C00049	aspartate	4	DONE	exact reviewed evidence reused
+GBM_FEATURE:b1e19189fde23790	KEGG:C00097	cysteine	4	DONE	exact reviewed evidence reused
+GBM_FEATURE:c4f5ae886a6f2e1e	KEGG:C00025	glutamate	13	DONE	exact reviewed evidence reused
+GBM_FEATURE:88d7eb90960abc5a	KEGG:C01595	linoleate (18:2n6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b754e6401a70856c	KEGG:C00123	leucine	25	DONE	exact reviewed evidence reused
+GBM_FEATURE:b235fe32490cda94	KEGG:C00047	lysine	1	DONE	exact reviewed evidence reused
+GBM_FEATURE:a84653a33a951c44	KEGG:C00073	methionine	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c30458d8d2e9ece7	KEGG:C04771	L-mimosine	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3d25af3508933dfb	KEGG:C00065	serine	2	DONE	exact reviewed evidence reused
+GBM_FEATURE:8dcedd5e178723a5	KEGG:C00183	valine	2	DONE	exact reviewed evidence reused
+GBM_FEATURE:6fe63a2a8258d9f8	KEGG:C00208	maltose	1	DONE	exact reviewed evidence reused
+GBM_FEATURE:0e94eba2138ae781	NAME:N-formylglycine	N-formylglycine	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bd5a75b37eeffcbb	KEGG:C00712	oleate (18:1n9)	9	DONE	exact reviewed evidence reused
+GBM_FEATURE:e3c0644ec7af69e1	KEGG:C00249	palmitate (16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5dd1b5920fe050cd	KEGG:C00864	pantothenate (Vitamin B5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9ef462b9d6f0d6bc	HMDB:HMDB0001429	phosphoric acid (spectral match)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:772ed7856c65cf3e	KEGG:C00583	1,2-propanediol	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:368c03edafa119f4	KEGG:C00134	putrescine	9	DONE	exact reviewed evidence reused
+GBM_FEATURE:c95d3fd4b0685964	KEGG:C01530	stearate (18:0)	4	DONE	exact reviewed evidence reused
+GBM_FEATURE:69cdcc7eb4b306e3	KEGG:C00089	sucrose	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9ee20390f3a7ed2a	KEGG:D08601 	timonacic	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f2960ef3ba8d05c4	NAME:Unknown 003	Unknown 003	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:29a3694bf1a97977	NAME:Unknown 004	Unknown 004	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0034560bd95cd948	NAME:Unknown 011	Unknown 011	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:11f0627776235972	NAME:Unknown 012	Unknown 012	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8aa3913da3d520d0	NAME:Unknown 014	Unknown 014	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:61b52b8238a8c355	NAME:Unknown 015	Unknown 015	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ea47f8b6bd42e6dc	NAME:Unknown 020	Unknown 020	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ebe8f638454708db	NAME:Unknown 021	Unknown 021	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:24bef348f62eeeb2	NAME:Unknown 023	Unknown 023	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ee2424d5fa9f23b4	NAME:Unknown 025	Unknown 025	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a9b7b823eb6b9e1f	NAME:Unknown 026	Unknown 026	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:12e2e6ac93e35d35	NAME:Unknown 028	Unknown 028	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:096c3b310f11f8a2	NAME:Unknown 031	Unknown 031	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b3a7e6ba4396125e	NAME:Unknown 032	Unknown 032	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:7e9b803e0729e525	NAME:Unknown 033	Unknown 033	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0a730e1d1a476d5e	NAME:Unknown 034	Unknown 034	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d469d7f5dc8e870e	NAME:Unknown 040	Unknown 040	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8a2af3b7942f3bfa	NAME:Unknown 041	Unknown 041	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:395c684b3d87834f	NAME:Unknown 042	Unknown 042	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c827aec0e1a9b05d	NAME:Unknown 045	Unknown 045	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:46abc0dad66a7313	NAME:Unknown 049	Unknown 049	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:08a7f66b7b458f5b	NAME:Unknown 050	Unknown 050	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f0e389f340df4915	NAME:anandamide(18:1)	anandamide(18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:30949f914cf36823	NAME:carnitine(12:0)	carnitine(12:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:02f6781c423a8b4b	NAME:carnitine(14:0)	carnitine(14:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:826b6886af0bd114	NAME:carnitine(14:1)	carnitine(14:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:eba8c9dac8165085	NAME:carnitine(16:0)	carnitine(16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:406749f550b2d3d5	NAME:carnitine(16:1)	carnitine(16:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ca8fd7f6d13a5edc	KEGG:C14641	CE(18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:cee4c59f633e0393	KEGG:C15441	CE(18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:18796b789097e0b0	NAME:CE(20:2)	CE(20:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3a9783b2f0ee5dd5	KEGG:C02530	CE(20:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:54f5318e7737fe45	KEGG:C02530	CE(20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8d642951c9e3d17f	NAME:CE(22:3)	CE(22:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c20870feeee1ecc6	KEGG:C02530	CE(22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:04c96d3c5692fd81	HMDB:HMDB10374	CE(22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:27c40439ba8f9dca	KEGG:C02530	CE(22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4760f03fbb18a2a7	HMDB:HMDB56009	DG(16:0/0:0/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d3f9c7423db5d276	HMDB:HMDB07103	palmitoyl-linoleoyl-glycerol (16:0/18:2) [1]	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0cf7c2997d885ab7	HMDB:HMDB07110	DG(16:0/20:3/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d4cec206c1c55c1f	HMDB:HMDB07112	palmitoyl-arachidonoyl-glycerol (16:0/20:4) [1]	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ca94937bf8058bca	HMDB:HMDB07159	DG(18:0/18:1/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:16f25f6bfd3f555f	HMDB:HMDB07176	DG(18:0/22:4/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:38c0a8fd832bbce8	HMDB:HMDB07190	DG(18:1/18:2/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:eb7aa01acda60d0a	HMDB:HMDB07638	DG(18:1/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ae1380309387cf24	NAME:HexCer(d18:1/18:0)	HexCer(d18:1/18:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:962bd4add66df85c	NAME:HexCer(d18:1/18:1)	HexCer(d18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2eb6aa2ed3a14d23	NAME:HexCer(d18:1/22:1)	HexCer(d18:1/22:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c32bc1568247f3c2	NAME:HexCer(d18:1/23:0)	HexCer(d18:1/23:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:68377d3f59cc05b6	NAME:HexCer(d18:1/23:1)	HexCer(d18:1/23:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b8bd411ad1476786	NAME:HexCer(d18:1/24:0)	HexCer(d18:1/24:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:fe7e75a60863e472	NAME:HexCer(d18:1/24:1)_A	HexCer(d18:1/24:1)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4f11afa8ace49aec	NAME:HexCer(d18:1/24:1)_B	HexCer(d18:1/24:1)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2f9c26fcb0056c1d	NAME:HexCer(d18:1/24:1)_C	HexCer(d18:1/24:1)_C	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:7d49b84f34551dc2	NAME:HexCer(d18:1/26:0)	HexCer(d18:1/26:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bf691b754032e383	NAME:HexCer(d18:1/26:1)_A	HexCer(d18:1/26:1)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:efd07aea034ccd03	NAME:HexCer(d18:1/26:1)_B	HexCer(d18:1/26:1)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b035459af22f5f01	KEGG:C01290	LacCer(d18:1/24:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9146a48a9b10812a	NAME:PC(0:0/14:0)_A	PC(0:0/14:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3765bc542a7de383	NAME:PC(0:0/14:0)_B	PC(0:0/14:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c7e57de854d39334	NAME:PC(0:0/16:0)_A	PC(0:0/16:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:67eea1557893b90d	NAME:PC(0:0/16:0)_B	PC(0:0/16:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d55d70e9862ceb2a	NAME:PC(0:0/18:0)_B	PC(0:0/18:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a24923defd74a116	NAME:PC(0:0/18:1)_A	PC(0:0/18:1)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3f313e0fb801ba8c	NAME:PC(0:0/18:1)_B	PC(0:0/18:1)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:14d11b39256f5f1d	NAME:PC(0:0/20:4)_A	PC(0:0/20:4)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:68670ba21bd6b5a6	NAME:PC(0:0/20:4)_B	PC(0:0/20:4)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8dbcac70e4037341	KEGG:C00157	PC(14:0/14:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:11b22232062f65be	KEGG:C00157	PC(14:0/15:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2af7b21f369df6a4	HMDB:HMDB07869	1-myristoyl-2-palmitoyl-GPC (14:0/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:af8ae85638a3ac83	NAME:PC(14:0/16:1)_A	PC(14:0/16:1)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d0148435cf0d6da7	NAME:PC(14:0/16:1)_C	PC(14:0/16:1)_C	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f87a7b93589f4215	HMDB:HMDB07883	1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:aa7648174386143b	KEGG:C00157	PC(14:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9f085519e131fff3	KEGG:C00157	PC(14:1/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6b11cc8d3b05d430	NAME:PC(15:0/16:0)_A	PC(15:0/16:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:64f1df67280688ef	NAME:PC(15:0/16:0)_B	PC(15:0/16:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8a9a3b22ed5eadd3	NAME:PC(15:0/16:1)_A	PC(15:0/16:1)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9aa824a58f96cf8d	NAME:PC(15:0/16:1)_B	PC(15:0/16:1)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:eaae41e0e52dfba2	KEGG:C00157	PC(15:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6bef29f95e898c19	KEGG:C00157	PC(15:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5232366bacb42cc0	NAME:PC(16:0/16:0)_A	PC(16:0/16:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ea54e2bab7ca345a	NAME:PC(16:0/16:0)_B	PC(16:0/16:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9ce009c7d03044db	NAME:PC(16:0/16:1)_A;PC(14:0/18:1)	PC(16:0/16:1)_A;PC(14:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f849ac048a0435c2	NAME:PC(16:0/16:1)_B	PC(16:0/16:1)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3840eeb96b95afb3	NAME:PC(16:0/16:1)_C	PC(16:0/16:1)_C	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bcfaf74edfe2e872	NAME:PC(16:0/17:0)	PC(16:0/17:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b2e65c84178348b8	NAME:PC(16:0/17:1);PC(15:0/18:1)	PC(16:0/17:1);PC(15:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4543c8ca47f9230b	KEGG:C03889	1-palmitoyl-2-stearoyl-GPC (16:0/18:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:00c9cd7942b33cc9	KEGG:C00157	PC(16:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ea7feb7138704bd7	NAME:PC(16:0/18:2)_A	PC(16:0/18:2)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2bd58e0f79a7018c	NAME:PC(16:0/18:2)_B	PC(16:0/18:2)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:050298d4b7c11dbf	NAME:PC(16:0/18:3)_A;PC(16:1/18:2)_B	PC(16:0/18:3)_A;PC(16:1/18:2)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c57efc091648d531	NAME:PC(16:0/20:3)_B	PC(16:0/20:3)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1f8ae24ff51cf646	HMDB:HMDB07982	1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:84035457839cea60	NAME:PC(16:0/22:1);PC(18:0/20:1)	PC(16:0/22:1);PC(18:0/20:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b12277e53751928d	KEGG:C00157	PC(16:0/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:625043662f996d08	KEGG:C00157	PC(16:0/22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:dfc7f22d0952f1c3	HMDB:HMDB07991	1-palmitoyl-2-docosahexaenoyl-GPC (16:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6530d019e13f583a	KEGG:C00157	PC(16:0/24:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d4bcf83d3229d522	NAME:PC(16:0/26:0)	PC(16:0/26:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d5b968cb5851a2de	NAME:PC(16:0/26:1);PC(18:1/24:0)	PC(16:0/26:1);PC(18:1/24:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c14c6806090ecce8	NAME:PC(16:1/0:0)_A	PC(16:1/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d8904c4d9e06f1c1	NAME:PC(16:1/0:0)_B	PC(16:1/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:eb7a26814bdf8a1d	NAME:PC(16:1/16:1)_A	PC(16:1/16:1)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:7eaf45b893ef0f72	KEGG:C00157	PC(16:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:931feb674aa414ee	NAME:PC(16:1/20:4)_A	PC(16:1/20:4)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:cda5d2d3d9ea16aa	NAME:PC(16:1/22:6)_A	PC(16:1/22:6)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:484d6389537b5357	NAME:PC(16:1/22:6)_B	PC(16:1/22:6)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:16e85cd3bc22366e	NAME:PC(16:2/16:0)	PC(16:2/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:87d9550b08ed7977	NAME:PC(17:0/0:0)_B	PC(17:0/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8c53fd6c3586aa62	NAME:PC(17:0/18:1)	PC(17:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:004efedea725a1b9	NAME:PC(17:0/20:4)	PC(17:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c6ea73b17ddbccea	NAME:PC(17:0/22:6)	PC(17:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1f038b2e25619ba9	NAME:PC(17:1/0:0)	PC(17:1/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:883a96be4d03b842	KEGG:C00157	PC(17:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e92bb7d771634468	NAME:PC(17:1/20:4)	PC(17:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2831ee10805ee62d	KEGG:C00157	PC(18:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bdd7a0b92e5693db	HMDB:HMDB08039	1-stearoyl-2-linoleoyl-GPC (18:0/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:022c7673faf00f53	NAME:PC(18:0/20:3)_A	PC(18:0/20:3)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9c36353cb703e0bd	NAME:PC(18:0/20:3)_B	PC(18:0/20:3)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:60743f9a5e158809	HMDB:HMDB08048	1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:926ec86efa24031d	KEGG:C00157	PC(18:0/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3ab75b182dbd0881	KEGG:C00157	PC(18:0/22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:80eb32c3400cfe48	HMDB:HMDB08057	1-stearoyl-2-docosahexaenoyl-GPC (18:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:930996b243842d03	HMDB:HMDB62690	PC(18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d27acecf31511609	KEGG:C00157	PC(18:1/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d70a35ffb4dd6e6e	KEGG:C00157	PC(18:1/19:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:dd0016190d563098	KEGG:C00157	PC(18:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:44ee968737189ee9	KEGG:C00157	PC(18:1/22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:fadd7b8677cedaa6	KEGG:C00157	PC(18:1/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:38bfafc6ab7e4a93	NAME:PC(18:1/24:0);PC(16:0/26:1)	PC(18:1/24:0);PC(16:0/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4a7e727fc9d8ab52	NAME:PC(18:1/24:1);PC(16:1/26:1)	PC(18:1/24:1);PC(16:1/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:98b585743a0a55e7	NAME:PC(18:1/26:0)	PC(18:1/26:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a7f618b5634a682e	KEGG:C00157	PC(18:1/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:10ace3e4ab35f501	NAME:PC(18:1/28:0)	PC(18:1/28:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3de131a5b78a6b2c	NAME:PC(18:1/28:1)	PC(18:1/28:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3a3dc3ef6aed0525	NAME:PC(18:1/30:1)	PC(18:1/30:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:329b6816f5802feb	NAME:PC(18:1/30:2)	PC(18:1/30:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:81a93b772de6f996	NAME:PC(18:1/36:6)	PC(18:1/36:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a59f3c993865a5ca	NAME:PC(18:2/0:0)_B	PC(18:2/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:7c8cce5f10b0173f	HMDB:HMDB08147	1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5e36c0f4c5622ae6	NAME:PC(19:1/0:0)	PC(19:1/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9a6d951c5b80ad34	NAME:PC(19:1/20:4)	PC(19:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2a70db932d8be4f2	NAME:PC(20:1/0:0)_A	PC(20:1/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:22c8015b19446749	NAME:PC(20:1/0:0)_B	PC(20:1/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:42cb2cbf80244598	NAME:PC(20:2/0:0)	PC(20:2/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:79432ba875c535a8	NAME:PC(20:3/0:0)_A	PC(20:3/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e27c9c40647a8146	NAME:PC(20:3/0:0)_B	PC(20:3/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:25f57689a68bea94	KEGG:C00157	PC(20:3/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9f18a2c7ec8635e8	KEGG:C00157	PC(20:3/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c5309782e3d7fd7f	NAME:PC(20:3/26:1)	PC(20:3/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9b8778f2ec7c2884	NAME:PC(20:4/20:4);PC(18:2/22:6)	PC(20:4/20:4);PC(18:2/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b3236075affff33b	KEGG:C00157	PC(20:4/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:feba66ac9fd94f31	KEGG:C00157	PC(20:4/24:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:adee739f888a7882	NAME:PC(20:4/26:1)	PC(20:4/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1cf8eb29aa966885	NAME:PC(20:4/28:1)	PC(20:4/28:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:208297f5f065ce7e	NAME:PC(20:4/36:4)	PC(20:4/36:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6f8b300f80474557	NAME:PC(20:4/36:5)	PC(20:4/36:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:87f9d26d4e460286	KEGG:C04230	PC(22:0/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:71688d5cce4abf69	KEGG:C00157	PC(22:4/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:100959c541c4d9a1	KEGG:C04230	PC(22:6/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d7926df2602d07d8	KEGG:C00157	PC(22:6/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:25c9817ab0d5c8ba	NAME:PC(22:6/36:4)	PC(22:6/36:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bd158b3ee654e568	NAME:PC(26:1/0:0)_A	PC(26:1/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:93c20447d5fe6cb4	NAME:PC(26:1/0:0)_B	PC(26:1/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0809fbde1759b99b	NAME:PC(O-16:0/0:0)	PC(O-16:0/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:204b491e77cc941d	NAME:PC(O-16:0/16:1)_A	PC(O-16:0/16:1)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a2b243c5fe6ea125	NAME:PC(O-16:0/16:1)_B	PC(O-16:0/16:1)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5e8f02d22e9e6f44	NAME:PC(O-16:0/18:1);PC(P-18:0/16:0)	PC(O-16:0/18:1);PC(P-18:0/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:dd2b9924e0ac972f	NAME:PC(O-16:0/18:2)	PC(O-16:0/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6492701a7a81e03f	NAME:PC(O-16:0/20:4)	PC(O-16:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:461abc4dd6bfd3f4	KEGG:C04317	PC(O-18:0/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:06cab9b3ae97007a	NAME:PC(O-18:0/16:0)	PC(O-18:0/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:353bbe7635cd4715	NAME:PC(O-18:0/18:1)	PC(O-18:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d022da5d0febf26a	NAME:PC(O-18:1/0:0)	PC(O-18:1/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ca2309b95392b0e0	HMDB:HMDB13432	PC(O-18:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e4898dd6fa827c89	HMDB:HMDB11207	1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9d739907a10579c8	HMDB:HMDB11209	PC(P-16:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0a5810e9680acba1	HMDB:HMDB11220	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4ed6f5cc776b2fab	HMDB:HMDB11253	PC(P-18:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:968f19d3eacc80c0	NAME:PC(P-18:0/22:6)_A	PC(P-18:0/22:6)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:60ffd7cf01750fd4	HMDB:HMDB11275	PC(P-18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:75c800ef865aa4d8	NAME:SM(d17:1/16:0)	SM(d17:1/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8e738968ebd330c3	NAME:SM(d17:1/24:1);SM(d18:1/23:1)	SM(d17:1/24:1);SM(d18:1/23:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a48c6ba4a7173acb	HMDB:HMDB12087	sphingomyelin (d18:0/18:0, d19:0/17:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:02dded84452eceb3	KEGG:C00550	SM(d18:0/20:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:84fc79fefe51e37c	KEGG:C00550	SM(d18:0/24:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:cf702e40e728c6e2	NAME:SM(d18:1/16:0)_A	SM(d18:1/16:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:701fbd6db3a92f54	KEGG:C00550	stearoyl sphingomyelin (d18:1/18:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:13137e730a7dabd8	HMDB:HMDB12102	sphingomyelin (d18:1/20:0, d16:1/22:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:300a32bd25010199	HMDB:HMDB12103	behenoyl sphingomyelin (d18:1/22:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ceca07c67d261485	NAME:SM(d18:1/22:1)	SM(d18:1/22:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:88f0f1442ba231d9	HMDB:HMDB12105	tricosanoyl sphingomyelin (d18:1/23:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:684bb2a9eedbbf20	HMDB:HMDB11697	SM(d18:1/24:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:7cd48c5cbd8542a8	HMDB:HMDB12107	sphingomyelin (d18:1/24:1, d18:2/24:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3b4c63529054a671	NAME:SM(d18:1/25:0)	SM(d18:1/25:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:daad4594d1113a56	NAME:SM(d18:1/25:1)	SM(d18:1/25:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5b1efc88a9b1fff6	KEGG:C00550	SM(d18:1/26:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:7a56b7726e63728a	KEGG:C00550	SM(d18:1/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a46a945f71808602	NAME:SM(d18:2/16:0)_A	SM(d18:2/16:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e1234fdeb9e281dd	NAME:SM(d18:2/18:0)_A	SM(d18:2/18:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a083afddd286af81	NAME:SM(d18:2/18:0)_B	SM(d18:2/18:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2db04272f79053cb	NAME:SM(d18:2/22:0)	SM(d18:2/22:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:829db5eadbadcc57	NAME:SM(d18:2/23:0)	SM(d18:2/23:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e0d3ae9a5b4438fb	NAME:SM(d42:0)	SM(d42:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a6890104111333bf	NAME:SM(d43:3);SM(d18:2/25:1)	SM(d43:3);SM(d18:2/25:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8e0a390762327aea	NAME:TG(10:0/16:0/20:4)	TG(10:0/16:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:076bfe9a0130f83f	NAME:TG(12:0/18:2/22:6)	TG(12:0/18:2/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:dcabf492a7b2cacb	HMDB:HMDB42123	TG(14:0/16:0/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:97040615827bc135	HMDB:HMDB42140	TG(14:0/16:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b32f384c604b279e	NAME:TG(14:0/18:1/18:1);TG(16:0/16:1/18:1)	TG(14:0/18:1/18:1);TG(16:0/16:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:75e483c49448061c	NAME:TG(14:0/20:4/20:4);TG(14:0/18:2/22:6)	TG(14:0/20:4/20:4);TG(14:0/18:2/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:99992c07f51dbfb7	HMDB:HMDB42659	TG(14:0/20:4/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3a23510ff25deb6b	HMDB:HMDB05356	TG(16:0/16:0/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:69208002aaa2a81e	HMDB:HMDB0104223	TG(16:0/16:0/17:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:eabb1b0f83ab50cb	KEGG:C00422	TG(16:0/16:0/18:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a7940ed46dc0cb77	KEGG:C00422	TG(16:0/16:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e4541ea5bb7f9dc0	KEGG:C00422	TG(16:0/18:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:77dba9ffef950086	NAME:TG(16:0/18:0/18:2);TG(16:0/18:1/18:1)	TG(16:0/18:0/18:2);TG(16:0/18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:997a87d97602ca7d	KEGG:C00422	TG(16:0/18:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9864a8deeda13a96	HMDB:HMDB43939	TG(16:0/18:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d7214a5eaf526026	KEGG:C00422	TG(16:0/18:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3002baa6ea5dbc45	HMDB:HMDB44100	TG(16:0/18:1/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a445e5265202b096	NAME:TG(16:0/18:1/22:5);TG(18:1/18:1/20:4)	TG(16:0/18:1/22:5);TG(18:1/18:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f9d8034f17477793	NAME:TG(16:0/18:1/23:0)	TG(16:0/18:1/23:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:21bdb2131ff980d9	NAME:TG(16:0/18:1/23:1)	TG(16:0/18:1/23:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:10a377657644e339	KEGG:C00422	TG(16:0/18:2/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:34185e60ec6dd92b	NAME:TG(16:0/18:2/20:4);TG(16:1/18:1/20:4)	TG(16:0/18:2/20:4);TG(16:1/18:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2bca403d0e61f5d4	NAME:TG(16:0/20:1/22:6);TG(18:0/18:1/22:6)	TG(16:0/20:1/22:6);TG(18:0/18:1/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6af61c6a749d6c53	HMDB:HMDB44387	TG(16:0/20:4/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ac5ffdadec94c040	HMDB:HMDB44639	TG(16:0/22:6/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5e91d023b9f82d51	NAME:TG(16:1/18:1/18:1);TG(16:0/18:1/18:2)	TG(16:1/18:1/18:1);TG(16:0/18:1/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8e189519f9a4c4e2	KEGG:C00422	TG(16:1/18:2/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2c131d6921f735b2	KEGG:C00422	TG(16:1/18:2/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:329d6f4ce669db95	HMDB:HMDB49005	TG(16:1/20:5/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:73b7be1d59bf495c	NAME:TG(17:1/18:1/18:2)	TG(17:1/18:1/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b566924dc9112a4f	NAME:TG(18:0/18:1/18:1);TG(16:0/18:1/20:1)	TG(18:0/18:1/18:1);TG(16:0/18:1/20:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:39d445e86c1a6670	HMDB:HMDB44929	TG(18:0/18:1/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b8fff74c3386c871	NAME:TG(18:0/18:1/22:5);TG(18:0/18:0/22:6)	TG(18:0/18:1/22:5);TG(18:0/18:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:39e43760de797760	HMDB:HMDB45199	TG(18:0/20:4/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bafbd3cf2d0a2167	HMDB:HMDB45260	TG(18:0/22:4/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:51c2f9641fee203b	HMDB:HMDB10467	TG(18:1/18:1/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6d7f3e7557547efa	NAME:TG(18:1/18:1/26:1)	TG(18:1/18:1/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a4f4e7b045e13723	KEGG:C00422	TG(18:1/18:2/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c13c334f06ba3734	HMDB:HMDB49392	TG(18:1/18:2/24:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2708a88c3382611a	NAME:TG(18:1/19:1/22:2)	TG(18:1/19:1/22:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4d98f0b879d4f541	NAME:TG(18:1/28:2/23:0)	TG(18:1/28:2/23:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2902ca204d5f7017	KEGG:C00422	TG(18:2/18:2/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:25eabce2cf5151d4	HMDB:HMDB10489	TG(18:2/18:2/18:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2668ae2e94a518e7	NAME:TG(18:2/18:2/20:4);TG(16:0/18:2/22:6)	TG(18:2/18:2/20:4);TG(16:0/18:2/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bc06f806764034d7	NAME:TG(18:2/20:4/20:4);TG(18:2/18:2/22:6)	TG(18:2/20:4/20:4);TG(18:2/18:2/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b3b7dd24d22f4df6	HMDB:HMDB52687	TG(18:2/20:4/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d8c723b4315626bc	HMDB:HMDB54307	TG(20:4/20:5/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:62f1256d0119d01d	HMDB:HMDB54263	TG(20:4/22:5/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0b0674e719961643	HMDB:HMDB43834	TG(44:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a85428d5aa543a68	HMDB:HMDB47746	TG(46:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bfce28cb1a22ec82	HMDB:HMDB48391	TG(46:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:52678c670dd3a2ff	HMDB:HMDB48434	TG(48:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8e3eae95623bf636	HMDB:HMDB48588	TG(48:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d703004ae5953cfb	HMDB:HMDB48574	TG(48:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b39d9a724d8600e7	HMDB:HMDB48456	TG(49:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9b955df959ff7ac4	HMDB:HMDB48437	TG(49:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:48a456b0306eba68	HMDB:HMDB55154	TG(50:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:cefafaf9c28a57a6	HMDB:HMDB49740	TG(51:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d98ced6377f67d4f	HMDB:HMDB52425	TG(51:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5e1587e438465d87	HMDB:HMDB55161	TG(51:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9dbe31227b76886d	HMDB:HMDB0110765	TG(52:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f3af8b135cace636	HMDB:HMDB55540	TG(52:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8a68764195e39275	HMDB:HMDB55688	TG(52:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:172f7ee76ab9643a	HMDB:HMDB55716	TG(52:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4be58b55c42773ed	HMDB:HMDB43037	TG(53:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:45a067a353ca2eee	HMDB:HMDB53676	TG(53:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2b98c0a5439571d3	HMDB:HMDB51424	TG(54:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:314de1627a50a93f	HMDB:HMDB55175	TG(54:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a4606d49aeffb757	HMDB:HMDB55550	TG(54:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:123ac26779e6a30c	HMDB:HMDB55894	TG(54:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3f62568e40d25f27	HMDB:HMDB55908	TG(54:7)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a5d6aa7788a48f8a	HMDB:HMDB51932	TG(56:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:62f38e3e39282a37	HMDB:HMDB55182	TG(56:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5e8d97a2d11d213d	HMDB:HMDB55812	TG(56:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5a285ef708965be8	HMDB:HMDB55910	TG(56:7)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4de486152d797a59	HMDB:HMDB55784	TG(56:9)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a3c80a1cfe299e81	HMDB:HMDB51964	TG(58:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e4a7f3f204c7268f	HMDB:HMDB54380	TG(58:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f706377839a25660	HMDB:HMDB55924	TG(58:8)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:13c3f379b35dd8bb	HMDB:HMDB55940	TG(58:9)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9f27a1f3b0ef32f7	HMDB:HMDB47034	TG(59:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:28e1290618515f5a	HMDB:HMDB51980	TG(60:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a2f5449b95141564	HMDB:HMDB54390	TG(60:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:89e9bc733be83278	HMDB:HMDB55196	TG(60:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:443b1501e9d6f037	HMDB:HMDB55565	TG(60:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5ed673c74ddc70e6	HMDB:HMDB55930	TG(60:9)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:915314a1e32501e3	HMDB:HMDB54400	TG(62:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d96e06cf60a3b54b	NAME:Cer(d16:1/18:0);Cer(d18:1/16:0)	Cer(d16:1/18:0);Cer(d18:1/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ac0d3a005841d0fd	HMDB:HMDB11760	N-palmitoyl-sphinganine (d18:0/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:47c144a0ddf16e80	HMDB:HMDB11765	Cer(d18:0/22:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d58ef0de065157db	HMDB:HMDB11768	Cer(d18:0/24:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:118a517881363670	NAME:Cer(d18:1/18:0)_B	Cer(d18:1/18:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2b8689512abadcf8	KEGG:C00195	Cer(d18:1/20:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6307c8fb72f38f91	KEGG:C00195	Cer(d18:1/22:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1d0a93349578b165	KEGG:C00195	Cer(d18:1/24:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1e84cd46dad9be38	KEGG:C00195	Cer(d18:1/26:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:90e23f6b3a879e1d	NAME:Cer(d18:1/26:1)	Cer(d18:1/26:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b4b3ac63f3ec87eb	HMDB:HMDB0111579	CL(70:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4f7eb844acf12766	HMDB:HMDB0111675	CL(72:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:53cab25b41129f3d	KEGG:C00416	PA(16:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a9fa09450f692799	HMDB:HMDB31129	PA(18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e2a1b5813d3218db	KEGG:C00350	PE(14:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:785d2bff802e002b	NAME:PE(16:0/0:0)_A	PE(16:0/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:299f10c50620d7fa	NAME:PE(16:0/0:0)_B	PE(16:0/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:64fbd8834234eaac	HMDB:HMDB08923	1,2-dipalmitoyl-GPE (16:0/16:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:12fd988bca21cf1a	HMDB:HMDB08925	1-palmitoyl-2-stearoyl-GPE (16:0/18:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:88e760454404b6c0	NAME:PE(16:0/18:2);PE(16:1/18:1)	PE(16:0/18:2);PE(16:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:965354cf5379f0f6	KEGG:C00350	PE(16:0/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9caa44c1957dbe12	KEGG:C00350	PE(16:0/22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3d286738d7a7378f	KEGG:C00350	PE(16:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3f8f1ad5090a13e6	NAME:PE(16:1/0:0)	PE(16:1/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1923f7d00324f64c	KEGG:C00350	PE(16:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:526675a63e21271e	NAME:PE(17:0/22:6)	PE(17:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4608e6f42e66ef71	NAME:PE(18:0/0:0)_B	PE(18:0/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e013829e27854f8f	KEGG:C00350	PE(18:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c73473f0d8124346	KEGG:C00350	PE(18:0/20:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e87a3641715f1e0a	KEGG:C00350	PE(18:0/20:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a3ad8a34ff28290f	KEGG:C21481	PE(18:0/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:442b3495c1d8b40c	KEGG:C00350	PE(18:0/22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2dd64001f37ff7b1	KEGG:C00350	PE(18:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:51e63a64f0af873f	KEGG:C00350	PE(18:0/24:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d71686be69893067	NAME:PE(18:1/0:0)_A	PE(18:1/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:244882af851b5fd3	NAME:PE(18:1/0:0)_B	PE(18:1/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:095d817d2c9ac53b	KEGG:C00350	PE(18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:dd0d0590bec5f3d0	KEGG:C00350	PE(18:1/20:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4f4eaed11ae41aa5	NAME:PE(18:2/0:0)	PE(18:2/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4d30c6174fc8d347	HMDB:HMDB11511	PE(20:0/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6c2948afcfb70b95	KEGG:C00350	PE(20:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8e300a2bf7f88b02	NAME:PE(20:2/0:0)	PE(20:2/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bba697a4c934fc49	NAME:PE(20:3/0:0)_A	PE(20:3/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c2936b884635e956	NAME:PE(20:3/0:0)_B	PE(20:3/0:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:32014f30fef6856d	HMDB:HMDB11517	1-arachidonoyl-GPE (20:4n6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6bac7a91e51b93c1	KEGG:C00350	PE(20:4/22:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:eea05fb769ad36e4	NAME:PE(20:5/0:0)	PE(20:5/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:40ae9c8a112e3209	NAME:PE(22:2/0:0)_A	PE(22:2/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:7659f9648f4466be	NAME:PE(22:4/0:0)_A	PE(22:4/0:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f5d484e2bb7ac54f	KEGG:C00350	PE(22:6/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:4bb139b6790fd154	KEGG:C00350	PE(24:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1619b4c90ad62204	NAME:PE(O-16:0/20:3)	PE(O-16:0/20:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d76f1fc4a7d4b047	NAME:PE(O-16:0/20:4)	PE(O-16:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1e0e24d7ddb6dfd2	NAME:PE(O-18:0/16:0)_A	PE(O-18:0/16:0)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b1d4a1e49f57bbe1	NAME:PE(O-18:0/22:4)	PE(O-18:0/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f6f2fc289a5db8e5	HMDB:HMDB11339	PE(P-16:0/16:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2134bba95f1d68a5	NAME:PE(P-16:0/20:3)_A	PE(P-16:0/20:3)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8510eced3a521ff1	NAME:PE(P-16:0/20:3)_B	PE(P-16:0/20:3)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e6aaa54c417b4d61	HMDB:HMDB11352	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d0c6e37381c3f48e	HMDB:HMDB11354	PE(P-16:0/20:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:32efc981e982793a	NAME:PE(P-16:0/22:5);PE(P-18:1/20:4)	PE(P-16:0/22:5);PE(P-18:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:103cd5cc496cf088	NAME:PE(P-18:0/0:0)	PE(P-18:0/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d488416e9760d4ed	NAME:PE(P-18:0/16:0);PE(P-16:0/18:0)	PE(P-18:0/16:0);PE(P-16:0/18:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:fe0803dbb96e1181	HMDB:HMDB11374	PE(P-18:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:061e6513dece0f3e	HMDB:HMDB11381	PE(P-18:0/20:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:e4492fb0c96d0f2b	NAME:PE(P-18:0/20:5);PE(P-16:0/22:5)	PE(P-18:0/20:5);PE(P-16:0/22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c2047c0d322714c7	HMDB:HMDB11389	PE(P-18:0/22:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:74ae29f34da6f94a	HMDB:HMDB11391	PE(P-18:0/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:22941973cac860c9	NAME:PE(P-18:0/22:5)_B	PE(P-18:0/22:5)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1da87c3ed6d208f1	NAME:PE(P-18:0/22:6)_A	PE(P-18:0/22:6)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8c4e30dee2bef62a	NAME:PE(P-18:0/22:6)_B	PE(P-18:0/22:6)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ad17c649cc534057	HMDB:HMDB11405	PE(P-18:1/16:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0c35c2a01b9f6963	HMDB:HMDB11407	PE(P-18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:63588b61c18130fb	HMDB:HMDB11414	PE(P-18:1/20:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:14e3e27d7f30569d	HMDB:HMDB11420	PE(P-18:1/20:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6cbc512ac75cba7c	HMDB:HMDB11424	PE(P-18:1/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:343611a6430eb118	NAME:PE(P-18:1/22:5)_A	PE(P-18:1/22:5)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:61eaf18fdacd5770	NAME:PE(P-18:1/22:5)_B	PE(P-18:1/22:5)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:bbe7d413f6fd952f	HMDB:HMDB11427	PE(P-18:1/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:aa0576c5d5cb63d0	NAME:PG(16:0/16:0)_B	PG(16:0/16:0)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:793ebb51d02c8baa	HMDB:HMDB10571	PG(16:0/16:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:34febea4dc2f4ec6	HMDB:HMDB10572	PG(16:0/18:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:dff69383f1e9ca82	HMDB:HMDB10575	PG(16:0/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f020f5971bec2ccd	NAME:PG(16:0/20:4)_A	PG(16:0/20:4)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:66eb24e7fb253f50	NAME:PG(16:0/20:4)_B	PG(16:0/20:4)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3b299e0aafd28a9d	HMDB:HMDB10584	PG(16:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c567ac8c202b8d6f	NAME:PG(17:1/18:1)	PG(17:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d27121636617cb16	NAME:PG(18:0/18:1)_A	PG(18:0/18:1)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0674f7d52de78b85	HMDB:HMDB10610	PG(18:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:33f41d6fdeff8578	NAME:PG(18:1/0:0)	PG(18:1/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f652ef1aeb9eec67	NAME:PG(18:1/18:1)_B	PG(18:1/18:1)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:be02737af0d84fba	NAME:PG(18:1/19:1)	PG(18:1/19:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1df2d4e1b6b54bd0	NAME:PG(18:1/20:2)	PG(18:1/20:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:21202799d48babbf	NAME:PG(18:1/20:3)_A	PG(18:1/20:3)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:5070f9d2b5a7e72d	NAME:PG(18:1/20:3)_B	PG(18:1/20:3)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f0d6dedeaf5aa12c	NAME:PG(18:1/20:4)_A	PG(18:1/20:4)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1ca9bf44422d5023	NAME:PG(18:1/20:4)_B	PG(18:1/20:4)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:3330d6d5271acf5a	HMDB:HMDB10626	PG(18:1/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c113d8b70198fa42	HMDB:HMDB10627	PG(18:1/22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:cc923e100c4b9549	HMDB:HMDB10629	PG(18:1/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0617697357593197	NAME:PG(18:2/0:0)	PG(18:2/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:673d32703f3dec09	HMDB:HMDB10650	PG(18:2/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ceacc00f722ec628	HMDB:HMDB10653	PG(18:2/20:3)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f2804b455e9dd004	HMDB:HMDB10655	PG(18:2/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:ddf8b5e9fe129bea	HMDB:HMDB10656	PG(18:2/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8fca4efc9ec6e4d8	HMDB:HMDB10659	PG(18:2/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a49be250640a9f96	NAME:PG(20:3/22:6)	PG(20:3/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2f6db34865447c2f	NAME:PG(20:4/0:0)	PG(20:4/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:11ba172741515264	NAME:PG(22:4/22:6)	PG(22:4/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8c4c442d88902c53	HMDB:HMDB09783	1-palmitoyl-2-oleoyl-GPI (16:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:546bb16f0821bd8c	NAME:PI(16:0/20:3)_A	PI(16:0/20:3)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b865c3a55ac329e3	NAME:PI(16:0/22:6)	PI(16:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:298f917d71b5adf5	NAME:PI(16:1/20:4)	PI(16:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:6f8836f3b6880eba	NAME:PI(18:0/18:1)	PI(18:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b8976de0974e3033	NAME:PI(18:0/20:3)_A	PI(18:0/20:3)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b39f7f47b2f860fb	HMDB:HMDB09818	PI(18:0/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b0683f2e5d31bfaa	KEGG:C00626	PI(18:0/22:5)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:745f585dac7ae9ac	HMDB:HMDB09821	PI(18:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:a7292b4dece4b712	KEGG:C00626	PI(18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:13e6a4b226266cf5	NAME:PI(18:1/20:3)_A	PI(18:1/20:3)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:cec6f853bf0de0b4	NAME:PI(18:1/22:6)	PI(18:1/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:8268455861f414f1	NAME:PI(20:3/0:0)	PI(20:3/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:868e85b3b41a8fc5	NAME:PI(20:4/0:0)	PI(20:4/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:36906a913c3141d1	NAME:PI(20:4/20:4)	PI(20:4/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:da2d6069b4376183	NAME:PI(20:4/22:6)	PI(20:4/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:decdbb05619f4ea8	NAME:PI(O-18:0/20:4)	PI(O-18:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:b01f652ea5eb32fc	NAME:PI(P-18:0/22:4)	PI(P-18:0/22:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9d09f4e21624cb45	NAME:PS(16:0/18:2);PS(16:1/18:1)	PS(16:0/18:2);PS(16:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:78f5d36d241a85cf	HMDB:HMDB12361	PS(16:0/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f9fbd9fe5fafe2ce	HMDB:HMDB12367	PS(16:1/18:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:0327ecd43e9405f4	KEGG:C02737	PS(18:0/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:79b5e832916054c7	HMDB:HMDB12380	PS(18:0/18:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:2089087f0386dcb1	HMDB:HMDB0112375	PS(18:0/20:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d1ad636c58008469	HMDB:HMDB0112376	PS(18:0/20:2)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:db7a1eb12c8146f7	NAME:PS(18:0/20:3)_A	PS(18:0/20:3)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:369eb485d89896b7	NAME:PS(18:0/22:4)_A	PS(18:0/22:4)_A	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1ec43c42aa09a68f	NAME:PS(18:0/22:4)_B	PS(18:0/22:4)_B	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:c4622225927e5894	KEGG:C02737	PS(18:0/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:9dbd6159c8ebef82	NAME:PS(18:0/24:4)	PS(18:0/24:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f5e9b2b9ae52ef6b	NAME:PS(18:1/0:0)	PS(18:1/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f9936bcaca43d231	HMDB:HMDB12390	PS(18:1/18:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:12dda00860c1386d	HMDB:HMDB0112393	PS(18:1/20:1)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:271e7087ae01fc0f	HMDB:HMDB12394	PS(18:1/20:4)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:f279d863a3a5dd04	HMDB:HMDB12439	PS(20:4/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:d7e4737372ecb7be	NAME:PS(22:6/0:0)	PS(22:6/0:0)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme
+GBM_FEATURE:1e1da1f0e00b7318	HMDB:HMDB12450	PS(22:6/22:6)	0	NEEDS_REVIEW	no exact identity match in current reviewed catalog;not proof of no human enzyme

@@ -1,0 +1,1269 @@
+{
+  "collection_id": "999f2a15-3d7e-440b-96ae-2c806799c08c",
+  "collection_url": "https://cellxgene.cziscience.com/collections/999f2a15-3d7e-440b-96ae-2c806799c08c",
+  "collection_version_id": "837edb8f-956e-44ac-bd98-261b5a61a5b2",
+  "consortia": [
+    "CZI Neurodegeneration Challenge Network"
+  ],
+  "contact_email": "C.C.RuizMoreno@prinsesmaximacentrum.nl",
+  "contact_name": "Cristian Ruiz-Moreno",
+  "created_at": "2026-06-10T08:13:07+00:00",
+  "curator_name": "Jason Hilton",
+  "datasets": [
+    {
+      "assay": [
+        {
+          "label": "10x 3' v2",
+          "ontology_term_id": "EFO:0009899"
+        },
+        {
+          "label": "10x 3' v3",
+          "ontology_term_id": "EFO:0009922"
+        },
+        {
+          "label": "10x 5' v1",
+          "ontology_term_id": "EFO:0011025"
+        },
+        {
+          "label": "BD Rhapsody Whole Transcriptome Analysis",
+          "ontology_term_id": "EFO:0700003"
+        },
+        {
+          "label": "CEL-seq2",
+          "ontology_term_id": "EFO:0010010"
+        },
+        {
+          "label": "STRT-seq",
+          "ontology_term_id": "EFO:0008953"
+        },
+        {
+          "label": "Smart-seq2",
+          "ontology_term_id": "EFO:0008931"
+        },
+        {
+          "label": "microwell-seq",
+          "ontology_term_id": "EFO:0030002"
+        }
+      ],
+      "assets": [
+        {
+          "filesize": 8127057404,
+          "filetype": "H5AD",
+          "url": "https://datasets.cellxgene.cziscience.com/861acfd8-25f0-418b-a445-aa96da232827.h5ad"
+        }
+      ],
+      "batch_condition": [
+        "author"
+      ],
+      "cell_count": 338564,
+      "cell_type": [
+        {
+          "label": "B cell",
+          "ontology_term_id": "CL:0000236"
+        },
+        {
+          "label": "astrocyte",
+          "ontology_term_id": "CL:0000127"
+        },
+        {
+          "label": "dendritic cell",
+          "ontology_term_id": "CL:0000451"
+        },
+        {
+          "label": "endothelial cell",
+          "ontology_term_id": "CL:0000115"
+        },
+        {
+          "label": "macrophage",
+          "ontology_term_id": "CL:0000235"
+        },
+        {
+          "label": "malignant cell",
+          "ontology_term_id": "CL:0001064"
+        },
+        {
+          "label": "mast cell",
+          "ontology_term_id": "CL:0000097"
+        },
+        {
+          "label": "mature T cell",
+          "ontology_term_id": "CL:0002419"
+        },
+        {
+          "label": "microglial cell",
+          "ontology_term_id": "CL:0000129"
+        },
+        {
+          "label": "monocyte",
+          "ontology_term_id": "CL:0000576"
+        },
+        {
+          "label": "mural cell",
+          "ontology_term_id": "CL:0008034"
+        },
+        {
+          "label": "natural killer cell",
+          "ontology_term_id": "CL:0000623"
+        },
+        {
+          "label": "neuron",
+          "ontology_term_id": "CL:0000540"
+        },
+        {
+          "label": "oligodendrocyte",
+          "ontology_term_id": "CL:0000128"
+        },
+        {
+          "label": "oligodendrocyte precursor cell",
+          "ontology_term_id": "CL:0002453"
+        },
+        {
+          "label": "plasma cell",
+          "ontology_term_id": "CL:0000786"
+        },
+        {
+          "label": "radial glial cell",
+          "ontology_term_id": "CL:0000681"
+        }
+      ],
+      "citation": "Publication: https://doi.org/10.1101/2022.08.27.505439 Dataset Version: https://datasets.cellxgene.cziscience.com/861acfd8-25f0-418b-a445-aa96da232827.h5ad curated and distributed by CZ CELLxGENE Discover in Collection: https://cellxgene.cziscience.com/collections/999f2a15-3d7e-440b-96ae-2c806799c08c",
+      "dataset_id": "c888b684-6c51-431f-972a-6c963044cef0",
+      "dataset_version_id": "861acfd8-25f0-418b-a445-aa96da232827",
+      "default_embedding": "X_umap",
+      "development_stage": [
+        {
+          "label": "21-year-old stage",
+          "ontology_term_id": "HsapDv:0000115"
+        },
+        {
+          "label": "33-year-old stage",
+          "ontology_term_id": "HsapDv:0000127"
+        },
+        {
+          "label": "34-year-old stage",
+          "ontology_term_id": "HsapDv:0000128"
+        },
+        {
+          "label": "36-year-old stage",
+          "ontology_term_id": "HsapDv:0000130"
+        },
+        {
+          "label": "42-year-old stage",
+          "ontology_term_id": "HsapDv:0000136"
+        },
+        {
+          "label": "44-year-old stage",
+          "ontology_term_id": "HsapDv:0000138"
+        },
+        {
+          "label": "45-year-old stage",
+          "ontology_term_id": "HsapDv:0000139"
+        },
+        {
+          "label": "46-year-old stage",
+          "ontology_term_id": "HsapDv:0000140"
+        },
+        {
+          "label": "48-year-old stage",
+          "ontology_term_id": "HsapDv:0000142"
+        },
+        {
+          "label": "50-year-old stage",
+          "ontology_term_id": "HsapDv:0000144"
+        },
+        {
+          "label": "51-year-old stage",
+          "ontology_term_id": "HsapDv:0000145"
+        },
+        {
+          "label": "52-year-old stage",
+          "ontology_term_id": "HsapDv:0000146"
+        },
+        {
+          "label": "53-year-old stage",
+          "ontology_term_id": "HsapDv:0000147"
+        },
+        {
+          "label": "54-year-old stage",
+          "ontology_term_id": "HsapDv:0000148"
+        },
+        {
+          "label": "55-year-old stage",
+          "ontology_term_id": "HsapDv:0000149"
+        },
+        {
+          "label": "56-year-old stage",
+          "ontology_term_id": "HsapDv:0000150"
+        },
+        {
+          "label": "57-year-old stage",
+          "ontology_term_id": "HsapDv:0000151"
+        },
+        {
+          "label": "58-year-old stage",
+          "ontology_term_id": "HsapDv:0000152"
+        },
+        {
+          "label": "59-year-old stage",
+          "ontology_term_id": "HsapDv:0000153"
+        },
+        {
+          "label": "60-year-old stage",
+          "ontology_term_id": "HsapDv:0000154"
+        },
+        {
+          "label": "61-year-old stage",
+          "ontology_term_id": "HsapDv:0000155"
+        },
+        {
+          "label": "62-year-old stage",
+          "ontology_term_id": "HsapDv:0000156"
+        },
+        {
+          "label": "63-year-old stage",
+          "ontology_term_id": "HsapDv:0000157"
+        },
+        {
+          "label": "64-year-old stage",
+          "ontology_term_id": "HsapDv:0000158"
+        },
+        {
+          "label": "65-year-old stage",
+          "ontology_term_id": "HsapDv:0000159"
+        },
+        {
+          "label": "66-year-old stage",
+          "ontology_term_id": "HsapDv:0000160"
+        },
+        {
+          "label": "67-year-old stage",
+          "ontology_term_id": "HsapDv:0000161"
+        },
+        {
+          "label": "68-year-old stage",
+          "ontology_term_id": "HsapDv:0000162"
+        },
+        {
+          "label": "69-year-old stage",
+          "ontology_term_id": "HsapDv:0000163"
+        },
+        {
+          "label": "70-year-old stage",
+          "ontology_term_id": "HsapDv:0000164"
+        },
+        {
+          "label": "71-year-old stage",
+          "ontology_term_id": "HsapDv:0000165"
+        },
+        {
+          "label": "72-year-old stage",
+          "ontology_term_id": "HsapDv:0000166"
+        },
+        {
+          "label": "74-year-old stage",
+          "ontology_term_id": "HsapDv:0000168"
+        },
+        {
+          "label": "76-year-old stage",
+          "ontology_term_id": "HsapDv:0000170"
+        },
+        {
+          "label": "77-year-old stage",
+          "ontology_term_id": "HsapDv:0000171"
+        },
+        {
+          "label": "78-year-old stage",
+          "ontology_term_id": "HsapDv:0000172"
+        },
+        {
+          "label": "80-year-old stage",
+          "ontology_term_id": "HsapDv:0000206"
+        },
+        {
+          "label": "83-year-old stage",
+          "ontology_term_id": "HsapDv:0000209"
+        },
+        {
+          "label": "adult stage",
+          "ontology_term_id": "HsapDv:0000258"
+        },
+        {
+          "label": "unknown",
+          "ontology_term_id": "unknown"
+        }
+      ],
+      "disease": [
+        {
+          "label": "glioblastoma",
+          "ontology_term_id": "MONDO:0018177"
+        }
+      ],
+      "donor_id": [
+        "PJ017",
+        "PJ018",
+        "PJ025",
+        "PJ032",
+        "PJ035",
+        "PJ048",
+        "MGH102",
+        "MGH105",
+        "MGH114",
+        "MGH115",
+        "MGH118",
+        "MGH124",
+        "MGH125",
+        "MGH126",
+        "MGH143",
+        "MGH101",
+        "MGH100",
+        "MGH104",
+        "MGH106",
+        "MGH110",
+        "MGH113",
+        "MGH121",
+        "MGH122",
+        "MGH128",
+        "MGH129",
+        "MGH136",
+        "MGH151",
+        "MGH152",
+        "MGH66",
+        "SF11644",
+        "SF11956",
+        "SF11979",
+        "GSM4141788",
+        "GSM4141789",
+        "GSM4141790",
+        "PW032",
+        "SF11159",
+        "SF11209",
+        "SF11215",
+        "SF11232",
+        "SF11247",
+        "S2",
+        "S1",
+        "S11",
+        "S12",
+        "S13",
+        "S15",
+        "S3",
+        "S5",
+        "S6",
+        "LWZ",
+        "PXC",
+        "YCM",
+        "ZBY",
+        "BT333",
+        "BT346",
+        "BT363",
+        "BT364",
+        "BT368",
+        "BT389",
+        "BT390",
+        "BT397",
+        "BT402",
+        "BT407",
+        "BT409",
+        "SM006",
+        "SM011",
+        "SM012",
+        "SM017",
+        "SM018",
+        "G1003",
+        "G620",
+        "G910",
+        "G945",
+        "G946",
+        "G967",
+        "G983",
+        "BT_S2",
+        "BT_S1",
+        "BT_S4",
+        "BT_S6",
+        "GBM1",
+        "GBM2",
+        "GBM3",
+        "GBM4",
+        "Pat13",
+        "Pat14",
+        "Pat6",
+        "Pat9",
+        "3182",
+        "3282",
+        "3295",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "ND1",
+        "ND2",
+        "ND3",
+        "ND4",
+        "ND5",
+        "ND6",
+        "ND7",
+        "ND8",
+        "R5",
+        "E10",
+        "E37",
+        "E39",
+        "E99",
+        "E100"
+      ],
+      "embeddings": [
+        "X_umap"
+      ],
+      "explorer_url": "https://cellxgene.cziscience.com/e/c888b684-6c51-431f-972a-6c963044cef0.cxg/",
+      "feature_biotype": [
+        "gene"
+      ],
+      "feature_count": 27632,
+      "feature_reference": [
+        "NCBITaxon:9606"
+      ],
+      "genetic_perturbation_strategy": null,
+      "is_pre_analysis": false,
+      "is_primary_data": [
+        false
+      ],
+      "mean_genes_per_cell": 2121.103729280136,
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "ontology_term_id": "NCBITaxon:9606"
+        }
+      ],
+      "perturbation_types": null,
+      "primary_cell_count": 0,
+      "published_at": "2022-08-29T21:50:26+00:00",
+      "raw_data_location": "raw.X",
+      "revised_at": "2026-06-11T16:54:03+00:00",
+      "schema_version": "7.1.0",
+      "self_reported_ethnicity": [
+        {
+          "label": "unknown",
+          "ontology_term_id": "unknown"
+        }
+      ],
+      "sex": [
+        {
+          "label": "female",
+          "ontology_term_id": "PATO:0000383"
+        },
+        {
+          "label": "male",
+          "ontology_term_id": "PATO:0000384"
+        },
+        {
+          "label": "unknown",
+          "ontology_term_id": "unknown"
+        }
+      ],
+      "spatial": null,
+      "suspension_type": [
+        "cell"
+      ],
+      "tissue": [
+        {
+          "label": "brain",
+          "ontology_term_id": "UBERON:0000955",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "forebrain",
+          "ontology_term_id": "UBERON:0001890",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "frontal lobe",
+          "ontology_term_id": "UBERON:0016525",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "left frontal lobe",
+          "ontology_term_id": "UBERON:0002811",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "left parietal lobe",
+          "ontology_term_id": "UBERON:0002802",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "left temporal lobe",
+          "ontology_term_id": "UBERON:0002808",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "right frontal lobe",
+          "ontology_term_id": "UBERON:0002810",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "right parietal lobe",
+          "ontology_term_id": "UBERON:0002803",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "right temporal lobe",
+          "ontology_term_id": "UBERON:0002809",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "temporal lobe",
+          "ontology_term_id": "UBERON:0001871",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "temporoparietal junction",
+          "ontology_term_id": "UBERON:0023852",
+          "tissue_type": "tissue"
+        }
+      ],
+      "title": "Core GBmap",
+      "tombstone": false,
+      "x_approximate_distribution": "COUNT"
+    },
+    {
+      "assay": [
+        {
+          "label": "10x 3' v2",
+          "ontology_term_id": "EFO:0009899"
+        },
+        {
+          "label": "10x 3' v3",
+          "ontology_term_id": "EFO:0009922"
+        },
+        {
+          "label": "10x 5' v1",
+          "ontology_term_id": "EFO:0011025"
+        },
+        {
+          "label": "BD Rhapsody Whole Transcriptome Analysis",
+          "ontology_term_id": "EFO:0700003"
+        },
+        {
+          "label": "CEL-seq2",
+          "ontology_term_id": "EFO:0010010"
+        },
+        {
+          "label": "Drop-seq",
+          "ontology_term_id": "EFO:0008722"
+        },
+        {
+          "label": "STRT-seq",
+          "ontology_term_id": "EFO:0008953"
+        },
+        {
+          "label": "Smart-seq2",
+          "ontology_term_id": "EFO:0008931"
+        },
+        {
+          "label": "microwell-seq",
+          "ontology_term_id": "EFO:0030002"
+        }
+      ],
+      "assets": [
+        {
+          "filesize": 11224714727,
+          "filetype": "H5AD",
+          "url": "https://datasets.cellxgene.cziscience.com/230c8701-7291-4dd5-bf36-688490c681ee.h5ad"
+        }
+      ],
+      "batch_condition": [
+        "author"
+      ],
+      "cell_count": 1135677,
+      "cell_type": [
+        {
+          "label": "B cell",
+          "ontology_term_id": "CL:0000236"
+        },
+        {
+          "label": "astrocyte",
+          "ontology_term_id": "CL:0000127"
+        },
+        {
+          "label": "dendritic cell",
+          "ontology_term_id": "CL:0000451"
+        },
+        {
+          "label": "endothelial cell",
+          "ontology_term_id": "CL:0000115"
+        },
+        {
+          "label": "macrophage",
+          "ontology_term_id": "CL:0000235"
+        },
+        {
+          "label": "malignant cell",
+          "ontology_term_id": "CL:0001064"
+        },
+        {
+          "label": "mast cell",
+          "ontology_term_id": "CL:0000097"
+        },
+        {
+          "label": "mature T cell",
+          "ontology_term_id": "CL:0002419"
+        },
+        {
+          "label": "microglial cell",
+          "ontology_term_id": "CL:0000129"
+        },
+        {
+          "label": "monocyte",
+          "ontology_term_id": "CL:0000576"
+        },
+        {
+          "label": "mural cell",
+          "ontology_term_id": "CL:0008034"
+        },
+        {
+          "label": "natural killer cell",
+          "ontology_term_id": "CL:0000623"
+        },
+        {
+          "label": "neuron",
+          "ontology_term_id": "CL:0000540"
+        },
+        {
+          "label": "neutrophil",
+          "ontology_term_id": "CL:0000775"
+        },
+        {
+          "label": "oligodendrocyte",
+          "ontology_term_id": "CL:0000128"
+        },
+        {
+          "label": "oligodendrocyte precursor cell",
+          "ontology_term_id": "CL:0002453"
+        },
+        {
+          "label": "plasma cell",
+          "ontology_term_id": "CL:0000786"
+        },
+        {
+          "label": "radial glial cell",
+          "ontology_term_id": "CL:0000681"
+        }
+      ],
+      "citation": "Publication: https://doi.org/10.1101/2022.08.27.505439 Dataset Version: https://datasets.cellxgene.cziscience.com/230c8701-7291-4dd5-bf36-688490c681ee.h5ad curated and distributed by CZ CELLxGENE Discover in Collection: https://cellxgene.cziscience.com/collections/999f2a15-3d7e-440b-96ae-2c806799c08c",
+      "dataset_id": "56c4912d-2bae-4b64-98f2-af8a84389208",
+      "dataset_version_id": "230c8701-7291-4dd5-bf36-688490c681ee",
+      "default_embedding": "X_umap",
+      "development_stage": [
+        {
+          "label": "21-year-old stage",
+          "ontology_term_id": "HsapDv:0000115"
+        },
+        {
+          "label": "24-year-old stage",
+          "ontology_term_id": "HsapDv:0000118"
+        },
+        {
+          "label": "33-year-old stage",
+          "ontology_term_id": "HsapDv:0000127"
+        },
+        {
+          "label": "34-year-old stage",
+          "ontology_term_id": "HsapDv:0000128"
+        },
+        {
+          "label": "35-year-old stage",
+          "ontology_term_id": "HsapDv:0000129"
+        },
+        {
+          "label": "36-year-old stage",
+          "ontology_term_id": "HsapDv:0000130"
+        },
+        {
+          "label": "42-year-old stage",
+          "ontology_term_id": "HsapDv:0000136"
+        },
+        {
+          "label": "44-year-old stage",
+          "ontology_term_id": "HsapDv:0000138"
+        },
+        {
+          "label": "45-year-old stage",
+          "ontology_term_id": "HsapDv:0000139"
+        },
+        {
+          "label": "46-year-old stage",
+          "ontology_term_id": "HsapDv:0000140"
+        },
+        {
+          "label": "48-year-old stage",
+          "ontology_term_id": "HsapDv:0000142"
+        },
+        {
+          "label": "50-year-old stage",
+          "ontology_term_id": "HsapDv:0000144"
+        },
+        {
+          "label": "51-year-old stage",
+          "ontology_term_id": "HsapDv:0000145"
+        },
+        {
+          "label": "52-year-old stage",
+          "ontology_term_id": "HsapDv:0000146"
+        },
+        {
+          "label": "53-year-old stage",
+          "ontology_term_id": "HsapDv:0000147"
+        },
+        {
+          "label": "54-year-old stage",
+          "ontology_term_id": "HsapDv:0000148"
+        },
+        {
+          "label": "55-year-old stage",
+          "ontology_term_id": "HsapDv:0000149"
+        },
+        {
+          "label": "56-year-old stage",
+          "ontology_term_id": "HsapDv:0000150"
+        },
+        {
+          "label": "57-year-old stage",
+          "ontology_term_id": "HsapDv:0000151"
+        },
+        {
+          "label": "58-year-old stage",
+          "ontology_term_id": "HsapDv:0000152"
+        },
+        {
+          "label": "59-year-old stage",
+          "ontology_term_id": "HsapDv:0000153"
+        },
+        {
+          "label": "60-year-old stage",
+          "ontology_term_id": "HsapDv:0000154"
+        },
+        {
+          "label": "61-year-old stage",
+          "ontology_term_id": "HsapDv:0000155"
+        },
+        {
+          "label": "62-year-old stage",
+          "ontology_term_id": "HsapDv:0000156"
+        },
+        {
+          "label": "63-year-old stage",
+          "ontology_term_id": "HsapDv:0000157"
+        },
+        {
+          "label": "64-year-old stage",
+          "ontology_term_id": "HsapDv:0000158"
+        },
+        {
+          "label": "65-year-old stage",
+          "ontology_term_id": "HsapDv:0000159"
+        },
+        {
+          "label": "66-year-old stage",
+          "ontology_term_id": "HsapDv:0000160"
+        },
+        {
+          "label": "67-year-old stage",
+          "ontology_term_id": "HsapDv:0000161"
+        },
+        {
+          "label": "68-year-old stage",
+          "ontology_term_id": "HsapDv:0000162"
+        },
+        {
+          "label": "69-year-old stage",
+          "ontology_term_id": "HsapDv:0000163"
+        },
+        {
+          "label": "70-year-old stage",
+          "ontology_term_id": "HsapDv:0000164"
+        },
+        {
+          "label": "71-year-old stage",
+          "ontology_term_id": "HsapDv:0000165"
+        },
+        {
+          "label": "72-year-old stage",
+          "ontology_term_id": "HsapDv:0000166"
+        },
+        {
+          "label": "74-year-old stage",
+          "ontology_term_id": "HsapDv:0000168"
+        },
+        {
+          "label": "76-year-old stage",
+          "ontology_term_id": "HsapDv:0000170"
+        },
+        {
+          "label": "77-year-old stage",
+          "ontology_term_id": "HsapDv:0000171"
+        },
+        {
+          "label": "78-year-old stage",
+          "ontology_term_id": "HsapDv:0000172"
+        },
+        {
+          "label": "80-year-old stage",
+          "ontology_term_id": "HsapDv:0000206"
+        },
+        {
+          "label": "83-year-old stage",
+          "ontology_term_id": "HsapDv:0000209"
+        },
+        {
+          "label": "adult stage",
+          "ontology_term_id": "HsapDv:0000258"
+        },
+        {
+          "label": "unknown",
+          "ontology_term_id": "unknown"
+        }
+      ],
+      "disease": [
+        {
+          "label": "glioblastoma",
+          "ontology_term_id": "MONDO:0018177"
+        }
+      ],
+      "donor_id": [
+        "PJ017",
+        "PJ018",
+        "PJ025",
+        "PJ032",
+        "PJ035",
+        "PJ048",
+        "MGH102",
+        "MGH105",
+        "MGH114",
+        "MGH115",
+        "MGH118",
+        "MGH124",
+        "MGH125",
+        "MGH126",
+        "MGH143",
+        "MGH101",
+        "MGH100",
+        "MGH104",
+        "MGH106",
+        "MGH110",
+        "MGH113",
+        "MGH121",
+        "MGH122",
+        "MGH128",
+        "MGH129",
+        "MGH136",
+        "MGH151",
+        "MGH152",
+        "MGH66",
+        "SF11644",
+        "SF11956",
+        "SF11979",
+        "GSM4141788",
+        "GSM4141789",
+        "GSM4141790",
+        "PW032",
+        "SF11159",
+        "SF11209",
+        "SF11215",
+        "SF11232",
+        "SF11247",
+        "S2",
+        "S1",
+        "S11",
+        "S12",
+        "S13",
+        "S15",
+        "S3",
+        "S5",
+        "S6",
+        "LWZ",
+        "PXC",
+        "YCM",
+        "ZBY",
+        "BT333",
+        "BT346",
+        "BT363",
+        "BT364",
+        "BT368",
+        "BT389",
+        "BT390",
+        "BT397",
+        "BT402",
+        "BT407",
+        "BT409",
+        "SM006",
+        "SM011",
+        "SM012",
+        "SM017",
+        "SM018",
+        "G1003",
+        "G620",
+        "G910",
+        "G945",
+        "G946",
+        "G967",
+        "G983",
+        "BT_S2",
+        "BT_S1",
+        "BT_S4",
+        "BT_S6",
+        "GBM1",
+        "GBM2",
+        "GBM3",
+        "GBM4",
+        "Pat13",
+        "Pat14",
+        "Pat6",
+        "Pat9",
+        "3182",
+        "3282",
+        "3295",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "ND1",
+        "ND2",
+        "ND3",
+        "ND4",
+        "ND5",
+        "ND6",
+        "ND7",
+        "ND8",
+        "R5",
+        "E10",
+        "E37",
+        "E39",
+        "E99",
+        "E100",
+        "PJ053",
+        "PW016-703",
+        "PW017-703",
+        "PW032-706",
+        "PW032-710",
+        "Pat9_Friedrich2021",
+        "Pat3_Friedrich2021",
+        "Pat13_Friedrich2021",
+        "Pat14_Friedrich2021",
+        "Pat2_Friedrich2021",
+        "Patient_1",
+        "Patient_2",
+        "Patient_3",
+        "Patient_4",
+        "ndGBM-01",
+        "ndGBM-02",
+        "ndGBM-03",
+        "ndGBM-04",
+        "ndGBM-05",
+        "ndGBM-06",
+        "ndGBM-07",
+        "ndGBM-08",
+        "ndGBM-09",
+        "ndGBM-10",
+        "ndGBM-11",
+        "rGBM-01",
+        "rGBM-02",
+        "rGBM-03",
+        "rGBM-04",
+        "rGBM-05",
+        "LB3612T",
+        "LB3771T",
+        "LB3836T",
+        "LB3851T",
+        "LB3854T",
+        "LB3865T",
+        "LB3915T",
+        "LB3931T",
+        "LB3933T",
+        "LB3941T",
+        "LB3963T",
+        "LB4034T",
+        "LB4038T",
+        "LB3667T",
+        "LB3853T",
+        "LB3864T",
+        "LB3869T",
+        "LB3872T",
+        "LB3914T",
+        "LB3944T",
+        "LB4003T",
+        "LB4006T",
+        "LB4024T",
+        "LB4075T",
+        "LB4112T",
+        "LB4117T",
+        "LB3018T",
+        "LB3871T",
+        "LB4015T",
+        "LB4059T",
+        "LB4101T",
+        "LB4130T",
+        "LB4143T",
+        "LB4180T",
+        "LB3579T",
+        "P234_JAK",
+        "P294",
+        "P317",
+        "P322",
+        "X154",
+        "X192",
+        "X194",
+        "JK124",
+        "JK125",
+        "JK126",
+        "JK134",
+        "JK136",
+        "JK142",
+        "JK152",
+        "JK153",
+        "JK156",
+        "JK163",
+        "SF10022",
+        "SF10127",
+        "SF4297",
+        "SF6996",
+        "SF9259R",
+        "SF9259S",
+        "G523",
+        "G549",
+        "G566",
+        "G583",
+        "G637",
+        "G729",
+        "G797",
+        "G799",
+        "G837",
+        "G851",
+        "NH16-2366",
+        "NH17-1245",
+        "NH17-1258",
+        "NH17-161",
+        "NH17-1953",
+        "NH17-2069",
+        "NH17-2680",
+        "NH17-442",
+        "NH18-1406",
+        "NH19-123",
+        "NH19-565",
+        "UP-8036",
+        "UP-8165",
+        "UP-8167",
+        "C3L-02705",
+        "C3L-03405",
+        "C3L-03968",
+        "C3N-00662",
+        "C3N-01334",
+        "C3N-01798",
+        "C3N-01814",
+        "C3N-01815",
+        "C3N-01816",
+        "C3N-02181",
+        "C3N-02188",
+        "C3N-02190",
+        "C3N-02769",
+        "C3N-02783",
+        "C3N-02784",
+        "C3N-03184",
+        "C3N-03186",
+        "C3N-03188"
+      ],
+      "embeddings": [
+        "X_umap"
+      ],
+      "explorer_url": "https://cellxgene.cziscience.com/e/56c4912d-2bae-4b64-98f2-af8a84389208.cxg/",
+      "feature_biotype": [
+        "gene"
+      ],
+      "feature_count": 25987,
+      "feature_reference": [
+        "NCBITaxon:9606"
+      ],
+      "genetic_perturbation_strategy": null,
+      "is_pre_analysis": false,
+      "is_primary_data": [
+        true,
+        false
+      ],
+      "mean_genes_per_cell": 2094.644849723997,
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "ontology_term_id": "NCBITaxon:9606"
+        }
+      ],
+      "perturbation_types": null,
+      "primary_cell_count": 1092789,
+      "published_at": "2022-08-29T21:50:26+00:00",
+      "raw_data_location": "raw.X",
+      "revised_at": "2026-06-11T16:54:03+00:00",
+      "schema_version": "7.1.0",
+      "self_reported_ethnicity": [
+        {
+          "label": "unknown",
+          "ontology_term_id": "unknown"
+        }
+      ],
+      "sex": [
+        {
+          "label": "female",
+          "ontology_term_id": "PATO:0000383"
+        },
+        {
+          "label": "male",
+          "ontology_term_id": "PATO:0000384"
+        },
+        {
+          "label": "unknown",
+          "ontology_term_id": "unknown"
+        }
+      ],
+      "spatial": null,
+      "suspension_type": [
+        "cell",
+        "nucleus"
+      ],
+      "tissue": [
+        {
+          "label": "basal ganglion",
+          "ontology_term_id": "UBERON:0002420",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "brain",
+          "ontology_term_id": "UBERON:0000955",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "forebrain",
+          "ontology_term_id": "UBERON:0001890",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "frontal lobe",
+          "ontology_term_id": "UBERON:0016525",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "left frontal lobe",
+          "ontology_term_id": "UBERON:0002811",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "left parietal lobe",
+          "ontology_term_id": "UBERON:0002802",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "left temporal lobe",
+          "ontology_term_id": "UBERON:0002808",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "occipital lobe",
+          "ontology_term_id": "UBERON:0002021",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "parietal lobe",
+          "ontology_term_id": "UBERON:0001872",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "right frontal lobe",
+          "ontology_term_id": "UBERON:0002810",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "right occipital lobe",
+          "ontology_term_id": "UBERON:0002807",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "right parietal lobe",
+          "ontology_term_id": "UBERON:0002803",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "right temporal lobe",
+          "ontology_term_id": "UBERON:0002809",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "temporal lobe",
+          "ontology_term_id": "UBERON:0001871",
+          "tissue_type": "tissue"
+        },
+        {
+          "label": "temporoparietal junction",
+          "ontology_term_id": "UBERON:0023852",
+          "tissue_type": "tissue"
+        }
+      ],
+      "title": "Extended GBmap",
+      "tombstone": false,
+      "x_approximate_distribution": "COUNT"
+    }
+  ],
+  "description": "To resolve the composition of the tumor milieu and recreate the cellular map of glioblastoma, isocitrate dehydrogenase (IDH)-wildtype (GB), we created the \u2018GBmap\u2019, a curated resource that at its core harmonizes 16 datasets gathering 110 patients and spanning over 330 thousand cells. By transfer learning, we \u2018upgraded\u2019 our atlas reference (extended GBmap) with another ten datasets, including our own profiled GB tissues resulting in a collection of 26 studies, 240 patients, and more than 1.1 million cells.",
+  "doi": "10.1101/2022.08.27.505439",
+  "is_pre_analysis": false,
+  "links": [
+    {
+      "link_name": "",
+      "link_type": "OTHER",
+      "link_url": "https://zenodo.org/record/6962901#.YwzPKezMLDA"
+    },
+    {
+      "link_name": "",
+      "link_type": "OTHER",
+      "link_url": "https://github.com/ccruizm/GBmap"
+    }
+  ],
+  "name": "Harmonized single-cell landscape, intercellular crosstalk and tumor architecture of glioblastoma",
+  "published_at": "2022-08-29T21:50:26+00:00",
+  "publisher_metadata": {
+    "authors": [
+      {
+        "family": "Ruiz-Moreno",
+        "given": "Cristian"
+      },
+      {
+        "family": "Salas",
+        "given": "Sergio Marco"
+      },
+      {
+        "family": "Samuelsson",
+        "given": "Erik"
+      },
+      {
+        "family": "Brandner",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Kranendonk",
+        "given": "Mariette E.G."
+      },
+      {
+        "family": "Nilsson",
+        "given": "Mats"
+      },
+      {
+        "family": "Stunnenberg",
+        "given": "Hendrik G."
+      }
+    ],
+    "is_preprint": true,
+    "journal": "bioRxiv",
+    "published_at": 1661558400.0,
+    "published_day": 27,
+    "published_month": 8,
+    "published_year": 2022
+  },
+  "revised_at": "2026-06-11T16:54:03+00:00",
+  "revising_in": null,
+  "revision_of": null,
+  "visibility": "PUBLIC"
+}

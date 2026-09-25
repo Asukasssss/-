@@ -1,0 +1,18 @@
+{
+  "version": "gbm_sc_source_v1b",
+  "code_commit": "1261f3ef670362ceb3510aabb6e05d8a9593afe9",
+  "minimum_cells_per_donor_category": 20,
+  "minimum_distinct_source_donors_per_category": 3,
+  "minimum_categories_for_ranking": 2,
+  "minimum_detection_for_rank": 0.01,
+  "bootstrap": 1000,
+  "master_seed": 20260925,
+  "bootstrap_unit": "whole source donor;duplicate draws are weights,not new donors;at least3 distinct eligible original labels per category in each draw",
+  "normalization": "log1p(10000*counts/full_retained_raw_gene_library);not UMI for Smartseq",
+  "gene_match": "exact unique gene symbol to source Ensembl;missing kept",
+  "cell_annotation": "Darmanis author classes standardized by curator;Neftel GBmap reannotation",
+  "scope": "all candidate142 genes;coarse category descriptive sources;original tissue regions retained and flagged;no subtype mechanism inference",
+  "P_q": "NA;no tests",
+  "known_overlap_removed": "only author=Neftel2019 selected from GBmap;Darmanis2017 part of GBmap excluded",
+  "independence_limit": "different source studies;cross-publication patient alias equivalence not independently verified"
+}

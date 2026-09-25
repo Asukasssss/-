@@ -1,0 +1,40 @@
+{
+  "status": "DONE",
+  "candidate_genes": 142,
+  "studies": [
+    {
+      "study": "Darmanis2017",
+      "cells": 3589,
+      "source_donor_labels": 4,
+      "gene_library_size": 22124,
+      "genes_measured": 140,
+      "candidate_genes": 142,
+      "nonnegative_integer_input": true,
+      "normalization": "log1p(10000*gene_count/full_retained_gene_library);Smartseq_read_counts_not_UMI",
+      "annotation_origin": "author_clusters_standardized_by_CELLxGENE",
+      "source_group": "root",
+      "source_tissue_scope": "GBM tumors plus original sampled margins;not healthy donor reference"
+    },
+    {
+      "study": "Neftel2019",
+      "cells": 19030,
+      "source_donor_labels": 23,
+      "gene_library_size": 27632,
+      "genes_measured": 137,
+      "candidate_genes": 142,
+      "nonnegative_integer_input": true,
+      "normalization": "log1p(10000*gene_count/full_retained_gene_library);Smartseq_read_counts_not_UMI",
+      "annotation_origin": "GBmap_harmonized_reannotation_of_Neftel2019",
+      "source_group": "raw/",
+      "source_tissue_scope": "GBM tumors plus original sampled margins;not healthy donor reference"
+    }
+  ],
+  "eligible_profile_rows": 968,
+  "evaluable_rank_rows": 233,
+  "same_top_all": 45,
+  "shared_top_same": 96,
+  "no_P_q_tests": true,
+  "full_gene_library_normalization": true,
+  "donor_equal_weighting": true,
+  "all_genes_retained": true
+}

@@ -1,0 +1,50 @@
+{
+  "name": "quake-gbm",
+  "fileVersions": {
+    "inMatrix": {
+      "fname": "/hive/users/max/projects/czi/publicData/quake-gbm/GBM_raw_gene_counts.tsv",
+      "md5": "590e4bf020",
+      "size": 178369797,
+      "mtime": "2019-04-30 23:20:41"
+    },
+    "outMatrix": {
+      "fname": "/usr/local/apache/htdocs-cells/quake-gbm/exprMatrix.tsv.gz",
+      "md5": "5e79461116",
+      "size": 20240535,
+      "mtime": "2019-05-30 18:18:43"
+    },
+    "inMeta": {
+      "fname": "/hive/data/inside/cells/datasets/quake-gbm/meta.cell_types.tsv",
+      "md5": "0eb288bd5d",
+      "size": 751345,
+      "mtime": "2020-02-28 19:07:04"
+    },
+    "colors:__default__": {
+      "fname": "/hive/data/inside/cells/datasets/quake-gbm/colors.tsv",
+      "md5": "43ade80c79",
+      "size": 665,
+      "mtime": "2020-03-11 18:41:19"
+    },
+    "outMeta": {
+      "fname": "/usr/local/apache/htdocs-cells/quake-gbm/meta.tsv",
+      "md5": "2fdbc2c367",
+      "size": 697283,
+      "mtime": "2024-07-30 21:58:34"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "e6e34f75b9",
+      "size": 2502,
+      "mtime": "2019-05-20 15:59:05"
+    },
+    "conf": {
+      "fname": "/hive/data/inside/cells/datasets/quake-gbm/cellbrowser.conf",
+      "md5": "4bc2432bb7",
+      "size": 835,
+      "mtime": "2024-07-30 21:58:29"
+    }
+  },
+  "matrixArrType": "Uint32",
+  "sampleCount": 3588,
+  "matrixWasFiltered": false
+}

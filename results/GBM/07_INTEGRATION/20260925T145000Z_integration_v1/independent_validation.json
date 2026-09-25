@@ -1,0 +1,22 @@
+{
+  "status": "DONE",
+  "public_tables_checked": 50,
+  "no_identifier_columns": true,
+  "relation_keys_unique": true,
+  "gene_keys_unique": true,
+  "join_no_expansion": true,
+  "independent_BH_families": 8,
+  "max_BH_error": 1.2809198146612744e-14,
+  "workbook_row_counts_verified": true,
+  "figure_page1_visually_checked": true,
+  "sc_independent_validation": {
+    "status": "DONE",
+    "donor_equal_mean_rows_checked": 968,
+    "max_mean_error": 2.220446049250313e-16,
+    "detection_mean_checked": true,
+    "all142_genes_retained": true,
+    "bootstrap_frequencies_bounded": true,
+    "no_patient_cell_rows_in_public_profiles": true
+  },
+  "remaining_scientific_scope": "457 work features await precise mapping;3 RNA symbols unmeasured by exact name;no functional intervention evidence"
+}

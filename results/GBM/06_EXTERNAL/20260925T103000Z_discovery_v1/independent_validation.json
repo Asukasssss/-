@@ -1,0 +1,9 @@
+{
+  "status": "DONE",
+  "donor_equal_mean_rows_checked": 968,
+  "max_mean_error": 2.220446049250313e-16,
+  "detection_mean_checked": true,
+  "all142_genes_retained": true,
+  "bootstrap_frequencies_bounded": true,
+  "no_patient_cell_rows_in_public_profiles": true
+}

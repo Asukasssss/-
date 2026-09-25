@@ -1,0 +1,37 @@
+# GBM首轮分析交付
+
+## 本轮问题
+沿用BRCA的发现→直接映射→肿瘤内关联/RNA背景→全候选单细胞来源→整合主线。
+
+## 输入与范围
+74个肿瘤和6个非配对正常作者病例。原CAMP统计保留。正常来自GTEx，不做伪配对。713个输入特征均有记录；697个可比较，P<0.05工作池480个。
+
+## 实际结果
+- 当前完整代谢特征族q<0.05：460；与冻结的589化学键癌种表分开。
+- 已复用审定证据映射23特征、171直接关系、142基因。457特征待补映射，其中423为脂质；本轮不是穷尽数据库映射。
+- 肿瘤内168关系可评估，14条P<0.05，0条q<0.05。最小P关系SHMT1—serine：rho=-0.3952，P=0.0006，q=0.1008。
+- RNA 139基因可评估，85个P<0.05、75个q<0.05；G6PC1、GBA1、SLC60A2没有精确名称匹配，保留不可评估。
+- 单细胞Darmanis2017：3589细胞、4供者标签、测到140候选；Neftel2019（GBmap再注释）：19030细胞、23供者标签、测到137候选。
+- 两研究各自全类别最高来源一致45/110；仅共同可评估的Myeloid/Neoplastic两类比较为96/105。后者类别更少，不能据此夸大跨研究一致性。
+
+## 新手解释
+RNA在肿瘤和正常之间不同，不代表它与对应代谢物在肿瘤内部显著相关。当前GBM没有代谢物—RNA关系通过FDR，14条只能作为探索线索。所有142基因保留，不按关联显著性筛掉。单细胞回答表达在哪里，不证明代谢物来源、酶活或功能。
+
+## 限制/反证
+6个正常样本的processed sampleanno标签与主映射冲突，已由固定版本CPTAC读取包明确组织定义佐证主映射；原文件不改、旧冲突审计保留。样本不是肿瘤—癌旁配对，GTEx来源混杂仍在；RNA用log2(TPM+1)Welch及年龄性别HC3，是探索性连续表达背景，不是原始counts差异模型。缺失掩码仅称作者可用值。功能与外部代谢复现未开展；单细胞跨研究患者别名未独立核实。
+
+## 当前决定
+交付当前已映射范围的完整结果。保留全480工作特征及457待映射清单，不把未映射当无生物学关系。14条相关均不升级为FDR支持机制。
+
+## 下一步
+优先补齐未映射明确小分子与脂质精确底物证据；经稳定ID核实3个RNA旧名后另建版本。新增关系必须对新全族重新BH，不能照抄本版q。
+
+## 复现
+服务器路径：/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/GBM/A/20260925T103000Z_discovery_v1/。按code中的gbm_discovery_v1.py、gbm_mapping_v1.py、gbm_patient_v1.py、gbm_identity_RNA_v2.py、gbm_extract_sc_v1.py、gbm_sc_source_v1.py、gbm_integrate_v1.py顺序；新目录、独占锁、输入SHA与各阶段参数见source_manifest/analysis_spec。无原始质谱下载，患者级矩阵与单细胞明细只留server165。
+
+## 文件
+- GBM_全候选分析_142基因171关系.xlsx：导师讨论用完整工作簿。
+- candidate_relations_integrated.tsv、candidate_genes_integrated.tsv：关系级和基因级完整表。
+- figures/：全142基因点图（3页）与热图；14名义关系的CI图。
+
+当前交付目录：results\GBM\07_INTEGRATION\20260925T145000Z_integration_v1
