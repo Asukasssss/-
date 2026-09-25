@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "unique_exact_symbol": true,
+  "cell_counts_match_prior": true,
+  "independent_rank_U_and_P": "PASS",
+  "figure_review": "PASS"
+}

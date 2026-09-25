@@ -1,0 +1,17 @@
+{
+  "unit": "pooled_cell",
+  "gene": "SLC6A6",
+  "normalization": "log1p(CP10k), float64",
+  "test": "two-sided Mann-Whitney asymptotic, tie and continuity corrected",
+  "family_n": 1,
+  "donor_adjustment": false,
+  "source_annotation": "Wu2021_author_celltype_major_via_CELLxGENE",
+  "CI": "NOT_RUN",
+  "software": {
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "pandas": "1.5.3"
+  },
+  "limitation": "Cells within a donor are dependent; P is exploratory and can be anticonservative; no patient inference",
+  "parent_commit": "85d7bbfc670911a47ee25e9a770e0d28355f20aa"
+}
