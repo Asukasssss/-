@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "contrast": "CNA_vs_CNN_in_tumor",
+      "n": 9,
+      "independent_sign_probability": 0.1796875,
+      "status": "PASS"
+    },
+    {
+      "contrast": "CNA_vs_normal_reference",
+      "n": 9,
+      "independent_sign_probability": 0.1796875,
+      "status": "PASS"
+    },
+    {
+      "contrast": "CNN_vs_normal_reference",
+      "n": 10,
+      "independent_sign_probability": 1.0,
+      "status": "PASS"
+    }
+  ],
+  "independent_BH": "statsmodels fdr_bh",
+  "paired_effect_and_sign_counts_recomputed": true,
+  "patient_values_stayed_on_server": true
+}

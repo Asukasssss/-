@@ -1,4 +1,8 @@
-# 最新：四组关系的证据分层展示已完成
+# 最新：UCKL1作者拷贝数状态分层比较已完成
+
+[UCKL1分层比较报告](../../results/COAD/06_EXTERNAL/20260925T140257Z_uckl1_cna_v1/README_CN.md)：Uhlitz原作者CNA/CNN调用已接回现有细胞矩阵。排除一位供者的来源编号冲突后，CNA上皮相对肿瘤CNN上皮及正常组织参照均有7/9位患者较高，两项P=0.1796875、三项比较BH q=0.26953125。CNN不能认作已证实非恶性，尚不能宣布恶性上皮显著上调。新增统计仅属于UCKL1本次分层问题；原CAMP、全候选及旧单细胞结果保留。服务器数值和独立算术核验均完成。
+
+# 四组关系的证据分层展示已完成
 
 [四组重点报告](../../results/COAD/07_INTEGRATION/20260923T062640Z_four_questions_v1/README_CN.md)与[五基因单细胞表达图](../../results/COAD/07_INTEGRATION/20260923T062640Z_four_questions_v1/focus_source_five_genes.png)使用现有汇总，组织为UCKL1—尿苷、NNMT—1-MNA/SAM、HDC—组胺及GSTA4/CLIC2—GSH四组问题。没有新增患者或单细胞统计，也没有对基因重新排名；当前891条关系仍无q<0.05，旧674条协变量结果仅按旧范围引用。完整候选和历史9/21/5安排保留。
 

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "code/coad/run_uckl1_cna_v1.py",
+    "sha256": "3d58706e46b882c8c75e20bc6d4ec0508858dacb802952d43f180081fbe92cb7"
+  },
+  {
+    "path": "code/coad/check_uckl1_cna_v1.py",
+    "sha256": "07e3b6ad3ed886c962327a6e1028790ba7834b77ddd89b0085928a9dbebec5b9"
+  },
+  {
+    "path": "code/coad/report_uckl1_cna_v1.py",
+    "sha256": "03b2caaa8282872733d92280392ea71383f20b0d3a34e6c258aa56042161a1c9"
+  }
+]

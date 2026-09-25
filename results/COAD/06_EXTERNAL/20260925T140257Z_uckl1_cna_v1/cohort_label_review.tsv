@@ -1,0 +1,5 @@
+study	status	label	decision
+Uhlitz	DONE	author CNA/CNN	CNA stratified comparisons; CNN not proven nonmalignant; one donor excluded for source_id conflict
+Lee	NEEDS_REVIEW	Cell_type; Cell_subtype (CMS and epithelial states)	Existing source annotation does not suffice for confirmed malignancy; no new classification
+Pelka	NEEDS_REVIEW	clTopLevel; clMidway; clFull	Existing synchronized labels are cell states, not independently verified malignancy calls
+Khaliq	NOT_RUN	NA	No new malignancy-label audit in this batch
