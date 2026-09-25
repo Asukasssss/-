@@ -1,0 +1,12 @@
+{
+  "status": "PARTIAL",
+  "workpool_features": 480,
+  "mapped_features": 23,
+  "direct_relations": 171,
+  "unique_genes": 142,
+  "unmapped_features": 457,
+  "unique_relation_keys": true,
+  "unique_gene_ids": true,
+  "statistics_reused_from_other_cancers": false,
+  "normal_discovery_conflict_unresolved": true
+}

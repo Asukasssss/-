@@ -1,0 +1,10 @@
+{
+  "version": "gbm_mapping_v1",
+  "join": [
+    "exact_outer_trimmed_name",
+    "exact_chemical_key"
+  ],
+  "pool": "all480 conditional discovery P005 features",
+  "review_scope": "reuse published BRCA PRAD COAD PDAC direct biochemical annotations only;not exhaustive new database mapping",
+  "stable_identity_priority": "COAD explicit hsa gene ID then PRAD HGNC then source UniProt;exact gene symbols;no expression-based resolution"
+}
