@@ -7,17 +7,19 @@ from scipy.stats import hypergeom
 
 ROOT=Path('/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716')
 PRIOR=ROOT/'results/collaborative/COAD/B/20260925T153907Z_lypla1_fc025_v3/public'
-ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);ap.add_argument('--commit',required=True);a=ap.parse_args()
+ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);ap.add_argument('--commit',required=True);ap.add_argument('--cached-sources',action='store_true');a=ap.parse_args()
 out=a.out;pub=out/'public'
 assert out.parent==ROOT/'results/collaborative/COAD/B' and (out/'.running').is_dir() and len(a.commit)==40
-pub.mkdir();src=out/'sources';src.mkdir()
+pub.mkdir(exist_ok=a.cached_sources);src=out/'sources';src.mkdir(exist_ok=a.cached_sources)
+if a.cached_sources:assert not (pub/'kegg_ORA.tsv').exists(), 'Do not overwrite computed results'
 manifest=[]
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 for key,url in [('pathways','https://rest.kegg.jp/list/pathway/hsa'),('genes','https://rest.kegg.jp/list/hsa'),('links','https://rest.kegg.jp/link/pathway/hsa'),('hierarchy','https://rest.kegg.jp/get/br:br08901/json'),('release','https://rest.kegg.jp/info/kegg')]:
     p=src/(key+'.txt')
-    subprocess.run(['curl','--fail','--location','--retry','2','--max-time','120','-A','COAD-academic-analysis/1.0',url,'-o',str(p)],check=True)
+    if not a.cached_sources:
+        subprocess.run(['curl','--fail','--location','--retry','2','--max-time','120','-A','COAD-academic-analysis/1.0',url,'-o',str(p)],check=True)
     assert p.stat().st_size>100
-    manifest.append(dict(source_id=key,source_path=str(p),url=url,sha256=sha(p),retrieved_utc=datetime.datetime.now(datetime.timezone.utc).isoformat()))
+    manifest.append(dict(source_id=key,source_path=str(p),url=url,sha256=sha(p),retrieved_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),transport='local memory to server SFTP' if a.cached_sources else 'server HTTPS'))
     time.sleep(1)
 d=pd.read_csv(PRIOR/'results.tsv',sep='\t')
 assert len(d)==11058 and d.gene.is_unique and 'LYPLA1' not in set(d.gene)
@@ -70,6 +72,7 @@ pd.DataFrame(mapping).assign(kegg_gene=m.kegg_gene,status=m.status,in_any_pathwa
 catalog.to_csv(pub/'pathway_coverage.tsv',sep='\t',index=False)
 with (out/'kegg_tested.gmt').open('w') as f:
     for k in sorted(eligible):f.write('\t'.join([k,titles[k]]+sorted(sets[k]))+'\n')
+pd.DataFrame([dict(pathway_id=k,gene=g) for k in sorted(eligible) for g in sorted(sets[k])]).to_csv(pub/'tested_pathway_members.tsv',sep='\t',index=False)
 # Primary follows the previous all-tested-gene background; annotation-restricted
 # sensitivity is reported alongside it, never selected by the smaller P.
 rows=[]
