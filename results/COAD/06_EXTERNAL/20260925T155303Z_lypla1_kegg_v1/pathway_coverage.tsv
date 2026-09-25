@@ -1,0 +1,373 @@
+pathway_id	pathway	source_gene_count	tested_gene_count	status	reason	lipid_metabolism	classification
+hsa00010	Glycolysis / Gluconeogenesis	67	44	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00020	Citrate cycle (TCA cycle)	30	26	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00030	Pentose phosphate pathway	31	23	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00040	Pentose and glucuronate interconversions	37	14	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00051	Fructose and mannose metabolism	36	26	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00052	Galactose metabolism	32	24	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00053	Ascorbate and aldarate metabolism	31	9	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00061	Fatty acid biosynthesis	18	13	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	True	br08901 > Metabolism > Lipid metabolism
+hsa00062	Fatty acid elongation	28	19	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00071	Fatty acid degradation	43	32	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00100	Steroid biosynthesis	20	15	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00120	Primary bile acid biosynthesis	17	9	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	True	br08901 > Metabolism > Lipid metabolism
+hsa00130	Ubiquinone and other terpenoid-quinone biosynthesis	12	9	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00140	Steroid hormone biosynthesis	66	17	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00190	Oxidative phosphorylation	138	101	DONE	ELIGIBLE	False	br08901 > Metabolism > Energy metabolism
+hsa00220	Arginine biosynthesis	23	14	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Amino acid metabolism
+hsa00230	Purine metabolism	128	81	DONE	ELIGIBLE	False	br08901 > Metabolism > Nucleotide metabolism
+hsa00232	Caffeine metabolism	6	3	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Biosynthesis of other secondary metabolites
+hsa00240	Pyrimidine metabolism	59	42	DONE	ELIGIBLE	False	br08901 > Metabolism > Nucleotide metabolism
+hsa00250	Alanine, aspartate and glutamate metabolism	37	20	DONE	ELIGIBLE	False	br08901 > Metabolism > Amino acid metabolism
+hsa00260	Glycine, serine and threonine metabolism	41	20	DONE	ELIGIBLE	False	br08901 > Metabolism > Amino acid metabolism
+hsa00270	Cysteine and methionine metabolism	54	36	DONE	ELIGIBLE	False	br08901 > Metabolism > Amino acid metabolism
+hsa00280	Valine, leucine and isoleucine degradation	48	41	DONE	ELIGIBLE	False	br08901 > Metabolism > Amino acid metabolism
+hsa00290	Valine, leucine and isoleucine biosynthesis	4	2	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Amino acid metabolism
+hsa00310	Lysine degradation	64	52	DONE	ELIGIBLE	False	br08901 > Metabolism > Amino acid metabolism
+hsa00330	Arginine and proline metabolism	50	34	DONE	ELIGIBLE	False	br08901 > Metabolism > Amino acid metabolism
+hsa00340	Histidine metabolism	22	13	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Amino acid metabolism
+hsa00350	Tyrosine metabolism	37	16	DONE	ELIGIBLE	False	br08901 > Metabolism > Amino acid metabolism
+hsa00360	Phenylalanine metabolism	16	8	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Amino acid metabolism
+hsa00380	Tryptophan metabolism	42	26	DONE	ELIGIBLE	False	br08901 > Metabolism > Amino acid metabolism
+hsa00400	Phenylalanine, tyrosine and tryptophan biosynthesis	6	2	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Amino acid metabolism
+hsa00410	beta-Alanine metabolism	31	20	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of other amino acids
+hsa00430	Taurine and hypotaurine metabolism	17	6	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of other amino acids
+hsa00440	Phosphonate and phosphinate metabolism	6	5	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of other amino acids
+hsa00450	Selenocompound metabolism	17	11	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of other amino acids
+hsa00470	D-Amino acid metabolism	6	2	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of other amino acids
+hsa00480	Glutathione metabolism	59	37	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of other amino acids
+hsa00500	Starch and sucrose metabolism	36	23	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00510	N-Glycan biosynthesis	57	46	DONE	ELIGIBLE	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00511	Other glycan degradation	18	15	DONE	ELIGIBLE	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00512	Mucin type O-glycan biosynthesis	36	21	DONE	ELIGIBLE	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00513	Various types of N-glycan biosynthesis	45	35	DONE	ELIGIBLE	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00514	Other types of O-glycan biosynthesis	49	32	DONE	ELIGIBLE	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00515	Mannose type O-glycan biosynthesis	23	13	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00520	Amino sugar and nucleotide sugar metabolism	38	30	DONE	ELIGIBLE	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00524	Neomycin, kanamycin and gentamicin biosynthesis	5	3	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Biosynthesis of other secondary metabolites
+hsa00531	Glycosaminoglycan degradation	19	12	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00532	Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	21	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00533	Glycosaminoglycan biosynthesis - keratan sulfate	14	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00534	Glycosaminoglycan biosynthesis - heparan sulfate / heparin	24	11	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00541	Biosynthesis of various nucleotide sugars	20	17	DONE	ELIGIBLE	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00561	Glycerolipid metabolism	66	43	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00562	Inositol phosphate metabolism	78	64	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00563	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	30	21	DONE	ELIGIBLE	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00564	Glycerophospholipid metabolism	105	67	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00565	Ether lipid metabolism	52	27	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00590	Arachidonic acid metabolism	64	32	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00591	Linoleic acid metabolism	31	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	True	br08901 > Metabolism > Lipid metabolism
+hsa00592	alpha-Linolenic acid metabolism	27	13	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	True	br08901 > Metabolism > Lipid metabolism
+hsa00600	Sphingolipid metabolism	55	39	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa00601	Glycosphingolipid biosynthesis - lacto and neolacto series	28	13	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00603	Glycosphingolipid biosynthesis - globo and isoglobo series	16	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00604	Glycosphingolipid biosynthesis - ganglio series	15	7	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Glycan biosynthesis and metabolism
+hsa00620	Pyruvate metabolism	50	38	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00630	Glyoxylate and dicarboxylate metabolism	31	23	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00640	Propanoate metabolism	32	26	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00650	Butanoate metabolism	27	17	DONE	ELIGIBLE	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00660	C5-Branched dibasic acid metabolism	2	1	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Carbohydrate metabolism
+hsa00670	One carbon pool by folate	39	21	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00730	Thiamine metabolism	15	8	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00740	Riboflavin metabolism	8	7	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00750	Vitamin B6 metabolism	6	3	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00760	Nicotinate and nicotinamide metabolism	38	23	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00770	Pantothenate and CoA biosynthesis	21	15	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00780	Biotin metabolism	3	3	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00785	Lipoic acid metabolism	19	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00790	Folate biosynthesis	28	17	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00830	Retinol metabolism	69	20	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00860	Porphyrin metabolism	46	22	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of cofactors and vitamins
+hsa00900	Terpenoid backbone biosynthesis	24	21	DONE	ELIGIBLE	False	br08901 > Metabolism > Metabolism of terpenoids and polyketides
+hsa00910	Nitrogen metabolism	17	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Energy metabolism
+hsa00920	Sulfur metabolism	10	8	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Energy metabolism
+hsa00970	Aminoacyl-tRNA biosynthesis	506	37	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Translation
+hsa00980	Metabolism of xenobiotics by cytochrome P450	79	24	DONE	ELIGIBLE	False	br08901 > Metabolism > Xenobiotics biodegradation and metabolism
+hsa00982	Drug metabolism - cytochrome P450	73	19	DONE	ELIGIBLE	False	br08901 > Metabolism > Xenobiotics biodegradation and metabolism
+hsa00983	Drug metabolism - other enzymes	82	38	DONE	ELIGIBLE	False	br08901 > Metabolism > Xenobiotics biodegradation and metabolism
+hsa01040	Biosynthesis of unsaturated fatty acids	27	19	DONE	ELIGIBLE	True	br08901 > Metabolism > Lipid metabolism
+hsa01100	Metabolic pathways	1589	1015	NOT_EVALUABLE	GLOBAL_OVERVIEW_MAP	False	br08901 > Metabolism > Global and overview maps
+hsa01200	Carbon metabolism	116	86	NOT_EVALUABLE	GLOBAL_OVERVIEW_MAP	False	br08901 > Metabolism > Global and overview maps
+hsa01210	2-Oxocarboxylic acid metabolism	33	24	NOT_EVALUABLE	GLOBAL_OVERVIEW_MAP	False	br08901 > Metabolism > Global and overview maps
+hsa01212	Fatty acid metabolism	57	45	NOT_EVALUABLE	GLOBAL_OVERVIEW_MAP	False	br08901 > Metabolism > Global and overview maps
+hsa01230	Biosynthesis of amino acids	75	51	NOT_EVALUABLE	GLOBAL_OVERVIEW_MAP	False	br08901 > Metabolism > Global and overview maps
+hsa01232	Nucleotide metabolism	85	64	NOT_EVALUABLE	GLOBAL_OVERVIEW_MAP	False	br08901 > Metabolism > Global and overview maps
+hsa01240	Biosynthesis of cofactors	154	99	NOT_EVALUABLE	GLOBAL_OVERVIEW_MAP	False	br08901 > Metabolism > Global and overview maps
+hsa01250	Biosynthesis of nucleotide sugars	37	32	NOT_EVALUABLE	GLOBAL_OVERVIEW_MAP	False	br08901 > Metabolism > Global and overview maps
+hsa01320	Sulfur cycle	2	1	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Metabolism > Global and overview maps
+hsa01521	EGFR tyrosine kinase inhibitor resistance	80	59	DONE	ELIGIBLE	False	br08901 > Human Diseases > Drug resistance: antineoplastic
+hsa01522	Endocrine resistance	99	70	DONE	ELIGIBLE	False	br08901 > Human Diseases > Drug resistance: antineoplastic
+hsa01523	Antifolate resistance	30	21	DONE	ELIGIBLE	False	br08901 > Human Diseases > Drug resistance: antineoplastic
+hsa01524	Platinum drug resistance	75	53	DONE	ELIGIBLE	False	br08901 > Human Diseases > Drug resistance: antineoplastic
+hsa02010	ABC transporters	45	22	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Membrane transport
+hsa03008	Ribosome biogenesis in eukaryotes	184	71	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Translation
+hsa03010	Ribosome	229	164	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Translation
+hsa03013	Nucleocytoplasmic transport	108	95	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Translation
+hsa03015	mRNA surveillance pathway	103	75	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Translation
+hsa03018	RNA degradation	78	67	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Folding, sorting and degradation
+hsa03020	RNA polymerase	34	30	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Transcription
+hsa03022	Basal transcription factors	44	33	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Transcription
+hsa03030	DNA replication	36	31	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Replication and repair
+hsa03040	Spliceosome	243	133	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Transcription
+hsa03050	Proteasome	46	39	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Folding, sorting and degradation
+hsa03060	Protein export	31	27	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Folding, sorting and degradation
+hsa03082	ATP-dependent chromatin remodeling	117	93	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Chromosome
+hsa03083	Polycomb repressive complex	83	72	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Chromosome
+hsa03250	Viral life cycle - HIV-1	73	47	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03260	Virion - Human immunodeficiency virus	5	1	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03264	Virion - Flavivirus and Alphavirus	6	2	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03265	Virion - Ebolavirus, Lyssavirus and Morbillivirus	12	4	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03266	Virion - Herpesvirus	9	4	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03267	Virion - Adenovirus	4	2	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03271	Virion - Rotavirus	2	2	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03272	Virion - Hepatitis viruses	48	33	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03273	Virion - Lassa virus and SFTS virus	17	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Information processing in viruses
+hsa03320	PPAR signaling pathway	77	48	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa03410	Base excision repair	44	40	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Replication and repair
+hsa03420	Nucleotide excision repair	63	52	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Replication and repair
+hsa03430	Mismatch repair	23	19	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Replication and repair
+hsa03440	Homologous recombination	41	32	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Replication and repair
+hsa03450	Non-homologous end-joining	13	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Replication and repair
+hsa03460	Fanconi anemia pathway	54	41	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Replication and repair
+hsa04010	MAPK signaling pathway	301	197	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04012	ErbB signaling pathway	86	63	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04014	Ras signaling pathway	239	133	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04015	Rap1 signaling pathway	212	130	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04020	Calcium signaling pathway	254	104	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04022	cGMP-PKG signaling pathway	166	91	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04024	cAMP signaling pathway	226	106	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04060	Cytokine-cytokine receptor interaction	298	91	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04061	Viral protein interaction with cytokine and cytokine receptor	100	32	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04062	Chemokine signaling pathway	193	104	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04064	NF-kappa B signaling pathway	105	72	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04066	HIF-1 signaling pathway	110	76	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04068	FoxO signaling pathway	133	95	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04070	Phosphatidylinositol signaling system	98	75	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04071	Sphingolipid signaling pathway	125	85	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04072	Phospholipase D signaling pathway	149	89	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04080	Neuroactive ligand-receptor interaction	371	60	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04081	Hormone signaling	219	69	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04082	Neuroactive ligand signaling	199	47	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04110	Cell cycle	158	140	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04114	Oocyte meiosis	138	85	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04115	p53 signaling pathway	75	69	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04120	Ubiquitin mediated proteolysis	142	127	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Folding, sorting and degradation
+hsa04122	Sulfur relay system	8	7	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Genetic Information Processing > Folding, sorting and degradation
+hsa04130	SNARE interactions in vesicular transport	33	28	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Folding, sorting and degradation
+hsa04136	Autophagy - other	32	26	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Transport and catabolism
+hsa04137	Mitophagy - animal	105	87	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Transport and catabolism
+hsa04140	Autophagy - animal	169	141	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Transport and catabolism
+hsa04141	Protein processing in endoplasmic reticulum	175	154	DONE	ELIGIBLE	False	br08901 > Genetic Information Processing > Folding, sorting and degradation
+hsa04142	Lysosome biogenesis	250	189	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Transport and catabolism
+hsa04144	Endocytosis	250	199	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Transport and catabolism
+hsa04145	Phagocytosis	260	153	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Transport and catabolism
+hsa04146	Peroxisome	83	63	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Transport and catabolism
+hsa04148	Efferocytosis	158	100	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Transport and catabolism
+hsa04150	mTOR signaling pathway	158	115	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04151	PI3K-Akt signaling pathway	362	200	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04152	AMPK signaling pathway	122	86	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04156	Integrated stress response (ISR) signaling pathway	72	47	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04210	Apoptosis	138	109	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04211	Longevity regulating pathway	90	68	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Aging
+hsa04213	Longevity regulating pathway - multiple species	62	46	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Aging
+hsa04215	Apoptosis - multiple species	32	26	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04216	Ferroptosis	42	31	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04217	Necroptosis	168	105	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04218	Cellular senescence	157	127	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell growth and death
+hsa04260	Cardiac muscle contraction	87	44	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Circulatory system
+hsa04261	Adrenergic signaling in cardiomyocytes	154	81	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Circulatory system
+hsa04270	Vascular smooth muscle contraction	135	72	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Circulatory system
+hsa04310	Wnt signaling pathway	178	114	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04330	Notch signaling pathway	63	47	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04340	Hedgehog signaling pathway	56	33	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04350	TGF-beta signaling pathway	110	73	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04360	Axon guidance	184	116	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Development and regeneration
+hsa04370	VEGF signaling pathway	60	43	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04371	Apelin signaling pathway	140	79	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04380	Osteoclast differentiation	142	81	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Development and regeneration
+hsa04382	Cornified envelope formation	217	96	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Development and regeneration
+hsa04390	Hippo signaling pathway	157	104	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04392	Hippo signaling pathway - multiple species	29	20	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04510	Focal adhesion	203	135	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cellular community - eukaryotes
+hsa04512	ECM-receptor interaction	89	43	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04514	Cell adhesion molecule (CAM) interaction	160	59	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04517	IgSF CAM signaling	300	152	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04518	Integrin signaling	154	87	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04519	Cadherin signaling	404	196	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signaling molecules and interaction
+hsa04520	Adherens junction	93	72	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cellular community - eukaryotes
+hsa04530	Tight junction	171	120	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cellular community - eukaryotes
+hsa04540	Gap junction	90	52	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cellular community - eukaryotes
+hsa04550	Signaling pathways regulating pluripotency of stem cells	144	87	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cellular community - eukaryotes
+hsa04610	Complement and coagulation cascades	89	22	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04611	Platelet activation	126	72	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04612	Antigen processing and presentation	82	45	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04613	Neutrophil extracellular trap formation	195	98	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04614	Renin-angiotensin system	23	13	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Organismal Systems > Endocrine system
+hsa04620	Toll-like receptor signaling pathway	109	60	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04621	NOD-like receptor signaling pathway	187	119	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04622	RIG-I-like receptor signaling pathway	72	46	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04623	Cytosolic DNA-sensing pathway	83	57	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04625	C-type lectin receptor signaling pathway	105	68	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04630	JAK-STAT signaling pathway	168	70	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04640	Hematopoietic cell lineage	100	36	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04650	Natural killer cell mediated cytotoxicity	133	62	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04657	IL-17 signaling pathway	94	66	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04658	Th1 and Th2 cell differentiation	93	52	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04659	Th17 cell differentiation	109	63	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04660	T cell receptor signaling pathway	122	78	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04662	B cell receptor signaling pathway	91	50	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04664	Fc epsilon RI signaling pathway	69	44	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04666	Fc gamma R-mediated phagosome formation	98	70	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04668	TNF signaling pathway	119	91	DONE	ELIGIBLE	False	br08901 > Environmental Information Processing > Signal transduction
+hsa04670	Leukocyte transendothelial migration	116	70	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04672	Intestinal immune network for IgA production	50	17	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Immune system
+hsa04710	Circadian rhythm	34	29	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Environmental adaptation
+hsa04713	Circadian entrainment	97	46	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Environmental adaptation
+hsa04714	Thermogenesis	234	173	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Environmental adaptation
+hsa04720	Long-term potentiation	67	45	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04721	Synaptic vesicle cycle	79	39	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04722	Neurotrophin signaling pathway	120	91	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04723	Retrograde endocannabinoid signaling	149	78	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04724	Glutamatergic synapse	116	50	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04725	Cholinergic synapse	115	58	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04726	Serotonergic synapse	115	48	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04727	GABAergic synapse	89	35	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04728	Dopaminergic synapse	133	77	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04730	Long-term depression	60	33	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Nervous system
+hsa04740	Olfactory transduction	449	17	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Sensory system
+hsa04742	Taste transduction	86	16	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Sensory system
+hsa04744	Phototransduction	29	5	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Organismal Systems > Sensory system
+hsa04750	Inflammatory mediator regulation of TRP channels	99	46	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Sensory system
+hsa04810	Regulation of actin cytoskeleton	232	151	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell motility
+hsa04814	Motor proteins	195	114	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell motility
+hsa04820	Cytoskeleton in muscle cells	233	110	DONE	ELIGIBLE	False	br08901 > Cellular Processes > Cell motility
+hsa04910	Insulin signaling pathway	140	104	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04911	Insulin secretion	86	42	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04912	GnRH signaling pathway	93	59	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04913	Ovarian steroidogenesis	52	19	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04914	Progesterone-mediated oocyte maturation	110	67	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04915	Estrogen signaling pathway	139	83	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04916	Melanogenesis	101	58	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04917	Prolactin signaling pathway	71	46	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04918	Thyroid hormone synthesis	75	42	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04919	Thyroid hormone signaling pathway	122	89	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04920	Adipocytokine signaling pathway	70	47	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04921	Oxytocin signaling pathway	154	89	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04922	Glucagon signaling pathway	107	68	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04923	Regulation of lipolysis in adipocytes	60	30	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04924	Renin secretion	69	39	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04925	Aldosterone synthesis and secretion	98	52	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04926	Relaxin signaling pathway	130	83	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04927	Cortisol synthesis and secretion	65	33	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04928	Parathyroid hormone synthesis, secretion and action	115	74	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04929	GnRH secretion	65	32	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04930	Type II diabetes mellitus	47	27	DONE	ELIGIBLE	False	br08901 > Human Diseases > Endocrine and metabolic disease
+hsa04931	Insulin resistance	109	83	DONE	ELIGIBLE	False	br08901 > Human Diseases > Endocrine and metabolic disease
+hsa04932	Non-alcoholic fatty liver disease	157	125	DONE	ELIGIBLE	False	br08901 > Human Diseases > Endocrine and metabolic disease
+hsa04933	AGE-RAGE signaling pathway in diabetic complications	101	71	DONE	ELIGIBLE	False	br08901 > Human Diseases > Endocrine and metabolic disease
+hsa04934	Cushing syndrome	155	95	DONE	ELIGIBLE	False	br08901 > Human Diseases > Endocrine and metabolic disease
+hsa04935	Growth hormone synthesis, secretion and action	122	79	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Endocrine system
+hsa04936	Alcoholic liver disease	144	90	DONE	ELIGIBLE	False	br08901 > Human Diseases > Endocrine and metabolic disease
+hsa04940	Type I diabetes mellitus	44	22	DONE	ELIGIBLE	False	br08901 > Human Diseases > Endocrine and metabolic disease
+hsa04950	Maturity onset diabetes of the young	26	10	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Human Diseases > Endocrine and metabolic disease
+hsa04960	Aldosterone-regulated sodium reabsorption	38	23	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Excretory system
+hsa04961	Endocrine and other factor-regulated calcium reabsorption	53	30	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Excretory system
+hsa04962	Vasopressin-regulated water reabsorption	44	35	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Excretory system
+hsa04964	Proximal tubule bicarbonate reclamation	23	13	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Organismal Systems > Excretory system
+hsa04966	Collecting duct acid secretion	28	16	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Excretory system
+hsa04970	Salivary secretion	93	42	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04971	Gastric acid secretion	76	37	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04972	Pancreatic secretion	103	49	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04973	Carbohydrate digestion and absorption	48	23	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04974	Protein digestion and absorption	103	43	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04975	Fat digestion and absorption	44	25	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04976	Bile secretion	90	33	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04977	Vitamin digestion and absorption	26	12	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Organismal Systems > Digestive system
+hsa04978	Mineral absorption	61	34	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04979	Cholesterol metabolism	52	29	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04980	Cobalamin transport and metabolism	18	17	DONE	ELIGIBLE	False	br08901 > Organismal Systems > Digestive system
+hsa04981	Folate transport and metabolism	31	14	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Organismal Systems > Digestive system
+hsa05010	Alzheimer disease	389	275	DONE	ELIGIBLE	False	br08901 > Human Diseases > Neurodegenerative disease
+hsa05012	Parkinson disease	269	192	DONE	ELIGIBLE	False	br08901 > Human Diseases > Neurodegenerative disease
+hsa05014	Amyotrophic lateral sclerosis	369	264	DONE	ELIGIBLE	False	br08901 > Human Diseases > Neurodegenerative disease
+hsa05016	Huntington disease	309	221	DONE	ELIGIBLE	False	br08901 > Human Diseases > Neurodegenerative disease
+hsa05017	Spinocerebellar ataxia	144	102	DONE	ELIGIBLE	False	br08901 > Human Diseases > Neurodegenerative disease
+hsa05020	Prion disease	276	192	DONE	ELIGIBLE	False	br08901 > Human Diseases > Neurodegenerative disease
+hsa05022	Pathways of neurodegeneration - multiple diseases	481	323	DONE	ELIGIBLE	False	br08901 > Human Diseases > Neurodegenerative disease
+hsa05030	Cocaine addiction	49	29	DONE	ELIGIBLE	False	br08901 > Human Diseases > Substance dependence
+hsa05031	Amphetamine addiction	69	43	DONE	ELIGIBLE	False	br08901 > Human Diseases > Substance dependence
+hsa05032	Morphine addiction	91	35	DONE	ELIGIBLE	False	br08901 > Human Diseases > Substance dependence
+hsa05033	Nicotine addiction	41	6	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Human Diseases > Substance dependence
+hsa05034	Alcoholism	191	106	DONE	ELIGIBLE	False	br08901 > Human Diseases > Substance dependence
+hsa05100	Bacterial invasion of epithelial cells	78	57	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05110	Vibrio cholerae infection	51	39	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05120	Epithelial cell signaling in Helicobacter pylori infection	71	52	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05130	Pathogenic Escherichia coli infection	201	143	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05131	Shigellosis	253	188	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05132	Salmonella infection	249	191	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05133	Pertussis	78	43	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05134	Legionellosis	56	42	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05135	Yersinia infection	138	104	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05140	Leishmaniasis	78	42	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: parasitic
+hsa05142	Chagas disease	103	62	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: parasitic
+hsa05143	African trypanosomiasis	37	19	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: parasitic
+hsa05144	Malaria	50	17	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: parasitic
+hsa05145	Toxoplasmosis	112	75	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: parasitic
+hsa05146	Amoebiasis	103	60	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: parasitic
+hsa05150	Staphylococcus aureus infection	99	23	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05152	Tuberculosis	181	98	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: bacterial
+hsa05160	Hepatitis C	156	113	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05161	Hepatitis B	163	122	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05162	Measles	136	91	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05163	Human cytomegalovirus infection	227	154	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05164	Influenza A	173	116	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05165	Human papillomavirus infection	333	226	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05166	Human T-cell leukemia virus 1 infection	224	171	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05167	Kaposi sarcoma-associated herpesvirus infection	196	129	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05168	Herpes simplex virus 1 infection	180	126	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05169	Epstein-Barr virus infection	205	153	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05170	Human immunodeficiency virus 1 infection	214	144	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05171	Coronavirus disease	239	157	DONE	ELIGIBLE	False	br08901 > Human Diseases > Infectious disease: viral
+hsa05200	Pathways in cancer	533	330	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05202	Transcriptional misregulation in cancer	201	121	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05203	Viral carcinogenesis	205	157	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05204	Chemical carcinogenesis - DNA adducts	70	17	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05205	Proteoglycans in cancer	204	136	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05206	MicroRNAs in cancer	323	125	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05207	Chemical carcinogenesis - receptor activation	217	113	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05208	Chemical carcinogenesis - reactive oxygen species	227	161	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05210	Colorectal cancer	87	75	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05211	Renal cell carcinoma	70	56	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05212	Pancreatic cancer	77	64	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05213	Endometrial cancer	59	49	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05214	Glioma	76	55	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05215	Prostate cancer	106	77	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05216	Thyroid cancer	37	31	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05217	Basal cell carcinoma	63	36	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05218	Melanoma	73	45	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05219	Bladder cancer	41	37	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05220	Chronic myeloid leukemia	77	66	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05221	Acute myeloid leukemia	68	49	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05222	Small cell lung cancer	93	75	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05223	Non-small cell lung cancer	73	57	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05224	Breast cancer	148	89	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05225	Hepatocellular carcinoma	170	113	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05226	Gastric cancer	150	95	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: specific types
+hsa05230	Central carbon metabolism in cancer	71	48	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05231	Choline metabolism in cancer	99	68	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05235	PD-L1 expression and PD-1 checkpoint pathway in cancer	90	60	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cancer: overview
+hsa05310	Asthma	32	9	NOT_EVALUABLE	OUTSIDE_15_500_TESTED_GENES	False	br08901 > Human Diseases > Immune disease
+hsa05320	Autoimmune thyroid disease	54	17	DONE	ELIGIBLE	False	br08901 > Human Diseases > Immune disease
+hsa05321	Inflammatory bowel disease	66	25	DONE	ELIGIBLE	False	br08901 > Human Diseases > Immune disease
+hsa05322	Systemic lupus erythematosus	143	59	DONE	ELIGIBLE	False	br08901 > Human Diseases > Immune disease
+hsa05323	Rheumatoid arthritis	95	46	DONE	ELIGIBLE	False	br08901 > Human Diseases > Immune disease
+hsa05330	Allograft rejection	39	17	DONE	ELIGIBLE	False	br08901 > Human Diseases > Immune disease
+hsa05332	Graft-versus-host disease	45	17	DONE	ELIGIBLE	False	br08901 > Human Diseases > Immune disease
+hsa05340	Primary immunodeficiency	38	15	DONE	ELIGIBLE	False	br08901 > Human Diseases > Immune disease
+hsa05410	Hypertrophic cardiomyopathy	99	47	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cardiovascular disease
+hsa05412	Arrhythmogenic right ventricular cardiomyopathy	86	40	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cardiovascular disease
+hsa05414	Dilated cardiomyopathy	105	48	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cardiovascular disease
+hsa05415	Diabetic cardiomyopathy	205	148	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cardiovascular disease
+hsa05416	Viral myocarditis	70	39	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cardiovascular disease
+hsa05417	Lipid and atherosclerosis	216	142	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cardiovascular disease
+hsa05418	Fluid shear stress and atherosclerosis	142	92	DONE	ELIGIBLE	False	br08901 > Human Diseases > Cardiovascular disease
