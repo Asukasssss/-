@@ -1,0 +1,29 @@
+{
+  "analysis_version": "COAD_LYPLA1_highlow_nominal_v2",
+  "population": "Uhlitz author CNA tumor epithelial; prior conflict donor excluded",
+  "target": "LYPLA1",
+  "split": "Within each donor, among raw LYPLA1 count > 0 cells: high if log1p(CP10K) > donor median, low otherwise; no arbitrary tie breaking",
+  "zeros": "Excluded from both groups; question is high vs low among detected cells",
+  "min_cells_per_group": 20,
+  "min_donors": 6,
+  "unit": "donor paired pseudobulk counts; not independent cells",
+  "differential": "edgeR TMM filterByExpr(design) glmQLFit robust TRUE; design ~patient+group; high versus low",
+  "sensitivity": "Same genes; design ~patient+log(mean total UMI per cell)+group if full rank; not used to choose primary result",
+  "exclude_from_tests": [
+    "LYPLA1"
+  ],
+  "DE_selection": "P < 0.05 and absolute log2FC >= 0.5",
+  "gene_family": "All 11058 tested genes retained; no new BH; prior Q values archived only",
+  "pathways": "Reactome current human GMT; archive hash recorded, exact gene-symbol intersection",
+  "pathway_sizes": [
+    15,
+    500
+  ],
+  "ORA": "One-sided hypergeometric; actual tested-gene background; nominal P<0.05, no FDR threshold",
+  "GSEA": "Reuse prior NES, raw P and leadingEdge; nominal P<0.05; no new permutations",
+  "seed": 20260925,
+  "interpretation": "Exploratory coexpression programs; not causal regulation, activity, or independent validation; depth/composition and subtype confounding retained",
+  "user_change": "User explicitly requested no FDR; nominal P only",
+  "prior_run": "20260925T151300Z_lypla1_highlow_v1",
+  "prior_numeric_lock": "55e97756d24236f05bd3dca23357fa94f5460ef7"
+}

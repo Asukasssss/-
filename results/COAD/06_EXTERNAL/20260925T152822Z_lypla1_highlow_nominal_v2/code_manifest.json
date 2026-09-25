@@ -1,0 +1,22 @@
+[
+  {
+    "path": "code/coad/prepare_lypla1_highlow_v1.py",
+    "sha256": "c36a4591e6f43f6c62189347c1e44e505214609bb5252594eaf25d55f0c0d4f1"
+  },
+  {
+    "path": "code/coad/analyze_lypla1_highlow_v1.R",
+    "sha256": "11e1d9c2aa4bc3b940514d1509fa52a374bcdf2ad8b06a80793b469e34674143"
+  },
+  {
+    "path": "code/coad/review_lypla1_highlow_nominal_v2.py",
+    "sha256": "f754c128b19625afe2b2a5213f2f5c19e519fe490f51912815f4ba1a149fb6ee"
+  },
+  {
+    "path": "code/coad/report_lypla1_highlow_nominal_v2.py",
+    "sha256": "05087c4194509fe897e5c10e3cd6718663dc87a8c8ac697fb7e5434de0c66fd5"
+  },
+  {
+    "path": "code/coad/lypla1_highlow_v1.json",
+    "sha256": "5bfd9a15d42586b14973130d3ac7f416cb11cb23950d877525754612b9e5caa3"
+  }
+]
