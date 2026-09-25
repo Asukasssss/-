@@ -1,0 +1,31 @@
+{
+  "version": "prad_slc6a6_paired_delta_v1",
+  "code_parent_commit": "841b620228508645a639c8cee6f338b133f2f21c",
+  "target": "taurine|SLC6A6",
+  "selection": "user-directed post-hoc single relationship; P<0.05 exploratory",
+  "unit": "43 unique author case tumor-normal pairs",
+  "delta": "tumor minus matched normal on unchanged author scales",
+  "RNA_scale": "RMA BatchAdj continuous",
+  "metabolite_scale": "author processed log2",
+  "families": [
+    "DELTA_PRIMARY",
+    "DELTA_AVAILABLE",
+    "DELTA_CAPT",
+    "DELTA_BATCH"
+  ],
+  "tests_per_family": 1,
+  "q": "single targeted test per family: q=p; not correction for earlier candidate selection",
+  "primary": "Spearman correlation of paired deltas",
+  "permutations": 9999,
+  "bootstrap": 4000,
+  "seed_rule": "reuse SHA256(prad_patient_v1|20260922|family|taurine|SLC6A6)",
+  "sensitivity": "available original author data;36 CAPT-concordant pairs;batch rank residualization with within-batch permutations;leave-one-pair-out rho",
+  "direction": "strict >0/<0;exact zero separately;no pseudocount or threshold",
+  "plots": "unlabelled derived scatter;patient values and identifiers remain server-only",
+  "software": {
+    "python": "3.13.9",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1"
+  }
+}

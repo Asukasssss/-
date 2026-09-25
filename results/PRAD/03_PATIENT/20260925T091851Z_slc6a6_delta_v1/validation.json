@@ -1,0 +1,12 @@
+{
+  "status": "DONE",
+  "unique_case_pairs": 43,
+  "CAPT_pairs": 36,
+  "available_pairs": 43,
+  "known_marginal_counts_reproduced": true,
+  "independent_Spearman_check": true,
+  "leave_one_out_rho_min": -0.10558301596305,
+  "leave_one_out_rho_max": -0.00316019771493396,
+  "original_inputs_modified": false,
+  "independent_cohort": false
+}
