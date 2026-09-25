@@ -1,0 +1,30 @@
+{
+  "analysis_version": "lypla1_paired_delta_v1",
+  "source_commit": "8c391878c0912bf562cc04ff50e190fed622e8ed",
+  "gene": "LYPLA1",
+  "metabolites": [
+    "1-palmitoyl-GPC (16:0)",
+    "glycerophosphorylcholine (GPC)"
+  ],
+  "question": "Across verified paired cases, do RNA tumor-minus-normal differences correlate with metabolite tumor-minus-normal differences?",
+  "unit": "author_case_row with audited tissue-consistent tumor-normal pairing",
+  "primary": "unchanged author processed RNA and metabolite scales; no new imputation or transform",
+  "sensitivity": "same processed differences; restrict metabolite to finite values on both sides in author data sheet; not verified original detection mask",
+  "planned_tests": 4,
+  "multiplicity": "one BH4 family: 2 metabolites x 2 modes, including identical GPC sensitivity; retain all four; do not overwrite historical q",
+  "test": "two-sided absolute Spearman permutation, 99999 shuffles of metabolite differences across cases, plus-one P",
+  "interval": "10000 whole-case percentile bootstrap; pointwise95%; not multiplicity-adjusted",
+  "seed": "sha256(version|exact feature|selected case IDs); identical data subsets use identical seed",
+  "direction_counts": "all 9 up/equal/down combinations; equality means exact zero in unchanged scale; no direction-count hypothesis tests",
+  "min_pairs": 8,
+  "no_new_outlier_exclusion": true,
+  "postselection_exploratory": true,
+  "independent_validation": false,
+  "patient_tables_server_only": true,
+  "public_scatter": "unlabeled rasterized points only; no public patient identifiers or numeric arrays",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "scipy": "1.10.1",
+  "matplotlib": "3.6.3"
+}

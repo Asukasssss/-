@@ -1,0 +1,47 @@
+{
+  "status": "DONE",
+  "pair_count": 45,
+  "input_hashes_match_previous": true,
+  "input_hashes_unchanged": true,
+  "RNA_mean_and_direction_match_history": true,
+  "metabolite_checks": [
+    {
+      "metabolite_name": "1-palmitoyl-GPC (16:0)",
+      "analysis_type": "processed",
+      "n": 45,
+      "historical_marginals_match": true
+    },
+    {
+      "metabolite_name": "1-palmitoyl-GPC (16:0)",
+      "analysis_type": "author_available",
+      "n": 28,
+      "historical_marginals_match": true
+    },
+    {
+      "metabolite_name": "glycerophosphorylcholine (GPC)",
+      "analysis_type": "processed",
+      "n": 45,
+      "historical_marginals_match": true
+    },
+    {
+      "metabolite_name": "glycerophosphorylcholine (GPC)",
+      "analysis_type": "author_available",
+      "n": 45,
+      "historical_marginals_match": true
+    }
+  ],
+  "rank_rho_independently_checked": true,
+  "BH4_independently_checked": true,
+  "direction_counts_sum_to_n": true,
+  "patient_numeric_exports_server_only": true,
+  "historical_statistics_modified": false,
+  "scope": "Numerical checks on these four tests; no re-audit of full historical project",
+  "independent_R_audit": "PASS: four rho values,36 joint counts,BH4,and permutation P formula",
+  "not_independently_repeated": [
+    "99999 permutation draws",
+    "10000 bootstrap intervals"
+  ],
+  "new_delivery_file_check": "PASS:17 staged files;allowed formats;under5MB each;Git index bytes match;no private files staged",
+  "repository_wide_check": "FAIL on13 pre-existing tracked format/size exceptions only;no new-delivery violation;historical artifacts not modified",
+  "visual_review": "PASS:both PNG figures inspected;four panels and all joint counts visible"
+}

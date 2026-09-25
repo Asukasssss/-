@@ -1,0 +1,5 @@
+metabolite_name	analysis_type	n	R_rho	absolute_rho_difference	all9_direction_counts_match	permutation_P_formula_matches
+1-palmitoyl-GPC (16:0)	processed	45	0.322002635046113	5.55111512312578e-17	TRUE	TRUE
+1-palmitoyl-GPC (16:0)	author_available	28	0.217296113847838	0	TRUE	TRUE
+glycerophosphorylcholine (GPC)	processed	45	-0.0129117259552042	3.46944695195361e-18	TRUE	TRUE
+glycerophosphorylcholine (GPC)	author_available	45	-0.0129117259552042	3.46944695195361e-18	TRUE	TRUE

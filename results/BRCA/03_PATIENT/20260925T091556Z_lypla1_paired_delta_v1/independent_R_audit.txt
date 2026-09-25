@@ -1,0 +1,3 @@
+PASS: rho recomputed in R for four models; all9 direction counts per model; BH4; plus-one P formula.
+R version: 4.3.3
+Permutation draws and bootstrap intervals were not independently repeated.
