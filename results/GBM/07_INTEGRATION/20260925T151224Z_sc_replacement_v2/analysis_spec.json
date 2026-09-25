@@ -1,0 +1,8 @@
+{
+  "version": "gbm_care_integration_v2",
+  "code_commit": "85beb583d44e227312661dfce90537c89d8771f9",
+  "bulk_recomputed": false,
+  "new_SC_sources": true,
+  "independent_cohorts": 1,
+  "plots": "all142;heatmap within-gene relative mean;no selected significant gene filter"
+}

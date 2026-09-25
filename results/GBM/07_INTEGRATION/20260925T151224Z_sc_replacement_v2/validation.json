@@ -1,0 +1,71 @@
+{
+  "status": "DONE",
+  "scope": "single-cell replacement and integration;biochemical mapping remains partial",
+  "genes": 142,
+  "relations": 171,
+  "source_partitions": [
+    {
+      "study": "CARE2025_primary",
+      "cells": 205880,
+      "patients": 55,
+      "samples": 55,
+      "unresolved_cells": 5079,
+      "genes_measured": 136,
+      "candidate_genes": 142,
+      "assay": "10x Genomics snRNA-seq",
+      "source": "GSE274546",
+      "publication_year": 2025,
+      "annotation_origin": "CARE author CellType",
+      "independent_validation": false
+    },
+    {
+      "study": "CARE2025_recurrent",
+      "cells": 222630,
+      "patients": 59,
+      "samples": 65,
+      "unresolved_cells": 8298,
+      "genes_measured": 136,
+      "candidate_genes": 142,
+      "assay": "10x Genomics snRNA-seq",
+      "source": "GSE274546",
+      "publication_year": 2025,
+      "annotation_origin": "CARE author CellType",
+      "independent_validation": false
+    }
+  ],
+  "bulk_statistics_preserved": {
+    "genes_bulk_columns_unchanged": 19,
+    "relations_bulk_columns_unchanged": 61
+  },
+  "independent_cohorts": 1,
+  "ranked_primary": 126,
+  "ranked_recurrent": 123,
+  "LYPLA1": [
+    {
+      "study": "CARE2025_primary",
+      "gene": "LYPLA1",
+      "stable_gene_id": "hsa:10434",
+      "status": "DONE",
+      "reason": "expression_source_only;not_function",
+      "top_celltype": "Myeloid",
+      "runner_celltype": "Vascular",
+      "top_gap": 0.0921807459216808,
+      "bootstrap_top_frequency": 0.998,
+      "bootstrap_valid": 1000,
+      "rank_tie": false
+    },
+    {
+      "study": "CARE2025_recurrent",
+      "gene": "LYPLA1",
+      "stable_gene_id": "hsa:10434",
+      "status": "DONE",
+      "reason": "expression_source_only;not_function",
+      "top_celltype": "Myeloid",
+      "runner_celltype": "Vascular",
+      "top_gap": 0.1360825791714216,
+      "bootstrap_top_frequency": 1.0,
+      "bootstrap_valid": 1000,
+      "rank_tie": false
+    }
+  ]
+}

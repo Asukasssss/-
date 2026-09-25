@@ -1,0 +1,19 @@
+{
+  "version": "gbm_care_sources_v2",
+  "code_commit": "9b48aa19ca5d0efbfde397cd8b65d13da9ad54c8",
+  "cohort": "CARE 2025 GSE274546;one biological cohort",
+  "primary": "author Primary status;IDHwt;explicit No preoperative radiation AND No alkylating agents;exclude1 treated primary795nuclei before inspecting expression",
+  "recurrence": "same cohort contextual sensitivity;not independent replication;pool repeated specimens within patient",
+  "minimum_cells_per_donor_category": 20,
+  "minimum_distinct_donors_per_category": 3,
+  "minimum_categories_for_rank": 2,
+  "minimum_detection_for_rank": 0.01,
+  "bootstrap": 1000,
+  "seed": 20260925,
+  "normalization": "log1p(10000*count/full33538_gene_library);nonnegative integer UMI",
+  "annotation": "author CellType and post-QC barcode list;no reclustering;Other excluded from source ranking",
+  "gene_match": "exact unique gene symbol;no imputation",
+  "statistical_unit": "author Patient ID;donor equal after within-patient pooling",
+  "P_q": "NA;descriptive only",
+  "selected_before_expression": "2025 large IDHwt multi-center cohort with processed counts,author annotations,explicit patient and timepoint mapping"
+}

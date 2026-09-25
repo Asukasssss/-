@@ -1,0 +1,22 @@
+[
+  {
+    "script": "gbm_download_care_v2.py",
+    "git_commit": "85beb583d44e227312661dfce90537c89d8771f9",
+    "sha256": "008fb8beda9878153cc4ec186882adc29d400abbe6d128396f6529ba61466d3d"
+  },
+  {
+    "script": "gbm_care_aggregate_v2.R",
+    "git_commit": "9b48aa19ca5d0efbfde397cd8b65d13da9ad54c8",
+    "sha256": "9b447a98efc131434db4384aa608a277c9db1af8e3bf34cafe7945ed1e109a1c"
+  },
+  {
+    "script": "gbm_care_profile_v2.py",
+    "git_commit": "9b48aa19ca5d0efbfde397cd8b65d13da9ad54c8",
+    "sha256": "2b48e269862226a5fa53b90b936878ccbf6aad2115365f82ea60275fd59ddcda"
+  },
+  {
+    "script": "gbm_validate_care_v2.py",
+    "git_commit": "9b48aa19ca5d0efbfde397cd8b65d13da9ad54c8",
+    "sha256": "2703d4624cda8e188386a693df0b1d24070125eee4a0c0e70bbb26625b2d8f39"
+  }
+]

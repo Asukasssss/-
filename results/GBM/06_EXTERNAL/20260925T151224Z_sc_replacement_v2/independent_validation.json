@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "all_private_patient_category_counts_rebuilt_from_author_barcodes": true,
+  "validated_public_profiles": 2448,
+  "maximum_numeric_error": 4.440892098500626e-16,
+  "primary_patients": 55,
+  "primary_nuclei": 205880,
+  "excluded_pretreated_primary_nuclei": 795,
+  "bootstrap_bounds_checked": true,
+  "unresolved_never_ranked": true,
+  "primary_recurrent_not_independent": true
+}

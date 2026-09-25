@@ -1,0 +1,12 @@
+original	coarse	ranking_eligible
+Malignant	Neoplastic	True
+TAM	Myeloid	True
+Oligodendrocyte	Oligodendrocyte	True
+Excitatory neuron	Neuron	True
+Inhibitory neuron	Neuron	True
+Astrocyte	Astrocyte	True
+OPC	OPC	True
+Lymphocyte	Lymphoid	True
+Endothel	Vascular	True
+Pericyte	Vascular	True
+Other	Unresolved	False

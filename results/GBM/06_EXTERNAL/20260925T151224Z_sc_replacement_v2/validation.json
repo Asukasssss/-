@@ -1,0 +1,46 @@
+{
+  "status": "DONE",
+  "samples": 121,
+  "patients": 59,
+  "author_qc_cells": 429305,
+  "excluded_previously_treated_primary_samples": 1,
+  "excluded_previously_treated_primary_nuclei": 795,
+  "unique_barcodes": true,
+  "exact_metadata_join": true,
+  "source_counts_cells": 752458,
+  "all142_retained": true,
+  "partitions": [
+    {
+      "study": "CARE2025_primary",
+      "cells": 205880,
+      "patients": 55,
+      "samples": 55,
+      "unresolved_cells": 5079,
+      "genes_measured": 136,
+      "candidate_genes": 142,
+      "assay": "10x Genomics snRNA-seq",
+      "source": "GSE274546",
+      "publication_year": 2025,
+      "annotation_origin": "CARE author CellType",
+      "independent_validation": false
+    },
+    {
+      "study": "CARE2025_recurrent",
+      "cells": 222630,
+      "patients": 59,
+      "samples": 65,
+      "unresolved_cells": 8298,
+      "genes_measured": 136,
+      "candidate_genes": 142,
+      "assay": "10x Genomics snRNA-seq",
+      "source": "GSE274546",
+      "publication_year": 2025,
+      "annotation_origin": "CARE author CellType",
+      "independent_validation": false
+    }
+  ],
+  "minimum_full_library": 201,
+  "P_q_all_missing": true,
+  "new_clustering": false,
+  "independent_replication": false
+}

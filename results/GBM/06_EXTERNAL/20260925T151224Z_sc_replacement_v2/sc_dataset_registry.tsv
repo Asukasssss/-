@@ -1,0 +1,3 @@
+study	cells	patients	samples	unresolved_cells	genes_measured	candidate_genes	assay	source	publication_year	annotation_origin	independent_validation
+CARE2025_primary	205880	55	55	5079	136	142	10x Genomics snRNA-seq	GSE274546	2025	CARE author CellType	False
+CARE2025_recurrent	222630	59	65	8298	136	142	10x Genomics snRNA-seq	GSE274546	2025	CARE author CellType	False
