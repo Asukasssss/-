@@ -27,8 +27,8 @@ selected=(d.p_value<.05)&(d.log2FC.abs()>=.25)
 assert selected.sum()==434 and ((d.log2FC>0)&selected).sum()==158
 titles={}
 for line in (src/'pathways.txt').read_text().splitlines():
-    k,title=line.split('\t',1);k=k.removeprefix('path:');assert re.fullmatch('hsa[0-9]{5}',k)
-    titles[k]=title.removesuffix(' - Homo sapiens (human)')
+    k,title=line.split('\t',1);k=k.split(':')[-1];assert re.fullmatch('hsa[0-9]{5}',k)
+    titles[k]=re.sub(r' - Homo sapiens \(human\)$','',title)
 primary=collections.defaultdict(set);alias=collections.defaultdict(set)
 for line in (src/'genes.txt').read_text().splitlines():
     z=line.split('\t');assert len(z)==4
@@ -47,7 +47,7 @@ m.loc[dup,'status']='MULTIPLE_TESTED_SYMBOLS_ONE_ID';m.loc[dup,'kegg_gene']=''
 id_to_symbol=dict(zip(m.loc[m.kegg_gene.ne(''),'kegg_gene'],m.loc[m.kegg_gene.ne(''),'gene']))
 pathgenes=collections.defaultdict(set)
 for line in (src/'links.txt').read_text().splitlines():
-    gid,pid=line.split('\t');pid=pid.removeprefix('path:')
+    gid,pid=line.split('\t');pid=pid.split(':')[-1]
     if pid in titles:pathgenes[pid].add(gid)
 categories=collections.defaultdict(list)
 def walk(node,trail=()):
