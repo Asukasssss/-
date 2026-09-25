@@ -1,0 +1,31 @@
+{
+  "version": "LYPLA1_highlow_v1",
+  "unit": "cell_exploratory_no_donor_adjustment",
+  "cohorts": [
+    "Wu2021",
+    "Pal2021_reprocessed"
+  ],
+  "cell_type": "author/reprocessed malignant epithelial only",
+  "grouping": "within each cohort, normalized LYPLA1>0 detected; high>median of detected, low=(0,median], zero=0; ties not split",
+  "contrasts": [
+    "high_vs_low_detected",
+    "high_vs_zero"
+  ],
+  "DE": "Welch unequal-variance two-sided t on per-cell log1p(CP10k); sparse sufficient statistics",
+  "filter": "unique nonempty symbol; detected in >=1% of all selected malignant cells; nonzero variance in contrast; exclude LYPLA1 from testing and enrichment",
+  "effect": "mean log1p difference AND log2((mean CP10k high+0.1)/(mean CP10k ref+0.1)); latter descriptive regularized ratio",
+  "GSEA": "Reactome_2022; complete tested gene ranking by signed Welch t; sizes15..500; weight1;1000 gene-set permutations;seed20260925",
+  "ORA": "GO_Biological_Process_2023 and Reactome_2022; up/down P<0.05 and absolute descriptive log2ratio>=0.25; tested genes universe; sizes15..500 after intersecting universe; hypergeometric right tail",
+  "multiple_testing": "DE BH per contrast and joint4; GSEA package empirical FDR retained; ORA BH across both directions and libraries per contrast plus joint4; nominal P exploratory",
+  "seed": 20260925,
+  "LYPLA1_excluded": true,
+  "limitations": "Cell dependence not modelled; no patient-level or causal inference; pathway enrichment is transcriptional association, not metabolic flux",
+  "software": {
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1",
+    "gseapy": "1.0.4"
+  },
+  "parent_commit": "666b33d928c27c641b8860abcf6bfe7986be6347",
+  "run_id": "20260925T151104Z_lypla1_highlow_v1"
+}

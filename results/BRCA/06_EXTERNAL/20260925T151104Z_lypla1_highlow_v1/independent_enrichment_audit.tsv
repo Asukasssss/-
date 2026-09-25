@@ -1,0 +1,117 @@
+cohort	contrast	test	term	status
+Wu2021	high_vs_low_detected	GSEA_ES	ABC Transporter Disorders R-HSA-5619084	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	C-type Lectin Receptors (CLRs) R-HSA-5621481	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	DAG And IP3 Signaling R-HSA-1489509	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Elastic Fibre Formation R-HSA-1566948	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Global Genome Nucleotide Excision Repair (GG-NER) R-HSA-5696399	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Interleukin-2 Family Signaling R-HSA-451927	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Mitotic Spindle Checkpoint R-HSA-69618	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	PI5P, PP2A And IER3 Regulate PI3K/AKT Signaling R-HSA-6811558	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	RHOBTB1 GTPase Cycle R-HSA-9013422	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Resolution Of D-Loop Structures R-HSA-5693537	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Signaling By FLT3 Fusion Proteins R-HSA-9703465	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Tight Junction Interactions R-HSA-420029	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	tRNA Aminoacylation R-HSA-379724	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	'De Novo' Post-Translational Protein Folding (GO:0051084)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Ceramide Biosynthetic Process (GO:0046513)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Heparan Sulfate Proteoglycan Biosynthetic Process (GO:0015012)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Natural Killer Cell Mediated Cytotoxicity (GO:0042267)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Negative Regulation Of Tumor Necrosis Factor Production (GO:0032720)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Positive Regulation Of Cysteine-Type Endopeptidase Activity Involved In Apoptotic Process (GO:0043280)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Positive Regulation Of T Cell Activation (GO:0050870)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Regulation Of Axon Extension Involved In Axon Guidance (GO:0048841)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Regulation Of Microtubule Polymerization (GO:0031113)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Regulation Of Wound Healing (GO:0061041)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	mRNA Destabilization (GO:0061157)	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	DAG And IP3 Signaling R-HSA-1489509	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Hh Mutants Are Degraded By ERAD R-HSA-5362768	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	PI3K/AKT Signaling In Cancer R-HSA-2219528	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	SUMOylation Of Ubiquitinylation Proteins R-HSA-3232142	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	rRNA Processing In Nucleus And Cytosol R-HSA-8868773	PASS
+Wu2021	high_vs_zero	GSEA_ES	ABC Transporter Disorders R-HSA-5619084	PASS
+Wu2021	high_vs_zero	GSEA_ES	C-type Lectin Receptors (CLRs) R-HSA-5621481	PASS
+Wu2021	high_vs_zero	GSEA_ES	DAG And IP3 Signaling R-HSA-1489509	PASS
+Wu2021	high_vs_zero	GSEA_ES	Elastic Fibre Formation R-HSA-1566948	PASS
+Wu2021	high_vs_zero	GSEA_ES	Global Genome Nucleotide Excision Repair (GG-NER) R-HSA-5696399	PASS
+Wu2021	high_vs_zero	GSEA_ES	Interleukin-2 Family Signaling R-HSA-451927	PASS
+Wu2021	high_vs_zero	GSEA_ES	Mitotic Spindle Checkpoint R-HSA-69618	PASS
+Wu2021	high_vs_zero	GSEA_ES	PI5P, PP2A And IER3 Regulate PI3K/AKT Signaling R-HSA-6811558	PASS
+Wu2021	high_vs_zero	GSEA_ES	RHOBTB1 GTPase Cycle R-HSA-9013422	PASS
+Wu2021	high_vs_zero	GSEA_ES	Resolution Of D-Loop Structures R-HSA-5693537	PASS
+Wu2021	high_vs_zero	GSEA_ES	Signaling By FLT3 Fusion Proteins R-HSA-9703465	PASS
+Wu2021	high_vs_zero	GSEA_ES	Tight Junction Interactions R-HSA-420029	PASS
+Wu2021	high_vs_zero	GSEA_ES	tRNA Aminoacylation R-HSA-379724	PASS
+Wu2021	high_vs_zero	ORA_Fisher	'De Novo' Post-Translational Protein Folding (GO:0051084)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Ceramide Biosynthetic Process (GO:0046513)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Heparan Sulfate Proteoglycan Biosynthetic Process (GO:0015012)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Natural Killer Cell Mediated Cytotoxicity (GO:0042267)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Negative Regulation Of Tumor Necrosis Factor Production (GO:0032720)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Positive Regulation Of Cysteine-Type Endopeptidase Activity Involved In Apoptotic Process (GO:0043280)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Positive Regulation Of T Cell Activation (GO:0050870)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Regulation Of Axon Extension Involved In Axon Guidance (GO:0048841)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Regulation Of Microtubule Polymerization (GO:0031113)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Regulation Of Wound Healing (GO:0061041)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	mRNA Destabilization (GO:0061157)	PASS
+Wu2021	high_vs_zero	ORA_Fisher	DAG And IP3 Signaling R-HSA-1489509	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Hh Mutants Are Degraded By ERAD R-HSA-5362768	PASS
+Wu2021	high_vs_zero	ORA_Fisher	PI3K/AKT Signaling In Cancer R-HSA-2219528	PASS
+Wu2021	high_vs_zero	ORA_Fisher	SUMOylation Of Ubiquitinylation Proteins R-HSA-3232142	PASS
+Wu2021	high_vs_zero	ORA_Fisher	rRNA Processing In Nucleus And Cytosol R-HSA-8868773	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	ABC Transporter Disorders R-HSA-5619084	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	CD28 Co-Stimulation R-HSA-389356	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	DAP12 Interactions R-HSA-2172127	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Elastic Fibre Formation R-HSA-1566948	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Glucagon-like Peptide-1 (GLP1) Regulates Insulin Secretion R-HSA-381676	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Interleukin-2 Family Signaling R-HSA-451927	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Mitotic Spindle Checkpoint R-HSA-69618	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	PI3K/AKT Signaling In Cancer R-HSA-2219528	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	RHOBTB GTPase Cycle R-HSA-9706574	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Resolution Of Abasic Sites (AP Sites) R-HSA-73933	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Signaling By FGFR3 R-HSA-5654741	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Termination Of Translesion DNA Synthesis R-HSA-5656169	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	rRNA Modification In Nucleus And Cytosol R-HSA-6790901	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	'De Novo' Post-Translational Protein Folding (GO:0051084)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Chondroitin Sulfate Proteoglycan Biosynthetic Process (GO:0050650)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Histone H2A Acetylation (GO:0043968)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Negative Regulation Of Blood Vessel Morphogenesis (GO:2000181)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Neuron Apoptotic Process (GO:0051402)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Positive Regulation Of Double-Strand Break Repair (GO:2000781)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Positive Regulation Of Transport (GO:0051050)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Regulation Of Cation Channel Activity (GO:2001257)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Regulation Of Myoblast Differentiation (GO:0045661)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Response To Hydrogen Peroxide (GO:0042542)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	rRNA Metabolic Process (GO:0016072)	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Defective B4GALT7 Causes EDS, Progeroid Type R-HSA-3560783	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Influenza Infection R-HSA-168255	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Packaging Of Telomere Ends R-HSA-171306	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Sema4D In Semaphorin Signaling R-HSA-400685	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	tRNA Aminoacylation R-HSA-379724	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	ABC Transporter Disorders R-HSA-5619084	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	CD28 Co-Stimulation R-HSA-389356	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	DAP12 Interactions R-HSA-2172127	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Elastic Fibre Formation R-HSA-1566948	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Glucagon-like Peptide-1 (GLP1) Regulates Insulin Secretion R-HSA-381676	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Interleukin-2 Family Signaling R-HSA-451927	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Mitotic Spindle Checkpoint R-HSA-69618	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	PI3K/AKT Signaling In Cancer R-HSA-2219528	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	RHOBTB GTPase Cycle R-HSA-9706574	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Resolution Of Abasic Sites (AP Sites) R-HSA-73933	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Signaling By FGFR3 R-HSA-5654741	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Termination Of Translesion DNA Synthesis R-HSA-5656169	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	rRNA Modification In Nucleus And Cytosol R-HSA-6790901	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	'De Novo' Post-Translational Protein Folding (GO:0051084)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Chondroitin Sulfate Proteoglycan Biosynthetic Process (GO:0050650)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Histone H2A Acetylation (GO:0043968)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Negative Regulation Of Blood Vessel Morphogenesis (GO:2000181)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Neuron Apoptotic Process (GO:0051402)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Positive Regulation Of Double-Strand Break Repair (GO:2000781)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Positive Regulation Of Transport (GO:0051050)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Regulation Of Cation Channel Activity (GO:2001257)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Regulation Of Myoblast Differentiation (GO:0045661)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Response To Hydrogen Peroxide (GO:0042542)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	rRNA Metabolic Process (GO:0016072)	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Defective B4GALT7 Causes EDS, Progeroid Type R-HSA-3560783	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Influenza Infection R-HSA-168255	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Packaging Of Telomere Ends R-HSA-171306	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Sema4D In Semaphorin Signaling R-HSA-400685	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	tRNA Aminoacylation R-HSA-379724	PASS

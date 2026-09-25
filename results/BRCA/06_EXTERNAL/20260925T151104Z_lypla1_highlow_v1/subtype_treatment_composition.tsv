@@ -1,0 +1,16 @@
+cohort	group	field	label	n_cells	fraction
+Wu2021	high	subtype	ER+	5091	0.7049293824
+Wu2021	high	subtype	TNBC	1626	0.2251453891
+Wu2021	high	subtype	HER2+	505	0.06992522847
+Wu2021	high	treatment_status	Naïve	6489	0.8985045694
+Wu2021	high	treatment_status	Treated	733	0.1014954306
+Wu2021	low_detected	subtype	TNBC	3692	0.5112157297
+Wu2021	low_detected	subtype	ER+	2820	0.390473553
+Wu2021	low_detected	subtype	HER2+	710	0.09831071725
+Wu2021	low_detected	treatment_status	Naïve	6062	0.8393796732
+Wu2021	low_detected	treatment_status	Treated	1160	0.1606203268
+Wu2021	zero	subtype	TNBC	5518	0.5493280239
+Wu2021	zero	subtype	ER+	3967	0.3949228472
+Wu2021	zero	subtype	HER2+	560	0.05574912892
+Wu2021	zero	treatment_status	Naïve	8970	0.8929815829
+Wu2021	zero	treatment_status	Treated	1075	0.1070184171

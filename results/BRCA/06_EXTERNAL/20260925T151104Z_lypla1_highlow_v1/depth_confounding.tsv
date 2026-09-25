@@ -1,0 +1,9 @@
+cohort	contrast	metric	mean_high	mean_reference	standardized_mean_difference
+Wu2021	high_vs_low_detected	log1p_total_counts	9.126140799	9.778313927	-0.778493108
+Wu2021	high_vs_low_detected	detected_genes	2894.504985	3886.45846	-0.6722003517
+Wu2021	high_vs_zero	log1p_total_counts	9.126140799	8.409346967	0.7876220739
+Wu2021	high_vs_zero	detected_genes	2894.504985	1850.335291	0.7849678252
+Pal2021_reprocessed	high_vs_low_detected	log1p_total_counts	8.444171619	9.293393449	-1.130218249
+Pal2021_reprocessed	high_vs_low_detected	detected_genes	1948.643314	2921.778558	-0.8557926532
+Pal2021_reprocessed	high_vs_zero	log1p_total_counts	8.444171619	7.711246891	0.7725261713
+Pal2021_reprocessed	high_vs_zero	detected_genes	1948.643314	1163.441034	0.7739295593

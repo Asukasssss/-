@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "four_contrasts": true,
+  "independent_DE_checks": 36,
+  "no_target_in_enrichment": true,
+  "source_cells_only_server": true,
+  "limitations": "Cell-level exploratory, no donor adjustment, no causal interpretation",
+  "independent_enrichment_checks": 116,
+  "enrichment_audit": "PASS selected ES and ORA exact P; permutation NES/FDR not independently rerun",
+  "figure_review": "PASS; GSEA nonsignificant bars grey; full outputs retained"
+}

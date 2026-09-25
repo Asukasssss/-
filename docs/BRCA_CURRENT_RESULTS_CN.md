@@ -1,3 +1,5 @@
+最新补充：[LYPLA1高低表达差异与富集](../results/BRCA/06_EXTERNAL/20260925T151104Z_lypla1_highlow_v1/README_CN.md)。两队列4项比较均完成；翻译相关负向信号较一致，Wu脂质线索未获Pal同样支持，深度和亚型构成不平衡。
+
 最新补充：[SLC6A6细胞表达比较](../results/BRCA/06_EXTERNAL/20260925T144457Z_slc6a6_cellcomparison_v1/README_CN.md)：Wu恶性/非恶性平均CP10k=0.52倍，检出6.32%/7.23%；不支持癌上皮高表达。
 
 最新补充：[按细胞比较LYPLA1及KEGG92](../results/BRCA/06_EXTERNAL/20260925T140924Z_cellcomparison_v1/README_CN.md)。Wu恶性上皮LYPLA1平均CP10k约2.10倍；KEGG92差异很小，P=0.0514。细胞层面探索，未调整供者。
