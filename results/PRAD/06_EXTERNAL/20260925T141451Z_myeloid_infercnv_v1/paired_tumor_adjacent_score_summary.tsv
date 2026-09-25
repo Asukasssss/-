@@ -1,0 +1,17 @@
+subtype	mode	n_pairs	n_tumor_higher	n_tumor_lower	median_tumor_minus_adjacent
+ALL_MYELOID	primary	15	8	7	0.0005163168895041849
+ALL_MYELOID	reference_split	15	8	7	0.0003447949725265513
+Macrophages	primary	14	10	4	0.0008847059220022189
+Macrophages	reference_split	14	10	4	0.000995947353177054
+Mast_cells	primary	5	3	2	0.0007743218947895512
+Mast_cells	reference_split	5	3	2	0.0006806547294367759
+Monocytes	primary	13	7	6	0.00012130557291013463
+Monocytes	reference_split	13	6	7	-8.125664456619733e-05
+cDC1	primary	6	4	2	0.0006295820777296162
+cDC1	reference_split	6	4	2	0.0009284715531267494
+cDC2	primary	15	5	10	-0.0008011912985320321
+cDC2	reference_split	15	5	10	-0.000946788620347085
+mDC_regs	primary	5	3	2	0.001176932368669701
+mDC_regs	reference_split	5	4	1	0.0014436071525346997
+pDC	primary	1	1	0	0.0047426899127703
+pDC	reference_split	1	1	0	0.0042503674483312

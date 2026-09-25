@@ -1,0 +1,6 @@
+role	n_cells	minimum_autosomal_counts	median_autosomal_counts	n_below100_counts	median_detected_autosomal_genes
+B_control	622	476.0	2949.5	0	1062.0
+Epithelial_control	1095	1134.0	13190.0	0	3662.0
+Myeloid	2720	471.0	6905.0	0	2017.0
+T_A	3362	416.0	3189.5	0	1230.0
+T_B	3368	415.0	3203.5	0	1226.0

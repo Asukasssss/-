@@ -1,0 +1,9 @@
+{
+  "status": "DONE",
+  "cells_unique": true,
+  "genes_unique": true,
+  "raw_integer": true,
+  "reference_splits_disjoint": true,
+  "no_myeloid_reference": true,
+  "no_new_annotation": true
+}

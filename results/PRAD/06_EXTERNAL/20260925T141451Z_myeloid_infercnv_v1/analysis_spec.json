@@ -1,0 +1,73 @@
+{
+  "version": "prad_myeloid_infercnv_v1",
+  "parent_commit": "37a0d018a2188e373660a1161a6c8c72fc872c7c",
+  "input_dataset_version": "68b23fda-7191-46a5-8870-819feca3e66e",
+  "author_annotations": "major_v2 Myeloid plus minor_v2;unchanged",
+  "method": "infercnv official R package;independent donor runs;two disjoint T-reference splits",
+  "target": "all myeloid cells in eligible donors, tumor and adjacent",
+  "reference": "same donor T cells excluding author NK/NK-like/IFN classes;two disjoint pools stratified by tissue;50minimum per pool",
+  "controls": "other reference split held out;B cells up to50 and author malignant tumor epithelium up to100;controls not used as anchors",
+  "minimum_myeloid_per_donor": 10,
+  "reference_cap_per_tissue_per_pool": 100,
+  "seed": 20260925,
+  "coordinate_source": "GENCODEv36 GRCh38/Ensembl102;exact unique Ensembl stable ID mapping;autosomes only",
+  "coordinate_build_scope": "reference coordinates chosen explicitly for gene ordering, not new verification of original alignment build",
+  "gtf_header": [
+    "##description: evidence-based annotation of the human genome (GRCh38), version 36 (Ensembl 102)",
+    "##provider: GENCODE",
+    "##contact: gencode-help@ebi.ac.uk",
+    "##format: gtf",
+    "##date: 2020-09-30"
+  ],
+  "raw_gene_count": 32397,
+  "mapped_autosomal_genes": 31198,
+  "excluded_ambiguous_gene_ids": [],
+  "eligible_donors": 22,
+  "excluded_donors": 2,
+  "eligible_myeloid_cells": 2720,
+  "all_myeloid_cells": 2743,
+  "parameters": {
+    "cutoff": 0.1,
+    "min_cells_per_gene": 3,
+    "window_length": 101,
+    "cluster_by_groups": true,
+    "denoise": true,
+    "HMM": false,
+    "num_threads": 2,
+    "analysis_mode": "samples",
+    "smooth_method": "pyramidinal (package default)",
+    "sd_amplifier": 1.5,
+    "noise_logistic": false,
+    "no_plot": true,
+    "save_final_rds": true,
+    "write_expr_matrix": false,
+    "resume_mode": false,
+    "min_max_counts_per_cell": [
+      0,
+      "Inf"
+    ]
+  },
+  "scope": "RNA-inferred broad copy-number-like signal, not DNA CNV or malignancy classification;HMM disabled, no discrete CNV calls;disjoint reference sensitivity not independent cohort validation",
+  "software_preparation": {
+    "python": "3.13.9",
+    "anndata": "0.12.16",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3"
+  },
+  "software_infercnv": {
+    "infercnv": "1.26.0",
+    "R": "4.5.3",
+    "runtime": "server165 local disk; explicit package specification archived"
+  },
+  "summary_method": {
+    "score": "per-cell mean(abs(denoised ratio - 1)); cohort median of donor means",
+    "bins": "10 Mb; minimum 10 retained genes per donor bin; mean log2 ratios",
+    "cohort_heatmap": "donor-equal means; color display clipped +/-0.25; not classification cutoff",
+    "reference_sensitivity": "Spearman correlation and mean absolute log2 difference across common evaluable bins per donor/group",
+    "genotype_matching": "NOT_RUN: no genotype data",
+    "paired_comparison": "same donor, same subtype; descriptive score direction and 10Mb differences; no new P/q tests",
+    "cell_reference_sensitivity": "same myeloid cell across common bins, Spearman correlation",
+    "reference_sensitivity_group_exclusion": "T reference and holdout swap membership, excluded from matched-group correlations",
+    "missing_bin_display": "gray; no value substituted; per-bin donor count supplied in tables"
+  }
+}

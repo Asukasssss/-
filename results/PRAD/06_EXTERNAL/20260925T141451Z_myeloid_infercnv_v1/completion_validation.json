@@ -1,0 +1,20 @@
+{
+  "status": "DONE",
+  "donors": 22,
+  "runs": 44,
+  "myeloid_cells": 2720,
+  "total_cells": 11167,
+  "genotype_matching": "NOT_RUN: no genotype data",
+  "malignancy_classification": "NOT_RUN: RNA inferred profiles are not sufficient",
+  "HMM_calls": "NOT_RUN: HMM=False",
+  "bin_min_genes": 10,
+  "bin_width_bp": 10000000,
+  "score": "mean absolute deviation from denoised inferCNV ratio 1; donor summaries",
+  "reference_sensitivity": "Two disjoint same-donor T pools; same study, not independent validation",
+  "public_data_scope": "cohort/group summaries only; individual cell and donor measurements remain server165",
+  "cells_present_in_both_runs": true,
+  "retained_genes_min": 2910,
+  "retained_genes_max": 8583,
+  "inferred_ratio_min": 0.738420915132291,
+  "inferred_ratio_max": 1.5878738549558
+}
