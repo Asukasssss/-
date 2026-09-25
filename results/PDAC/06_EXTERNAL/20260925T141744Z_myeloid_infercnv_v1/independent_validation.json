@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "units_checked": 31,
+  "cells_checked": 25753,
+  "myeloid_cells_checked": 14133,
+  "per_unit_reference_runs": 3,
+  "SLC6A6_counts_integrality": "PASS",
+  "chr3_excluded": "PASS",
+  "cell_keys_and_per_variant_labels": "PASS",
+  "public_cell_count_reconciliation": "PASS",
+  "paired_donor_statistics_and_BH": "PASS",
+  "not_validated": [
+    "true malignancy",
+    "DNA CNV",
+    "doublets",
+    "clinical donor independence",
+    "myeloid subtype confounding"
+  ]
+}

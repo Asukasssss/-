@@ -90,6 +90,14 @@ def run263(meta):
             a=a[pos];nz=np.flatnonzero(a);rr.append(np.full(len(nz),len(genes),dtype=np.int32));cc.append(nz.astype(np.int32));vv.append(a[nz].astype(np.int32));genes.append(name)
     x=sparse.coo_matrix((np.concatenate(vv),(np.concatenate(rr),np.concatenate(cc))),shape=(len(genes),len(meta))).tocsr()
     return emit('GSE263733',meta,x,genes)
+def write_coverage():
+    idx=pd.read_csv(RUN/'private/units_index.tsv',sep='\t');rows=[];control=[]
+    for _,r in idx[idx.ready].iterrows():
+        d=pd.read_csv(Path(r.path)/'metadata.tsv',sep='\t');n=d.cnv_label.value_counts()
+        for role,count in n.items():rows.append({'cohort':r.cohort,'role':role,'n_cells':count,'one_unit':1})
+        control.append({'cohort':r.cohort,'normal_myeloid_ge20':n.get('Myeloid_normal_control',0)>=20,'author_malignant_ge20':n.get('Author_malignant_control',0)>=20,'one_unit':1})
+    pd.DataFrame(rows).groupby(['cohort','role']).agg(n_units=('one_unit','sum'),n_cells=('n_cells','sum')).reset_index().to_csv(RUN/'public/input_role_coverage.tsv',sep='\t',index=False)
+    pd.DataFrame(control).groupby('cohort').agg(n_units=('one_unit','sum'),n_units_normal_myeloid_calibration=('normal_myeloid_ge20','sum'),n_units_author_malignant_control=('author_malignant_ge20','sum')).reset_index().to_csv(RUN/'public/control_unit_coverage.tsv',sep='\t',index=False)
 if __name__=='__main__':
     allrecords=[]
     for c,fn in [('GSE242230',run242),('GSE278688',run278),('GSE263733',run263)]:
@@ -102,4 +110,5 @@ if __name__=='__main__':
         print('COHORT_PREPARED',c,flush=True)
     d=pd.DataFrame(allrecords);summary=d.groupby('cohort').agg(n_units=('ready','size'),n_ready=('ready','sum'),n_myeloid_postQC=('myeloid','sum')).reset_index()
     summary.to_csv(RUN/'public/prepared_summary.tsv',sep='\t',index=False)
+    write_coverage()
     (RUN/'PREPARED.json').write_text(summary.to_json(orient='records'))

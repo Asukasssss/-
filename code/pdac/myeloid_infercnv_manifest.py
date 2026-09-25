@@ -11,7 +11,7 @@ for unit in idx.loc[idx.cohort=='GSE242230','unit']:
     a=list((D/'GSE242230/raw_matrices').glob('*_'+unit+'_matrix.mtx.gz'));assert len(a)==1
     prefix=str(a[0])[:-len('matrix.mtx.gz')]
     paths.extend([a[0],Path(prefix+'barcodes.tsv.gz'),Path(prefix+'features.tsv.gz')])
-paths+=list(R.glob('myeloid_infercnv_*'))+[R/'public/analysis_spec.json',R/'private/gene_order_no_chr3.tsv']
+paths+=list(R.glob('myeloid_infercnv_*'))+[R/'public/analysis_spec.json',R/'private/gene_order_no_chr3.tsv',R/'verify_myeloid_infercnv.py',R/'test_myeloid_infercnv_summary.py']
 rows=[]
 for p in sorted(set(paths)):
     h=hashlib.sha256()
