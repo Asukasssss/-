@@ -6,6 +6,8 @@
   "gene_order_chr3_excluded": true,
   "exact_signflip_unit_checks": "PASS",
   "R_syntax": "PASS",
-  "infercnv_numerics": "NOT_RUN_AT_THIS_CHECKPOINT",
-  "raw_or_individual_data_downloaded": false
+  "infercnv_numerics": "FIRST_UNIT_THREE_REFERENCE_VARIANTS_DONE;BATCH_RUNNING",
+  "raw_or_individual_data_downloaded": false,
+  "comparison_unit_tests": "4/4 PASS",
+  "storage_compatibility_fix": "MatrixMarket triplet converted to compressed sparse column;counts unchanged"
 }

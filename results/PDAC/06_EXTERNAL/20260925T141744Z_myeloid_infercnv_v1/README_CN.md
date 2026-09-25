@@ -11,9 +11,9 @@
 ## 限制/反证
 跨谱系表达、髓系亚群构成、双细胞及环境RNA均可能影响结果；本轮没有新双细胞检验或DNA/CNV克隆确认。排除chr3后无法评估chr3本身异常。正常组织髓系只覆盖部分单位。供者临床独立性未再次认证。
 ## 当前决定
-PARTIAL：输入完成，依赖环境修复/安装及推断执行中；无结果不得报告恶性比例或SLC6A6差异。
+PARTIAL：输入完成，inferCNV 1.26.0已加载，首个样本三种参考完成，其余推断执行中；无结果不得报告恶性比例或SLC6A6差异。
 ## 下一步
-先验证单样本inferCNV运行，再执行其余样本；数值完成后按原规则汇总。不用单细胞数替代独立供者数。
+单样本流程已验证，继续执行其余样本；数值完成后按原规则汇总。不用单细胞数替代独立供者数。
 ## 复现命令
 在新的PDAC/B服务器目录复制code/pdac/myeloid_infercnv_*脚本及固定参数，依次执行preflight、prepare、schedule、summarize、manifest。schedule需要该运行目录env内可加载infercnv 1.26.0。详细参数见analysis_spec.json。
 

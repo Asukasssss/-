@@ -7,6 +7,7 @@ VARIANTS=['mixed','T_only','B_only']
 STATES=['CNV_ABNORMAL_CANDIDATE','REFERENCE_LIKE','UNCERTAIN']
 def signflip_p(d):
     d=np.asarray(d,float)
+    if d.ndim!=1 or not np.isfinite(d).all():raise ValueError('Finite one-dimensional donor differences required')
     if len(d)<5:return np.nan
     if len(d)>20:raise ValueError('Exact sign flip limit exceeded')
     observed=abs(d.mean());hits=0;total=0
@@ -16,6 +17,7 @@ def signflip_p(d):
 def bootstrap_ci(d):
     rng=np.random.default_rng(20260925)
     d=np.asarray(d,float)
+    if d.ndim!=1 or not np.isfinite(d).all():raise ValueError('Finite one-dimensional donor differences required')
     if len(d)<5:return [np.nan,np.nan]
     v=np.mean(d[rng.integers(0,len(d),size=(10000,len(d)))],axis=1)
     return np.quantile(v,[.025,.975]).tolist()
@@ -50,6 +52,9 @@ def main():
                 for c in chrom[0].columns:chr_records.append({'cohort':entry.cohort,'unit':entry.unit,'state':state,'chr':c,'mean_residual':chrom[0].loc[g.index,c].mean()})
     dd=pd.DataFrame(donor);dd.to_csv(R/'private/donor_group_expression.tsv',sep='\t',index=False)
     if not len(dd):raise RuntimeError('No inferCNV unit completed;no expression comparison created')
+    allmy=pd.concat(cells)
+    sub=allmy.groupby(['cohort','subtype','consensus_state']).agg(n_cells=('unit','size'),n_units=('unit','nunique')).reset_index()
+    sub.to_csv(R/'public/myeloid_subtype_composition.tsv',sep='\t',index=False)
     cal=pd.DataFrame(calibration);cal.groupby(['cohort','role','state']).agg(n_cells=('n_cells','sum'),n_units=('unit','nunique')).reset_index().to_csv(R/'public/control_calibration.tsv',sep='\t',index=False)
     summaries=[];tests=[]
     for c in ['GSE263733','GSE278688','GSE242230']:
