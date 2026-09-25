@@ -1,0 +1,18 @@
+{
+  "analysis_version": "COAD_LYPLA1_cell_pooled_v1",
+  "unit": "cell",
+  "weight": "each cell equal",
+  "gene": "LYPLA1",
+  "prior_run": "20260925T140257Z_uckl1_cna_v1",
+  "prior_code_commit": "0720928cafcbdcd864d606eecf873923e25424f9",
+  "admission": "Exact prior groups and donor conflict exclusion;no new selection by expression",
+  "metrics": [
+    "mean log1p(CP10K)",
+    "mean CP10K",
+    "detection fraction",
+    "distribution quantiles"
+  ],
+  "tests": "none;descriptive overall view requested by user",
+  "zero": "retain measured zeros",
+  "interpretation": "Cell-rich samples contribute more;not patient-equal or independent-cell inference"
+}
