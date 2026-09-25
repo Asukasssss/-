@@ -50,12 +50,12 @@ def main():
     mainprof=prof[prof.cohort.eq('CARE2025_primary')];mat=mainprof.pivot(index='gene',columns='celltype',values='effect').reindex(index=ordered,columns=types);scaled=mat.div(mat.max(axis=1).replace(0,np.nan),axis=0)
     fig,ax=plt.subplots(figsize=(9,28));im=ax.imshow(scaled,aspect='auto',vmin=0,vmax=1,cmap='viridis');ax.set_xticks(range(len(types)),types,rotation=60,ha='right');ax.set_yticks(range(len(ordered)),ordered,fontsize=6);ax.set_title('CARE 2025 primary | all 142 genes\nWithin-gene relative patient-equal expression');fig.colorbar(im,ax=ax,fraction=.025,pad=.02,label='Mean / gene maximum');fig.tight_layout();fig.savefig(F/'GBM_CARE_primary_all142_heatmap.pdf');fig.savefig(F/'GBM_CARE_primary_all142_heatmap.png',dpi=160);plt.close(fig)
     ly=prof[prof.gene.eq('LYPLA1')];save(ly,O/'LYPLA1_CARE_profiles.tsv')
-    fig,axes=plt.subplots(1,2,figsize=(13,5),sharey=True)
+    fig,axes=plt.subplots(1,2,figsize=(13,5),sharey=True,sharex=True)
     for ax,study in zip(axes,studies):
         z=ly[ly.cohort.eq(study)].set_index('celltype').reindex(types);ax.barh(types,z.effect,color=['#bf4c45' if x=='Neoplastic' else '#4389a5' for x in types]);ax.set_title(study);ax.set_xlabel('Patient-equal mean log1p(CP10k)');ax.spines[['top','right']].set_visible(False)
         for i,(_,row) in enumerate(z.iterrows()):
             if np.isfinite(row.effect):ax.text(row.effect+.015,i,f'n={row.n:.0f}; detected {row.mean_detection_fraction:.0%}',va='center',fontsize=8)
-        ax.set_xlim(0,z.effect.max()*1.65)
+        ax.set_xlim(0,ly.effect.max()*1.65)
     axes[0].invert_yaxis();fig.suptitle('LYPLA1 | primary main analysis and same-cohort recurrence context');fig.tight_layout();fig.savefig(F/'LYPLA1_CARE_sources.png',dpi=180);fig.savefig(F/'LYPLA1_CARE_sources.pdf');plt.close(fig)
     notes=pd.DataFrame([('更新','单细胞替换为CARE2025；初发为主，复发为同队列补充，不称两队列独立验证'),('统计保持','此前代谢物、bulk RNA、肿瘤关联统计原样复用；142基因171关系均保留'),('单核数据','10x snRNA-seq；作者质控与注释；全基因库CP10k；患者等权'),('证据边界','表达来源不证明代谢物来源、酶活或机制；Other不参与明确来源排名'),('初发代表性','可再次手术纵向队列，有临床选择偏倚；复发多标本在患者内合并'),('历史','Darmanis2017/Neftel2019留在历史版本，不再作为当前主来源')],columns=['项目','说明'])
     workbook=O/'GBM_CARE2025_全候选142基因171关系.xlsx'
