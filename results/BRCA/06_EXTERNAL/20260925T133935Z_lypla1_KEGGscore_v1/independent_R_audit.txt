@@ -1,0 +1,4 @@
+PASS: common-member scores recomputed in all3 cohorts; 8 correlations; BH8; plusone P formula.
+Maximum score difference: 3.21964677141295e-15
+R version: 4.3.3
+Permutation draws and bootstrap intervals were not independently repeated.

@@ -1,0 +1,8 @@
+{
+  "stage": "before_any_correlations",
+  "kegg_id": "hsa:128966744",
+  "issue": "KEGG entry has KO/EC but no symbol;label as unresolved ID rather than annotation text",
+  "common92_genes_unchanged": true,
+  "numerical_expression_unchanged": true,
+  "initial_input_and_script_retained_in_server_source": true
+}

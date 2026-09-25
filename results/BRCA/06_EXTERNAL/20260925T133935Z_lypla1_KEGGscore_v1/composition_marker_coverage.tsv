@@ -1,0 +1,11 @@
+population	original_markers	measured	removed	retained	eligible
+B lineage	9	9		9	True
+CD8 T cells	1	1		1	False
+Cytotoxic lymphocytes	7	6		6	True
+Endothelial cells	33	32		32	True
+Fibroblasts	8	8		8	True
+Monocytic lineage	7	7	KYNU	6	True
+Myeloid dendritic cells	6	5		5	True
+NK cells	9	5		5	True
+Neutrophils	15	15	HAL	14	True
+T cells	16	14		14	True

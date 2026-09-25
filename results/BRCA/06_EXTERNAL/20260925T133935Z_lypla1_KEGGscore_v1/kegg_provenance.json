@@ -1,0 +1,7 @@
+{
+  "url": "https://rest.kegg.jp/get/hsa00564",
+  "retrieved_utc": "2026-09-25T13:41:32.108211+00:00",
+  "source_sha256": "bcc74b02ed311c8258eb5a6148d9f79f2877798a6b426a7e0e0252f6b4ff0acc",
+  "database_info": "pathway\tKEGG pathway maps\npath\t587 entries\n\tLast update 2026/09/17\n\tKanehisa Laboratories\n\nlinked db\tmodule\n\tko\n\t<org>\n\tgenome\n\tcompound\n\tglycan\n\treaction\n\trclass\n\trmodule\n\tenzyme\n\tnetwork\n\tntmap\n\tdisease\n\tdrug\n\tpubmed\n",
+  "original_members": 105
+}

@@ -1,0 +1,9 @@
+{
+  "old_n": 24,
+  "new_n": 92,
+  "intersection": 20,
+  "union": 96,
+  "Jaccard": 0.20833333333333334,
+  "new_only": 72,
+  "old_only": 4
+}
