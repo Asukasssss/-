@@ -1,0 +1,7 @@
+{
+  "computation_code_commit": "4d9e0154b02af22ada7e7ccd3a24588cf4cec635",
+  "gene": "SLC6A6",
+  "reuse": "same committed generic runner and renderer as LYPLA1",
+  "server_run": "20260925T143700Z_slc6a6_cell_pooled_v1",
+  "private_values": "retained only on server165"
+}
