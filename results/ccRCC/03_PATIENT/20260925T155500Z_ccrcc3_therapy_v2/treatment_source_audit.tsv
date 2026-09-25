@@ -1,0 +1,4 @@
+TREATMENT	THERAPY_EXPOSURE	treatment_stratum	n_author_patients
+ANTI-PD1	Nivolumab	ANTI-PD1 | Nivolumab	12
+NO	Cabozantinib	NO | Cabozantinib	1
+NO	Not exposed	NO | Not exposed	4

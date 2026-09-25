@@ -1,0 +1,11 @@
+{
+  "version": "ccrcc3_treatment_sensitivity_v2",
+  "code_commit": "dd14118abaf64872e493bb797d67edd68aa4d6dd",
+  "primary_and_available": "exact original table rows reused,not recomputed",
+  "RNA": "exact file copied,not recomputed",
+  "refinement": "strata combine both author MetaData_M4 TREATMENT and original master_mapping THERAPY_EXPOSURE;NO includes one cabozantinib-exposed patient",
+  "unit": "17 author patients;all tumor pathology clear cell and all114 RNA IDs independently concordant",
+  "method": "same Spearman;9999 within refined strata permutations;4000 within-strata whole-patient bootstrap",
+  "BH": "all221 current relationships,all evaluable",
+  "independent_validation": false
+}

@@ -1,0 +1,16 @@
+{
+  "version": "ccrcc_mapping_v1",
+  "entry": "all primary patient-paired nominal P<0.05",
+  "scope": "exact author harmonized name AND chemical key match to frozen reviewed human biochemistry; no fuzzy matches or pathway neighbours",
+  "statistics": "no BRCA/PRAD numerical evidence transferred",
+  "chemical_identity": "inherited author annotation, not reidentification",
+  "unmapped": "retained NEEDS_REVIEW; absence of reviewed mapping is not absence of biochemical relationship",
+  "gene_identity": "existing exact Ensembl dictionary preferred; otherwise reviewed human HGNC dictionary",
+  "source_versions": [
+    "BRCA_reviewed_evidence.tsv",
+    "PRAD_reviewed_evidence.tsv",
+    "BRCA_gene_identity.tsv",
+    "PRAD_gene_identity.tsv",
+    "ccRCC_history_relations.tsv"
+  ]
+}

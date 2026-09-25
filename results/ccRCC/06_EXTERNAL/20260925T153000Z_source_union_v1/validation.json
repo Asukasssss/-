@@ -1,0 +1,17 @@
+{
+  "status": "DONE",
+  "cells": 20748,
+  "author_donor_labels": 7,
+  "genes": 157,
+  "genes_measured_all_files": 157,
+  "source_rank_evaluable": 142,
+  "all_annotated_cells_matched": true,
+  "raw_counts_nonnegative_integer": true,
+  "full_gene_denominators": [
+    33694
+  ],
+  "donor_equal": true,
+  "second_independent_study_completed": false,
+  "new_UMAP": false,
+  "new_clustering": false
+}

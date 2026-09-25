@@ -1,0 +1,29 @@
+{
+  "status": "DONE",
+  "refined_strata": [
+    {
+      "TREATMENT": "ANTI-PD1",
+      "THERAPY_EXPOSURE": "Nivolumab",
+      "treatment_stratum": "ANTI-PD1 | Nivolumab",
+      "n_author_patients": 12
+    },
+    {
+      "TREATMENT": "NO",
+      "THERAPY_EXPOSURE": "Cabozantinib",
+      "treatment_stratum": "NO | Cabozantinib",
+      "n_author_patients": 1
+    },
+    {
+      "TREATMENT": "NO",
+      "THERAPY_EXPOSURE": "Not exposed",
+      "treatment_stratum": "NO | Not exposed",
+      "n_author_patients": 4
+    }
+  ],
+  "relations": 221,
+  "p005": 17,
+  "q005": 0,
+  "RNA_reuse_sha256_equal": true,
+  "all_67_tumor_histologies_verified": true,
+  "all114_RNA_links_verified": true
+}

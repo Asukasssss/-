@@ -1,0 +1,26 @@
+{
+  "version": "ccrcc_sc_source_v1",
+  "code_commit": "0874dbea543855ea524ecf215e4e44568243287c",
+  "study": "GSE159115",
+  "scope": "author ccRCC tumor annotation only;normal excluded from primary source;all current/historical genes",
+  "annotation": "author anno unchanged;ua retained as unassigned and not ranked;no reclustering or inferred malignancy",
+  "donor": "author patient field,all samples of same label aggregated",
+  "normalization": "log1p(10000*integer_counts/sum_all_H5_gene_counts_per_cell)",
+  "detection": "counts>0",
+  "gene_match": "exact stable Ensembl when available,otherwise exact unique primary symbol;no inferred aliases",
+  "minimum_cells_per_donor_type": 20,
+  "minimum_donors_per_type": 3,
+  "ranking": ">=2 evaluable assigned categories;max detection>=0.01;ties split credit",
+  "bootstrap": "1000 whole donor draws, all types together;each bootstrap category requires>=3 distinct eligible original donors",
+  "seed": 20260925,
+  "plot": "alphabetical genes and author cell labels;no clustering;row z-score heatmap display only, symmetric[-2,2];raw donor-equal mean for dot color;missing grey",
+  "independent_studies": 1,
+  "P_q": "NA descriptive",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "h5py": "3.11.0",
+    "matplotlib": "3.6.3"
+  }
+}

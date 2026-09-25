@@ -1,0 +1,3 @@
+source_id	status	source_url	scope	limitation
+GSE159115	DONE	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159115	author ccRCC tumor cells	single study;source labels not genotype reverified
+GSE269826	NOT_RUN	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE269826	second study candidate	existing downloads have aria2 partial markers;not analyzed or counted as replication

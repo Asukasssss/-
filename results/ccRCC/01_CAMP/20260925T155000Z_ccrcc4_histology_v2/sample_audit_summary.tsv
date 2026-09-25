@@ -1,0 +1,23 @@
+audit_item	value	status
+status	DONE	DONE
+ccRCC4_mapped_specimens	76	DONE
+excluded_nonclear_or_discordant_specimens	5	DONE
+excluded_patients	3	DONE
+ccRCC4_clear_cell_specimens	71	DONE
+tumor_specimens	49	DONE
+normal_specimens	22	DONE
+author_patients	12	DONE
+tumor_patients	12	DONE
+normal_patients	12	DONE
+paired_patients	12	DONE
+original_matrix_specimens	162	DONE
+unmapped_histology_or_rna_link_not_extended	86	DONE
+total_features	1030	DONE
+retained_features	904	DONE
+historical_cancer_effects	612	DONE
+historical_cancer_q005	310	DONE
+ccRCC3_status	DONE_SEPARATE_RUN	NEEDS_REVIEW
+ccRCC3_reason	Resolved with MetaData_M4 in 20260925T151000Z_ccrcc3_v1;not pooled	NEEDS_REVIEW
+treatment_scope	mixed treated and untreated, mostly immune-checkpoint treated;not a treatment-effect design	DONE
+original_statistics_modified	False	DONE
+observed_values_equal_between_sheets	True	DONE

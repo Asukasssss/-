@@ -1,0 +1,38 @@
+{
+  "version": "ccrcc4_discovery_v2",
+  "code_commit": "59cafe1bdfb24934928e1f6503392b3c0eb85805",
+  "cancer": "ccRCC",
+  "cohort": "ccRCC4",
+  "inclusion": "MasterMapping Dataset=ccRCC4;both MasterMapping Histology and original-study MetaData_M5 HISTOLOGY equal Clear Cell;exclude whole patient on any non-clear-cell or discordant specimen",
+  "supersedes": "20260925T143000Z_discovery_v1 ccRCC4 numeric results;initial CAMP-only histology mislabeled2patients;retain initial version as superseded history",
+  "patient_id": "original OrigScale SUBJECT_ID, explicitly supplied by authors",
+  "analysis_unit": "author patient; arithmetic mean of author processed values over all eligible regions within patient and tissue",
+  "discovery_scope": "all features retained in both original author tissue-filtered sheets, before any significance selection; excluded feature inventory retained",
+  "available_sensitivity": "patient retained for a feature only if ALL included regions in BOTH tissues have finite author data values; no changing regional mixture",
+  "transformation": "none for metabolomics;author processed scale;no new imputation or batch adjustment",
+  "n_min": 8,
+  "paired_patients": 12,
+  "bootstrap": 4000,
+  "master_seed": 20260925,
+  "test": "signed rank;<=16 nonzero exact exhaustive signs;17-29 Monte Carlo99999;>=30 tie and continuity corrected normal;zero_method=wilcox",
+  "test_families": [
+    "METAB_PAIRED_PRIMARY",
+    "METAB_PAIRED_AVAILABLE"
+  ],
+  "BH": "all evaluable features separately per family",
+  "workpool": "primary P<0.05 exploratory, q separately retained",
+  "limitations": [
+    "small n",
+    "treated cohort",
+    "within-patient region mean estimand",
+    "same-cohort selection",
+    "cross-cohort independence not established",
+    "genotype identity not checked"
+  ],
+  "software": {
+    "python": "3.8.10",
+    "pandas": "1.5.3",
+    "numpy": "1.24.4"
+  },
+  "source_paper": "https://doi.org/10.1038/s42255-023-00817-8"
+}

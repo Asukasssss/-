@@ -1,0 +1,28 @@
+{
+  "version": "ccrcc3_patient_v1",
+  "code_commit": "4601666935f737b6fd90ac7adc77a252347a79cf",
+  "unit": "explicit author SUBJECT_ID, regions averaged separately within tissue",
+  "RNA_input": "author TPM gene-symbol file;nonnegative continuous abundance,not raw counts",
+  "RNA_transform": "log2(1+TPM) per specimen before patient-region mean;new explicit analysis transform",
+  "metabolite_transform": "none;author processed values",
+  "families": [
+    "REL_TUMOR_PRIMARY",
+    "REL_TUMOR_AVAILABLE",
+    "REL_TUMOR_TREATMENT_STRATIFIED",
+    "RNA_PAIRED_CURRENT",
+    "RNA_PAIRED_HISTORY_ONLY"
+  ],
+  "association": "Spearman of patient tumor mean processed metabolite versus patient mean log2(1+TPM)",
+  "p_method": "9999 two-sided patient permutations plus1;prespecified sensitivity permutes within exact author TREATMENT",
+  "CI": "4000 whole-patient bootstrap, percentile;stratified sensitivity resamples within exact treatment",
+  "RNA_test": "paired t test on patient region means; t CI plus4000 patient bootstrap;zero variance or n<8 NOT_EVALUABLE",
+  "BH": "all evaluable tests independently per family, including all current relations/current genes;history-only gene family separate",
+  "availability": "all regions included in patient tumor mean must have author data values;same region mixture retained",
+  "selection": "same_cohort_postselection,not independent validation",
+  "master_seed": 20260925,
+  "software": {
+    "python": "3.8.10",
+    "pandas": "1.5.3",
+    "numpy": "1.24.4"
+  }
+}
