@@ -1,0 +1,26 @@
+{
+  "scope": "COAD reviewed nominal35 versus BRCA full117; NOT COAD all458 versus BRCA full117",
+  "coad_commit": "6f1d28a5607933e34886191b820fd16a4a69b832",
+  "coad_gene_table_blob": "80a30e3a2b63ec05c0cdd457222782d39384b92b",
+  "brca_commit": "227245e3171ac3b8530835624711c1a0a69363cf",
+  "brca_relation_table_blob": "7f57e9e9ff303c5e3551b750f9458bb21d4c6111",
+  "sources": [
+    "https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/results/COAD/05_FUNCTION/20260919T134848Z_function_review_accepted_v1/gene_function_review.tsv",
+    "https://github.com/Asukasssss/-/blob/227245e3171ac3b8530835624711c1a0a69363cf/results/BRCA/20260919_ER_availability_v3/er_availability_all_174.tsv",
+    "https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json"
+  ],
+  "extraction": "Selected fields transcribed from GitHub connector reads; not a byte-for-byte copy of source TSVs.",
+  "counts": {
+    "coad_reviewed_genes": 35,
+    "brca_genes": 117,
+    "brca_relations": 174,
+    "shared_genes": 4,
+    "same_named_metabolite_pairs": 3
+  },
+  "patient_matrix_accessed": false,
+  "new_patient_statistics_run": false,
+  "repository_written": false,
+  "pull_request_merged": false,
+  "functional_review": "Operational refinement of already accepted evidence; not a new systematic literature review.",
+  "coad_numeric_precision": "Four-decimal values from accepted gene-level display table, not original high-precision statistics."
+}

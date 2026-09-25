@@ -1,0 +1,28 @@
+{
+  "genes_reviewed": 35,
+  "nominal_relations": 39,
+  "primary_paper_or_exclusion_records": 40,
+  "unique_source_urls": 40,
+  "genes_with_detailed_source_records": 27,
+  "scoped_search_rows": 35,
+  "functional_categories": {
+    "CRC肿瘤模型基因干预报告": 10,
+    "CRC宿主/髓系基因干预": 1,
+    "CRC药理及靶向救援": 1,
+    "CRC运输/药物摄取干预": 1,
+    "CRC通路内线索，独立基因终点待核": 1,
+    "CRC生化改变，所测迁移未改变": 1,
+    "融合对象，不能归于野生型": 1,
+    "仅其他模型/生化背景": 9,
+    "本轮未确认适用CRC功能": 10
+  },
+  "research_queue": {
+    "保留": 21,
+    "优先核查": 9,
+    "暂挂": 5
+  },
+  "new_patient_tests": 0,
+  "source_association_FDR_supported": 0,
+  "depmap_computed": false,
+  "scope_warning": "Only35 genes/39 nominal relations; not full458gene or974catalog functional review."
+}

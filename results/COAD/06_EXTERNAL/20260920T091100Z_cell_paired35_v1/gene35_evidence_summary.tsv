@@ -1,0 +1,36 @@
+gene	full_strata	missing_gene	Lee_primary_evaluable	Lee_primary_p_lt05	Lee_primary_q_lt05	Lee_q_supported_contexts	Pelka_primary_evaluable	Pelka_primary_p_lt05	Pelka_primary_q_lt05	Pelka_q_supported_contexts
+ADSS2	766	False	5	0	0	NONE	6	1	1	Epi:T>N
+AQP9	766	False	5	2	1	Myeloids:T>N	6	2	2	Epi:T>N; Myeloid:T>N
+ASPA	766	False	5	1	1	Stromal cells:T<N	6	2	2	Epi:T<N; Strom:T<N
+B4GALT2	766	False	5	1	1	Stromal cells:T>N	6	2	2	Epi:T>N; Strom:T>N
+BCAT2	766	False	5	1	0	NONE	6	0	0	NONE
+BPGM	766	False	5	1	1	T cells:T>N	6	1	1	TNKILC:T>N
+CANT1	766	False	5	3	1	Stromal cells:T>N	6	4	2	Epi:T<N; Myeloid:T>N
+ENO2	766	False	5	2	1	Myeloids:T>N	6	4	3	Epi:T>N; Myeloid:T>N; Plasma:T<N
+ENTPD3	766	False	5	0	0	NONE	6	1	1	Strom:T<N
+GMPR	766	False	5	0	0	NONE	6	2	1	Strom:T<N
+GNPAT	766	False	5	3	2	Stromal cells:T>N; T cells:T>N	6	2	2	Epi:T>N; TNKILC:T>N
+GSTA4	766	False	5	1	1	Stromal cells:T<N	6	1	0	NONE
+GSTO2	766	False	5	0	0	NONE	6	3	1	Epi:T>N
+GSTT2	766	True	0	0	0	NONE	0	0	0	NONE
+GSTT2B	766	False	5	2	0	NONE	6	2	1	Epi:T>N
+HAGH	766	False	5	2	1	T cells:T>N	6	1	0	NONE
+HDC	766	False	5	0	0	NONE	6	0	0	NONE
+ICMT	766	False	5	2	1	Stromal cells:T>N	6	3	2	Epi:T>N; Strom:T>N
+KMT5A	766	False	5	1	1	Stromal cells:T>N	6	1	1	B:T<N
+NME6	766	False	5	1	0	NONE	6	1	1	Epi:T>N
+NNMT	766	False	5	1	0	NONE	6	3	1	Epi:T>N
+NT5C3A	766	False	5	2	2	B cells:T>N; T cells:T>N	6	1	0	NONE
+PGAM2	766	False	5	2	1	B cells:T<N	6	1	1	Strom:T<N
+PLA2G15	766	False	5	1	0	NONE	6	0	0	NONE
+PRMT7	766	False	5	1	0	NONE	6	1	1	Epi:T<N
+SLC15A3	766	False	5	2	0	NONE	6	1	1	Myeloid:T>N
+SLC29A1	766	False	5	2	1	T cells:T>N	6	2	1	Epi:T>N
+SLC29A3	766	False	5	1	0	NONE	6	0	0	NONE
+SLC38A3	766	False	5	1	0	NONE	6	1	0	NONE
+SLC6A17	766	False	5	0	0	NONE	6	1	0	NONE
+SLC6A6	766	False	5	5	1	T cells:T>N	6	3	3	Epi:T>N; Strom:T>N; TNKILC:T>N
+SLC7A8	766	False	5	0	0	NONE	6	0	0	NONE
+UAP1	766	False	5	2	0	NONE	6	2	1	TNKILC:T>N
+UCKL1	766	False	5	1	0	NONE	6	1	1	Epi:T>N
+UPP2	766	False	5	0	0	NONE	6	1	1	Epi:T>N;median_delta=0;nonzero=8/28

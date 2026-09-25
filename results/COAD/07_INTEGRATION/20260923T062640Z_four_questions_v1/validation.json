@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "relation_rows": 6,
+  "source_profile_rows": 80,
+  "primary_figure_panels": 2,
+  "figure_labels": [
+    "UCKL1",
+    "NNMT",
+    "HDC",
+    "GSTA4",
+    "CLIC2"
+  ],
+  "all_relation_q_over_005": true,
+  "no_new_patient_or_single_cell_statistics": true,
+  "old_covariate_scope_separate": true
+}

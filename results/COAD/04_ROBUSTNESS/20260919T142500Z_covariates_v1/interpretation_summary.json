@@ -1,0 +1,35 @@
+{
+  "priority9_relations": 9,
+  "nominal39": {
+    "M1": {
+      "evaluable": 39,
+      "p_lt_005": 34,
+      "q_lt_005": 0,
+      "same_direction_as_M0": 39,
+      "loo_sign_change": 0,
+      "max_abs_delta_adjustment": 0.11987165403528344
+    },
+    "M2": {
+      "evaluable": 39,
+      "p_lt_005": 15,
+      "q_lt_005": 0,
+      "same_direction_as_M0": 39,
+      "loo_sign_change": 0,
+      "max_abs_delta_adjustment": 0.23378780989017067
+    },
+    "M3": {
+      "evaluable": 0,
+      "p_lt_005": 0,
+      "q_lt_005": 0,
+      "same_direction_as_M0": 0,
+      "loo_sign_change": 0,
+      "max_abs_delta_adjustment": null
+    }
+  },
+  "whole_family_significant": {
+    "M1": [],
+    "M2": [],
+    "M3": []
+  },
+  "original_fields_preserved": true
+}

@@ -1,0 +1,72 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 1
+  },
+  "response": {
+    "numFound": 1,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "date_modified": "2015-09-07T00:00:00Z",
+        "mane_select": [
+          "ENST00000618279.3",
+          "NM_000854.5"
+        ],
+        "enzyme_id": [
+          "2.5.1.18"
+        ],
+        "ena": [
+          "L38503"
+        ],
+        "entrez_id": "2953",
+        "pubmed_id": [
+          7789971,
+          9729470
+        ],
+        "location": "22q11.23",
+        "ucsc_id": "uc062cim.2",
+        "prev_name": [
+          "glutathione S-transferase theta 2"
+        ],
+        "name": "glutathione S-transferase theta 2 (gene/pseudogene)",
+        "curator_notes": [
+          "This gene is a pseudogene on the reference genome but has been found to be protein coding in some individuals."
+        ],
+        "ensembl_gene_id": "ENSG00000099984",
+        "uniprot_ids": [
+          "P0CG29"
+        ],
+        "omim_id": [
+          "600437"
+        ],
+        "status": "Approved",
+        "gene_group": [
+          "Soluble glutathione S-transferases"
+        ],
+        "refseq_accession": [
+          "NM_000854"
+        ],
+        "uuid": "24399830-2f95-4e6d-b61b-85a849ab54ad",
+        "date_approved_reserved": "1994-08-16T00:00:00Z",
+        "vega_id": "OTTHUMG00000150786",
+        "agr": "HGNC:4642",
+        "locus_type": "gene with protein product",
+        "locus_group": "protein-coding gene",
+        "gene_group_id": [
+          567
+        ],
+        "symbol": "GSTT2",
+        "date_name_changed": "2014-10-10T00:00:00Z",
+        "mgd_id": [
+          "MGI:106188"
+        ],
+        "hgnc_id": "HGNC:4642",
+        "rgd_id": [
+          "RGD:69362"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "analysis_version": "COAD_integral_admission_v1",
+  "run_id": "20260921T082557Z_integral_admission_v1",
+  "status": "PARTIAL",
+  "admission_status": "NEEDS_REVIEW",
+  "analysis_locked": false,
+  "real_patient_associations": "NOT_RUN",
+  "candidate_rna": 30,
+  "candidate_protein": 11,
+  "eligibility": "Name-compatible unique features; six finite observations in each layer; nonconstant; source cross-sample comparability unresolved",
+  "unit": "6 author-mapped patients; tumor specimens only; CRC site mix unverified",
+  "method_proposal": {
+    "effect": "Spearman average ranks",
+    "permutations": 720,
+    "tail": "count(abs(rho_perm)>=abs(rho_observed))/720",
+    "pseudocount": false,
+    "tie_weights": "all labeled index permutations",
+    "bh": "Separate RNA/protein within each locked fully estimable family",
+    "loo": "6 deletions; retain all patients; report min/max/sign flip and undefined constant subsets",
+    "covariates": "none",
+    "imputation": "none",
+    "zero": "Do not delete source numeric zeros; interpretation unresolved",
+    "seed": null
+  },
+  "blocking_fields": [
+    "S4 G_transcriptome_gene exact quantification field and sample normalization",
+    "Metabolome/proteome sample normalization and pre-export missing/imputation policy",
+    "RNA zero semantics"
+  ],
+  "parent_commit": "c22ef5b8116cfca5832a2b51148449e22de83172"
+}

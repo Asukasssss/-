@@ -1,0 +1,24 @@
+metabolite_key	metabolite_name	genes	n_relations	requested_fields	actual_external_coverage
+KEGG:C00015	uridine 5'-diphosphate (UDP)	B4GALT2;NME6	2	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00019	S-adenosylmethionine (SAM)	ICMT;KMT5A;NNMT;PRMT7	4	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00051	glutathione, reduced (GSH)	GSTA4;GSTO2;GSTT2;GSTT2B;HAGH	5	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00111	dihydroxyacetone phosphate (DHAP)	GNPAT	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00123	leucine	SLC6A17;SLC7A8	2	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00130	inosine 5'-monophosphate (IMP)	CANT1;ENTPD3;GMPR	3	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00147	adenine	AQP9	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00148	proline	SLC6A17	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00152	asparagine	SLC38A3	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00242	guanine	SLC29A3	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00245	taurine	SLC6A6	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00299	uridine	SLC29A1;UCKL1;UPP2	3	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00386	carnosine	SLC15A3	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00387	guanosine	SLC29A3	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00388	histamine	HDC	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00407	isoleucine	BCAT2;SLC7A8	2	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00475	cytidine	NT5C3A	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00631	2-phosphoglycerate	BPGM;ENO2;PGAM2	3	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C00670	glycerophosphorylcholine (GPC)	PLA2G15	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C01042	N-acetylaspartate (NAA)	ASPA	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C02918	1-methylnicotinamide	NNMT	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C03794	adenylosuccinate	ADSS2	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED
+KEGG:C04501	N-Acetylglucosamine 1-phosphate	UAP1	1	Original feature ID,structure identifier,annotation confidence,adduct/retention context,processed same-specimen values and missingness	NOT_VERIFIED

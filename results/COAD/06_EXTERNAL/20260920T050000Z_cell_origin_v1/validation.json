@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "coverage_rows": 1226,
+  "lineage_cell_total": 434912,
+  "unique_stratum_keys": true,
+  "received_manifest_entries_checked": 10,
+  "Pelka_common_cell_metadata_all26_fields_equal": true,
+  "PRMT7_actual_probes": 2,
+  "target_expression_read": false,
+  "expression_statistics": "NOT_RUN",
+  "missing_Lee_library_id": "NA not one library",
+  "new_literature_review": false
+}

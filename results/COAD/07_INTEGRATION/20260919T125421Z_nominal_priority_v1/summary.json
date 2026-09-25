@@ -1,0 +1,22 @@
+{
+  "cancer": "COAD",
+  "version": "COAD_nominal_priority_v1",
+  "run_id": "20260919T125421Z_nominal_priority_v1",
+  "catalog_rows": 974,
+  "planned_family": 674,
+  "evaluable_family": 652,
+  "selected_nominal_p": 39,
+  "selected_unique_genes": 35,
+  "selected_unique_features": 23,
+  "positive": 25,
+  "negative": 14,
+  "selected_fdr_supported": 0,
+  "all37_nominal_same_direction": 36,
+  "availability_nominal_same_direction": 35,
+  "both_sensitivities_nominal_same_direction": 33,
+  "selected_loo_sign_change": 0,
+  "selected_paired_RNA_q_lt_005": 26,
+  "stage_status": "PARTIAL",
+  "functional_review": "NOT_RUN",
+  "external_review": "NOT_RUN"
+}

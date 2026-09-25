@@ -1,0 +1,29 @@
+{
+  "cancer": "COAD",
+  "owner": "B",
+  "stage_id": "02_MAPPING",
+  "run_id": "20260919T112700Z_shared_delivery_v1",
+  "analysis_version": "coad_biochemical_v0.1_shared_view_v1",
+  "created_utc": "2026-09-19T11:27:40.941086+00:00",
+  "code_commit": "9301b0fe45d6ae5f50fdc0b4960a92d9b28b0815",
+  "generator_sha256": "851b53e89fbb3f6770666b1ae46bd4c8aa48f699be398762bc0b93b3ba947bda",
+  "software": {
+    "python": "3.12.14"
+  },
+  "status": "PARTIAL",
+  "parameters": {
+    "new_calculation": false,
+    "original_q_threshold_for_mapping": 0.05
+  },
+  "statistical_unit": "feature-human gene annotation pair",
+  "test_family": {
+    "new_tests": "NOT_RUN",
+    "original_q": "Preserved effect_fdr; original full family size not asserted"
+  },
+  "seed": "NA",
+  "record_count": 974,
+  "missing_values": "NA: no new P/q; n, intervals and original P are unavailable in the input effect snapshot; NA is not zero.",
+  "interpretation": "A format view of existing evidence, not new or independent evidence. All mapping rows require source/complex-role review before finalization.",
+  "patient_analysis": "NOT_RUN",
+  "mapping_identity_detail": "reports/COAD/fresh_mapping_v0_1/identity_review.json"
+}

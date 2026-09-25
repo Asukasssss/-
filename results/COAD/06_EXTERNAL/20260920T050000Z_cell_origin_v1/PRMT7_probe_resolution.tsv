@@ -1,0 +1,5 @@
+item	status	finding	next
+GSE89076_platform	DONE	GPL16699 confirmed from actual sample SOFT; two PRMT7 60mer probes A_23_P77437 and A_23_P77430; numeric IDs 6500/12281	Retain platform version and sequences
+splice_event	NEEDS_REVIEW	Received source describes GRCh37 alternative acceptor AA_exon16/PRMT7_AA_16.1; not whole-exon skipping. Construct sequence and paper-specific V1/V2 mapping not obtained	Obtain supplemental sequences and compare junction-specific segments
+probe_specificity	NEEDS_REVIEW	Both platform rows annotate NM_019023 and NM_001184824; multi-transcript annotation alone does not establish event specificity or exact cross-hybridization	Exact sequence alignment to paper-defined isoforms required
+existing_gene_matrix	NOT_EVALUABLE	Gene-symbol matrix cannot supply V2/V1 or PSI; no new variant quantification	Preserve existing gene-level association

@@ -1,0 +1,11 @@
+study	original_type	broad_type	interpretation
+Uhlitz	Tcells	Tcells	Approximate broad compartment; not identical subtypes
+Uhlitz	Epithelial	Epithelial	Approximate broad compartment; not identical subtypes
+Uhlitz	Bcells	B_lineage	Approximate broad compartment; not identical subtypes
+Uhlitz	Plasma	B_lineage	Approximate broad compartment; not identical subtypes
+Uhlitz	Monocyte	Myeloid	Approximate broad compartment; not identical subtypes
+Uhlitz	Endothelial	Stromal	Approximate broad compartment; not identical subtypes
+Uhlitz	Fibroblast	Stromal	Approximate broad compartment; not identical subtypes
+Uhlitz	Pericytes	Stromal	Approximate broad compartment; not identical subtypes
+Uhlitz	Glia	Stromal	Approximate broad compartment; not identical subtypes
+Uhlitz	Mast	Mast	Approximate broad compartment; not identical subtypes

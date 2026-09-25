@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "stages": [
+    {"stage_id":"01_effects","title_cn":"效应记录整理"},
+    {"stage_id":"02_identity","title_cn":"代谢物身份核对"},
+    {"stage_id":"03_mapping","title_cn":"直接生化关系映射"},
+    {"stage_id":"04_patient","title_cn":"样本与患者关联"},
+    {"stage_id":"05_function","title_cn":"功能证据与反证"},
+    {"stage_id":"06_external","title_cn":"外部证据核查"},
+    {"stage_id":"07_prioritization","title_cn":"候选比较与分层"},
+    {"stage_id":"08_followup","title_cn":"重点候选深入"}
+  ],
+  "statuses":["DONE","IN_PROGRESS","NOT_RUN","NOT_EVALUABLE","ACCESS_BLOCKED"],
+  "publication_statuses":["NOT_PUBLISHED","ACCESS_BLOCKED","PUSHED","PR_OPEN","MERGED"],
+  "record_prefix":["schema_version","cancer","stage_id","analysis_version","dataset","feature_name","metabolite_key","gene_symbol","human_gene_id","record_status","reason_code","original_effect","original_q","result"],
+  "record_sort":["dataset","feature_name","metabolite_key","gene_symbol","human_gene_id"],
+  "required_batch_files":["README_CN.md","summary.json","records.json","manifest.json"],
+  "summary_field_order":["schema_version","cancer","owner","stage_id","analysis_version","batch_id","status","scope","created_utc","code_commit","generator_sha256","inputs","unit","test_family","planned_count","record_count","counts","interpretation","limitations","next_action","publication"],
+  "report_sections":["基本信息","输入与分析范围","实际结果","结果含义","校验","未完成与限制","下一步","发布状态"]
+}

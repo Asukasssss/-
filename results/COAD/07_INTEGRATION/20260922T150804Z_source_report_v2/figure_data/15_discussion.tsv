@@ -1,0 +1,11 @@
+gene	relation_id	role	reason	limitation	metabolite_key	metabolite_name	selection_scope	source_commit
+BCAT2	COAD|isoleucine|KEGG:C00407|hsa:587	历史名义关联	历史名义关联；按证据类型展示，不按q排名	两研究原类别不同，不能指定唯一来源	KEGG:C00407	isoleucine	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+AQP9	COAD|adenine|KEGG:C00147|hsa:366	髓系背景	髓系背景；按证据类型展示，不按q排名	单核与宽髓系不是完全相同亚型	KEGG:C00147	adenine	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+NNMT	COAD|1-methylnicotinamide|KEGG:C02918|hsa:4837	基质背景	基质背景；按证据类型展示，不按q排名	RNA配对未通过FDR；不是机制证明	KEGG:C02918	1-methylnicotinamide	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+HDC	COAD|histamine|KEGG:C00388|hsa:3067	覆盖边界	覆盖边界；按证据类型展示，不按q排名	Uhlitz肥大细胞明确；Lee暂不可定位	KEGG:C00388	histamine	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+GSTA4	COAD|glutathione, reduced (GSH)|KEGG:C00051|hsa:2941	来源稳定性	来源稳定性；按证据类型展示，不按q排名	Uhlitz最高类别保持率约60%，来源不唯一	KEGG:C00051	glutathione, reduced (GSH)	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+UCKL1	COAD|uridine|KEGG:C00299|hsa:54963	上皮背景	上皮背景；按证据类型展示，不按q排名	RNA与来源不能证明尿苷介导	KEGG:C00299	uridine	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+SLC38A3	COAD|asparagine|KEGG:C00152|hsa:10991	低检出示例	低检出示例；按证据类型展示，不按q排名	两研究低于定位检出门槛	KEGG:C00152	asparagine	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+SLC6A6	COAD|taurine|KEGG:C00245|hsa:6533	多来源背景	多来源背景；按证据类型展示，不按q排名	保留研究和类别差异	KEGG:C00245	taurine	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+OPLAH	COAD|5-oxoproline|KEGG:C01879|hsa:26873	新增未支持关系	新增未支持关系；按证据类型展示，不按q排名	相关P约0.79，仍保留来源分析	KEGG:C01879	5-oxoproline	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00
+GSTA1	COAD|glutathione, reduced (GSH)|KEGG:C00051|hsa:2938	RNA缺项	RNA缺项；按证据类型展示，不按q排名	当前RNA行未找到，关联不可评估	KEGG:C00051	glutathione, reduced (GSH)	DISPLAY_EXAMPLE_NOT_RANK	3c64c24ec171b2753b0226fdd5aafb7766e45b00

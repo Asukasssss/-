@@ -1,0 +1,84 @@
+代谢物	来源英文名	原g	原P	原q	原q是否小于0.05	肿瘤标本数	正常标本数	原分析设计
+β-丙氨酸	beta-alanine	2.22555471341831	2.13757399726694e-12	3.39874265565443e-10	True	37	39	Unpaired; author supplied processed values; no new transformation
+5-羟色胺（5-HT）	serotonin (5HT)	-2.57675115041992	7.44676340036233e-12	5.92017690328805e-10	True	37	39	Unpaired; author supplied processed values; no new transformation
+葡萄糖	glucose	-2.46828093548679	1.32523013421325e-11	7.02371971133023e-10	True	37	39	Unpaired; author supplied processed values; no new transformation
+双硫仑（来源名称注释）	Disulfiram	-2.02409833924531	3.69104201386336e-10	1.46718920051068e-08	True	37	39	Unpaired; author supplied processed values; no new transformation
+牛磺酸	taurine	1.76824722222295	1.20525611352462e-09	3.7774906946348e-08	True	37	39	Unpaired; author supplied processed values; no new transformation
+脯氨酸	proline	1.83185674666479	1.46359987842461e-09	3.7774906946348e-08	True	37	39	Unpaired; author supplied processed values; no new transformation
+亚牛磺酸	hypotaurine	1.35836816796979	1.66304621776375e-09	3.7774906946348e-08	True	37	39	Unpaired; author supplied processed values; no new transformation
+N-乙酰天冬氨酸（NAA）	N-acetylaspartate (NAA)	-1.60890842089475	2.017858228709e-09	4.01049322955914e-08	True	37	39	Unpaired; author supplied processed values; no new transformation
+S-腺苷甲硫氨酸（SAM）	S-adenosylmethionine (SAM)	1.58687135491014	5.53856111046124e-09	9.78479129514819e-08	True	37	39	Unpaired; author supplied processed values; no new transformation
+3PG（沿用来源缩写）	3PG	-1.62220266413497	1.57254016426722e-08	2.50033886118489e-07	True	37	39	Unpaired; author supplied processed values; no new transformation
+胞苷二磷酸胆碱（CDP-胆碱）	cytidine 5'-diphosphocholine	1.20327326312888	5.14240191347433e-08	7.43310822038562e-07	True	37	39	Unpaired; author supplied processed values; no new transformation
+肌酐	creatinine	-1.21647722662822	1.62568701609764e-07	2.15403529632938e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+2-磷酸甘油酸（2-PG）	2-phosphoglycerate	-1.44511128689612	1.89249438444731e-07	2.1849625495186e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+核酮糖／木酮糖-5-磷酸合并特征	ribulose/xylulose 5-phosphate	-1.38855897890463	1.92386639580254e-07	2.1849625495186e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+4-甲基-2-氧代戊酸	4-methyl-2-oxopentanoate	-1.47479797958175	2.10219900139077e-07	2.22833094147422e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+尿囊素	allantoin	-1.13251050393184	2.77652387904047e-07	2.75917060479647e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+尿酸	urate	-1.38171846699428	3.34975711837892e-07	3.03664852373543e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+乙酰胆碱	acetylcholine	-1.26417215547317	3.43771530988917e-07	3.03664852373543e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+腺苷	adenosine	-1.43361692283717	4.40279963797425e-07	3.68444811809424e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+组胺	histamine	-1.21651078686213	5.77177821576465e-07	4.5885636815329e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+3-羟基-3-甲基戊二酸	3-hydroxy-3-methylglutarate	1.28253291327222	6.33294478406424e-07	4.64513926849744e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+柠檬酸	citrate	-1.08156774149304	6.42723672370715e-07	4.64513926849744e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+甘氨酰甘氨酸	glycylglycine	1.09439254708472	7.70243452870567e-07	5.32472647854001e-06	True	37	39	Unpaired; author supplied processed values; no new transformation
+乙酰羟肟酸	Acetohydroxamate	-0.521320132255297	2.36729842951867e-06	1.51302088736128e-05	True	37	39	Unpaired; author supplied processed values; no new transformation
+N-乙酰氨基葡萄糖-6-磷酸	N-acetylglucosamine 6-phosphate	1.2061475455854	2.37896365937307e-06	1.51302088736128e-05	True	37	39	Unpaired; author supplied processed values; no new transformation
+谷氨酰胺	glutamine	-1.18517818312271	2.50507226715525e-06	1.53194804029879e-05	True	37	39	Unpaired; author supplied processed values; no new transformation
+次黄嘌呤	hypoxanthine	1.13415428000986	1.33445328887333e-05	7.85844714558742e-05	True	37	39	Unpaired; author supplied processed values; no new transformation
+鸟苷	guanosine	-1.10566416561374	1.39920692696524e-05	7.94549647812405e-05	True	37	39	Unpaired; author supplied processed values; no new transformation
+5-羟赖氨酸	5-hydroxylysine	1.10235368258317	1.9427006212617e-05	0.000106513585786417	True	37	39	Unpaired; author supplied processed values; no new transformation
+黏液酸	Mucate	-1.07306834400398	3.29565447960729e-05	0.000171933865206755	True	37	39	Unpaired; author supplied processed values; no new transformation
+腺嘌呤	adenine	1.00605822007937	3.35216969899963e-05	0.000171933865206755	True	37	39	Unpaired; author supplied processed values; no new transformation
+犬尿氨酸	kynurenine	1.03558795953485	4.3936166590471e-05	0.000218307827746403	True	37	39	Unpaired; author supplied processed values; no new transformation
+UDP-N-乙酰氨基葡萄糖	UDP-N-acetylglucosamine	0.939007643120185	6.03516437216822e-05	0.000290785192477196	True	37	39	Unpaired; author supplied processed values; no new transformation
+顺乌头酸	cis-aconitate	-0.8353983577876	6.58175208717101e-05	0.000307793700547115	True	37	39	Unpaired; author supplied processed values; no new transformation
+眼酸	ophthalmate	-0.853784378285622	6.88414560562974e-05	0.000312736900370037	True	37	39	Unpaired; author supplied processed values; no new transformation
+异柠檬酸	isocitrate	-0.94049325537887	0.000158783820413016	0.000701295206824154	True	37	39	Unpaired; author supplied processed values; no new transformation
+N-乙酰神经氨酸	N-acetylneuraminate	-0.914050093379568	0.000215886479230414	0.000927728383719889	True	37	39	Unpaired; author supplied processed values; no new transformation
+腺苷酸琥珀酸	adenylosuccinate	0.723072982975468	0.000252713595951915	0.00103594092695614	True	37	39	Unpaired; author supplied processed values; no new transformation
+肌苷单磷酸（IMP）	inosine 5'-monophosphate (IMP)	-0.889251406041119	0.000254098717932638	0.00103594092695614	True	37	39	Unpaired; author supplied processed values; no new transformation
+5′-甲硫腺苷（MTA）	5-methylthioadenosine (MTA)	0.794416000324265	0.000278451051347619	0.00110684292910678	True	37	39	Unpaired; author supplied processed values; no new transformation
+尿苷	uridine	-0.928810287622812	0.000286826324791965	0.00111232647907128	True	37	39	Unpaired; author supplied processed values; no new transformation
+还原型谷胱甘肽（GSH）	glutathione, reduced (GSH)	0.723546364233653	0.00036442996477355	0.00137962772378558	True	37	39	Unpaired; author supplied processed values; no new transformation
+尿素	urea	-0.857440071272848	0.0005184630720122	0.00191710763837069	True	37	39	Unpaired; author supplied processed values; no new transformation
+谷氨酸	glutamate	0.752532488926264	0.000581016110299555	0.00205315909153294	True	37	39	Unpaired; author supplied processed values; no new transformation
+三乙醇胺	triethanolamine	-0.763394607391977	0.000581082761754605	0.00205315909153294	True	37	39	Unpaired; author supplied processed values; no new transformation
+磷酸二羟丙酮（DHAP）	dihydroxyacetone phosphate (DHAP)	-0.920687204019363	0.000604569477217978	0.00208970754081866	True	37	39	Unpaired; author supplied processed values; no new transformation
+肌苷	inosine	-0.467146949402204	0.000950595951300446	0.00317493716792095	True	37	39	Unpaired; author supplied processed values; no new transformation
+尿嘧啶	uracil	0.735231055609736	0.000958471597862928	0.00317493716792095	True	37	39	Unpaired; author supplied processed values; no new transformation
+鸟嘌呤	guanine	-0.589713633659115	0.00104813886755603	0.00340110367227365	True	37	39	Unpaired; author supplied processed values; no new transformation
+N-乙酰甲硫氨酸	N-acetylmethionine	0.760384400279365	0.00110691553463308	0.0035199914001332	True	37	39	Unpaired; author supplied processed values; no new transformation
+肌酸	creatine	-0.803110403962142	0.00163903122278767	0.0051099208710439	True	37	39	Unpaired; author supplied processed values; no new transformation
+磷酸烯醇式丙酮酸（PEP）	phosphoenolpyruvate (PEP)	-0.681593834380287	0.00190509137562324	0.00582518324469414	True	37	39	Unpaired; author supplied processed values; no new transformation
+胍基乙酸	guanidinoacetate	-0.522523018986262	0.00249305674376347	0.0074791702312904	True	37	39	Unpaired; author supplied processed values; no new transformation
+邻苯二甲酸	Phthalate	-0.607579272336491	0.00360913317233611	0.0104274039204103	True	37	39	Unpaired; author supplied processed values; no new transformation
+1-甲基腺苷	1-methyladenosine	0.744539332175952	0.00362816647395966	0.0104274039204103	True	37	39	Unpaired; author supplied processed values; no new transformation
+1-甲基烟酰胺（1-MNA）	1-methylnicotinamide	0.736754320620112	0.003738125933732	0.0104274039204103	True	37	39	Unpaired; author supplied processed values; no new transformation
+UDP-葡萄糖醛酸	UDP-glucuronate	0.51439178620292	0.003738125933732	0.0104274039204103	True	37	39	Unpaired; author supplied processed values; no new transformation
+甘油磷酸胆碱（GPC）	glycerophosphorylcholine (GPC)	-0.671891137099271	0.00412713278783085	0.0113140364356053	True	37	39	Unpaired; author supplied processed values; no new transformation
+2-脱氧葡萄糖-6-磷酸	2-Deoxyglucose 6-phosphate	0.659781947432759	0.0047045588580238	0.0126783874309455	True	37	39	Unpaired; author supplied processed values; no new transformation
+3-羟脯氨酸	3-hydroxyproline	0.611551652327855	0.00485778568946487	0.0128731320770819	True	37	39	Unpaired; author supplied processed values; no new transformation
+天冬酰胺	asparagine	0.690613414767693	0.00627265104383797	0.0163500248519711	True	37	39	Unpaired; author supplied processed values; no new transformation
+N-乙酰氨基葡萄糖-1-磷酸	N-Acetylglucosamine 1-phosphate	0.651874150570456	0.00909480311171882	0.0233237692703757	True	37	39	Unpaired; author supplied processed values; no new transformation
+1-甲基组胺	1-methylhistamine	-0.596838488935626	0.0102508215576134	0.0258711210739767	True	37	39	Unpaired; author supplied processed values; no new transformation
+壬二酸	azelate (nonanedioate)	-0.383174360489904	0.0111549770918437	0.0277131462125493	True	37	39	Unpaired; author supplied processed values; no new transformation
+6-磷酸葡萄糖酸	6-phosphogluconate	-0.641702243769376	0.0119047165660489	0.0291207682154118	True	37	39	Unpaired; author supplied processed values; no new transformation
+半胱氨酸–谷胱甘肽二硫化物	cysteine-glutathione disulfide	0.592489232663605	0.0122608411155754	0.0295374808693407	True	37	39	Unpaired; author supplied processed values; no new transformation
+肌肽	carnosine	-0.552013685316796	0.0127755692123431	0.0303181418621276	True	37	39	Unpaired; author supplied processed values; no new transformation
+亚精胺	spermidine	0.305948873264586	0.0163671614066464	0.038270274465541	True	37	39	Unpaired; author supplied processed values; no new transformation
+亮氨酸	leucine	0.50839089312706	0.0173202036202628	0.0398980189569739	True	37	39	Unpaired; author supplied processed values; no new transformation
+酪氨酸	tyrosine	0.543601589293918	0.017565165578542	0.0398980189569739	True	37	39	Unpaired; author supplied processed values; no new transformation
+异亮氨酸	isoleucine	0.567578731556765	0.0199186120048217	0.0446064691375585	True	37	39	Unpaired; author supplied processed values; no new transformation
+尿苷二磷酸（UDP）	uridine 5'-diphosphate (UDP)	0.400708300009171	0.0210496456290408	0.0458478582879108	True	37	39	Unpaired; author supplied processed values; no new transformation
+胞苷	cytidine	-0.484622433872367	0.0210496456290408	0.0458478582879108	True	37	39	Unpaired; author supplied processed values; no new transformation
+苯丙氨酸	phenylalanine	0.462912443149273	0.0254602725067867	0.0539757777143879	False	37	39	Unpaired; author supplied processed values; no new transformation
+胞苷-5′-单磷酸（CMP）	cytidine 5'-monophosphate (5'-CMP)	-0.568550324207397	0.0254602725067867	0.0539757777143879	False	37	39	Unpaired; author supplied processed values; no new transformation
+ADP-葡萄糖	ADP-glucose	0.388646001175217	0.0312048682585171	0.0652838691197924	False	37	39	Unpaired; author supplied processed values; no new transformation
+苏氨酸	threonine	0.480107439619451	0.0331366605437162	0.0684250522915698	False	37	39	Unpaired; author supplied processed values; no new transformation
+壬酸（9:0）	pelargonate (9:0)	-0.35654035768113	0.0390647467967476	0.0796319838549086	False	37	39	Unpaired; author supplied processed values; no new transformation
+S-腺苷同型半胱氨酸（SAH）	S-adenosylhomocysteine (SAH)	0.175751567715889	0.0406246094985898	0.0807523280020274	False	37	39	Unpaired; author supplied processed values; no new transformation
+γ-氨基丁酸（GABA）	gamma-aminobutyrate (GABA)	0.544534782625098	0.0406301021393849	0.0807523280020274	False	37	39	Unpaired; author supplied processed values; no new transformation
+尿苷单磷酸（UMP）	uridine 5'-monophosphate (UMP)	-0.495355829225026	0.0437886682147966	0.0859555339031192	False	37	39	Unpaired; author supplied processed values; no new transformation
+鸟苷二磷酸（GDP）	guanosine 5'- diphosphate (GDP)	0.333738755268872	0.0465791355778514	0.0903180799619314	False	37	39	Unpaired; author supplied processed values; no new transformation
+鸟苷-5′-单磷酸（GMP）	guanosine 5'- monophosphate (5'-GMP)	0.177439150440661	0.0483204978705956	0.0925657730292134	False	37	39	Unpaired; author supplied processed values; no new transformation

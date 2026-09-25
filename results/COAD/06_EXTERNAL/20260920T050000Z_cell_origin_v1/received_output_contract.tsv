@@ -1,0 +1,6 @@
+文件	汇总层级	内容	判读条件
+coverage_by_lineage.tsv	按研究/组织/富集/技术/细胞类型	患者数、细胞数、患者细胞数分布、缺失谱系	先完成覆盖，不读取目标表达作筛选
+source_expression_summary.tsv	按上述分层，患者等权汇总	HDC/GSTA4的检出率及患者伪bulk表达分布	只标明采样细胞中的表达定位，非通量或介导
+sampling_limitations.tsv	按研究/实验条件	富集、解离、组织区域、未确定标签	富集标签不明时不做跨谱系比例
+PRMT7_probe_resolution.tsv	按探针×原文变体事件	实际GPL、探针ID/序列、参考版本、匹配及交叉匹配	未取得序列填状态；不能猜探针或转录本编号
+direction_conditions.tsv	按基因×文献×实验	细胞株、条件、干预、终点、救援、结论适用范围	沿用上一包；未独立新增核验不得标新证据

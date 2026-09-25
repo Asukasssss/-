@@ -1,0 +1,5 @@
+gene	COAD_metabolites	BRCA_metabolites	scope
+BCAT2	isoleucine	glutamate;isoleucine	COAD reviewed35 vs BRCA full117
+NNMT	1-methylnicotinamide;S-adenosylmethionine (SAM)	1-methylnicotinamide;S-adenosylhomocysteine (SAH);nicotinamide	COAD reviewed35 vs BRCA full117
+SLC6A6	taurine	taurine	COAD reviewed35 vs BRCA full117
+UPP2	uridine	uracil	COAD reviewed35 vs BRCA full117

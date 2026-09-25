@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "source inventory and acquired metadata only",
+  "unique_cell_ids": true,
+  "condition_total_matches": true,
+  "frozen39_unchanged": true,
+  "not_validated": [
+    "gene coverage",
+    "cell type linkage",
+    "mast-cell coverage",
+    "expression effects",
+    "full cohort independence"
+  ]
+}

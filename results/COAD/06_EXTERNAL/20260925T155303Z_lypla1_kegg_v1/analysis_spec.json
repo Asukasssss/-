@@ -1,0 +1,30 @@
+{
+  "analysis_version": "COAD_LYPLA1_KEGG_v1",
+  "run_id": "20260925T155303Z_lypla1_kegg_v1",
+  "code_lock_commit": "0b9d807824655e811e7899254aa4e89c22482135",
+  "prior_run": "20260925T153907Z_lypla1_fc025_v3",
+  "cohort": "Uhlitz_GSE166555",
+  "donors": 8,
+  "cells": 2528,
+  "genes_tested": 11058,
+  "selected_high": 158,
+  "selected_low": 276,
+  "DE_selection": "raw P<0.05 and abs(log2FC)>=0.25",
+  "mapping": "Exact primary KEGG symbol first, otherwise unique exact alias; ambiguous or duplicate target excluded; no fuzzy matching",
+  "pathway_scope": "All human KEGG pathways; 15-500 measured mapped genes; global/overview hsa011/hsa012 excluded; disease pathways retained and interpreted as gene-set labels",
+  "ORA": "Hypergeometric upper tail; high and low lists separate; all 11058 tested genes primary background; KEGG-annotated background sensitivity",
+  "GSEA": "signed sqrt(QL_F); all 11058 tested genes; tiny negative null QL_F set to zero for ranking only; gene alphabetical order breaks equal-rank input order; no jitter",
+  "GSEA_parameters": {
+    "seed": 20260925,
+    "minSize": 15,
+    "maxSize": 500,
+    "eps": 0,
+    "sampleSize": 101,
+    "nPermSimple": 10000,
+    "nproc": 1
+  },
+  "raw_P_threshold": 0.05,
+  "FDR_selection": false,
+  "source_data_residency": "server165 only",
+  "no_new_DE": true
+}

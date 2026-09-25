@@ -1,0 +1,21 @@
+{
+  "analysis_version": "COAD_LYPLA1_highlow_v1",
+  "population": "Uhlitz author CNA tumor epithelial; prior conflict donor excluded",
+  "target": "LYPLA1",
+  "split": "Within each donor, among raw LYPLA1 count > 0 cells: high if log1p(CP10K) > donor median, low otherwise; no arbitrary tie breaking",
+  "zeros": "Excluded from both groups; question is high vs low among detected cells",
+  "min_cells_per_group": 20,
+  "min_donors": 6,
+  "unit": "donor paired pseudobulk counts; not independent cells",
+  "differential": "edgeR TMM filterByExpr(design) glmQLFit robust TRUE; design ~patient+group; high versus low",
+  "sensitivity": "Same genes; design ~patient+log(mean total UMI per cell)+group if full rank; not used to choose primary result",
+  "exclude_from_tests": ["LYPLA1"],
+  "DE_selection": "BH q < 0.05 and absolute log2FC >= 0.5; high and low lists separate",
+  "gene_family": "All expression-filtered testable genes excluding LYPLA1; primary and sensitivity separately BH",
+  "pathways": "Reactome current human GMT; archive hash recorded, exact gene-symbol intersection",
+  "pathway_sizes": [15,500],
+  "ORA": "One-sided hypergeometric, background all tested genes; BH jointly across both directions and all eligible pathways, including zero overlaps",
+  "GSEA": "fgseaMultilevel, signed sqrt(QL F) rank, eps=0, sampleSize=101, nPermSimple=10000, nproc=1; BH all eligible pathways",
+  "seed": 20260925,
+  "interpretation": "Exploratory coexpression programs; not causal regulation, activity, or independent validation; depth/composition and subtype confounding retained"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "relations": 39,
+  "genes": 35,
+  "original_fields": 137,
+  "original_order_and_strings_unchanged": true,
+  "source_path": "results/COAD/07_INTEGRATION/20260921T095621Z_cell_context3_v1/relations39_source_context.tsv",
+  "source_sha256": "e6c8c2685ab7ddd298e2948962826f28bc243608ac22c885f107bf384e30cd52",
+  "new_p_q": false
+}

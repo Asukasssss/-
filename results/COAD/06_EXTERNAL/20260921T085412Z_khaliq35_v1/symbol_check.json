@@ -1,0 +1,23 @@
+{
+  "all_six_feature_sets_identical": true,
+  "features_each": [
+    23828,
+    23828,
+    23828,
+    23828,
+    23828,
+    23828
+  ],
+  "checked_alias_hits": {
+    "GSTT2": [],
+    "SLC6A17": [],
+    "UPP2": []
+  },
+  "paralog_GSTT2B_present": true,
+  "mapping_changed": false,
+  "sources": [
+    "https://www.ncbi.nlm.nih.gov/gene/388662",
+    "https://www.ncbi.nlm.nih.gov/protein/NP_001128570.1",
+    "https://www.ncbi.nlm.nih.gov/gene/2953"
+  ]
+}

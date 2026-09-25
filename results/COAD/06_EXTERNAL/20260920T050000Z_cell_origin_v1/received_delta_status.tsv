@@ -1,0 +1,7 @@
+工作	类型	当前发现/限制	执行改变	状态	来源URL或文件
+细胞来源	新增方法限制	Pelka每标本额外测CD45富集样本	分别统计未富集与富集；未知富集标签时暂停跨谱系比例解释	PARTIAL	https://pmc.ncbi.nlm.nih.gov/articles/PMC8772395/
+细胞来源	新增方法限制	Pelka温和解离不是最佳基质细胞提取方案	少量/缺失基质信号记覆盖限制，不判定肿瘤缺少该来源	PARTIAL	https://pmc.ncbi.nlm.nih.gov/articles/PMC8772395/
+资料入口	已定位	Lee GEO三个编号及Pelka GEO/SCP1162/原作者代码	server165先核元数据和完整基因计数，不重复下载同队列镜像	DONE	https://www.nature.com/articles/s41588-020-0636-z ; https://pmc.ncbi.nlm.nih.gov/articles/PMC8772395/
+PRMT7	新增具体事件定义	原文使用AA_exon16 / PRMT7_AA_16.1，参考GRCh37	探针需定位至具体可变剪接受体区域；外显子数字不能跨注释版本硬套	PARTIAL	https://www.sciencedirect.com/science/article/pii/S0016508523048394
+PRMT7	仍未解决	GSE89076/GPL官方页面访问受阻；未取得实际探针序列	当前基因级矩阵不计算V2/V1/PSI；原平台分辨能力继续待审	ACCESS_BLOCKED	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89076
+方向差异	复用上一交付	AQP9/KMT5A条件表保留；本轮不计新增实验核验	只补真实取得的模型、终点、操作、剂量、救援字段	PARTIAL	previous_delivery/COAD_cell_origin_PRMT7_context_20260919.zip

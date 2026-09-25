@@ -1,0 +1,7 @@
+{
+  "version": "paired_p_counts_view_v1",
+  "source_run": "20260921T123200Z_paired_metabolites33_v1",
+  "selection": "existing primary33 p_value < 0.05",
+  "ordering": "up/down count descending, denominator 33 incl equal",
+  "new_tests": false
+}

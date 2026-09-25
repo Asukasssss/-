@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "reconstructed_profile_rows": 18555,
+  "common_categories": [
+    "B_lineage",
+    "Epithelial",
+    "Myeloid",
+    "Stromal",
+    "Tcells"
+  ],
+  "both_evaluable": 605,
+  "same_common_top": 466,
+  "descriptive_stable_concordance": 380,
+  "new_P_q": false,
+  "limitations": [
+    "No raw coordinate file admitted;UMAP unavailable",
+    "No verified clinical patient subtypes",
+    "Broad categories are approximations,not identical subtypes",
+    "Public source labels conditional on coverage;no mechanism"
+  ],
+  "public_hashes": {
+    "matrix_checks.tsv": "8ebeff0667caa2a370edd634c1c2cc1dd35f9da69a63951cb75bd120932b5ad1",
+    "gene_availability.tsv": "3e99ff3ecf9d1cd95dfa14e9dc6649ceb6c7a20750e5f8a488dbca0c4b3263fd",
+    "coverage_by_lineage.tsv": "0dbf74a7462149f6e976f32b5cf29596bd9d1e5a62b0ff9d8c22811b0c644b94",
+    "metadata_audit.json": "f33249835ce8f06edbb788e36bbc49812472d5add6d2897c42043120ece57063",
+    "extraction_validation.json": "0b3bec8401aca8f5b02658236d311debc1fecc04d67b539f48a22be194ea69ec",
+    "Uhlitz_profiles.tsv": "cb56fedf8d3e891ba03c64960af636d014c5a76fd6c0c4cf55f4b8c81ac19b2a",
+    "Uhlitz_source_status.tsv": "dfbaaaa3e9029e8240026feaed62ed57aad35e9bf04a124641628f75bded7a7b",
+    "Uhlitz_broad_profiles.tsv": "ac98751aacf8be53b601d88a4153cb936ff4c80894c59a4ee553ee6f803e0444",
+    "Uhlitz_broad_source_status.tsv": "312f8aa073912b29934290b3d5f04a52fd8256baea48482451a4333661207412",
+    "Uhlitz_annotation_mapping.tsv": "c105108defad846d2b7e1ed16253dd121dc673df517eb9b01017b2856c185bf0",
+    "Uhlitz_validation.json": "832c89a614c1d88547991537ea05d351e228b0ad22847d2d6eb4c9422cb81aad",
+    "Lee_feature_coverage.tsv": "822f29fdfe0508494e7cb2c4ce9111e027259e45d7aa1349181409ad1eca327e",
+    "Lee_profiles.tsv": "220efb31c26ef23ad0acc83b5b9633006d47c588d07bb0c2cc9e8735ae3177ee",
+    "Lee_source_status.tsv": "b765f36664f68ec63430447d2b8142dff3738817c650838800ec6eb998a3cc5f",
+    "Lee_broad_profiles.tsv": "c1340b7b2ec3569d85475d2f7e81f3ecc8688baa9c01f9ce5bcb3878383f3c16",
+    "Lee_broad_source_status.tsv": "77e7167af489bd37d3d4a5a4e292ca99a3ea6e02b46720fc2ed84a16d244a2ea",
+    "Lee_annotation_mapping.tsv": "7dc8887a24f70895c3bf7cfabe7ce40f560502637831ce07430205adc9fe29e1",
+    "Lee_validation.json": "32fdb1caea2dc51f5cb50e8c5112f4947b1c2446845fc6cac351b495ffffd40f",
+    "sc_shared_category_status.tsv": "0ab406b737496168b1d534e33e220e9ff2f2a22691398ce6373f5602d1641af9",
+    "sc_cross_study.tsv": "6bce0ea62f82c7d3550dc75ca854537d8a9f34621000a2086638c8a6690ce82f",
+    "analysis_spec.json": "67fd905ba411c5d8f12e43a008ffa96c3a3bc4fab861b65df5b1807d44d60cfd",
+    "source_manifest.tsv": "311922bee7d0f12d341857897e960dff076428e00be56658d98f2490bfbab707"
+  }
+}

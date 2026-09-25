@@ -1,0 +1,16 @@
+{
+  "Khaliq2022_GSE200997": {
+    "cells": 42696,
+    "patients": 23,
+    "specimens": 23,
+    "libraries": null,
+    "library_id_missing": 42696,
+    "tissue_cells": {
+      "Tumor": 25667,
+      "Normal": 17029
+    },
+    "enrichment_cells": {
+      "DAPI_VIABLE_NO_CD45_REPORTED": 42696
+    }
+  }
+}

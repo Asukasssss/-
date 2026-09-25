@@ -1,0 +1,2 @@
+title	reason	decision	narrative
+UMAP：已准入资料未提供坐标	本批计数矩阵和作者注释可用于来源统计，但没有可用坐标。	交付全候选供者来源表及分页热图，不生成替代嵌入。	umap

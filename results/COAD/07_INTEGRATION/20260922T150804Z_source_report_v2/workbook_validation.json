@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "sheets": [
+    {
+      "sheet": "先读我",
+      "rows": 6,
+      "columns": 1
+    },
+    {
+      "sheet": "基因易读表",
+      "rows": 811,
+      "columns": 31
+    },
+    {
+      "sheet": "基因完整历史",
+      "rows": 811,
+      "columns": 52
+    },
+    {
+      "sheet": "完整关系",
+      "rows": 891,
+      "columns": 125
+    },
+    {
+      "sheet": "代谢物全量",
+      "rows": 318,
+      "columns": 53
+    },
+    {
+      "sheet": "配对RNA",
+      "rows": 526,
+      "columns": 38
+    },
+    {
+      "sheet": "单细胞全量",
+      "rows": 12976,
+      "columns": 32
+    },
+    {
+      "sheet": "来源状态",
+      "rows": 1622,
+      "columns": 9
+    },
+    {
+      "sheet": "分型全量",
+      "rows": 1,
+      "columns": 1
+    },
+    {
+      "sheet": "分型排名",
+      "rows": 1,
+      "columns": 1
+    },
+    {
+      "sheet": "展示选择",
+      "rows": 10,
+      "columns": 9
+    },
+    {
+      "sheet": "图源索引",
+      "rows": 79,
+      "columns": 12
+    },
+    {
+      "sheet": "输入来源",
+      "rows": 18,
+      "columns": 5
+    },
+    {
+      "sheet": "当前与历史全部关系",
+      "rows": 1486,
+      "columns": 67
+    },
+    {
+      "sheet": "候选身份与归属",
+      "rows": 811,
+      "columns": 8
+    },
+    {
+      "sheet": "共同类别来源对照",
+      "rows": 811,
+      "columns": 12
+    },
+    {
+      "sheet": "基因测量覆盖",
+      "rows": 808,
+      "columns": 4
+    },
+    {
+      "sheet": "阶段进度",
+      "rows": 9,
+      "columns": 7
+    }
+  ],
+  "numeric_types": true,
+  "filters": true,
+  "frozen_headers": true,
+  "visual_review": "PASS: all sheet previews reviewed; wide provenance fields remain available in cells",
+  "independently_checked_cells": 765573
+}

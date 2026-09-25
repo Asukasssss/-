@@ -1,0 +1,8 @@
+{
+  "user_override": "No FDR; raw P<0.05 used for reporting and selection",
+  "main_effect_threshold": "absolute log2FC>=0.5",
+  "original_differential_lock": "55e97756d24236f05bd3dca23357fa94f5460ef7",
+  "ranking_rounding_fix": "420113f2555dbf6a16af85d1a5d72d16f0f99690",
+  "old_Q": "Preserved in prior server batch;not used in this version",
+  "shared_q_column": "NA retained only for standard schema"
+}

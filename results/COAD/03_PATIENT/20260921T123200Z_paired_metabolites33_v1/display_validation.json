@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "frozen_effect_and_q_strings_preserved": true,
+  "all159_counts_sum_to33": true,
+  "translated_names159": true,
+  "primary_significant": 94,
+  "up_groups": 41,
+  "down_groups": 52,
+  "special": 1,
+  "prior_status_preserved_verbatim": true
+}

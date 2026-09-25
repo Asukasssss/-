@@ -1,0 +1,24 @@
+{
+  "version": "paired101_direct_mapping_v1",
+  "created_utc": "2026-09-22T05:37:28.608258+00:00",
+  "base_commit": "289c05cee91f4c9474f565533a1121de7fc714a3",
+  "selection": "Existing paired P<0.05; all159 retained",
+  "key": "CAMP_COAD x actual feature x human GeneID",
+  "scope": "Archived human reviewed UniProt enzyme/transport records plus81 additional KEGG-chain gene queries and targeted missing-path queries",
+  "direct_rule": "No known identity hold; reviewed human GeneID; explicit target ChEBI or official pH form in catalytic/transport reaction; no macromolecule-modification-only or signaling/GTPase-cycle-only support",
+  "condition_rule": "Known identity conflict/combined signal; modification-only context; reaction crosslink without exact target chemical",
+  "complex_rule": "Curated necessary enzyme/carrier complex members are labelled, not independent enzymes/carriers; annotation support is not COAD functional proof",
+  "family_locked": true,
+  "planned_patient_relations": 891,
+  "planned_RNA_genes": 526,
+  "main_relation_file_sha256": "2fce64d11ff731bbefeaaaae7218a8bed2cddbabc900303f7ba7511477ff043b",
+  "next_BH_rule": "Primary and available-value sensitivity each fixed891 planned relationships; pairedRNA fixed526 genes separately. Nonestimable P=1 internally, public P/q=NA.",
+  "limitations": [
+    "Scoped annotation search, not exhaustive biochemical literature",
+    "No primary measurement chemical authentication",
+    "No patient statistics recomputed",
+    "Legacy association/RNA q applies only to legacy families",
+    "Same metabolite used in multiple reaction contexts is not a specific causal target"
+  ],
+  "next_analysis": "All direct relations; input-hash checked reuse of matching old statistics; recalculate BH for newly locked family; RNA and observed-value sensitivity separate"
+}

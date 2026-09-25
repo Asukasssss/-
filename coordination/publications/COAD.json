@@ -1,0 +1,711 @@
+{
+  "cancer": "COAD",
+  "owner": "B",
+  "repository": "https://github.com/Asukasssss/-",
+  "branch": "analysis/coad-initial",
+  "stage_standard": "docs/STAGE_STANDARD_CN.md",
+  "stage_index": "coordination/stages/COAD.tsv",
+  "status": "PR_OPEN",
+  "merged": false,
+  "pr_url": "https://github.com/Asukasssss/-/pull/1",
+  "events": [
+    {
+      "verified_utc": "2026-09-19T11:32:36Z",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "d6bf7ac85b3b209b19cda0c4bc5d4933b25ba275",
+      "verification": "git ls-remote refs/heads/analysis/coad-initial equals local HEAD; GitHub API PR 1 open, draft=false, head SHA matches",
+      "batches": [
+        {
+          "stage_id": "01_CAMP",
+          "run_id": "20260919T112700Z_shared_delivery_v1",
+          "result_path": "results/COAD/01_CAMP/20260919T112700Z_shared_delivery_v1",
+          "delivery_commit": "9301b0fe45d6ae5f50fdc0b4960a92d9b28b0815",
+          "analysis_status": "DONE",
+          "records": 159
+        },
+        {
+          "stage_id": "02_MAPPING",
+          "run_id": "20260919T112700Z_shared_delivery_v1",
+          "result_path": "results/COAD/02_MAPPING/20260919T112700Z_shared_delivery_v1",
+          "delivery_commit": "d6bf7ac85b3b209b19cda0c4bc5d4933b25ba275",
+          "analysis_status": "PARTIAL",
+          "records": 974
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-19T11:53:41Z",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "89227664aee61e7ab901e8d2511229fce7a7822c",
+      "verification": "git ls-remote equals local content commit; GitHub API confirms PR 1 open with matching head; PR description updated with server results",
+      "batches": [
+        {
+          "stage_id": "03_PATIENT",
+          "also_indexed_by": "02_MAPPING",
+          "run_id": "20260919T114909Z_source_readiness_v2",
+          "result_path": "results/COAD/03_PATIENT/20260919T114909Z_source_readiness_v2",
+          "delivery_commit": "89227664aee61e7ab901e8d2511229fce7a7822c",
+          "analysis_status": "PARTIAL",
+          "source_readiness_audit": "DONE",
+          "association": "NOT_RUN",
+          "records": 974,
+          "paired_input_available_records": 935,
+          "unit": "author-mapped tumor specimen; patient independence not established",
+          "validation": "PASS"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-19T12:41:38.420796+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "87709ad22d8e2edf2416796f773cb5613bd8f81c",
+      "verification": "git ls-remote matches local content HEAD; GitHub API PR1 open and head SHA matches; PR description updated",
+      "batches": [
+        {
+          "stage_id": "02_MAPPING",
+          "also_indexed_by": "03_PATIENT",
+          "run_id": "20260919T115842Z_identity_units_v1",
+          "result_path": "results/COAD/02_MAPPING/20260919T115842Z_identity_units_v1",
+          "delivery_commit": "b168f8587eab6e52b21558fc2fa56096cf788c75",
+          "analysis_status": "DONE",
+          "scope": "patient unit and official symbol audit only; biochemical mapping remains PARTIAL"
+        },
+        {
+          "stage_id": "03_PATIENT",
+          "also_indexed_by": "04_ROBUSTNESS",
+          "run_id": "20260919T122034Z_patient_v1",
+          "result_path": "results/COAD/03_PATIENT/20260919T122034Z_patient_v1",
+          "delivery_commit": "8d1a09ae300768b5ea0c1fce4ecc3078257941ae",
+          "analysis_status": "DONE",
+          "primary_patient_n": 33,
+          "planned_relations": 674,
+          "evaluable_relations": 652,
+          "correlation_q_lt_005": 0,
+          "paired_RNA_evaluable": 446,
+          "paired_RNA_q_lt_005": 314,
+          "validation": "PASS",
+          "availability_status": "SUPERSEDED_BY_REUSE_V2",
+          "covariate_adjustment": "NOT_RUN"
+        },
+        {
+          "stage_id": "04_ROBUSTNESS",
+          "run_id": "20260919T122940Z_availability_reuse_v2",
+          "result_path": "results/COAD/04_ROBUSTNESS/20260919T122940Z_availability_reuse_v2",
+          "delivery_commit": "87709ad22d8e2edf2416796f773cb5613bd8f81c",
+          "analysis_status": "DONE",
+          "scope": "availability identical-input reuse correction only; entire robustness stage PARTIAL",
+          "primary_statistics_reused": 437,
+          "reduced_sample_statistics_reused": 215,
+          "evaluable_relations": 652,
+          "q_lt_005": 0,
+          "validation": "PASS"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-19T12:56:24.463593+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "08a6c52f3001480d306ae76c8fbc750cae027af3",
+      "verification": "git ls-remote equals local content HEAD; GitHub API PR1 head matches and remains open; updated description includes user-directed nominal-P worklist",
+      "batches": [
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260919T125421Z_nominal_priority_v1",
+          "result_path": "results/COAD/07_INTEGRATION/20260919T125421Z_nominal_priority_v1",
+          "delivery_commit": "08a6c52f3001480d306ae76c8fbc750cae027af3",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "aggregate-only nominal-P priority export; final integration pending",
+          "selected_relations": 39,
+          "selected_unique_genes": 35,
+          "selected_unique_features": 23,
+          "selected_fdr_supported": 0,
+          "selection_timing": "user-directed after result review",
+          "original_statistics_preserved": true,
+          "new_statistical_tests": false,
+          "validation": "PASS"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-19T13:58:51.485915+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "5e41cd195eeb7e34bab094f946e06479a3d663f9",
+      "verification": "git ls-remote matched content HEAD before this event; GitHub PR1 API head matches and remains open; description updated for functional acceptance",
+      "batches": [
+        {
+          "stage_id": "05_FUNCTION",
+          "also_indexed_as": "07_INTEGRATION",
+          "run_id": "20260919T134848Z_function_review_accepted_v1",
+          "result_path": "results/COAD/05_FUNCTION/20260919T134848Z_function_review_accepted_v1",
+          "delivery_commit": "5e41cd195eeb7e34bab094f946e06479a3d663f9",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "35-gene directed literature acceptance and exact aggregate join; same evidence in stages05/07",
+          "reviewed_genes": 35,
+          "nominal_relations": 39,
+          "full_catalog_rows": 974,
+          "gene_annotated_catalog_rows": 74,
+          "source_identities_and_abstracts_checked": 40,
+          "selected_fulltext_records_checked": 6,
+          "original_class_A_genes": 10,
+          "additional_conditional_CRC_gene": "BCAT2",
+          "research_queue": {
+            "priority": 9,
+            "retain": 21,
+            "direction_hold": 5
+          },
+          "original_statistics_preserved": true,
+          "new_statistical_tests": false,
+          "depmap": "NOT_RUN",
+          "external_validation": "NOT_RUN",
+          "validation": "PASS"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-19T14:43:54.063993+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "194caf42edc95249e2ec89c9617a57059c7ed5ab",
+      "verification": "git ls-remote and PR1 API match content HEAD; PR description updated; not merged",
+      "batches": [
+        {
+          "stage_id": "04_ROBUSTNESS",
+          "run_id": "20260919T142000Z_covariate_audit_v1",
+          "result_path": "results/COAD/04_ROBUSTNESS/20260919T142000Z_covariate_audit_v1",
+          "delivery_commit": "2a131771100f7528993de4bce8f9d734e94fa058",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "covariate-only audit and pre-execution code/spec lock; new patient associations NOT_RUN at this commit",
+          "preanalysis_verification": "GitHub PR1 API and git ls-remote matched2a13177 before numeric results; source covariate-only summary used for coding"
+        },
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260919T142700Z_next_stage_accept_v1",
+          "result_path": "results/COAD/07_INTEGRATION/20260919T142700Z_next_stage_accept_v1",
+          "delivery_commit": "2a131771100f7528993de4bce8f9d734e94fa058",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "35 vs117 sets;4 shared genes;3 same-name/same-key relations;priority9 tasks;no new patient or literature tests"
+        },
+        {
+          "stage_id": "04_ROBUSTNESS",
+          "also_indexed_as": "07_INTEGRATION",
+          "run_id": "20260919T142500Z_covariates_v1",
+          "result_path": "results/COAD/04_ROBUSTNESS/20260919T142500Z_covariates_v1",
+          "delivery_commit": "194caf42edc95249e2ec89c9617a57059c7ed5ab",
+          "analysis_status": "DONE",
+          "stage_status": "PARTIAL",
+          "scope": "whole674 covariate sensitivities and exact original974/39 preservation",
+          "models": {
+            "M1": {
+              "planned": 674,
+              "evaluable": 652,
+              "p_lt_005": 42,
+              "q_lt_005": 0,
+              "min_q": 0.33903999999999995,
+              "n_distribution": {
+                "33": 652
+              },
+              "unavailable_reasons": {
+                "RNA_SYMBOL_UNAVAILABLE": 22
+              },
+              "m0_cc_reused": 652,
+              "loo_sign_change": 201
+            },
+            "M2": {
+              "planned": 674,
+              "evaluable": 652,
+              "p_lt_005": 22,
+              "q_lt_005": 0,
+              "min_q": 0.4564,
+              "n_distribution": {
+                "33": 652
+              },
+              "unavailable_reasons": {
+                "RNA_SYMBOL_UNAVAILABLE": 22
+              },
+              "m0_cc_reused": 652,
+              "loo_sign_change": 248
+            },
+            "M3": {
+              "planned": 674,
+              "evaluable": 0,
+              "p_lt_005": 0,
+              "q_lt_005": 0,
+              "min_q": null,
+              "n_distribution": {},
+              "unavailable_reasons": {
+                "SPARSE_SOURCE_CATEGORY_LT3": 652,
+                "RNA_SYMBOL_UNAVAILABLE": 22
+              },
+              "m0_cc_reused": 652,
+              "loo_sign_change": 0
+            }
+          },
+          "M3_adjusted_inference": "NOT_EVALUABLE_SPARSE_SOURCE_CATEGORIES",
+          "new_patient_statistics": true,
+          "validation": "PASS"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:25:51.609766+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "09498b982756677e106e1a10578868a9017ddc91",
+      "verification": "git ls-remote equals local content commit; pre-expression rules uploaded before raw target extraction",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T050000Z_cell_origin_v1",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T050000Z_cell_origin_v1",
+          "analysis_status": "PARTIAL",
+          "scope": "Metadata coverage DONE; expression NOT_RUN at locked commit; PRMT7 platform probes retrieved"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:32:24.937287+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "154075f7bafcf38edd18d5e6a1494ce755b078bc",
+      "verification": "git ls-remote equals local content commit",
+      "batches": [
+        {
+          "stage_id": "05_FUNCTION",
+          "run_id": "20260920T073000Z_prmt7_probe_v1",
+          "analysis_status": "PARTIAL",
+          "result_path": "results/COAD/05_FUNCTION/20260920T073000Z_prmt7_probe_v1",
+          "scope": "Two actual probes, four exact reference-transcript matches; paper V1/V2 unresolved"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:47:46.413760+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "4eb63d5ab5c80e1f1877131bb8c7c03161ff7c58",
+      "verification": "git ls-remote equals local content commit",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T072000Z_cell_expression_v1",
+          "analysis_status": "PARTIAL",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T072000Z_cell_expression_v1",
+          "scope": "Pelka actual donor summaries DONE; Lee still reading at this commit"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:47:46.413760+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "af26f1c46773d70232010218ac1978262134e145",
+      "verification": "git ls-remote equals local content commit",
+      "batches": [
+        {
+          "stage_id": "05_FUNCTION",
+          "run_id": "20260920T074500Z_direction_details_v1",
+          "analysis_status": "PARTIAL",
+          "result_path": "results/COAD/05_FUNCTION/20260920T074500Z_direction_details_v1",
+          "scope": "AQP9 existing-study dose/model details; no new independent study"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T07:57:00.135109+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "7bb736c23ce013d7f7ae50b65902e0a7e11d7a2f",
+      "verification": "git ls-remote equals local content commit; GitHub PR API head matches, open/unmerged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T072000Z_cell_expression_v1",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T072000Z_cell_expression_v1",
+          "analysis_status": "PARTIAL",
+          "scoped_expression_status": "DONE",
+          "Lee_cells": 63689,
+          "Pelka_cells": 371223,
+          "summary_rows": 4904,
+          "new_patient_covariates": false,
+          "new_P_or_q": false,
+          "candidate_arrangement_unchanged": true
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T08:35:26.607192+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "6694953fd676b4cd6f900f5e7f7ba7881ea0b938",
+      "verification": "git ls-remote equals HEAD; GitHub PR1 open and head equals verified commit; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T081200Z_cell_expression35_v2",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T081200Z_cell_expression35_v2",
+          "analysis_status": "PARTIAL",
+          "scoped_expression_status": "DONE",
+          "genes_requested": 35,
+          "genes_available_each_study": 34,
+          "unavailable_gene": "GSTT2",
+          "summary_rows": 85820,
+          "new_P_or_q": false,
+          "candidate_arrangement_unchanged": true
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T09:22:29.961964+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "3cb00ffb7e8e9203ff3306af180c0948dd785623",
+      "verification": "git ls-remote equals HEAD; GitHub PR1 open and head equals verified commit; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T091100Z_cell_paired35_v1",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T091100Z_cell_paired35_v1",
+          "analysis_status": "PARTIAL",
+          "scoped_paired_expression_status": "DONE",
+          "genes_requested": 35,
+          "rows": 26810,
+          "primary_evaluable": 374,
+          "primary_q_supported": {
+            "Lee": 17,
+            "Pelka": 34
+          },
+          "relation39_original_fields_unchanged": true,
+          "original_patient_association_q_unchanged": true,
+          "candidate_arrangement_unchanged": true
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T11:11:01.687150+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "75ffc36f065c7dbff42895da3a4db1f0591e1b93",
+      "verification": "git ls-remote equals HEAD; PR1 open and head matches;not merged",
+      "batches": [
+        {
+          "stage_id": "07_INTEGRATION",
+          "also_referenced_stages": [
+            "05_FUNCTION",
+            "06_EXTERNAL"
+          ],
+          "run_id": "20260920T105400Z_relation39_feasibility_v1",
+          "result_path": "results/COAD/07_INTEGRATION/20260920T105400Z_relation39_feasibility_v1",
+          "analysis_status": "PARTIAL",
+          "finite_feasibility_triage": "DONE",
+          "relations": 39,
+          "dataset_records": 9,
+          "focused_function_records": 7,
+          "new_to_project_records": 5,
+          "independent_ready_relationships": 0,
+          "new_tests": false,
+          "supplement_audit": "ACCESS_BLOCKED_NOT_RUN",
+          "original_statistics_and_9_21_5_unchanged": true
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-20T11:21:44.528401+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "4bb91a8a3260ecf76d734fd0229f36ac77095b8f",
+      "verification": "git ls-remote equals HEAD;PR1 open/head matches;not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260920T111614Z_supplement_audit_v1",
+          "result_path": "results/COAD/06_EXTERNAL/20260920T111614Z_supplement_audit_v1",
+          "analysis_status": "PARTIAL",
+          "server_access": "DONE",
+          "scoped_supplement_audit": "DONE",
+          "source_files": 2,
+          "independent_association": "NOT_RUN",
+          "independent_ready_relationships": 0,
+          "original_statistics_and_arrangement_unchanged": true
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T03:06:13.823499+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "2e43802fffd7aa6ad4a377e55c5c2e238b41a6d5",
+      "verification": "git ls-remote matches HEAD;PR1 open and head matches",
+      "batches": [
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260921T025931Z_acquisition_review_v1",
+          "result_path": "results/COAD/07_INTEGRATION/20260921T025931Z_acquisition_review_v1",
+          "analysis_status": "PARTIAL",
+          "scoped_acquisition_and_interpretation": "DONE",
+          "new_datasets": 0,
+          "emails_sent": 0,
+          "new_tests": false,
+          "arrangement_unchanged": true
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T03:22:44.108512+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "2a15c794dc5d808086268f01e1f396be6326cd0d",
+      "verification": "Remote SHA and open PR head match;not merged",
+      "batches": [
+        {
+          "stage_id": "05_FUNCTION",
+          "run_id": "20260921T031711Z_mediation4_v1",
+          "result_path": "results/COAD/05_FUNCTION/20260921T031711Z_mediation4_v1",
+          "analysis_status": "PARTIAL",
+          "scoped_review": "DONE",
+          "reviewed_relations": 4,
+          "reviewed_genes": 3,
+          "prior_studies_reread": 4,
+          "new_studies": 2,
+          "correction_records": 1,
+          "new_tests": false,
+          "arrangement_unchanged": true
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T04:53:15.617785+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "5988567127cddb9ca49d5c031d663666604aa89a",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T044221Z_paired_search_v1",
+          "analysis_status": "PARTIAL",
+          "new_dataset_leads": 4,
+          "processed_matrices_acquired": 0,
+          "new_tests": false
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T05:15:59.619360+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "1c413c4e35cdc8c76415b08809bcd0b01cc43204",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T050501Z_integral_acquire_v1",
+          "analysis_status": "PARTIAL",
+          "source_files_acquired": 2,
+          "patients": 6,
+          "processed_matrices_acquired": 3,
+          "new_tests": false
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T08:38:05.800572+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "e56c97de1e07d2fb6a18e1c90c666a679f72b14b",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T082557Z_integral_admission_v1",
+          "analysis_status": "PARTIAL",
+          "rna_structural_candidates": 30,
+          "protein_structural_candidates": 11,
+          "real_patient_associations": false,
+          "new_tests": false
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T08:49:35.487632+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "1038b68eccff9f0f593529278240b33c48e17147",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T084424Z_sc_sources_v1",
+          "analysis_status": "PARTIAL",
+          "new_tests": false
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T09:40:57.474329+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "cc1dfff246385f16da28dec34e5d0a639cd5767b",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T085412Z_khaliq35_v1",
+          "analysis_status": "DONE",
+          "scope": "All35 accounted for within six author compartments;32 measured",
+          "new_tests": false,
+          "cells": 42696,
+          "summary_rows": 7140
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T10:04:50.863931+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "32c069f353fcffc8bf93cad7adc6eb54cb6d857f",
+      "verification": "Remote SHA and open PR head match; not merged",
+      "batches": [
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260921T095621Z_cell_context3_v1",
+          "analysis_status": "DONE",
+          "relations": 39,
+          "original_fields_preserved": 130,
+          "new_tests": false
+        },
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T095621Z_cell_context3_v1",
+          "analysis_status": "PARTIAL",
+          "integral_associations": "NOT_RUN"
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T10:53:10.071434+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "fb66f8b0d4d12759b43269ab7b57929390fe34b9",
+      "verification": "Remote branch SHA and open unmerged PR head match",
+      "batches": [
+        {
+          "stage_id": "06_EXTERNAL",
+          "run_id": "20260921T102941Z_uhlitz35_v1",
+          "analysis_status": "DONE",
+          "genes": 35,
+          "relations": 39,
+          "new_tests": false
+        },
+        {
+          "stage_id": "07_INTEGRATION",
+          "run_id": "20260921T102941Z_uhlitz35_v1",
+          "analysis_status": "DONE",
+          "genes": 35,
+          "relations": 39,
+          "new_tests": false
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T12:46:04.142151+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "556e3ec9f47ebc5c9caedb99d5b6b2970288c919",
+      "verification": "Remote branch and open unmerged PR head match",
+      "batches": [
+        {
+          "stage_id": "03_PATIENT",
+          "run_id": "20260921T123200Z_paired_metabolites33_v1",
+          "analysis_status": "DONE",
+          "features": 159,
+          "patient_pairs": 33,
+          "new_tests": true
+        },
+        {
+          "stage_id": "04_ROBUSTNESS",
+          "run_id": "20260921T123200Z_paired_metabolites33_v1",
+          "analysis_status": "DONE",
+          "features": 159,
+          "patient_pairs": 33,
+          "new_tests": true
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T12:59:16.914415+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "d8c591187f867d1a28f04f0bc2d0c37bb6e378fc",
+      "verification": "Remote branch and open unmerged PR head match",
+      "batches": [
+        {
+          "stage_id": "01_CAMP",
+          "run_id": "20260921T125510Z_original_camp_p_v1",
+          "analysis_status": "DONE",
+          "features": 159,
+          "original_p_significant": 83,
+          "new_tests": false
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-21T13:41:58.870671+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "d5d6310ffd644bf5a1933f2cf0a26f5b2e520933",
+      "verification": "Remote branch and open unmerged PR head match",
+      "batches": [
+        {
+          "stage_id": "03_PATIENT",
+          "run_id": "20260921T134000Z_paired_p_counts_view_v1",
+          "analysis_status": "DONE",
+          "paired_p_significant": 101,
+          "new_tests": false
+        }
+      ]
+    },
+    {
+      "verified_utc": "2026-09-22T05:43:14.286793+00:00",
+      "status": "PR_OPEN",
+      "verified_remote_commit": "500cad96e48e8ed4f8c017a66ac22497b31870a4",
+      "verification": "Remote branch and open unmerged PR head match",
+      "batches": [
+        {
+          "stage_id": "02_MAPPING",
+          "run_id": "20260922T053000Z_paired101_mapping_v1",
+          "analysis_status": "DONE",
+          "features": 101,
+          "direct_relations": 891,
+          "genes": 526,
+          "new_patient_tests": false
+        }
+      ]
+    },
+    {
+      "event": "source_contract_patient_and_descriptors",
+      "verified_commits": [
+        "4d7137e0448241bd4d8b53f4a68b16b34e464d37",
+        "c8a3bc35a31797eb4152bb645659682e8ce31194"
+      ],
+      "verification": "push and ls-remote exact SHA",
+      "merged": false
+    },
+    {
+      "event": "source_contract_sc_and_integration",
+      "verified_commits": [
+        "81a2d0f58099ec9e70240d0c2c5d11bd693e3af4",
+        "3c64c24ec171b2753b0226fdd5aafb7766e45b00"
+      ],
+      "verification": "push and ls-remote exact SHA",
+      "merged": false
+    },
+    {
+      "event": "source_contract_final_report",
+      "verified_commit": "0c80c1cbabc57e007eb65bdc601c7204f4947f38",
+      "verification": "push and ls-remote exact SHA",
+      "report_path": "results/COAD/07_INTEGRATION/20260922T150804Z_source_report_v2",
+      "merged": false
+    }
+  ],
+  "preanalysis_verification": {
+    "verified_date": "2026-09-19",
+    "verified_remote_commit": "10485806bf4dedd071c571d009614541e8c660d3",
+    "verification": "GitHub PR API head SHA matches local locked-spec/code commit; patient association not yet run at spec commit",
+    "unit_symbol_batch": "results/COAD/02_MAPPING/20260919T115842Z_identity_units_v1",
+    "unit_symbol_delivery_commit": "b168f8587eab6e52b21558fc2fa56096cf788c75",
+    "unit_symbol_status": "DONE",
+    "patient_unit": "37 distinct explicit GEO individuals;33 stage I-IV primary;37 exact paired normal matches",
+    "locked_plan": "config/coad_patient_v1.json",
+    "patient_analysis_status_at_verification": "IN_PROGRESS"
+  },
+  "notes": [
+    "This ledger records verified content commits before its own commit; it deliberately avoids a self-referential SHA.",
+    "Old batch publication fields are generation-time snapshots; the Git authentication blocker is resolved.",
+    "Legacy local eight-stage packages are retained for provenance only. Main seven-stage standard and coordination/stages/COAD.tsv are authoritative.",
+    "Source evidence and format views are the same evidence, not independent results.",
+    "Server access restored; explicit GEO patient units verified and versioned analysis family fixed. Numerical analysis status is tracked by each subsequent batch.",
+    "PR_OPEN means available on the work branch, not merged into main."
+  ]
+}

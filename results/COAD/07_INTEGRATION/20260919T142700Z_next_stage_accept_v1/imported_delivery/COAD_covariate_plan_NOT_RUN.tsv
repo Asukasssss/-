@@ -1,0 +1,10 @@
+﻿模型或事项	协变量/分析	分析人群或范围	执行与解释要求	本轮状态	来源
+M0	原未调整主分析	33例明确I-IV期患者；保留既有结果	不修改现有rho/P/q、顺序或原始字段	既有结果；本轮未重算	https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json
+M0_CC	各调整模型对应的未调整参照	对每条关系使用与该调整模型完全相同的完整病例子集	区分删去缺失病例造成的变化与协变量调整造成的变化	方案；真实数据未运行	https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json
+M1	年龄 + 性别	原674条预定关系；按每条关系可用病例计算	建议作为基础调整；类别编码与缺失规则需在运行前锁定	方案；真实数据未运行	https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json
+M2	年龄 + 性别 + 分期	分期按分类变量；不自动当作等距连续数值	先查看只含协变量的频数/缺失；稀疏或秩亏时标记无法估计，不择优删变量	方案；真实数据未运行	https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json
+M3	年龄 + 性别 + 取材部位	保留来源原始类别；不凭推测合并左右半结肠	作为独立敏感性模型；不按哪个P更小来选择报告	方案；真实数据未运行	https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json
+整体规则	每模型独立检验族	674条计划关系保留；报告实际可估计数和失败原因；974全目录不删除	在该模型所有可估计关系中BH校正；不是只对39条或9基因BH	方案；真实数据未运行	https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json
+重采样与推断	偏秩相关及相应回归推断	纳入协变量后不可直接照搬未调整的随机打乱	执行脚本需选定协变量兼容的残差置换等方案、检查可交换性，并先验证实现；不声称自动精确	方法选择待实际实现与校验	https://pmc.ncbi.nlm.nih.gov/articles/PMC4010955/
+后续报告	效应、区间、N、P/q与影响诊断	对照M0_CC、调整模型及既有可用性敏感性	报告方向变化、效应减弱及缺失；不把q变化单独当作生物学变化	方案；真实数据未运行	https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json
+未解决项	纯度；技术批次；外部验证	当前未取得已核定字段或相应独立数据	不得自动生成伪纯度/伪批次或借用BRCA ER作为COAD协变量	未完成	https://github.com/Asukasssss/-/blob/6f1d28a5607933e34886191b820fd16a4a69b832/config/coad_patient_v1.json

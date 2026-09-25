@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-09-19T11:27:30.825986+00:00",
+  "checks": [
+    "shared field prefix and row order",
+    "unique keys",
+    "source byte hashes",
+    "all frozen effects/q unchanged",
+    "159 or 974 rows",
+    "report section order",
+    "no new mapping P/q"
+  ],
+  "artifact_sha256": {
+    "analysis_spec.json": "430023f03a2049e268b1bba036baf9434484d7d606f769c38033b6ceb877bb8a",
+    "README_CN.md": "11bf027c55c649812bea448257eceedca4a00f6e5c64f56e71fbd97b9569bf90",
+    "results.tsv": "cdb21498ec39682f8deb30cbdb3a82bc6268b3362ae61daf448d4bfb3886359b",
+    "source_manifest.tsv": "3c2cc8d4efc3d6cb6d9ea87cbcb45ae106b7bb7e9e6faa31bb38d232588dde6d"
+  },
+  "not_validated": [
+    "original chemical identification",
+    "patient independence and pairing",
+    "patient-level RNA or correlation",
+    "functional causality",
+    "GitHub publication; see publication ledger"
+  ]
+}

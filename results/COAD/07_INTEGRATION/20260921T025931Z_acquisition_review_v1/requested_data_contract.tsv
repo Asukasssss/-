@@ -1,0 +1,8 @@
+file_type	minimum_fields	purpose_or_rule	status
+metabolite_matrix	feature_id,specimen_id,value,missing_flag	Full processed matrix without differential-significance filtering;no raw mass spectra	NOT_RUN
+feature_annotation	feature_id,name,structure_id,annotation_confidence,adduct_or_peak_context	Exact feature identity;do not substitute related metabolites/isomers	NOT_RUN
+RNA_or_protein_matrix	gene_or_protein_id,specimen_id,value,scale	At least one modality;RNA and protein analyzed and reported separately	NOT_RUN
+specimen_map	anonymous_patient_id,tissue_id,omics_sample_id,aliquot_id,technical_repeat_id	Explicit correspondence;never infer pairing from order/names;one independent patient cannot be multiplied by repeats	NOT_RUN
+metadata	tumor_or_adjacent,colon_or_rectum,site,pretreatment,collection_time,batch	Establish tissue scope,treatment timing,independence and technical context	NOT_RUN
+processing	normalization,missing_value_handling,replicate_aggregation,QC,units	Do not invent transformations or repeat pooling rules	NOT_RUN
+provenance	repository_accession,version,license_or_access_terms,file_checksum	Server-only source storage;access agreement if supplied requires review	NOT_RUN

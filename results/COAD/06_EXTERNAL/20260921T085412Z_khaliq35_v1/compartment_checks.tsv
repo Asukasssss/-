@@ -1,0 +1,7 @@
+lineage	cells	samples	table_S2_exact_count_match	features	full_gene_UMI	nCount_RNA_exact_matches	nCount_RNA_exact_all
+Bcells	9219	23	True	23828	52380715	9219	True
+Tcells_including_NK_ILC	22525	23	True	23828	73796499	22525	True
+Myeloid	816	22	True	23828	3835095	816	True
+Fibroblast	819	21	True	23828	2683294	819	True
+Endothelial	352	17	True	23828	1239928	352	True
+Epithelial	8965	23	True	23828	28909226	8965	True

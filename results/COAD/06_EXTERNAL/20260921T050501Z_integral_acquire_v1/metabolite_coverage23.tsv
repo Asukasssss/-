@@ -1,0 +1,24 @@
+metabolite_key	metabolite_name	source_name	match_status	source_rows	finite_tumor	nonzero_tumor	identity_certified
+KEGG:C00015	uridine 5'-diphosphate (UDP)	Uridine 5’-Diphosphate	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00019	S-adenosylmethionine (SAM)	S-Adenosyl-L-Methionine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00051	glutathione, reduced (GSH)	Glutathione Reducedform	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00111	dihydroxyacetone phosphate (DHAP)	NA	NOT_FOUND_IN_NAME_SCREEN	0	NA	NA	False
+KEGG:C00123	leucine	DL-Leucine	STEREOCHEMISTRY_UNRESOLVED	1	6	6	False
+KEGG:C00130	inosine 5'-monophosphate (IMP)	Inosine 5'-monophosphate	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00147	adenine	Adenine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00148	proline	L-Proline	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00152	asparagine	L-Asparagine Anhydrous	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00242	guanine	Guanine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00245	taurine	Taurine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00299	uridine	Uridine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00386	carnosine	NA	NOT_FOUND_IN_NAME_SCREEN	0	NA	NA	False
+KEGG:C00387	guanosine	Guanosine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00388	histamine	Histamine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00407	isoleucine	L-Isoleucine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00475	cytidine	Cytidine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C00631	2-phosphoglycerate	NA	NOT_FOUND_IN_NAME_SCREEN	0	NA	NA	False
+KEGG:C00670	glycerophosphorylcholine (GPC)	Sn-Glycero-3-Phosphocholine	NAME_COMPATIBLE	1	6	6	False
+KEGG:C01042	N-acetylaspartate (NAA)	N-Acetylaspartate	NAME_COMPATIBLE	1	6	6	False
+KEGG:C02918	1-methylnicotinamide	N-Methylnicotinamide	AMBIGUOUS_NAME	1	6	6	False
+KEGG:C03794	adenylosuccinate	Adenylocuccinic Acid	TYPO_REQUIRES_CONFIRMATION	1	6	6	False
+KEGG:C04501	N-Acetylglucosamine 1-phosphate	N-Acetylglucosamine 1-Phosphate	NAME_COMPATIBLE	1	6	6	False

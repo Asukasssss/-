@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "cells": 68702,
+  "patients": 12,
+  "samples": 25,
+  "tumor_patients": 12,
+  "normal_patients": 11,
+  "exact_cell_join": true,
+  "all_metadata_cells_in_counts": true,
+  "explicit_geo_patient_case_bijection": true,
+  "full_gene_denominator_matches_author": true,
+  "all_matrices_same_gene_universe": true,
+  "source_hashes": {
+    "metadata.tsv.gz": "4aba042a64a71507db4fad088c8a03510a50a4e9b4202b9bab8d6b07e15303d5",
+    "counts.tar": "c5f7c1927be41f27778f5550de46c25b55bdabd60066b87ba4a6bd0d2c6e6b76",
+    "family.soft.gz": "1b2e9b1c5a4dc23732ddb990c26f7273032c987310ae5a29e45a7112e6196505"
+  },
+  "analysis_version": "COAD_Uhlitz35_v1",
+  "lock_commit": "80faed37bfda1ece730b42985d0423ae045ad52c",
+  "genes_requested": 35,
+  "genes_available": 31,
+  "missing_genes": [
+    "GSTT2",
+    "GSTT2B",
+    "SLC6A17",
+    "UPP2"
+  ],
+  "rows": 8540,
+  "p_q_computed": false,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3"
+  }
+}

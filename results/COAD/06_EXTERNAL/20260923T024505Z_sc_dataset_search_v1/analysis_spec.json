@@ -1,0 +1,16 @@
+{
+  "cancer": "COAD",
+  "run_id": "20260923T024505Z_sc_dataset_search_v1",
+  "scope": "dataset search and source suitability only",
+  "candidate_scope": "all 811 stable-ID dispositions, not just nominal associations",
+  "new_statistics": false,
+  "raw_data_location": "server165 only",
+  "requirements": [
+    "explicit donor/sample/site/treatment",
+    "raw all-gene counts or declared expression scale",
+    "author labels and cell barcode join",
+    "enrichment separated",
+    "independence by source donor; deduplicate integrated atlases",
+    "minimum donor/cell coverage locked before candidate expression review"
+  ]
+}

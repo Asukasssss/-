@@ -1,0 +1,9 @@
+{
+  "user_override": "Raw P<0.05;effect threshold changed from 0.5 to 0.25;no FDR selection",
+  "main_effect_threshold": "absolute log2FC>=0.25;positive and negative directions separate",
+  "prior_version": "20260925T152822Z_lypla1_highlow_nominal_v2",
+  "original_differential_lock": "55e97756d24236f05bd3dca23357fa94f5460ef7",
+  "ranking_rounding_fix": "420113f2555dbf6a16af85d1a5d72d16f0f99690",
+  "old_Q": "Preserved;not used",
+  "new_computation": "ORA only;DE and GSEA reused"
+}

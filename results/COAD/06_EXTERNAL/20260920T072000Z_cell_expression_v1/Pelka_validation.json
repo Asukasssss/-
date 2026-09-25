@@ -1,0 +1,26 @@
+{
+  "genes": 43078,
+  "cells": 371223,
+  "sparse_triplets": 766487382,
+  "source_index_base": 1,
+  "all_counts_nonnegative_integer": true,
+  "all_gene_denominator": true,
+  "study": "Pelka2021_GSE178341",
+  "status": "PASS",
+  "rows": 4608,
+  "matrix_sha256": "9737f659b00aad386721558961a62b625a6c538a5aa6b981132061317a694700",
+  "spec_sha256": "0b8f93ac0aa87aa284fe4662aa6252794aa3f0e7f0b00f33aa1f05cdcc9f6903",
+  "pre_expression_remote_lock": "09498b982756677e106e1a10578868a9017ddc91",
+  "code_sha256": "8eda168c9f0315b741b35f4511637ca19f80ec7df8cf1d54ad6d4987838a3a73",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "h5py": "3.11.0",
+  "target_total_UMI": {
+    "HDC": 4545,
+    "GSTA4": 35199
+  },
+  "all_gene_total_UMI": 4764633289,
+  "candidate_or_covariate_recalculation": false,
+  "patient_rows_exported": false
+}

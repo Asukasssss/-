@@ -1,0 +1,25 @@
+{
+  "version": "COAD_patient_v1_availability_reuse_v2",
+  "base_version": "COAD_patient_v1",
+  "base_run": "20260919T122034Z_patient_v1",
+  "scope": "Correct availability33 Monte Carlo reuse only; preserve primary33, all37 and paired_RNA33 results",
+  "reason": "Author-availability audit before viewing association results found 437 of 652 evaluable relationships retain all33 primary individuals. AGENTS.md requires reuse for identical inputs and methods.",
+  "selection": "Every DONE availability33 record with n=33, using the same processed metabolomics and RNA vectors as primary33 by construction in run_patient_v1.py; no P/q-based selection",
+  "replacement": "Copy primary effect, P, pointwise CI, bootstrap coverage, permutation count and random seed exactly; leave reduced-sample statistics unchanged",
+  "multiplicity": "Recompute BH across all652 evaluable availability33 tests after replacement; planned family674 unchanged; retain all974 catalog rows",
+  "expected_identical_input_rows": 437,
+  "expected_reduced_sample_rows": 215,
+  "interpretation": "Within-dataset availability sensitivity, not independent replication; author data availability is not confirmed raw detection",
+  "frozen_CAMP_statistics_recomputed": false,
+  "run_id": "20260919T122940Z_availability_reuse_v2",
+  "code_commit": "06297f664e84a0b65e0c51c453f566d7c078452c",
+  "created_utc": "2026-09-19T12:34:36.386800+00:00",
+  "input_hashes": {
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T122034Z_patient_v1/results.tsv": "e617a1268d6b3e0e14abff889ce34bf0a5bdaab8d36afd34ccf22283f1650edb",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T122034Z_patient_v1/availability33.tsv": "fb9eb9788cdda1254ff2155f9e9f1eefbc86d6f8863b1957b4201133c17efec8",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T122034Z_patient_v1/validation.json": "d7967fb47babbf644d62fe3e542263304eefa61bf0e4b484958d84d003b5aef9",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T122034Z_patient_v1/analysis_spec.json": "e462d5389ed0c914cb8eaf5d4418cf0179bba4ac24c6396e719cbe3aa60f2f31",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T122940Z_availability_reuse_v2/locked_spec.json": "8cc53643672a80cd5140730151d03ff8678765438e06d891176b9518bb855ddd",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T122940Z_availability_reuse_v2/reuse_availability_v2.py": "c68decab067b1174b3c49222b4a23fa41c424e83619646ea1732240603659959"
+  }
+}
