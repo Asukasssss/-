@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "prior_input_hashes_identical": true,
+  "direct_cell_means_match_cell_count_weighted_donor_means": true,
+  "detection_counts_crosschecked": true,
+  "histogram_conserves_cells": true,
+  "no_new_p_or_q": true,
+  "all_groups_cell_median_zero": true
+}
