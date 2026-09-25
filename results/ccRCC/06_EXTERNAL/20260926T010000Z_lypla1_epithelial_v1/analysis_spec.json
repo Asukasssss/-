@@ -1,0 +1,37 @@
+{
+  "gene": "LYPLA1",
+  "stable_gene_id": "ENSG00000120992",
+  "code_commit": "3ddee9de57fa0651ab4c259420cc77eef64abae9",
+  "version": "ccrcc_lypla1_epithelial_v1",
+  "primary": "Tumor vs pooled author PT-A/PT-B/PT-C; matched author patient labels",
+  "sensitivity": "Tumor vs pooled defined renal tubular epithelium",
+  "normal_tubular_labels": [
+    "PT-A",
+    "PT-B",
+    "PT-C",
+    "TAL",
+    "tAL",
+    "DCT",
+    "CNT",
+    "DL",
+    "PC",
+    "IC-A",
+    "IC-B",
+    "IC-PC"
+  ],
+  "exclusions": "UC,Podo,unknown,ua and non-tubular categories excluded from broad comparator",
+  "minimum_cells_per_donor_group": 20,
+  "normalization": "log1p(10000*counts/full_H5_library)",
+  "unit": "patient",
+  "test": "two-sided exhaustive paired sign permutation on mean patient difference",
+  "family": "two contrasts; BH over two P values",
+  "ci": "95% paired t interval; small-n normality assumption",
+  "all_donor_summaries": "descriptive only, overlapping donors not treated as independent groups",
+  "seed": 20260926,
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159115",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3"
+  }
+}

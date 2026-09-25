@@ -1,0 +1,16 @@
+[
+  {
+    "comparator": "Normal_PT",
+    "n_match": true,
+    "effect_match": true,
+    "wilcoxon_exact_p": 0.375,
+    "primary_p": 0.375
+  },
+  {
+    "comparator": "Normal_tubular",
+    "n_match": true,
+    "effect_match": true,
+    "wilcoxon_exact_p": 0.125,
+    "primary_p": 0.125
+  }
+]

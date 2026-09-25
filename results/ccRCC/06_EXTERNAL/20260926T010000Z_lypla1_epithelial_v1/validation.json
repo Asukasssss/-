@@ -1,0 +1,10 @@
+{
+  "status": "DONE",
+  "all_cells_matched": true,
+  "integer_counts": true,
+  "matched_by": "author patient field",
+  "raw_cell_overlap": 0,
+  "contrast_count": 2,
+  "p_values_exact": true,
+  "donor_table_server_only": true
+}
