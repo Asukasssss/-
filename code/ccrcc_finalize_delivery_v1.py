@@ -58,9 +58,9 @@ def main(report_run):
  validation=json.loads((out/'validation.json').read_text());validation.update(PDF_text_all14pages_checked=True,PDF_representative_pages_visually_checked=True,Excel_18_sheets_filter_freeze_checked=True,spreadsheet_no_formulas=True,all_report_input_hashes_match_pinned_Git=True,independent_all_feature_effect_counts_verified=True,patient_private_files_exported=False)
  (out/'validation.json').write_text(json.dumps(validation,indent=2),encoding='utf-8')
  (C/'README_CN.md').write_text(f'# ccRCC 当前交付入口\n\n当前报告：[14页中文PDF](07_INTEGRATION/{report_run}/ccRCC_分析报告.pdf)；[Excel](07_INTEGRATION/{report_run}/ccRCC_完整分析与候选比较.xlsx)；[完整ZIP](07_INTEGRATION/{report_run}/ccRCC_完整交付包.zip)。\n\n采用ccRCC3 17对、ccRCC4原研究病理修正版12对；351条关系、154当前/157历史并集基因。患者主关联没有条目通过各队列q<0.05。\n\n[版本修正与边界](VERSION_DECISIONS_CN.md)。映射尚有待审项；单细胞仅GSE159115一项研究，无独立来源复现、UMAP或功能机制验证。\n',encoding='utf-8')
- save(pd.DataFrame([dict(file=p.relative_to(out).as_posix(),sha256=sha(p)) for p in sorted(out.rglob('*')) if p.is_file() and p.name not in ['checksums.tsv',archive.name]]),out/'checksums.tsv')
+ save(pd.DataFrame([dict(file=p.relative_to(out).as_posix(),sha256=sha(p)) for p in sorted(out.rglob('*')) if p.is_file() and p.name not in ['checksums.tsv',archive.name,'PACKAGE_SHA256.txt']]),out/'checksums.tsv')
  # Explicit white list; no private/server/source matrices and no unrelated cancer results.
- files=[p for p in C.rglob('*') if p.is_file() and p!=archive]
+ files=[p for p in C.rglob('*') if p.is_file() and p!=archive and p.name!='PACKAGE_SHA256.txt']
  files += list((R/'code').glob('ccrcc*.py'))+list((R/'code').glob('ccrcc*.R'))
  files += [R/'coordination/stages/ccRCC.tsv',R/'docs/STAGE_STANDARD_CN.md',R/'docs/CAMP_DISCOVERY_TO_CELL_SOURCE_SOP_CN.md']
  assert not any(p.suffix.lower() in ['.h5','.h5ad','.rds','.rdata','.gz'] or 'private' in p.name.lower() for p in files)

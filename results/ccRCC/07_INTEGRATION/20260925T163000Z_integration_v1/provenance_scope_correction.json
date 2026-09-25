@@ -1,0 +1,11 @@
+{
+  "corrected_manifests": [
+    "01_CAMP\\20260925T151000Z_ccrcc3_v1\\source_manifest.tsv",
+    "01_CAMP\\20260925T155000Z_ccrcc4_histology_v2\\source_manifest.tsv",
+    "04_ROBUSTNESS\\20260925T151000Z_ccrcc3_v1\\source_manifest.tsv",
+    "04_ROBUSTNESS\\20260925T155000Z_ccrcc4_histology_v2\\source_manifest.tsv"
+  ],
+  "reason": "Author sample metadata TSV inputs are server-private, regardless of file extension; paths and SHA only are public",
+  "numerical_values_changed": false,
+  "source_matrices_exported": false
+}

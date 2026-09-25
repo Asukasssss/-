@@ -1,0 +1,155 @@
+{
+  "status": "DONE",
+  "cohorts": [
+    {
+      "cohort": "ccRCC3",
+      "status": "DONE",
+      "all_features_mean_and_direction_checked": 711,
+      "n_pairs": 17,
+      "independent_method": "wide matrix groupby patient/tissue mean, contrasted with per-feature per-patient loop",
+      "exact_P_checks": [
+        {
+          "feature": "(16 or 17)-methylstearate (a19:0 or i19:0)",
+          "reference_exact_p": 1.52587890625e-05,
+          "reported_p": 1e-05,
+          "tolerance": 7.411531719872947e-05
+        },
+        {
+          "feature": "(3'-5')-adenylyladenosine",
+          "reference_exact_p": 3.0517578125e-05,
+          "reported_p": 4e-05,
+          "tolerance": 0.00010481408707265039
+        },
+        {
+          "feature": "(3'-5')-cytidylyluridine",
+          "reference_exact_p": 3.0517578125e-05,
+          "reported_p": 2e-05,
+          "tolerance": 0.00010481408707265039
+        },
+        {
+          "feature": "(N(1) + N(8))-acetylspermidine",
+          "reference_exact_p": 0.004638671875,
+          "reported_p": 0.00471,
+          "tolerance": 0.001289253914232953
+        },
+        {
+          "feature": "(S)-3-hydroxybutyrylcarnitine",
+          "reference_exact_p": 0.0031585693359375,
+          "reported_p": 0.00295,
+          "tolerance": 0.001064656470063244
+        },
+        {
+          "feature": "1,2-dilinoleoyl-GPC (18:2/18:2)",
+          "reference_exact_p": 0.328948974609375,
+          "reported_p": 0.32878,
+          "tolerance": 0.008914424087769981
+        },
+        {
+          "feature": "1,2-dilinoleoyl-GPE (18:2/18:2)",
+          "reference_exact_p": 3.0517578125e-05,
+          "reported_p": 4e-05,
+          "tolerance": 0.00010481408707265039
+        },
+        {
+          "feature": "1,2-dipalmitoyl-GPC (16:0/16:0)",
+          "reference_exact_p": 4.57763671875e-05,
+          "reported_p": 7e-05,
+          "tolerance": 0.00012836953616888455
+        },
+        {
+          "feature": "1,2-dipalmitoyl-GPE (16:0/16:0)",
+          "reference_exact_p": 0.1454315185546875,
+          "reported_p": 0.14573,
+          "tolerance": 0.006688888480727081
+        },
+        {
+          "feature": "1,5-anhydroglucitol (1,5-AG)",
+          "reference_exact_p": 0.1454315185546875,
+          "reported_p": 0.14392,
+          "tolerance": 0.006688888480727081
+        },
+        {
+          "feature": "1,7-dimethylurate",
+          "reference_exact_p": 1.52587890625e-05,
+          "reported_p": 7e-05,
+          "tolerance": 7.411531719872947e-05
+        }
+      ]
+    },
+    {
+      "cohort": "ccRCC4",
+      "status": "DONE",
+      "all_features_mean_and_direction_checked": 904,
+      "n_pairs": 12,
+      "independent_method": "wide matrix groupby patient/tissue mean, contrasted with per-feature per-patient loop",
+      "exact_P_checks": [
+        {
+          "feature": "(16 or 17)-methylstearate (a19:0 or i19:0)",
+          "reference_exact_p": 0.00048828125,
+          "reported_p": 0.00048828125,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "(3'-5')-adenylyladenosine",
+          "reference_exact_p": 0.00048828125,
+          "reported_p": 0.00048828125,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "(3'-5')-adenylyluridine",
+          "reference_exact_p": 0.00048828125,
+          "reported_p": 0.00048828125,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "(3'-5')-cytidylyluridine",
+          "reference_exact_p": 0.00048828125,
+          "reported_p": 0.00048828125,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "(N(1) + N(8))-acetylspermidine",
+          "reference_exact_p": 0.10986328125,
+          "reported_p": 0.10986328125,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "(S)-3-hydroxybutyrylcarnitine",
+          "reference_exact_p": 0.30126953125,
+          "reported_p": 0.30126953125,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "(S)-a-amino-omega-caprolactam",
+          "reference_exact_p": 0.00244140625,
+          "reported_p": 0.00244140625,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "1,2-dilinoleoyl-GPC (18:2/18:2)",
+          "reference_exact_p": 0.791015625,
+          "reported_p": 0.791015625,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "1,2-dilinoleoyl-GPE (18:2/18:2)",
+          "reference_exact_p": 0.02099609375,
+          "reported_p": 0.02099609375,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "1,2-dipalmitoyl-GPC (16:0/16:0)",
+          "reference_exact_p": 0.0068359375,
+          "reported_p": 0.0068359375,
+          "tolerance": 1e-14
+        },
+        {
+          "feature": "1,2-dipalmitoyl-GPE (16:0/16:0)",
+          "reference_exact_p": 0.791015625,
+          "reported_p": 0.791015625,
+          "tolerance": 1e-14
+        }
+      ]
+    }
+  ]
+}

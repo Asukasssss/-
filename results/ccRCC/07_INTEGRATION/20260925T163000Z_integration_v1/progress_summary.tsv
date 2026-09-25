@@ -1,0 +1,13 @@
+cohort	stage_id	analysis	planned	evaluable	p005	q005	status	reason
+ccRCC3	04_ROBUSTNESS	METAB_PAIRED_PRIMARY	711	711	469.0	454.0	DONE	small treated cohort;see version decisions
+ccRCC3	04_ROBUSTNESS	METAB_PAIRED_AVAILABLE	711	540	348.0	335.0	DONE	small treated cohort;see version decisions
+ccRCC3	03_PATIENT	REL_TUMOR_PRIMARY	221	221	19.0	0.0	DONE	small treated cohort;see version decisions
+ccRCC3	03_PATIENT	REL_TUMOR_TREATMENT_STRATIFIED	221	221	17.0	0.0	DONE	small treated cohort;see version decisions
+ccRCC3	03_PATIENT	RNA_PAIRED_CURRENT	144	144	115.0	110.0	DONE	small treated cohort;see version decisions
+ccRCC3	02_MAPPING	bounded_direct_mapping	469	68	NA	NA	PARTIAL	401 features still NEEDS_REVIEW;not exhaustive
+ccRCC4	04_ROBUSTNESS	METAB_PAIRED_PRIMARY	904	904	432.0	337.0	DONE	small treated cohort;see version decisions
+ccRCC4	04_ROBUSTNESS	METAB_PAIRED_AVAILABLE	904	558	261.0	200.0	DONE	small treated cohort;see version decisions
+ccRCC4	03_PATIENT	REL_TUMOR_PRIMARY	130	130	18.0	0.0	DONE	small treated cohort;see version decisions
+ccRCC4	03_PATIENT	REL_TUMOR_TREATMENT_STRATIFIED	130	130	14.0	0.0	DONE	small treated cohort;see version decisions
+ccRCC4	03_PATIENT	RNA_PAIRED_CURRENT	95	95	56.0	50.0	DONE	small treated cohort;see version decisions
+ccRCC4	02_MAPPING	bounded_direct_mapping	432	44	NA	NA	PARTIAL	388 features still NEEDS_REVIEW;not exhaustive

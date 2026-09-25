@@ -1,0 +1,29 @@
+{
+  "status": "DONE",
+  "relations": 351,
+  "current_genes": 154,
+  "history_union_genes": 157,
+  "SC_genes": 157,
+  "source_rank_evaluable": 142,
+  "unique_relation_keys": true,
+  "unique_gene_keys": true,
+  "PDF_pages": 14,
+  "current_primary_association_q005": 0,
+  "cross_cohort_common_relations": 110,
+  "both_nominal_relations": 5,
+  "independent_replication_claim": false,
+  "raw_or_patient_data_exported": false,
+  "remaining_modules": [
+    "bounded mapping gaps",
+    "second independent SC study",
+    "existing UMAP coordinates",
+    "functional mechanism validation"
+  ],
+  "PDF_text_all14pages_checked": true,
+  "PDF_representative_pages_visually_checked": true,
+  "Excel_18_sheets_filter_freeze_checked": true,
+  "spreadsheet_no_formulas": true,
+  "all_report_input_hashes_match_pinned_Git": true,
+  "independent_all_feature_effect_counts_verified": true,
+  "patient_private_files_exported": false
+}
