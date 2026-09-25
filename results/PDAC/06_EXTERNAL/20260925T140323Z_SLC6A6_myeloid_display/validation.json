@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "source_rows": 27,
+  "myeloid_rows": 3,
+  "unique_cohort_celltype": true,
+  "new_tests": 0,
+  "summary": [
+    {
+      "cohort": "GSE263733",
+      "rank": 1,
+      "n_celltypes": 7,
+      "myeloid_bootstrap_first": "0.817"
+    },
+    {
+      "cohort": "GSE278688",
+      "rank": 1,
+      "n_celltypes": 6,
+      "myeloid_bootstrap_first": "0.791"
+    },
+    {
+      "cohort": "GSE242230",
+      "rank": 2,
+      "n_celltypes": 8,
+      "myeloid_bootstrap_first": "0.36"
+    }
+  ],
+  "not_verified": [
+    "clinical donor identity",
+    "myeloid subtype",
+    "disease differential expression"
+  ]
+}
