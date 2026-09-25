@@ -10,6 +10,8 @@ stopifnot(identical(colnames(counts),s$sample),all(counts>=0),all(counts==floor(
 s$patient=factor(s$patient);s$group=factor(s$group,levels=c('low','high'))
 design=model.matrix(~patient+group,s)
 stopifnot(qr(design)$rank==ncol(design),length(levels(s$patient))>=spec$min_donors)
+resume=length(args)>2 && args[3]=='resume'
+if(!resume){
 y=DGEList(counts=counts)
 keep=filterByExpr(y,design=design) & rownames(y)!='LYPLA1'
 filter_table=data.frame(gene=rownames(y),status=ifelse(rownames(y)=='LYPLA1','EXCLUDED_GROUPING_GENE',ifelse(keep,'TESTED','LOW_EXPRESSION')))
@@ -42,6 +44,12 @@ res$status='DONE';res$reason='EXPLORATORY_DONOR_PAIRED_COEXPRESSION_NOT_CAUSAL'
 res=res[order(res$p_value,res$gene),]
 write.table(res,file.path(pub,'results.tsv'),sep='\t',row.names=FALSE,quote=FALSE,na='NA')
 write.table(res[res$selected,],file.path(pub,'selected_genes.tsv'),sep='\t',row.names=FALSE,quote=FALSE,na='NA')
+saveRDS(list(y=y,fit=fit,test=test,samples=s,design=design),file.path(out,'private_models.rds'))
+}else{
+  res=read.delim(file.path(pub,'results.tsv'),stringsAsFactors=FALSE)
+  stopifnot(!anyDuplicated(res$gene),!('LYPLA1' %in% res$gene),all(res$n_donors==nlevels(s$patient)))
+  depth_ok=all(is.finite(res$depth_p_value))
+}
 gmt=strsplit(readLines(file.path(out,'reactome.gmt')),'\t',fixed=TRUE)
 stopifnot(all(vapply(gmt,function(z)grepl('^R-HSA-',z[2]),logical(1))))
 pathways=lapply(gmt,function(z)intersect(z[-c(1,2)],res$gene));names(pathways)=vapply(gmt,function(z)z[2],character(1))
@@ -61,7 +69,11 @@ for(direction in c('higher_in_LYPLA1_high','lower_in_LYPLA1_high')){
 }
 ora=do.call(rbind,ora);ora$q_value=p.adjust(ora$p_value,'BH');ora=ora[order(ora$q_value,ora$p_value),]
 write.table(ora,file.path(pub,'reactome_ORA.tsv'),sep='\t',row.names=FALSE,quote=FALSE,na='NA')
-rank=setNames(sign(res$log2FC)*sqrt(res$QL_F),res$gene);rank=rank[order(-rank,names(rank))]
+# Numerical QL likelihood rounding may be slightly below zero with P=1.
+# Preserve original F/P/q; clamp only these null ranking values to zero.
+negative=res$QL_F<0
+stopifnot(all(res$QL_F[negative]>-1e-6),all(res$p_value[negative]==1))
+rank=setNames(sign(res$log2FC)*sqrt(pmax(0,res$QL_F)),res$gene);rank=rank[order(-rank,names(rank))]
 set.seed(spec$seed)
 g=as.data.frame(fgseaMultilevel(pathways=pathways,stats=rank,minSize=15,maxSize=500,eps=0,sampleSize=101,nPermSimple=10000,nproc=1))
 g$pathway_id=g$pathway;g$pathway=unname(titles[g$pathway_id]);g$leadingEdge=vapply(g$leadingEdge,function(x)paste(x,collapse=';'),character(1))
@@ -72,9 +84,9 @@ summary=list(status='PASS',code_lock_commit=lock_commit,patients=nlevels(s$patie
   primary_selected_depth_direction_agrees=sum(res$selected & res$depth_direction_agrees,na.rm=TRUE),
   pathways_tested=length(pathways),ORA_q05=sum(ora$q_value<.05),GSEA_q05=sum(g$padj<.05,na.rm=TRUE),
   full_rank_design=TRUE,grouping_gene_excluded=TRUE,no_independent_cell_test=TRUE,patient_values_private=TRUE,
+  numerical_null_F_clamped_for_ranking=sum(negative),differential_values_reused=resume,
   software=list(R=R.version.string,edgeR=as.character(packageVersion('edgeR')),fgsea=as.character(packageVersion('fgsea'))))
 write_json(summary,file.path(pub,'validation.json'),pretty=TRUE,auto_unbox=TRUE)
 capture.output(sessionInfo(),file=file.path(pub,'software_versions.txt'))
-saveRDS(list(y=y,fit=fit,test=test,samples=s,design=design),file.path(out,'private_models.rds'))
 writeLines('DONE',file.path(out,'DONE'));unlink(file.path(out,'.running'),recursive=TRUE)
 print(summary)
