@@ -1,0 +1,20 @@
+{
+  "status": "DONE",
+  "myeloid_cells": 2743,
+  "cancer_cells": 1571,
+  "adjacent_cells": 1172,
+  "seven_author_minor_types": true,
+  "thirteen_author_subsets": true,
+  "subset_to_minor_unambiguous": true,
+  "exact_gene_matches": true,
+  "raw_integer_counts_and_cached_library_verified": true,
+  "prior_myeloid_profile_max_error": 5.960464483090178e-08,
+  "independent_U_statistic_verified": true,
+  "new_clustering": false,
+  "new_annotation": false,
+  "genotype_identity_validation": "NOT_RUN;source matrices only;inherit depositor donor identities",
+  "sex_labels": [
+    "male"
+  ],
+  "patient_level_inference": false
+}

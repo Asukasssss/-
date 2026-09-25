@@ -1,0 +1,14 @@
+celltype_major_v2	celltype_minor_v2	celltype_subset_v2	cell_type	cell_type_ontology_term_id	n_cells	origin
+Myeloid	Macrophages	Macrophages_C1QB+/c5	macrophage	CL:0000235	179	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	Macrophages	Macrophages_C3+/c3	macrophage	CL:0000235	252	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	Macrophages	Macrophages_MT1G+/c9	macrophage	CL:0000235	72	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	Macrophages	Macrophages_SELENOP+/c1	macrophage	CL:0000235	516	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	Mast_cells	Mast_cells_TPSB2+/c8	mast cell	CL:0000097	115	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	Monocytes	Monocytes_FCGR3A+/c7	monocyte	CL:0000576	118	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	Monocytes	Monocytes_S100A9+/c0	monocyte	CL:0000576	617	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	Monocytes	Monocytes_S100A9+/c6	monocyte	CL:0000576	130	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	cDC1	cDC1_CLEC9A+/c10	myeloid cell	CL:0000763	59	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	cDC2	cDC2_CD207+/c4	myeloid cell	CL:0000763	210	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	cDC2	cDC2_CLEC10A+/c2	myeloid cell	CL:0000763	423	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	mDC_regs	mDC_regs_BIRC3+/c12	myeloid cell	CL:0000763	21	depositor v2;matched original annotation plus July2023 update;no reannotation
+Myeloid	pDC	pDC_IRF4+/c11	plasmacytoid dendritic cell	CL:0000784	31	depositor v2;matched original annotation plus July2023 update;no reannotation

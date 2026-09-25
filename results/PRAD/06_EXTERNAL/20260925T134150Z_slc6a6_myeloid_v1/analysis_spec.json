@@ -1,0 +1,24 @@
+{
+  "version": "prad_slc6a6_myeloid_cells_v1",
+  "parent_commit": "5016ce149a20883518a4b0c500a187282a384006",
+  "author_repository": "https://github.com/swarbricklab/apostolov_pca_atlas",
+  "author_commit": "f48298f64d5f4eb02709b21969e95a0014cc8c09",
+  "primary_labels": "celltype_minor_v2;7 author types",
+  "secondary_labels": "celltype_subset_v2;13 author subsets",
+  "selection": "all observed myeloid minor/subset labels;no outcome filtering",
+  "normalization": "log1p(10000*raw_count/full_raw_gene_library);same as prior",
+  "test": "two-sided Mann-Whitney U;asymptotic tie and continuity corrected;zeros retained",
+  "minimum_cells_each_tissue": 3,
+  "unit": "cell;no donor pairing or adjustment per user request",
+  "P_threshold": 0.05,
+  "BH": "separate seven-minor and thirteen-subset families;reported not selection gate",
+  "scientific_scope": "pooled expression difference;not patient-level evidence;possible donor/cell-composition confounding",
+  "CI": "NA;no cell bootstrap CI implying independent patients",
+  "software": {
+    "python": "3.13.9",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "anndata": "0.12.16",
+    "scipy": "1.17.1"
+  }
+}
