@@ -1,0 +1,39 @@
+{
+  "analysis_version": "PDAC_myeloid_infercnv_v1",
+  "run_id": "20260925T141744Z_myeloid_infercnv_v1",
+  "scope": "User-requested exploratory inferCNV within PDAC myeloid cells and SLC6A6 comparison; not a malignancy diagnosis",
+  "cohorts": ["GSE263733", "GSE278688", "GSE242230"],
+  "unit": "author patient/sample label; clinical independence not recertified",
+  "input_population": "Existing primary tumor selection; eligible matched-author-unit normal tissue myeloid cells added as calibration controls",
+  "preflight_min_cells": {"myeloid": 50, "T": 50, "B": 50},
+  "postQC": {"min_UMI": 500, "min_genes": 200, "min_myeloid": 50, "min_train_or_heldout_T_or_B": 20},
+  "reference_sampling": "Stable SHA256-derived seed per cohort+author unit+role; at most200 T and200 B; split equally into training and heldout; max100 author malignant or normal-tissue myeloid control cells; all tumor myeloid retained",
+  "reference_variants": ["T_plus_B", "T_only", "B_only"],
+  "gene_order": "GENCODE v36 GRCh38, autosomes only, duplicate gene symbols excluded",
+  "circularity_guard": "Entire chromosome3 excluded from inferCNV; SLC6A6 on chr3 is read only for subsequent comparisons; no inference about chr3 CNV",
+  "infercnv": {"target_version": "1.26.0", "cutoff": 0.1, "denoise": true, "HMM": false, "cluster_by_groups": true, "analysis_mode": "samples", "num_threads": 2},
+  "classification": {
+    "type": "Analyst-defined exploratory score rule on inferCNV expression residuals; not inferCNV HMM or a validated malignancy classifier",
+    "score": "RMS of residual expression minus1",
+    "chromosome_score": "absolute chromosome mean residual;at least50 retained genes per chromosome and at least15 usable chromosomes per unit",
+    "thresholds": "Heldout T/B 99th percentile for global/chr extremes and95th global for reference-like; when>=20 normal-tissue myeloid controls exist, use the larger lymphocyte/myeloid threshold; R quantile type8",
+    "abnormal_per_variant": "global score above99th percentile and at least2 chromosome extremes",
+    "reference_like_per_variant": "global score<=95th percentile and no chromosome extremes",
+    "consensus_abnormal": "Abnormal in all3 reference variants with at least2 shared extreme chromosomes having concordant directions",
+    "consensus_reference_like": "Reference-like in all3 variants",
+    "otherwise": "UNCERTAIN",
+    "interpretation": "All classifications describe expression-derived CNV patterns, not confirmed malignant/normal identities; calibration controls are not independent validation"
+  },
+  "SLC6A6": {
+    "normalization": "log1p(10000*raw count/all-gene library size), using full library including chr3",
+    "primary_comparison": "CNV-abnormal-candidate minus reference-like myeloid within author unit",
+    "minimum": "20 cells per group within unit and5 paired author units for inference",
+    "test": "Exact sign-flip permutation of equal-author-unit mean differences",
+    "CI": "10000 author-unit bootstrap percentile95% intervals, seed20260925",
+    "multiplicity": "BH across evaluable primary cohort tests; planned family3; unevaluable cohorts retained",
+    "composition_limit": "Primary comparison not adjusted for myeloid subtype composition; subtype availability differs across cohorts"
+  },
+  "data_residency": "All raw matrices, cell identities and author-unit values remain on server165; local/GitHub only scripts, parameters and aggregates",
+  "not_performed": ["DNA CNV confirmation", "new doublet detection", "somatic clonality validation", "new malignant diagnosis", "mechanism analysis"],
+  "official_method_reference": "https://github.com/broadinstitute/infercnv/wiki/Running-InferCNV"
+}

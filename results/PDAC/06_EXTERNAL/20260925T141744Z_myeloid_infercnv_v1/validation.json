@@ -1,0 +1,11 @@
+{
+  "status": "PARTIAL",
+  "metadata_keys": "PASS",
+  "prepared_units": 31,
+  "myeloid_cells_postQC": 14133,
+  "gene_order_chr3_excluded": true,
+  "exact_signflip_unit_checks": "PASS",
+  "R_syntax": "PASS",
+  "infercnv_numerics": "NOT_RUN_AT_THIS_CHECKPOINT",
+  "raw_or_individual_data_downloaded": false
+}
