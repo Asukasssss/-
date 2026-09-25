@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "n_tests": 2,
+  "n_not_evaluable": 2,
+  "unique_exact_gene_symbols": true,
+  "frozen92": true,
+  "no_donor_inference": true,
+  "independent_recalculation": "PASS ranks, effect, tie correction, continuity correction, P, cell counts"
+}

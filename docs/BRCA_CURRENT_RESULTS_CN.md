@@ -1,3 +1,5 @@
+最新补充：[按细胞比较LYPLA1及KEGG92](../results/BRCA/06_EXTERNAL/20260925T140924Z_cellcomparison_v1/README_CN.md)。Wu恶性上皮LYPLA1平均CP10k约2.10倍；KEGG92差异很小，P=0.0514。细胞层面探索，未调整供者。
+
 # BRCA当前结果入口：发现至单细胞表达来源
 
 后续补充（2026-09-25）：[KEGG甘油磷脂代谢92基因评分与两套评分并排](../results/BRCA/06_EXTERNAL/20260925T133935Z_lypla1_KEGGscore_v1/README_CN.md)。Pal中LYPLA1—评分ρ=0.434、P=0.01141；Wu未明确支持，CAMP评分—LPC未明确支持。与旧24基因集合重叠20个；保留全部16项，不因换集合覆盖旧结果。
