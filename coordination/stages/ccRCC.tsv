@@ -1,0 +1,3 @@
+cancer	stage_id	run_id	analysis_version	status	scope	result_path	code_path	git_branch	reason	next_action
+ccRCC	01_CAMP	20260925T143000Z_discovery_v1	ccrcc_discovery_v1	DONE	ccRCC4 author identity and frozen CAMP audit	results/ccRCC/01_CAMP/20260925T143000Z_discovery_v1	code/ccrcc_discovery_v1.py	analysis/ccrcc-discovery-20260925	ccRCC3 link under investigation	patient mapping for ccRCC3
+ccRCC	04_ROBUSTNESS	20260925T143000Z_discovery_v1	ccrcc_discovery_v1	DONE	ccRCC4 904 features;13 patient pairs	results/ccRCC/04_ROBUSTNESS/20260925T143000Z_discovery_v1	code/ccrcc_discovery_v1.py	analysis/ccrcc-discovery-20260925	mixed treatment context	biochemical mapping

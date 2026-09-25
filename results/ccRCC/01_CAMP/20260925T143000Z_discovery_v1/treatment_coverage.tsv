@@ -1,0 +1,7 @@
+treatment	n_patients
+nivolumab	5
+ipilimumab/nivolumab	4
+untreated	2
+crizotinib	1
+sunitinib;ipilimumab/nivolumab	1
+ipilimumab/nivolumab;pembrolizumab/lenvatinib	1

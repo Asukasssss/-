@@ -1,0 +1,23 @@
+{
+  "status": "DONE",
+  "ccRCC4_mapped_specimens": 76,
+  "excluded_medullary_specimens": 2,
+  "ccRCC4_clear_cell_specimens": 74,
+  "tumor_specimens": 51,
+  "normal_specimens": 23,
+  "author_patients": 14,
+  "tumor_patients": 14,
+  "normal_patients": 13,
+  "paired_patients": 13,
+  "original_matrix_specimens": 162,
+  "unmapped_histology_or_rna_link_not_extended": 86,
+  "total_features": 1030,
+  "retained_features": 904,
+  "historical_cancer_effects": 612,
+  "historical_cancer_q005": 310,
+  "ccRCC3_status": "NEEDS_REVIEW",
+  "ccRCC3_reason": "author_patient_link_absent_from_master_mapping_and_original_ccRCC3_workbook_absent_from_archive;do_not_infer_from_ID",
+  "treatment_scope": "mixed treated and untreated, mostly immune-checkpoint treated;not a treatment-effect design",
+  "original_statistics_modified": false,
+  "observed_values_equal_between_sheets": true
+}

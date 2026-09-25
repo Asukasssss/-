@@ -1,0 +1,37 @@
+{
+  "version": "ccrcc_discovery_v1",
+  "code_commit": "614d29a3f2bdef82666815af78d265bd82954d87",
+  "cancer": "ccRCC",
+  "cohort": "ccRCC4",
+  "inclusion": "MasterMapping Dataset=ccRCC4, Histology=Clear Cell, exact original SAMPLE_NAME join; source cohorts kept separate",
+  "patient_id": "original OrigScale SUBJECT_ID, explicitly supplied by authors",
+  "analysis_unit": "author patient; arithmetic mean of author processed values over all eligible regions within patient and tissue",
+  "discovery_scope": "all features retained in both original author tissue-filtered sheets, before any significance selection; excluded feature inventory retained",
+  "available_sensitivity": "patient retained for a feature only if ALL included regions in BOTH tissues have finite author data values; no changing regional mixture",
+  "transformation": "none for metabolomics;author processed scale;no new imputation or batch adjustment",
+  "n_min": 8,
+  "paired_patients": 13,
+  "bootstrap": 4000,
+  "master_seed": 20260925,
+  "test": "signed rank;<=16 nonzero exact exhaustive signs;17-29 Monte Carlo99999;>=30 tie and continuity corrected normal;zero_method=wilcox",
+  "test_families": [
+    "METAB_PAIRED_PRIMARY",
+    "METAB_PAIRED_AVAILABLE"
+  ],
+  "BH": "all evaluable features separately per family",
+  "workpool": "primary P<0.05 exploratory, q separately retained",
+  "limitations": [
+    "small n",
+    "treated cohort",
+    "within-patient region mean estimand",
+    "same-cohort selection",
+    "ccRCC3 patient identity unresolved",
+    "genotype identity not checked"
+  ],
+  "software": {
+    "python": "3.8.10",
+    "pandas": "1.5.3",
+    "numpy": "1.24.4"
+  },
+  "source_paper": "https://doi.org/10.1038/s42255-023-00817-8"
+}
