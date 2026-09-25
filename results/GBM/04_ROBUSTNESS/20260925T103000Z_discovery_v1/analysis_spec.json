@@ -1,0 +1,25 @@
+{
+  "analysis_version": "gbm_discovery_v1",
+  "code_commit": "7b2b5b1ec316e527e7d2726fd97b64ecd00b4eec",
+  "primary": "reuse exact historical Mann-Whitney P/effect on same inputs; no frozen statistic overwritten; conditional on master TN",
+  "workpool": "historical full-cohort P<0.05; exploratory and conditional normal-label conflict",
+  "normal_label_conflicts": 6,
+  "normal_discovery_status": "NEEDS_REVIEW",
+  "patient_unit": "unique explicit author case_id",
+  "paired_analysis": "NOT_EVALUABLE;unmatched normal brain reference",
+  "metabolite_scale": "original README log2 transformed globally median normalized; no new transform",
+  "minimum_sensitivity_group_n": 5,
+  "minimum_n_reason": "unpaired adaptation fixed before new sensitivity statistics; only six reference normals; paired/association n8 rule not reused for group size",
+  "sensitivity": "Mann-Whitney asymptotic,two-sided,tie and continuity correction;author data finite-value mask;separate full family BH;4000 within-group mean bootstrap",
+  "bootstrap": 4000,
+  "master_seed": 20260925,
+  "mask_semantics": "author_available_value_mask;not verified original detection mask",
+  "clinical_sensitivity": "exclude author pathology FAIL from tumor associations;age and sex adjustment when estimable",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  },
+  "original_statistics_modified": false
+}

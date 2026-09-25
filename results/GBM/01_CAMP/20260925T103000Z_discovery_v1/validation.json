@@ -1,0 +1,21 @@
+{
+  "status": "PARTIAL",
+  "total_input_features": 713,
+  "retained_both_tissues": 697,
+  "historical_cancer_features": 589,
+  "workpool_p005": 480,
+  "current_family_q005": 460,
+  "tumor_cases": 74,
+  "normal_cases": 6,
+  "normal_label_conflicts": 6,
+  "tumor_pathology_PASS": 68,
+  "tumor_pathology_FAIL": 6,
+  "RNA_exact_ID_coverage": 80,
+  "RNA_gene_symbols": 39309,
+  "historical_P_independently_reproduced": true,
+  "BH_independently_checked": true,
+  "all_source_feature_rows_preserved": true,
+  "original_statistics_modified": false,
+  "genotype_check": "NOT_EVALUABLE_no_genotype_data",
+  "sex_age": "available_from_original_clinical;used_in_next_stage"
+}

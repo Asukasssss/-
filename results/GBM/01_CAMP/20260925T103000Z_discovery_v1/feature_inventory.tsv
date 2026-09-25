@@ -1,0 +1,714 @@
+metabolite_name	feature_id	retained_both_tissues	feature_name	metabolite_key	identity_confidence	status	reason
+2-hydroxybutyrate (AHB)	GBM_FEATURE:196aadb66775b8ad	True	2-hydroxybutyrate (AHB)	KEGG:C05984	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+2-hydroxyglutarate	GBM_FEATURE:068b02a1d3375ba5	True	2-hydroxyglutarate	KEGG:C02630	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+3-hydroxybutyrate (BHBA)	GBM_FEATURE:7193983cba836c84	True	3-hydroxybutyrate (BHBA)	KEGG:C01089	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+3-phosphoglycerate	GBM_FEATURE:5873643eef6d7936	True	3-phosphoglycerate	KEGG:C00597	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+adenine	GBM_FEATURE:ed8fb7b3c625e273	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+aminomalonic acid (spectralmatch)	GBM_FEATURE:8de82c5e0cb2f1ef	True	aminomalonic acid (spectralmatch)	NAME:aminomalonic acid (spectralmatch)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+campesterol	GBM_FEATURE:3a021448cc1f1b7a	True	campesterol	KEGG:C01789	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+caprate (10:0)	GBM_FEATURE:b5aaffbea4fd4e18	True	caprate (10:0)	KEGG:C01571	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+cholesterol	GBM_FEATURE:366993077ce453b4	True	cholesterol	KEGG:C00187	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+citrate	GBM_FEATURE:3373c499464b3190	True	citrate	KEGG:C00158	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+creatinine	GBM_FEATURE:d11a2e5ffb2b2041	True	creatinine	KEGG:C00791	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+galactose	GBM_FEATURE:42bff579a40990b3	True	galactose	KEGG:C01662	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+dehydroascorbate	GBM_FEATURE:1f2c906b7469db48	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+fructose-6-phosphate	GBM_FEATURE:0e666297b1d455c9	True	fructose-6-phosphate	KEGG:C05345	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+gluconate	GBM_FEATURE:8a93f353e4c326a0	True	gluconate	KEGG:C00257	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+glucose	GBM_FEATURE:88a2f109b13da155	True	glucose	KEGG:C00031	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+glucose 6-phosphate	GBM_FEATURE:dc88f8fcb887555f	True	glucose 6-phosphate	KEGG:C00668	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+2-aminoadipate_dupl	GBM_FEATURE:98cbba4b871f6811	True	2-aminoadipate_dupl	KEGG:C00956	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+3-aminoisobutyrate	GBM_FEATURE:7353e222750faf6f	True	3-aminoisobutyrate	KEGG:C05145	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+isoleucine	GBM_FEATURE:1432b9e82c3172bb	True	isoleucine	KEGG:C00407	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+malate	GBM_FEATURE:8dee5f53edb4a53f	True	malate	KEGG:C00149	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+mannitol	GBM_FEATURE:1f6edaa42faab4e8	True	mannitol	KEGG:C00392	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+mannose	GBM_FEATURE:29d74b6fd54c8a21	True	mannose	KEGG:C00159	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+docosahexaenoate (DHA; 22:6n3)	GBM_FEATURE:10511d2fb2642333	True	docosahexaenoate (DHA; 22:6n3)	KEGG:C06429	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+ribose 5-phosphate	GBM_FEATURE:afe317792d4966b5	True	ribose 5-phosphate	KEGG:C00117	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+ribulose 5-phosphate	GBM_FEATURE:e2eddf72c7b0eceb	True	ribulose 5-phosphate	KEGG:C00199	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+sorbitol	GBM_FEATURE:fb407263b2f0840f	True	sorbitol	KEGG:C00794	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+fructose	GBM_FEATURE:ebfd8396e9cacde7	True	fructose	KEGG:C00095	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+fumarate	GBM_FEATURE:0f4bced33f0a5ce9	True	fumarate	KEGG:C00122	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+galactitol (dulcitol)	GBM_FEATURE:15658d6ac33ecede	True	galactitol (dulcitol)	KEGG:C01697	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+glycerate	GBM_FEATURE:42cb5c437c0f3ff2	True	glycerate	KEGG:C00258	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+glycerol 3-phosphate (G3P)	GBM_FEATURE:5add9cf5f6880eb9	True	glycerol 3-phosphate (G3P)	KEGG:C00093	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+glycine	GBM_FEATURE:c9720c72406a9789	True	glycine	KEGG:C00037	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+glycolate (hydroxyacetate)	GBM_FEATURE:e1d3e5bb129170aa	True	glycolate (hydroxyacetate)	KEGG:C00160	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+heptadecanoic acid	GBM_FEATURE:5ceab5f097502c1e	True	heptadecanoic acid	HMDB:HMDB02259	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+homocysteine	GBM_FEATURE:6fda9d2771c21595	True	homocysteine	KEGG:C00155	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+hypotaurine	GBM_FEATURE:169ff670f3c26bd2	True	hypotaurine	KEGG:C00519	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+2-aminoadipate	GBM_FEATURE:be1d77b1eddbacca	True	2-aminoadipate	KEGG:C00956	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+lactate	GBM_FEATURE:b1d6fe29842d33ef	True	lactate	KEGG:C00186	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+alanine	GBM_FEATURE:b97979ef1bfcf27d	True	alanine	KEGG:C00041	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+aspartate	GBM_FEATURE:a936c376f6ff5b86	True	aspartate	KEGG:C00049	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+cysteine	GBM_FEATURE:b1e19189fde23790	True	cysteine	KEGG:C00097	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+glutamate	GBM_FEATURE:c4f5ae886a6f2e1e	True	glutamate	KEGG:C00025	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+glutamine	GBM_FEATURE:f1308a1c5d4d63d9	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+linoleate (18:2n6)	GBM_FEATURE:88d7eb90960abc5a	True	linoleate (18:2n6)	KEGG:C01595	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+leucine	GBM_FEATURE:b754e6401a70856c	True	leucine	KEGG:C00123	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+lysine	GBM_FEATURE:b235fe32490cda94	True	lysine	KEGG:C00047	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+methionine	GBM_FEATURE:a84653a33a951c44	True	methionine	KEGG:C00073	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+L-mimosine	GBM_FEATURE:c30458d8d2e9ece7	True	L-mimosine	KEGG:C04771	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+proline	GBM_FEATURE:6692a40c9e151cb2	True	proline	KEGG:C00148	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+5-oxoproline	GBM_FEATURE:cde3da62f8e094f1	True	5-oxoproline	KEGG:C01879	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+serine	GBM_FEATURE:3d25af3508933dfb	True	serine	KEGG:C00065	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+threonine	GBM_FEATURE:1e2126a6049b11ab	True	threonine	KEGG:C00188	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+tyrosine	GBM_FEATURE:c5bb45f39525a3f7	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+valine	GBM_FEATURE:8dcedd5e178723a5	True	valine	KEGG:C00183	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+maltose	GBM_FEATURE:6fe63a2a8258d9f8	True	maltose	KEGG:C00208	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+myo-inositol	GBM_FEATURE:69e28adb52547c66	True	myo-inositol	KEGG:C00137	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+myristate (14:0)	GBM_FEATURE:c72897d0b0d6e98a	True	myristate (14:0)	KEGG:C06424	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+N-acetylaspartate (NAA)	GBM_FEATURE:6162a37c131255c8	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+N-formylglycine	GBM_FEATURE:0e94eba2138ae781	True	N-formylglycine	NAME:N-formylglycine	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+N-methylalanine	GBM_FEATURE:a52f92b2a6d9a41e	True	N-methylalanine	KEGG:C02721	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+oleate (18:1n9)	GBM_FEATURE:bd5a75b37eeffcbb	True	oleate (18:1n9)	KEGG:C00712	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+O-phosphocolamine	GBM_FEATURE:da1539c302a77327	True	O-phosphocolamine	NAME:O-phosphocolamine	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+palatinitol  (spectral match)	GBM_FEATURE:8e112599e1170869	True	palatinitol  (spectral match)	NAME:palatinitol  (spectral match)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+palmitate (16:0)	GBM_FEATURE:e3c0644ec7af69e1	True	palmitate (16:0)	KEGG:C00249	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+pantothenate (Vitamin B5)	GBM_FEATURE:5dd1b5920fe050cd	True	pantothenate (Vitamin B5)	KEGG:C00864	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+phenylalanine	GBM_FEATURE:a44adeb25adaeb4f	True	phenylalanine	KEGG:C00079	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+phosphoenolpyruvate (PEP)	GBM_FEATURE:64e04b8984178a10	True	phosphoenolpyruvate (PEP)	KEGG:C00074	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+phosphoric acid (spectral match)	GBM_FEATURE:9ef462b9d6f0d6bc	True	phosphoric acid (spectral match)	HMDB:HMDB0001429	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+porphine	GBM_FEATURE:f758202309fadafc	True	porphine	NAME:porphine	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1,2-propanediol	GBM_FEATURE:772ed7856c65cf3e	True	1,2-propanediol	KEGG:C00583	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+putrescine	GBM_FEATURE:368c03edafa119f4	True	putrescine	KEGG:C00134	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+pyrophosphate (PPi)	GBM_FEATURE:3846f96a24984c63	True	pyrophosphate (PPi)	KEGG:C00013	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+pyruvate	GBM_FEATURE:3cb63287d86bad81	True	pyruvate	KEGG:C00022	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+sarcosine	GBM_FEATURE:49fc2a2cae8843cc	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+scyllo-inositol	GBM_FEATURE:e83d2e057331a6b3	True	scyllo-inositol	KEGG:C06153	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+stearate (18:0)	GBM_FEATURE:c95d3fd4b0685964	True	stearate (18:0)	KEGG:C01530	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+sucrose	GBM_FEATURE:69cdcc7eb4b306e3	True	sucrose	KEGG:C00089	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+timonacic	GBM_FEATURE:9ee20390f3a7ed2a	True	timonacic	KEGG:D08601 	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+uracil	GBM_FEATURE:114ae5cf96c222d7	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+urea	GBM_FEATURE:57ff2f0dd49e2ec5	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+uridine 5'-monophosphate (UMP)	GBM_FEATURE:98f29138b6910cb8	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+xylitol	GBM_FEATURE:91722630e0e898da	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+Unknown 001	GBM_FEATURE:cb8a219738a6eb22	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+Unknown 002	GBM_FEATURE:af1fed55f5e23cc5	True	Unknown 002	NAME:Unknown 002	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 003	GBM_FEATURE:f2960ef3ba8d05c4	True	Unknown 003	NAME:Unknown 003	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 004	GBM_FEATURE:29a3694bf1a97977	True	Unknown 004	NAME:Unknown 004	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 005	GBM_FEATURE:af791c6d618e3e91	True	Unknown 005	NAME:Unknown 005	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 006	GBM_FEATURE:828f2f86807d65a5	True	Unknown 006	NAME:Unknown 006	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 007	GBM_FEATURE:18f2c195e01415e4	True	Unknown 007	NAME:Unknown 007	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 008	GBM_FEATURE:1d26f21962d61393	True	Unknown 008	NAME:Unknown 008	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 009	GBM_FEATURE:3106eee2939cd10e	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+Unknown 010	GBM_FEATURE:3bf5f7a3f072f3ff	True	Unknown 010	NAME:Unknown 010	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 011	GBM_FEATURE:0034560bd95cd948	True	Unknown 011	NAME:Unknown 011	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 012	GBM_FEATURE:11f0627776235972	True	Unknown 012	NAME:Unknown 012	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 013	GBM_FEATURE:d42835cac220247d	True	Unknown 013	NAME:Unknown 013	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 014	GBM_FEATURE:8aa3913da3d520d0	True	Unknown 014	NAME:Unknown 014	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 015	GBM_FEATURE:61b52b8238a8c355	True	Unknown 015	NAME:Unknown 015	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 016	GBM_FEATURE:584fbbb235349a71	True	Unknown 016	NAME:Unknown 016	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 017	GBM_FEATURE:93bb5b9fc270e68e	True	Unknown 017	NAME:Unknown 017	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 018	GBM_FEATURE:8f3712f2897df177	True	Unknown 018	NAME:Unknown 018	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 019	GBM_FEATURE:b2178fdba5e1999f	True	Unknown 019	NAME:Unknown 019	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 020	GBM_FEATURE:ea47f8b6bd42e6dc	True	Unknown 020	NAME:Unknown 020	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 021	GBM_FEATURE:ebe8f638454708db	True	Unknown 021	NAME:Unknown 021	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 022	GBM_FEATURE:4b2cb0318397a78d	True	Unknown 022	NAME:Unknown 022	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 023	GBM_FEATURE:24bef348f62eeeb2	True	Unknown 023	NAME:Unknown 023	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 024	GBM_FEATURE:0be91424af718fec	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+Unknown 025	GBM_FEATURE:ee2424d5fa9f23b4	True	Unknown 025	NAME:Unknown 025	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 026	GBM_FEATURE:a9b7b823eb6b9e1f	True	Unknown 026	NAME:Unknown 026	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 027	GBM_FEATURE:99b313565a8d7b54	True	Unknown 027	NAME:Unknown 027	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 028	GBM_FEATURE:12e2e6ac93e35d35	True	Unknown 028	NAME:Unknown 028	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 029	GBM_FEATURE:079f9cf20db51edf	True	Unknown 029	NAME:Unknown 029	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 030	GBM_FEATURE:64efcb3ef37212e0	True	Unknown 030	NAME:Unknown 030	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 031	GBM_FEATURE:096c3b310f11f8a2	True	Unknown 031	NAME:Unknown 031	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 032	GBM_FEATURE:b3a7e6ba4396125e	True	Unknown 032	NAME:Unknown 032	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 033	GBM_FEATURE:7e9b803e0729e525	True	Unknown 033	NAME:Unknown 033	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 034	GBM_FEATURE:0a730e1d1a476d5e	True	Unknown 034	NAME:Unknown 034	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 035	GBM_FEATURE:dd2350643336405e	True	Unknown 035	NAME:Unknown 035	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 036	GBM_FEATURE:43e8f5c339970af6	True	Unknown 036	NAME:Unknown 036	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 037	GBM_FEATURE:da6d0319ab02e280	True	Unknown 037	NAME:Unknown 037	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 038	GBM_FEATURE:960d156de8379a50	True	Unknown 038	NAME:Unknown 038	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 039	GBM_FEATURE:dd96f2f3af42b87f	True	Unknown 039	NAME:Unknown 039	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 040	GBM_FEATURE:d469d7f5dc8e870e	True	Unknown 040	NAME:Unknown 040	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 041	GBM_FEATURE:8a2af3b7942f3bfa	True	Unknown 041	NAME:Unknown 041	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 042	GBM_FEATURE:395c684b3d87834f	True	Unknown 042	NAME:Unknown 042	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 043	GBM_FEATURE:100f161e3fd0a422	True	Unknown 043	NAME:Unknown 043	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 044	GBM_FEATURE:630bd810a7f41bc9	True	Unknown 044	NAME:Unknown 044	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 045	GBM_FEATURE:c827aec0e1a9b05d	True	Unknown 045	NAME:Unknown 045	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 046	GBM_FEATURE:0045e339a0082f41	True	Unknown 046	NAME:Unknown 046	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 047	GBM_FEATURE:5324f907098f8b73	True	Unknown 047	NAME:Unknown 047	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 048	GBM_FEATURE:7bbec8594aaa1c23	True	Unknown 048	NAME:Unknown 048	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 049	GBM_FEATURE:46abc0dad66a7313	True	Unknown 049	NAME:Unknown 049	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 050	GBM_FEATURE:08a7f66b7b458f5b	True	Unknown 050	NAME:Unknown 050	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Unknown 051	GBM_FEATURE:144c88a39332c931	True	Unknown 051	NAME:Unknown 051	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+anandamide(18:1)	GBM_FEATURE:f0e389f340df4915	True	anandamide(18:1)	NAME:anandamide(18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+carnitine(12:0)	GBM_FEATURE:30949f914cf36823	True	carnitine(12:0)	NAME:carnitine(12:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+carnitine(14:0)	GBM_FEATURE:02f6781c423a8b4b	True	carnitine(14:0)	NAME:carnitine(14:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+carnitine(14:1)	GBM_FEATURE:826b6886af0bd114	True	carnitine(14:1)	NAME:carnitine(14:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+carnitine(16:0)	GBM_FEATURE:eba8c9dac8165085	True	carnitine(16:0)	NAME:carnitine(16:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+carnitine(16:1)	GBM_FEATURE:406749f550b2d3d5	True	carnitine(16:1)	NAME:carnitine(16:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(18:1)	GBM_FEATURE:ca8fd7f6d13a5edc	True	CE(18:1)	KEGG:C14641	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(18:2)	GBM_FEATURE:cee4c59f633e0393	True	CE(18:2)	KEGG:C15441	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(20:1)	GBM_FEATURE:fcf35b483ec3a486	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+CE(20:2)	GBM_FEATURE:18796b789097e0b0	True	CE(20:2)	NAME:CE(20:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(20:3)	GBM_FEATURE:3a9783b2f0ee5dd5	True	CE(20:3)	KEGG:C02530	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(20:4)	GBM_FEATURE:54f5318e7737fe45	True	CE(20:4)	KEGG:C02530	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(22:2)	GBM_FEATURE:fd8b583513abcc80	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+CE(22:3)	GBM_FEATURE:8d642951c9e3d17f	True	CE(22:3)	NAME:CE(22:3)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(22:4)	GBM_FEATURE:c20870feeee1ecc6	True	CE(22:4)	KEGG:C02530	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(22:5)	GBM_FEATURE:04c96d3c5692fd81	True	CE(22:5)	HMDB:HMDB10374	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(22:6)	GBM_FEATURE:27c40439ba8f9dca	True	CE(22:6)	KEGG:C02530	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CE(24:1)	GBM_FEATURE:99220877c8a00b9c	False	NA	NA	NA	NOT_EVALUABLE	not_retained_in_both_tissue_filters
+Cer(d16:1/0:0)	GBM_FEATURE:5c162c0804228dc9	True	Cer(d16:1/0:0)	NAME:Cer(d16:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:0/0:0)	GBM_FEATURE:63cbaa9714d19a57	True	Cer(d18:0/0:0)	NAME:Cer(d18:0/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/0:0)	GBM_FEATURE:03048876a3f83b5a	True	Cer(d18:1/0:0)	NAME:Cer(d18:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(16:0/0:0/16:0)	GBM_FEATURE:4760f03fbb18a2a7	True	DG(16:0/0:0/16:0)	HMDB:HMDB56009	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(16:0/18:0/0:0)	GBM_FEATURE:32848781989f620b	True	DG(16:0/18:0/0:0)	KEGG:C00165	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(16:0/18:1/0:0)	GBM_FEATURE:b7439e56b4ec1587	True	DG(16:0/18:1/0:0)	KEGG:C00165	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+palmitoyl-linoleoyl-glycerol (16:0/18:2) [1]	GBM_FEATURE:d3f9c7423db5d276	True	palmitoyl-linoleoyl-glycerol (16:0/18:2) [1]	HMDB:HMDB07103	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(16:0/20:3/0:0)	GBM_FEATURE:0cf7c2997d885ab7	True	DG(16:0/20:3/0:0)	HMDB:HMDB07110	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+palmitoyl-arachidonoyl-glycerol (16:0/20:4) [1]	GBM_FEATURE:d4cec206c1c55c1f	True	palmitoyl-arachidonoyl-glycerol (16:0/20:4) [1]	HMDB:HMDB07112	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(16:0/22:4/0:0)	GBM_FEATURE:40943e029b27885f	True	DG(16:0/22:4/0:0)	HMDB:HMDB07118	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:0/18:1/0:0)	GBM_FEATURE:ca94937bf8058bca	True	DG(18:0/18:1/0:0)	HMDB:HMDB07159	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:0/18:2/0:0)	GBM_FEATURE:c5248369ce9adace	True	DG(18:0/18:2/0:0)	KEGG:C00165	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:0/20:3/0:0)_A	GBM_FEATURE:510ac8a3ea43c483	True	DG(18:0/20:3/0:0)_A	NAME:DG(18:0/20:3/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:0/20:3/0:0)_B	GBM_FEATURE:1cf4932d9ccc21d4	True	DG(18:0/20:3/0:0)_B	NAME:DG(18:0/20:3/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:0/20:4/0:0)	GBM_FEATURE:fad850fb102f3c08	True	DG(18:0/20:4/0:0)	KEGG:C00165	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:0/22:4/0:0)	GBM_FEATURE:16f25f6bfd3f555f	True	DG(18:0/22:4/0:0)	HMDB:HMDB07176	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:1/0:0/18:1)	GBM_FEATURE:c50a3000aeae3995	True	DG(18:1/0:0/18:1)	HMDB:HMDB56177	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:1/18:2/0:0)	GBM_FEATURE:38c0a8fd832bbce8	True	DG(18:1/18:2/0:0)	HMDB:HMDB07190	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+DG(18:1/26:1)	GBM_FEATURE:eb7aa01acda60d0a	True	DG(18:1/26:1)	HMDB:HMDB07638	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/18:0)	GBM_FEATURE:ae1380309387cf24	True	HexCer(d18:1/18:0)	NAME:HexCer(d18:1/18:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/18:1)	GBM_FEATURE:962bd4add66df85c	True	HexCer(d18:1/18:1)	NAME:HexCer(d18:1/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/22:1)	GBM_FEATURE:2eb6aa2ed3a14d23	True	HexCer(d18:1/22:1)	NAME:HexCer(d18:1/22:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/23:0)	GBM_FEATURE:c32bc1568247f3c2	True	HexCer(d18:1/23:0)	NAME:HexCer(d18:1/23:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/23:1)	GBM_FEATURE:68377d3f59cc05b6	True	HexCer(d18:1/23:1)	NAME:HexCer(d18:1/23:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/24:0)	GBM_FEATURE:b8bd411ad1476786	True	HexCer(d18:1/24:0)	NAME:HexCer(d18:1/24:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/24:1)_A	GBM_FEATURE:fe7e75a60863e472	True	HexCer(d18:1/24:1)_A	NAME:HexCer(d18:1/24:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/24:1)_B	GBM_FEATURE:4f11afa8ace49aec	True	HexCer(d18:1/24:1)_B	NAME:HexCer(d18:1/24:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/24:1)_C	GBM_FEATURE:2f9c26fcb0056c1d	True	HexCer(d18:1/24:1)_C	NAME:HexCer(d18:1/24:1)_C	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/26:0)	GBM_FEATURE:7d49b84f34551dc2	True	HexCer(d18:1/26:0)	NAME:HexCer(d18:1/26:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/26:1)_A	GBM_FEATURE:bf691b754032e383	True	HexCer(d18:1/26:1)_A	NAME:HexCer(d18:1/26:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+HexCer(d18:1/26:1)_B	GBM_FEATURE:efd07aea034ccd03	True	HexCer(d18:1/26:1)_B	NAME:HexCer(d18:1/26:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+LacCer(d18:1/24:1)	GBM_FEATURE:b035459af22f5f01	True	LacCer(d18:1/24:1)	KEGG:C01290	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/14:0)_A	GBM_FEATURE:9146a48a9b10812a	True	PC(0:0/14:0)_A	NAME:PC(0:0/14:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/14:0)_B	GBM_FEATURE:3765bc542a7de383	True	PC(0:0/14:0)_B	NAME:PC(0:0/14:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/16:0)_A	GBM_FEATURE:c7e57de854d39334	True	PC(0:0/16:0)_A	NAME:PC(0:0/16:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/16:0)_B	GBM_FEATURE:67eea1557893b90d	True	PC(0:0/16:0)_B	NAME:PC(0:0/16:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/18:0)_A	GBM_FEATURE:1081ffc49739828e	True	PC(0:0/18:0)_A	NAME:PC(0:0/18:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/18:0)_B	GBM_FEATURE:d55d70e9862ceb2a	True	PC(0:0/18:0)_B	NAME:PC(0:0/18:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/18:1)_A	GBM_FEATURE:a24923defd74a116	True	PC(0:0/18:1)_A	NAME:PC(0:0/18:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/18:1)_B	GBM_FEATURE:3f313e0fb801ba8c	True	PC(0:0/18:1)_B	NAME:PC(0:0/18:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/20:4)_A	GBM_FEATURE:14d11b39256f5f1d	True	PC(0:0/20:4)_A	NAME:PC(0:0/20:4)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(0:0/20:4)_B	GBM_FEATURE:68670ba21bd6b5a6	True	PC(0:0/20:4)_B	NAME:PC(0:0/20:4)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(14:0/14:0)	GBM_FEATURE:8dbcac70e4037341	True	PC(14:0/14:0)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(14:0/15:0)	GBM_FEATURE:11b22232062f65be	True	PC(14:0/15:0)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-myristoyl-2-palmitoyl-GPC (14:0/16:0)	GBM_FEATURE:2af7b21f369df6a4	True	1-myristoyl-2-palmitoyl-GPC (14:0/16:0)	HMDB:HMDB07869	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(14:0/16:1)_A	GBM_FEATURE:af8ae85638a3ac83	True	PC(14:0/16:1)_A	NAME:PC(14:0/16:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(14:0/16:1)_B	GBM_FEATURE:976df9e8ea6f6670	True	PC(14:0/16:1)_B	NAME:PC(14:0/16:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(14:0/16:1)_C	GBM_FEATURE:d0148435cf0d6da7	True	PC(14:0/16:1)_C	NAME:PC(14:0/16:1)_C	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)	GBM_FEATURE:f87a7b93589f4215	True	1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)	HMDB:HMDB07883	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(14:0/22:6)	GBM_FEATURE:aa7648174386143b	True	PC(14:0/22:6)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(14:1/16:0)	GBM_FEATURE:9f085519e131fff3	True	PC(14:1/16:0)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(15:0/16:0)_A	GBM_FEATURE:6b11cc8d3b05d430	True	PC(15:0/16:0)_A	NAME:PC(15:0/16:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(15:0/16:0)_B	GBM_FEATURE:64f1df67280688ef	True	PC(15:0/16:0)_B	NAME:PC(15:0/16:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(15:0/16:1)_A	GBM_FEATURE:8a9a3b22ed5eadd3	True	PC(15:0/16:1)_A	NAME:PC(15:0/16:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(15:0/16:1)_B	GBM_FEATURE:9aa824a58f96cf8d	True	PC(15:0/16:1)_B	NAME:PC(15:0/16:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(15:0/20:4)	GBM_FEATURE:eaae41e0e52dfba2	True	PC(15:0/20:4)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(15:0/22:6)	GBM_FEATURE:6bef29f95e898c19	True	PC(15:0/22:6)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/16:0)_A	GBM_FEATURE:5232366bacb42cc0	True	PC(16:0/16:0)_A	NAME:PC(16:0/16:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/16:0)_B	GBM_FEATURE:ea54e2bab7ca345a	True	PC(16:0/16:0)_B	NAME:PC(16:0/16:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/16:1)_A;PC(14:0/18:1)	GBM_FEATURE:9ce009c7d03044db	True	PC(16:0/16:1)_A;PC(14:0/18:1)	NAME:PC(16:0/16:1)_A;PC(14:0/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/16:1)_B	GBM_FEATURE:f849ac048a0435c2	True	PC(16:0/16:1)_B	NAME:PC(16:0/16:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/16:1)_C	GBM_FEATURE:3840eeb96b95afb3	True	PC(16:0/16:1)_C	NAME:PC(16:0/16:1)_C	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/17:0)	GBM_FEATURE:bcfaf74edfe2e872	True	PC(16:0/17:0)	NAME:PC(16:0/17:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/17:1);PC(15:0/18:1)	GBM_FEATURE:b2e65c84178348b8	True	PC(16:0/17:1);PC(15:0/18:1)	NAME:PC(16:0/17:1);PC(15:0/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-palmitoyl-2-stearoyl-GPC (16:0/18:0)	GBM_FEATURE:4543c8ca47f9230b	True	1-palmitoyl-2-stearoyl-GPC (16:0/18:0)	KEGG:C03889	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/18:1)	GBM_FEATURE:00c9cd7942b33cc9	True	PC(16:0/18:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/18:2)_A	GBM_FEATURE:ea7feb7138704bd7	True	PC(16:0/18:2)_A	NAME:PC(16:0/18:2)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/18:2)_B	GBM_FEATURE:2bd58e0f79a7018c	True	PC(16:0/18:2)_B	NAME:PC(16:0/18:2)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/18:3)_A;PC(16:1/18:2)_B	GBM_FEATURE:050298d4b7c11dbf	True	PC(16:0/18:3)_A;PC(16:1/18:2)_B	NAME:PC(16:0/18:3)_A;PC(16:1/18:2)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/18:3)_B	GBM_FEATURE:c9b717f313b10307	True	PC(16:0/18:3)_B	NAME:PC(16:0/18:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/20:3)_A	GBM_FEATURE:08cd8a975af47d51	True	PC(16:0/20:3)_A	NAME:PC(16:0/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/20:3)_B	GBM_FEATURE:c57efc091648d531	True	PC(16:0/20:3)_B	NAME:PC(16:0/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6)	GBM_FEATURE:1f8ae24ff51cf646	True	1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6)	HMDB:HMDB07982	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/20:5)	GBM_FEATURE:a92ac4a100777c1b	True	PC(16:0/20:5)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/22:1);PC(18:0/20:1)	GBM_FEATURE:84035457839cea60	True	PC(16:0/22:1);PC(18:0/20:1)	NAME:PC(16:0/22:1);PC(18:0/20:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/22:4)	GBM_FEATURE:b12277e53751928d	True	PC(16:0/22:4)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/22:5)	GBM_FEATURE:625043662f996d08	True	PC(16:0/22:5)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-palmitoyl-2-docosahexaenoyl-GPC (16:0/22:6)	GBM_FEATURE:dfc7f22d0952f1c3	True	1-palmitoyl-2-docosahexaenoyl-GPC (16:0/22:6)	HMDB:HMDB07991	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/24:0)	GBM_FEATURE:4b010b4541fd8753	True	PC(16:0/24:0)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/24:1)	GBM_FEATURE:6530d019e13f583a	True	PC(16:0/24:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/24:4)	GBM_FEATURE:43ab9a9fa957bc36	True	PC(16:0/24:4)	KEGG:C05439	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/26:0)	GBM_FEATURE:d4bcf83d3229d522	True	PC(16:0/26:0)	NAME:PC(16:0/26:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:0/26:1);PC(18:1/24:0)	GBM_FEATURE:d5b968cb5851a2de	True	PC(16:0/26:1);PC(18:1/24:0)	NAME:PC(16:0/26:1);PC(18:1/24:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/0:0)_A	GBM_FEATURE:c14c6806090ecce8	True	PC(16:1/0:0)_A	NAME:PC(16:1/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/0:0)_B	GBM_FEATURE:d8904c4d9e06f1c1	True	PC(16:1/0:0)_B	NAME:PC(16:1/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/16:1)_A	GBM_FEATURE:eb7a26814bdf8a1d	True	PC(16:1/16:1)_A	NAME:PC(16:1/16:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/16:1)_B;PC(14:0/18:2)	GBM_FEATURE:6093b2f2c5e7e47b	True	PC(16:1/16:1)_B;PC(14:0/18:2)	NAME:PC(16:1/16:1)_B;PC(14:0/18:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/17:1);PC(15:0/18:2)	GBM_FEATURE:3b3ac969e82c75dd	True	PC(16:1/17:1);PC(15:0/18:2)	NAME:PC(16:1/17:1);PC(15:0/18:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/18:1)	GBM_FEATURE:7eaf45b893ef0f72	True	PC(16:1/18:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/18:2)_A	GBM_FEATURE:bbc56bcf92660b80	True	PC(16:1/18:2)_A	NAME:PC(16:1/18:2)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/20:4)_A	GBM_FEATURE:931feb674aa414ee	True	PC(16:1/20:4)_A	NAME:PC(16:1/20:4)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/22:4)	GBM_FEATURE:3851b23b7d0b9c3b	True	PC(16:1/22:4)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/22:6)_A	GBM_FEATURE:cda5d2d3d9ea16aa	True	PC(16:1/22:6)_A	NAME:PC(16:1/22:6)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:1/22:6)_B	GBM_FEATURE:484d6389537b5357	True	PC(16:1/22:6)_B	NAME:PC(16:1/22:6)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(16:2/16:0)	GBM_FEATURE:16e85cd3bc22366e	True	PC(16:2/16:0)	NAME:PC(16:2/16:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(17:0/0:0)_A	GBM_FEATURE:4af6650bbb04a9a5	True	PC(17:0/0:0)_A	NAME:PC(17:0/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(17:0/0:0)_B	GBM_FEATURE:87d9550b08ed7977	True	PC(17:0/0:0)_B	NAME:PC(17:0/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(17:0/18:1)	GBM_FEATURE:8c53fd6c3586aa62	True	PC(17:0/18:1)	NAME:PC(17:0/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(17:0/20:4)	GBM_FEATURE:004efedea725a1b9	True	PC(17:0/20:4)	NAME:PC(17:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(17:0/22:6)	GBM_FEATURE:c6ea73b17ddbccea	True	PC(17:0/22:6)	NAME:PC(17:0/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(17:1/0:0)	GBM_FEATURE:1f038b2e25619ba9	True	PC(17:1/0:0)	NAME:PC(17:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(17:1/18:1)	GBM_FEATURE:883a96be4d03b842	True	PC(17:1/18:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(17:1/20:4)	GBM_FEATURE:e92bb7d771634468	True	PC(17:1/20:4)	NAME:PC(17:1/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:0/18:1)	GBM_FEATURE:2831ee10805ee62d	True	PC(18:0/18:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-stearoyl-2-linoleoyl-GPC (18:0/18:2)	GBM_FEATURE:bdd7a0b92e5693db	True	1-stearoyl-2-linoleoyl-GPC (18:0/18:2)	HMDB:HMDB08039	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:0/20:3)_A	GBM_FEATURE:022c7673faf00f53	True	PC(18:0/20:3)_A	NAME:PC(18:0/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:0/20:3)_B	GBM_FEATURE:9c36353cb703e0bd	True	PC(18:0/20:3)_B	NAME:PC(18:0/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)	GBM_FEATURE:60743f9a5e158809	True	1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)	HMDB:HMDB08048	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:0/22:4)	GBM_FEATURE:926ec86efa24031d	True	PC(18:0/22:4)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:0/22:5)	GBM_FEATURE:3ab75b182dbd0881	True	PC(18:0/22:5)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-stearoyl-2-docosahexaenoyl-GPC (18:0/22:6)	GBM_FEATURE:80eb32c3400cfe48	True	1-stearoyl-2-docosahexaenoyl-GPC (18:0/22:6)	HMDB:HMDB08057	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/18:1)	GBM_FEATURE:930996b243842d03	True	PC(18:1/18:1)	HMDB:HMDB62690	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/18:2)	GBM_FEATURE:d27acecf31511609	True	PC(18:1/18:2)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/19:1)	GBM_FEATURE:d70a35ffb4dd6e6e	True	PC(18:1/19:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/20:3)	GBM_FEATURE:74d14359a693bc3e	True	PC(18:1/20:3)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/20:4)	GBM_FEATURE:dd0016190d563098	True	PC(18:1/20:4)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/22:5)	GBM_FEATURE:44ee968737189ee9	True	PC(18:1/22:5)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/22:6)	GBM_FEATURE:fadd7b8677cedaa6	True	PC(18:1/22:6)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/24:0);PC(16:0/26:1)	GBM_FEATURE:38bfafc6ab7e4a93	True	PC(18:1/24:0);PC(16:0/26:1)	NAME:PC(18:1/24:0);PC(16:0/26:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/24:1);PC(16:1/26:1)	GBM_FEATURE:4a7e727fc9d8ab52	True	PC(18:1/24:1);PC(16:1/26:1)	NAME:PC(18:1/24:1);PC(16:1/26:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/26:0)	GBM_FEATURE:98b585743a0a55e7	True	PC(18:1/26:0)	NAME:PC(18:1/26:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/26:1)	GBM_FEATURE:a7f618b5634a682e	True	PC(18:1/26:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/28:0)	GBM_FEATURE:10ace3e4ab35f501	True	PC(18:1/28:0)	NAME:PC(18:1/28:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/28:1)	GBM_FEATURE:3de131a5b78a6b2c	True	PC(18:1/28:1)	NAME:PC(18:1/28:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/30:1)	GBM_FEATURE:3a3dc3ef6aed0525	True	PC(18:1/30:1)	NAME:PC(18:1/30:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/30:2)	GBM_FEATURE:329b6816f5802feb	True	PC(18:1/30:2)	NAME:PC(18:1/30:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:1/36:6)	GBM_FEATURE:81a93b772de6f996	True	PC(18:1/36:6)	NAME:PC(18:1/36:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:2/0:0)_A	GBM_FEATURE:387d580112634c8b	True	PC(18:2/0:0)_A	NAME:PC(18:2/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:2/0:0)_B	GBM_FEATURE:a59f3c993865a5ca	True	PC(18:2/0:0)_B	NAME:PC(18:2/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(18:2/18:2);PC(16:1/20:3)	GBM_FEATURE:142ea0199b95daf6	True	PC(18:2/18:2);PC(16:1/20:3)	NAME:PC(18:2/18:2);PC(16:1/20:3)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)	GBM_FEATURE:7c8cce5f10b0173f	True	1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)	HMDB:HMDB08147	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(19:0/0:0)	GBM_FEATURE:5bf3701937af4be0	True	PC(19:0/0:0)	NAME:PC(19:0/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(19:1/0:0)	GBM_FEATURE:5e36c0f4c5622ae6	True	PC(19:1/0:0)	NAME:PC(19:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(19:1/20:4)	GBM_FEATURE:9a6d951c5b80ad34	True	PC(19:1/20:4)	NAME:PC(19:1/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-arachidoylglycerophosphocholine	GBM_FEATURE:86d75bcd712c1852	True	1-arachidoylglycerophosphocholine	HMDB:HMDB10390	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:1/0:0)_A	GBM_FEATURE:2a70db932d8be4f2	True	PC(20:1/0:0)_A	NAME:PC(20:1/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:1/0:0)_B	GBM_FEATURE:22c8015b19446749	True	PC(20:1/0:0)_B	NAME:PC(20:1/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:2/0:0)	GBM_FEATURE:42cb2cbf80244598	True	PC(20:2/0:0)	NAME:PC(20:2/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:2/20:4)	GBM_FEATURE:88c9e948e5bd58f1	True	PC(20:2/20:4)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:3/0:0)_A	GBM_FEATURE:79432ba875c535a8	True	PC(20:3/0:0)_A	NAME:PC(20:3/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:3/0:0)_B	GBM_FEATURE:e27c9c40647a8146	True	PC(20:3/0:0)_B	NAME:PC(20:3/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:3/20:4)	GBM_FEATURE:25f57689a68bea94	True	PC(20:3/20:4)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:3/22:6)	GBM_FEATURE:9f18a2c7ec8635e8	True	PC(20:3/22:6)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:3/26:1)	GBM_FEATURE:c5309782e3d7fd7f	True	PC(20:3/26:1)	NAME:PC(20:3/26:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/20:4);PC(18:2/22:6)	GBM_FEATURE:9b8778f2ec7c2884	True	PC(20:4/20:4);PC(18:2/22:6)	NAME:PC(20:4/20:4);PC(18:2/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/22:4)	GBM_FEATURE:22d934de3f9c9b8a	True	PC(20:4/22:4)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/22:6)	GBM_FEATURE:b3236075affff33b	True	PC(20:4/22:6)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/24:1)	GBM_FEATURE:feba66ac9fd94f31	True	PC(20:4/24:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/26:1)	GBM_FEATURE:adee739f888a7882	True	PC(20:4/26:1)	NAME:PC(20:4/26:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/28:1)	GBM_FEATURE:1cf8eb29aa966885	True	PC(20:4/28:1)	NAME:PC(20:4/28:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/36:4)	GBM_FEATURE:208297f5f065ce7e	True	PC(20:4/36:4)	NAME:PC(20:4/36:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/36:5)	GBM_FEATURE:6f8b300f80474557	True	PC(20:4/36:5)	NAME:PC(20:4/36:5)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:4/P-18:1)	GBM_FEATURE:00c49ce8131d7b4a	True	PC(20:4/P-18:1)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(20:5/0:0)	GBM_FEATURE:3bce21e6a7c0dec0	True	PC(20:5/0:0)	KEGG:C04230	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(22:0/0:0)	GBM_FEATURE:87f9d26d4e460286	True	PC(22:0/0:0)	KEGG:C04230	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(22:1/0:0)	GBM_FEATURE:6c152eb5d4c209e9	True	PC(22:1/0:0)	NAME:PC(22:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(22:4/0:0)_A	GBM_FEATURE:7d7ad3b7aeb79d6e	True	PC(22:4/0:0)_A	NAME:PC(22:4/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(22:4/0:0)_B	GBM_FEATURE:626829f1e06946d0	True	PC(22:4/0:0)_B	NAME:PC(22:4/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(22:4/22:6)	GBM_FEATURE:71688d5cce4abf69	True	PC(22:4/22:6)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(22:6/0:0)	GBM_FEATURE:100959c541c4d9a1	True	PC(22:6/0:0)	KEGG:C04230	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(22:6/22:6)	GBM_FEATURE:d7926df2602d07d8	True	PC(22:6/22:6)	KEGG:C00157	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(22:6/36:4)	GBM_FEATURE:25c9817ab0d5c8ba	True	PC(22:6/36:4)	NAME:PC(22:6/36:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(24:0/0:0)	GBM_FEATURE:00d0bc3e8dfb927f	True	PC(24:0/0:0)	KEGG:C04230	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(26:0/0:0)	GBM_FEATURE:cd2e380ba475d0e8	True	PC(26:0/0:0)	NAME:PC(26:0/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(26:1/0:0)_A	GBM_FEATURE:bd158b3ee654e568	True	PC(26:1/0:0)_A	NAME:PC(26:1/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(26:1/0:0)_B	GBM_FEATURE:93c20447d5fe6cb4	True	PC(26:1/0:0)_B	NAME:PC(26:1/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-14:0/16:0);PC(O-16:0/14:0)	GBM_FEATURE:1e0ad55afdb69f62	True	PC(O-14:0/16:0);PC(O-16:0/14:0)	NAME:PC(O-14:0/16:0);PC(O-16:0/14:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-16:0/0:0)	GBM_FEATURE:0809fbde1759b99b	True	PC(O-16:0/0:0)	NAME:PC(O-16:0/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-16:0/16:0)	GBM_FEATURE:ce0e3e1df4cc8834	True	PC(O-16:0/16:0)	NAME:PC(O-16:0/16:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-16:0/16:1)_A	GBM_FEATURE:204b491e77cc941d	True	PC(O-16:0/16:1)_A	NAME:PC(O-16:0/16:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-16:0/16:1)_B	GBM_FEATURE:a2b243c5fe6ea125	True	PC(O-16:0/16:1)_B	NAME:PC(O-16:0/16:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-16:0/18:1);PC(P-18:0/16:0)	GBM_FEATURE:5e8f02d22e9e6f44	True	PC(O-16:0/18:1);PC(P-18:0/16:0)	NAME:PC(O-16:0/18:1);PC(P-18:0/16:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-16:0/18:2)	GBM_FEATURE:dd2b9924e0ac972f	True	PC(O-16:0/18:2)	NAME:PC(O-16:0/18:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-16:0/20:4)	GBM_FEATURE:6492701a7a81e03f	True	PC(O-16:0/20:4)	NAME:PC(O-16:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-18:0/0:0)	GBM_FEATURE:461abc4dd6bfd3f4	True	PC(O-18:0/0:0)	KEGG:C04317	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-18:0/16:0)	GBM_FEATURE:06cab9b3ae97007a	True	PC(O-18:0/16:0)	NAME:PC(O-18:0/16:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-18:0/18:1)	GBM_FEATURE:353bbe7635cd4715	True	PC(O-18:0/18:1)	NAME:PC(O-18:0/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-18:0/22:4)	GBM_FEATURE:93b63a0f38d0920f	True	PC(O-18:0/22:4)	NAME:PC(O-18:0/22:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-18:1/0:0)	GBM_FEATURE:d022da5d0febf26a	True	PC(O-18:1/0:0)	NAME:PC(O-18:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(O-18:1/20:4)	GBM_FEATURE:ca2309b95392b0e0	True	PC(O-18:1/20:4)	HMDB:HMDB13432	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)	GBM_FEATURE:2300bb4a66745d00	True	1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)	HMDB:HMDB11206	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)	GBM_FEATURE:e4898dd6fa827c89	True	1-(1-enyl-palmitoyl)-2-palmitoleoyl-GPC (P-16:0/16:1)	HMDB:HMDB11207	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(P-16:0/18:1)	GBM_FEATURE:9d739907a10579c8	True	PC(P-16:0/18:1)	HMDB:HMDB11209	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)	GBM_FEATURE:0a5810e9680acba1	True	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)	HMDB:HMDB11220	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(P-18:0/20:4)	GBM_FEATURE:4ed6f5cc776b2fab	True	PC(P-18:0/20:4)	HMDB:HMDB11253	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(P-18:0/22:6)_A	GBM_FEATURE:968f19d3eacc80c0	True	PC(P-18:0/22:6)_A	NAME:PC(P-18:0/22:6)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(P-18:0/22:6)_B	GBM_FEATURE:70ab8f2eba48464e	True	PC(P-18:0/22:6)_B	NAME:PC(P-18:0/22:6)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PC(P-18:1/18:1)	GBM_FEATURE:60ffd7cf01750fd4	True	PC(P-18:1/18:1)	HMDB:HMDB11275	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d16:1/16:0);SM(d18:1/14:0)	GBM_FEATURE:071d789feb1dd9cb	True	SM(d16:1/16:0);SM(d18:1/14:0)	NAME:SM(d16:1/16:0);SM(d18:1/14:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d17:1/16:0)	GBM_FEATURE:75c800ef865aa4d8	True	SM(d17:1/16:0)	NAME:SM(d17:1/16:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d17:1/24:1);SM(d18:1/23:1)	GBM_FEATURE:8e738968ebd330c3	True	SM(d17:1/24:1);SM(d18:1/23:1)	NAME:SM(d17:1/24:1);SM(d18:1/23:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+sphingomyelin (d18:0/18:0, d19:0/17:0)	GBM_FEATURE:a48c6ba4a7173acb	True	sphingomyelin (d18:0/18:0, d19:0/17:0)	HMDB:HMDB12087	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:0/20:0)	GBM_FEATURE:02dded84452eceb3	True	SM(d18:0/20:0)	KEGG:C00550	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:0/24:1)	GBM_FEATURE:84fc79fefe51e37c	True	SM(d18:0/24:1)	KEGG:C00550	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/16:0)_A	GBM_FEATURE:cf702e40e728c6e2	True	SM(d18:1/16:0)_A	NAME:SM(d18:1/16:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/16:0)_B	GBM_FEATURE:161915e420b4b40f	True	SM(d18:1/16:0)_B	NAME:SM(d18:1/16:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+stearoyl sphingomyelin (d18:1/18:0)	GBM_FEATURE:701fbd6db3a92f54	True	stearoyl sphingomyelin (d18:1/18:0)	KEGG:C00550	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+sphingomyelin (d18:1/20:0, d16:1/22:0)	GBM_FEATURE:13137e730a7dabd8	True	sphingomyelin (d18:1/20:0, d16:1/22:0)	HMDB:HMDB12102	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+behenoyl sphingomyelin (d18:1/22:0)	GBM_FEATURE:300a32bd25010199	True	behenoyl sphingomyelin (d18:1/22:0)	HMDB:HMDB12103	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/22:1)	GBM_FEATURE:ceca07c67d261485	True	SM(d18:1/22:1)	NAME:SM(d18:1/22:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+tricosanoyl sphingomyelin (d18:1/23:0)	GBM_FEATURE:88f0f1442ba231d9	True	tricosanoyl sphingomyelin (d18:1/23:0)	HMDB:HMDB12105	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/24:0)	GBM_FEATURE:684bb2a9eedbbf20	True	SM(d18:1/24:0)	HMDB:HMDB11697	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+sphingomyelin (d18:1/24:1, d18:2/24:0)	GBM_FEATURE:7cd48c5cbd8542a8	True	sphingomyelin (d18:1/24:1, d18:2/24:0)	HMDB:HMDB12107	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/24:2)	GBM_FEATURE:406ff4e60d606e4a	True	SM(d18:1/24:2)	NAME:SM(d18:1/24:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/25:0)	GBM_FEATURE:3b4c63529054a671	True	SM(d18:1/25:0)	NAME:SM(d18:1/25:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/25:1)	GBM_FEATURE:daad4594d1113a56	True	SM(d18:1/25:1)	NAME:SM(d18:1/25:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/26:0)	GBM_FEATURE:5b1efc88a9b1fff6	True	SM(d18:1/26:0)	KEGG:C00550	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:1/26:1)	GBM_FEATURE:7a56b7726e63728a	True	SM(d18:1/26:1)	KEGG:C00550	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:2/14:0)	GBM_FEATURE:b72f8ca6598772e7	True	SM(d18:2/14:0)	NAME:SM(d18:2/14:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:2/16:0)_A	GBM_FEATURE:a46a945f71808602	True	SM(d18:2/16:0)_A	NAME:SM(d18:2/16:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:2/16:0)_B	GBM_FEATURE:be93af5fd65bb968	True	SM(d18:2/16:0)_B	NAME:SM(d18:2/16:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:2/18:0)_A	GBM_FEATURE:e1234fdeb9e281dd	True	SM(d18:2/18:0)_A	NAME:SM(d18:2/18:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:2/18:0)_B	GBM_FEATURE:a083afddd286af81	True	SM(d18:2/18:0)_B	NAME:SM(d18:2/18:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:2/22:0)	GBM_FEATURE:2db04272f79053cb	True	SM(d18:2/22:0)	NAME:SM(d18:2/22:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d18:2/23:0)	GBM_FEATURE:829db5eadbadcc57	True	SM(d18:2/23:0)	NAME:SM(d18:2/23:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d34:0)	GBM_FEATURE:ebee0d002c91159c	True	SM(d34:0)	NAME:SM(d34:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d42:0)	GBM_FEATURE:e0d3ae9a5b4438fb	True	SM(d42:0)	NAME:SM(d42:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+SM(d43:3);SM(d18:2/25:1)	GBM_FEATURE:a6890104111333bf	True	SM(d43:3);SM(d18:2/25:1)	NAME:SM(d43:3);SM(d18:2/25:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(10:0/16:0/20:4)	GBM_FEATURE:8e0a390762327aea	True	TG(10:0/16:0/20:4)	NAME:TG(10:0/16:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(12:0/18:2/22:6)	GBM_FEATURE:076bfe9a0130f83f	True	TG(12:0/18:2/22:6)	NAME:TG(12:0/18:2/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(14:0/16:0/16:0)	GBM_FEATURE:dcabf492a7b2cacb	True	TG(14:0/16:0/16:0)	HMDB:HMDB42123	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(14:0/16:0/20:4)	GBM_FEATURE:97040615827bc135	True	TG(14:0/16:0/20:4)	HMDB:HMDB42140	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(14:0/18:1/18:1);TG(16:0/16:1/18:1)	GBM_FEATURE:b32f384c604b279e	True	TG(14:0/18:1/18:1);TG(16:0/16:1/18:1)	NAME:TG(14:0/18:1/18:1);TG(16:0/16:1/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(14:0/20:4/20:4);TG(14:0/18:2/22:6)	GBM_FEATURE:75e483c49448061c	True	TG(14:0/20:4/20:4);TG(14:0/18:2/22:6)	NAME:TG(14:0/20:4/20:4);TG(14:0/18:2/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(14:0/20:4/22:6)	GBM_FEATURE:99992c07f51dbfb7	True	TG(14:0/20:4/22:6)	HMDB:HMDB42659	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/16:0/16:0)	GBM_FEATURE:3a23510ff25deb6b	True	TG(16:0/16:0/16:0)	HMDB:HMDB05356	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/16:0/17:0)	GBM_FEATURE:69208002aaa2a81e	True	TG(16:0/16:0/17:0)	HMDB:HMDB0104223	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/16:0/18:0)	GBM_FEATURE:eabb1b0f83ab50cb	True	TG(16:0/16:0/18:0)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/16:0/18:1)	GBM_FEATURE:a7940ed46dc0cb77	True	TG(16:0/16:0/18:1)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:0/18:1)	GBM_FEATURE:e4541ea5bb7f9dc0	True	TG(16:0/18:0/18:1)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:0/18:2);TG(16:0/18:1/18:1)	GBM_FEATURE:77dba9ffef950086	True	TG(16:0/18:0/18:2);TG(16:0/18:1/18:1)	NAME:TG(16:0/18:0/18:2);TG(16:0/18:1/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:0/20:4)	GBM_FEATURE:997a87d97602ca7d	True	TG(16:0/18:0/20:4)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:0/22:6)	GBM_FEATURE:9864a8deeda13a96	True	TG(16:0/18:0/22:6)	HMDB:HMDB43939	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:1/20:4)	GBM_FEATURE:d7214a5eaf526026	True	TG(16:0/18:1/20:4)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:1/22:4)	GBM_FEATURE:3002baa6ea5dbc45	True	TG(16:0/18:1/22:4)	HMDB:HMDB44100	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:1/22:5);TG(18:1/18:1/20:4)	GBM_FEATURE:a445e5265202b096	True	TG(16:0/18:1/22:5);TG(18:1/18:1/20:4)	NAME:TG(16:0/18:1/22:5);TG(18:1/18:1/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:1/23:0)	GBM_FEATURE:f9d8034f17477793	True	TG(16:0/18:1/23:0)	NAME:TG(16:0/18:1/23:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:1/23:1)	GBM_FEATURE:21bdb2131ff980d9	True	TG(16:0/18:1/23:1)	NAME:TG(16:0/18:1/23:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:2/18:2)	GBM_FEATURE:10a377657644e339	True	TG(16:0/18:2/18:2)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/18:2/20:4);TG(16:1/18:1/20:4)	GBM_FEATURE:34185e60ec6dd92b	True	TG(16:0/18:2/20:4);TG(16:1/18:1/20:4)	NAME:TG(16:0/18:2/20:4);TG(16:1/18:1/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/20:1/22:6);TG(18:0/18:1/22:6)	GBM_FEATURE:2bca403d0e61f5d4	True	TG(16:0/20:1/22:6);TG(18:0/18:1/22:6)	NAME:TG(16:0/20:1/22:6);TG(18:0/18:1/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/20:4/22:6)	GBM_FEATURE:6af61c6a749d6c53	True	TG(16:0/20:4/22:6)	HMDB:HMDB44387	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/20:5/22:6);TG(16:1/20:4/22:6)	GBM_FEATURE:a37179005dd62d1c	True	TG(16:0/20:5/22:6);TG(16:1/20:4/22:6)	NAME:TG(16:0/20:5/22:6);TG(16:1/20:4/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:0/22:6/22:6)	GBM_FEATURE:ac5ffdadec94c040	True	TG(16:0/22:6/22:6)	HMDB:HMDB44639	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:1/18:1/18:1);TG(16:0/18:1/18:2)	GBM_FEATURE:5e91d023b9f82d51	True	TG(16:1/18:1/18:1);TG(16:0/18:1/18:2)	NAME:TG(16:1/18:1/18:1);TG(16:0/18:1/18:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:1/18:2/18:2)	GBM_FEATURE:8e189519f9a4c4e2	True	TG(16:1/18:2/18:2)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:1/18:2/20:4)	GBM_FEATURE:2c131d6921f735b2	True	TG(16:1/18:2/20:4)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(16:1/20:5/22:6)	GBM_FEATURE:329d6f4ce669db95	True	TG(16:1/20:5/22:6)	HMDB:HMDB49005	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(17:1/18:1/18:2)	GBM_FEATURE:73b7be1d59bf495c	True	TG(17:1/18:1/18:2)	NAME:TG(17:1/18:1/18:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:0/18:1/18:1);TG(16:0/18:1/20:1)	GBM_FEATURE:b566924dc9112a4f	True	TG(18:0/18:1/18:1);TG(16:0/18:1/20:1)	NAME:TG(18:0/18:1/18:1);TG(16:0/18:1/20:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:0/18:1/22:4)	GBM_FEATURE:39d445e86c1a6670	True	TG(18:0/18:1/22:4)	HMDB:HMDB44929	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:0/18:1/22:5);TG(18:0/18:0/22:6)	GBM_FEATURE:b8fff74c3386c871	True	TG(18:0/18:1/22:5);TG(18:0/18:0/22:6)	NAME:TG(18:0/18:1/22:5);TG(18:0/18:0/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:0/20:4/22:4)	GBM_FEATURE:39e43760de797760	True	TG(18:0/20:4/22:4)	HMDB:HMDB45199	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:0/20:4/22:6)	GBM_FEATURE:92ec4e5bd340e5ab	True	TG(18:0/20:4/22:6)	HMDB:HMDB45206	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:0/22:4/22:6)	GBM_FEATURE:bafbd3cf2d0a2167	True	TG(18:0/22:4/22:6)	HMDB:HMDB45260	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:0/22:6/22:6)	GBM_FEATURE:1edec349da30c5f7	True	TG(18:0/22:6/22:6)	HMDB:HMDB45449	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:1/18:1/22:4)	GBM_FEATURE:51c2f9641fee203b	True	TG(18:1/18:1/22:4)	HMDB:HMDB10467	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:1/18:1/25:0)	GBM_FEATURE:c90cb6644d09d652	True	TG(18:1/18:1/25:0)	NAME:TG(18:1/18:1/25:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:1/18:1/26:1)	GBM_FEATURE:6d7f3e7557547efa	True	TG(18:1/18:1/26:1)	NAME:TG(18:1/18:1/26:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:1/18:2/18:2)	GBM_FEATURE:a4f4e7b045e13723	True	TG(18:1/18:2/18:2)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:1/18:2/24:1)	GBM_FEATURE:c13c334f06ba3734	True	TG(18:1/18:2/24:1)	HMDB:HMDB49392	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:1/19:1/22:2)	GBM_FEATURE:2708a88c3382611a	True	TG(18:1/19:1/22:2)	NAME:TG(18:1/19:1/22:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:1/28:2/23:0)	GBM_FEATURE:4d98f0b879d4f541	True	TG(18:1/28:2/23:0)	NAME:TG(18:1/28:2/23:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:2/18:2/18:2)	GBM_FEATURE:2902ca204d5f7017	True	TG(18:2/18:2/18:2)	KEGG:C00422	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:2/18:2/18:3)	GBM_FEATURE:25eabce2cf5151d4	True	TG(18:2/18:2/18:3)	HMDB:HMDB10489	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:2/18:2/20:4);TG(16:0/18:2/22:6)	GBM_FEATURE:2668ae2e94a518e7	True	TG(18:2/18:2/20:4);TG(16:0/18:2/22:6)	NAME:TG(18:2/18:2/20:4);TG(16:0/18:2/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:2/20:4/20:4);TG(18:2/18:2/22:6)	GBM_FEATURE:bc06f806764034d7	True	TG(18:2/20:4/20:4);TG(18:2/18:2/22:6)	NAME:TG(18:2/20:4/20:4);TG(18:2/18:2/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:2/20:4/22:4)	GBM_FEATURE:b3b7dd24d22f4df6	True	TG(18:2/20:4/22:4)	HMDB:HMDB52687	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(18:2/22:6/22:6);TG(20:4/20:4/22:6)	GBM_FEATURE:8e72710ac1748438	True	TG(18:2/22:6/22:6);TG(20:4/20:4/22:6)	NAME:TG(18:2/22:6/22:6);TG(20:4/20:4/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(20:4/20:5/22:6)	GBM_FEATURE:d8c723b4315626bc	True	TG(20:4/20:5/22:6)	HMDB:HMDB54307	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(20:4/22:5/22:6)	GBM_FEATURE:62f1256d0119d01d	True	TG(20:4/22:5/22:6)	HMDB:HMDB54263	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(20:4/22:6/22:6)	GBM_FEATURE:9ff1ef1bf69455cc	True	TG(20:4/22:6/22:6)	HMDB:HMDB54329	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(44:1)	GBM_FEATURE:0b0674e719961643	True	TG(44:1)	HMDB:HMDB43834	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(46:1)	GBM_FEATURE:a85428d5aa543a68	True	TG(46:1)	HMDB:HMDB47746	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(46:2)	GBM_FEATURE:bfce28cb1a22ec82	True	TG(46:2)	HMDB:HMDB48391	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(48:1)	GBM_FEATURE:52678c670dd3a2ff	True	TG(48:1)	HMDB:HMDB48434	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(48:2)	GBM_FEATURE:8e3eae95623bf636	True	TG(48:2)	HMDB:HMDB48588	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(48:4)	GBM_FEATURE:d703004ae5953cfb	True	TG(48:4)	HMDB:HMDB48574	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(49:1)	GBM_FEATURE:b39d9a724d8600e7	True	TG(49:1)	HMDB:HMDB48456	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(49:2)	GBM_FEATURE:9b955df959ff7ac4	True	TG(49:2)	HMDB:HMDB48437	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(50:3)	GBM_FEATURE:48a456b0306eba68	True	TG(50:3)	HMDB:HMDB55154	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(51:1)	GBM_FEATURE:cefafaf9c28a57a6	True	TG(51:1)	HMDB:HMDB49740	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(51:2)	GBM_FEATURE:d98ced6377f67d4f	True	TG(51:2)	HMDB:HMDB52425	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(51:3)	GBM_FEATURE:5e1587e438465d87	True	TG(51:3)	HMDB:HMDB55161	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(52:0)	GBM_FEATURE:9dbe31227b76886d	True	TG(52:0)	HMDB:HMDB0110765	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(52:4)	GBM_FEATURE:f3af8b135cace636	True	TG(52:4)	HMDB:HMDB55540	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(52:5)	GBM_FEATURE:8a68764195e39275	True	TG(52:5)	HMDB:HMDB55688	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(52:6)	GBM_FEATURE:172f7ee76ab9643a	True	TG(52:6)	HMDB:HMDB55716	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(53:2)	GBM_FEATURE:4be58b55c42773ed	True	TG(53:2)	HMDB:HMDB43037	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(53:3)	GBM_FEATURE:45a067a353ca2eee	True	TG(53:3)	HMDB:HMDB53676	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(54:1)	GBM_FEATURE:2b98c0a5439571d3	True	TG(54:1)	HMDB:HMDB51424	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(54:3)	GBM_FEATURE:314de1627a50a93f	True	TG(54:3)	HMDB:HMDB55175	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(54:4)	GBM_FEATURE:a4606d49aeffb757	True	TG(54:4)	HMDB:HMDB55550	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(54:6)	GBM_FEATURE:123ac26779e6a30c	True	TG(54:6)	HMDB:HMDB55894	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(54:7)	GBM_FEATURE:3f62568e40d25f27	True	TG(54:7)	HMDB:HMDB55908	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(56:1)	GBM_FEATURE:a5d6aa7788a48f8a	True	TG(56:1)	HMDB:HMDB51932	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(56:3)	GBM_FEATURE:62f38e3e39282a37	True	TG(56:3)	HMDB:HMDB55182	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(56:5)	GBM_FEATURE:5e8d97a2d11d213d	True	TG(56:5)	HMDB:HMDB55812	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(56:7)	GBM_FEATURE:5a285ef708965be8	True	TG(56:7)	HMDB:HMDB55910	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(56:9)	GBM_FEATURE:4de486152d797a59	True	TG(56:9)	HMDB:HMDB55784	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(58:1)	GBM_FEATURE:a3c80a1cfe299e81	True	TG(58:1)	HMDB:HMDB51964	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(58:2)	GBM_FEATURE:e4a7f3f204c7268f	True	TG(58:2)	HMDB:HMDB54380	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(58:8)	GBM_FEATURE:f706377839a25660	True	TG(58:8)	HMDB:HMDB55924	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(58:9)	GBM_FEATURE:13c3f379b35dd8bb	True	TG(58:9)	HMDB:HMDB55940	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(59:1)	GBM_FEATURE:9f27a1f3b0ef32f7	True	TG(59:1)	HMDB:HMDB47034	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(60:1)	GBM_FEATURE:28e1290618515f5a	True	TG(60:1)	HMDB:HMDB51980	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(60:11)	GBM_FEATURE:6bcb96af34554d34	True	TG(60:11)	HMDB:HMDB55946	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(60:12)	GBM_FEATURE:c35e19f2bb48caaa	True	TG(60:12)	HMDB:HMDB55897	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(60:13)	GBM_FEATURE:894c39d622f672ad	True	TG(60:13)	HMDB:HMDB55757	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(60:2)	GBM_FEATURE:a2f5449b95141564	True	TG(60:2)	HMDB:HMDB54390	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(60:3)	GBM_FEATURE:89e9bc733be83278	True	TG(60:3)	HMDB:HMDB55196	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(60:4)	GBM_FEATURE:443b1501e9d6f037	True	TG(60:4)	HMDB:HMDB55565	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(60:9)	GBM_FEATURE:5ed673c74ddc70e6	True	TG(60:9)	HMDB:HMDB55930	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(62:13)	GBM_FEATURE:ed5e56bb076da0b7	True	TG(62:13)	HMDB:HMDB55913	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+TG(62:2)	GBM_FEATURE:915314a1e32501e3	True	TG(62:2)	HMDB:HMDB54400	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d16:1/18:0);Cer(d18:1/16:0)	GBM_FEATURE:d96e06cf60a3b54b	True	Cer(d16:1/18:0);Cer(d18:1/16:0)	NAME:Cer(d16:1/18:0);Cer(d18:1/16:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+N-palmitoyl-sphinganine (d18:0/16:0)	GBM_FEATURE:ac0d3a005841d0fd	True	N-palmitoyl-sphinganine (d18:0/16:0)	HMDB:HMDB11760	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:0/18:0)	GBM_FEATURE:68203cd0507b6eb2	True	Cer(d18:0/18:0)	HMDB:HMDB11761	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:0/22:0)	GBM_FEATURE:47c144a0ddf16e80	True	Cer(d18:0/22:0)	HMDB:HMDB11765	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:0/24:0)	GBM_FEATURE:d58ef0de065157db	True	Cer(d18:0/24:0)	HMDB:HMDB11768	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:0/24:1)	GBM_FEATURE:98f8d99dfc2f9436	True	Cer(d18:0/24:1)	NAME:Cer(d18:0/24:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/18:0)_A	GBM_FEATURE:ba0111404565b1bb	True	Cer(d18:1/18:0)_A	NAME:Cer(d18:1/18:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/18:0)_B	GBM_FEATURE:118a517881363670	True	Cer(d18:1/18:0)_B	NAME:Cer(d18:1/18:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/20:0)	GBM_FEATURE:2b8689512abadcf8	True	Cer(d18:1/20:0)	KEGG:C00195	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/22:0)	GBM_FEATURE:6307c8fb72f38f91	True	Cer(d18:1/22:0)	KEGG:C00195	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/23:0)	GBM_FEATURE:840170a9e1f4dfc8	True	Cer(d18:1/23:0)	HMDB:HMDB00950	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/24:0)	GBM_FEATURE:1d0a93349578b165	True	Cer(d18:1/24:0)	KEGG:C00195	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/24:1)	GBM_FEATURE:8302fe76ea3a148d	True	Cer(d18:1/24:1)	NAME:Cer(d18:1/24:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/25:0)	GBM_FEATURE:5b21b74770fc99c6	True	Cer(d18:1/25:0)	KEGG:C00195	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/26:0)	GBM_FEATURE:1e84cd46dad9be38	True	Cer(d18:1/26:0)	KEGG:C00195	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+Cer(d18:1/26:1)	GBM_FEATURE:90e23f6b3a879e1d	True	Cer(d18:1/26:1)	NAME:Cer(d18:1/26:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CL(70:4)	GBM_FEATURE:b4b3ac63f3ec87eb	True	CL(70:4)	HMDB:HMDB0111579	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+CL(72:5)	GBM_FEATURE:4f7eb844acf12766	True	CL(72:5)	HMDB:HMDB0111675	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PA(16:0/18:1)	GBM_FEATURE:53cab25b41129f3d	True	PA(16:0/18:1)	KEGG:C00416	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PA(16:0/18:2)	GBM_FEATURE:70f2a243b3442c28	True	PA(16:0/18:2)	KEGG:C00416	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PA(16:0/20:4)	GBM_FEATURE:9b70a7305a5a24a7	True	PA(16:0/20:4)	HMDB:HMDB0114841	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PA(18:1/18:1)	GBM_FEATURE:a9fa09450f692799	True	PA(18:1/18:1)	HMDB:HMDB31129	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PA(18:1/20:4)	GBM_FEATURE:e5e3720a7c243442	True	PA(18:1/20:4)	HMDB:HMDB0114909	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(14:0/22:6)	GBM_FEATURE:e2a1b5813d3218db	True	PE(14:0/22:6)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/0:0)_A	GBM_FEATURE:785d2bff802e002b	True	PE(16:0/0:0)_A	NAME:PE(16:0/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/0:0)_B	GBM_FEATURE:299f10c50620d7fa	True	PE(16:0/0:0)_B	NAME:PE(16:0/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1,2-dipalmitoyl-GPE (16:0/16:0)	GBM_FEATURE:64fbd8834234eaac	True	1,2-dipalmitoyl-GPE (16:0/16:0)	HMDB:HMDB08923	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/16:1);PE(14:0/18:1)	GBM_FEATURE:2c18616e62759f3e	True	PE(16:0/16:1);PE(14:0/18:1)	NAME:PE(16:0/16:1);PE(14:0/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-palmitoyl-2-stearoyl-GPE (16:0/18:0)	GBM_FEATURE:12fd988bca21cf1a	True	1-palmitoyl-2-stearoyl-GPE (16:0/18:0)	HMDB:HMDB08925	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/18:1)	GBM_FEATURE:04822b7e96c578b5	True	PE(16:0/18:1)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/18:2);PE(16:1/18:1)	GBM_FEATURE:88e760454404b6c0	True	PE(16:0/18:2);PE(16:1/18:1)	NAME:PE(16:0/18:2);PE(16:1/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/20:4)	GBM_FEATURE:85d2f3c50a30cfec	True	PE(16:0/20:4)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/20:5)	GBM_FEATURE:4b194e7d602f1a8a	True	PE(16:0/20:5)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/22:4)	GBM_FEATURE:965354cf5379f0f6	True	PE(16:0/22:4)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/22:5)	GBM_FEATURE:9caa44c1957dbe12	True	PE(16:0/22:5)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:0/22:6)	GBM_FEATURE:3d286738d7a7378f	True	PE(16:0/22:6)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:1/0:0)	GBM_FEATURE:3f8f1ad5090a13e6	True	PE(16:1/0:0)	NAME:PE(16:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:1/18:1)	GBM_FEATURE:1923f7d00324f64c	True	PE(16:1/18:1)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:1/18:2)	GBM_FEATURE:12247143288007d3	True	PE(16:1/18:2)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:1/20:4)	GBM_FEATURE:05ef43b52914b3a0	True	PE(16:1/20:4)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(16:1/22:6)	GBM_FEATURE:b629d89a62787a01	True	PE(16:1/22:6)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(17:0/0:0)	GBM_FEATURE:09d482f2bd389b31	True	PE(17:0/0:0)	NAME:PE(17:0/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(17:0/20:4)	GBM_FEATURE:7b17aeacce049249	True	PE(17:0/20:4)	NAME:PE(17:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(17:0/22:6)	GBM_FEATURE:526675a63e21271e	True	PE(17:0/22:6)	NAME:PE(17:0/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/0:0)_A	GBM_FEATURE:8b59f00f443166a9	True	PE(18:0/0:0)_A	NAME:PE(18:0/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/0:0)_B	GBM_FEATURE:4608e6f42e66ef71	True	PE(18:0/0:0)_B	NAME:PE(18:0/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/18:1)	GBM_FEATURE:e013829e27854f8f	True	PE(18:0/18:1)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/18:2);PE(16:0/20:2)	GBM_FEATURE:0b932308acc41893	True	PE(18:0/18:2);PE(16:0/20:2)	NAME:PE(18:0/18:2);PE(16:0/20:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/20:1)	GBM_FEATURE:c73473f0d8124346	True	PE(18:0/20:1)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/20:2)	GBM_FEATURE:e87a3641715f1e0a	True	PE(18:0/20:2)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/20:3)_A	GBM_FEATURE:b74d453c2d165dd0	True	PE(18:0/20:3)_A	NAME:PE(18:0/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/20:3)_B	GBM_FEATURE:82623678d50c63eb	True	PE(18:0/20:3)_B	NAME:PE(18:0/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/20:4)	GBM_FEATURE:8b8c0193c160216b	True	PE(18:0/20:4)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/22:3)	GBM_FEATURE:407f40efdeb8d2e4	True	PE(18:0/22:3)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/22:4)	GBM_FEATURE:a3ad8a34ff28290f	True	PE(18:0/22:4)	KEGG:C21481	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/22:5)	GBM_FEATURE:442b3495c1d8b40c	True	PE(18:0/22:5)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/22:6)	GBM_FEATURE:2dd64001f37ff7b1	True	PE(18:0/22:6)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:0/24:4)	GBM_FEATURE:51e63a64f0af873f	True	PE(18:0/24:4)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/0:0)_A	GBM_FEATURE:d71686be69893067	True	PE(18:1/0:0)_A	NAME:PE(18:1/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/0:0)_B	GBM_FEATURE:244882af851b5fd3	True	PE(18:1/0:0)_B	NAME:PE(18:1/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/18:1)	GBM_FEATURE:095d817d2c9ac53b	True	PE(18:1/18:1)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/18:2)	GBM_FEATURE:94f12a7a91b98253	True	PE(18:1/18:2)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/18:2);PE(16:0/20:3)	GBM_FEATURE:fab4c66a36ef7d9a	True	PE(18:1/18:2);PE(16:0/20:3)	NAME:PE(18:1/18:2);PE(16:0/20:3)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/20:1)	GBM_FEATURE:dd0d0590bec5f3d0	True	PE(18:1/20:1)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/20:2)	GBM_FEATURE:09dc13b4c085f8c4	True	PE(18:1/20:2)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/20:3)	GBM_FEATURE:4e6084eef898a31b	True	PE(18:1/20:3)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:1/20:4)	GBM_FEATURE:7c12693ccdabb49b	True	PE(18:1/20:4)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(18:2/0:0)	GBM_FEATURE:4f4eaed11ae41aa5	True	PE(18:2/0:0)	NAME:PE(18:2/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-linoleoyl-2-arachidonoyl-GPE (18:2/20:4)	GBM_FEATURE:07f71c4d15157a2f	True	1-linoleoyl-2-arachidonoyl-GPE (18:2/20:4)	HMDB:HMDB09102	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:0/0:0)	GBM_FEATURE:4d30c6174fc8d347	True	PE(20:0/0:0)	HMDB:HMDB11511	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:0/20:4)	GBM_FEATURE:6c2948afcfb70b95	True	PE(20:0/20:4)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:1/0:0)_A	GBM_FEATURE:0f950a4ca7a2f948	True	PE(20:1/0:0)_A	NAME:PE(20:1/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:1/0:0)_B	GBM_FEATURE:454a314328b2155e	True	PE(20:1/0:0)_B	NAME:PE(20:1/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:2/0:0)	GBM_FEATURE:8e300a2bf7f88b02	True	PE(20:2/0:0)	NAME:PE(20:2/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:3/0:0)_A	GBM_FEATURE:bba697a4c934fc49	True	PE(20:3/0:0)_A	NAME:PE(20:3/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:3/0:0)_B	GBM_FEATURE:c2936b884635e956	True	PE(20:3/0:0)_B	NAME:PE(20:3/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-arachidonoyl-GPE (20:4n6)	GBM_FEATURE:32014f30fef6856d	True	1-arachidonoyl-GPE (20:4n6)	HMDB:HMDB11517	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:4/22:0)	GBM_FEATURE:6bac7a91e51b93c1	True	PE(20:4/22:0)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(20:5/0:0)	GBM_FEATURE:eea05fb769ad36e4	True	PE(20:5/0:0)	NAME:PE(20:5/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(22:1/0:0)_A	GBM_FEATURE:c438b292c64a6039	True	PE(22:1/0:0)_A	NAME:PE(22:1/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(22:1/0:0)_B	GBM_FEATURE:708ea8848f148db7	True	PE(22:1/0:0)_B	NAME:PE(22:1/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(22:2/0:0)_A	GBM_FEATURE:40ae9c8a112e3209	True	PE(22:2/0:0)_A	NAME:PE(22:2/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(22:2/0:0)_B	GBM_FEATURE:45d6d83616e08174	True	PE(22:2/0:0)_B	NAME:PE(22:2/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(22:4/0:0)_A	GBM_FEATURE:7659f9648f4466be	True	PE(22:4/0:0)_A	NAME:PE(22:4/0:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(22:4/0:0)_B	GBM_FEATURE:6b97e7ca76270ff3	True	PE(22:4/0:0)_B	NAME:PE(22:4/0:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(22:6/0:0)	GBM_FEATURE:c81a359761597a5c	True	PE(22:6/0:0)	NAME:PE(22:6/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(22:6/22:6)	GBM_FEATURE:f5d484e2bb7ac54f	True	PE(22:6/22:6)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(24:0/18:1)	GBM_FEATURE:4bb139b6790fd154	True	PE(24:0/18:1)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(O-16:0/20:3)	GBM_FEATURE:1619b4c90ad62204	True	PE(O-16:0/20:3)	NAME:PE(O-16:0/20:3)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(O-16:0/20:4)	GBM_FEATURE:d76f1fc4a7d4b047	True	PE(O-16:0/20:4)	NAME:PE(O-16:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(O-16:0/22:4)	GBM_FEATURE:50379bc91c65f6fa	True	PE(O-16:0/22:4)	NAME:PE(O-16:0/22:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(O-16:0/22:6)	GBM_FEATURE:0208e511d30c361e	True	PE(O-16:0/22:6)	NAME:PE(O-16:0/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(O-18:0/16:0)_A	GBM_FEATURE:1e0e24d7ddb6dfd2	True	PE(O-18:0/16:0)_A	NAME:PE(O-18:0/16:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(O-18:0/16:0)_B	GBM_FEATURE:fb9c7b181e44f681	True	PE(O-18:0/16:0)_B	NAME:PE(O-18:0/16:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(O-18:0/18:1)	GBM_FEATURE:a9a58438fc110185	True	PE(O-18:0/18:1)	NAME:PE(O-18:0/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(O-18:0/22:4)	GBM_FEATURE:b1d4a1e49f57bbe1	True	PE(O-18:0/22:4)	NAME:PE(O-18:0/22:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/0:0)	GBM_FEATURE:7585b13d4e3a0f3b	True	PE(P-16:0/0:0)	HMDB:HMDB11152	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/16:0)	GBM_FEATURE:621ca0d9f72ef8dd	True	PE(P-16:0/16:0)	KEGG:C04756	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/16:1)	GBM_FEATURE:f6f2fc289a5db8e5	True	PE(P-16:0/16:1)	HMDB:HMDB11339	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)	GBM_FEATURE:a8d8a8111cc8f4d9	True	1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)	HMDB:HMDB11342	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)	GBM_FEATURE:3e0f892f73f87452	True	1-(1-enyl-palmitoyl)-2-linoleoyl-GPE (P-16:0/18:2)	HMDB:HMDB11343	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/20:3)_A	GBM_FEATURE:2134bba95f1d68a5	True	PE(P-16:0/20:3)_A	NAME:PE(P-16:0/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/20:3)_B	GBM_FEATURE:8510eced3a521ff1	True	PE(P-16:0/20:3)_B	NAME:PE(P-16:0/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)	GBM_FEATURE:e6aaa54c417b4d61	True	1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)	HMDB:HMDB11352	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/20:5)	GBM_FEATURE:d0c6e37381c3f48e	True	PE(P-16:0/20:5)	HMDB:HMDB11354	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/22:4)	GBM_FEATURE:c337a7e2c56008a1	True	PE(P-16:0/22:4)	HMDB:HMDB11358	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/22:5);PE(P-18:1/20:4)	GBM_FEATURE:32efc981e982793a	True	PE(P-16:0/22:5);PE(P-18:1/20:4)	NAME:PE(P-16:0/22:5);PE(P-18:1/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-16:0/22:6)	GBM_FEATURE:8e736a00e2b8de4f	True	PE(P-16:0/22:6)	KEGG:C00350	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/0:0)	GBM_FEATURE:103cd5cc496cf088	True	PE(P-18:0/0:0)	NAME:PE(P-18:0/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/16:0);PE(P-16:0/18:0)	GBM_FEATURE:d488416e9760d4ed	True	PE(P-18:0/16:0);PE(P-16:0/18:0)	NAME:PE(P-18:0/16:0);PE(P-16:0/18:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/18:1)	GBM_FEATURE:fe0803dbb96e1181	True	PE(P-18:0/18:1)	HMDB:HMDB11374	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/20:1)	GBM_FEATURE:061e6513dece0f3e	True	PE(P-18:0/20:1)	HMDB:HMDB11381	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/20:3)_A	GBM_FEATURE:3efe426f5e812be5	True	PE(P-18:0/20:3)_A	NAME:PE(P-18:0/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/20:3)_B	GBM_FEATURE:9b3d64c2148e01e6	True	PE(P-18:0/20:3)_B	NAME:PE(P-18:0/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)	GBM_FEATURE:4c0a30a638faacc3	True	1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)	HMDB:HMDB05779	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/20:5);PE(P-16:0/22:5)	GBM_FEATURE:e4492fb0c96d0f2b	True	PE(P-18:0/20:5);PE(P-16:0/22:5)	NAME:PE(P-18:0/20:5);PE(P-16:0/22:5)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/22:1)	GBM_FEATURE:c2047c0d322714c7	True	PE(P-18:0/22:1)	HMDB:HMDB11389	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/22:4)	GBM_FEATURE:74ae29f34da6f94a	True	PE(P-18:0/22:4)	HMDB:HMDB11391	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/22:5)_A	GBM_FEATURE:94f5b667c2dd93c5	True	PE(P-18:0/22:5)_A	NAME:PE(P-18:0/22:5)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/22:5)_B	GBM_FEATURE:22941973cac860c9	True	PE(P-18:0/22:5)_B	NAME:PE(P-18:0/22:5)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/22:6)_A	GBM_FEATURE:1da87c3ed6d208f1	True	PE(P-18:0/22:6)_A	NAME:PE(P-18:0/22:6)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:0/22:6)_B	GBM_FEATURE:8c4e30dee2bef62a	True	PE(P-18:0/22:6)_B	NAME:PE(P-18:0/22:6)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:1/16:1)	GBM_FEATURE:ad17c649cc534057	True	PE(P-18:1/16:1)	HMDB:HMDB11405	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:1/18:1)	GBM_FEATURE:0c35c2a01b9f6963	True	PE(P-18:1/18:1)	HMDB:HMDB11407	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:1/20:1)	GBM_FEATURE:63588b61c18130fb	True	PE(P-18:1/20:1)	HMDB:HMDB11414	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:1/20:5)	GBM_FEATURE:14e3e27d7f30569d	True	PE(P-18:1/20:5)	HMDB:HMDB11420	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:1/22:4)	GBM_FEATURE:6cbc512ac75cba7c	True	PE(P-18:1/22:4)	HMDB:HMDB11424	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:1/22:5)_A	GBM_FEATURE:343611a6430eb118	True	PE(P-18:1/22:5)_A	NAME:PE(P-18:1/22:5)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:1/22:5)_B	GBM_FEATURE:61eaf18fdacd5770	True	PE(P-18:1/22:5)_B	NAME:PE(P-18:1/22:5)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-18:1/22:6)	GBM_FEATURE:bbe7d413f6fd952f	True	PE(P-18:1/22:6)	HMDB:HMDB11427	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-20:0/20:4)	GBM_FEATURE:4a117390fe2e1d8f	True	PE(P-20:0/20:4)	NAME:PE(P-20:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PE(P-20:0/22:6)	GBM_FEATURE:d1dd53b7955a4715	True	PE(P-20:0/22:6)	NAME:PE(P-20:0/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/16:0)_B	GBM_FEATURE:aa0576c5d5cb63d0	True	PG(16:0/16:0)_B	NAME:PG(16:0/16:0)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/16:0)_A	GBM_FEATURE:de538e6ec4ed8b4e	True	PG(16:0/16:0)_A	NAME:PG(16:0/16:0)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/16:1)	GBM_FEATURE:793ebb51d02c8baa	True	PG(16:0/16:1)	HMDB:HMDB10571	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/18:0)	GBM_FEATURE:34febea4dc2f4ec6	True	PG(16:0/18:0)	HMDB:HMDB10572	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/18:1)_A	GBM_FEATURE:830bf7771a95f600	True	PG(16:0/18:1)_A	NAME:PG(16:0/18:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/18:1)_B	GBM_FEATURE:104894f8fdd87485	True	PG(16:0/18:1)_B	NAME:PG(16:0/18:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/18:2)	GBM_FEATURE:dff69383f1e9ca82	True	PG(16:0/18:2)	HMDB:HMDB10575	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/20:4)_A	GBM_FEATURE:f020f5971bec2ccd	True	PG(16:0/20:4)_A	NAME:PG(16:0/20:4)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/20:4)_B	GBM_FEATURE:66eb24e7fb253f50	True	PG(16:0/20:4)_B	NAME:PG(16:0/20:4)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:0/22:6)	GBM_FEATURE:3b299e0aafd28a9d	True	PG(16:0/22:6)	HMDB:HMDB10584	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:1/18:1);PG(16:0/18:2)	GBM_FEATURE:80561b2323c2920f	True	PG(16:1/18:1);PG(16:0/18:2)	NAME:PG(16:1/18:1);PG(16:0/18:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:1/18:2)	GBM_FEATURE:fbf79ed95ec9ae3a	True	PG(16:1/18:2)	HMDB:HMDB10590	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:1/20:4)	GBM_FEATURE:a6433b8885f8f08c	True	PG(16:1/20:4)	HMDB:HMDB10595	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(16:1/22:6)	GBM_FEATURE:bcd0f6eb7839ca7c	True	PG(16:1/22:6)	HMDB:HMDB10599	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(17:1/18:1)	GBM_FEATURE:c567ac8c202b8d6f	True	PG(17:1/18:1)	NAME:PG(17:1/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(17:1/18:2)	GBM_FEATURE:ec125045e84afcf5	True	PG(17:1/18:2)	NAME:PG(17:1/18:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:0/18:1)_A	GBM_FEATURE:d27121636617cb16	True	PG(18:0/18:1)_A	NAME:PG(18:0/18:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:0/18:1)_B	GBM_FEATURE:73afb265e4e69e90	True	PG(18:0/18:1)_B	NAME:PG(18:0/18:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:0/20:4)	GBM_FEATURE:0674f7d52de78b85	True	PG(18:0/20:4)	HMDB:HMDB10610	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/0:0)	GBM_FEATURE:33f41d6fdeff8578	True	PG(18:1/0:0)	NAME:PG(18:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/18:1)_A	GBM_FEATURE:77548c67207f5194	True	PG(18:1/18:1)_A	NAME:PG(18:1/18:1)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/18:1)_B	GBM_FEATURE:f652ef1aeb9eec67	True	PG(18:1/18:1)_B	NAME:PG(18:1/18:1)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/18:2)_A	GBM_FEATURE:4d90762908eb5ac7	True	PG(18:1/18:2)_A	NAME:PG(18:1/18:2)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/18:2)_B	GBM_FEATURE:88c15b2156e8649d	True	PG(18:1/18:2)_B	NAME:PG(18:1/18:2)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/19:1)	GBM_FEATURE:be02737af0d84fba	True	PG(18:1/19:1)	NAME:PG(18:1/19:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/20:1)	GBM_FEATURE:8b6def8c3dea6024	True	PG(18:1/20:1)	NAME:PG(18:1/20:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/20:2)	GBM_FEATURE:1df2d4e1b6b54bd0	True	PG(18:1/20:2)	NAME:PG(18:1/20:2)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/20:3)_A	GBM_FEATURE:21202799d48babbf	True	PG(18:1/20:3)_A	NAME:PG(18:1/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/20:3)_B	GBM_FEATURE:5070f9d2b5a7e72d	True	PG(18:1/20:3)_B	NAME:PG(18:1/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/20:4)_A	GBM_FEATURE:f0d6dedeaf5aa12c	True	PG(18:1/20:4)_A	NAME:PG(18:1/20:4)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/20:4)_B	GBM_FEATURE:1ca9bf44422d5023	True	PG(18:1/20:4)_B	NAME:PG(18:1/20:4)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/22:4)	GBM_FEATURE:3330d6d5271acf5a	True	PG(18:1/22:4)	HMDB:HMDB10626	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/22:5)	GBM_FEATURE:c113d8b70198fa42	True	PG(18:1/22:5)	HMDB:HMDB10627	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:1/22:6)	GBM_FEATURE:cc923e100c4b9549	True	PG(18:1/22:6)	HMDB:HMDB10629	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:2/0:0)	GBM_FEATURE:0617697357593197	True	PG(18:2/0:0)	NAME:PG(18:2/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:2/18:2)	GBM_FEATURE:673d32703f3dec09	True	PG(18:2/18:2)	HMDB:HMDB10650	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:2/19:1)	GBM_FEATURE:4efbc1a72c2eb7d6	True	PG(18:2/19:1)	NAME:PG(18:2/19:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:2/20:3)	GBM_FEATURE:ceacc00f722ec628	True	PG(18:2/20:3)	HMDB:HMDB10653	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:2/20:4)	GBM_FEATURE:f2804b455e9dd004	True	PG(18:2/20:4)	HMDB:HMDB10655	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:2/22:4)	GBM_FEATURE:ddf8b5e9fe129bea	True	PG(18:2/22:4)	HMDB:HMDB10656	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(18:2/22:6)	GBM_FEATURE:8fca4efc9ec6e4d8	True	PG(18:2/22:6)	HMDB:HMDB10659	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(20:3/22:6)	GBM_FEATURE:a49be250640a9f96	True	PG(20:3/22:6)	NAME:PG(20:3/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(20:4/0:0)	GBM_FEATURE:2f6db34865447c2f	True	PG(20:4/0:0)	NAME:PG(20:4/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(20:4/22:6)	GBM_FEATURE:607fa40d25ebd7e0	True	PG(20:4/22:6)	HMDB:HMDB0116613	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(22:4/22:6)	GBM_FEATURE:11ba172741515264	True	PG(22:4/22:6)	NAME:PG(22:4/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(22:6/0:0)	GBM_FEATURE:028c9a380cd15a4d	True	PG(22:6/0:0)	NAME:PG(22:6/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PG(22:6/22:6)	GBM_FEATURE:e3e5bbe2d95bc49c	True	PG(22:6/22:6)	HMDB:HMDB0116605	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(16:0/0:0)	GBM_FEATURE:ddc6a92d78de3c27	True	PI(16:0/0:0)	NAME:PI(16:0/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(16:0/16:0)	GBM_FEATURE:f868dc7acf8f10a9	True	PI(16:0/16:0)	KEGG:C00626	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-palmitoyl-2-oleoyl-GPI (16:0/18:1)	GBM_FEATURE:8c4c442d88902c53	True	1-palmitoyl-2-oleoyl-GPI (16:0/18:1)	HMDB:HMDB09783	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(16:0/18:2)	GBM_FEATURE:6e322ecfcc4bb3e6	True	PI(16:0/18:2)	HMDB:HMDB09784	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(16:0/20:3)_A	GBM_FEATURE:546bb16f0821bd8c	True	PI(16:0/20:3)_A	NAME:PI(16:0/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(16:0/20:3)_B	GBM_FEATURE:a1fae5653bdcc140	True	PI(16:0/20:3)_B	NAME:PI(16:0/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)	GBM_FEATURE:330a5f154fdf5ab9	True	1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)	HMDB:HMDB09789	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(16:0/22:6)	GBM_FEATURE:b865c3a55ac329e3	True	PI(16:0/22:6)	NAME:PI(16:0/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(16:1/20:4)	GBM_FEATURE:298f917d71b5adf5	True	PI(16:1/20:4)	NAME:PI(16:1/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(17:0/20:4)	GBM_FEATURE:d04133121fc54c05	True	PI(17:0/20:4)	NAME:PI(17:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:0/0:0)	GBM_FEATURE:e9b6125a724a86f9	True	PI(18:0/0:0)	HMDB:HMDB0240261	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:0/18:1)	GBM_FEATURE:6f8836f3b6880eba	True	PI(18:0/18:1)	NAME:PI(18:0/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-stearoyl-2-linoleoyl-GPI (18:0/18:2)	GBM_FEATURE:ecd4a4093f751f55	True	1-stearoyl-2-linoleoyl-GPI (18:0/18:2)	HMDB:HMDB09809	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:0/20:3)_A	GBM_FEATURE:b8976de0974e3033	True	PI(18:0/20:3)_A	NAME:PI(18:0/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:0/20:3)_B	GBM_FEATURE:4473e04fe58bfe7d	True	PI(18:0/20:3)_B	NAME:PI(18:0/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:0/20:4)	GBM_FEATURE:e877bd09d41e0314	True	PI(18:0/20:4)	KEGG:C00626	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:0/22:4)	GBM_FEATURE:b39f7f47b2f860fb	True	PI(18:0/22:4)	HMDB:HMDB09818	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:0/22:5)	GBM_FEATURE:b0683f2e5d31bfaa	True	PI(18:0/22:5)	KEGG:C00626	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:0/22:6)	GBM_FEATURE:745f585dac7ae9ac	True	PI(18:0/22:6)	HMDB:HMDB09821	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:1/0:0)	GBM_FEATURE:8658e861a12af694	True	PI(18:1/0:0)	HMDB:HMDB61693	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:1/18:1)	GBM_FEATURE:a7292b4dece4b712	True	PI(18:1/18:1)	KEGG:C00626	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:1/18:2)	GBM_FEATURE:448a114ddf39757f	True	PI(18:1/18:2)	HMDB:HMDB09838	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:1/20:3)_A	GBM_FEATURE:13e6a4b226266cf5	True	PI(18:1/20:3)_A	NAME:PI(18:1/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:1/20:3)_B;PI(16:0/22:4)	GBM_FEATURE:49cf84df1d5e7f43	True	PI(18:1/20:3)_B;PI(16:0/22:4)	NAME:PI(18:1/20:3)_B;PI(16:0/22:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-oleoyl-2-arachidonoyl-GPI (18:1/20:4)	GBM_FEATURE:f7d09a88083c6df6	True	1-oleoyl-2-arachidonoyl-GPI (18:1/20:4)	KEGG:C00626	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:1/22:6)	GBM_FEATURE:cec6f853bf0de0b4	True	PI(18:1/22:6)	NAME:PI(18:1/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(18:2/20:4)	GBM_FEATURE:c71494bf3902b36a	True	PI(18:2/20:4)	NAME:PI(18:2/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(19:0/20:4)	GBM_FEATURE:41bbc8b84c097243	True	PI(19:0/20:4)	NAME:PI(19:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(20:1/20:4);PI(18:0/22:5)	GBM_FEATURE:57f4432992f0f689	True	PI(20:1/20:4);PI(18:0/22:5)	NAME:PI(20:1/20:4);PI(18:0/22:5)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(20:3/0:0)	GBM_FEATURE:8268455861f414f1	True	PI(20:3/0:0)	NAME:PI(20:3/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(20:3/20:4)	GBM_FEATURE:4962153d60934a56	True	PI(20:3/20:4)	NAME:PI(20:3/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(20:4/0:0)	GBM_FEATURE:868e85b3b41a8fc5	True	PI(20:4/0:0)	NAME:PI(20:4/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(20:4/20:4)	GBM_FEATURE:36906a913c3141d1	True	PI(20:4/20:4)	NAME:PI(20:4/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(20:4/22:6)	GBM_FEATURE:da2d6069b4376183	True	PI(20:4/22:6)	NAME:PI(20:4/22:6)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(22:6/0:0)	GBM_FEATURE:9059169e50d1f31d	True	PI(22:6/0:0)	NAME:PI(22:6/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(O-16:0/20:4)	GBM_FEATURE:618f67c916c512a8	True	PI(O-16:0/20:4)	NAME:PI(O-16:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(O-18:0/20:4)	GBM_FEATURE:decdbb05619f4ea8	True	PI(O-18:0/20:4)	NAME:PI(O-18:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(P-18:0/16:0)	GBM_FEATURE:b533b0918821eb06	True	PI(P-18:0/16:0)	NAME:PI(P-18:0/16:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(P-18:0/20:4)	GBM_FEATURE:9d953d760eccf32b	True	PI(P-18:0/20:4)	NAME:PI(P-18:0/20:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PI(P-18:0/22:4)	GBM_FEATURE:b01f652ea5eb32fc	True	PI(P-18:0/22:4)	NAME:PI(P-18:0/22:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+1-palmitoyl-2-oleoyl-GPS (16:0/18:1)	GBM_FEATURE:f946efa317854aea	True	1-palmitoyl-2-oleoyl-GPS (16:0/18:1)	KEGG:C13880	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(16:0/18:2);PS(16:1/18:1)	GBM_FEATURE:9d09f4e21624cb45	True	PS(16:0/18:2);PS(16:1/18:1)	NAME:PS(16:0/18:2);PS(16:1/18:1)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(16:0/20:3)	GBM_FEATURE:5df9f55af68f4491	True	PS(16:0/20:3)	HMDB:HMDB12360	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(16:0/20:4)	GBM_FEATURE:78f5d36d241a85cf	True	PS(16:0/20:4)	HMDB:HMDB12361	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(16:0/22:6)	GBM_FEATURE:76015a14d6bc3adc	True	PS(16:0/22:6)	HMDB:HMDB12362	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(16:1/18:0)	GBM_FEATURE:f9fbd9fe5fafe2ce	True	PS(16:1/18:0)	HMDB:HMDB12367	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/18:1)	GBM_FEATURE:0327ecd43e9405f4	True	PS(18:0/18:1)	KEGG:C02737	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/18:2)	GBM_FEATURE:79b5e832916054c7	True	PS(18:0/18:2)	HMDB:HMDB12380	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/20:1)	GBM_FEATURE:2089087f0386dcb1	True	PS(18:0/20:1)	HMDB:HMDB0112375	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/20:2)	GBM_FEATURE:d1ad636c58008469	True	PS(18:0/20:2)	HMDB:HMDB0112376	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/20:3)_A	GBM_FEATURE:db7a1eb12c8146f7	True	PS(18:0/20:3)_A	NAME:PS(18:0/20:3)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/20:3)_B	GBM_FEATURE:5a815de87467dbca	True	PS(18:0/20:3)_B	NAME:PS(18:0/20:3)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/20:4)	GBM_FEATURE:64440aaddb3031f4	True	PS(18:0/20:4)	KEGG:C02737	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/22:4)_A	GBM_FEATURE:369eb485d89896b7	True	PS(18:0/22:4)_A	NAME:PS(18:0/22:4)_A	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/22:4)_B	GBM_FEATURE:1ec43c42aa09a68f	True	PS(18:0/22:4)_B	NAME:PS(18:0/22:4)_B	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/22:6)	GBM_FEATURE:c4622225927e5894	True	PS(18:0/22:6)	KEGG:C02737	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:0/24:4)	GBM_FEATURE:9dbd6159c8ebef82	True	PS(18:0/24:4)	NAME:PS(18:0/24:4)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:1/0:0)	GBM_FEATURE:f5e9b2b9ae52ef6b	True	PS(18:1/0:0)	NAME:PS(18:1/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:1/18:1)	GBM_FEATURE:f9936bcaca43d231	True	PS(18:1/18:1)	HMDB:HMDB12390	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:1/18:2)	GBM_FEATURE:ff4a6becfb7b7611	True	PS(18:1/18:2)	HMDB:HMDB12391	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:1/20:1)	GBM_FEATURE:12dda00860c1386d	True	PS(18:1/20:1)	HMDB:HMDB0112393	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:1/20:4)	GBM_FEATURE:271e7087ae01fc0f	True	PS(18:1/20:4)	HMDB:HMDB12394	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(18:1/22:6)	GBM_FEATURE:384e652a68f6ff59	True	PS(18:1/22:6)	HMDB:HMDB12395	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(20:1/22:6)	GBM_FEATURE:fca62a248ef67ed7	True	PS(20:1/22:6)	HMDB:HMDB0112564	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(20:4/22:6)	GBM_FEATURE:f279d863a3a5dd04	True	PS(20:4/22:6)	HMDB:HMDB12439	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(22:6/0:0)	GBM_FEATURE:d7e4737372ecb7be	True	PS(22:6/0:0)	NAME:PS(22:6/0:0)	MODERATE_NAME_ONLY	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
+PS(22:6/22:6)	GBM_FEATURE:1e1da1f0e00b7318	True	PS(22:6/22:6)	HMDB:HMDB12450	HIGH_ID	NEEDS_REVIEW	six_normal_tissue_labels_conflict_between_author_files
