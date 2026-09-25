@@ -1,0 +1,44 @@
+{
+  "status": "DONE",
+  "tumor_patients": 14,
+  "paired_patients": 13,
+  "families": {
+    "association": {
+      "REL_TUMOR_AVAILABLE": {
+        "planned": 125,
+        "evaluable": 123,
+        "p005": 20,
+        "q005": 0
+      },
+      "REL_TUMOR_PRIMARY": {
+        "planned": 125,
+        "evaluable": 125,
+        "p005": 18,
+        "q005": 0
+      },
+      "REL_TUMOR_TREATMENT_STRATIFIED": {
+        "planned": 125,
+        "evaluable": 125,
+        "p005": 13,
+        "q005": 0
+      }
+    },
+    "RNA": {
+      "RNA_PAIRED_CURRENT": {
+        "planned": 94,
+        "evaluable": 94,
+        "p005": 47,
+        "q005": 45
+      },
+      "RNA_PAIRED_HISTORY_ONLY": {
+        "planned": 2,
+        "evaluable": 2,
+        "p005": 1,
+        "q005": 1
+      }
+    }
+  },
+  "independent_rho_and_t_checks": true,
+  "BH_formula_independently_checked": true,
+  "all_candidates_retained": true
+}
