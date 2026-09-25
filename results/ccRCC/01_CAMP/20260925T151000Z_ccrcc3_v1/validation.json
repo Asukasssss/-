@@ -1,0 +1,23 @@
+{
+  "status": "DONE",
+  "ccRCC3_mapped_specimens": 114,
+  "excluded_non_clear_cell_specimens": 0,
+  "ccRCC3_clear_cell_specimens": 114,
+  "tumor_specimens": 67,
+  "normal_specimens": 47,
+  "author_patients": 17,
+  "tumor_patients": 17,
+  "normal_patients": 17,
+  "paired_patients": 17,
+  "original_matrix_specimens": 184,
+  "unmapped_histology_or_rna_link_not_extended": 70,
+  "total_features": 787,
+  "retained_features": 711,
+  "historical_cancer_effects": 612,
+  "historical_cancer_q005": 310,
+  "ccRCC3_status": "DONE",
+  "ccRCC3_reason": "MetaData_M4 author SUBJECT_ID joined one_to_one after dot_to_hyphen formatting only;all tissue labels concordant",
+  "treatment_scope": "mixed treated and untreated, mostly immune-checkpoint treated;not a treatment-effect design",
+  "original_statistics_modified": false,
+  "observed_values_equal_between_sheets": true
+}

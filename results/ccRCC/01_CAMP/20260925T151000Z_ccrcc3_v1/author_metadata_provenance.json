@@ -1,0 +1,14 @@
+{
+  "source_url": "https://zenodo.org/records/8066511",
+  "file_url": "https://zenodo.org/api/records/8066511/files/All%20Data.RData/content",
+  "version": "v4",
+  "md5_verified": "4a1d17b23efb86e09eae4462b55fe5e0",
+  "sha256": "48df411c7b662c680e7f08d92cd89a64b68b4484e9718c9ba4265d54930f72c8",
+  "extracted_object": "MetaData_M4",
+  "export_script": "code/ccrcc_export_author_metadata_v1.R",
+  "join": "SAMPLE_NAME dot converted to hyphen;one_to_one;SUBJECT_ID supplied,not inferred",
+  "matched_specimens": 114,
+  "unique_patients": 17,
+  "exact_author_patient_label_overlap_with_ccRCC4": 0,
+  "cross_cohort_independence": "not assumed from labels;both originate in same research project;no pooled or independent-validation claim"
+}

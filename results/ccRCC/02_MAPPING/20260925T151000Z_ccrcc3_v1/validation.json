@@ -1,0 +1,14 @@
+{
+  "status": "DONE",
+  "mapping_scope": "bounded_exact_reuse_not_exhaustive",
+  "work_features": 469,
+  "direct_features": 68,
+  "relations": 221,
+  "genes": 144,
+  "history_union_genes": 144,
+  "history_only_genes": [],
+  "unmapped_features": 401,
+  "unique_keys": true,
+  "statistics_transferred": false,
+  "stable_gene_ID_complete": true
+}

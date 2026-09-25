@@ -1,0 +1,22 @@
+{
+  "status": "DONE",
+  "features": 711,
+  "paired_patients": 17,
+  "families": {
+    "METAB_PAIRED_AVAILABLE": {
+      "planned": 711,
+      "evaluable": 540,
+      "p005": 348,
+      "q005": 335
+    },
+    "METAB_PAIRED_PRIMARY": {
+      "planned": 711,
+      "evaluable": 711,
+      "p005": 469,
+      "q005": 454
+    }
+  },
+  "BH_independently_verified": true,
+  "direction_counts_verified": true,
+  "original_statistics_modified": false
+}
