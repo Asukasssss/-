@@ -7,8 +7,10 @@ import statsmodels.api as sm
 from gbm_discovery_v1 import ROOT,SRC,PREFIX,sha,save,js,bh,check
 V='gbm_identity_RNA_v2'
 def main(out,commit):
- pub=out/'public/03_PATIENT_v2';pub.mkdir(exist_ok=False);audit=out/'public/01_CAMP_v2';audit.mkdir(exist_ok=False)
- url='https://raw.githubusercontent.com/PayneLab/cptac/v0.9.7/cptac/gbm.py';sp=out/'source/cptac_v0.9.7_gbm.py';r=requests.get(url,timeout=30);r.raise_for_status();sp.write_bytes(r.content)
+ pub=out/'public/03_PATIENT_v2';pub.mkdir(exist_ok=True);assert not (pub/'analysis_spec.json').exists();audit=out/'public/01_CAMP_v2';audit.mkdir(exist_ok=True)
+ url='https://raw.githubusercontent.com/PayneLab/cptac/v0.9.7/cptac/gbm.py';sp=out/'source/cptac_v0.9.7_gbm.py';
+ if not sp.exists():
+  r=requests.get(url,timeout=30);r.raise_for_status();sp.write_bytes(r.content)
  rule='sample_status_col = np.where(clinical.index.str.startswith("PT"), "Normal", "Tumor")';assert rule in sp.read_text()
  mp=out/'private/sample_identity_audit_private.tsv';m=pd.read_csv(mp,sep='\t');assert m.case_id.is_unique;m['CPTAC_loader_tissue']=np.where(m.case_id.str.startswith('PT'),'Normal','Tumor');assert m.CPTAC_loader_tissue.eq(m.TN).all();assert m.loc[m.tissue_conflict,'TN'].eq('Normal').all();save(m,out/'private/sample_identity_resolved_v2.tsv')
  summary=dict(status='DONE',mapped_author_cases=len(m),master_TN_matches_explicit_CPTAC_loader=int(m.CPTAC_loader_tissue.eq(m.TN).sum()),processed_sampleanno_conflicts=int(m.tissue_conflict.sum()),conflict_resolution='CAMP explicit master TN retained; independent CPTAC maintained package explicit PT tissue rule corroborates; derived sampleanno GROUP not used',source_loader_url=url,source_loader_sha256=sha(sp),paired_design=False,normal_reference='unmatched GTEx normal brain per Wang2021',original_files_modified=False,genotype_verification=False)
