@@ -1,0 +1,163 @@
+{
+  "protocol": "camp_discovery_to_cell_source_v1",
+  "status": "DONE_INTERNAL_BATCH",
+  "cancer": "PDAC",
+  "cohort": "CAMP_PDAC_GSE62452",
+  "run_id": "20260922T120300Z_sop_v3_internal",
+  "input_files": [
+    {
+      "path": "results/PDAC/02_MAPPING/20260920T111500Z_direct_mapping_v1/direct_relations_v1.tsv",
+      "sha256": "bf43e0b44987969080ace91c60ba155325f6914bee6dace26b9a166061b3e5eb"
+    },
+    {
+      "path": "results/PDAC/02_MAPPING/20260922T055000Z_paired51_mapping_v2/feature_coverage_51.tsv",
+      "sha256": "e461b0f3bd7816a0b9e45833ef7a2008983e0b844d9302979431aaa5509b0305"
+    },
+    {
+      "path": "results/PDAC/02_MAPPING/20260922T055000Z_paired51_mapping_v2/mapping_evidence.tsv",
+      "sha256": "a991e129dad8a1115ad07413e22a20f8e421c33231ce1f11aa2fe95cc4635cef"
+    },
+    {
+      "path": "results/PDAC/02_MAPPING/20260922T055000Z_paired51_mapping_v2/planned_relations.tsv",
+      "sha256": "8d7f74da09106cc5a052d6ea8568905dcc01896da8c87c1d96bd2ed67dbaac83"
+    },
+    {
+      "path": "results/PDAC/03_PATIENT/20260920T054500Z_source_readiness_v1/historical_cell_source_gene_summary.tsv",
+      "sha256": "50ca021b0105ca0fa6f852939b17a1a93567e2a127ea2fb063e3f5df0978c79d"
+    },
+    {
+      "path": "results/PDAC/03_PATIENT/20260920T054500Z_source_readiness_v1/historical_cptac_effects.tsv",
+      "sha256": "9e511e50c84f282acd4b3d44948b9b978dc6385734705a323e08fe99e7992310"
+    },
+    {
+      "path": "results/PDAC/03_PATIENT/20260922T053500Z_internal_paired51_v2/associations.tsv",
+      "sha256": "15bbd33edcda036b2a00fa3ff7ef12ef40405c85831e220fc28d6f13cca18bc5"
+    },
+    {
+      "path": "results/PDAC/03_PATIENT/20260922T053500Z_internal_paired51_v2/paired_RNA.tsv",
+      "sha256": "3eab84e4e8c4449289723fc455e3b76d5ebd13c2946b79823b04abae62c2dc3d"
+    },
+    {
+      "path": "results/PDAC/03_PATIENT/20260922T053500Z_internal_paired51_v2/sample_identity_audit.tsv",
+      "sha256": "67568599d24b4b98888cc526c569b091f6e89bf537235fdf5befe444cdb16001"
+    },
+    {
+      "path": "results/PDAC/04_ROBUSTNESS/20260921T121509Z_paired_metabolites_v1/results.tsv",
+      "sha256": "6af1ede439977a71dde7a4a1c6544c818cbe5c19ba5af13e5b85d57cc9c5e8c1"
+    },
+    {
+      "path": "results/PDAC/04_ROBUSTNESS/20260921T122353Z_pair_direction_counts_v1/direction_counts.tsv",
+      "sha256": "ec9defe133a77da31dd0c849abb2a8fb2a55049e22e56894db755411461a10e2"
+    },
+    {
+      "path": "runtime/pdac_mapping_paired51_v2/human_reviewed.json",
+      "sha256": "e1e36236b1794bbbec3a553dfce01edfa9f1eac032a95582f2fed1d2f9fa32f1"
+    }
+  ],
+  "sample_design": {
+    "pair_evidence": "GSE62452 author explicit paired sample table joined by exact GSM",
+    "unit": "distinct author pair key;clinical identity not independently recertified",
+    "duplicate_policy": "Exclude6 tumor specimens without author pair keys;21 remaining keys unique",
+    "normal_tissue_definition": "author non-tumor pancreas;precise normal tissue subtype not newly verified",
+    "RNA_pair_scope": "Same11 CAMP complete author pairs,independently matched RNA IDs;do not add59/60outsideCAMP pairs"
+  },
+  "data_scale": {
+    "metabolite": "author processed scale;not asserted log2FC",
+    "RNA": "author processed Affymetrix gene-symbol continuous expression;no added transform",
+    "availability_mask_semantics": "finite author preimputation data values;not raw detection"
+  },
+  "min_pairs": 8,
+  "min_correlation_n": 8,
+  "metabolite_test": {
+    "profile": "new_cohort_default_v1",
+    "test": "two_sided_signed_rank",
+    "zero_method": "wilcox",
+    "ties": "average_ranks",
+    "all_zero_p": 1,
+    "exact_signflip_max_nonzero": 16,
+    "MC_signflip_max_nonzero": 29,
+    "MC_B": 99999,
+    "large_n_method": "normal_tie_corrected_with_continuity",
+    "rounding_policy": "No rounding;no documented measurement precision to justify it"
+  },
+  "correlation": {
+    "method": "spearman",
+    "p_method": "two_sided_patient_permutation",
+    "B": 9999,
+    "plus_one": true
+  },
+  "bootstrap": {
+    "B": 4000,
+    "unit": "whole_patient_or_pair",
+    "ci": "percentile95_pointwise",
+    "min_valid_fraction": 0.9
+  },
+  "RNA": {
+    "input_type": "continuous_author_processed_microarray",
+    "continuous_model": "paired_t_on_documented_author_scale",
+    "count_model": "separate_edgeR_paired_design_required",
+    "supplement_family": "437_history_only_genes_separate_BH"
+  },
+  "multiplicity": {
+    "method": "BH",
+    "family_denominator": "all_evaluable_in_prespecified_family",
+    "missing_P_q": "NA",
+    "families": [
+      "METAB_PAIRED_PRIMARY",
+      "METAB_PAIRED_AVAILABLE",
+      "REL_TUMOR_PRIMARY",
+      "REL_TUMOR_AVAILABLE",
+      "RNA_PAIRED_CURRENT"
+    ]
+  },
+  "workpool": {
+    "primary_metabolite_P_lt": 0.05,
+    "keep_all_q": true,
+    "no_RNA_or_correlation_gate_for_sc": true
+  },
+  "single_cell": {
+    "min_cells_per_donor_type": 20,
+    "min_labels_per_type": 3,
+    "low_detection_flag": 0.01,
+    "bootstrap_B": 1000,
+    "stability_tag": 0.8,
+    "rank_tie_rtol": 1e-10,
+    "rank_tie_atol": 1e-12,
+    "new_P_q": false,
+    "stop_after": "expression_source",
+    "allow_new_umap_only_if_explicitly_scoped": true,
+    "gene_scope": "All history union687,including250currentdirect;no association/RNA gate",
+    "new_umap": "NOT_SCOPED;SOP optional,required dotplots and fullgene heatmaps only",
+    "min_detected_donors": "No extra3detected threshold;atleast3eligible labels,2categories,maxdetection>=.01"
+  },
+  "master_seed": 20260922,
+  "software_versions": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  },
+  "source_commit": "6dd0a73fb77a392e428254ad265b8710ce967c73",
+  "planned_counts": {
+    "metabolites": 307,
+    "workpool": 51,
+    "direct_relations": 357,
+    "conditional_relations": 358,
+    "current_genes": 250,
+    "history_union_genes": 687,
+    "RNA_pairs": 11,
+    "tumor_units": 21
+  },
+  "historical_results_immutable": true,
+  "analysis_version": "PDAC_CAMP_source_SOP_v3",
+  "hash_semantics": "Repository text SHA256 after Git LF normalization;downloaded runtime annotation source SHA256 exact bytes",
+  "reuse_exceptions": {
+    "metabolite_P": "Exact historical signed-rank P reused at n>=8;below8 newP/qsNA",
+    "metabolite_CI": "Historical10000 pair percentile bootstrap preserved rather than redoing4000;same input,method,estimand",
+    "association": "Same21unit effect/P/4000bootstrap reused;original seeds and input hashes retained;new evaluable-onlyBH",
+    "history": "Immutable original CAMP303/42 and every prior P/q preserved"
+  },
+  "code_commit": "321cd0f8f6ab8908a0d6daa190da7be57a8ed3a5",
+  "execution_mode": "internal",
+  "frozen_protocol_run_id": "20260922T112300Z_sop_v3"
+}

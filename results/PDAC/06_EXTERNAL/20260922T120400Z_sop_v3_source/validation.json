@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "historical_raw_matrix_hashes_match_before_run": true,
+  "all687_in_all3cohorts": true,
+  "full_gene_library_denominator": true,
+  "cellwise_before_donor_aggregation": true,
+  "donor_equal_means": true,
+  "private_unit_tables_stayed_server": true,
+  "source_no_P_q": true,
+  "independent_verification": {
+    "status": "PASS",
+    "independent_equal_donor_numeric_rows": 13647,
+    "independent_top_rows": 2061,
+    "cross_study_rows": 2061,
+    "all687_per_cohort": true,
+    "SC_no_P_q": true,
+    "normalization_function_tests": "Synthetic unequal cell libraries verified separately in server5test suite",
+    "not_replayed": [
+      "All raw single-cell rows independently re-extracted",
+      "All donor bootstrap draws independently replayed"
+    ],
+    "not_verified": [
+      "Clinical cross-study patient overlap",
+      "Malignant CNV",
+      "Mechanism"
+    ]
+  },
+  "figure_status": "PASS",
+  "not_verified": [
+    "Protected clinical cross-study duplicate identities",
+    "CNV malignant confirmation",
+    "AmbientRNA correction",
+    "Disease differential expression",
+    "Metabolite relationship external validation",
+    "Mechanism"
+  ],
+  "figure_validation": {
+    "status": "PASS",
+    "all30_pages_contact_sheet_inspected": true,
+    "first_dotplot_and_last_heatmap_fullsize_inspected": true,
+    "legend_overlap_found_and_fixed": true,
+    "rerendered_first_page_checked": true,
+    "all687_covered_once_per_kind": true,
+    "gray_is_missing_not_zero": true,
+    "files": 60
+  }
+}

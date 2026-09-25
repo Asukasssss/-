@@ -1,0 +1,20 @@
+{
+  "analysis_version": "PDAC_pair_direction_counts_v1",
+  "base_code_commit": "3cea234198f09c6702368bc451937c7bb9caa923",
+  "statistical_unit": "Author-explicit paired tumor and normal;11 complete pairs",
+  "scope": "307 features, primary and both-preimputation-available subsets;614 aggregate rows",
+  "direction": "Exact sign of tumor minus normal;equal values remain in denominator",
+  "majority": "Strictly greater than half of all eligible pairs in one direction",
+  "new_p_q": false,
+  "inherited_statistics": "20260921T121509Z_paired_metabolites_v1;fixed307 BH separately per analysis;minimum6 for paired test",
+  "new_imputation": false,
+  "seed": "NA;deterministic counts",
+  "versions": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  },
+  "old42": "Presentation subset original CAMP q<0.05;not a new test family",
+  "patient_level_export": false
+}

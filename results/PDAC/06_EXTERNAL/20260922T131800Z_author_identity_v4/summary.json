@@ -1,0 +1,34 @@
+{
+  "cohorts": [
+    {
+      "cohort": "GSE263733",
+      "cells": 46148,
+      "source_labels": 21,
+      "genes": 687,
+      "matrix_resolved": 681
+    },
+    {
+      "cohort": "GSE278688",
+      "cells": 71414,
+      "source_labels": 13,
+      "genes": 687,
+      "matrix_resolved": 682
+    },
+    {
+      "cohort": "GSE242230",
+      "cells": 31215,
+      "source_labels": 25,
+      "genes": 687,
+      "matrix_resolved": 684
+    }
+  ],
+  "genes": 687,
+  "profile_rows": 18549,
+  "normal_split_cells": 350,
+  "malignant_cells": 10783,
+  "changed_cohort": "GSE242230",
+  "reuse_cohorts": [
+    "GSE263733",
+    "GSE278688"
+  ]
+}

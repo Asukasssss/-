@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "all538_in_each_cohort": true,
+  "historical_source_hashes_match": true,
+  "reused_unit_cell_groups_denominators_match_new_extraction": true,
+  "no_patient_rows_exported": true,
+  "unverified": [
+    "Malignant CNV reannotation",
+    "Clinical patient-level cross-study identity de-duplication",
+    "Ambient RNA correction",
+    "Disease differential expression",
+    "Metabolite-gene external validation"
+  ]
+}

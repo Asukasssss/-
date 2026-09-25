@@ -1,0 +1,1 @@
+本包固定输入2971100b37e40d66a88cf89102c0fd3a56b7bcee，数据基线bcccc21ff60d6c57111efe72804d50db8020245e。发布分支analysis/pdac-initial，PR #2草稿未合并。最终交付提交以Git历史及对话中的远程核验记录为准，避免自引用提交号。Excel和ZIP按仓库规则只保留本地交付；GitHub保留PDF、Markdown、图源及代码，原始患者/细胞数据不在包内。

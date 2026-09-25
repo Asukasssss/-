@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "command": "python3 test_myeloid_infercnv_summary.py",
+  "stdout": "",
+  "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.015s\n\nOK\n",
+  "returncode": 0
+}

@@ -1,0 +1,40 @@
+{
+  "relations": 715,
+  "genes": 687,
+  "current_direct_genes": 250,
+  "workpool": 51,
+  "unmapped_preserved": 7,
+  "all3_same_top_genes": 245,
+  "all3_top_bootstrap_ge080_genes": 158,
+  "all3_top_bootstrap_ge080_current_genes": 65,
+  "RNA_current": {
+    "planned": 250,
+    "evaluable": 247,
+    "P_lt005": 91,
+    "q_lt005": 40
+  },
+  "source_cohorts": [
+    {
+      "cohort": "GSE263733",
+      "cells": 46148,
+      "source_labels": 21,
+      "genes": 687,
+      "matrix_resolved": 681
+    },
+    {
+      "cohort": "GSE278688",
+      "cells": 71414,
+      "source_labels": 13,
+      "genes": 687,
+      "matrix_resolved": 682
+    },
+    {
+      "cohort": "GSE242230",
+      "cells": 31215,
+      "source_labels": 25,
+      "genes": 687,
+      "matrix_resolved": 684
+    }
+  ],
+  "no_composite_score": true
+}

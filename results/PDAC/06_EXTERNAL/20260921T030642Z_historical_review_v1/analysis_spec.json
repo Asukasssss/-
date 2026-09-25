@@ -1,0 +1,16 @@
+{
+  "version": "PDAC_historical_interpretation_review_v1",
+  "run_id": "20260921T030642Z_historical_review_v1",
+  "code_base_commit": "453025c7b2603f78dc34240f44170b566e7200bd",
+  "reviewed_user_baseline": "c508f94c80f2d68ba664a14d36bdefcd0e9f6cb9",
+  "unit": "published aggregate rows",
+  "parameters": {
+    "fdr_threshold_for_label": 0.05,
+    "gene_overlap": "exact symbols",
+    "feature_link": "exact historical string only; no inferred synonym"
+  },
+  "test_family": "No new statistical tests; original CAMP, historical association and locked362 q unchanged",
+  "seed": "NA",
+  "python": "3.12.14",
+  "script_sha256": "4bf212c36599128e44cf1b0395c614df27dfd437c9296f103e73d418834a301f"
+}

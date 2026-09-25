@@ -1,0 +1,10 @@
+{
+  "status": "DONE",
+  "verified_delivery_commit": "adedb6ba47bb7b20bb0780f4a96f9e7d3e1b167e",
+  "branch": "analysis/pdac-initial",
+  "method": "git ls-remote exact SHA equality",
+  "PR": 2,
+  "draft": true,
+  "merged": false,
+  "note": "This records the published report commit; the later record-only commit is not self-referenced."
+}

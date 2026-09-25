@@ -1,0 +1,10 @@
+{
+  "code_commit": "b52b42f4a34ce30e8fa0bc44e16c36a20177bbee",
+  "verifier_sha256": "ecf328f733afb56c0f339c6632e197854c12841874817187f5aba786d4312db6",
+  "metadata_definitions": {
+    "genes_available": "Unique target genes available,including reused donor summaries",
+    "genes_in_matrix": "Only newly extracted/alias-rechecked subset;not total target coverage",
+    "genes_reused": "Unchanged previous donor summaries,with4 sentinel genes checked against raw counts"
+  },
+  "source_role": "Descriptive expression source,not exact metabolite-gene relation validation"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "exact_historical_fields": true,
+  "mapping_and_matrix_join_counts": true,
+  "historical_n_rho_verified": true,
+  "historical_source_hashes_match": true,
+  "not_verified": [
+    "patient independence",
+    "tumor-normal pairing",
+    "full42 direct gene mapping",
+    "external cohort independence",
+    "functional causality"
+  ]
+}

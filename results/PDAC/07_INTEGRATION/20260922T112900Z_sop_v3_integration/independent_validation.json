@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "six_BH_families_independently_checked_with_SciPy": true,
+  "all_reused_effect_P_CI_checked": true,
+  "metabolite_min8_gate_checked": true,
+  "current_direct_gene_set_equality": 250,
+  "history_gene_union_unique": 687,
+  "relation_join_rows": 715,
+  "template_prefix_tables_checked": 31,
+  "server_numerics_executed": false,
+  "matrix_input_current_hashes_reverified": false,
+  "paired_t_and_SC_placeholders_not_misreported_as_results": true
+}

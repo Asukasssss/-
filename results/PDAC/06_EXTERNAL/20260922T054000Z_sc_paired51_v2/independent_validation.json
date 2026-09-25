@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "independent_equal_donor_numeric_rows": 13346,
+  "cohort_gene_top_checks": 1614,
+  "three_cohort_consensus_checks": 538,
+  "bootstrap_distribution_mass_checks": true,
+  "source_extraction_sentinels": "Four genes/cohort checked against counts in production",
+  "all_gene_raw_count_reextraction": "NOT_RUN for reused genes beyond sentinel subset",
+  "full_bootstrap_replay": "NOT_RUN;synthetic tie/donor tests and distribution mass checked"
+}

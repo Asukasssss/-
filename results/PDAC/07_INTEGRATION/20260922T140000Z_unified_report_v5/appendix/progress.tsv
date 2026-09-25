@@ -1,0 +1,12 @@
+step	test_family	planned	evaluable	P_lt005	q_lt005	status	reason	path
+代谢物	METAB_PAIRED_PRIMARY	307	307	51	0	DONE	Numerical batch complete;NA rows retained	statistics_long.tsv
+代谢物	METAB_PAIRED_AVAILABLE	307	193	27	0	DONE	Numerical batch complete;NA rows retained	statistics_long.tsv
+直接关联	REL_TUMOR_PRIMARY	357	354	65	1	DONE	Numerical batch complete;NA rows retained	statistics_long.tsv
+直接关联	REL_TUMOR_AVAILABLE	357	342	40	1	DONE	Numerical batch complete;NA rows retained	statistics_long.tsv
+条件关联	REL_CONDITIONAL_SUPPLEMENT_PRIMARY	358	350	53	4	DONE	Numerical batch complete;NA rows retained	statistics_long.tsv
+条件关联	REL_CONDITIONAL_SUPPLEMENT_AVAILABLE	358	342	38	3	DONE	Numerical batch complete;NA rows retained	statistics_long.tsv
+当前RNA	RNA_PAIRED_CURRENT	250	247	91	40	DONE	Numerical batch complete;NA rows retained	statistics_long.tsv
+补充RNA	RNA_PAIRED_HISTORY_SUPPLEMENT	437	429	151	0	DONE	Numerical batch complete;NA rows retained	statistics_long.tsv
+单细胞来源	GSE263733	687	621	NA	NA	PARTIAL	All candidates processed;individual source gaps and clinical overlap retained	sc_source_status.tsv
+单细胞来源	GSE278688	687	593	NA	NA	PARTIAL	All candidates processed;individual source gaps and clinical overlap retained	sc_source_status.tsv
+单细胞来源	GSE242230	687	610	NA	NA	PARTIAL	All candidates processed;individual source gaps and clinical overlap retained	sc_source_status.tsv

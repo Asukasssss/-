@@ -1,0 +1,44 @@
+import fs from 'node:fs/promises';
+import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
+const out=process.argv[2];if(!out)throw new Error('Output folder argument required');
+const d=JSON.parse(await fs.readFile(out+'/workbook_data.json','utf8'));const wb=Workbook.create();
+const names={DIRECT:'直接',CONDITIONAL:'条件',FDR_SUPPORTED:'q<0.05',NOMINAL_EXPLORATORY:'仅P<0.05',NOT_SUPPORTED_THIS_TEST:'本项未达阈值',NOT_EVALUABLE:'不可评估',ALL3_SAME_TOP_AND_BOOTSTRAP_GE080:'三队列同首位且均≥80%',ALL3_SAME_TOP:'三队列同首位',STUDY_DEPENDENT_OR_NOT_EVALUABLE:'队列不同或不可评估',RNA_PAIRED_CURRENT:'当前直接池',RNA_PAIRED_HISTORY_SUPPLEMENT:'条件及历史补充池'};
+const val=x=>x===null||x===undefined?'NA':typeof x==='boolean'?(x?'是':'否'):names[x]??x;
+if(d.identity_v4)Object.assign(names,{'Malignant (author)':'恶性（作者注释）','Normal epithelial (author)':'正常上皮（作者注释）','Ductal (unresolved)':'导管（身份未定）'});
+const col=n=>{let s='';for(n++;n;n=Math.floor((n-1)/26))s=String.fromCharCode(65+(n-1)%26)+s;return s;};
+function table(name,title,note,rows,columns,id){
+ const sh=wb.worksheets.add(name);const end=col(columns.length-1),last=rows.length+6;sh.showGridLines=false;sh.tabColor='#2C526B';
+ sh.getRange(`A1:${end}${last}`).format={font:{name:'Microsoft YaHei',size:10},rowHeight:26,verticalAlignment:'center'};
+ sh.getRange('A2').values=[[title]];sh.getRange('A2').format.font={size:16,bold:true,color:'#2C526B'};
+ sh.getRange(`A3:${end}3`).format.borders={bottom:{style:'thin',color:'#BECBD4'}};
+ sh.getRange('A4').values=[[note]];sh.getRange('A4').format.font={color:'#596A75',size:10};
+ sh.getRange('A5').values=[['可筛选表头；NA表示缺测或不可评估。完整方法与证据来源见最后一页。']];sh.getRange('A5').format.font={color:'#596A75',size:10};
+ sh.getRange(`A6:${end}6`).values=[columns.map(x=>x[1])];sh.getRange(`A7:${end}${last}`).values=rows.map(r=>columns.map(c=>val(r[c[0]])));
+ sh.tables.add(`A6:${end}${last}`,true,id);sh.freezePanes.freezeRows(6);sh.freezePanes.freezeColumns(name==='关系比较'?2:1);
+ sh.getRange(`A6:${end}6`).format={fill:'#2C526B',font:{color:'#FFFFFF',bold:true},rowHeight:42,wrapText:true,horizontalAlignment:'center'};
+ columns.forEach((c,i)=>{const cc=col(i);sh.getRange(`${cc}6:${cc}${last}`).format.columnWidth=c[2];if(c[3])sh.getRange(`${cc}7:${cc}${last}`).setNumberFormat(c[3]);});
+ sh.getRange(`A7:A${last}`).format.wrapText=true;
+ rows.forEach((r,i)=>{if(String(r[columns[0][0]]).length>42)sh.getRange(`A${i+7}:${end}${i+7}`).format.rowHeight=42;});
+ return sh;
+}
+const num='0.000';const pq='0.000000';
+table('关系比较','PDAC：715条代谢物—基因关系','51项探索代谢物；357直接关系和358条件关系分别保留。不同层P/q不混用。',d.relations,[
+ ['metabolite_name','代谢物',46],['gene','基因',15],['mapping_status','映射层',12],['metabolite_p','代谢物配对P',17,pq],['metabolite_q','代谢物配对q',17,pq],['association_n','相关n',12,'0'],['association_rho','相关rho',14,num],['association_q','相关q',16,pq],['association_available_n','可用性n',13,'0'],['association_available_rho','可用性rho',16,num],['association_available_q','可用性q',16,pq],['same_association_input','两分析输入相同',20],['RNA_effect','RNA配对均值差',21,num],['RNA_p','RNA配对P',16,pq],['RNA_q','RNA配对q',16,pq],['RNA_test_family','RNA检验集合',24],['GSE263733_top_celltype','GSE263733首位来源',28],['GSE278688_top_celltype','GSE278688首位来源',28],['GSE242230_top_celltype','GSE242230首位来源',28],['cell_background','来源描述',31],['association_p','相关P',16,pq],['association_ci_lower','rho区间下限',18,num],['association_ci_upper','rho区间上限',18,num],['data_limitations','限制（完整代码）',80],['relation_id','关系编号',24]],'SOPRelations');
+const gc=[['gene','基因',17],['in_current_pool','当前直接池',17],['n_current_direct_relations','直接关系数',17,'0'],['n_conditional_relations','条件关系数',17,'0'],['n_historical_original42_relations','原42项历史关系数',22,'0'],['RNA_n','RNA配对数',16,'0'],['RNA_effect','RNA均值差',17,num],['RNA_p','RNA配对P',16,pq],['RNA_q','RNA配对q',16,pq],['RNA_test_family','RNA检验集合',24],['cell_background','来源描述',31]];
+for(const c of ['GSE263733','GSE278688','GSE242230'])gc.push([c+'_top_celltype',c+'首位来源',28],[c+'_runner_celltype',c+'次位来源',28],[c+'_top_detection_fraction',c+'首位检出率',25,'0.0%'],[c+'_bootstrap_top_frequency',c+'首位保持率',25,'0.0%']);
+table('基因比较','PDAC：687个基因的完整背景',d.identity_v4?'v4：恶性、正常上皮与身份未定导管分别保留。GSE242230按作者细分标签拆分350个正常细胞。':'当前直接池250个；其余条件或历史基因继续保留。单细胞仅描述表达来源。',d.genes,gc,'SOPGenes');
+if(d.identity_v4)table('恶性与正常来源','GSE242230：作者恶性与正常上皮来源','10783个作者恶性、350个作者正常上皮；全687基因均保留。描述性汇总，无差异检验P/q。',d.identity_profiles,[['gene','基因',18],['celltype','作者身份',32],['n','合格来源标签数',23,'0'],['n_cells_total','该类细胞总数',21,'0'],['n_cells_eligible','合格标签内细胞数',25,'0'],['effect','标签等权平均表达',25,num],['mean_detection_fraction','标签等权检出率',25,'0.0%'],['status','可评估状态',25],['reason','原因',65]],'SOPIdentity');
+table('RNA P小于005','配对RNA：当前直接池P<0.05的91项','250个当前基因中247项可评估。91项P<0.05，其中40项q<0.05。',d.RNA,[['gene','基因',17],['n','配对数',13,'0'],['n_up','肿瘤升高对数',18,'0'],['n_down','肿瘤降低对数',18,'0'],['n_equal','相等对数',15,'0'],['effect','均值差（作者尺度）',23,num],['ci_lower','t区间下限',18,num],['ci_upper','t区间上限',18,num],['p_value','配对P',16,pq],['q_value','配对q',16,pq],['evidence_tier','统计层级',20],['bootstrap_mean_lower','bootstrap区间下限',25,num],['bootstrap_mean_upper','bootstrap区间上限',25,num],['stable_gene_id','稳定基因ID',26]],'SOPRNAView');
+table('配对代谢物51项','配对代谢物：P<0.05的51项','全307项先做配对分析；这51项均未通过配对FDR，属于探索入口。',d.metabolites,[['metabolite_name','代谢物',46],['n','配对数',13,'0'],['n_up','肿瘤升高对数',18,'0'],['n_down','肿瘤降低对数',18,'0'],['n_equal','相等对数',15,'0'],['effect','均值差（作者尺度）',23,num],['p_value','配对P',16,pq],['q_value','配对q',16,pq],['available_n','双方原有值对数',21,'0'],['available_effect','原有值子集均值差',24,num],['available_p_value','原有值子集P',20,pq],['available_q_value','原有值子集q',20,pq],['missing_rate_tumor','肿瘤作者数据缺失率',25,'0.0%'],['missing_rate_normal','正常作者数据缺失率',25,'0.0%']], 'SOPMetabolites');
+const sh=wb.worksheets.add('方法与来源');sh.showGridLines=false;sh.tabColor='#84939D';sh.getRange('A1:C20').format={font:{name:'Microsoft YaHei',size:10},rowHeight:30,verticalAlignment:'center'};sh.getRange('A2').values=[['方法与证据边界']];sh.getRange('A2').format.font={size:16,bold:true,color:'#2C526B'};
+const base='https://github.com/Asukasssss/-/blob/analysis/pdac-initial/';const methods=[['项目','解释','来源'],['规范','按固定SOP执行，单细胞止于表达来源。','https://github.com/Asukasssss/-/blob/6dd0a73fb77a392e428254ad265b8710ce967c73/docs/CAMP_DISCOVERY_TO_CELL_SOURCE_SOP_CN.md'],['样本','11个作者明确配对；21个具有明确且互不重复病例键的肿瘤做内部相关。临床身份未重新认证。',base+'results/PDAC/01_CAMP/20260922T121000Z_sop_v3_discovery_complete/README_CN.md'],['代谢物','精确配对符号秩P复用，最低8对，新BH仅含可评估项。保留原10000次整对均值CI。','同上'],['相关','Spearman、9999次置换、4000次整单位bootstrap。直接/条件、主/可用性各自BH。',base+'results/PDAC/03_PATIENT/20260922T112700Z_sop_v3_patient/README_CN.md'],['配对RNA','连续作者芯片尺度做配对t及4000次整对bootstrap。250当前池和437补充池分别BH。',base+'results/PDAC/03_PATIENT/20260922T120300Z_sop_v3_internal/README_CN.md'],['单细胞','每细胞全基因库计数归一到10000后log1p，再按供者×类别均值，最后供者等权。',base+'results/PDAC/06_EXTERNAL/20260922T120400Z_sop_v3_source/README_CN.md'],['来源标签','每类≥3来源标签，各标签≥20细胞。80%保持率是1000次整标签bootstrap的描述指标。','同上'],['来源解释','最高表达类别不是唯一作用细胞；作者上皮/导管标签不等于确认恶性细胞。','同上'],['P与q','不同问题/集合分别校正；同队列选择后探索，不能把各节点BH当作项目总体错误率。','固定SOP'],['可用性','作者填补前data有限值掩码，不冒称原始质谱检出。相同输入不算独立验证。','固定SOP'],['完整表','本工作簿是阅读视图。原始完整字段、哈希、版本和缺项保留在GitHub。',base+'results/PDAC/07_INTEGRATION/20260922T121100Z_sop_v3_integrated/README_CN.md']];
+sh.getRange(`A5:C${4+methods.length}`).values=methods;sh.getRange('A5:C5').format={fill:'#2C526B',font:{color:'#FFFFFF',bold:true}};sh.getRange('A5:A16').format.columnWidth=18;sh.getRange('B5:B16').format.columnWidth=85;sh.getRange('C5:C16').format.columnWidth=75;sh.getRange('B6:C16').format.wrapText=true;sh.getRange('A6:C16').format.rowHeight=60;
+if(d.identity_v4){
+ for(const row of methods)for(let i=0;i<row.length;i++)if(typeof row[i]==='string')row[i]=row[i].replaceAll('20260922T120400Z_sop_v3_source',d.source_run).replaceAll('20260922T121100Z_sop_v3_integrated',d.integration_run);
+ methods[8][1]='GSE242230：作者细分恶性与正常上皮分开。其余两队列导管身份未定；未自行重跑CNV。';
+ sh.getRange(`A5:C${4+methods.length}`).values=methods;
+ const img=await wb.render({sheetName:'恶性与正常来源',range:'A1:H15',scale:1.4,format:'png'});await fs.writeFile(out+'/identity.png',new Uint8Array(await img.arrayBuffer()));
+}
+wb.recalculate();console.log((await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#NUM!|#SPILL!',options:{useRegex:true,maxResults:10},maxChars:1000})).ndjson);
+for(const [name,range,file] of [['关系比较','A1:H13','relations'],['基因比较','A1:J13','genes'],['RNA P小于005','A1:J13','RNA'],['配对代谢物51项','A1:H13','metabolites'],['方法与来源','A1:B16','methods']]){const img=await wb.render({sheetName:name,range,scale:1.4,format:'png'});await fs.writeFile(out+'/'+file+'.png',new Uint8Array(await img.arrayBuffer()));}
+const xlsx=await SpreadsheetFile.exportXlsx(wb);await xlsx.save(out+'/PDAC_SOP完整比较表.xlsx');console.log(JSON.stringify({exported:true,relations:d.relations.length,genes:d.genes.length,RNA_P005:d.RNA.length,metabolites:d.metabolites.length}));

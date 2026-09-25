@@ -1,0 +1,11 @@
+{
+  "gene": "SLC6A6",
+  "scope": "existing donor-equal source aggregates only",
+  "new_statistical_tests": 0,
+  "source_run": "20260922T131800Z_author_identity_v4",
+  "input_commit": "ca39350e0f31f93760ca32222e328d8d328d4aee",
+  "rank_by": "effect descending within each cohort",
+  "NA_policy": "retain in TSV; omit from quantitative plot",
+  "units": "author source labels; independent clinical donor identity not recertified",
+  "matplotlib_version": "3.11.2"
+}

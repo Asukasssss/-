@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "all51_accounted": true,
+  "unique_relation_keys": true,
+  "identity_holds_excluded": true,
+  "original_fields_retained": true,
+  "patient_statistics": "NOT_RUN",
+  "cached_source_hashes": "PASS",
+  "all_gene_count": 538,
+  "unique_planned_relations": 715,
+  "conditional_rows_deduplicated": true
+}

@@ -1,0 +1,8 @@
+cohort	celltype	n_cells	n_units
+GSE263733	Acinar cell	294	8
+GSE263733	B cell	2440	21
+GSE263733	Ductal cell	8598	21
+GSE263733	Endothelial cell	494	13
+GSE263733	Fibroblast	1151	20
+GSE263733	Myeloid	9381	21
+GSE263733	T cell	23790	21

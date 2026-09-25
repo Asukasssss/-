@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "tests": 3,
+  "scope": "Local synthetic unit tests;not server end-to-end reannotation",
+  "command": "python -m unittest discover -s code/pdac -p test_sc_source_three_cohorts_v1.py -v",
+  "test_file_sha256": "91a9861835a317e141dae4f82abf1966d71e83cfc2ed239d81155a99581d5ff6"
+}

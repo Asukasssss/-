@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "all362x2_rows_present": true,
+  "unique_RNA_resolution": true,
+  "fixed_M_BH_recomputed_locally_matches": true,
+  "frozen_effect_q_strings_preserved": true,
+  "server_script_hash_matches": true,
+  "patient_independence": "NOT_SEPARATELY_VERIFIED",
+  "identical_input_records_reused": 163,
+  "computable_identical_input_statistics_reused": 160
+}

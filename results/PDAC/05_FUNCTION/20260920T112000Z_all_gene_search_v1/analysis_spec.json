@@ -1,0 +1,11 @@
+{
+  "version": "PDAC_all289_function_search_v1",
+  "gene_count": 289,
+  "page_size": 5,
+  "query_scope": "TITLE_ABS symbol AND pancreatic/PDAC",
+  "retrieval_source": "Europe PMC REST",
+  "manual_review_records": 8,
+  "fulltext_review": "NOT_RUN",
+  "DepMap": "DEFERRED",
+  "limitation": "Symbol query is not exhaustive;hit count not functional validation"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "all30_pages_contact_sheet_inspected": true,
+  "first_dotplot_and_last_heatmap_fullsize_inspected": true,
+  "legend_overlap_found_and_fixed": true,
+  "rerendered_first_page_checked": true,
+  "all687_covered_once_per_kind": true,
+  "gray_is_missing_not_zero": true,
+  "files": 60
+}

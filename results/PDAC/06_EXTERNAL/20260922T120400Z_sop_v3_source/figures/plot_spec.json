@@ -1,0 +1,9 @@
+{
+  "status": "DONE",
+  "genes": 687,
+  "pages_per_kind": 15,
+  "figures": 30,
+  "normalization": "donor equal mean of cellwise log1p10k",
+  "no_significance_selection": true,
+  "matplotlib": "3.11.2"
+}

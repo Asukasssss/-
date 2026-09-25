@@ -1,0 +1,35 @@
+{
+  "tumor_units": 21,
+  "RNA_pairs": 11,
+  "relations": 715,
+  "genes": 538,
+  "paired_RNA_evaluable": 528,
+  "paired_RNA_P_lt005": 180,
+  "paired_RNA_q_lt005": 55,
+  "families": {
+    "CONDITIONAL_availability": {
+      "planned": 358,
+      "evaluable": 342,
+      "P_lt005": 38,
+      "q_lt005": 3
+    },
+    "CONDITIONAL_primary": {
+      "planned": 358,
+      "evaluable": 350,
+      "P_lt005": 53,
+      "q_lt005": 4
+    },
+    "DIRECT_availability": {
+      "planned": 357,
+      "evaluable": 342,
+      "P_lt005": 40,
+      "q_lt005": 1
+    },
+    "DIRECT_primary": {
+      "planned": 357,
+      "evaluable": 354,
+      "P_lt005": 65,
+      "q_lt005": 1
+    }
+  }
+}
