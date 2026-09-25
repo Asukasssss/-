@@ -7,7 +7,7 @@ ROOT=Path('/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716')
 PRIOR=ROOT/'results/collaborative/COAD/B/20260925T140257Z_uckl1_cna_v1'
 sys.path.insert(0,str(PRIOR))
 from run_uckl1_cna_v1 import build_labels,sha
-ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();out=a.out;pub=out/'public'
+ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);ap.add_argument('--reuse-extracted',action='store_true');a=ap.parse_args();out=a.out;pub=out/'public'
 assert out.parent==ROOT/'results/collaborative/COAD/B' and (out/'.running').is_dir()
 spec=json.loads((out/'analysis_spec.json').read_text());assert spec['min_cells_per_group']==20
 j,paths,_,audit=build_labels()
@@ -36,8 +36,14 @@ source=ROOT/'data/candidates/coad_uhlitz_20260921/counts.tar'
 oldval=ROOT/'results/collaborative/COAD/B/20260922T141755Z_source_contract_sc_v2/public/extraction_validation.json'
 assert sha(source)==json.loads(oldval.read_text())['source_hashes']['counts.tar']
 genes=None;bulk=None;seen=set();summed=np.zeros(len(samples),dtype=np.int64)
+if a.reuse_extracted:
+    cached=pd.read_csv(out/'private_pseudobulk_counts.tsv',sep='\t',index_col=0)
+    assert list(cached.columns)==list(samples['sample']) and cached.index.is_unique
+    assert np.array_equal(cached.sum(axis=0).to_numpy(),sel.groupby('pb').total.sum().reindex(samples['sample']).to_numpy())
+    assert np.array_equal(cached.loc['LYPLA1'].to_numpy(),sel.groupby('pb')['count'].sum().reindex(samples['sample']).to_numpy())
+    genes=list(cached.index);bulk=cached.to_numpy();seen=set(sel.cell_id)
 with tarfile.open(source) as tar:
-    for member in tar.getmembers():
+    for member in ([] if a.reuse_extracted else tar.getmembers()):
         if not member.isfile():continue
         stream=io.TextIOWrapper(gzip.GzipFile(fileobj=tar.extractfile(member)))
         header=stream.readline().rstrip('\r\n').split('\t');assert header[0]=='gene'
@@ -59,7 +65,9 @@ with tarfile.open(source) as tar:
 assert seen==set(sel.cell_id) and len(set(genes))==len(genes)
 pd.DataFrame(bulk,index=genes,columns=samples['sample']).to_csv(out/'private_pseudobulk_counts.tsv',sep='\t',index_label='gene')
 url='https://reactome.org/download/current/ReactomePathways.gmt.zip'
-urllib.request.urlretrieve(url,out/'reactome_source.zip')
+if not (out/'reactome_source.zip').exists():
+    request=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+    with urllib.request.urlopen(request,timeout=120) as response:(out/'reactome_source.zip').write_bytes(response.read())
 with zipfile.ZipFile(out/'reactome_source.zip') as z:
     members=[n for n in z.namelist() if n.endswith('.gmt')];assert len(members)==1
     (out/'reactome.gmt').write_bytes(z.read(members[0]))
