@@ -48,7 +48,8 @@ def main():
             fig.subplots_adjust(left=.12,right=.9,bottom=.12,top=.91,wspace=.12);ca=fig.add_axes([.92,.3,.015,.35]);fig.colorbar(plt.cm.ScalarMappable(norm=norm,cmap=cmap),cax=ca,label='Mean log1p(CP10k)');pdf.savefig(fig);fig.savefig(F/f'GBM_CARE_sources_page{page}.png',dpi=160);plt.close(fig)
     # Within-gene scaled heatmap: relative sources, not cross-gene abundance.
     mainprof=prof[prof.cohort.eq('CARE2025_primary')];mat=mainprof.pivot(index='gene',columns='celltype',values='effect').reindex(index=ordered,columns=types);scaled=mat.div(mat.max(axis=1).replace(0,np.nan),axis=0)
-    fig,ax=plt.subplots(figsize=(9,28));im=ax.imshow(scaled,aspect='auto',vmin=0,vmax=1,cmap='viridis');ax.set_xticks(range(len(types)),types,rotation=60,ha='right');ax.set_yticks(range(len(ordered)),ordered,fontsize=6);ax.set_title('CARE 2025 primary | all 142 genes\nWithin-gene relative patient-equal expression');fig.colorbar(im,ax=ax,fraction=.025,pad=.02,label='Mean / gene maximum');fig.tight_layout();fig.savefig(F/'GBM_CARE_primary_all142_heatmap.pdf');fig.savefig(F/'GBM_CARE_primary_all142_heatmap.png',dpi=160);plt.close(fig)
+    heatmap_cmap=plt.get_cmap('viridis').copy();heatmap_cmap.set_bad('#dddddd')
+    fig,ax=plt.subplots(figsize=(9,28));im=ax.imshow(scaled,aspect='auto',vmin=0,vmax=1,cmap=heatmap_cmap);ax.set_xticks(range(len(types)),types,rotation=60,ha='right');ax.set_yticks(range(len(ordered)),ordered,fontsize=6);ax.set_title('CARE 2025 primary | all 142 genes\nWithin-gene relative patient-equal expression; gray: not evaluable');fig.colorbar(im,ax=ax,fraction=.025,pad=.02,label='Mean / gene maximum');fig.tight_layout();fig.savefig(F/'GBM_CARE_primary_all142_heatmap.pdf');fig.savefig(F/'GBM_CARE_primary_all142_heatmap.png',dpi=160);plt.close(fig)
     ly=prof[prof.gene.eq('LYPLA1')];save(ly,O/'LYPLA1_CARE_profiles.tsv')
     fig,axes=plt.subplots(1,2,figsize=(13,5),sharey=True,sharex=True)
     for ax,study in zip(axes,studies):

@@ -4,6 +4,9 @@ shard <- if (length(args)>=2) as.integer(args[2]) else 0L
 nshards <- if (length(args)>=3) as.integer(args[3]) else 1L
 stopifnot(file.exists(file.path(out,'.running')))
 meta <- readRDS(file.path(out,'source/celltype_meta_data_2025_01_08.RDS'))
+if (shard==0L && !file.exists(file.path(out,'private/CARE_author_cell_metadata.tsv'))) {
+  write.table(meta,file.path(out,'private/CARE_author_cell_metadata.tsv'),sep='\t',quote=FALSE,row.names=FALSE)
+}
 genes <- read.delim(file.path(out,'source/genes_unique.tsv'),check.names=FALSE)$gene
 files <- read.delim(file.path(out,'source/CARE_filelist.txt'),check.names=FALSE,comment.char='')
 files <- files[files[[1]]=='File',]
