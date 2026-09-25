@@ -1,0 +1,17 @@
+{
+  "status": "DONE",
+  "mapping_scope": "bounded_exact_reuse_not_exhaustive",
+  "work_features": 424,
+  "direct_features": 47,
+  "relations": 125,
+  "genes": 94,
+  "history_union_genes": 96,
+  "history_only_genes": [
+    "NAGK",
+    "PGM3"
+  ],
+  "unmapped_features": 377,
+  "unique_keys": true,
+  "statistics_transferred": false,
+  "stable_gene_ID_complete": true
+}
