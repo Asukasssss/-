@@ -1,0 +1,13 @@
+{
+  "status": "DONE",
+  "mapped_author_cases": 80,
+  "master_TN_matches_explicit_CPTAC_loader": 80,
+  "processed_sampleanno_conflicts": 6,
+  "conflict_resolution": "CAMP explicit master TN retained; independent CPTAC maintained package explicit PT tissue rule corroborates; derived sampleanno GROUP not used",
+  "source_loader_url": "https://raw.githubusercontent.com/PayneLab/cptac/v0.9.7/cptac/gbm.py",
+  "source_loader_sha256": "10769ec041b5f03add366e7b9ab514b5cfa91145e7a8cdda8f76b5e0315a9dd0",
+  "paired_design": false,
+  "normal_reference": "unmatched GTEx normal brain per Wang2021",
+  "original_files_modified": false,
+  "genotype_verification": false
+}

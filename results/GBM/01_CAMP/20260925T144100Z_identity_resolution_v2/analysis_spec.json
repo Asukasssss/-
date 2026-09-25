@@ -1,0 +1,7 @@
+{
+  "version": "gbm_identity_RNA_v2",
+  "code_commit": "0ceba0d1acaafb3aeb8b4ef9bb853d56c6f3cdeb",
+  "rule": "sample_status_col = np.where(clinical.index.str.startswith(\"PT\"), \"Normal\", \"Tumor\")",
+  "decision": "follow explicit CAMP tissue labels independently corroborated by maintained CPTAC loader;do not infer pairing from any ID",
+  "supersedes_interpretation": "v1 normal conflict flag;v1 files preserved unchanged"
+}

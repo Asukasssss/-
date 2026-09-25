@@ -1,0 +1,30 @@
+{
+  "version": "gbm_patient_v1",
+  "code_commit": "96e8fc05af4e1a93ac79195baa2d91b7ec32134a",
+  "planned_relations": 171,
+  "planned_genes": 142,
+  "tumor_cases": 74,
+  "normal_specimens_used": 0,
+  "families": [
+    "REL_TUMOR_PRIMARY",
+    "REL_TUMOR_AVAILABLE",
+    "REL_TUMOR_PATH_PASS",
+    "REL_TUMOR_AGE_SEX"
+  ],
+  "primary": "unaltered author metabolite scale versus unaltered author TPM;Spearman;9999 permutation plus1;4000 case bootstrap",
+  "pathology_sensitivity": "explicit original expert_path_review PASS only",
+  "age_sex": "complete age,sex;partial rank residual Pearson;approx t n-4,not exact permutation;separate BH",
+  "minimum_n": 8,
+  "master_seed": 20260925,
+  "seed_derivation": "SHA256(version|20260925|family|relation_id) first8hex",
+  "RNA_background_status": "NOT_EVALUABLE:no paired normals and unresolved normal tissue labels;TPM not tested as raw counts",
+  "same_cohort_postselection": true,
+  "normal_discovery_gate": "conditional;normal labels conflict",
+  "mask_semantics": "author_available_value_mask",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  }
+}

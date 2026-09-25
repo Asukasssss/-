@@ -1,0 +1,22 @@
+{
+  "version": "gbm_identity_RNA_v2",
+  "code_commit": "0ceba0d1acaafb3aeb8b4ef9bb853d56c6f3cdeb",
+  "genes_planned": 142,
+  "primary": "two-sided Welch t on log2(author_TPM+1);analytic Welch mean-difference CI and4000 separate-group bootstrap",
+  "transform_reason": "author TPM is nonnegative unlogged normalized abundance; log2(TPM+1) predeclared for exploratory continuous RNA background; not a raw-count differential model",
+  "effect": "mean log2(TPM+1) tumor-minus-normal difference;not exact log2 fold-change",
+  "design": "unpaired;74 tumor versus6 GTEx reference",
+  "minimum_group_n": 5,
+  "minimum_group_reason": "small normal reference;explicit exploratory unpaired adaptation;not paired n8 requirement",
+  "sensitivity": "OLS log2(TPM+1) ~ tissue + age + sex;HC3 robust covariance with residual-df t;complete cases and full rank required",
+  "families": [
+    "RNA_UNPAIRED_CURRENT",
+    "RNA_UNPAIRED_AGE_SEX"
+  ],
+  "BH": "separate all evaluable142 candidates in each family",
+  "normal_conflict_resolved_by": "cptac_v0.9.7_gbm.py",
+  "master_seed": 20260925,
+  "bootstrap": 4000,
+  "paired_RNA": "NOT_EVALUABLE_no_matched_normal_design",
+  "limitation": "cohort/source and tissue confounded;not formal validation;TPM is compositional;current candidate selection from same cohort"
+}

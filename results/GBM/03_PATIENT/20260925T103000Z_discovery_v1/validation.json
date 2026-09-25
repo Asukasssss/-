@@ -1,0 +1,34 @@
+{
+  "status": "PARTIAL",
+  "families": {
+    "REL_TUMOR_AGE_SEX": {
+      "planned": 171,
+      "evaluable": 168,
+      "P005": 13,
+      "q005": 0
+    },
+    "REL_TUMOR_AVAILABLE": {
+      "planned": 171,
+      "evaluable": 168,
+      "P005": 14,
+      "q005": 0
+    },
+    "REL_TUMOR_PATH_PASS": {
+      "planned": 171,
+      "evaluable": 168,
+      "P005": 10,
+      "q005": 0
+    },
+    "REL_TUMOR_PRIMARY": {
+      "planned": 171,
+      "evaluable": 168,
+      "P005": 14,
+      "q005": 0
+    }
+  },
+  "Spearman_independent_check": true,
+  "BH_independent_check": true,
+  "no_normal_values_used": true,
+  "RNA_test_not_run": true,
+  "original_statistics_modified": false
+}

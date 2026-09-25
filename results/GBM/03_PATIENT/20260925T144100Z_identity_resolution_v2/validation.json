@@ -1,0 +1,22 @@
+{
+  "status": "DONE",
+  "families": {
+    "RNA_UNPAIRED_AGE_SEX": {
+      "planned": 142,
+      "evaluable": 139,
+      "P005": 87,
+      "q005": 81
+    },
+    "RNA_UNPAIRED_CURRENT": {
+      "planned": 142,
+      "evaluable": 139,
+      "P005": 85,
+      "q005": 75
+    }
+  },
+  "BH_independent_check": true,
+  "Welch_independent_check": true,
+  "normal_identity_source_resolved": true,
+  "paired_RNA": "NOT_EVALUABLE",
+  "original_statistics_modified": false
+}
