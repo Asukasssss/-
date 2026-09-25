@@ -10,7 +10,9 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();out=a.out
 d=pd.read_csv(out/'results.tsv',sep='\t');o=pd.read_csv(out/'reactome_ORA.tsv',sep='\t');g=pd.read_csv(out/'reactome_GSEA.tsv',sep='\t');v=json.loads((out/'validation.json').read_text())
-sel=(d.p_value<.05)&(d.log2FC.abs()>=.5)
+spec=json.loads((out/'analysis_spec.json').read_text());cutoff=spec.get('min_abs_log2FC',.5)
+selected_n=v['selected_high']+v['selected_low']
+sel=(d.p_value<.05)&(d.log2FC.abs()>=cutoff)
 assert sel.sum()==v['selected_high']+v['selected_low'] and (d.p_value<.05).sum()==v['gene_P_below_05']
 assert np.allclose(hypergeom.sf(o.overlap-1,o.background_genes,o.pathway_tested_genes,o.selected_genes),o.p_value,rtol=1e-10,atol=1e-15)
 assert d.q_value.isna().all() and 'padj' not in g and 'q_value' not in o and 'LYPLA1' not in set(d.gene)
@@ -30,9 +32,9 @@ plt.rcParams['font.family']='Microsoft YaHei'
 fig,ax=plt.subplots(figsize=(9,6));colors=np.where(sel,np.where(d.log2FC>0,'#c86639','#397f9b'),'#bbc0c5')
 ax.scatter(d.log2FC,-np.log10(d.p_value.clip(lower=1e-300)),c=colors,s=9,alpha=.65,rasterized=True)
 ax.axhline(-np.log10(.05),c='gray',ls='--',lw=.8)
-for x in [-.5,.5]:ax.axvline(x,c='gray',ls='--',lw=.8)
-for _,r in d[sel].nsmallest(8,'p_value').iterrows():ax.annotate(r.gene,(r.log2FC,-np.log10(r.p_value)),fontsize=8,xytext=(4,4),textcoords='offset points')
-ax.set(xlabel='log2倍数变化（LYPLA1高 / 低）',ylabel='−log10(原始P)',title=f'LYPLA1阳性CNA上皮｜供者内高低表达比较\nP<0.05且|log2FC|≥0.5：高组较高{v["selected_high"]}个，较低{v["selected_low"]}个')
+for x in [-cutoff,cutoff]:ax.axvline(x,c='gray',ls='--',lw=.8)
+for _,r in d[sel].nsmallest(6,'p_value').iterrows():ax.annotate(r.gene,(r.log2FC,-np.log10(r.p_value)),fontsize=8,xytext=(4,4),textcoords='offset points')
+ax.set(xlabel='log2倍数变化（LYPLA1高 / 低）',ylabel='−log10(原始P)',title=f'LYPLA1阳性CNA上皮｜供者内高低表达比较\nP<0.05且|log2FC|≥{cutoff:g}：高组较高{v["selected_high"]}个，较低{v["selected_low"]}个')
 fig.tight_layout();fig.savefig(out/'differential_P.png',dpi=180);plt.close(fig)
 fig,axes=plt.subplots(1,2,figsize=(17,7))
 for ax,direction,title,color in zip(axes,['higher_in_LYPLA1_high','lower_in_LYPLA1_high'],['高组较高基因的通路富集','高组较低基因的通路富集'],['#c86639','#397f9b']):
@@ -56,7 +58,7 @@ txt=f'''# COAD：LYPLA1高低表达分组差异与通路（原始P口径）
 
 Uhlitz GSE166555原作者CNA肿瘤上皮；沿用来源冲突供者排除规则。4,477个CNA细胞中2,549个检出LYPLA1；仅在阳性细胞内，按各供者的log1p(CP10K)中位数分为高（严格大于中位数）、低（其余）组。每组至少20细胞，1位供者不足，最终8位供者、2,528细胞，高1,262、低1,266。1,928个零计数不混入低组。
 
-全基因源计数21,854项，过滤后11,058项进入edgeR供者配对伪合并比较（TMM、稳健QL，`~patient+group`），LYPLA1自身排除。主筛选P<0.05，另保留|log2FC|≥0.5作为效应门槛；完整P<0.05清单也单独提供。深度敏感性加入每个供者组别的平均UMI对数，不作为挑选主模型的依据。方法见[Bioconductor](https://www.bioconductor.org/books/3.19/OSCA.multisample/multi-sample-comparisons.html)。
+全基因源计数21,854项，过滤后11,058项进入edgeR供者配对伪合并比较（TMM、稳健QL，`~patient+group`），LYPLA1自身排除。主筛选P<0.05，另保留|log2FC|≥{cutoff:g}作为效应门槛；完整P<0.05清单也单独提供。深度敏感性加入每个供者组别的平均UMI对数，不作为挑选主模型的依据。方法见[Bioconductor](https://www.bioconductor.org/books/3.19/OSCA.multisample/multi-sample-comparisons.html)。
 
 ## 实际结果
 
@@ -68,7 +70,7 @@ Uhlitz GSE166555原作者CNA肿瘤上皮；沿用来源冲突供者排除规则�
 |---|---:|---:|---:|
 {table}
 
-[Reactome人通路](https://reactome.org/download-data)按实际可检验基因取交集后，15–500基因的通路共{v['pathways_tested']}条。ORA以上述131个基因为输入、高低方向分别分析，全部11,058个可检验基因为背景；两方向合计{v['ORA_P05']}个条目P<0.05。GSEA复用全基因排序，{v['GSEA_P05']}条P<0.05，高组端{v['GSEA_high_P05']}条、低组端{v['GSEA_low_P05']}条。两种方法不是独立证据，不相加计数。
+[Reactome人通路](https://reactome.org/download-data)按实际可检验基因取交集后，15–500基因的通路共{v['pathways_tested']}条。ORA以上述{selected_n}个基因为输入、高低方向分别分析，全部11,058个可检验基因为背景；两方向合计{v['ORA_P05']}个条目P<0.05。GSEA复用全基因排序，{v['GSEA_P05']}条P<0.05，高组端{v['GSEA_high_P05']}条、低组端{v['GSEA_low_P05']}条。GSEA使用全排序，不随本次效应门槛改变。两种方法不是独立证据，不相加计数。
 
 ![通路](reactome_ORA_P.png)
 
@@ -80,17 +82,17 @@ Uhlitz GSE166555原作者CNA肿瘤上皮；沿用来源冲突供者排除规则�
 
 ORA回答选出的差异基因是否较多落在某通路；GSEA使用全部基因的带方向排序，正NES偏高组、负NES偏低组。通路命中和leadingEdge基因并非同一概念，后者不要求每个基因单独P<0.05。
 
-完整文件：`all_genes_P05.tsv`（全部945项）、`selected_genes.tsv`（加效应阈值131项）、`results.tsv`（11,058项含敏感性）、`reactome_ORA.tsv`、`reactome_GSEA.tsv`、`pathway_gene_links.tsv`（每条P<0.05 ORA通路的具体基因与各自统计）。统一结果表的q列为NA，仅维持跨癌字段，旧q不用于本版；历史原文件未覆盖。
+完整文件：`all_genes_P05.tsv`（全部945项）、`selected_genes.tsv`（加效应阈值{selected_n}项）、`results.tsv`（11,058项含敏感性）、`reactome_ORA.tsv`、`reactome_GSEA.tsv`、`pathway_gene_links.tsv`（每条P<0.05 ORA通路的具体基因与各自统计）。统一结果表的q列为NA，仅维持跨癌字段，旧q不用于本版；历史原文件未覆盖。
 
 ## 限制/反证
 
-本版全部按未校正P探索。很多条目只由2–4个共享基因支持，例如NMU/KISS1/PPBP会出现在多个GPCR条目，不能把这些条目当作不同机制的重复支持。GSEA低组端的多个翻译/核糖体条目共享大量RPL/RPS基因；不能据命名推断病毒感染、氨基酸缺乏或具体通路活性。
+本版全部按未校正P探索。通路可由少数共享基因支持，例如NMU/KISS1/PPBP会出现在多个GPCR条目，不能把这些条目当作不同机制的重复支持。GSEA低组端的多个翻译/核糖体条目共享大量RPL/RPS基因；不能据命名推断病毒感染、氨基酸缺乏或具体通路活性。
 
 高组总UMI中位数9,502，低组13,027.5，分组与深度有联系；敏感性也不能排除全部混杂。部分基因仅少数供者检出，完整表保留供者差值方向数，不能只看最小P。肿瘤上皮内仍可能有克隆、周期、分化及背景RNA差异。CNA是作者RNA推断，不是逐细胞DNA认证；本分析是表达关联，未做LYPLA1干预或代谢测量。
 
 ## 当前决定
 
-交付原始P口径的差异基因、通路及命中基因清单。保留全量与深度敏感性，不把131个基因或35个通路自动升级为LYPLA1下游靶点。
+交付原始P口径的差异基因、通路及命中基因清单。保留全量与深度敏感性，不把{selected_n}个基因或{v['ORA_P05']}个通路自动升级为LYPLA1下游靶点。
 
 ## 下一步
 
@@ -98,7 +100,7 @@ ORA回答选出的差异基因是否较多落在某通路；GSEA使用全部基�
 
 ## 复现命令
 
-原始配对差异脚本`analyze_lypla1_highlow_v1.R`与分组参数已版本化；本次在server165新独占目录运行`review_lypla1_highlow_nominal_v2.py --out <新目录>`，复用旧效应、P和GSEA，按新基因列表计算ORA。本地`report_lypla1_highlow_nominal_v2.py --out <结果目录>`独立核查超几何P和计数后绘图。患者/细胞数据与Reactome源文件留服务器；只发布汇总。
+原始配对差异脚本`analyze_lypla1_highlow_v1.R`与分组参数已版本化；本次在server165新独占目录运行`review_lypla1_highlow_nominal_v2.py --out <新目录> --min-logfc {cutoff:g} --analysis-version {spec['analysis_version']}`，复用旧效应、P和GSEA，按新基因列表计算ORA。本地`report_lypla1_highlow_nominal_v2.py --out <结果目录>`独立核查超几何P和计数后绘图。患者/细胞数据与Reactome源文件留服务器；只发布汇总。
 '''
 (out/'README_CN.md').write_text(txt,encoding='utf-8',newline='\n')
 (out/'arithmetic_validation.json').write_text(json.dumps(dict(status='PASS',ORA_hypergeometric_P=True,selection_counts=True,no_new_FDR=True),indent=2)+'\n',encoding='utf-8')
