@@ -14,17 +14,21 @@ def main(out,commit):
     for c in s.select_dtypes('object'):s[c]=s[c].str.strip()
     assert s['Sample ID'].is_unique and s['IDH mutation status'].eq('IDHwt').all()
     s['partition']=np.where(s['Primary or recurrent'].eq('Primary'),'CARE2025_primary','CARE2025_recurrent')
+    pretreatment=s['Primary or recurrent'].eq('Primary')&~(s['Radiation before the surgery'].eq('No')&s['Alkylate agents before the surgery'].eq('No'))
+    s.loc[pretreatment,'partition']='EXCLUDED_previously_treated_primary'
+    assert pretreatment.sum()==1
     m=pd.read_csv(out/'private/CARE_author_cell_metadata.tsv',sep='\t');assert m.CellID.is_unique
     m=m.merge(s,left_on='ID',right_on='Sample ID',validate='many_to_one');assert len(m)==429305 and m['Patient ID'].notna().all()
     fs=sorted((out/'private/sample_sums').glob('*.tsv'));assert len(fs)==121
     raw=pd.concat([pd.read_csv(f,sep='\t') for f in fs]);assert set(raw.cell_type)<=set(MAP)
     raw['celltype']=raw.cell_type.map(MAP)
     raw=raw.merge(s[['Sample ID','Patient ID','partition']],left_on='sample_id',right_on='Sample ID',validate='many_to_one')
+    raw=raw[~raw.partition.str.startswith('EXCLUDED')]
     # Multiple recurrent specimens from the same patient are pooled within that patient.
     d=raw.groupby(['partition','Patient ID','celltype','gene'],sort=True).agg(n_cells=('n_cells','sum'),sum_expression=('sum_expression',lambda x:x.sum(min_count=len(x))),sum_detected=('sum_detected',lambda x:x.sum(min_count=len(x))),measured=('measured','all')).reset_index()
     d['mean_expression']=d.sum_expression/d.n_cells;d['detection']=d.sum_detected/d.n_cells
     save(d,out/'private/sc_donor_profiles_private.tsv')
-    spec=dict(version=V,code_commit=commit,cohort='CARE 2025 GSE274546;one biological cohort',primary='author Primary status;IDHwt',recurrence='same cohort contextual sensitivity;not independent replication;pool repeated specimens within patient',minimum_cells_per_donor_category=20,minimum_distinct_donors_per_category=3,minimum_categories_for_rank=2,minimum_detection_for_rank=.01,bootstrap=1000,seed=20260925,normalization='log1p(10000*count/full33538_gene_library);nonnegative integer UMI',annotation='author CellType and post-QC barcode list;no reclustering;Other excluded from source ranking',gene_match='exact unique gene symbol;no imputation',statistical_unit='author Patient ID;donor equal after within-patient pooling',P_q='NA;descriptive only',selected_before_expression='2025 large IDHwt multi-center cohort with processed counts,author annotations,explicit patient and timepoint mapping')
+    spec=dict(version=V,code_commit=commit,cohort='CARE 2025 GSE274546;one biological cohort',primary='author Primary status;IDHwt;explicit No preoperative radiation AND No alkylating agents;exclude1 treated primary795nuclei before inspecting expression',recurrence='same cohort contextual sensitivity;not independent replication;pool repeated specimens within patient',minimum_cells_per_donor_category=20,minimum_distinct_donors_per_category=3,minimum_categories_for_rank=2,minimum_detection_for_rank=.01,bootstrap=1000,seed=20260925,normalization='log1p(10000*count/full33538_gene_library);nonnegative integer UMI',annotation='author CellType and post-QC barcode list;no reclustering;Other excluded from source ranking',gene_match='exact unique gene symbol;no imputation',statistical_unit='author Patient ID;donor equal after within-patient pooling',P_q='NA;descriptive only',selected_before_expression='2025 large IDHwt multi-center cohort with processed counts,author annotations,explicit patient and timepoint mapping')
     (pub/'analysis_spec.json').write_text(json.dumps(spec,indent=2))
     profiles=[];ranks=[];registry=[];coverage=[]
     for pi,part in enumerate(['CARE2025_primary','CARE2025_recurrent']):
@@ -61,7 +65,7 @@ def main(out,commit):
     comp=rank[rank.study.eq('CARE2025_primary')][['gene','top_celltype','bootstrap_top_frequency','status']].merge(rank[rank.study.eq('CARE2025_recurrent')][['gene','top_celltype','bootstrap_top_frequency','status']],on='gene',suffixes=('_primary','_recurrent'),validate='one_to_one')
     comp['same_top']=np.where(comp.status_primary.eq('DONE')&comp.status_recurrent.eq('DONE'),comp.top_celltype_primary.eq(comp.top_celltype_recurrent).astype(float),np.nan);comp['comparison_type']='same_cohort_partitions_not_independent_replication';save(comp,pub/'sc_partition_comparison.tsv')
     audits=pd.concat([pd.read_csv(f,sep='\t') for f in (out/'private/sample_sums').glob('*.audit')]);assert audits.author_qc_cells.sum()==429305 and (audits.author_qc_cells==audits.exact_barcode_matches).all()
-    val=dict(status='DONE',samples=121,patients=59,author_qc_cells=429305,unique_barcodes=True,exact_metadata_join=True,source_counts_cells=int(audits.source_cells.sum()),all142_retained=True,partitions=registry,minimum_full_library=int(audits.min_library.min()),P_q_all_missing=bool(prof.p_value.isna().all() and prof.q_value.isna().all()),new_clustering=False,independent_replication=False)
+    val=dict(status='DONE',samples=121,patients=59,author_qc_cells=429305,excluded_previously_treated_primary_samples=1,excluded_previously_treated_primary_nuclei=795,unique_barcodes=True,exact_metadata_join=True,source_counts_cells=int(audits.source_cells.sum()),all142_retained=True,partitions=registry,minimum_full_library=int(audits.min_library.min()),P_q_all_missing=bool(prof.p_value.isna().all() and prof.q_value.isna().all()),new_clustering=False,independent_replication=False)
     (pub/'validation.json').write_text(json.dumps(val,indent=2));print(json.dumps(val),flush=True)
     save(pd.DataFrame([dict(source_id=p.name,server_relative_path=str(p.relative_to(out)),sha256=sha(p)) for p in [out/'source/celltype_meta_data_2025_01_08.RDS',out/'source/spitzer_supptable1.xlsx',out/'source/genes_unique.tsv',out/'private/CARE_source_file_manifest.tsv']]),pub/'source_manifest.tsv')
     save(pd.DataFrame([dict(file=p.name,sha256=sha(p)) for p in pub.iterdir() if p.is_file()]),pub/'checksums.tsv')

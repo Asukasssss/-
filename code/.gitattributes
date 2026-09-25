@@ -1,2 +1,3 @@
 # GBM scripts are hashed and copied byte-for-byte to server165.
 gbm_*.py -text
+gbm_*.R -text
