@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "old_DE_hashes_verified": 4,
+  "no_DE_refit": true,
+  "target_excluded": true,
+  "independent_enrichment_checks": 88,
+  "audit_limit": "Selected ES and ORA P checked; permutation NES/FDR not independently rerun",
+  "figure_review": "PASS lipid ORA panel"
+}

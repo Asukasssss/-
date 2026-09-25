@@ -1,0 +1,5 @@
+cohort	contrast	n_high	n_reference	tested_genes	GSEA_terms	GSEA_nominal_P_lt05	ORA_terms_both_directions	ORA_nominal_P_lt05
+Wu2021	high_vs_low_detected	7222	7222	14558	292	83	584	91
+Wu2021	high_vs_zero	7222	10045	14558	292	44	584	68
+Pal2021_reprocessed	high_vs_low_detected	25622	25623	13204	288	55	576	93
+Pal2021_reprocessed	high_vs_zero	25622	78833	13204	288	104	576	90

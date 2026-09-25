@@ -1,0 +1,43 @@
+{
+  "version": "LYPLA1_KEGG_enrichment_v1",
+  "parent_run": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260925T151104Z_lypla1_highlow_v1/public",
+  "parent_commit": "090c8aa4b746871830a8e41a285491db19cac5bd",
+  "library": "KEGG_2021_Human via Enrichr, fixed 2021 snapshot, not current KEGG release",
+  "contrasts": [
+    "high_vs_low_detected",
+    "high_vs_zero"
+  ],
+  "cohorts": [
+    "Wu2021",
+    "Pal2021_reprocessed"
+  ],
+  "DE": "Reuse frozen full tables unchanged; no new DE/grouping",
+  "GSEA": "all tested genes signed Welch t rank; gene-set permutations1000; weight1; seed20260925; sizes15..500",
+  "ORA": "up/down P<0.05 and descriptive log2ratio>=0.25 or <=-0.25; full tested gene universe; hypergeometric right tail; sizes15..500",
+  "LYPLA1_excluded": true,
+  "nominalP_focus": true,
+  "multiplicity": "ORA BH all up/down KEGG terms per contrast and joint4; GSEA original empirical FDR; no mixing with prior GO/Reactome q",
+  "lipid_display_terms": [
+    "Glycerophospholipid metabolism",
+    "Glycerolipid metabolism",
+    "Fatty acid metabolism",
+    "Fatty acid biosynthesis",
+    "Fatty acid elongation",
+    "Fatty acid degradation",
+    "Biosynthesis of unsaturated fatty acids",
+    "Sphingolipid metabolism",
+    "Ether lipid metabolism",
+    "Steroid biosynthesis",
+    "Primary bile acid biosynthesis",
+    "Cholesterol metabolism",
+    "Choline metabolism in cancer",
+    "PPAR signaling pathway",
+    "Adipocytokine signaling pathway"
+  ],
+  "software": {
+    "gseapy": "1.0.4",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3"
+  },
+  "limitation": "Pooled-cell exploratory; inherited donor/subtype/depth imbalance; no metabolic flux or causal inference"
+}

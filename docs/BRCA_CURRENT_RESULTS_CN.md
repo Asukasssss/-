@@ -1,3 +1,5 @@
+最新补充：[LYPLA1高低表达KEGG富集](../results/BRCA/06_EXTERNAL/20260925T155250Z_lypla1_KEGG_enrichment_v1/README_CN.md)。甘油磷脂上调基因ORA两队列名义P支持，完整排序GSEA未支持整体增强；不重算差异表。
+
 最新补充：[LYPLA1高低表达差异与富集](../results/BRCA/06_EXTERNAL/20260925T151104Z_lypla1_highlow_v1/README_CN.md)。两队列4项比较均完成；翻译相关负向信号较一致，Wu脂质线索未获Pal同样支持，深度和亚型构成不平衡。
 
 最新补充：[SLC6A6细胞表达比较](../results/BRCA/06_EXTERNAL/20260925T144457Z_slc6a6_cellcomparison_v1/README_CN.md)：Wu恶性/非恶性平均CP10k=0.52倍，检出6.32%/7.23%；不支持癌上皮高表达。

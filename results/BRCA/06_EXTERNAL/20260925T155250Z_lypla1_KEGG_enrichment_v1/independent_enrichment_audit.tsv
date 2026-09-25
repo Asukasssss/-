@@ -1,0 +1,89 @@
+cohort	contrast	type	pathway	status
+Wu2021	high_vs_low_detected	GSEA_ES	ABC transporters	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Axon guidance	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Cocaine addiction	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Fc epsilon RI signaling pathway	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Growth hormone synthesis, secretion and action	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Leukocyte transendothelial migration	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Non-alcoholic fatty liver disease	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Phospholipase D signaling pathway	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Retrograde endocannabinoid signaling	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	Thermogenesis	PASS
+Wu2021	high_vs_low_detected	GSEA_ES	mTOR signaling pathway	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	ABC transporters	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Cocaine addiction	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Growth hormone synthesis, secretion and action	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Non-alcoholic fatty liver disease	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Retrograde endocannabinoid signaling	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	mTOR signaling pathway	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Circadian rhythm	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	GnRH signaling pathway	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Neutrophil extracellular trap formation	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	Renin secretion	PASS
+Wu2021	high_vs_low_detected	ORA_Fisher	cGMP-PKG signaling pathway	PASS
+Wu2021	high_vs_zero	GSEA_ES	ABC transporters	PASS
+Wu2021	high_vs_zero	GSEA_ES	Axon guidance	PASS
+Wu2021	high_vs_zero	GSEA_ES	Cocaine addiction	PASS
+Wu2021	high_vs_zero	GSEA_ES	Fc epsilon RI signaling pathway	PASS
+Wu2021	high_vs_zero	GSEA_ES	Growth hormone synthesis, secretion and action	PASS
+Wu2021	high_vs_zero	GSEA_ES	Leukocyte transendothelial migration	PASS
+Wu2021	high_vs_zero	GSEA_ES	Non-alcoholic fatty liver disease	PASS
+Wu2021	high_vs_zero	GSEA_ES	Phospholipase D signaling pathway	PASS
+Wu2021	high_vs_zero	GSEA_ES	Retrograde endocannabinoid signaling	PASS
+Wu2021	high_vs_zero	GSEA_ES	Thermogenesis	PASS
+Wu2021	high_vs_zero	GSEA_ES	mTOR signaling pathway	PASS
+Wu2021	high_vs_zero	ORA_Fisher	ABC transporters	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Cocaine addiction	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Growth hormone synthesis, secretion and action	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Non-alcoholic fatty liver disease	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Retrograde endocannabinoid signaling	PASS
+Wu2021	high_vs_zero	ORA_Fisher	mTOR signaling pathway	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Circadian rhythm	PASS
+Wu2021	high_vs_zero	ORA_Fisher	GnRH signaling pathway	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Neutrophil extracellular trap formation	PASS
+Wu2021	high_vs_zero	ORA_Fisher	Renin secretion	PASS
+Wu2021	high_vs_zero	ORA_Fisher	cGMP-PKG signaling pathway	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	ABC transporters	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	B cell receptor signaling pathway	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Cocaine addiction	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Fc epsilon RI signaling pathway	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Growth hormone synthesis, secretion and action	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Leishmaniasis	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Neutrophil extracellular trap formation	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Pertussis	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Relaxin signaling pathway	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	TNF signaling pathway	PASS
+Pal2021_reprocessed	high_vs_low_detected	GSEA_ES	Wnt signaling pathway	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	ABC transporters	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Collecting duct acid secretion	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Hedgehog signaling pathway	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Non-small cell lung cancer	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Retrograde endocannabinoid signaling	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	mRNA surveillance pathway	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Circadian rhythm	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Graft-versus-host disease	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Neutrophil extracellular trap formation	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	Renal cell carcinoma	PASS
+Pal2021_reprocessed	high_vs_low_detected	ORA_Fisher	beta-Alanine metabolism	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	ABC transporters	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	B cell receptor signaling pathway	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Cocaine addiction	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Fc epsilon RI signaling pathway	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Growth hormone synthesis, secretion and action	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Leishmaniasis	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Neutrophil extracellular trap formation	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Pertussis	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Relaxin signaling pathway	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	TNF signaling pathway	PASS
+Pal2021_reprocessed	high_vs_zero	GSEA_ES	Wnt signaling pathway	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	ABC transporters	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Collecting duct acid secretion	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Hedgehog signaling pathway	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Non-small cell lung cancer	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Retrograde endocannabinoid signaling	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	mRNA surveillance pathway	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Circadian rhythm	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Graft-versus-host disease	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Neutrophil extracellular trap formation	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	Renal cell carcinoma	PASS
+Pal2021_reprocessed	high_vs_zero	ORA_Fisher	beta-Alanine metabolism	PASS

@@ -1,0 +1,1281 @@
+cohort	contrast	pathway	library_genes	tested_overlap	status	reason
+Wu2021	high_vs_low_detected	ABC transporters	45	26	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	AGE-RAGE signaling pathway in diabetic complications	100	89	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	AMPK signaling pathway	120	101	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Acute myeloid leukemia	67	57	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Adherens junction	71	69	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Adipocytokine signaling pathway	69	54	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Adrenergic signaling in cardiomyocytes	150	98	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	African trypanosomiasis	37	21	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Alanine, aspartate and glutamate metabolism	37	30	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Alcoholism	186	122	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Aldosterone synthesis and secretion	98	65	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Aldosterone-regulated sodium reabsorption	37	23	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Allograft rejection	38	23	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Alzheimer disease	369	302	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Amino sugar and nucleotide sugar metabolism	48	43	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Aminoacyl-tRNA biosynthesis	66	44	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Amoebiasis	102	70	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Amphetamine addiction	69	45	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Amyotrophic lateral sclerosis	364	301	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Antigen processing and presentation	78	56	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Apelin signaling pathway	137	104	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Apoptosis	142	125	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Arachidonic acid metabolism	61	36	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Arginine and proline metabolism	50	38	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Arginine biosynthesis	22	16	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Arrhythmogenic right ventricular cardiomyopathy	77	44	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Ascorbate and aldarate metabolism	30	10	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Asthma	31	15	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Autoimmune thyroid disease	53	22	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Autophagy	137	129	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Axon guidance	182	149	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	B cell receptor signaling pathway	81	59	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Bacterial invasion of epithelial cells	77	72	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Basal cell carcinoma	63	47	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Basal transcription factors	45	40	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Base excision repair	33	33	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Bile secretion	90	32	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Biosynthesis of unsaturated fatty acids	27	25	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Bladder cancer	41	41	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Breast cancer	147	114	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Butanoate metabolism	28	19	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	C-type lectin receptor signaling pathway	104	88	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Caffeine metabolism	6	2	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Calcium signaling pathway	240	137	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Carbohydrate digestion and absorption	47	24	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cardiac muscle contraction	87	48	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cell adhesion molecules	148	90	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cell cycle	124	120	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cellular senescence	156	144	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Central carbon metabolism in cancer	70	54	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Chagas disease	102	84	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Chemical carcinogenesis	239	144	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Chemokine signaling pathway	192	129	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cholesterol metabolism	50	31	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Choline metabolism in cancer	97	81	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cholinergic synapse	113	73	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Chronic myeloid leukemia	76	75	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Circadian entrainment	97	63	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Circadian rhythm	31	27	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Citrate cycle (TCA cycle)	30	27	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cocaine addiction	49	31	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Collecting duct acid secretion	27	21	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Colorectal cancer	86	83	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Complement and coagulation cascades	85	43	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Coronavirus disease	232	180	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cortisol synthesis and secretion	65	45	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cushing syndrome	155	118	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cysteine and methionine metabolism	50	38	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cytokine-cytokine receptor interaction	295	127	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Cytosolic DNA-sensing pathway	63	46	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	D-Glutamine and D-glutamate metabolism	5	4	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	DNA replication	36	35	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Diabetic cardiomyopathy	203	168	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Dilated cardiomyopathy	96	54	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Dopaminergic synapse	132	94	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Drug metabolism	108	57	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	ECM-receptor interaction	88	52	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Endocrine and other factor-regulated calcium reabsorption	53	34	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Endocytosis	252	227	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Endometrial cancer	58	54	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Epithelial cell signaling in Helicobacter pylori infection	70	64	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Epstein-Barr virus infection	202	173	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	ErbB signaling pathway	85	76	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Estrogen signaling pathway	137	102	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Ether lipid metabolism	49	33	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fanconi anemia pathway	54	51	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fat digestion and absorption	43	20	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fatty acid biosynthesis	18	15	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fatty acid degradation	43	34	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fatty acid elongation	27	25	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fc epsilon RI signaling pathway	68	54	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fc gamma R-mediated phagocytosis	97	85	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Ferroptosis	41	36	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fluid shear stress and atherosclerosis	139	118	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Focal adhesion	201	157	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Folate biosynthesis	26	18	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	FoxO signaling pathway	131	109	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Fructose and mannose metabolism	33	29	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	GABAergic synapse	89	51	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Galactose metabolism	31	22	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Gap junction	88	68	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Gastric acid secretion	76	46	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Gastric cancer	149	112	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glioma	75	66	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glucagon signaling pathway	107	81	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glutamatergic synapse	114	70	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glutathione metabolism	57	45	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glycerolipid metabolism	61	46	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glycerophospholipid metabolism	97	70	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glycine, serine and threonine metabolism	40	26	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glycolysis / Gluconeogenesis	67	43	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glycosaminoglycan biosynthesis	53	42	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glycosaminoglycan degradation	19	15	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glycosphingolipid biosynthesis	45	39	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	26	24	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Glyoxylate and dicarboxylate metabolism	30	26	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	GnRH secretion	64	40	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	GnRH signaling pathway	93	75	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Graft-versus-host disease	42	24	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Growth hormone synthesis, secretion and action	119	96	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	HIF-1 signaling pathway	109	84	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Hedgehog signaling pathway	56	45	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Hematopoietic cell lineage	99	52	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Hepatitis B	162	135	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Hepatitis C	157	123	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Hepatocellular carcinoma	168	141	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Herpes simplex virus 1 infection	498	431	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Hippo signaling pathway	163	132	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Histidine metabolism	22	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Homologous recombination	41	39	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Human T-cell leukemia virus 1 infection	219	197	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Human cytomegalovirus infection	225	185	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Human immunodeficiency virus 1 infection	212	173	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Human papillomavirus infection	331	262	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Huntington disease	306	259	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Hypertrophic cardiomyopathy	90	52	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	IL-17 signaling pathway	94	76	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Inflammatory bowel disease	65	42	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Inflammatory mediator regulation of TRP channels	98	67	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Influenza A	172	132	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Inositol phosphate metabolism	73	68	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Insulin resistance	108	93	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Insulin secretion	86	53	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Insulin signaling pathway	137	117	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Intestinal immune network for IgA production	48	28	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	JAK-STAT signaling pathway	162	94	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Kaposi sarcoma-associated herpesvirus infection	193	156	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Legionellosis	57	52	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Leishmaniasis	77	59	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Leukocyte transendothelial migration	114	85	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Linoleic acid metabolism	29	11	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Lipid and atherosclerosis	215	170	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Long-term depression	60	43	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Long-term potentiation	67	53	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Longevity regulating pathway	102	89	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Lysine degradation	63	56	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Lysosome	128	118	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	MAPK signaling pathway	294	232	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Malaria	50	30	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Mannose type O-glycan biosynthesis	23	21	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Maturity onset diabetes of the young	26	4	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Measles	139	106	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Melanogenesis	101	75	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Melanoma	72	57	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Metabolism of xenobiotics by cytochrome P450	76	29	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	MicroRNAs in cancer	310	142	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Mineral absorption	60	38	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Mismatch repair	23	22	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Mitophagy	68	66	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Morphine addiction	91	51	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Mucin type O-glycan biosynthesis	36	22	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	N-Glycan biosynthesis	50	45	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	NF-kappa B signaling pathway	104	85	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	NOD-like receptor signaling pathway	181	138	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Natural killer cell mediated cytotoxicity	131	79	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Necroptosis	159	119	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Neomycin, kanamycin and gentamicin biosynthesis	5	2	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Neuroactive ligand-receptor interaction	341	91	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Neurotrophin signaling pathway	119	107	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Neutrophil extracellular trap formation	189	121	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Nicotinate and nicotinamide metabolism	35	28	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Nicotine addiction	40	9	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Nitrogen metabolism	17	10	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Non-alcoholic fatty liver disease	155	138	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Non-homologous end-joining	13	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Non-small cell lung cancer	72	65	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Notch signaling pathway	59	51	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Nucleotide excision repair	47	44	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Olfactory transduction	440	22	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	One carbon pool by folate	20	18	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Oocyte meiosis	129	103	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Osteoclast differentiation	127	96	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Other glycan degradation	18	15	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Other types of O-glycan biosynthesis	47	34	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Ovarian steroidogenesis	51	29	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Oxidative phosphorylation	133	111	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Oxytocin signaling pathway	154	106	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	PD-L1 expression and PD-1 checkpoint pathway in cancer	89	75	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	PI3K-Akt signaling pathway	354	243	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	PPAR signaling pathway	74	54	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pancreatic cancer	76	75	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pancreatic secretion	102	49	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pantothenate and CoA biosynthesis	21	15	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Parathyroid hormone synthesis, secretion and action	106	82	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Parkinson disease	249	208	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pathogenic Escherichia coli infection	197	166	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pathways in cancer	531	410	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pathways of neurodegeneration	475	378	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pentose and glucuronate interconversions	34	14	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Pentose phosphate pathway	30	25	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Peroxisome	82	71	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pertussis	76	62	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Phagosome	152	118	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Phenylalanine metabolism	17	9	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Phenylalanine, tyrosine and tryptophan biosynthesis	6	3	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Phosphatidylinositol signaling system	97	85	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Phospholipase D signaling pathway	148	114	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Phosphonate and phosphinate metabolism	6	5	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Phototransduction	28	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Platelet activation	124	95	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Porphyrin and chlorophyll metabolism	43	23	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Primary bile acid biosynthesis	17	11	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Primary immunodeficiency	38	22	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Prion disease	273	222	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Progesterone-mediated oocyte maturation	100	77	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Prolactin signaling pathway	70	58	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Propanoate metabolism	34	31	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Prostate cancer	97	88	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Proteasome	46	43	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Protein digestion and absorption	103	45	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Protein export	23	23	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Protein processing in endoplasmic reticulum	171	160	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Proteoglycans in cancer	205	169	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Proximal tubule bicarbonate reclamation	23	13	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Purine metabolism	129	99	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pyrimidine metabolism	56	48	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Pyruvate metabolism	47	34	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	RIG-I-like receptor signaling pathway	70	51	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	RNA degradation	79	69	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	RNA polymerase	31	31	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	RNA transport	186	153	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Rap1 signaling pathway	210	166	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Ras signaling pathway	232	170	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Regulation of actin cytoskeleton	218	171	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Regulation of lipolysis in adipocytes	55	39	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Relaxin signaling pathway	129	105	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Renal cell carcinoma	69	66	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Renin secretion	69	46	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Renin-angiotensin system	23	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Retinol metabolism	68	21	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Retrograde endocannabinoid signaling	148	99	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Rheumatoid arthritis	93	73	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Riboflavin metabolism	8	8	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Ribosome	158	127	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Ribosome biogenesis in eukaryotes	108	71	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	SNARE interactions in vesicular transport	33	32	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Salivary secretion	93	52	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Salmonella infection	249	227	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Selenocompound metabolism	17	16	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Serotonergic synapse	113	60	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Shigellosis	246	216	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Signaling pathways regulating pluripotency of stem cells	143	101	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Small cell lung cancer	92	81	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Sphingolipid metabolism	49	38	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Sphingolipid signaling pathway	119	103	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Spinocerebellar ataxia	143	115	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Spliceosome	150	130	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Staphylococcus aureus infection	95	46	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Starch and sucrose metabolism	36	19	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Steroid biosynthesis	20	18	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Steroid hormone biosynthesis	61	21	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Sulfur metabolism	10	10	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Sulfur relay system	8	8	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Synaptic vesicle cycle	78	51	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Synthesis and degradation of ketone bodies	10	8	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Systemic lupus erythematosus	135	77	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	T cell receptor signaling pathway	104	80	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	TGF-beta signaling pathway	94	71	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	TNF signaling pathway	112	104	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Taste transduction	86	22	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Taurine and hypotaurine metabolism	11	7	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Terpenoid backbone biosynthesis	22	21	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Th1 and Th2 cell differentiation	92	70	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Th17 cell differentiation	107	81	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Thermogenesis	232	194	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Thiamine metabolism	15	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Thyroid cancer	37	35	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Thyroid hormone signaling pathway	121	101	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Thyroid hormone synthesis	75	50	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Tight junction	169	137	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Toll-like receptor signaling pathway	104	76	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Toxoplasmosis	112	94	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Transcriptional misregulation in cancer	192	140	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Tryptophan metabolism	42	31	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Tuberculosis	180	138	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Type I diabetes mellitus	43	27	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Type II diabetes mellitus	46	31	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Tyrosine metabolism	36	17	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Ubiquinone and other terpenoid-quinone biosynthesis	11	10	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Ubiquitin mediated proteolysis	140	134	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	VEGF signaling pathway	59	50	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Valine, leucine and isoleucine degradation	48	45	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Various types of N-glycan biosynthesis	39	37	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Vascular smooth muscle contraction	133	90	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Vasopressin-regulated water reabsorption	44	37	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Vibrio cholerae infection	50	46	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Viral carcinogenesis	203	170	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Viral myocarditis	60	46	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Viral protein interaction with cytokine and cytokine receptor	100	45	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Vitamin B6 metabolism	6	5	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Vitamin digestion and absorption	24	13	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	Wnt signaling pathway	166	128	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	Yersinia infection	137	125	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	alpha-Linolenic acid metabolism	25	13	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_low_detected	beta-Alanine metabolism	30	20	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	cAMP signaling pathway	216	136	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	cGMP-PKG signaling pathway	167	112	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	mRNA surveillance pathway	98	84	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	mTOR signaling pathway	154	135	DONE	within_size15_to500
+Wu2021	high_vs_low_detected	p53 signaling pathway	73	69	DONE	within_size15_to500
+Wu2021	high_vs_zero	ABC transporters	45	26	DONE	within_size15_to500
+Wu2021	high_vs_zero	AGE-RAGE signaling pathway in diabetic complications	100	89	DONE	within_size15_to500
+Wu2021	high_vs_zero	AMPK signaling pathway	120	101	DONE	within_size15_to500
+Wu2021	high_vs_zero	Acute myeloid leukemia	67	57	DONE	within_size15_to500
+Wu2021	high_vs_zero	Adherens junction	71	69	DONE	within_size15_to500
+Wu2021	high_vs_zero	Adipocytokine signaling pathway	69	54	DONE	within_size15_to500
+Wu2021	high_vs_zero	Adrenergic signaling in cardiomyocytes	150	98	DONE	within_size15_to500
+Wu2021	high_vs_zero	African trypanosomiasis	37	21	DONE	within_size15_to500
+Wu2021	high_vs_zero	Alanine, aspartate and glutamate metabolism	37	30	DONE	within_size15_to500
+Wu2021	high_vs_zero	Alcoholism	186	122	DONE	within_size15_to500
+Wu2021	high_vs_zero	Aldosterone synthesis and secretion	98	65	DONE	within_size15_to500
+Wu2021	high_vs_zero	Aldosterone-regulated sodium reabsorption	37	23	DONE	within_size15_to500
+Wu2021	high_vs_zero	Allograft rejection	38	23	DONE	within_size15_to500
+Wu2021	high_vs_zero	Alzheimer disease	369	302	DONE	within_size15_to500
+Wu2021	high_vs_zero	Amino sugar and nucleotide sugar metabolism	48	43	DONE	within_size15_to500
+Wu2021	high_vs_zero	Aminoacyl-tRNA biosynthesis	66	44	DONE	within_size15_to500
+Wu2021	high_vs_zero	Amoebiasis	102	70	DONE	within_size15_to500
+Wu2021	high_vs_zero	Amphetamine addiction	69	45	DONE	within_size15_to500
+Wu2021	high_vs_zero	Amyotrophic lateral sclerosis	364	301	DONE	within_size15_to500
+Wu2021	high_vs_zero	Antigen processing and presentation	78	56	DONE	within_size15_to500
+Wu2021	high_vs_zero	Apelin signaling pathway	137	104	DONE	within_size15_to500
+Wu2021	high_vs_zero	Apoptosis	142	125	DONE	within_size15_to500
+Wu2021	high_vs_zero	Arachidonic acid metabolism	61	36	DONE	within_size15_to500
+Wu2021	high_vs_zero	Arginine and proline metabolism	50	38	DONE	within_size15_to500
+Wu2021	high_vs_zero	Arginine biosynthesis	22	16	DONE	within_size15_to500
+Wu2021	high_vs_zero	Arrhythmogenic right ventricular cardiomyopathy	77	44	DONE	within_size15_to500
+Wu2021	high_vs_zero	Ascorbate and aldarate metabolism	30	10	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Asthma	31	15	DONE	within_size15_to500
+Wu2021	high_vs_zero	Autoimmune thyroid disease	53	22	DONE	within_size15_to500
+Wu2021	high_vs_zero	Autophagy	137	129	DONE	within_size15_to500
+Wu2021	high_vs_zero	Axon guidance	182	149	DONE	within_size15_to500
+Wu2021	high_vs_zero	B cell receptor signaling pathway	81	59	DONE	within_size15_to500
+Wu2021	high_vs_zero	Bacterial invasion of epithelial cells	77	72	DONE	within_size15_to500
+Wu2021	high_vs_zero	Basal cell carcinoma	63	47	DONE	within_size15_to500
+Wu2021	high_vs_zero	Basal transcription factors	45	40	DONE	within_size15_to500
+Wu2021	high_vs_zero	Base excision repair	33	33	DONE	within_size15_to500
+Wu2021	high_vs_zero	Bile secretion	90	32	DONE	within_size15_to500
+Wu2021	high_vs_zero	Biosynthesis of unsaturated fatty acids	27	25	DONE	within_size15_to500
+Wu2021	high_vs_zero	Bladder cancer	41	41	DONE	within_size15_to500
+Wu2021	high_vs_zero	Breast cancer	147	114	DONE	within_size15_to500
+Wu2021	high_vs_zero	Butanoate metabolism	28	19	DONE	within_size15_to500
+Wu2021	high_vs_zero	C-type lectin receptor signaling pathway	104	88	DONE	within_size15_to500
+Wu2021	high_vs_zero	Caffeine metabolism	6	2	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Calcium signaling pathway	240	137	DONE	within_size15_to500
+Wu2021	high_vs_zero	Carbohydrate digestion and absorption	47	24	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cardiac muscle contraction	87	48	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cell adhesion molecules	148	90	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cell cycle	124	120	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cellular senescence	156	144	DONE	within_size15_to500
+Wu2021	high_vs_zero	Central carbon metabolism in cancer	70	54	DONE	within_size15_to500
+Wu2021	high_vs_zero	Chagas disease	102	84	DONE	within_size15_to500
+Wu2021	high_vs_zero	Chemical carcinogenesis	239	144	DONE	within_size15_to500
+Wu2021	high_vs_zero	Chemokine signaling pathway	192	129	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cholesterol metabolism	50	31	DONE	within_size15_to500
+Wu2021	high_vs_zero	Choline metabolism in cancer	97	81	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cholinergic synapse	113	73	DONE	within_size15_to500
+Wu2021	high_vs_zero	Chronic myeloid leukemia	76	75	DONE	within_size15_to500
+Wu2021	high_vs_zero	Circadian entrainment	97	63	DONE	within_size15_to500
+Wu2021	high_vs_zero	Circadian rhythm	31	27	DONE	within_size15_to500
+Wu2021	high_vs_zero	Citrate cycle (TCA cycle)	30	27	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cocaine addiction	49	31	DONE	within_size15_to500
+Wu2021	high_vs_zero	Collecting duct acid secretion	27	21	DONE	within_size15_to500
+Wu2021	high_vs_zero	Colorectal cancer	86	83	DONE	within_size15_to500
+Wu2021	high_vs_zero	Complement and coagulation cascades	85	43	DONE	within_size15_to500
+Wu2021	high_vs_zero	Coronavirus disease	232	180	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cortisol synthesis and secretion	65	45	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cushing syndrome	155	118	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cysteine and methionine metabolism	50	38	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cytokine-cytokine receptor interaction	295	127	DONE	within_size15_to500
+Wu2021	high_vs_zero	Cytosolic DNA-sensing pathway	63	46	DONE	within_size15_to500
+Wu2021	high_vs_zero	D-Glutamine and D-glutamate metabolism	5	4	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	DNA replication	36	35	DONE	within_size15_to500
+Wu2021	high_vs_zero	Diabetic cardiomyopathy	203	168	DONE	within_size15_to500
+Wu2021	high_vs_zero	Dilated cardiomyopathy	96	54	DONE	within_size15_to500
+Wu2021	high_vs_zero	Dopaminergic synapse	132	94	DONE	within_size15_to500
+Wu2021	high_vs_zero	Drug metabolism	108	57	DONE	within_size15_to500
+Wu2021	high_vs_zero	ECM-receptor interaction	88	52	DONE	within_size15_to500
+Wu2021	high_vs_zero	Endocrine and other factor-regulated calcium reabsorption	53	34	DONE	within_size15_to500
+Wu2021	high_vs_zero	Endocytosis	252	227	DONE	within_size15_to500
+Wu2021	high_vs_zero	Endometrial cancer	58	54	DONE	within_size15_to500
+Wu2021	high_vs_zero	Epithelial cell signaling in Helicobacter pylori infection	70	64	DONE	within_size15_to500
+Wu2021	high_vs_zero	Epstein-Barr virus infection	202	173	DONE	within_size15_to500
+Wu2021	high_vs_zero	ErbB signaling pathway	85	76	DONE	within_size15_to500
+Wu2021	high_vs_zero	Estrogen signaling pathway	137	102	DONE	within_size15_to500
+Wu2021	high_vs_zero	Ether lipid metabolism	49	33	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fanconi anemia pathway	54	51	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fat digestion and absorption	43	20	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fatty acid biosynthesis	18	15	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fatty acid degradation	43	34	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fatty acid elongation	27	25	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fc epsilon RI signaling pathway	68	54	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fc gamma R-mediated phagocytosis	97	85	DONE	within_size15_to500
+Wu2021	high_vs_zero	Ferroptosis	41	36	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fluid shear stress and atherosclerosis	139	118	DONE	within_size15_to500
+Wu2021	high_vs_zero	Focal adhesion	201	157	DONE	within_size15_to500
+Wu2021	high_vs_zero	Folate biosynthesis	26	18	DONE	within_size15_to500
+Wu2021	high_vs_zero	FoxO signaling pathway	131	109	DONE	within_size15_to500
+Wu2021	high_vs_zero	Fructose and mannose metabolism	33	29	DONE	within_size15_to500
+Wu2021	high_vs_zero	GABAergic synapse	89	51	DONE	within_size15_to500
+Wu2021	high_vs_zero	Galactose metabolism	31	22	DONE	within_size15_to500
+Wu2021	high_vs_zero	Gap junction	88	68	DONE	within_size15_to500
+Wu2021	high_vs_zero	Gastric acid secretion	76	46	DONE	within_size15_to500
+Wu2021	high_vs_zero	Gastric cancer	149	112	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glioma	75	66	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glucagon signaling pathway	107	81	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glutamatergic synapse	114	70	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glutathione metabolism	57	45	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glycerolipid metabolism	61	46	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glycerophospholipid metabolism	97	70	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glycine, serine and threonine metabolism	40	26	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glycolysis / Gluconeogenesis	67	43	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glycosaminoglycan biosynthesis	53	42	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glycosaminoglycan degradation	19	15	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glycosphingolipid biosynthesis	45	39	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	26	24	DONE	within_size15_to500
+Wu2021	high_vs_zero	Glyoxylate and dicarboxylate metabolism	30	26	DONE	within_size15_to500
+Wu2021	high_vs_zero	GnRH secretion	64	40	DONE	within_size15_to500
+Wu2021	high_vs_zero	GnRH signaling pathway	93	75	DONE	within_size15_to500
+Wu2021	high_vs_zero	Graft-versus-host disease	42	24	DONE	within_size15_to500
+Wu2021	high_vs_zero	Growth hormone synthesis, secretion and action	119	96	DONE	within_size15_to500
+Wu2021	high_vs_zero	HIF-1 signaling pathway	109	84	DONE	within_size15_to500
+Wu2021	high_vs_zero	Hedgehog signaling pathway	56	45	DONE	within_size15_to500
+Wu2021	high_vs_zero	Hematopoietic cell lineage	99	52	DONE	within_size15_to500
+Wu2021	high_vs_zero	Hepatitis B	162	135	DONE	within_size15_to500
+Wu2021	high_vs_zero	Hepatitis C	157	123	DONE	within_size15_to500
+Wu2021	high_vs_zero	Hepatocellular carcinoma	168	141	DONE	within_size15_to500
+Wu2021	high_vs_zero	Herpes simplex virus 1 infection	498	431	DONE	within_size15_to500
+Wu2021	high_vs_zero	Hippo signaling pathway	163	132	DONE	within_size15_to500
+Wu2021	high_vs_zero	Histidine metabolism	22	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Homologous recombination	41	39	DONE	within_size15_to500
+Wu2021	high_vs_zero	Human T-cell leukemia virus 1 infection	219	197	DONE	within_size15_to500
+Wu2021	high_vs_zero	Human cytomegalovirus infection	225	185	DONE	within_size15_to500
+Wu2021	high_vs_zero	Human immunodeficiency virus 1 infection	212	173	DONE	within_size15_to500
+Wu2021	high_vs_zero	Human papillomavirus infection	331	262	DONE	within_size15_to500
+Wu2021	high_vs_zero	Huntington disease	306	259	DONE	within_size15_to500
+Wu2021	high_vs_zero	Hypertrophic cardiomyopathy	90	52	DONE	within_size15_to500
+Wu2021	high_vs_zero	IL-17 signaling pathway	94	76	DONE	within_size15_to500
+Wu2021	high_vs_zero	Inflammatory bowel disease	65	42	DONE	within_size15_to500
+Wu2021	high_vs_zero	Inflammatory mediator regulation of TRP channels	98	67	DONE	within_size15_to500
+Wu2021	high_vs_zero	Influenza A	172	132	DONE	within_size15_to500
+Wu2021	high_vs_zero	Inositol phosphate metabolism	73	68	DONE	within_size15_to500
+Wu2021	high_vs_zero	Insulin resistance	108	93	DONE	within_size15_to500
+Wu2021	high_vs_zero	Insulin secretion	86	53	DONE	within_size15_to500
+Wu2021	high_vs_zero	Insulin signaling pathway	137	117	DONE	within_size15_to500
+Wu2021	high_vs_zero	Intestinal immune network for IgA production	48	28	DONE	within_size15_to500
+Wu2021	high_vs_zero	JAK-STAT signaling pathway	162	94	DONE	within_size15_to500
+Wu2021	high_vs_zero	Kaposi sarcoma-associated herpesvirus infection	193	156	DONE	within_size15_to500
+Wu2021	high_vs_zero	Legionellosis	57	52	DONE	within_size15_to500
+Wu2021	high_vs_zero	Leishmaniasis	77	59	DONE	within_size15_to500
+Wu2021	high_vs_zero	Leukocyte transendothelial migration	114	85	DONE	within_size15_to500
+Wu2021	high_vs_zero	Linoleic acid metabolism	29	11	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Lipid and atherosclerosis	215	170	DONE	within_size15_to500
+Wu2021	high_vs_zero	Long-term depression	60	43	DONE	within_size15_to500
+Wu2021	high_vs_zero	Long-term potentiation	67	53	DONE	within_size15_to500
+Wu2021	high_vs_zero	Longevity regulating pathway	102	89	DONE	within_size15_to500
+Wu2021	high_vs_zero	Lysine degradation	63	56	DONE	within_size15_to500
+Wu2021	high_vs_zero	Lysosome	128	118	DONE	within_size15_to500
+Wu2021	high_vs_zero	MAPK signaling pathway	294	232	DONE	within_size15_to500
+Wu2021	high_vs_zero	Malaria	50	30	DONE	within_size15_to500
+Wu2021	high_vs_zero	Mannose type O-glycan biosynthesis	23	21	DONE	within_size15_to500
+Wu2021	high_vs_zero	Maturity onset diabetes of the young	26	4	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Measles	139	106	DONE	within_size15_to500
+Wu2021	high_vs_zero	Melanogenesis	101	75	DONE	within_size15_to500
+Wu2021	high_vs_zero	Melanoma	72	57	DONE	within_size15_to500
+Wu2021	high_vs_zero	Metabolism of xenobiotics by cytochrome P450	76	29	DONE	within_size15_to500
+Wu2021	high_vs_zero	MicroRNAs in cancer	310	142	DONE	within_size15_to500
+Wu2021	high_vs_zero	Mineral absorption	60	38	DONE	within_size15_to500
+Wu2021	high_vs_zero	Mismatch repair	23	22	DONE	within_size15_to500
+Wu2021	high_vs_zero	Mitophagy	68	66	DONE	within_size15_to500
+Wu2021	high_vs_zero	Morphine addiction	91	51	DONE	within_size15_to500
+Wu2021	high_vs_zero	Mucin type O-glycan biosynthesis	36	22	DONE	within_size15_to500
+Wu2021	high_vs_zero	N-Glycan biosynthesis	50	45	DONE	within_size15_to500
+Wu2021	high_vs_zero	NF-kappa B signaling pathway	104	85	DONE	within_size15_to500
+Wu2021	high_vs_zero	NOD-like receptor signaling pathway	181	138	DONE	within_size15_to500
+Wu2021	high_vs_zero	Natural killer cell mediated cytotoxicity	131	79	DONE	within_size15_to500
+Wu2021	high_vs_zero	Necroptosis	159	119	DONE	within_size15_to500
+Wu2021	high_vs_zero	Neomycin, kanamycin and gentamicin biosynthesis	5	2	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Neuroactive ligand-receptor interaction	341	91	DONE	within_size15_to500
+Wu2021	high_vs_zero	Neurotrophin signaling pathway	119	107	DONE	within_size15_to500
+Wu2021	high_vs_zero	Neutrophil extracellular trap formation	189	121	DONE	within_size15_to500
+Wu2021	high_vs_zero	Nicotinate and nicotinamide metabolism	35	28	DONE	within_size15_to500
+Wu2021	high_vs_zero	Nicotine addiction	40	9	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Nitrogen metabolism	17	10	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Non-alcoholic fatty liver disease	155	138	DONE	within_size15_to500
+Wu2021	high_vs_zero	Non-homologous end-joining	13	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Non-small cell lung cancer	72	65	DONE	within_size15_to500
+Wu2021	high_vs_zero	Notch signaling pathway	59	51	DONE	within_size15_to500
+Wu2021	high_vs_zero	Nucleotide excision repair	47	44	DONE	within_size15_to500
+Wu2021	high_vs_zero	Olfactory transduction	440	22	DONE	within_size15_to500
+Wu2021	high_vs_zero	One carbon pool by folate	20	18	DONE	within_size15_to500
+Wu2021	high_vs_zero	Oocyte meiosis	129	103	DONE	within_size15_to500
+Wu2021	high_vs_zero	Osteoclast differentiation	127	96	DONE	within_size15_to500
+Wu2021	high_vs_zero	Other glycan degradation	18	15	DONE	within_size15_to500
+Wu2021	high_vs_zero	Other types of O-glycan biosynthesis	47	34	DONE	within_size15_to500
+Wu2021	high_vs_zero	Ovarian steroidogenesis	51	29	DONE	within_size15_to500
+Wu2021	high_vs_zero	Oxidative phosphorylation	133	111	DONE	within_size15_to500
+Wu2021	high_vs_zero	Oxytocin signaling pathway	154	106	DONE	within_size15_to500
+Wu2021	high_vs_zero	PD-L1 expression and PD-1 checkpoint pathway in cancer	89	75	DONE	within_size15_to500
+Wu2021	high_vs_zero	PI3K-Akt signaling pathway	354	243	DONE	within_size15_to500
+Wu2021	high_vs_zero	PPAR signaling pathway	74	54	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pancreatic cancer	76	75	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pancreatic secretion	102	49	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pantothenate and CoA biosynthesis	21	15	DONE	within_size15_to500
+Wu2021	high_vs_zero	Parathyroid hormone synthesis, secretion and action	106	82	DONE	within_size15_to500
+Wu2021	high_vs_zero	Parkinson disease	249	208	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pathogenic Escherichia coli infection	197	166	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pathways in cancer	531	410	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pathways of neurodegeneration	475	378	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pentose and glucuronate interconversions	34	14	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Pentose phosphate pathway	30	25	DONE	within_size15_to500
+Wu2021	high_vs_zero	Peroxisome	82	71	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pertussis	76	62	DONE	within_size15_to500
+Wu2021	high_vs_zero	Phagosome	152	118	DONE	within_size15_to500
+Wu2021	high_vs_zero	Phenylalanine metabolism	17	9	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Phenylalanine, tyrosine and tryptophan biosynthesis	6	3	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Phosphatidylinositol signaling system	97	85	DONE	within_size15_to500
+Wu2021	high_vs_zero	Phospholipase D signaling pathway	148	114	DONE	within_size15_to500
+Wu2021	high_vs_zero	Phosphonate and phosphinate metabolism	6	5	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Phototransduction	28	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Platelet activation	124	95	DONE	within_size15_to500
+Wu2021	high_vs_zero	Porphyrin and chlorophyll metabolism	43	23	DONE	within_size15_to500
+Wu2021	high_vs_zero	Primary bile acid biosynthesis	17	11	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Primary immunodeficiency	38	22	DONE	within_size15_to500
+Wu2021	high_vs_zero	Prion disease	273	222	DONE	within_size15_to500
+Wu2021	high_vs_zero	Progesterone-mediated oocyte maturation	100	77	DONE	within_size15_to500
+Wu2021	high_vs_zero	Prolactin signaling pathway	70	58	DONE	within_size15_to500
+Wu2021	high_vs_zero	Propanoate metabolism	34	31	DONE	within_size15_to500
+Wu2021	high_vs_zero	Prostate cancer	97	88	DONE	within_size15_to500
+Wu2021	high_vs_zero	Proteasome	46	43	DONE	within_size15_to500
+Wu2021	high_vs_zero	Protein digestion and absorption	103	45	DONE	within_size15_to500
+Wu2021	high_vs_zero	Protein export	23	23	DONE	within_size15_to500
+Wu2021	high_vs_zero	Protein processing in endoplasmic reticulum	171	160	DONE	within_size15_to500
+Wu2021	high_vs_zero	Proteoglycans in cancer	205	169	DONE	within_size15_to500
+Wu2021	high_vs_zero	Proximal tubule bicarbonate reclamation	23	13	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Purine metabolism	129	99	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pyrimidine metabolism	56	48	DONE	within_size15_to500
+Wu2021	high_vs_zero	Pyruvate metabolism	47	34	DONE	within_size15_to500
+Wu2021	high_vs_zero	RIG-I-like receptor signaling pathway	70	51	DONE	within_size15_to500
+Wu2021	high_vs_zero	RNA degradation	79	69	DONE	within_size15_to500
+Wu2021	high_vs_zero	RNA polymerase	31	31	DONE	within_size15_to500
+Wu2021	high_vs_zero	RNA transport	186	153	DONE	within_size15_to500
+Wu2021	high_vs_zero	Rap1 signaling pathway	210	166	DONE	within_size15_to500
+Wu2021	high_vs_zero	Ras signaling pathway	232	170	DONE	within_size15_to500
+Wu2021	high_vs_zero	Regulation of actin cytoskeleton	218	171	DONE	within_size15_to500
+Wu2021	high_vs_zero	Regulation of lipolysis in adipocytes	55	39	DONE	within_size15_to500
+Wu2021	high_vs_zero	Relaxin signaling pathway	129	105	DONE	within_size15_to500
+Wu2021	high_vs_zero	Renal cell carcinoma	69	66	DONE	within_size15_to500
+Wu2021	high_vs_zero	Renin secretion	69	46	DONE	within_size15_to500
+Wu2021	high_vs_zero	Renin-angiotensin system	23	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Retinol metabolism	68	21	DONE	within_size15_to500
+Wu2021	high_vs_zero	Retrograde endocannabinoid signaling	148	99	DONE	within_size15_to500
+Wu2021	high_vs_zero	Rheumatoid arthritis	93	73	DONE	within_size15_to500
+Wu2021	high_vs_zero	Riboflavin metabolism	8	8	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Ribosome	158	127	DONE	within_size15_to500
+Wu2021	high_vs_zero	Ribosome biogenesis in eukaryotes	108	71	DONE	within_size15_to500
+Wu2021	high_vs_zero	SNARE interactions in vesicular transport	33	32	DONE	within_size15_to500
+Wu2021	high_vs_zero	Salivary secretion	93	52	DONE	within_size15_to500
+Wu2021	high_vs_zero	Salmonella infection	249	227	DONE	within_size15_to500
+Wu2021	high_vs_zero	Selenocompound metabolism	17	16	DONE	within_size15_to500
+Wu2021	high_vs_zero	Serotonergic synapse	113	60	DONE	within_size15_to500
+Wu2021	high_vs_zero	Shigellosis	246	216	DONE	within_size15_to500
+Wu2021	high_vs_zero	Signaling pathways regulating pluripotency of stem cells	143	101	DONE	within_size15_to500
+Wu2021	high_vs_zero	Small cell lung cancer	92	81	DONE	within_size15_to500
+Wu2021	high_vs_zero	Sphingolipid metabolism	49	38	DONE	within_size15_to500
+Wu2021	high_vs_zero	Sphingolipid signaling pathway	119	103	DONE	within_size15_to500
+Wu2021	high_vs_zero	Spinocerebellar ataxia	143	115	DONE	within_size15_to500
+Wu2021	high_vs_zero	Spliceosome	150	130	DONE	within_size15_to500
+Wu2021	high_vs_zero	Staphylococcus aureus infection	95	46	DONE	within_size15_to500
+Wu2021	high_vs_zero	Starch and sucrose metabolism	36	19	DONE	within_size15_to500
+Wu2021	high_vs_zero	Steroid biosynthesis	20	18	DONE	within_size15_to500
+Wu2021	high_vs_zero	Steroid hormone biosynthesis	61	21	DONE	within_size15_to500
+Wu2021	high_vs_zero	Sulfur metabolism	10	10	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Sulfur relay system	8	8	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Synaptic vesicle cycle	78	51	DONE	within_size15_to500
+Wu2021	high_vs_zero	Synthesis and degradation of ketone bodies	10	8	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Systemic lupus erythematosus	135	77	DONE	within_size15_to500
+Wu2021	high_vs_zero	T cell receptor signaling pathway	104	80	DONE	within_size15_to500
+Wu2021	high_vs_zero	TGF-beta signaling pathway	94	71	DONE	within_size15_to500
+Wu2021	high_vs_zero	TNF signaling pathway	112	104	DONE	within_size15_to500
+Wu2021	high_vs_zero	Taste transduction	86	22	DONE	within_size15_to500
+Wu2021	high_vs_zero	Taurine and hypotaurine metabolism	11	7	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Terpenoid backbone biosynthesis	22	21	DONE	within_size15_to500
+Wu2021	high_vs_zero	Th1 and Th2 cell differentiation	92	70	DONE	within_size15_to500
+Wu2021	high_vs_zero	Th17 cell differentiation	107	81	DONE	within_size15_to500
+Wu2021	high_vs_zero	Thermogenesis	232	194	DONE	within_size15_to500
+Wu2021	high_vs_zero	Thiamine metabolism	15	12	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Thyroid cancer	37	35	DONE	within_size15_to500
+Wu2021	high_vs_zero	Thyroid hormone signaling pathway	121	101	DONE	within_size15_to500
+Wu2021	high_vs_zero	Thyroid hormone synthesis	75	50	DONE	within_size15_to500
+Wu2021	high_vs_zero	Tight junction	169	137	DONE	within_size15_to500
+Wu2021	high_vs_zero	Toll-like receptor signaling pathway	104	76	DONE	within_size15_to500
+Wu2021	high_vs_zero	Toxoplasmosis	112	94	DONE	within_size15_to500
+Wu2021	high_vs_zero	Transcriptional misregulation in cancer	192	140	DONE	within_size15_to500
+Wu2021	high_vs_zero	Tryptophan metabolism	42	31	DONE	within_size15_to500
+Wu2021	high_vs_zero	Tuberculosis	180	138	DONE	within_size15_to500
+Wu2021	high_vs_zero	Type I diabetes mellitus	43	27	DONE	within_size15_to500
+Wu2021	high_vs_zero	Type II diabetes mellitus	46	31	DONE	within_size15_to500
+Wu2021	high_vs_zero	Tyrosine metabolism	36	17	DONE	within_size15_to500
+Wu2021	high_vs_zero	Ubiquinone and other terpenoid-quinone biosynthesis	11	10	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Ubiquitin mediated proteolysis	140	134	DONE	within_size15_to500
+Wu2021	high_vs_zero	VEGF signaling pathway	59	50	DONE	within_size15_to500
+Wu2021	high_vs_zero	Valine, leucine and isoleucine degradation	48	45	DONE	within_size15_to500
+Wu2021	high_vs_zero	Various types of N-glycan biosynthesis	39	37	DONE	within_size15_to500
+Wu2021	high_vs_zero	Vascular smooth muscle contraction	133	90	DONE	within_size15_to500
+Wu2021	high_vs_zero	Vasopressin-regulated water reabsorption	44	37	DONE	within_size15_to500
+Wu2021	high_vs_zero	Vibrio cholerae infection	50	46	DONE	within_size15_to500
+Wu2021	high_vs_zero	Viral carcinogenesis	203	170	DONE	within_size15_to500
+Wu2021	high_vs_zero	Viral myocarditis	60	46	DONE	within_size15_to500
+Wu2021	high_vs_zero	Viral protein interaction with cytokine and cytokine receptor	100	45	DONE	within_size15_to500
+Wu2021	high_vs_zero	Vitamin B6 metabolism	6	5	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Vitamin digestion and absorption	24	13	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	Wnt signaling pathway	166	128	DONE	within_size15_to500
+Wu2021	high_vs_zero	Yersinia infection	137	125	DONE	within_size15_to500
+Wu2021	high_vs_zero	alpha-Linolenic acid metabolism	25	13	NOT_EVALUABLE	outside_size15_to500
+Wu2021	high_vs_zero	beta-Alanine metabolism	30	20	DONE	within_size15_to500
+Wu2021	high_vs_zero	cAMP signaling pathway	216	136	DONE	within_size15_to500
+Wu2021	high_vs_zero	cGMP-PKG signaling pathway	167	112	DONE	within_size15_to500
+Wu2021	high_vs_zero	mRNA surveillance pathway	98	84	DONE	within_size15_to500
+Wu2021	high_vs_zero	mTOR signaling pathway	154	135	DONE	within_size15_to500
+Wu2021	high_vs_zero	p53 signaling pathway	73	69	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	ABC transporters	45	26	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	AGE-RAGE signaling pathway in diabetic complications	100	82	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	AMPK signaling pathway	120	95	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Acute myeloid leukemia	67	55	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Adherens junction	71	65	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Adipocytokine signaling pathway	69	48	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Adrenergic signaling in cardiomyocytes	150	91	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	African trypanosomiasis	37	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Alanine, aspartate and glutamate metabolism	37	26	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Alcoholism	186	105	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Aldosterone synthesis and secretion	98	62	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Aldosterone-regulated sodium reabsorption	37	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Allograft rejection	38	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Alzheimer disease	369	287	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Amino sugar and nucleotide sugar metabolism	48	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Aminoacyl-tRNA biosynthesis	66	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Amoebiasis	102	61	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Amphetamine addiction	69	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Amyotrophic lateral sclerosis	364	289	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Antigen processing and presentation	78	50	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Apelin signaling pathway	137	94	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Apoptosis	142	120	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Arachidonic acid metabolism	61	28	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Arginine and proline metabolism	50	35	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Arginine biosynthesis	22	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Arrhythmogenic right ventricular cardiomyopathy	77	40	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ascorbate and aldarate metabolism	30	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Asthma	31	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Autoimmune thyroid disease	53	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Autophagy	137	127	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Axon guidance	182	134	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	B cell receptor signaling pathway	81	55	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Bacterial invasion of epithelial cells	77	70	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Basal cell carcinoma	63	40	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Basal transcription factors	45	39	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Base excision repair	33	32	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Bile secretion	90	33	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Biosynthesis of unsaturated fatty acids	27	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Bladder cancer	41	39	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Breast cancer	147	102	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Butanoate metabolism	28	20	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	C-type lectin receptor signaling pathway	104	82	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Caffeine metabolism	6	2	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Calcium signaling pathway	240	114	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Carbohydrate digestion and absorption	47	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cardiac muscle contraction	87	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cell adhesion molecules	148	71	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cell cycle	124	120	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cellular senescence	156	140	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Central carbon metabolism in cancer	70	54	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Chagas disease	102	76	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Chemical carcinogenesis	239	138	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Chemokine signaling pathway	192	119	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cholesterol metabolism	50	31	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Choline metabolism in cancer	97	74	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cholinergic synapse	113	65	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Chronic myeloid leukemia	76	73	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Circadian entrainment	97	57	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Circadian rhythm	31	28	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Citrate cycle (TCA cycle)	30	27	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cocaine addiction	49	29	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Collecting duct acid secretion	27	20	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Colorectal cancer	86	82	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Complement and coagulation cascades	85	30	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Coronavirus disease	232	168	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cortisol synthesis and secretion	65	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cushing syndrome	155	110	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cysteine and methionine metabolism	50	36	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cytokine-cytokine receptor interaction	295	102	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Cytosolic DNA-sensing pathway	63	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	D-Glutamine and D-glutamate metabolism	5	3	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	DNA replication	36	35	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Diabetic cardiomyopathy	203	163	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Dilated cardiomyopathy	96	47	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Dopaminergic synapse	132	90	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Drug metabolism	108	52	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	ECM-receptor interaction	88	48	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Endocrine and other factor-regulated calcium reabsorption	53	32	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Endocytosis	252	223	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Endometrial cancer	58	53	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Epithelial cell signaling in Helicobacter pylori infection	70	61	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Epstein-Barr virus infection	202	167	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	ErbB signaling pathway	85	73	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Estrogen signaling pathway	137	98	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ether lipid metabolism	49	28	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fanconi anemia pathway	54	48	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fat digestion and absorption	43	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fatty acid biosynthesis	18	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fatty acid degradation	43	31	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fatty acid elongation	27	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fc epsilon RI signaling pathway	68	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fc gamma R-mediated phagocytosis	97	78	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ferroptosis	41	35	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fluid shear stress and atherosclerosis	139	114	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Focal adhesion	201	146	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Folate biosynthesis	26	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	FoxO signaling pathway	131	108	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Fructose and mannose metabolism	33	27	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	GABAergic synapse	89	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Galactose metabolism	31	20	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Gap junction	88	64	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Gastric acid secretion	76	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Gastric cancer	149	100	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glioma	75	63	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glucagon signaling pathway	107	77	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glutamatergic synapse	114	60	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glutathione metabolism	57	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glycerolipid metabolism	61	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glycerophospholipid metabolism	97	64	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glycine, serine and threonine metabolism	40	25	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glycolysis / Gluconeogenesis	67	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glycosaminoglycan biosynthesis	53	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glycosaminoglycan degradation	19	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glycosphingolipid biosynthesis	45	30	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	26	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Glyoxylate and dicarboxylate metabolism	30	26	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	GnRH secretion	64	38	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	GnRH signaling pathway	93	74	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Graft-versus-host disease	42	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Growth hormone synthesis, secretion and action	119	94	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	HIF-1 signaling pathway	109	80	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Hedgehog signaling pathway	56	43	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Hematopoietic cell lineage	99	43	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Hepatitis B	162	132	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Hepatitis C	157	122	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Hepatocellular carcinoma	168	130	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Herpes simplex virus 1 infection	498	380	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Hippo signaling pathway	163	119	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Histidine metabolism	22	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Homologous recombination	41	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Human T-cell leukemia virus 1 infection	219	189	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Human cytomegalovirus infection	225	177	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Human immunodeficiency virus 1 infection	212	164	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Human papillomavirus infection	331	247	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Huntington disease	306	244	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Hypertrophic cardiomyopathy	90	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	IL-17 signaling pathway	94	67	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Inflammatory bowel disease	65	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Inflammatory mediator regulation of TRP channels	98	63	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Influenza A	172	124	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Inositol phosphate metabolism	73	64	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Insulin resistance	108	87	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Insulin secretion	86	51	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Insulin signaling pathway	137	113	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Intestinal immune network for IgA production	48	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	JAK-STAT signaling pathway	162	85	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Kaposi sarcoma-associated herpesvirus infection	193	150	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Legionellosis	57	47	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Leishmaniasis	77	53	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Leukocyte transendothelial migration	114	77	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Linoleic acid metabolism	29	7	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Lipid and atherosclerosis	215	159	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Long-term depression	60	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Long-term potentiation	67	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Longevity regulating pathway	102	86	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Lysine degradation	63	55	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Lysosome	128	113	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	MAPK signaling pathway	294	212	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Malaria	50	23	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Mannose type O-glycan biosynthesis	23	17	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Maturity onset diabetes of the young	26	4	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Measles	139	99	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Melanogenesis	101	70	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Melanoma	72	51	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Metabolism of xenobiotics by cytochrome P450	76	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	MicroRNAs in cancer	310	134	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Mineral absorption	60	40	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Mismatch repair	23	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Mitophagy	68	63	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Morphine addiction	91	43	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Mucin type O-glycan biosynthesis	36	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	N-Glycan biosynthesis	50	46	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	NF-kappa B signaling pathway	104	77	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	NOD-like receptor signaling pathway	181	132	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Natural killer cell mediated cytotoxicity	131	68	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Necroptosis	159	104	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Neomycin, kanamycin and gentamicin biosynthesis	5	2	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Neuroactive ligand-receptor interaction	341	67	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Neurotrophin signaling pathway	119	101	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Neutrophil extracellular trap formation	189	102	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Nicotinate and nicotinamide metabolism	35	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Nicotine addiction	40	5	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Nitrogen metabolism	17	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Non-alcoholic fatty liver disease	155	131	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Non-homologous end-joining	13	11	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Non-small cell lung cancer	72	62	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Notch signaling pathway	59	48	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Nucleotide excision repair	47	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Olfactory transduction	440	21	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	One carbon pool by folate	20	17	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Oocyte meiosis	129	102	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Osteoclast differentiation	127	90	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Other glycan degradation	18	15	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Other types of O-glycan biosynthesis	47	32	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ovarian steroidogenesis	51	27	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Oxidative phosphorylation	133	108	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Oxytocin signaling pathway	154	100	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	PD-L1 expression and PD-1 checkpoint pathway in cancer	89	69	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	PI3K-Akt signaling pathway	354	224	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	PPAR signaling pathway	74	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pancreatic cancer	76	73	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pancreatic secretion	102	47	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pantothenate and CoA biosynthesis	21	15	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Parathyroid hormone synthesis, secretion and action	106	79	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Parkinson disease	249	204	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pathogenic Escherichia coli infection	197	161	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pathways in cancer	531	375	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pathways of neurodegeneration	475	356	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pentose and glucuronate interconversions	34	12	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pentose phosphate pathway	30	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Peroxisome	82	69	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pertussis	76	52	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Phagosome	152	110	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Phenylalanine metabolism	17	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Phenylalanine, tyrosine and tryptophan biosynthesis	6	3	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Phosphatidylinositol signaling system	97	82	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Phospholipase D signaling pathway	148	104	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Phosphonate and phosphinate metabolism	6	5	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Phototransduction	28	11	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Platelet activation	124	84	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Porphyrin and chlorophyll metabolism	43	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Primary bile acid biosynthesis	17	9	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Primary immunodeficiency	38	17	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Prion disease	273	211	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Progesterone-mediated oocyte maturation	100	76	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Prolactin signaling pathway	70	58	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Propanoate metabolism	34	30	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Prostate cancer	97	84	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Proteasome	46	43	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Protein digestion and absorption	103	39	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Protein export	23	23	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Protein processing in endoplasmic reticulum	171	158	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Proteoglycans in cancer	205	159	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Proximal tubule bicarbonate reclamation	23	12	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Purine metabolism	129	94	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pyrimidine metabolism	56	46	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Pyruvate metabolism	47	33	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	RIG-I-like receptor signaling pathway	70	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	RNA degradation	79	68	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	RNA polymerase	31	31	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	RNA transport	186	152	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Rap1 signaling pathway	210	147	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ras signaling pathway	232	147	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Regulation of actin cytoskeleton	218	156	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Regulation of lipolysis in adipocytes	55	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Relaxin signaling pathway	129	95	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Renal cell carcinoma	69	64	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Renin secretion	69	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Renin-angiotensin system	23	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Retinol metabolism	68	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Retrograde endocannabinoid signaling	148	92	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Rheumatoid arthritis	93	61	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Riboflavin metabolism	8	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ribosome	158	128	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ribosome biogenesis in eukaryotes	108	70	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	SNARE interactions in vesicular transport	33	32	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Salivary secretion	93	54	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Salmonella infection	249	217	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Selenocompound metabolism	17	16	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Serotonergic synapse	113	51	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Shigellosis	246	212	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Signaling pathways regulating pluripotency of stem cells	143	97	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Small cell lung cancer	92	78	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Sphingolipid metabolism	49	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Sphingolipid signaling pathway	119	101	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Spinocerebellar ataxia	143	114	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Spliceosome	150	129	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Staphylococcus aureus infection	95	34	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Starch and sucrose metabolism	36	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Steroid biosynthesis	20	17	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Steroid hormone biosynthesis	61	21	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Sulfur metabolism	10	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Sulfur relay system	8	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Synaptic vesicle cycle	78	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Synthesis and degradation of ketone bodies	10	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Systemic lupus erythematosus	135	61	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	T cell receptor signaling pathway	104	73	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	TGF-beta signaling pathway	94	70	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	TNF signaling pathway	112	93	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Taste transduction	86	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Taurine and hypotaurine metabolism	11	7	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Terpenoid backbone biosynthesis	22	21	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Th1 and Th2 cell differentiation	92	66	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Th17 cell differentiation	107	76	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Thermogenesis	232	186	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Thiamine metabolism	15	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Thyroid cancer	37	33	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Thyroid hormone signaling pathway	121	96	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Thyroid hormone synthesis	75	46	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Tight junction	169	132	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Toll-like receptor signaling pathway	104	67	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Toxoplasmosis	112	88	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Transcriptional misregulation in cancer	192	124	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Tryptophan metabolism	42	30	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Tuberculosis	180	126	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Type I diabetes mellitus	43	23	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Type II diabetes mellitus	46	31	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Tyrosine metabolism	36	16	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ubiquinone and other terpenoid-quinone biosynthesis	11	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Ubiquitin mediated proteolysis	140	133	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	VEGF signaling pathway	59	47	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Valine, leucine and isoleucine degradation	48	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Various types of N-glycan biosynthesis	39	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Vascular smooth muscle contraction	133	86	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Vasopressin-regulated water reabsorption	44	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Vibrio cholerae infection	50	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Viral carcinogenesis	203	162	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Viral myocarditis	60	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Viral protein interaction with cytokine and cytokine receptor	100	34	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Vitamin B6 metabolism	6	4	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Vitamin digestion and absorption	24	14	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Wnt signaling pathway	166	118	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	Yersinia infection	137	117	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	alpha-Linolenic acid metabolism	25	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	beta-Alanine metabolism	30	21	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	cAMP signaling pathway	216	123	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	cGMP-PKG signaling pathway	167	105	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	mRNA surveillance pathway	98	84	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	mTOR signaling pathway	154	130	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_low_detected	p53 signaling pathway	73	67	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	ABC transporters	45	26	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	AGE-RAGE signaling pathway in diabetic complications	100	82	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	AMPK signaling pathway	120	95	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Acute myeloid leukemia	67	55	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Adherens junction	71	65	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Adipocytokine signaling pathway	69	48	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Adrenergic signaling in cardiomyocytes	150	91	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	African trypanosomiasis	37	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Alanine, aspartate and glutamate metabolism	37	26	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Alcoholism	186	105	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Aldosterone synthesis and secretion	98	62	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Aldosterone-regulated sodium reabsorption	37	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Allograft rejection	38	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Alzheimer disease	369	287	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Amino sugar and nucleotide sugar metabolism	48	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Aminoacyl-tRNA biosynthesis	66	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Amoebiasis	102	61	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Amphetamine addiction	69	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Amyotrophic lateral sclerosis	364	289	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Antigen processing and presentation	78	50	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Apelin signaling pathway	137	94	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Apoptosis	142	120	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Arachidonic acid metabolism	61	28	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Arginine and proline metabolism	50	35	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Arginine biosynthesis	22	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Arrhythmogenic right ventricular cardiomyopathy	77	40	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ascorbate and aldarate metabolism	30	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Asthma	31	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Autoimmune thyroid disease	53	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Autophagy	137	127	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Axon guidance	182	134	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	B cell receptor signaling pathway	81	55	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Bacterial invasion of epithelial cells	77	70	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Basal cell carcinoma	63	40	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Basal transcription factors	45	39	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Base excision repair	33	32	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Bile secretion	90	33	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Biosynthesis of unsaturated fatty acids	27	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Bladder cancer	41	39	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Breast cancer	147	102	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Butanoate metabolism	28	20	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	C-type lectin receptor signaling pathway	104	82	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Caffeine metabolism	6	2	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Calcium signaling pathway	240	114	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Carbohydrate digestion and absorption	47	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cardiac muscle contraction	87	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cell adhesion molecules	148	71	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cell cycle	124	120	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cellular senescence	156	140	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Central carbon metabolism in cancer	70	54	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Chagas disease	102	76	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Chemical carcinogenesis	239	138	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Chemokine signaling pathway	192	119	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cholesterol metabolism	50	31	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Choline metabolism in cancer	97	74	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cholinergic synapse	113	65	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Chronic myeloid leukemia	76	73	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Circadian entrainment	97	57	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Circadian rhythm	31	28	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Citrate cycle (TCA cycle)	30	27	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cocaine addiction	49	29	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Collecting duct acid secretion	27	20	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Colorectal cancer	86	82	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Complement and coagulation cascades	85	30	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Coronavirus disease	232	168	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cortisol synthesis and secretion	65	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cushing syndrome	155	110	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cysteine and methionine metabolism	50	36	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cytokine-cytokine receptor interaction	295	102	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Cytosolic DNA-sensing pathway	63	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	D-Glutamine and D-glutamate metabolism	5	3	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	DNA replication	36	35	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Diabetic cardiomyopathy	203	163	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Dilated cardiomyopathy	96	47	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Dopaminergic synapse	132	90	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Drug metabolism	108	52	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	ECM-receptor interaction	88	48	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Endocrine and other factor-regulated calcium reabsorption	53	32	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Endocytosis	252	223	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Endometrial cancer	58	53	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Epithelial cell signaling in Helicobacter pylori infection	70	61	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Epstein-Barr virus infection	202	167	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	ErbB signaling pathway	85	73	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Estrogen signaling pathway	137	98	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ether lipid metabolism	49	28	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fanconi anemia pathway	54	48	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fat digestion and absorption	43	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fatty acid biosynthesis	18	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fatty acid degradation	43	31	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fatty acid elongation	27	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fc epsilon RI signaling pathway	68	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fc gamma R-mediated phagocytosis	97	78	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ferroptosis	41	35	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fluid shear stress and atherosclerosis	139	114	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Focal adhesion	201	146	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Folate biosynthesis	26	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	FoxO signaling pathway	131	108	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Fructose and mannose metabolism	33	27	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	GABAergic synapse	89	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Galactose metabolism	31	20	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Gap junction	88	64	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Gastric acid secretion	76	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Gastric cancer	149	100	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glioma	75	63	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glucagon signaling pathway	107	77	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glutamatergic synapse	114	60	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glutathione metabolism	57	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glycerolipid metabolism	61	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glycerophospholipid metabolism	97	64	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glycine, serine and threonine metabolism	40	25	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glycolysis / Gluconeogenesis	67	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glycosaminoglycan biosynthesis	53	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glycosaminoglycan degradation	19	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glycosphingolipid biosynthesis	45	30	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis	26	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Glyoxylate and dicarboxylate metabolism	30	26	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	GnRH secretion	64	38	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	GnRH signaling pathway	93	74	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Graft-versus-host disease	42	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Growth hormone synthesis, secretion and action	119	94	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	HIF-1 signaling pathway	109	80	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Hedgehog signaling pathway	56	43	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Hematopoietic cell lineage	99	43	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Hepatitis B	162	132	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Hepatitis C	157	122	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Hepatocellular carcinoma	168	130	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Herpes simplex virus 1 infection	498	380	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Hippo signaling pathway	163	119	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Histidine metabolism	22	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Homologous recombination	41	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Human T-cell leukemia virus 1 infection	219	189	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Human cytomegalovirus infection	225	177	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Human immunodeficiency virus 1 infection	212	164	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Human papillomavirus infection	331	247	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Huntington disease	306	244	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Hypertrophic cardiomyopathy	90	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	IL-17 signaling pathway	94	67	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Inflammatory bowel disease	65	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Inflammatory mediator regulation of TRP channels	98	63	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Influenza A	172	124	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Inositol phosphate metabolism	73	64	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Insulin resistance	108	87	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Insulin secretion	86	51	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Insulin signaling pathway	137	113	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Intestinal immune network for IgA production	48	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	JAK-STAT signaling pathway	162	85	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Kaposi sarcoma-associated herpesvirus infection	193	150	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Legionellosis	57	47	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Leishmaniasis	77	53	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Leukocyte transendothelial migration	114	77	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Linoleic acid metabolism	29	7	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Lipid and atherosclerosis	215	159	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Long-term depression	60	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Long-term potentiation	67	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Longevity regulating pathway	102	86	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Lysine degradation	63	55	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Lysosome	128	113	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	MAPK signaling pathway	294	212	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Malaria	50	23	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Mannose type O-glycan biosynthesis	23	17	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Maturity onset diabetes of the young	26	4	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Measles	139	99	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Melanogenesis	101	70	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Melanoma	72	51	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Metabolism of xenobiotics by cytochrome P450	76	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	MicroRNAs in cancer	310	134	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Mineral absorption	60	40	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Mismatch repair	23	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Mitophagy	68	63	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Morphine addiction	91	43	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Mucin type O-glycan biosynthesis	36	18	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	N-Glycan biosynthesis	50	46	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	NF-kappa B signaling pathway	104	77	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	NOD-like receptor signaling pathway	181	132	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Natural killer cell mediated cytotoxicity	131	68	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Necroptosis	159	104	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Neomycin, kanamycin and gentamicin biosynthesis	5	2	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Neuroactive ligand-receptor interaction	341	67	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Neurotrophin signaling pathway	119	101	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Neutrophil extracellular trap formation	189	102	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Nicotinate and nicotinamide metabolism	35	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Nicotine addiction	40	5	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Nitrogen metabolism	17	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Non-alcoholic fatty liver disease	155	131	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Non-homologous end-joining	13	11	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Non-small cell lung cancer	72	62	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Notch signaling pathway	59	48	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Nucleotide excision repair	47	42	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Olfactory transduction	440	21	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	One carbon pool by folate	20	17	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Oocyte meiosis	129	102	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Osteoclast differentiation	127	90	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Other glycan degradation	18	15	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Other types of O-glycan biosynthesis	47	32	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ovarian steroidogenesis	51	27	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Oxidative phosphorylation	133	108	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Oxytocin signaling pathway	154	100	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	PD-L1 expression and PD-1 checkpoint pathway in cancer	89	69	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	PI3K-Akt signaling pathway	354	224	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	PPAR signaling pathway	74	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pancreatic cancer	76	73	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pancreatic secretion	102	47	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pantothenate and CoA biosynthesis	21	15	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Parathyroid hormone synthesis, secretion and action	106	79	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Parkinson disease	249	204	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pathogenic Escherichia coli infection	197	161	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pathways in cancer	531	375	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pathways of neurodegeneration	475	356	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pentose and glucuronate interconversions	34	12	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pentose phosphate pathway	30	24	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Peroxisome	82	69	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pertussis	76	52	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Phagosome	152	110	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Phenylalanine metabolism	17	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Phenylalanine, tyrosine and tryptophan biosynthesis	6	3	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Phosphatidylinositol signaling system	97	82	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Phospholipase D signaling pathway	148	104	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Phosphonate and phosphinate metabolism	6	5	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Phototransduction	28	11	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Platelet activation	124	84	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Porphyrin and chlorophyll metabolism	43	22	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Primary bile acid biosynthesis	17	9	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Primary immunodeficiency	38	17	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Prion disease	273	211	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Progesterone-mediated oocyte maturation	100	76	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Prolactin signaling pathway	70	58	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Propanoate metabolism	34	30	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Prostate cancer	97	84	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Proteasome	46	43	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Protein digestion and absorption	103	39	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Protein export	23	23	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Protein processing in endoplasmic reticulum	171	158	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Proteoglycans in cancer	205	159	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Proximal tubule bicarbonate reclamation	23	12	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Purine metabolism	129	94	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pyrimidine metabolism	56	46	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Pyruvate metabolism	47	33	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	RIG-I-like receptor signaling pathway	70	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	RNA degradation	79	68	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	RNA polymerase	31	31	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	RNA transport	186	152	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Rap1 signaling pathway	210	147	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ras signaling pathway	232	147	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Regulation of actin cytoskeleton	218	156	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Regulation of lipolysis in adipocytes	55	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Relaxin signaling pathway	129	95	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Renal cell carcinoma	69	64	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Renin secretion	69	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Renin-angiotensin system	23	13	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Retinol metabolism	68	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Retrograde endocannabinoid signaling	148	92	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Rheumatoid arthritis	93	61	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Riboflavin metabolism	8	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ribosome	158	128	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ribosome biogenesis in eukaryotes	108	70	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	SNARE interactions in vesicular transport	33	32	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Salivary secretion	93	54	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Salmonella infection	249	217	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Selenocompound metabolism	17	16	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Serotonergic synapse	113	51	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Shigellosis	246	212	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Signaling pathways regulating pluripotency of stem cells	143	97	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Small cell lung cancer	92	78	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Sphingolipid metabolism	49	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Sphingolipid signaling pathway	119	101	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Spinocerebellar ataxia	143	114	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Spliceosome	150	129	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Staphylococcus aureus infection	95	34	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Starch and sucrose metabolism	36	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Steroid biosynthesis	20	17	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Steroid hormone biosynthesis	61	21	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Sulfur metabolism	10	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Sulfur relay system	8	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Synaptic vesicle cycle	78	49	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Synthesis and degradation of ketone bodies	10	8	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Systemic lupus erythematosus	135	61	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	T cell receptor signaling pathway	104	73	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	TGF-beta signaling pathway	94	70	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	TNF signaling pathway	112	93	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Taste transduction	86	19	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Taurine and hypotaurine metabolism	11	7	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Terpenoid backbone biosynthesis	22	21	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Th1 and Th2 cell differentiation	92	66	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Th17 cell differentiation	107	76	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Thermogenesis	232	186	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Thiamine metabolism	15	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Thyroid cancer	37	33	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Thyroid hormone signaling pathway	121	96	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Thyroid hormone synthesis	75	46	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Tight junction	169	132	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Toll-like receptor signaling pathway	104	67	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Toxoplasmosis	112	88	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Transcriptional misregulation in cancer	192	124	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Tryptophan metabolism	42	30	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Tuberculosis	180	126	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Type I diabetes mellitus	43	23	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Type II diabetes mellitus	46	31	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Tyrosine metabolism	36	16	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ubiquinone and other terpenoid-quinone biosynthesis	11	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Ubiquitin mediated proteolysis	140	133	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	VEGF signaling pathway	59	47	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Valine, leucine and isoleucine degradation	48	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Various types of N-glycan biosynthesis	39	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Vascular smooth muscle contraction	133	86	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Vasopressin-regulated water reabsorption	44	37	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Vibrio cholerae infection	50	44	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Viral carcinogenesis	203	162	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Viral myocarditis	60	41	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Viral protein interaction with cytokine and cytokine receptor	100	34	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Vitamin B6 metabolism	6	4	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Vitamin digestion and absorption	24	14	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	Wnt signaling pathway	166	118	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	Yersinia infection	137	117	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	alpha-Linolenic acid metabolism	25	10	NOT_EVALUABLE	outside_size15_to500
+Pal2021_reprocessed	high_vs_zero	beta-Alanine metabolism	30	21	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	cAMP signaling pathway	216	123	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	cGMP-PKG signaling pathway	167	105	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	mRNA surveillance pathway	98	84	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	mTOR signaling pathway	154	130	DONE	within_size15_to500
+Pal2021_reprocessed	high_vs_zero	p53 signaling pathway	73	67	DONE	within_size15_to500
