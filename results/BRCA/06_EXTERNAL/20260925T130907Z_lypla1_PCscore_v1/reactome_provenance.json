@@ -1,0 +1,8 @@
+{
+  "url": "https://reactome.org/ContentService/data/participants/R-HSA-1482788/referenceEntities",
+  "retrieved_utc": "2026-09-25T13:10:05.240143+00:00",
+  "response_sha256": "b87726a1709dda1fdcea2172b4c8ce25e58b653e2922075fcea47da038e2b2e6",
+  "reactome_version": "97",
+  "protein_members": 27,
+  "all_reference_entities": 40
+}

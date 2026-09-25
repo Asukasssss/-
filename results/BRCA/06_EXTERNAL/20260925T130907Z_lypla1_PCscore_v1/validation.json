@@ -1,0 +1,28 @@
+{
+  "status": "DONE",
+  "membership_frozen_before_correlations": true,
+  "n_common_genes": 24,
+  "target_comparator_excluded": true,
+  "tests": 8,
+  "no_historical_P_q_overwritten": true,
+  "composition_panels": 9,
+  "patient_or_donor_numeric_tables_server_only": true,
+  "no_cross_cohort_patient_links": true,
+  "score_standardization_checked": true,
+  "source_row_n": {
+    "Wu": 20,
+    "Pal": 33,
+    "CAMP": 60,
+    "CAMP_available": 55
+  },
+  "independent_R_audit": "PASS: all3 cohort scores,8 rho/partialrho,BH8,plusone P formula",
+  "maximum_independent_score_error": 3.90757304985501e-15,
+  "not_independently_repeated": [
+    "permutation draws",
+    "bootstrap draws"
+  ],
+  "visual_review": "PASS:three figures inspected",
+  "q_policy": "Archived,not current exploratory retention gate",
+  "new_delivery_check": "PASS:31 staged files;no private numeric arrays;all under5MB;allowed formats;Git index bytes matched",
+  "repository_wide_check": "Legacy checker reports13 pre-existing format/size exceptions;none in this delivery;historical files not changed"
+}

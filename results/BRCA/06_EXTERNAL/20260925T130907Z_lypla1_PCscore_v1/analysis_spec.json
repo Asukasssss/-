@@ -1,0 +1,46 @@
+{
+  "version": "lypla1_PCscore_v1",
+  "source_commit": "a06487f243d2a7f316aac3d71311b2263b63c65d",
+  "pathway": "R-HSA-1482788",
+  "membership_source": "Reactome referenceEntities UniProt proteins; all pathway roles,not enzymes only",
+  "planned_members": 27,
+  "target": "LYPLA1",
+  "comparator": "LYPLA2",
+  "score_excludes": [
+    "LYPLA1",
+    "LYPLA2"
+  ],
+  "CAMP_identity_block": [
+    "LPCAT4"
+  ],
+  "min_malignant_cells_per_donor": 20,
+  "min_source_donors_detected_per_gene": 3,
+  "min_score_genes": 5,
+  "min_common_fraction": 0.5,
+  "sc_expression": "sum all raw counts within source donor malignant cells; log1p(sum_gene_counts/sum_all_gene_library*10000); no cell cap; publisher malignancy labels reused",
+  "CAMP_expression": "unchanged author RNA scale",
+  "score": "same coverage-frozen genes in Wu,Pal,CAMP; per-gene within-cohort zscore ddof1 then unweighted mean; no outcome-selected weights",
+  "inference_unit": "source donor in scRNA; audited author tumor case in CAMP; no cross-cohort patient linking",
+  "planned_tests": 8,
+  "tests": [
+    "Wu LYPLA1-score",
+    "Wu LYPLA2-score",
+    "Pal LYPLA1-score",
+    "Pal LYPLA2-score",
+    "CAMP score-LPC processed",
+    "CAMP score-LPC author-available",
+    "CAMP score-LPC ER_PC12 processed",
+    "CAMP score-LPC ER_PC12 author-available"
+  ],
+  "retention": "nominal two-sided P<0.05 exploratory; BH8 archived,not entry gate",
+  "unadjusted_test": "Spearman,99999 permutations plusone;4000 whole-unit bootstrap percentile CI",
+  "adjusted_test": "partial rank correlation residualizing ER and ranked first2 composition PCs; Freedman-Lane residual permutation within ER;99999 draws;4000 ER-stratified whole-case bootstrap with refit residual model, fixed score and PCA values",
+  "composition": "MCPcounter marker mean proxies on author RNA scale,exclude history156 AND full27 pathway members AND LYPLA1/2;panels>=2 markers and>=50%original coverage;standardize60tumors then fixed2PC;ER from original GEO metadata;one model only",
+  "composition_minimum": "n>=20;atleast4cases in each ER group;>=8eligible proxy panels;full rank design",
+  "no_new_patient_matrix_download": true,
+  "no_reclustering": true,
+  "no_WGCNA_retuning": true,
+  "no_new_paired_delta_analysis": true,
+  "independent_replication": "separate sc cohorts for transcript-score links only;CAMP bulk-score/metabolite link does not establish malignant cell metabolic measurement",
+  "seed": "sha256(version|cohort|test|subset) first8 hex;bootstrap uses seed+1"
+}
