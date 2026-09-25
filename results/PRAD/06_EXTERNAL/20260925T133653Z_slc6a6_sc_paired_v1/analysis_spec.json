@@ -1,0 +1,25 @@
+{
+  "version": "prad_slc6a6_sc_paired_v1",
+  "parent_commit": "488ae24ebc5179fbd1276cde0338e8859e52146f",
+  "gene": "SLC6A6",
+  "unit": "matched depositor donor_id within cell class",
+  "source": "same PRAD24 CELLxGENE dataset as source run",
+  "expression": "reuse donor mean log1p(CP10K) from full raw-gene library normalization",
+  "minimum_cells_each_donor_tissue_celltype": 20,
+  "minimum_pairs_for_inference": 8,
+  "primary_family": "all author same-label classes except Unassigned; epithelial subclasses retained",
+  "secondary_family": "tumor malignant epithelium versus adjacent normal epithelium;different states explicitly labelled",
+  "primary_endpoint": "mean per-cell normalized expression within donor and class",
+  "test": "two-sided signed-rank exact sign-flip of nonzero differences;ties average ranks",
+  "bootstrap": 4000,
+  "seed": 20260925,
+  "display_threshold": "P<0.05 exploratory;BH retained separately per family",
+  "detection_endpoint": "descriptive only;no detection P tests",
+  "limitations": [
+    "same study as source ranking, not independent confirmation",
+    "no cell-level pseudoreplication",
+    "donor IDs and annotations inherited from depositor",
+    "mean normalized expression rather than count pseudobulk model",
+    "composition within broad cell classes and sample processing may remain confounded"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "DONE",
+  "unique_donor_class_keys": true,
+  "tests_checked_against_scipy_exhaustive": true,
+  "total_contrasts": 13,
+  "evaluable_contrasts": 6,
+  "source_hash": "e02725b1d6df282254614e596b2a6b4c042af0134d4a2cd789d221787dc46736",
+  "source_unchanged": true,
+  "patient_tables_exported": false
+}
