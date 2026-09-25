@@ -3,10 +3,10 @@ from pathlib import Path
 import argparse,json,hashlib
 import numpy as np,pandas as pd
 from gbm_discovery_v1 import save,js,sha,check
-V='gbm_sc_source_v1'
+V='gbm_sc_source_v1b'
 MAP={'astrocyte':'Astrocyte','oligodendrocyte':'Oligodendrocyte','neuron':'Neuron','myeloid cell':'Myeloid','neoplastic cell':'Neoplastic','oligodendrocyte precursor cell':'OPC','vascular lymphangioblast':'Vascular','malignant cell':'Neoplastic','macrophage':'Myeloid','microglial cell':'Myeloid','dendritic cell':'Myeloid','monocyte':'Myeloid','mast cell':'Myeloid','mature T cell':'Lymphoid','plasma cell':'Lymphoid','natural killer cell':'Lymphoid','B cell':'Lymphoid','mural cell':'Vascular','endothelial cell':'Vascular','radial glial cell':'Other glial'}
 def main(out,commit):
- pub=out/'public/06_EXTERNAL';pub.mkdir(exist_ok=False);genes=pd.read_csv(out/'source/genes_unique.tsv',sep='\t');profiles=[];ranks=[];coverage=[];maps=[];registry=[];private=[]
+ pub=out/'public/06_EXTERNAL_v1b';pub.mkdir(exist_ok=False);genes=pd.read_csv(out/'source/genes_unique.tsv',sep='\t');profiles=[];ranks=[];coverage=[];maps=[];registry=[];private=[]
  spec=dict(version=V,code_commit=commit,minimum_cells_per_donor_category=20,minimum_distinct_source_donors_per_category=3,minimum_categories_for_ranking=2,minimum_detection_for_rank=.01,bootstrap=1000,master_seed=20260925,bootstrap_unit='whole source donor;duplicate draws are weights,not new donors;at least3 distinct eligible original labels per category in each draw',normalization='log1p(10000*counts/full_retained_raw_gene_library);not UMI for Smartseq',gene_match='exact unique gene symbol to source Ensembl;missing kept',cell_annotation='Darmanis author classes standardized by curator;Neftel GBmap reannotation',scope='all candidate142 genes;coarse category descriptive sources;original tissue regions retained and flagged;no subtype mechanism inference',P_q='NA;no tests',known_overlap_removed='only author=Neftel2019 selected from GBmap;Darmanis2017 part of GBmap excluded',independence_limit='different source studies;cross-publication patient alias equivalence not independently verified')
  js(pub/'analysis_spec.json',spec)
  for study in ['Darmanis2017','Neftel2019']:
@@ -45,7 +45,7 @@ def main(out,commit):
   a=rank[(rank.study=='Darmanis2017')&(rank.gene==g.gene)].iloc[0];b=rank[(rank.study=='Neftel2019')&(rank.gene==g.gene)].iloc[0];row=dict(gene=g.gene,stable_gene_id=g.stable_gene_id,study1_top=a.top_celltype,study2_top=b.top_celltype,study1_bootstrap=a.bootstrap_top_frequency,study2_bootstrap=b.bootstrap_top_frequency,same_top_all_categories=np.nan,same_top_shared_categories=np.nan,same_top_both_bootstrap_ge080=np.nan,status='NOT_EVALUABLE')
   if a.status=='DONE' and b.status=='DONE' and not a.rank_tie and not b.rank_tie:row.update(status='DONE',same_top_all_categories=a.top_celltype==b.top_celltype,same_top_both_bootstrap_ge080=bool(a.top_celltype==b.top_celltype and min(a.bootstrap_top_frequency,b.bootstrap_top_frequency)>=.8))
   aa=prof[(prof.cohort=='Darmanis2017')&(prof.gene==g.gene)&(prof.status=='DONE')].set_index('celltype');bb=prof[(prof.cohort=='Neftel2019')&(prof.gene==g.gene)&(prof.status=='DONE')].set_index('celltype');shared=sorted(set(aa.index)&set(bb.index));row['n_shared_categories']=len(shared)
-  if len(shared)>=2:
+  if len(shared)>=2 and aa.loc[shared,'mean_detection_fraction'].max()>=.01 and bb.loc[shared,'mean_detection_fraction'].max()>=.01:
    av=aa.loc[shared,'effect'];bv=bb.loc[shared,'effect'];at=av.index[np.isclose(av,av.max(),rtol=0,atol=1e-10)].tolist();bt=bv.index[np.isclose(bv,bv.max(),rtol=0,atol=1e-10)].tolist();row['same_top_shared_categories']=at==bt if len(at)==len(bt)==1 else np.nan
   cross.append(row)
  save(pd.DataFrame(cross),pub/'sc_cross_study.tsv');summary=dict(status='DONE',candidate_genes=len(genes),studies=registry,eligible_profile_rows=int(prof.status.eq('DONE').sum()),evaluable_rank_rows=int(rank.status.eq('DONE').sum()),same_top_all=int(pd.DataFrame(cross).same_top_all_categories.eq(True).sum()),shared_top_same=int(pd.DataFrame(cross).same_top_shared_categories.eq(True).sum()),no_P_q_tests=True,full_gene_library_normalization=True,donor_equal_weighting=True,all_genes_retained=True);js(pub/'validation.json',summary)
