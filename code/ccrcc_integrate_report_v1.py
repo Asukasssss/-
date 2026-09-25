@@ -46,7 +46,7 @@ def main(run,commit):
   gene['current_in_'+co]=gene.gene.isin(z['mapping'].gene)
   gene['n_relations_'+co]=gene.gene.map(z['mapping'].groupby('gene').size()).fillna(0).astype(int)
   cols=['gene','effect','n','p_value','q_value','status','reason'];rr=z['rna'][cols].rename(columns={c:co+'_RNA_'+c for c in cols if c!='gene'});gene=gene.merge(rr,on='gene',how='left',validate='one_to_one')
-  missing=gene[co+'_RNA_status'].isna();gene.loc[missing,co+'_RNA_status']='NOT_RUN';gene.loc[missing,co+'_RNA_reason']='not_in_this_cohort_current_or_legacy_RNA_family'
+  missing=gene[co+'_RNA_status'].isna();gene.loc[missing,co+'_RNA_status']='NOT_RUN';gene[co+'_RNA_reason']=gene[co+'_RNA_reason'].astype(object);gene.loc[missing,co+'_RNA_reason']='not_in_this_cohort_current_or_legacy_RNA_family'
  gene['current_pool']=gene.current_in_ccRCC3|gene.current_in_ccRCC4;gene['history_only']=~gene.current_pool
  gene=gene.merge(rank,on=['gene','stable_gene_id'],validate='one_to_one');gene['cell_background']=np.where(gene.status.eq('DONE'),gene.top_celltype,'暂不可定位')
  gene['interpretation']='描述性细胞来源；不是酶活、代谢通量或功能验证'
@@ -126,7 +126,7 @@ def main(run,commit):
  pagewrite('9  全候选单细胞表达来源',['GSE159115：20,748个作者肿瘤组织细胞、7个患者来源标签；157个当前/历史基因全部精确覆盖。','142个基因满足至少两可评估类别和检出阈值，允许描述最高类别；只作表达背景。'],scsumfig)
  pagewrite('10  表达图：明确展示选择与缺项',['示例按当前基因字母序取前16个，不根据最小P/q或最强表达挑选；完整157基因热图/点图另附。','灰色=不可评估；每供者每类≥20细胞、每类≥3供者；无新增聚类。'],scfig)
  pagewrite('11  来源排名稳定性',['供者联合重抽样保留同一供者的类别关联；80%阈值仅为描述性标记。','限制：仅一项单细胞研究，不能宣称双研究一致；最高表达类别不一定是唯一作用或代谢物生成细胞。'],stabilityfig)
- pagewrite('12  证据整合与当前决定',[f'完整关系表保留{len(rel)}条队列内关系；完整基因表保留{len(gene)}个当前/历史基因，当前去重{int(gene.current_pool.sum())}个。',f'两队列共有{len(common)}条相同化学键＋名称＋基因关系，其中{int(common.both_nominal_p005.sum())}条两边均名义P<0.05；这是描述性对照，不称独立复现。','证据分层：代谢物发现、患者关联、RNA背景、细胞来源分别展示；不合成为不透明总分，不把RNA或细胞来源补成关联的FDR支持。','当前适合讨论探索候选与数据缺口，不适合直接宣布验证靶点。基础功能、CPTAC、外部患者复现若无新分析，明确NOT_RUN。'])
+ pagewrite('12  证据整合与当前决定',[f'完整关系表保留{len(rel)}条队列内关系；完整基因表保留{len(gene)}个当前/历史基因，当前去重{int(gene.current_pool.sum())}个。',f'两队列共有{len(common)}条相同化学键＋名称＋基因关系，其中{int(common.both_nominal_p005.sum())}条两边均名义P<0.05，其中3条同向、2条反向；不能把两边显著当作方向一致或独立复现。','证据分层：代谢物发现、患者关联、RNA背景、细胞来源分别展示；不合成为不透明总分，不把RNA或细胞来源补成关联的FDR支持。','当前适合讨论探索候选与数据缺口，不适合直接宣布验证靶点。基础功能、CPTAC、外部患者复现若无新分析，明确NOT_RUN。'])
  pagewrite('13  交付、限制与复现',['交付：14页PDF、可筛选Excel、全量TSV、每张图PNG＋PDF＋图源TSV、中文图注、代码、参数与SHA256。','未完成／不可声称：穷尽生化映射、第二独立单细胞研究、作者UMAP坐标、功能或因果验证。未测与未显著严格分开。','输入提交：'+commit,'复现：python code/ccrcc_integrate_report_v1.py --run 新运行ID --input-commit 上述提交。服务器逐样本数据与凭据不进入交付包。','所有具体分析脚本、运行目录、参数、输入哈希、实际n和版本决定均保留。当前结果分支未自动合并main。'])
  cv.save();assert page==14
  readme=f'''# ccRCC 首轮数据分析交付\n\n问题：按BRCA主线推进ccRCC，统计单位、病理与治疗背景按本癌种真实设计适配。\n\n输入范围：ccRCC3 17对；ccRCC4原研究病理交叉核实后12对。基线提交 `{commit}`。版本修正详见../../VERSION_DECISIONS_CN.md。\n\n实际结果：\n\n|项目|ccRCC3|ccRCC4 修正版|\n|---|---:|---:|\n|配对患者|17|12|\n|全量保留代谢特征|711|904|\n|代谢物 P<0.05 / q<0.05|469 / 454|432 / 337|\n|直接关系 / 当前基因|221 / 144|130 / 95|\n|主关联 P<0.05 / q<0.05|19 / 0|18 / 0|\n|当前RNA q<0.05|110|50|\n\n当前去重{int(gene.current_pool.sum())}基因、含历史{len(gene)}基因；GSE159115全部覆盖，142个可描述来源排名。\n\n新手解释：代谢物差异和RNA差异不能自动证明代谢物—基因联系。当前患者主关联均未通过各队列BH q<0.05，保留的是探索线索。单细胞只说明表达位置，不说明酶活、通量、因果或药物靶点有效。\n\n限制：多区域小患者数、混合治疗背景、同队列筛选、有界映射尚不穷尽；两个CAMP队列不声称独立验证。第二独立单细胞资料未完成，现成UMAP缺失，功能/机制未新增。\n\n当前决定：主线可计算部分已交付，缺项逐条保留。采用病理修正版ccRCC4和细化治疗分层ccRCC3，首版数值不覆盖且不混入当前主表。\n\n下一步：若继续深入，应先补未映射分子的身份与直接证据、独立患者样本和第二来源研究，不从本轮名义P结果直接宣布靶点。\n\n复现：`python code/ccrcc_integrate_report_v1.py --run NEW_RUN --input-commit {commit}`。数值统计在server165执行；本脚本仅读取允许公开的汇总。\n'''
