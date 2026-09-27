@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "n_samples_checked": 6,
+  "all_matrix_checks_pass": true,
+  "all_spatial_joins_pass": true,
+  "patient_ids_unique": true,
+  "private_measurements_server_only": true,
+  "limitations": [
+    "mixed spots are not purified epithelial cells",
+    "normal duct has only three spots; no adequate pure-normal comparison",
+    "no independent cohort validation",
+    "no tumor-fraction or spatial-autocorrelation model; no spot-level P values",
+    "small patient sample; bootstrap CI descriptive"
+  ],
+  "independent_recomputed_region_effects": true,
+  "independent_combinatorial_sign_P": true,
+  "region_spot_totals_reconcile": true,
+  "normalization_sensitivity": "pseudobulk ratio directions retained; no extra significance tests"
+}

@@ -1,0 +1,16 @@
+reference	min_spots	n	n_pseudobulk_up	n_pseudobulk_down	same_direction_as_primary_metric
+Stroma	20	6	5	1	5
+Normal_mixed	20	2	2	0	2
+Normal_duct	20	0	0	0	0
+DCIS	20	1	0	1	1
+Lymphoid	20	4	4	0	4
+Stroma	10	6	5	1	5
+Normal_mixed	10	2	2	0	2
+Normal_duct	10	0	0	0	0
+DCIS	10	2	1	1	2
+Lymphoid	10	4	4	0	4
+Stroma	30	6	5	1	5
+Normal_mixed	30	2	2	0	2
+Normal_duct	30	0	0	0	0
+DCIS	30	1	0	1	1
+Lymphoid	30	3	3	0	3

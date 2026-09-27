@@ -1,0 +1,36 @@
+{
+  "version": "LYPLA1_Wu_spatial_v1",
+  "gene": "LYPLA1",
+  "source": "https://zenodo.org/records/4739739",
+  "code_commit": "2abec1e",
+  "unit": "author patientid; one section per patient verified",
+  "normalization": "log1p(count/total_UMI*10000); region mean across spots, then paired patient differences",
+  "primary": "Tumor_containing vs Stroma",
+  "secondary": [
+    "Tumor_containing vs Normal_mixed",
+    "Tumor_containing vs Normal_duct",
+    "Tumor_containing vs DCIS",
+    "Tumor_containing vs Lymphoid"
+  ],
+  "min_spots": 20,
+  "sensitivity_min_spots": [
+    10,
+    30
+  ],
+  "test": "two-sided exact sign test on nonzero patient differences; descriptive only if <3 patients",
+  "wilcoxon": "supplementary two-sided exact signed-rank when no zeros/ties",
+  "p_threshold": 0.05,
+  "FDR": "not used for significance per user; one prespecified primary contrast; secondary exploratory",
+  "depth_sensitivity": "within patient OLS log1pCP10k ~ tumor_indicator + centered log1p(total_UMI), descriptive; no spot-level P values",
+  "composition": "EPCAM/KRT8/KRT18/KRT19 and PTPRC/COL1A1 measured descriptively; no validated tumor-fraction adjustment",
+  "excluded": "Artefact, Uncertain, missing Classification from inferential contrasts; retain QC counts",
+  "spatial": "coordinates joined by barcode, not row order; no imputation/smoothing",
+  "bootstrap": "patient resampling CI for mean effect, 20000 draws seed 20260927; unstable with small n",
+  "software": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9"
+  }
+}

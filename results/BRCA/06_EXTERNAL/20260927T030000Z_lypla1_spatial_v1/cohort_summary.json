@@ -1,0 +1,18 @@
+{
+  "n_patients": 6,
+  "n_sections": 6,
+  "n_spots": 15611,
+  "n_valid_spots": 15324,
+  "LYPLA1_positive_spots": 9236,
+  "overall_detection": 0.591634104157325,
+  "sample_detection_min": 0.38691471571906355,
+  "sample_detection_max": 0.8881987577639752,
+  "subtypes": {
+    "TNBC": 4,
+    "ER": 2
+  },
+  "n_spatial_maps": 6,
+  "depth_adjusted_n": 6,
+  "depth_adjusted_n_positive": 6,
+  "depth_adjusted_mean": 0.06834303770517522
+}
