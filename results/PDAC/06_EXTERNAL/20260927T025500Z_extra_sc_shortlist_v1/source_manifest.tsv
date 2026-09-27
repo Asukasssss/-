@@ -1,0 +1,13 @@
+source	sha256	access_note
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155698	NA	Official indexed metadata / original research resource;source bytes not archived
+https://github.com/PascaDiMagliano-Lab/MultimodalMappingPDA-scRNASeq	NA	Official indexed metadata / original research resource;source bytes not archived
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202051	NA	Official indexed metadata / original research resource;source bytes not archived
+https://singlecell.broadinstitute.org/single_cell/study/SCP1089/human-treatment-naive-pdac-snuc-seq	NA	Official indexed metadata / original research resource;source bytes not archived
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE217845	NA	Official indexed metadata / original research resource;source bytes not archived
+https://pubmed.ncbi.nlm.nih.gov/37914939/	NA	Official indexed metadata / original research resource;source bytes not archived
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE291124	NA	Official indexed metadata / original research resource;source bytes not archived
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12866174/	NA	Official indexed metadata / original research resource;source bytes not archived
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154778	NA	Official indexed metadata / original research resource;source bytes not archived
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7523332/	NA	Official indexed metadata / original research resource;source bytes not archived
+code\pdac\extra_sc_shortlist_v1.py	95d1d4dc6166188e0da1ab6903b1cfa029b88620835b2dc375b62ef781aeef42	Local reproducible record
+results\PDAC\06_EXTERNAL\20260927T025500Z_extra_sc_shortlist_v1\cohort_shortlist.tsv	e7eb331657d7fa56956404f603e35e056063621d5ee5fec8393f06adac9e5ac6	Local reproducible record

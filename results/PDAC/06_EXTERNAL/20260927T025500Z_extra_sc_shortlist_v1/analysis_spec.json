@@ -1,0 +1,25 @@
+{
+  "run_id": "20260927T025500Z_extra_sc_shortlist_v1",
+  "scope": "Primary-source public dataset screening only,not expression analysis",
+  "screen_date_UTC": "2026-09-27",
+  "existing_analyzed_cohorts": [
+    "GSE263733",
+    "GSE278688",
+    "GSE242230"
+  ],
+  "selection_basis": [
+    "human primary PDAC",
+    "author-unit traceability",
+    "public count/processed-data availability",
+    "malignant/myeloid annotation potential",
+    "normal reference and treatment context",
+    "original-cohort deduplication"
+  ],
+  "selection_not_based_on": "LYPLA1/LYPLA2/SLC6A6 significance or expression",
+  "access_note": "Some direct GEO/Nature requests returned CAPTCHA/redirect;GEO facts read from indexed official pages;SCP1089 landing page directly read",
+  "server_metadata_check": "SSH connection timeout;no matrix inspected",
+  "raw_data_downloaded_this_run": false,
+  "expression_analysis": "NOT_RUN",
+  "clinical_independence": "NOT_VERIFIED",
+  "future_gene_scope": "If expanded source analysis is requested,retain complete candidate pool;do not select cohorts by favorable gene results"
+}
