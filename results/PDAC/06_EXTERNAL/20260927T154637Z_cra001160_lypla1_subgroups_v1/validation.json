@@ -1,0 +1,9 @@
+{
+  "status": "ACCESS_BLOCKED",
+  "server_connection": "TCP_TIMEOUT_BEFORE_AUTHENTICATION",
+  "github_fetch": "PASS",
+  "author_subgroup_barcode_mapping_verified": false,
+  "subgroup_analysis_executed": false,
+  "new_numerical_results": false,
+  "historical_statistics_modified": false
+}
