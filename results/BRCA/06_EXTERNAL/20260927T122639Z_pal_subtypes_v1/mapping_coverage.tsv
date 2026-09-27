@@ -1,0 +1,6 @@
+subtype	n_cells	n_source_labels	n_GEO_patient_labels
+ER+	110883	18	17
+HER2+	43827	6	6
+PR+_only_label	3020	1	1
+TNBC	57242	7	7
+UNRESOLVED	9851	1	1

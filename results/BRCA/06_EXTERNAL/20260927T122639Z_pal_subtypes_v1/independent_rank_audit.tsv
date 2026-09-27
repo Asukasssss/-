@@ -1,0 +1,7 @@
+unit	group	reference	status
+cell_exploratory	ER+	HER2+	PASS
+cell_exploratory	ER+	TNBC	PASS
+cell_exploratory	HER2+	TNBC	PASS
+GEO_patient_label	ER+	HER2+	PASS
+GEO_patient_label	ER+	TNBC	PASS
+GEO_patient_label	HER2+	TNBC	PASS

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "source_labels": 33,
+  "matched_labels": 32,
+  "conflicting_labels": 1,
+  "malignant_cells": 130078,
+  "one_to_many_join_rejected": true,
+  "patient_identity": "GEO patient field; no genotype verification",
+  "same_patient_regions_merged": true,
+  "old_matrix_unchanged": true,
+  "old_statistics_not_overwritten": true,
+  "not_checked": "Clinical subtype conflict not resolved; tests are exploratory; no subtype-by-cancer-normal comparison",
+  "manual_rank_tie_P_checks": 6,
+  "figure_visually_reviewed": true
+}

@@ -1,0 +1,23 @@
+{
+  "parent_config": "code/brca_sc117_Pal2021_config.json",
+  "server_cell_sidecar": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260927T122639Z_pal_subtypes_v1/private/cell_subtype_sidecar.tsv",
+  "server_source_label_map": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260927T122639Z_pal_subtypes_v1/private/sample_subtype_mapping.tsv",
+  "join_key": "exact original H5AD obs index (first column); validate 1:1 before use",
+  "columns": [
+    "donor_id",
+    "subtype",
+    "patient",
+    "status"
+  ],
+  "allowed_three_group_comparison": [
+    "ER+",
+    "HER2+",
+    "TNBC"
+  ],
+  "exclude_from_three_group_tests": [
+    "UNRESOLVED",
+    "PR+_only_label"
+  ],
+  "status": "PARTIAL",
+  "reuse_scope": "all existing pal_2021 cells, not only LYPLA1; historical source H5AD unchanged"
+}

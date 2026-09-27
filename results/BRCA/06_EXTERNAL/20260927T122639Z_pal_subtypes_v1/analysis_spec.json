@@ -1,0 +1,15 @@
+{
+  "version": "pal_subtypes_v1",
+  "source_commit": "6f33f047a8a94b9295cd39cced30a4c3507acfad",
+  "join": "pal_Patient + exact GEO title suffix, primary Total tumor only; unique GSM required",
+  "PR_only": "separate, not assumed ER+",
+  "conflicts": "retain unresolved, exclude from subtype tests",
+  "patient_unit": "GEO patient characteristic; explicit shared patient regions pooled before >=20 cell filter",
+  "expression": "raw counts/library size*1e4; log1p; patient mean log expression and detection",
+  "tests": "3 pairwise two-sided asymptotic Mann Whitney per unit, BH3 separate; cells and GEO patient labels",
+  "limitations": "No donor-adjusted cell test, batch/depth/sex adjustment, or causal interpretation; PR-only n=1 descriptive; sources not new independent cohort",
+  "software": {
+    "numpy": "1.24.4",
+    "pandas": "1.5.3"
+  }
+}
