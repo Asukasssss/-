@@ -1,0 +1,8 @@
+{
+  "status": "PARTIAL",
+  "server_computation": "Completed; successful console table received",
+  "input_and_statistics_assertions": "All assertions preceding printed summary passed; source validation JSON not yet transferred",
+  "export": "SSH timeout on subsequent SFTP connections",
+  "precision": "Terminal display precision only",
+  "full_results_and_plot": "Pending transfer"
+}

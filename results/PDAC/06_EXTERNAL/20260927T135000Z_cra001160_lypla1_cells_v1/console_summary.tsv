@@ -1,0 +1,7 @@
+context	population	n	n_reference	mean_test	mean_reference	rank_biserial	p_value	q_value
+Tumor_all_units	all	11315	2646	0.361448	0.359252	0.018591	0.1040993	0.1040993
+Tumor_all_units	positive	5312	1097	0.769915	0.866527	-0.186432	2.116098e-22	3.174148e-22
+Tumor_vs_control	all	11315	7671	0.361448	0.327674	0.082851	1.827467e-27	5.482401e-27
+Tumor_vs_control	positive	5312	2543	0.769915	0.988433	-0.35408	1.144984e-142	6.869903e-142
+Tumor_14_shared_units_sensitivity	all	4019	2616	0.371686	0.358034	0.042525	0.001472145	0.001766574
+Tumor_14_shared_units_sensitivity	positive	2028	1081	0.736592	0.866437	-0.234282	4.580406e-27	9.160811e-27

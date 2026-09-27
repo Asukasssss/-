@@ -1,0 +1,13 @@
+{
+  "analysis_version": "cra001160_lypla1_cells_v1",
+  "unit": "pooled_cell",
+  "populations": [
+    "all including zero",
+    "raw LYPLA1 UMI>0"
+  ],
+  "test": "two-sided asymptotic Mann-Whitney U, tie and continuity correction",
+  "family": "BH across six predefined comparisons",
+  "clustering_adjustment": false,
+  "input_sha256": "39c164112b49c9807e34b378b912f7ad510e3faacc63ed415f28f624960c8d8c",
+  "base_commit": "cb9ac3ac0e247f36d60e8afabad172d79e48f5ce"
+}

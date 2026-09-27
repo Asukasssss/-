@@ -1,0 +1,4 @@
+source	sha256	note
+Prior server private/cell_values.tsv.gz	39c164112b49c9807e34b378b912f7ad510e3faacc63ed415f28f624960c8d8c	Verified before successful cell analysis
+code/pdac/cra001160_lypla1_cells.py	27bb079db888b71c8d3581daf532607a09bfaf569dbd7b7bd015b772a708ef11	Executed server code
+console_summary.tsv	68aa19090653133d996171498b3b6035565503e912d5f7f72c34cd9f28b4c335	Copied actual printed aggregates; rounded display precision
