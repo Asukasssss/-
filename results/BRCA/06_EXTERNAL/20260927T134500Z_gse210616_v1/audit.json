@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "sections": 43,
+  "patients": 22,
+  "input_files_hashed": 172,
+  "explicit_GEO_patient_section_identity": "PASS",
+  "all_QC_spots_inside_image_bounds": "PASS",
+  "all_43_figures_present": "PASS",
+  "matrix_data_local_storage": false,
+  "pathology_labels": "unavailable; not inferred as malignant",
+  "treatment": "unavailable; not imputed",
+  "analysis_code_commit": "e75a07a",
+  "analysis_script_sha256": "5d99a90583b80f36e6c48623cafcbbca936a936845863abcb22a9f9e6e86ff85",
+  "execution_environment": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1"
+}

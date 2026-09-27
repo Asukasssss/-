@@ -1,0 +1,15 @@
+{
+  "sections_expected": 43,
+  "sections_analyzed": 43,
+  "patients": 22,
+  "spots_before_QC": 56567,
+  "spots_after_QC": 55449,
+  "detected_spots": 37225,
+  "failures": [],
+  "author_pathology_labels": "NOT_AVAILABLE_IN_DOWNLOADED_ESSENTIAL_FILES",
+  "treatment_stratification": "NOT_EVALUABLE",
+  "matrix_coordinate_joins": "validated per section",
+  "LYPLA1_in_annotation_markers": false,
+  "patient_mapping": "explicit GEO sample titles",
+  "source_hashes": "SHA256 computed after successful downloads; no provider checksum comparison"
+}

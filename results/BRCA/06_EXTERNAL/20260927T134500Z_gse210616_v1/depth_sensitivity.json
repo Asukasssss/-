@@ -1,0 +1,12 @@
+{
+  "measure": "depth_adjusted_region_beta",
+  "n": 22,
+  "positive": 16,
+  "negative": 6,
+  "mean": 0.026670231784840837,
+  "median": 0.04510741253465056,
+  "p_value": 0.052478790283203125,
+  "model": "within-section LYPLA1 log1p normalized ~ epithelial-marker indicator + log1p(total UMI), restrict epithelial/stromal inferred spots; equal section mean per patient",
+  "status": "DONE",
+  "timing": "follow-up sensitivity after primary results; does not establish cell-intrinsic upregulation"
+}

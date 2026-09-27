@@ -1,0 +1,70 @@
+{
+  "version": "v1",
+  "gene": "LYPLA1",
+  "status": "exploratory_marker_association",
+  "normalization": "log1p(count/total_counts*10000)",
+  "QC": {
+    "min_counts": 500,
+    "min_genes": 200,
+    "max_mito_fraction": 0.25
+  },
+  "panels": {
+    "Epithelial": [
+      "EPCAM",
+      "KRT8",
+      "KRT18",
+      "KRT19",
+      "KRT7",
+      "MUC1",
+      "KRT5",
+      "KRT14"
+    ],
+    "Stromal": [
+      "COL1A1",
+      "COL1A2",
+      "COL3A1",
+      "DCN",
+      "LUM",
+      "COL6A1",
+      "PDGFRA",
+      "FAP"
+    ],
+    "Immune": [
+      "PTPRC",
+      "LST1",
+      "TYROBP",
+      "CD3D",
+      "CD3E",
+      "CD79A",
+      "MS4A1"
+    ],
+    "Endothelial": [
+      "PECAM1",
+      "VWF",
+      "KDR",
+      "EMCN"
+    ]
+  },
+  "score": "mean within-section gene z scores of log-normalized marker expression; LYPLA1 excluded",
+  "region": "top panel score >0 and margin over second >=0.25; marker-inferred, not pathological annotation",
+  "primary_requested_histology_test": "NOT_EVALUABLE_without_author_barcode_labels",
+  "unit": "patient; equal mean across their sections",
+  "exploratory_tests": [
+    "depth-adjusted rank association LYPLA1 vs epithelial score",
+    "epithelial-marker-enriched vs stromal-marker-enriched mean log expression"
+  ],
+  "min_region_spots": 20,
+  "sensitivity_min_spots": [
+    10,
+    30
+  ],
+  "P": "two-sided exact sign test; nominal descriptive P; no spot-level P",
+  "treatment": "NOT_EVALUABLE pending patient-specific clinical metadata",
+  "seed": 20260927,
+  "software": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3"
+  }
+}
