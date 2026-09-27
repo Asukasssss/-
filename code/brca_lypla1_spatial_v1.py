@@ -8,6 +8,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import scipy
+import h5py
 from scipy.io import mmread
 from scipy.stats import binomtest, wilcoxon
 import matplotlib
@@ -63,8 +64,6 @@ def main():
    v=m[ii[0]].toarray().ravel();d[g+'_count']=v;d[g]=np.log1p(v/lib*10000)
   d['total_UMI']=lib
   qc.append(dict(sample=sample,patientid=d.patientid.iloc[0],subtype=d.subtype.iloc[0],n_spots=len(d),n_valid=int((~d.region.str.startswith('Excluded')).sum()),detected=int((d.LYPLA1_count>0).sum()),detection_fraction=float((d.LYPLA1_count>0).mean()),median_UMI=float(np.median(lib))))
-  for (region,label),z in d.groupby(['region','Classification'],dropna=False):
-   pass
   for region,z in d.groupby('region'):
    summaries.append(dict(sample=sample,patientid=d.patientid.iloc[0],subtype=d.subtype.iloc[0],region=region,n_spots=len(z),detection_fraction=float((z.LYPLA1_count>0).mean()),mean_log1p_CP10k=float(z.LYPLA1.mean()),median_log1p_CP10k=float(z.LYPLA1.median()),pseudobulk_CP10k=float(z.LYPLA1_count.sum()/z.total_UMI.sum()*10000),median_UMI=float(z.total_UMI.median()),**{g+'_mean':float(z[g].mean()) for g in GENES[1:]}))
   z=d[d.region.isin(['Tumor_containing','Stroma'])]
@@ -77,14 +76,35 @@ def main():
   imgs=[p for p in spatial_paths if sample in str(p) and p.is_file() and 'tissue_lowres_image' in p.name]
   sf=[p for p in spatial_paths if sample in str(p) and p.is_file() and 'scalefactors_json' in p.name]
   spatial_ok=False
-  if len(pos)==1 and len(imgs)==1 and len(sf)==1:
+  hpath=Path('/public3/xuzx/Cancer/breast_cancer_full_workflow_20260710/04_single_cell/cellxgene_wu2021_spatial_h5ad')/f'wu2021_visium_{sample}.h5ad'
+  if not pos and hpath.exists():
+   # Reuse existing same-study CELLxGENE coordinates/images only; raw counts remain Zenodo.
+   with h5py.File(hpath) as f:
+    ix=f['obs'][f['obs'].attrs.get('_index','_index')].asstr()[:]
+    coords=np.asarray(f['obsm']['spatial']);pp=pd.DataFrame({'barcode':ix,'pixel_col':coords[:,0],'pixel_row':coords[:,1]})
+    assert pp.barcode.is_unique
+    joined=d.merge(pp,on='barcode',how='left',validate='one_to_one');assert joined.pixel_row.notna().all()
+    im=np.asarray(f['uns']['spatial'][sample]['images']['hires']);scale=float(f['uns']['spatial'][sample]['scalefactors']['tissue_hires_scalef'][()])
+    cl=f['obs']['Classification']
+    if isinstance(cl,h5py.Group):
+     cats=cl['categories'].asstr()[:];codes=cl['codes'][:];labs=[cats[c] if c>=0 else None for c in codes]
+    else:labs=cl.asstr()[:]
+    original=pd.Series(labs,index=ix).reindex(d.barcode).fillna('NA').to_numpy()
+    assert np.array_equal(original,d.Classification.fillna('NA').to_numpy()), 'H5AD vs Zenodo pathology mismatch'
+   xx=joined.pixel_col*scale;yy=joined.pixel_row*scale
+   manifest.append(dict(source_id='CELLxGENE_Wu2021_existing_cache_geometry_only',file_role='spatial_h5ad',source_path=str(hpath),sha256=sha(hpath)))
+   spatial_ok=True
+  elif len(pos)==1 and len(imgs)==1 and len(sf)==1:
    pp=pd.read_csv(pos[0],header=None)
    if str(pp.iloc[0,0])=='barcode':pp=pp.iloc[1:].copy()
    pp.columns=['barcode','in_tissue','array_row','array_col','pixel_row','pixel_col'];pp.barcode=pp.barcode.astype(str)
    assert pp.barcode.is_unique
    joined=d.merge(pp,on='barcode',how='left',validate='one_to_one');assert joined.pixel_row.notna().all()
-   scale=json.loads(sf[0].read_text())['tissue_lowres_scalef'];xx=joined.pixel_col.astype(float)*scale;yy=joined.pixel_row.astype(float)*scale
-   fig,ax=plt.subplots(1,2,figsize=(12,6));im=plt.imread(imgs[0])
+   scale=json.loads(sf[0].read_text())['tissue_lowres_scalef'];xx=joined.pixel_col.astype(float)*scale;yy=joined.pixel_row.astype(float)*scale;im=plt.imread(imgs[0])
+   for p in [pos[0],imgs[0],sf[0]]:manifest.append(dict(source_id='Wu2021_Zenodo4739739',file_role=p.name,source_path=str(p),sha256=sha(p)))
+   spatial_ok=True
+  if spatial_ok:
+   fig,ax=plt.subplots(1,2,figsize=(12,6))
    for aa in ax:aa.imshow(im);aa.axis('off')
    ax[0].set_title('Author pathology (mixed spots)');colors={'Tumor_containing':'#cd4e42','Stroma':'#4275aa','Normal_mixed':'#4ba574','Normal_duct':'#16734a','DCIS':'#d49b37','Lymphoid':'#8964b5','Necrosis':'#777777'}
    for reg,col in colors.items():
@@ -93,8 +113,6 @@ def main():
    ax[0].legend(loc='upper left',bbox_to_anchor=(0,-.01),fontsize=7,ncol=2,frameon=False)
    sc=ax[1].scatter(xx,yy,c=joined.LYPLA1,s=5,cmap='magma',vmin=0,alpha=.8);ax[1].set_title('LYPLA1 observed log1p(CP10k)');fig.colorbar(sc,ax=ax[1],shrink=.6)
    fig.suptitle(sample+' | '+str(d.subtype.iloc[0]));fig.tight_layout();fig.savefig(out/'spatial_figures'/f'{sample}_LYPLA1.png',dpi=180);plt.close(fig)
-   for p in [pos[0],imgs[0],sf[0]]:manifest.append(dict(source_id='Wu2021_Zenodo4739739',file_role=p.name,source_path=str(p),sha256=sha(p)))
-   spatial_ok=True
   audits.append(dict(sample=sample,barcodes_unique_and_matched=True,library_sums_match=True,feature_counts_match=True,integer_counts=True,LYPLA1_unique=True,spatial_join=spatial_ok))
   allspots.append(d)
  assert len(patients)==len(set(patients)), 'Repeated patient: aggregate before inference'
@@ -119,8 +137,10 @@ def main():
  dump(info,pub/'cohort_summary.json')
  pd.DataFrame(manifest).to_csv(out/'source_manifest_private.tsv',sep='\t',index=False)
  publicmanifest=[]
- for name in ['filtered_count_matrices.tar.gz','metadata.tar.gz','spatial.tar.gz']:
+ for name in ['filtered_count_matrices.tar.gz','metadata.tar.gz']:
   p=args.root/name;publicmanifest.append(dict(source_id='Zenodo4739739',url='https://zenodo.org/records/4739739/files/'+name,sha256=sha(p),bytes=p.stat().st_size))
+ for row in manifest:
+  if row['file_role']=='spatial_h5ad':publicmanifest.append(dict(source_id=row['source_id'],url='same-study existing CELLxGENE spatial cache; original file path retained in server manifest',sha256=row['sha256'],bytes=Path(row['source_path']).stat().st_size))
  pd.DataFrame(publicmanifest).to_csv(pub/'source_manifest.tsv',sep='\t',index=False)
  dump(dict(status='PASS',n_samples_checked=len(audits),all_matrix_checks_pass=True,all_spatial_joins_pass=all(x['spatial_join'] for x in audits),patient_ids_unique=True,private_measurements_server_only=True,limitations=['mixed spots are not purified epithelial cells','normal duct has only three spots; no adequate pure-normal comparison','no independent cohort validation','no tumor-fraction or spatial-autocorrelation model; no spot-level P values','small patient sample; bootstrap CI descriptive']),pub/'validation.json')
  rr=results[results.min_spots.eq(20)&results.n.gt(0)].copy();fig,axs=plt.subplots(1,2,figsize=(11,4.5))
