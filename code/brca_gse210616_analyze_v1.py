@@ -93,7 +93,14 @@ summary=[]
 for col in measures:
     a=pat[col].dropna();nonzero=a[a!=0];n=len(nonzero);k=int((nonzero>0).sum())
     summary.append({'stage_id':'06_EXTERNAL','cancer':'BRCA','cohort':'GSE210616','gene':'LYPLA1','measure':col,'unit':'patient','n':len(a),'positive':k,'negative':int((a<0).sum()),'mean':float(a.mean()),'median':float(a.median()),'P_sign_two_sided':stats.binomtest(k,n,.5).pvalue if n else None,'status':'DONE','interpretation':'exploratory marker-based; not malignant versus normal'})
-pd.DataFrame(summary).to_csv(OUT/'results.tsv',sep='\t',index=False)
+table=pd.DataFrame(summary)
+table['run_id']=OUT.name;table['analysis_version']='v1';table['analysis_type']='exploratory_spatial_marker_association'
+table['metabolite_key']='NA';table['metabolite_name']='NA';table['n_reference']=table['n']
+table['effect_type']=table['measure'];table['effect']=table['mean'];table['ci_lower']='NA';table['ci_upper']='NA'
+table['p_value']=table['P_sign_two_sided'];table['q_value']='NA';table['test_family']='2 exploratory questions plus correlated sensitivities; nominal P'
+table['family_n_evaluable']=len(table);table['reason']='marker-inferred; author pathology and treatment metadata unavailable';table['source_id']='GSE210616'
+prefix='cancer cohort stage_id run_id analysis_version analysis_type metabolite_key metabolite_name gene unit n n_reference effect_type effect ci_lower ci_upper p_value q_value test_family family_n_evaluable status reason source_id'.split()
+table[prefix+[c for c in table.columns if c not in prefix]].to_csv(OUT/'results.tsv',sep='\t',index=False)
 pd.DataFrame(inputs).to_csv(OUT/'source_manifest.tsv',sep='\t',index=False)
 validation={'sections_expected':43,'sections_analyzed':len(sec),'patients':len(pat),'spots_before_QC':int(sec.n_input.sum()),'spots_after_QC':int(sec.n_qc.sum()),'detected_spots':int(sec.n_detected.sum()),'failures':fails,'author_pathology_labels':'NOT_AVAILABLE_IN_DOWNLOADED_ESSENTIAL_FILES','treatment_stratification':'NOT_EVALUABLE','matrix_coordinate_joins':'validated per section','LYPLA1_in_annotation_markers':False,'patient_mapping':'explicit GEO sample titles','source_hashes':'SHA256 computed after successful downloads; no provider checksum comparison'}
 (OUT/'validation.json').write_text(json.dumps(validation,indent=2))
