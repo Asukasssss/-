@@ -1,0 +1,22 @@
+{
+  "status": "NOT_EVALUABLE",
+  "cohort": "GSE272362",
+  "gene": "LYPLA1",
+  "ensembl": "ENSG00000120992",
+  "assay": "Spatial",
+  "assay_features": 17893,
+  "assay_spots": 91496,
+  "symbol_or_ensembl_matches_in_assay_rownames": 0,
+  "scope": "Author Spatial assay rownames only; original count slot independently checking NOT_PERFORMED; other assay layers not inspected successfully",
+  "inspection_status": "PARTIAL: later SCT assay dispatch requires unavailable Seurat package",
+  "expression_tests": "NOT_RUN",
+  "reason": "Published Spatial assay rownames have no target match. This is not zero expression or biological absence; do not extrapolate to uninspected original sources.",
+  "source": {
+    "url": "https://zenodo.org/records/22695225/files/PDAC_Updated_V2.rds",
+    "version": "22695225 v2",
+    "bytes": 11637294336,
+    "sha256": "087f698b1bfcc604a60d5cf9d0eed9ac7abe78ebf5e33c8942c40a2d7ef5fd1b",
+    "download_expected_md5": "024d9ce0dd48abf3bd425c7ebead03fc",
+    "aria2_checksum_verified_download_status": "OK"
+  }
+}

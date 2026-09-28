@@ -1,0 +1,15 @@
+{
+ "analysis_version":"mets_lypla1_spatial_v1",
+ "cohort":"GSE272362; author Zenodo object version 2, 22695225",
+ "source":"https://zenodo.org/records/22695225/files/PDAC_Updated_V2.rds",
+ "expected_md5":"024d9ce0dd48abf3bd425c7ebead03fc",
+ "gene":"LYPLA1",
+ "question":"Does measured LYPLA1 associate with malignant epithelial areas in primary PDAC?",
+ "scope":"Inspect the complete author object, first verify target coverage and available labels. For testing, restrict primary analysis to primary-pancreas tumors. Metastases and normal pancreata must remain distinct, not pooled as primary tumor/stroma controls. Source matrices and individual measurements stay server165.",
+ "target_gate":"LYPLA1 must be uniquely measured in original uncorrected count assay. Missing row is NOT_EVALUABLE, not zero. No LYPLA2 substitution, imputation, integrated values or model-predicted gene expression.",
+ "identity_gate":"Prefer author spot-linked histopathological labels. If unavailable, author RCTD tumor-epithelial weight >=0.5 versus CAF weight >=0.5 is an explicitly model-derived compartment comparison, not pathological ground truth. Normal-epithelial weight >=0.5 is a separate comparator. LYPLA1 must not itself define group membership. Uncertain/mixed spots kept as such. Never relabel all epithelial spots malignant.",
+ "inference":"Report every eligible section and >=20 spots per comparator. Aggregate repeated sections within explicitly identified patients before paired tests. If patient mapping is unverified, no donor P/q. Primary effect mean log1p(10000*LYPLA1/total original counts) tumor minus comparator with all zeros retained. Detection-rate difference and pooled-count proportion as descriptive sensitivity. Two-sided exact signed-rank at donor level, BH over prespecified tumor-vs-CAF and tumor-vs-normal-epithelial comparisons when both evaluable; single eligible comparison retains single-test q. Threshold sensitivities 0.4/0.6 declared exploratory and separate.",
+ "display":"Author-registered H&E underlay, measured LYPLA1 overlay and separately sourced region/cell-fraction annotation overlay. No invented coordinate transforms, no interpolation. Cell-mixture spots do not establish expression in individual malignant cells.",
+ "stop":"If target absent, report gene-coverage failure and preserve screening evidence; do not run expression tests. If registration or malignant labels unavailable, retain corresponding missing status rather than declaring enrichment verified.",
+ "base_commit":"9239959a17175222778301fdea6a094f9509242e"
+}

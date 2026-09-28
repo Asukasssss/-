@@ -1,0 +1,8 @@
+{
+  "source_download_checksum": "PASS",
+  "Spatial_assay_target_presence": "ABSENT_IN_ASSAY_ROWNAMES",
+  "subsequent_object_inspection": "FAILED_MISSING_Seurat_PACKAGE",
+  "raw_counts_independent_gate": "NOT_PERFORMED",
+  "malignant_enrichment": "NOT_EVALUABLE",
+  "no_expression_recalculation": true
+}

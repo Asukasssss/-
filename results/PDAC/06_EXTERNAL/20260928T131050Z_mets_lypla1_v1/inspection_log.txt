@@ -1,0 +1,13 @@
+READ_START 2026-09-28 21:32:35.580668 
+CLASS Seurat 
+SLOTS assays meta.data active.assay active.ident graphs neighbors reductions images project.name misc version commands tools 
+ASSAYS Spatial SCT integrated rctd_full rctd_multi1 rctd_full_all rctd_fullfinal fges 
+ASSAY Spatial Assay 17893 91496 
+TARGET  
+载入需要的程辑包：Seurat
+Error in .requirePackage(package) : 找不到所需要的程輯包‘Seurat’
+Calls: cat ... .findInheritedMethods -> getClass -> getClassDef -> .requirePackage
+此外: Warning message:
+In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  不存在叫‘Seurat’这个名字的程辑包
+停止执行
