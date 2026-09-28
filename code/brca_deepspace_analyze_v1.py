@@ -41,9 +41,9 @@ for rec in records:
  if hp.exists():
   with h5py.File(hp) as f:
    g=f['matrix'];m=sparse.csc_matrix((g['data'][:],g['indices'][:],g['indptr'][:]),shape=tuple(g['shape'][:]))
-   genes=decode(g['features']['name'][:]);bars=decode(g['barcodes'][:])
+   genes=decode(g['features']['name'][:]);geneids=decode(g['features']['id'][:]);bars=decode(g['barcodes'][:])
  else:
-  m=io.mmread(d/'matrix.mtx.gz').tocsc();m.eliminate_zeros();genes=pd.read_csv(d/'features.tsv.gz',sep='\t',header=None)[1].to_numpy();bars=pd.read_csv(d/'barcodes.tsv.gz',sep='\t',header=None)[0].to_numpy()
+  m=io.mmread(d/'matrix.mtx.gz').tocsc();m.eliminate_zeros();features=pd.read_csv(d/'features.tsv.gz',sep='\t',header=None);genes=features[1].to_numpy();geneids=features[0].to_numpy();bars=pd.read_csv(d/'barcodes.tsv.gz',sep='\t',header=None)[0].to_numpy()
  assert len(set(bars))==len(bars)
  pos=pd.read_csv(fopen(locate(d,'spatial/tissue_positions_list.csv')),header=None,names=['barcode','in_tissue','ar','ac','py','px'])
  if pos.iloc[0,0]=='barcode':pos=pos.iloc[1:]
@@ -55,6 +55,7 @@ for rec in records:
  ok=(total>=500)&(ng>=200)&(mt<=.25)&(pos.in_tissue.to_numpy()==1)
  ii=np.flatnonzero(genes=='LYPLA1')
  if len(ii)==0:
+  assert not np.any(geneids=='ENSG00000120992')
   rows.append({'sample':sid,'gsm':gsm,'cohort':rec['metadata']['series_id'],'title':title,'mode':'coverage','n_cancer':None,'n_normal':None,'status':'NOT_EVALUABLE','reason':'LYPLA1 and ENSG00000120992 absent from source feature list; not zero expression'})
   checks.append({'sample':sid,'gene_present':False,'feature_count':len(genes),'polygon_image_dimensions_match':True})
   for fp in sorted(d.rglob('*')):
@@ -77,10 +78,11 @@ for rec in records:
  api=d/'spatial_api.json';coord_error=None
  if api.exists():
   j=json.loads(api.read_text());coords=pd.DataFrame(j['coordinates'],columns=['barcode','x','y']).set_index('barcode');common=coords.index.intersection(bars)
-  # API uses a fixed 500x500 canvas; compare both axes in its bottom-origin convention.
-  ix=pd.Index(bars).get_indexer(common);expected=np.column_stack([xy[ix,0]/img.shape[1]*500,(img.shape[0]-xy[ix,1])/img.shape[0]*500])
+  # spatial-data coordinates are [barcode,pixel_row_hires,pixel_col_hires].
+  # The annotation renderer flips polygon y; these API coordinates do not.
+  ix=pd.Index(bars).get_indexer(common);expected=xy[ix,::-1]
   coord_error=float(np.abs(coords.loc[common,['x','y']].astype(float).to_numpy()-expected).max())
-  # Record rather than silently changing coordinate transform; H&E overlays checked separately.
+  assert coord_error<1e-5
  checks.append({'sample':sid,'gene_unique':True,'barcodes_unique':True,'polygon_image_dimensions_match':True,'api_coordinate_max_error':coord_error,'n_qc':int(ok.sum()),'n_conflicting':int(((lab=='Conflicting')&ok).sum())})
  for mode,labels in [('center',lab),('interior',corelab)]:
   a=(labels=='Invasive')&ok;b=(labels=='Normal duct')&ok
@@ -109,5 +111,6 @@ for rec in records:
  for fp in sorted(d.rglob('*')):
   if fp.is_file():hashes.append({'sample':sid,'path':str(fp),'sha256':hashlib.sha256(fp.read_bytes()).hexdigest()})
 pd.DataFrame(rows).to_csv(OUT/'section_effects_SERVER_ONLY.tsv',sep='\t',index=False)
+hashes.append({'sample':'all','path':str(ROOT/'expert_annotations.json'),'sha256':hashlib.sha256((ROOT/'expert_annotations.json').read_bytes()).hexdigest()})
 (OUT/'validation.json').write_text(json.dumps(checks,indent=2));pd.DataFrame(hashes).to_csv(OUT/'input_hashes.tsv',sep='\t',index=False)
 print(pd.DataFrame(rows)[['sample','mode','n_cancer','n_normal','status','delta_log','pseudobulk_ratio','depth_adjusted_delta']].to_string(index=False))
