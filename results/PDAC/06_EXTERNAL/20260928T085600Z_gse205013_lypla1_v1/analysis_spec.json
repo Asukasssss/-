@@ -1,0 +1,17 @@
+{
+ "version":"gse205013_lypla1_v1_preparation",
+ "gene":"LYPLA1",
+ "cohort":"GSE205013",
+ "status":"PARTIAL",
+ "primary_scope":"Untreated primary PDAC, malignant vs nonmalignant epithelium, conditional on trustworthy cell labels and sample design",
+ "secondary_scope":"Treated and metastatic strata kept separate; basal/classical comparisons only if corresponding labels are available and verified",
+ "expression":"GEO raw counts; log1p(10000*LYPLA1_count/total_UMI) without imputation",
+ "positive":"LYPLA1_count>0",
+ "identity_rule":"No automatic promotion of epithelial/ductal labels to malignant. Original Werba labels and Loveless atlas reannotation must be distinguished.",
+ "populations":["all eligible cells","LYPLA1-positive cells"],
+ "planned_donor_inference":"Same-author-donor pairs, each group >=20 selected-population cells and >=5 paired donors; paired mean expression and detection proportion contrasts; exact sign permutations when <=20 pairs",
+ "multiple_testing":"Lock complete contrasts and BH families after label/design review and before differential testing; no differential testing in preparation batch",
+ "residency":"All matrices, cell-level and donor-level measurements stay server165. Export only aggregate validation.",
+ "sources":["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205013","https://www.nature.com/articles/s41467-023-36296-4","https://zenodo.org/records/14199536"],
+ "note":"Atlas is a potential annotation source, not an independent cohort. Eligibility and author139446-cell population not yet reproduced."
+}

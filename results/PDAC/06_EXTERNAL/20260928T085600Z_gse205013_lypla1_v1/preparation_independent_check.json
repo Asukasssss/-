@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "One complete sample independently read via scipy.io.mmread",
+  "n_cells": 3844,
+  "barcode_order_match": true,
+  "all_LYPLA1_counts_match": true,
+  "all_library_sizes_match": true,
+  "all_log1p_values_match": true,
+  "not_validated": "Malignancy labels, final author QC, and clinical contrasts"
+}

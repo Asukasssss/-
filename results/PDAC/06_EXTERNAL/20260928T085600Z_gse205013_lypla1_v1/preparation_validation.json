@@ -1,0 +1,13 @@
+{
+  "status": "PARTIAL",
+  "input_samples": 27,
+  "input_barcodes": 308181,
+  "all_samples_LYPLA1_unique": true,
+  "all_sample_barcodes_unique": true,
+  "matrix_dimensions_and_entries_verified": true,
+  "source_sha256": "7bea292e67750ed6955baeaa49ac8561dfa03a02e39708594eba8beec5371706",
+  "source_bytes": 2106501120,
+  "malignancy_labels": "NOT_YET_JOINED",
+  "differential_expression": "NOT_RUN",
+  "note": "GEO filtered CellRanger input; not the authors final139446-cell QC population. Mixed cell types; do not report as malignant LYPLA1 results."
+}

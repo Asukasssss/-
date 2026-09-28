@@ -1,0 +1,29 @@
+{
+  "status": "PARTIAL",
+  "raw_preparation": {
+    "status": "PARTIAL",
+    "input_samples": 27,
+    "input_barcodes": 308181,
+    "all_samples_LYPLA1_unique": true,
+    "all_sample_barcodes_unique": true,
+    "matrix_dimensions_and_entries_verified": true,
+    "source_sha256": "7bea292e67750ed6955baeaa49ac8561dfa03a02e39708594eba8beec5371706",
+    "source_bytes": 2106501120,
+    "malignancy_labels": "NOT_YET_JOINED",
+    "differential_expression": "NOT_RUN",
+    "note": "GEO filtered CellRanger input; not the authors final139446-cell QC population. Mixed cell types; do not report as malignant LYPLA1 results."
+  },
+  "independent_check": {
+    "status": "PASS",
+    "scope": "One complete sample independently read via scipy.io.mmread",
+    "n_cells": 3844,
+    "barcode_order_match": true,
+    "all_LYPLA1_counts_match": true,
+    "all_library_sizes_match": true,
+    "all_log1p_values_match": true,
+    "not_validated": "Malignancy labels, final author QC, and clinical contrasts"
+  },
+  "analysis": "NOT_RUN",
+  "label_join": "NOT_RUN",
+  "base_git_commit": "7b7f34b9df816710128f11b1b5f9fb1b957516a5"
+}
