@@ -1,0 +1,26 @@
+{
+  "analysis_version": "COAD_LYPLA1_UMAP_v1",
+  "code_lock_commit": "2c7c1f8bfe7f5c8af23d7d6cbed8befd9dbae40e",
+  "gene": "LYPLA1",
+  "cohort": "Uhlitz_GSE166555",
+  "coordinate_run": "20260928T025513Z_uhlitz_umap_v1",
+  "coordinate_recomputed": false,
+  "normalization": "log1p(raw gene UMI / author nCount_RNA * 10000)",
+  "color_scale": [
+    0,
+    3.448125505513642
+  ],
+  "color_clipping": false,
+  "zero_color": "gray",
+  "draw_order": "nonzero ascending, high last",
+  "batch_correction": "NONE",
+  "scope": "68702 cells from 12 donors;all author retained cells;not CNA-only subset",
+  "statistical_tests": "NONE",
+  "aggregate_unit": "pooled cells, descriptive only;not donor-equally-weighted",
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "matplotlib": "3.6.3"
+  }
+}
