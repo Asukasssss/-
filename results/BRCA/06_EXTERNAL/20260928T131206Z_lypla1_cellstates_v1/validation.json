@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "independent_dense_residual_checks": 876,
+  "no_source_matrix_modified": true,
+  "old_results_unchanged": true,
+  "no_reclustering": true,
+  "source_hashes": "inherited verified historical manifests, not rehashed this run",
+  "uncertainty": "No patient bootstrap CI; P is direction consistency sign test, not cell-level association P",
+  "public_tables_structure": "PASS",
+  "figures_visually_reviewed": true,
+  "fixed_replication_count": 0
+}

@@ -1,0 +1,7 @@
+cohort	mode	n_patients	median_target_depth_r	median_target_residual_variance
+Pal2021_reprocessed	depth	30	0.20631001	0.3830665
+Pal2021_reprocessed	depth_state	30	0.20631001	0.38001258
+Pal2021_reprocessed	raw	30	0.20631001	0.41515774
+Wu2021	depth	20	0.24335515	0.33753498
+Wu2021	depth_state	20	0.24335515	0.33401068
+Wu2021	raw	20	0.24335515	0.36941416

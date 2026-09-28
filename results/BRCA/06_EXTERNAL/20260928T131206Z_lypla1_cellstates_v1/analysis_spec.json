@@ -1,0 +1,27 @@
+{
+  "version": "lypla1_cellstates_v1",
+  "source_commit": "d9846c63e158adca5aad0b05c98652e858f17b4d",
+  "cohorts": [
+    "Wu2021",
+    "Pal2021_reprocessed"
+  ],
+  "unit": "author/GEO patient label; Pal conflict excluded and explicit shared patient regions pooled",
+  "states": "existing Wu celltype_minor and Pal author_cell_type; no cross-cohort state equivalence assumed; no reclustering",
+  "min_cells_patient": 100,
+  "min_LYPLA1_positive": 10,
+  "min_gene_positive_per_patient": "max(10,1% cells)",
+  "cohort_gene_detection": 0.01,
+  "min_patients_gene": 5,
+  "state_summary": ">=20 cells per patient-state; >=3 patients for public aggregate; all rows retained",
+  "normalization": "log1p(raw/library*10000)",
+  "correlation": "within patient Pearson log expression; depth partial Pearson main; depth+existing state indicators sensitivity",
+  "covariates": "log1p(total UMI minus target counts), log1p(detected genes minus target detection); per-patient standardization; intercept; sensitivity dummy indicators",
+  "aggregation": "equal-patient median correlation; positive/negative fraction; two-sided binomial sign test ignoring exact zero; descriptive effects; BH all genes and 3 modes within cohort",
+  "replication_rule": "depth median same direction with abs>=0.1 in both cohorts, >=70% patients same direction each, >=5 patients each; no significance gate; fixed before results",
+  "limitations": "Exploratory associations; unmodelled technical/state factors; depth controls do not establish independence/causality; detection filter; no enrichment",
+  "software": {
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  }
+}

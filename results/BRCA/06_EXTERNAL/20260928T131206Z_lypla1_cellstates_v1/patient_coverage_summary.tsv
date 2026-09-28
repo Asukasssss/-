@@ -1,0 +1,4 @@
+cohort	status	reason	n_patient_labels	total_cells
+Pal2021_reprocessed	DONE	eligible	30	123484
+Pal2021_reprocessed	NOT_EVALUABLE	insufficient_cells_or_target_detection	1	51
+Wu2021	DONE	eligible	20	24489

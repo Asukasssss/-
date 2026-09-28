@@ -1,0 +1,7 @@
+cohort	mode	genes	evaluable_genes	abs_median_r_ge_01
+Wu2021	raw	14558	13747	170
+Wu2021	depth	14558	13747	9
+Wu2021	depth_state	14558	13747	5
+Pal2021_reprocessed	raw	13209	13126	0
+Pal2021_reprocessed	depth	13209	13126	0
+Pal2021_reprocessed	depth_state	13209	13126	0

@@ -1,3 +1,5 @@
+最新补充：[LYPLA1癌细胞亚群与患者内伴随表达](../results/BRCA/06_EXTERNAL/20260928T131206Z_lypla1_cellstates_v1/README_CN.md)。复用Wu/Pal亚群，患者内深度调整及亚群敏感性，完整保留跨队列一致与不一致结果。
+
 最新补充：[Pal原始分型回接与LYPLA1](../results/BRCA/06_EXTERNAL/20260927T122639Z_pal_subtypes_v1/README_CN.md)。32/33来源标签唯一连接，1标签冲突；患者层面三型两两P均>0.4，不支持明确分型差异。
 
 最新补充：[LYPLA1高低表达KEGG富集](../results/BRCA/06_EXTERNAL/20260925T155250Z_lypla1_KEGG_enrichment_v1/README_CN.md)。甘油磷脂上调基因ORA两队列名义P支持，完整排序GSEA未支持整体增强；不重算差异表。
