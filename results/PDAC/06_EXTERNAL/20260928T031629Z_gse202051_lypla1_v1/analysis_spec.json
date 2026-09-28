@@ -1,0 +1,22 @@
+{
+  "version": "gse202051_lypla1_v1",
+  "cohort": "GSE202051 full author shared H5AD; not SCP1089-only subset",
+  "gene": "LYPLA1",
+  "input": "GSE202051_totaldata-final-toshare.h5ad",
+  "identity": "Author Level1 Epithelial (malignant), Level2 Malignant. Reference Level2 Ductal; Ductal (atypical) separately supplementary.",
+  "primary": "Untreated malignant vs nonmalignant Ductal, all nuclei and LYPLA1-positive nuclei",
+  "supplementary": "Other treatment strata and all atypical-ductal reference comparisons; no pooling across treatment",
+  "expression": "Use author X; independently verify log1p(count*10000/library) against counts layer and available library denominators",
+  "positive": "Author counts-layer LYPLA1 > 0",
+  "pooled_inference": "Two-sided asymptotic tie-corrected Mann-Whitney U; >=20 nuclei per group; rank-biserial effect; exploratory unadjusted donor dependence",
+  "donor_inference": "Pool libraries within author PID; paired equal-PID means; >=20 selected-population nuclei per group/PID and >=5 pairs; 100000 sign permutations with +1 correction, 20000 paired bootstrap samples",
+  "multiple_testing": "Four separate BH families: primary pooled2, primary paired2, supplementary pooled14, supplementary paired14, restricted to evaluable rows; preserve all non-evaluable contrasts",
+  "seed": 20260928,
+  "new_clustering": false,
+  "new_malignancy_inference": false,
+  "sources": [
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE202051",
+    "https://www.nature.com/articles/s41588-022-01134-8"
+  ],
+  "residency": "All nucleus-level and patient-level measurements remain on server165; public aggregates only"
+}
