@@ -1,0 +1,195 @@
+{
+  "status": "PARTIAL",
+  "completed": "Five registered measured-expression sections; epithelial/stromal/immune proxy associations",
+  "malignant_enrichment": "NOT_EVALUABLE: author spot-linked malignant labels unavailable in downloaded GEO files",
+  "independent_target_count_check": true,
+  "samples": [
+    {
+      "sample": "GSM8552941_PA02",
+      "target_unique": true,
+      "barcodes_unique": true,
+      "exact_coordinate_match": true,
+      "coordinates_in_bounds": true,
+      "gzip_layers": 2,
+      "author_filtered_spots": 1389,
+      "retained_in_tissue_nonempty": 1389,
+      "image_width": 1957,
+      "image_height": 2000,
+      "marker_genes_used": {
+        "epithelial": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT19",
+          "KRT7",
+          "MUC1"
+        ],
+        "stromal": [
+          "COL1A1",
+          "COL1A2",
+          "COL3A1",
+          "DCN",
+          "LUM"
+        ],
+        "immune": [
+          "PTPRC",
+          "LST1",
+          "TYROBP",
+          "CD3D",
+          "CD79A"
+        ]
+      }
+    },
+    {
+      "sample": "GSM8552942_PA03",
+      "target_unique": true,
+      "barcodes_unique": true,
+      "exact_coordinate_match": true,
+      "coordinates_in_bounds": true,
+      "gzip_layers": 2,
+      "author_filtered_spots": 4579,
+      "retained_in_tissue_nonempty": 4579,
+      "image_width": 2000,
+      "image_height": 1894,
+      "marker_genes_used": {
+        "epithelial": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT19",
+          "KRT7",
+          "MUC1"
+        ],
+        "stromal": [
+          "COL1A1",
+          "COL1A2",
+          "COL3A1",
+          "DCN",
+          "LUM"
+        ],
+        "immune": [
+          "PTPRC",
+          "LST1",
+          "TYROBP",
+          "CD3D",
+          "CD79A"
+        ]
+      }
+    },
+    {
+      "sample": "GSM8552944_PA04-2",
+      "target_unique": true,
+      "barcodes_unique": true,
+      "exact_coordinate_match": true,
+      "coordinates_in_bounds": true,
+      "gzip_layers": 2,
+      "author_filtered_spots": 3088,
+      "retained_in_tissue_nonempty": 3088,
+      "image_width": 1992,
+      "image_height": 2000,
+      "marker_genes_used": {
+        "epithelial": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT19",
+          "KRT7",
+          "MUC1"
+        ],
+        "stromal": [
+          "COL1A1",
+          "COL1A2",
+          "COL3A1",
+          "DCN",
+          "LUM"
+        ],
+        "immune": [
+          "PTPRC",
+          "LST1",
+          "TYROBP",
+          "CD3D",
+          "CD79A"
+        ]
+      }
+    },
+    {
+      "sample": "GSM8552948_PA08",
+      "target_unique": true,
+      "barcodes_unique": true,
+      "exact_coordinate_match": true,
+      "coordinates_in_bounds": true,
+      "gzip_layers": 2,
+      "author_filtered_spots": 2677,
+      "retained_in_tissue_nonempty": 2677,
+      "image_width": 1961,
+      "image_height": 2000,
+      "marker_genes_used": {
+        "epithelial": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT19",
+          "KRT7",
+          "MUC1"
+        ],
+        "stromal": [
+          "COL1A1",
+          "COL1A2",
+          "COL3A1",
+          "DCN",
+          "LUM"
+        ],
+        "immune": [
+          "PTPRC",
+          "LST1",
+          "TYROBP",
+          "CD3D",
+          "CD79A"
+        ]
+      }
+    },
+    {
+      "sample": "GSM8552949_PA11-1",
+      "target_unique": true,
+      "barcodes_unique": true,
+      "exact_coordinate_match": true,
+      "coordinates_in_bounds": true,
+      "gzip_layers": 2,
+      "author_filtered_spots": 1824,
+      "retained_in_tissue_nonempty": 1824,
+      "image_width": 1961,
+      "image_height": 2000,
+      "marker_genes_used": {
+        "epithelial": [
+          "EPCAM",
+          "KRT8",
+          "KRT18",
+          "KRT19",
+          "KRT7",
+          "MUC1"
+        ],
+        "stromal": [
+          "COL1A1",
+          "COL1A2",
+          "COL3A1",
+          "DCN",
+          "LUM"
+        ],
+        "immune": [
+          "PTPRC",
+          "LST1",
+          "TYROBP",
+          "CD3D",
+          "CD79A"
+        ]
+      }
+    }
+  ],
+  "versions": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "matplotlib": "3.6.3"
+  },
+  "code_sha256": "2ce433437637fae86b755a03ea248b6db09aa84809e4d9370fe6722fa06c5dfd"
+}
