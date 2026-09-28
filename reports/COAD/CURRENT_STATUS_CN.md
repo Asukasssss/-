@@ -1,4 +1,8 @@
-# 最新：LYPLA1上皮分组UMAP已完成
+# 最新：LYPLA1上皮UMAP红色配色版已完成
+
+[红色表达图](../../results/COAD/06_EXTERNAL/20260928T082505Z_lypla1_umap_color_v2/README_CN.md)：按用户要求改为浅灰至深红的连续色标，两张图均保留原坐标、数值、点大小、顺序及三组共享范围；不截断或按组缩放，不新增统计。原版保留。
+
+# LYPLA1上皮分组UMAP已完成
 
 [上皮分组与LYPLA1表达UMAP](../../results/COAD/06_EXTERNAL/20260928T034349Z_lypla1_epithelial_umap_v1/README_CN.md)：同一既有坐标展示CNA、CNN、正常参照三组（4477/7885/16138细胞），附统一色标的三组分面。保留身份冲突与未纳入细胞作背景，不重算降维、不新增P/q。CNN不等于已证实非恶性。
 

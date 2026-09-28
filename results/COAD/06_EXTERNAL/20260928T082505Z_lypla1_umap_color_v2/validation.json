@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "epithelial_cells": 31247,
+  "admitted_cells": 28500,
+  "source_values_and_coordinates_reused": true,
+  "group_counts_match_v1": true,
+  "color_range_matches_v1": true,
+  "no_clipping": true,
+  "new_statistics": false,
+  "private_records_exported": false
+}
