@@ -1,0 +1,26 @@
+{
+  "status": "DONE",
+  "evidence_level": "EXPLORATORY",
+  "n_beads": 276884,
+  "n_tumor_beads": 83632,
+  "n_sections": 12,
+  "n_tumor_sections": 4,
+  "n_cancer_patients": 2,
+  "exact_annotation_and_coordinate_join": true,
+  "unique_beads": true,
+  "raw_nonnegative_integer_verified_by_R": true,
+  "normalization_recalculation_passed": true,
+  "min_umi": 101,
+  "limitations": [
+    "RCTD labels include certain doublets; not pathology-only segmentation",
+    "Sparse gene detection; no imputation",
+    "Only 2 cancer patients",
+    "Grid robust P is a sensitivity analysis, not patient-level inference",
+    "LYPLA1 inclusion in original annotation model not audited"
+  ],
+  "original_labels_reused": true,
+  "prior_results_modified": false,
+  "glm_rate_equals_pseudobulk_ratio": true,
+  "public_group_sum_verified": true,
+  "base_git_commit": "d8c8c5aa10b4333d07380d32b22af10e2e95f08a"
+}

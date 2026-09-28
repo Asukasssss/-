@@ -1,0 +1,37 @@
+{
+  "version": "prad_lypla1_spatial_v1",
+  "gene": "LYPLA1",
+  "seed": 20260928,
+  "normalization": "log1p(10000 * gene UMI / all matrix gene UMI); CPM ratio uses summed counts",
+  "primary_comparison": "Author Tumor versus Epithelial_Luminal in each tumor section",
+  "secondary_comparisons": [
+    "all author Epithelial_*",
+    "Fibroblasts"
+  ],
+  "annotation": "Original author RCTD labels; no LYPLA1-driven relabeling. Original reference feature inclusion not audited.",
+  "qc": "Reuse author retained beads (singlet/doublet-certain); verify >=100 UMI; no new outcome-based filtering",
+  "statistical_unit": "Bead for exploratory rank tests; spatial grid clusters for rate-ratio sensitivity. Cancer donors n=2; no population test.",
+  "tests": "12 two-sided bead Mann-Whitney tests (4 sections x 3 comparisons); 24 Poisson offset sensitivity tests (4 and 8 grids). Nominal P; no FDR gate.",
+  "source_independence": "Separate Hirz2023 study; no donor identity crosswalk to prior PRAD24 cohort, so no verified non-overlap claim.",
+  "plotting": {
+    "point_cap_positive_p99": 4.271276863797331,
+    "local_mean_hex_grid": 45,
+    "mincnt": 5,
+    "local_mean_vmax": 0.3
+  },
+  "software": {
+    "python": "3.13.9",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.9"
+  },
+  "base_git_commit": "d8c8c5aa10b4333d07380d32b22af10e2e95f08a",
+  "code_sha256": {
+    "prad_lypla1_spatial_extract_v1.R": "1c4a20096d0891c4d8ae117703ea6ac58e19980b5c672f1eab98b71dc583575f",
+    "prad_lypla1_spatial_v1.py": "0b076c7b80bc631bb302bddc9e04c66c3b0ab2a26ffff91c1f896168529e8baa",
+    "prad_lypla1_spatial_fetch_v1.py": "60426cc8e79ae1cd95e203b79612c8428ae4d169ad9200138d1a382312f5c2e9",
+    "prad_lypla1_spatial_finalize_v1.py": "2a91026ec2066f94a100a19d4a64dce9d566677ad5c0d1b77ceb58577638ee86"
+  }
+}
