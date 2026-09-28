@@ -1,0 +1,578 @@
+[
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000650",
+    "data": {
+      "id": "STTS0000650",
+      "title": "CRC001",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000651",
+    "data": {
+      "id": "STTS0000651",
+      "title": "CRC002",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000652",
+    "data": {
+      "id": "STTS0000652",
+      "title": "CRC003",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000653",
+    "data": {
+      "id": "STTS0000653",
+      "title": "CRC004",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000654",
+    "data": {
+      "id": "STTS0000654",
+      "title": "CRC005",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000655",
+    "data": {
+      "id": "STTS0000655",
+      "title": "CRC006",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000656",
+    "data": {
+      "id": "STTS0000656",
+      "title": "CRC007",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000657",
+    "data": {
+      "id": "STTS0000657",
+      "title": "CRC008",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000658",
+    "data": {
+      "id": "STTS0000658",
+      "title": "CRC009",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000659",
+    "data": {
+      "id": "STTS0000659",
+      "title": "CRC010",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000660",
+    "data": {
+      "id": "STTS0000660",
+      "title": "CRC011",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000661",
+    "data": {
+      "id": "STTS0000661",
+      "title": "CRC012",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000662",
+    "data": {
+      "id": "STTS0000662",
+      "title": "CRC013",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000663",
+    "data": {
+      "id": "STTS0000663",
+      "title": "CRC014",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000664",
+    "data": {
+      "id": "STTS0000664",
+      "title": "CRC015",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  },
+  {
+    "url": "https://db.cngb.org/stomics/tissue_section/STTS0000665",
+    "data": {
+      "id": "STTS0000665",
+      "title": "CRC016",
+      "organism": [
+        {
+          "label": "Homo sapiens",
+          "id": "9606"
+        }
+      ],
+      "tissue_section_processing": {
+        "tissue_type": "fresh frozen (FF)",
+        "section_resource": "surgery",
+        "cryosectioning_temperature": "-20°C",
+        "tissue_section_size": "",
+        "staining_protocol": "H&E Staining",
+        "tissue_freezing_and_embedding": "",
+        "slice_position": "",
+        "rin": "",
+        "tissue_score": "",
+        "dv200": "",
+        "optimal_permeabilization_time": "",
+        "section_thickness": "10μm",
+        "water_bath_temperature": "",
+        "section_floating_time": ""
+      },
+      "release_date": "2024-04-10",
+      "updated": "2024-12-04",
+      "is_run": false,
+      "is_spatial_gene_expression": true,
+      "is_spatial_protein_expression": false,
+      "is_spatial_gene_and_protein_expression": false
+    },
+    "image_tags": []
+  }
+]

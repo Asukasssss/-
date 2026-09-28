@@ -1,3 +1,7 @@
+## 2026-09-28｜病理原图公开入口再次核查
+
+16个切片详情全部记录H&E染色，但未提供图像链接；关联StereoMM作者回复只指向小鼠肾脏示例，原文审稿文件与补充说明也未找到新增CRC原图地址。[补查记录](../../results/COAD/06_EXTERNAL/20260928T121500Z_stereoseq_histology_v1/SEARCH_FOLLOWUP_CN.md)。仍未取得原始底图和配准，没有新叠加或统计。
+
 ## 2026-09-28｜Stereo-seq作者H&E已找到
 
 补充图2a含16个标本的H&E与空间分区；完整页面已保存。尚未取得原始高分辨率切片与配准，图内#61重复且与临床#56/#61记录存在差异，保留待核实；没有新增LYPLA1叠加或统计。[来源报告](../../results/COAD/06_EXTERNAL/20260928T121500Z_stereoseq_histology_v1/README_CN.md)。
