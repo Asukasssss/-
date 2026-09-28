@@ -1,0 +1,15 @@
+{
+  "version": "ppt_redraw_v1",
+  "scope": "Public aggregate reuse; four-cancer LYPLA1 focus; six-cancer CAMP background",
+  "new_statistics": false,
+  "new_embedding": false,
+  "source_matrices": "server165 only",
+  "nominal_threshold": 0.05,
+  "source_manifest": "source_manifest.tsv",
+  "seed": 20260928,
+  "source_unit": "Original study-specific patient/specimen; cell and spot plots descriptive",
+  "test_family": "No new tests; retain original family definitions",
+  "font": "Noto Sans CJK",
+  "source_code_parent": "4b2a02b5cdeb999ec94f4558f93ce2f86a743a54",
+  "render": "LibreOffice headless; 22 pages verified"
+}

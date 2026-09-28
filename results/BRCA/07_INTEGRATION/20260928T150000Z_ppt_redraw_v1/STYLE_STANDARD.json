@@ -1,0 +1,15 @@
+{
+  "background": "white",
+  "font": "Noto Sans CJK SC",
+  "up_or_malignant": "#C94B54",
+  "down_or_reference": "#3276A5",
+  "context": "#258F88",
+  "missing": "#D7DCE2",
+  "nominal_p": 0.05,
+  "figure_formats": [
+    "PNG 260dpi",
+    "PDF fonttype42"
+  ],
+  "UMAP": "1pt dots, fixed random seed, original coordinates, gray zero, 0–3 shared log1pCP10K colorbar",
+  "spatial": "H&E / author pathology / measured LYPLA1; no smoothing; same sequential scale; all source sections retained"
+}

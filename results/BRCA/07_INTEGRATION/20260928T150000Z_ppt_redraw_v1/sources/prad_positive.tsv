@@ -1,0 +1,3 @@
+"celltype"	"n_all_cells"	"n_positive_cells"	"positive_fraction"	"positive_mean_log1p_CP10K"	"weighting"	"p_value"	"q_value"	"test_status"
+"Normal epithelium"	"2200"	"453"	"0.2059090909090909"	"0.9898977473904492"	"equal_cell"	"NA"	"NA"	"NOT_RUN"
+"Malignant epithelium"	"3157"	"2607"	"0.8257839721254355"	"0.9900816910377535"	"equal_cell"	"NA"	"NA"	"NOT_RUN"

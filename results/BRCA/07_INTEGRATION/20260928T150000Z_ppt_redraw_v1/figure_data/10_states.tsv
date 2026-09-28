@@ -1,0 +1,6 @@
+cohort	state	n_cells	n_patients_eligible	mean_log	mean_CP10k	detection	largest_patient_cell_fraction	status	reason	n_patients_centered	fraction_above_own_malignant_mean
+Wu2021	Cancer Cycling	5359	17	0.76292027	1.8323282	0.65568601	0.29539093	DONE	>=3 patients each >=20 cells	17	0.88235294
+Wu2021	Cancer LumB SC	3368	9	0.70398438	1.9110217	0.4907036	0.60124703	DONE	>=3 patients each >=20 cells	9	0.22222222
+Wu2021	Cancer LumA SC	7742	8	0.64690014	1.4461139	0.55533223	0.45892534	DONE	>=3 patients each >=20 cells	8	0.625
+Wu2021	Cancer Basal SC	4312	10	0.58167639	1.5177895	0.54003254	0.27829314	DONE	>=3 patients each >=20 cells	10	0.2
+Wu2021	Cancer Her2 SC	3708	9	0.52600737	1.231921	0.46592674	0.51564186	DONE	>=3 patients each >=20 cells	9	0.0

@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "plot": "umap_BRCA",
+      "cells": 28844,
+      "positive": 16263,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0008320621273055055,
+      "seed": 20260928,
+      "note": "Wu; previous analyst-computed epithelial embedding; no batch correction; original identity labels",
+      "coordinate_reuse": true,
+      "new_embedding": false
+    },
+    {
+      "plot": "umap_COAD",
+      "cells": 31247,
+      "positive": 9048,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0004480430121291644,
+      "seed": 20260928,
+      "note": "Uhlitz; cached previous coordinates; CNA/CNN author inferred labels; CNN is not proven nonmalignant",
+      "coordinate_reuse": true,
+      "new_embedding": false
+    },
+    {
+      "plot": "umap_PRAD",
+      "cells": 5357,
+      "positive": 3060,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "seed": 20260928,
+      "note": "PRAD24; author embedding; tumor tissue only; altered_benign not included",
+      "coordinate_reuse": true,
+      "new_embedding": false
+    },
+    {
+      "plot": "umap_PDAC",
+      "cells": 61272,
+      "positive": 17218,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0018115942028985507,
+      "seed": 20260928,
+      "note": "GSE202051 untreated nuclei; author X_umap; frozen expression X log1p(CP10K)",
+      "coordinate_reuse": true,
+      "new_embedding": false
+    },
+    {
+      "plot": "spatial_BRCA_V10F24-112_C1",
+      "spots": 2282,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0008764241893076249,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V10F24-112_D1",
+      "spots": 2505,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0007984031936127744,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V10F24-113_A1",
+      "spots": 3038,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0006583278472679394,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V10F24-114_C1",
+      "spots": 3219,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-012_A1",
+      "spots": 3528,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-012_B1",
+      "spots": 2927,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-012_C1",
+      "spots": 2119,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-012_D1",
+      "spots": 1940,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-031_B1",
+      "spots": 2232,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-031_C1",
+      "spots": 2598,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-032_A1",
+      "spots": 2402,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-032_B1",
+      "spots": 2303,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0004342162396873643,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-032_C1",
+      "spots": 2663,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0003755163349605708,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_BRCA_V19T26-032_D1",
+      "spots": 2696,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.000741839762611276,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_PRAD_H1_2",
+      "spots": 1722,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_PRAD_H1_4",
+      "spots": 3138,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0006373486297004461,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_PRAD_H1_5",
+      "spots": 3003,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.005328005328005328,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_PRAD_H2_1",
+      "spots": 2263,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0008837825894829872,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_PRAD_H2_2",
+      "spots": 2454,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_PRAD_H2_5",
+      "spots": 2396,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.00041736227045075126,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    },
+    {
+      "plot": "spatial_PRAD_V1_2",
+      "spots": 2337,
+      "expression_cap": 3.0,
+      "clipped_fraction": 0.0,
+      "note": "Fixed cap for display only; author registration and existing QC preserved; no interpolation"
+    }
+  ],
+  "new_statistics": false,
+  "new_embedding": false,
+  "shared_cap": 3.0,
+  "seed": 20260928,
+  "zero_color": "#E5E8EC",
+  "notes": "Contours are decorative smoothed outer envelopes; no cells removed. Standardization units agree but platforms differ; do not infer cross-study absolute expression differences."
+}

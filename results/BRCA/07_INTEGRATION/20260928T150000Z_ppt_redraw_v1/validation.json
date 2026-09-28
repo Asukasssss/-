@@ -1,0 +1,29 @@
+{
+  "status": "DONE",
+  "source_hashes_checked": 27,
+  "source_hash_mismatch": 0,
+  "slides": 22,
+  "quantitative_figures": 13,
+  "UMAP": 4,
+  "spatial_sections": 21,
+  "source_cell_counts": {
+    "BRCA": 28844,
+    "COAD": 31247,
+    "PRAD": 5357,
+    "PDAC": 61272
+  },
+  "new_tests": 0,
+  "new_embeddings": 0,
+  "rendered_with": "LibreOffice headless on server165",
+  "all_rendered_titles_present": true,
+  "rendered_pages": 22,
+  "visual_review": "All 22 slides and 21 section layouts inspected; legend/text collisions corrected",
+  "limitations": [
+    "No Microsoft PowerPoint-specific rendering test; use PDF as fixed-layout reference",
+    "Same color scale does not remove platform or depth differences",
+    "BRCA spatial is tumor vs immune, not normal epithelium; PRAD is one patient",
+    "PDAC RNA P>=0.05 retained; nominal threshold does not establish FDR control"
+  ],
+  "python": "3.10.8",
+  "parent_code_commit": "4b2a02b5cdeb999ec94f4558f93ce2f86a743a54"
+}
