@@ -1,12 +1,12 @@
 {
   "formula": "positive_mean_log1p_CP10K = pooled_mean_log1p_CP10K / positive_fraction",
-  "gene": "LYPLA1",
-  "statistics": "NOT_RUN: no P/q, distribution test, or equivalence test",
-  "limitations": "Conditional means only; not mean raw counts or mean unlogged CP10K; does not establish equal distributions",
-  "version": "prad_lypla1_positive_summary_v1",
-  "source": "results/PRAD/06_EXTERNAL/20260928T031839Z_lypla1_umap_v2/epithelial_summary.tsv",
   "justification": "Zero-count cells have log1p(CP10K)=0",
-  "scope": "PRAD cancer tissue, author normal versus malignant epithelium",
+  "source": "results/PRAD/06_EXTERNAL/20260928T031839Z_lypla1_umap_v2/epithelial_summary.tsv",
   "weighting": "equal cell, not patient equal",
-  "powershell": "7.6.5"
+  "statistics": "NOT_RUN: no P/q, distribution test, or equivalence test",
+  "version": "prad_lypla1_positive_summary_v1",
+  "powershell": "7.6.5",
+  "gene": "LYPLA1",
+  "scope": "PRAD cancer tissue, author normal versus malignant epithelium",
+  "limitations": "Conditional means only; not mean raw counts or mean unlogged CP10K; does not establish equal distributions"
 }

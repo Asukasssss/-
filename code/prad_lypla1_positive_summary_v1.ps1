@@ -18,4 +18,8 @@ $validation=@{status='DONE';source_rows=$rows.Count;positive_counts_integral=$tr
 if($result[0].celltype -ne 'Normal epithelium' -or $result[1].celltype -ne 'Malignant epithelium'){throw 'Unexpected group ordering'}
 [IO.File]::WriteAllText((Join-Path $OutputDir 'validation.json'),($validation|ConvertTo-Json),$utf8)
 @([PSCustomObject]@{source=$spec.source;sha256=(Get-FileHash -LiteralPath $InputSummary -Algorithm SHA256).Hash.ToLower()},[PSCustomObject]@{source='code/prad_lypla1_positive_summary_v1.ps1';sha256=(Get-FileHash -LiteralPath $PSCommandPath -Algorithm SHA256).Hash.ToLower()}) | Export-Csv -LiteralPath (Join-Path $OutputDir 'source_manifest.tsv') -Delimiter "`t" -NoTypeInformation -Encoding utf8
+foreach($name in @('analysis_spec.json','validation.json','positive_cell_summary.tsv','source_manifest.tsv')){
+ $path=Join-Path $OutputDir $name
+ [IO.File]::WriteAllText($path,([IO.File]::ReadAllText($path).Replace("`r`n","`n")),$utf8)
+}
 $result|Format-Table
