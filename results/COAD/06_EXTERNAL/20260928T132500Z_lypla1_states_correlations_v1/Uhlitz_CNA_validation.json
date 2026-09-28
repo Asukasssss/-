@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "cells": 4477,
+  "donors": 9,
+  "donors_ge50_and_target_eligible": 9,
+  "genes": 21854,
+  "evaluable": 9875,
+  "selected": 4173,
+  "depth_supported": 904,
+  "scipy_spearman_checks": 45,
+  "all_checks_passed": true,
+  "zero_values_retained": true,
+  "source_unit": "cells nested within donor",
+  "no_fdr": true
+}

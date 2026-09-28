@@ -1,3 +1,7 @@
+## 2026-09-28｜LYPLA1亚群与患者内伴随表达已完成
+
+TC4在8位达标供者均高于其余CNA细胞，原始P=0.0078125。Uhlitz/Lee深度调整后15项同时保留绝对rho≥0.1及名义方向支持；事先关注的7个脂质候选未形成强而一致的伴随证据。只读BRCA对照并对齐Pearson方法后，四队列满足预设效应/方向门槛的基因为0。未使用FDR筛选，未新增机制或代谢验证。[本批报告](../../results/COAD/06_EXTERNAL/20260928T132500Z_lypla1_states_correlations_v1/README_CN.md)。
+
 ## 2026-09-28｜病理原图公开入口再次核查
 
 16个切片详情全部记录H&E染色，但未提供图像链接；关联StereoMM作者回复只指向小鼠肾脏示例，原文审稿文件与补充说明也未找到新增CRC原图地址。[补查记录](../../results/COAD/06_EXTERNAL/20260928T121500Z_stereoseq_histology_v1/SEARCH_FOLLOWUP_CN.md)。仍未取得原始底图和配准，没有新叠加或统计。

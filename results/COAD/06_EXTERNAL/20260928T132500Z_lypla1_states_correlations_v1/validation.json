@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Uhlitz donor-wise discovery and independent Lee tumor CMS epithelial context replication",
+  "replication_targets": 4179,
+  "nominal_replication": 3016,
+  "depth_supported_both": 608,
+  "cross_cancer_status": "NOT_RUN",
+  "Lee_does_not_replicate_CNA_call_or_TC_labels": true,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "CRC_depth_effect_ge01": 15,
+  "cross_cancer": {
+    "depth_all4_evaluable": 3891,
+    "depth_all4_same_direction": 1204,
+    "depth_all4_effect_direction_supported": 0,
+    "depth_state_all4_evaluable": 3891,
+    "depth_state_all4_same_direction": 1120,
+    "depth_state_all4_effect_direction_supported": 0
+  },
+  "public_only": true,
+  "patient_measurements_exported": false,
+  "figure_visual_review": "PASS: all four PNGs inspected; readable labels and legends",
+  "numerical_validation_files": [
+    "validation.json",
+    "Uhlitz_CNA_validation.json",
+    "Lee_tumor_CMS_epithelium_validation.json",
+    "cross_cancer_validation.json"
+  ],
+  "all_public_tables_readback": true
+}

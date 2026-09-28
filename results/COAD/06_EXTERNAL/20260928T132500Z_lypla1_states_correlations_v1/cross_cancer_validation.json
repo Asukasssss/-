@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Frozen COAD target set; read-only BRCA aggregate reuse",
+  "genes": 4179,
+  "counts": {
+    "depth_all4_evaluable": 3891,
+    "depth_all4_same_direction": 1204,
+    "depth_all4_effect_direction_supported": 0,
+    "depth_state_all4_evaluable": 3891,
+    "depth_state_all4_same_direction": 1120,
+    "depth_state_all4_effect_direction_supported": 0
+  },
+  "no_BRCA_matrix_rerun": true,
+  "no_FDR_selection": true,
+  "method": "Aligned within-donor Pearson; UMI and detected-gene covariates; original state dummies sensitivity",
+  "missing": "NA; no imputation; n<5 not evaluable"
+}
