@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_file": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/gse159115_kyn_cell_source_v0.1/h5/GSM4819725_SI_18854_filtered_gene_bc_matrices_h5.h5",
+  "cells_checked": 1665,
+  "max_fraction_error": 4.996003610813204e-16,
+  "source_field": "pct_MT",
+  "unit": "fraction_not_percent"
+}

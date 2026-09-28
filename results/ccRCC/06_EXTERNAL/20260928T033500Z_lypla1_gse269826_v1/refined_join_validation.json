@@ -1,0 +1,9 @@
+{
+  "cells": 64986,
+  "refined_genes": 36601,
+  "full_genes": 36601,
+  "exact_barcode_join": true,
+  "patient_sample_match": true,
+  "panel_counts_max_difference": 0,
+  "refined_full_library_max_difference": 0
+}

@@ -1,0 +1,5 @@
+{
+  "previous": "GSE269826 was described as incomplete based on residual aria2 markers",
+  "correction": "Full Freshbiopsies object had been reconstructed and verified in previous Kynurenine work; current compressed SHA256 matches dbf7e0e5b9188aa1e1be8f8441a27ff0794248b2a511c51620bcca1d91b292f3. Refined epithelial object newly downloaded with validated ranges and gzip CRC. Old GSE159115 statistics unchanged.",
+  "historical_numbers_changed": false
+}

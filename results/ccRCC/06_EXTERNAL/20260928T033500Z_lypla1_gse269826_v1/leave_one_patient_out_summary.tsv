@@ -1,0 +1,2 @@
+n_analyses	effect_min	effect_max	p_min	p_max	all_effects_negative	all_effects_positive
+8	-0.16692033643720458	-0.13754058329803973	0.015625	0.015625	True	False

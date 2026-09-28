@@ -1,0 +1,10 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE269nnn/GSE269826/suppl/GSE269826_Freshbiopsies_epithelial_reclustered.rds.gz",
+  "total_bytes": 1652852727,
+  "range_bytes": 8388608,
+  "workers": 6,
+  "status": "COMPLETE",
+  "completed_bytes": 1652852727,
+  "sha256": "4e6c882848dcee8862c0d7f66d07d997dd588ab8b521ce30ab7a7db344da2f1b",
+  "gzip_crc_verified": true
+}

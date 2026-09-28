@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "independent_language": "R",
+  "gene_expression_from_raw_counts": true,
+  "paired_n": 8,
+  "effect": -0.15587311702113901,
+  "p_exact": 0.0078125,
+  "p_wilcoxon": 0.0078125000000000017,
+  "patient_identity": "author field; no sample order inference"
+}

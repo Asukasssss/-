@@ -1,0 +1,10 @@
+library(Matrix)
+library(jsonlite)
+args<-commandArgs(TRUE);out<-args[1];sel<-fromJSON(file.path(out,'source/ccrcc_gse269826_selection.json'));x<-readRDS(file.path(out,'private/refined_lypla1_cache.rds'));m<-x$metadata;fm<-x$full_metadata;y<-x$counts
+stopifnot(identical(rownames(m),colnames(y)),identical(rownames(m),rownames(fm)),all(x$library>0),sel$annotation_field %in% names(m))
+d<-data.frame(cell=rownames(m),patient=as.character(fm$patient),sample=as.character(fm$sample),tissue=as.character(fm$sample_type5),annotation=as.character(m[[sel$annotation_field]]),counts=as.numeric(y['LYPLA1',]),library=x$library,nFeature=fm$nFeature_RNA,mito=fm$percent.mito,doublet=as.character(fm$scrublet_prediction_newthres),chr3p=as.character(fm$chr3p),stringsAsFactors=FALSE)
+stopifnot(all(d$mito>=0 & d$mito<=1),all(d$counts>=0),all(d$counts==floor(d$counts)))
+d$expression<-log1p(1e4*d$counts/d$library);d$detected<-as.integer(d$counts>0)
+for(g in setdiff(rownames(y),'LYPLA1'))d[[paste0('marker_',g)]]<-log1p(1e4*as.numeric(y[g,])/d$library)
+write.table(d,file.path(out,'private/cells_analysis.tsv'),sep='\t',quote=FALSE,row.names=FALSE)
+cat('PRIVATE_EXPORT_COMPLETE cells',nrow(d),'\n')

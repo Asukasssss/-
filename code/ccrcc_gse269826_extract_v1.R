@@ -1,0 +1,15 @@
+library(Matrix)
+library(jsonlite)
+args<-commandArgs(TRUE);out<-args[1];dir.create(file.path(out,'private'),recursive=TRUE,showWarnings=FALSE);dir.create(file.path(out,'public'),showWarnings=FALSE)
+lock<-file.path(out,'.running');if(file.exists(lock))stop('Existing lock');writeLines('LYPLA1 independent cohort',lock)
+root<-'/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716'
+src<-file.path(root,'data/candidates/gse269826_ccrcc_v0.1/Freshbiopsies_inner.rds')
+cat('Reading whole fresh object\n');flush.console();x<-readRDS(src);m<-x@meta.data;y<-x@assays$RNA@counts
+stopifnot(identical(rownames(m),colnames(y)),!anyDuplicated(rownames(y)),!anyDuplicated(rownames(m)),all(y@x>=0),all(y@x==floor(y@x)))
+genes<-c('LYPLA1','CA9','EPCAM','KRT8','KRT18','LRP2','CUBN','SLC34A1','PTPRC','PECAM1','COL1A1');stopifnot(all(genes%in%rownames(y)))
+lib<-Matrix::colSums(y);stopifnot(all(lib>0),max(abs(lib-m$nCount_RNA))==0)
+cache<-list(metadata=m,counts=y[genes,,drop=FALSE],library=lib,source_genes=nrow(y),source_cells=ncol(y),source_path=src,validation=list(aligned=TRUE,nonnegative_integer=TRUE,library_max_error=0))
+saveRDS(cache,file.path(out,'private/whole_fresh_lypla1_cache.rds'))
+write_json(cache$validation,file.path(out,'public/whole_source_validation.json'),pretty=TRUE,auto_unbox=TRUE)
+capture.output(sessionInfo(),file=file.path(out,'public/R_sessionInfo.txt'))
+cat('FULL_EXTRACT_DONE',nrow(y),ncol(y),'\n')

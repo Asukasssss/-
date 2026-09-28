@@ -1,0 +1,11 @@
+{
+  "annotation_field": "cell_type8",
+  "tumor_labels": ["ccRCC"],
+  "normal_labels": ["Proximal"],
+  "tissue_field": "full_object.sample_type5",
+  "tumor_tissue": "ccRCC",
+  "normal_tissue": "Normal",
+  "selection_rationale": "Author final epithelial lineage labels in cell_type8 distinguish ccRCC, other renal tumors and Proximal. Proliferating cells are resolved in this author label rather than dropped by cell_type2. Require independent full-object histology/tissue field simultaneously. Freeze before LYPLA1 effect inspection.",
+  "barcode_join": "Exact one-to-one; all 64986 refined cells matched full object; patient and sample fields agree; panel raw counts identical",
+  "normal_cell_scope": "Normal-tissue Proximal only; neither all epithelial cells nor normal-like cells inside tumors"
+}

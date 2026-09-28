@@ -1,0 +1,17 @@
+{
+  "status": "DONE",
+  "cell_keys_unique": true,
+  "independent_unit": "author patient",
+  "paired_conditions": true,
+  "normal_patients_restricted_to_ccRCC": true,
+  "all_stats_recomputed_from_full_RNA_counts": true,
+  "primary_exact_sign_combinations": 256,
+  "primary_family": 1,
+  "sensitivity_family": 5,
+  "source_study_independent_of_GSE159115": true,
+  "limitations": [
+    "normal-adjacent not healthy donors",
+    "author inferred CNV annotation, no new genotype verification",
+    "bootstrap CI and exact P are different procedures"
+  ]
+}
