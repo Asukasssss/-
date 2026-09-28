@@ -1,0 +1,30 @@
+{
+  "version": "prad_lypla1_erickson_v1",
+  "base_git_commit": "fcad95a4427b1a0b20d7682f3c1059d0c2186781",
+  "source_doi": "10.17632/svw96g68dv.5",
+  "gene": "LYPLA1",
+  "seed": 20260928,
+  "selection": "All seven Patient1/Visium_with_annotation sections, selected before expression analysis",
+  "annotation": "Unmodified author Final_Consensus_Annotations; GG* cancer; Benign benign luminal glands; Stroma separate secondary reference",
+  "no_cnv_reference_selection": true,
+  "qc": "In-tissue; total UMI >500; author Exclude and unannotated removed; >=20 spots per comparison group",
+  "normalization": "log1p(10000*LYPLA1 UMI/all gene UMI); pseudobulk CPM from sums",
+  "tests": "Two-sided Mann-Whitney per section; Poisson log(total UMI) offset with 4x4 and 8x8 spatial-grid cluster robust SE; nominal P only; no q gate",
+  "statistical_unit": "Spot-level exploratory tests; one patient, no cohort-level inference",
+  "grid_eligibility": "At least 6 occupied blocks overall and 2 per region",
+  "plots": "All seven sections; common positive-expression p99 cap; random draw order; no interpolation",
+  "plot_cap": 2.676377162114175,
+  "software": {
+    "python": "3.13.9",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "statsmodels": "0.14.6",
+    "h5py": "3.16.0",
+    "matplotlib": "3.10.9"
+  },
+  "code_sha256": {
+    "prad_lypla1_erickson_fetch_v1.py": "6cd3ca2fbe3672d29355ab7df17e5da008d5c0575476614864da1f17f2b4129a",
+    "prad_lypla1_erickson_v1.py": "75fdd81159ecb3044e9368d41eb6c63101dc9e895f177b4114fb9db976d14126"
+  }
+}

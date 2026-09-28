@@ -1,0 +1,25 @@
+{
+  "status": "DONE",
+  "n_patients": 1,
+  "n_sections": 7,
+  "n_primary_evaluable": 5,
+  "n_spots_after_qc": 17313,
+  "n_primary_spots": 11973,
+  "raw_integer_counts": true,
+  "unique_barcodes_within_sections": true,
+  "unique_LYPLA1_feature": true,
+  "all_35_publisher_sha256_verified": true,
+  "normalization_finite": true,
+  "glm_rate_equals_pseudobulk_ratio": true,
+  "umi_median_range": [
+    1775.0,
+    14047.5
+  ],
+  "limitations": [
+    "One patient only",
+    "55 micron Visium spots contain multiple cells",
+    "Spatial-grid SE sensitivity is not full spatial modeling",
+    "Pathology region enrichment not pure cancer-cell expression"
+  ],
+  "QC_details_residency": "server165/private/section_qc.tsv"
+}
