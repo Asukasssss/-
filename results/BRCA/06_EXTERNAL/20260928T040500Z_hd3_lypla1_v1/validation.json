@@ -1,0 +1,21 @@
+{
+  "source_barcode_rows": 3672073,
+  "source_matrix_shape": [
+    22854,
+    3672073
+  ],
+  "nonzero_entries": 18721468,
+  "unique_spatial_barcodes": 3672073,
+  "mask_tissue_8um": 427917,
+  "feature_count": 22854,
+  "exact_target_rows": 1,
+  "normal_epi_labels": "NOT_AVAILABLE",
+  "ambiguous_target_feature_present": true,
+  "ambiguous_target_counts_excluded": 1,
+  "exact_LYPLA1_source_counts": 11408,
+  "counts_vs_provider_UMI_image_spearman": 0.9609032667511112,
+  "transformed_points_in_image_fraction": 1.0,
+  "source_sha256_assertions_passed": 5,
+  "analysis_exit_code": 0,
+  "visual_overlay_review": "PASS for coordinate alignment; not pathological cancer classification"
+}

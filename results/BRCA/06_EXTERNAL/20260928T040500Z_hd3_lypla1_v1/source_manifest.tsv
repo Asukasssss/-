@@ -1,0 +1,6 @@
+file	url	sha256	bytes	retrieved_utc
+genes.tsv	https://downloads.pacbcloud.com/public/dataset/Kinnex-single-cell-RNA/DATA-RevioSPRQ-Kinnex-VisiumHD-humanBreast/5-CountMatrix/genes_seurat/genes.tsv	7e7b1dfaa69fee5f425a8a83c054957253706a4e9935010be0cd0e062f77f087	419356	2026-09-28T04:04:29.189064+00:00
+barcodes.tsv	https://downloads.pacbcloud.com/public/dataset/Kinnex-single-cell-RNA/DATA-RevioSPRQ-Kinnex-VisiumHD-humanBreast/5-CountMatrix/genes_seurat/barcodes.tsv	f0182a446c5605400e1db276c2186df5fe293a6d562e1a126b20f4498770e4de	80785606	2026-09-28T04:04:47.818771+00:00
+matrix.mtx	https://downloads.pacbcloud.com/public/dataset/Kinnex-single-cell-RNA/DATA-RevioSPRQ-Kinnex-VisiumHD-humanBreast/5-CountMatrix/genes_seurat/matrix.mtx	2f43e727f9bf838a535afea9be5d10d8508b3f7a9316bf892be2f506460035ba	276657463	2026-09-28T04:05:45.065089+00:00
+web_summary.html	https://downloads.pacbcloud.com/public/dataset/Kinnex-single-cell-RNA/DATA-RevioSPRQ-Kinnex-VisiumHD-humanBreast/hBreast_web_summary.html	9ba30907aecddc68725cc862e16eacc041bbb923ba476262e896441ce258699b	8814004	2026-09-28T04:05:48.696947+00:00
+source_README.txt	https://downloads.pacbcloud.com/public/dataset/Kinnex-single-cell-RNA/README.txt	a523928912991107b071378680cab217e539d18e10114fabade80a88196d3a37	9295	2026-09-28T04:05:50.869789+00:00

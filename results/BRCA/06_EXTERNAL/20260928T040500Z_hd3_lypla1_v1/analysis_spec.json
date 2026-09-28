@@ -1,0 +1,45 @@
+{
+  "version": "hd3_v1",
+  "gene": "LYPLA1",
+  "sample": "PacBio public humanBreast HD3-Kinnex",
+  "donors": 1,
+  "histology": "Infiltrating ductal carcinoma per source README",
+  "source_matrix": "provider gene-level Kinnex processed count matrix; not short-read Space Ranger matrix",
+  "target": "exact LYPLA1 feature only; LYPLA1+TCEA1 excluded from target numerator and reported separately",
+  "bins": {
+    "8": {
+      "min_counts": 20,
+      "min_genes": 10
+    },
+    "16": {
+      "min_counts": 50,
+      "min_genes": 25
+    },
+    "32": {
+      "min_counts": 100,
+      "min_genes": 50
+    }
+  },
+  "primary_bin_um": 16,
+  "tissue_mask": "provider web_summary 8um mask (0=tissue), coarse bins require >=75% covered area",
+  "normalization": "log1p(target count / all-feature count * 10000), no imputation",
+  "annotation": "Only source tissue mask available. Marker maps and source unsupervised clusters are not pathological tumor/normal annotations",
+  "tests": "descriptive within-section Spearman and partial rank association with depth; no inferential P values",
+  "primary_question_status": "NOT_EVALUABLE: no verified cancer versus normal epithelial spatial labels",
+  "seed": 20260928,
+  "software": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3"
+  },
+  "markers": [
+    "EPCAM",
+    "KRT8",
+    "KRT18",
+    "KRT19",
+    "COL1A1",
+    "DCN",
+    "PTPRC"
+  ]
+}

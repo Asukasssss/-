@@ -1,0 +1,4 @@
+bin_um	donors	n_tissue_bins	n_qc_bins	n_detected_bins	detected_fraction	LYPLA1_counts_qc	median_total_counts_qc	median_features_qc
+8	1	427917	155877	9820	0.06299838975602559	10756	81.0	75.0
+16	1	106415	46717	8486	0.18164693794550163	10931	251.0	220.0
+32	1	26396	15322	5659	0.36933820650045684	11088	645.0	519.0

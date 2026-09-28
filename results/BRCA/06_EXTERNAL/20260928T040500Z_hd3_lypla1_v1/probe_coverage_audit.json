@@ -1,0 +1,17 @@
+{
+  "dataset": "10x Visium HD FF Human Breast Cancer (probe-based DCIS)",
+  "official_feature_slice": "https://cf.10xgenomics.com/samples/spatial-exp/3.1.2/Visium_HD_FF_Human_Breast_Cancer/Visium_HD_FF_Human_Breast_Cancer_feature_slice.h5",
+  "feature_index": 15324,
+  "symbol": "LYPLA1",
+  "ensembl": "ENSG00000120992",
+  "included_in_target_sets": {
+    "Visium Human Transcriptome Probe Set v2.0": false
+  },
+  "raw_feature_positions": 17986,
+  "interpretation": "Raw counts exist but gene excluded from retained target set. Do not use raw counts for reliable LYPLA1 spatial expression.",
+  "http_range_bytes": 1048576,
+  "probe_reference_mirror": "https://raw.githubusercontent.com/ejscience/2025_Wamaitha_Rhesus_OvarianReserve/main/Visium_SpaceRanger/RhesusMacaqueProbeLists/Visium_Human_Transcriptome_Probe_Set_v2.0_GRCh38-2020-A.csv",
+  "probe_reference_sha256": "def2f351111f1de0da14181121cad653bbb34adb0301a16d4dfda74bab3bc6ff",
+  "LYPLA1_probe_included": false,
+  "official_exclusion_documentation": "https://www.10xgenomics.com/support/spatial-gene-and-protein-expression/documentation/steps/probe-sets/visium-human-transcriptome-probe-set-v2-0"
+}

@@ -1,0 +1,25 @@
+bin_um	marker	n_bins	spearman	partial_spearman_depth	p_value	interpretation
+8	EPCAM	155877	0.0223291598474987	-0.00015809687404430106		within-section descriptive only; not independent patients
+8	KRT8	155877	0.09026937298207034	0.01370020446154799		within-section descriptive only; not independent patients
+8	KRT18	155877	0.08386278277134115	0.016242070466216223		within-section descriptive only; not independent patients
+8	KRT19	155877	0.08488208527712937	0.011591001290330812		within-section descriptive only; not independent patients
+8	COL1A1	155877	-0.02924127542737692	-0.022978199631562484		within-section descriptive only; not independent patients
+8	DCN	155877	-0.022164657500775946	-0.02286380428057726		within-section descriptive only; not independent patients
+8	PTPRC	155877	0.002189464756268411	0.0025920032177336595		within-section descriptive only; not independent patients
+8	Epithelial marker mean	155877	0.1255796645991806	0.01882770603290267		not a malignant epithelial label
+16	EPCAM	46717	0.08178672529625917	0.005315900824425785		within-section descriptive only; not independent patients
+16	KRT8	46717	0.19282379899108948	0.024611893638112402		within-section descriptive only; not independent patients
+16	KRT18	46717	0.18008822187628593	0.026302217150189208		within-section descriptive only; not independent patients
+16	KRT19	46717	0.13187108321380858	0.030739958308741287		within-section descriptive only; not independent patients
+16	COL1A1	46717	-0.06398433257216507	-0.05505069328548918		within-section descriptive only; not independent patients
+16	DCN	46717	-0.03637510600585447	-0.0468903678757703		within-section descriptive only; not independent patients
+16	PTPRC	46717	0.006476517688146132	0.00522529264864168		within-section descriptive only; not independent patients
+16	Epithelial marker mean	46717	0.25696607941141325	0.04172919111557061		not a malignant epithelial label
+32	EPCAM	15322	0.20758848083557072	0.024267374537728956		within-section descriptive only; not independent patients
+32	KRT8	15322	0.24979866071503187	0.02867101944975514		within-section descriptive only; not independent patients
+32	KRT18	15322	0.22182394398655228	0.02701599470724503		within-section descriptive only; not independent patients
+32	KRT19	15322	0.1938208951805244	0.06021327570390721		within-section descriptive only; not independent patients
+32	COL1A1	15322	-0.06702398110655576	-0.09215992866915614		within-section descriptive only; not independent patients
+32	DCN	15322	-0.0009952475327744852	-0.07052481613851823		within-section descriptive only; not independent patients
+32	PTPRC	15322	0.0113960168597537	-0.0032462439824149495		within-section descriptive only; not independent patients
+32	Epithelial marker mean	15322	0.3633344835292348	0.05748359753206213		not a malignant epithelial label
