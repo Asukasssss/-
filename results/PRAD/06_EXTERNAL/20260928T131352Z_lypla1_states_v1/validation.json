@@ -1,0 +1,21 @@
+{
+  "status": "DONE",
+  "n_malignant_cells": 3157,
+  "n_donors": 24,
+  "n_association_donors": 16,
+  "n_states": 20,
+  "n_states_inference": 0,
+  "n_primary_genes_evaluable": 9057,
+  "n_nominal_positive": 505,
+  "n_nominal_negative": 136,
+  "n_primary_q_lt005": 12,
+  "scalar_spearman_max_error": 6.938893903907228e-18,
+  "exact_metadata_alignment": true,
+  "integer_raw_counts": true,
+  "no_reclustering": true,
+  "genotype_swap_check": "NOT_EVALUABLE: genotype/BAM inputs absent; author donor IDs inherited",
+  "sex_labels": {
+    "male": 68322
+  },
+  "cross_cohort_status": "NOT_RUN by this script"
+}

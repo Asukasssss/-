@@ -1,0 +1,40 @@
+{
+  "version": "prad_lypla1_states_associations_v1",
+  "parent_commit": "4414f8d5c357b382ca7890749820ec60b4145436",
+  "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PRAD/B/20260922T142000Z_discovery_v1/source/PRAD24_cellxgene.h5ad",
+  "gene": "LYPLA1",
+  "target_id": "ENSG00000120992",
+  "selection": "type=cancer AND celltype_major_v2=Epithelial AND malignant_anno_merged=malignant",
+  "annotation": "author celltype_subset_v2 reused; no new clustering",
+  "normalization": "log1p(10000*raw_count/raw_library_total)",
+  "donor_min_cells": 30,
+  "gene_min_detected_cells_per_donor": 10,
+  "gene_min_fraction_per_donor": 0.1,
+  "min_donors_for_inference": 8,
+  "state_min_cells_per_donor_each_arm": 10,
+  "state_min_donors_for_descriptive": 3,
+  "association_primary": "within-donor Spearman rank residual correlation controlling rank(log1p totalUMI) and rank(percent.mito)",
+  "association_sensitivity": [
+    "ordinary within-donor Spearman",
+    "add author subset fixed effects within donor",
+    "LYPLA1-positive cells only with same technical adjustment"
+  ],
+  "association_test": "two-sided exact binomial sign test across nonzero donor correlations; no cell-level pooled P",
+  "test_family": "all measured non-LYPLA1 genes, separately per mode; BH retained but nominal P<0.05 prioritization",
+  "state_test": "exact binomial sign test of donor subgroup mean minus remaining malignant cells; >=8 donors",
+  "state_contrast": "within same donor, subset versus all other malignant subsets; not tumor vs normal",
+  "software": {
+    "python": "3.13.9",
+    "anndata": "0.12.16",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1"
+  },
+  "limitations": [
+    "donor identity inherited, no genotype files available for swap validation",
+    "coexpression is not regulation or pathway activity",
+    "state covariate adjustment can remove genuine between-state biology",
+    "sign-test P tests direction consistency, not correlation magnitude",
+    "all nominal discoveries exploratory; no independent validation in this script"
+  ]
+}
