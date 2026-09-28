@@ -72,8 +72,10 @@ def main():
    im,mat,polys,styles=parse(p);kp,desc=features(im);hits=[]
    # Restrict by explicitly matching slide barcode, then register sections by image content.
    card=re.search(r'V\d\d[A-Z]\d\d-\d\d\d',p.name)
+   explicit_area=re.search(r'\.([A-D]1)(?:_|\.)',p.name)
    for name,(dest,qk,qd) in targets.items():
     if card and not name.startswith(card[0]):continue
+    if explicit_area and name != card[0]+'_'+explicit_area[1]:continue
     matches=match_descriptors(desc,qd,cross_check=True,max_ratio=.7)
     if len(matches)<8:continue
     src=kp[matches[:,0]];dst=qk[matches[:,1]]

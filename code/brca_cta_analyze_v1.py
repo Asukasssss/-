@@ -17,8 +17,15 @@ def main():
  for x in json.loads((D/'manifest.json').read_text()):
   p=D/x['file'];h=hashlib.sha256(p.read_bytes()).hexdigest();assert h==x['sha256'];checks.append(x['file'])
  regs=json.loads((O/'registration_summary.json').read_text());regpass=[r for r in regs if r['status']=='PASS']
- # Multiple acceptable SVGs for one expression image would be ambiguous; do not choose by gene expression.
- counts=pd.Series([r['sample'] for r in regpass]).value_counts();regpass=[r for r in regpass if counts[r['sample']]==1]
+ # Require the reciprocal best image match; similar adjacent sections can share a few features.
+ # An explicit capture-area suffix must match exactly. No decision uses gene expression.
+ import re
+ regpass=[r for r in regpass if not re.search(r'\.([A-D]1)(?:_|\.)',r['svg']) or r['sample'].endswith('_'+re.search(r'\.([A-D]1)(?:_|\.)',r['svg'])[1])]
+ chosen=[]
+ for sample in sorted({r['sample'] for r in regpass}):
+  rr=sorted([r for r in regpass if r['sample']==sample],key=lambda r:r['n_inliers'],reverse=True)
+  if len(rr)==1 or rr[0]['n_inliers']>2*rr[1]['n_inliers']:chosen.append(rr[0])
+ regpass=chosen
  coverage=[];effects=[];allspots=[]
  for r in regpass:
   name=r['sample'];d=D/'spaceranger_output'/name/'outs';hp=d/'filtered_feature_bc_matrix.h5'
