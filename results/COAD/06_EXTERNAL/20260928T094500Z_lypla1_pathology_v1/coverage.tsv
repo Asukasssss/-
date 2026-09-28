@@ -1,0 +1,8 @@
+section	matrix_spots	annotation_spots	annotation_outside_filtered_matrix	in_tissue	unannotated	author_exclude	numeric_qc_failed	admitted_spots	lypla1_detected
+S1_Cec_Rep1	691	691	0	691	0	26	1	664	522
+S2_Col_R_Rep1	1192	1192	0	1192	0	81	3	1108	746
+S3_Col_R_Rep1	2317	2317	0	2317	0	0	20	2297	1435
+S4_Col_Sig_Rep1	328	328	0	328	0	88	0	240	160
+S5_Rec_Rep1	2203	2203	0	2203	0	151	3	2049	1362
+S6_Rec_Rep2	1691	1691	0	1691	0	206	4	1482	983
+S7_RecSig_Rep1	1685	1685	0	1685	3	50	7	1625	603

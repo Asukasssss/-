@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "sections": 7,
+  "unique_cases": 7,
+  "admitted_spots": 9465,
+  "annotation_archive_official_md5_verified": true,
+  "selected_matrix_members_source_crc32_and_sha256_verified": true,
+  "whole_matrix_archives_md5_verified": false,
+  "exact_unique_barcode_joins": true,
+  "lypla1_unique_ensembl_match": true,
+  "unmatched_annotation_barcodes_outside_positions": 0,
+  "shared_expression_range": [
+    0,
+    2.62734402991088
+  ],
+  "no_new_tests": true,
+  "raw_data_location": "server165 only",
+  "limitations": [
+    "CRC not pure COAD",
+    "Pathologist tumor spots contain multiple cells",
+    "Descriptive region contrasts, no causal or population inference",
+    "S7 mainly non-neoplastic; missing tumor comparison retained",
+    "Between-study independence from CAMP not independently certified"
+  ],
+  "overview_render_script_sha256": "04ff2c9e9f5a798b0c52f286f5c3534ac2def808db398881356699098968f428",
+  "overview_layout": "Tissue-area view limits; original coordinates and all in-tissue dots preserved; titles separated; no numeric change",
+  "aggregate_readback": {
+    "section_count": 7,
+    "comparison_rows": 14,
+    "admitted_spots": 9465,
+    "original_and_broad_region_counts_reconcile": true,
+    "detected_counts_within_bounds": true,
+    "all_P_q_NA": true,
+    "descriptive_contrasts_match_region_means": true
+  },
+  "visual_review": {
+    "png_reviewed": [
+      "all7_pathology_LYPLA1.png",
+      "S2_Col_R_Rep1_pathology_LYPLA1.png",
+      "S5_Rec_Rep1_pathology_LYPLA1.png"
+    ],
+    "overview_title_overlap_fixed": true,
+    "pdf_pages_independently_rendered": false
+  }
+}

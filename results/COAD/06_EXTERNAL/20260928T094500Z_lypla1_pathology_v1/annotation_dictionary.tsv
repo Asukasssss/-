@@ -1,0 +1,63 @@
+section	original_label	broad_group	annotation_spots
+S1_Cec_Rep1	exclude	Excluded / unannotated / QC fail	26
+S1_Cec_Rep1	stroma_fibroblastic_IC high	Stroma	21
+S1_Cec_Rep1	stroma_fibroblastic_IC med	Stroma	49
+S1_Cec_Rep1	tumor	Tumor	375
+S1_Cec_Rep1	tumor&stroma_IC med to high	Tumor-stroma mixed	220
+S2_Col_R_Rep1	IC aggregate_muscularis or stroma	Other annotated tissue	10
+S2_Col_R_Rep1	IC aggregate_submucosa	Other annotated tissue	15
+S2_Col_R_Rep1	epithelium&submucosa	Other annotated tissue	256
+S2_Col_R_Rep1	exclude	Excluded / unannotated / QC fail	81
+S2_Col_R_Rep1	muscularis_IC med to high	Other annotated tissue	51
+S2_Col_R_Rep1	non neo epithelium	Non-neoplastic epithelium	71
+S2_Col_R_Rep1	stroma_fibroblastic_IC high	Stroma	100
+S2_Col_R_Rep1	stroma_fibroblastic_IC med	Stroma	109
+S2_Col_R_Rep1	submucosa	Other annotated tissue	59
+S2_Col_R_Rep1	tumor	Tumor	235
+S2_Col_R_Rep1	tumor&stroma IC med to high	Tumor-stroma mixed	205
+S3_Col_R_Rep1	stroma_fibroblastic_IC high	Stroma	315
+S3_Col_R_Rep1	stroma_fibroblastic_IC med	Stroma	413
+S3_Col_R_Rep1	tumor	Tumor	672
+S3_Col_R_Rep1	tumor&stroma_IC med to high	Tumor-stroma mixed	917
+S4_Col_Sig_Rep1	exclude	Excluded / unannotated / QC fail	88
+S4_Col_Sig_Rep1	stroma_fibroblastic_IC high	Stroma	103
+S4_Col_Sig_Rep1	stroma_fibroblastic_IC low	Stroma	33
+S4_Col_Sig_Rep1	stroma_fibroblastic_IC med	Stroma	20
+S4_Col_Sig_Rep1	tumor	Tumor	43
+S4_Col_Sig_Rep1	tumor&stroma_IC low	Tumor-stroma mixed	4
+S4_Col_Sig_Rep1	tumor&stroma_IC med to high	Tumor-stroma mixed	37
+S5_Rec_Rep1	IC aggregregate_submucosa	Other annotated tissue	32
+S5_Rec_Rep1	epithelium&submucosa	Other annotated tissue	694
+S5_Rec_Rep1	exclude	Excluded / unannotated / QC fail	151
+S5_Rec_Rep1	non neo epithelium	Non-neoplastic epithelium	294
+S5_Rec_Rep1	stroma_fibroblastic_IC high	Stroma	249
+S5_Rec_Rep1	submucosa	Other annotated tissue	188
+S5_Rec_Rep1	tumor	Tumor	337
+S5_Rec_Rep1	tumor&stroma_IC med to high	Tumor-stroma mixed	258
+S6_Rec_Rep2	IC aggregate_stroma or muscularis	Other annotated tissue	21
+S6_Rec_Rep2	IC aggregate_submucosa	Other annotated tissue	8
+S6_Rec_Rep2	epitehlium&submucosa	Other annotated tissue	59
+S6_Rec_Rep2	exclude	Excluded / unannotated / QC fail	206
+S6_Rec_Rep2	muscularis_IC med to high	Other annotated tissue	6
+S6_Rec_Rep2	non neo epithelium	Non-neoplastic epithelium	60
+S6_Rec_Rep2	stroma desmoplastic_IC low	Stroma	65
+S6_Rec_Rep2	stroma desmoplastic_IC med to high	Stroma	34
+S6_Rec_Rep2	stroma_fibroblastic_IC high	Stroma	707
+S6_Rec_Rep2	stroma_fibroblastic_IC med	Stroma	153
+S6_Rec_Rep2	submucosa	Other annotated tissue	26
+S6_Rec_Rep2	tumor	Tumor	165
+S6_Rec_Rep2	tumor&stroma_IC med to high	Tumor-stroma mixed	181
+S7_RecSig_Rep1		Excluded / unannotated / QC fail	3
+S7_RecSig_Rep1	IC aggreagate_connective tissue	Other annotated tissue	66
+S7_RecSig_Rep1	IC aggregate_submucosa	Other annotated tissue	33
+S7_RecSig_Rep1	connective tissue_1_edema	Other annotated tissue	221
+S7_RecSig_Rep1	connective tissue_2_fibroblastic_IC low	Other annotated tissue	469
+S7_RecSig_Rep1	connective tissue_3_fibroblastic_IC med	Other annotated tissue	414
+S7_RecSig_Rep1	connective tissue_4_muscularis_IC low	Other annotated tissue	103
+S7_RecSig_Rep1	connective tissue_6_hemosiderin?	Other annotated tissue	23
+S7_RecSig_Rep1	epithelium&lam propria	Other annotated tissue	85
+S7_RecSig_Rep1	exclude	Excluded / unannotated / QC fail	50
+S7_RecSig_Rep1	glandular tissue	Other annotated tissue	26
+S7_RecSig_Rep1	lamina propria	Other annotated tissue	97
+S7_RecSig_Rep1	non neo epithelium	Non-neoplastic epithelium	83
+S7_RecSig_Rep1	squamous epithelium	Other annotated tissue	12
