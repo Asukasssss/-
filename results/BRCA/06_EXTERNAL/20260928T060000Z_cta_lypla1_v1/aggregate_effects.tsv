@@ -1,0 +1,13 @@
+reference	purity	metric	patients	sections	positive_patients	mean_patient_effect	p_value	status
+Immune	0.8	mean_lognorm_delta	3	11	3	0.24751072734293952	0.25	DONE
+Immune	0.8	pseudobulk_log2ratio	3	11	3	0.5008296318322	0.25	DONE
+Immune	0.8	depth_mt_adjusted_delta	3	11	3	0.07307744319564204	0.25	DONE
+Unannotated	0.8	mean_lognorm_delta	3	14	3	0.2210848314688342	0.25	DONE
+Unannotated	0.8	pseudobulk_log2ratio	3	14	3	0.23315025604101894	0.25	DONE
+Unannotated	0.8	depth_mt_adjusted_delta	3	14	2	0.044767674020259586	1.0	DONE
+Immune	1.0	mean_lognorm_delta	3	10	3	0.25484215445295233	0.25	DONE
+Immune	1.0	pseudobulk_log2ratio	3	10	3	0.5788329668300941	0.25	DONE
+Immune	1.0	depth_mt_adjusted_delta	3	10	3	0.07889232880953048	0.25	DONE
+Unannotated	1.0	mean_lognorm_delta	3	14	3	0.2359440977528885	0.25	DONE
+Unannotated	1.0	pseudobulk_log2ratio	3	14	3	0.25181764081899055	0.25	DONE
+Unannotated	1.0	depth_mt_adjusted_delta	3	14	2	0.04924208659793059	1.0	DONE

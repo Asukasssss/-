@@ -1,0 +1,34 @@
+{
+  "source_sha256_verified": 80,
+  "unique_gene_hit_each_matrix": true,
+  "registration_used": 14,
+  "registration_max_median_error_px": 0.5880931958376645,
+  "patient_id_rule": "Same slide barcode and author SVG embedded BCSA1 identity; SA2/SA3 explicit author filenames; no numeric-order pairing",
+  "normal_epithelium": "NOT_EVALUABLE",
+  "software": {
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3"
+  },
+  "visual_overlay_check": {
+    "status": "PASS_representative_each_patient",
+    "reviewed": [
+      "V19T26-012_A1",
+      "V10F24-112_C1",
+      "V19T26-031_C1"
+    ],
+    "scope": "All 14 passed numeric registration; three representative overlays visually checked, one per patient"
+  },
+  "independent_saved_spot_checks": {
+    "files": 14,
+    "unique_barcodes": true,
+    "target_counts_within_total": true,
+    "normalization_recomputed_matches": true
+  },
+  "public_gallery_checks": {
+    "all_image_links_exist": true,
+    "n_images": 15,
+    "result_rows": 13
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "matrix_files_available": 14,
+  "manual_svg_available": 23,
+  "sections_analyzed": 14,
+  "patients_analyzed": 3,
+  "spots_input": 37206,
+  "spots_qc": 36452,
+  "LYPLA1_positive_qc": 15307,
+  "normal_epithelium_comparison": "NOT_EVALUABLE",
+  "normal_epithelium_reason": "Author manual classes do not include normal epithelium. Unannotated regions are mixed and not normal controls.",
+  "aggregate_effects": [
+    {
+      "reference": "Immune",
+      "purity": 0.8,
+      "metric": "mean_lognorm_delta",
+      "patients": 3,
+      "sections": 11,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.24751072734293952,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Immune",
+      "purity": 0.8,
+      "metric": "pseudobulk_log2ratio",
+      "patients": 3,
+      "sections": 11,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.5008296318322,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Immune",
+      "purity": 0.8,
+      "metric": "depth_mt_adjusted_delta",
+      "patients": 3,
+      "sections": 11,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.07307744319564204,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Unannotated",
+      "purity": 0.8,
+      "metric": "mean_lognorm_delta",
+      "patients": 3,
+      "sections": 14,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.2210848314688342,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Unannotated",
+      "purity": 0.8,
+      "metric": "pseudobulk_log2ratio",
+      "patients": 3,
+      "sections": 14,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.23315025604101894,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Unannotated",
+      "purity": 0.8,
+      "metric": "depth_mt_adjusted_delta",
+      "patients": 3,
+      "sections": 14,
+      "positive_patients": 2,
+      "mean_patient_effect": 0.044767674020259586,
+      "p_value": 1.0,
+      "status": "DONE"
+    },
+    {
+      "reference": "Immune",
+      "purity": 1.0,
+      "metric": "mean_lognorm_delta",
+      "patients": 3,
+      "sections": 10,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.25484215445295233,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Immune",
+      "purity": 1.0,
+      "metric": "pseudobulk_log2ratio",
+      "patients": 3,
+      "sections": 10,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.5788329668300941,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Immune",
+      "purity": 1.0,
+      "metric": "depth_mt_adjusted_delta",
+      "patients": 3,
+      "sections": 10,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.07889232880953048,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Unannotated",
+      "purity": 1.0,
+      "metric": "mean_lognorm_delta",
+      "patients": 3,
+      "sections": 14,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.2359440977528885,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Unannotated",
+      "purity": 1.0,
+      "metric": "pseudobulk_log2ratio",
+      "patients": 3,
+      "sections": 14,
+      "positive_patients": 3,
+      "mean_patient_effect": 0.25181764081899055,
+      "p_value": 0.25,
+      "status": "DONE"
+    },
+    {
+      "reference": "Unannotated",
+      "purity": 1.0,
+      "metric": "depth_mt_adjusted_delta",
+      "patients": 3,
+      "sections": 14,
+      "positive_patients": 2,
+      "mean_patient_effect": 0.04924208659793059,
+      "p_value": 1.0,
+      "status": "DONE"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": "cta_v1",
+  "primary_area_fraction": 0.8,
+  "sensitivity_area_fraction": 1.0,
+  "area_sampling": "49 evenly spaced disk grid points within spot; excludes overlapping labels",
+  "QC": {
+    "min_UMI": 500,
+    "min_genes": 200,
+    "max_mitochondrial_fraction": 0.25
+  },
+  "minimum_spots_per_region_per_section": 20,
+  "normalization": "log1p(count / all_gene_UMI * 10000), no imputation",
+  "patient_aggregation": "equal mean of eligible section effects; author patient grouping",
+  "tests": "two-sided exact sign test across >=3 nonzero patient effects; no spot-level P; nominal P, no FDR per user preference",
+  "registration": "H&E SIFT + affine RANSAC; >=20 inliers, >=35% inlier fraction, median error <=1.5 lowres pixels, second-target <65%; reciprocal source best >2x runner-up; explicit capture suffix exact",
+  "registration_seed": 42,
+  "analysis_code_commit": "6e29956",
+  "initial_registration_commit": "918874f",
+  "source_residency": "server165 only"
+}
