@@ -1,13 +1,25 @@
 {
-  "analysis_version": "cra001160_lypla1_cells_v1",
+  "version": "cra001160_lypla1_cells_v1",
+  "gene": "LYPLA1",
   "unit": "pooled_cell",
-  "populations": [
-    "all including zero",
-    "raw LYPLA1 UMI>0"
-  ],
-  "test": "two-sided asymptotic Mann-Whitney U, tie and continuity correction",
-  "family": "BH across six predefined comparisons",
-  "clustering_adjustment": false,
+  "source_run": "20260927T130900Z_cra001160_lypla1_v1",
   "input_sha256": "39c164112b49c9807e34b378b912f7ad510e3faacc63ed415f28f624960c8d8c",
-  "base_commit": "cb9ac3ac0e247f36d60e8afabad172d79e48f5ce"
+  "expression": "Inherited log1p(10000 * gene UMI / all-gene UMI)",
+  "contexts": [
+    "Tumor_all_units",
+    "Tumor_vs_control",
+    "Tumor_14_shared_units_sensitivity"
+  ],
+  "populations": [
+    "All_cells_including_zero",
+    "Detected_cells_raw_UMI_gt0"
+  ],
+  "test": "Two-sided asymptotic Mann-Whitney U, tie correction and continuity correction",
+  "multiplicity": "BH across all six prespecified exploratory comparisons",
+  "effect": "Rank-biserial correlation = 2U/(n_test*n_reference)-1; positive means higher type2 distribution",
+  "all_units_rule": "No minimum cell threshold; retain every author-annotated ductal cell",
+  "shared_units_rule": "Both ductal groups >=20 cells per T unit, before LYPLA1-positive filtering",
+  "no_pseudoreplication_correction": true,
+  "CI": "Not supplied: naive cell CIs would imply independent cells",
+  "data_residency": "Per-cell/per-unit data remain on server; export aggregate histograms and statistics only"
 }

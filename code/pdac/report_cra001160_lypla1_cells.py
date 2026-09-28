@@ -19,7 +19,7 @@ assert hashlib.sha256((ROOT/'code/pdac/cra001160_lypla1_cells.py').read_bytes())
 font=FontProperties(fname='C:/Windows/Fonts/msyh.ttc');plt.rcParams['font.family']=font.get_name();plt.rcParams['axes.unicode_minus']=False;plt.rcParams['pdf.fonttype']=42
 fig,axes=plt.subplots(2,2,figsize=(13,9));fig.subplots_adjust(left=.08,right=.97,top=.82,bottom=.13,hspace=.55,wspace=.25)
 fig.suptitle('CRA001160 · LYPLA1 细胞层面比较',x=.07,y=.965,ha='left',fontsize=23,fontweight='bold')
-fig.text(.07,.905,'type 2：作者恶性相关导管上皮；type 1：相对非恶性导管上皮。每个细胞等权。',fontsize=12,color='#475569')
+fig.text(.07,.905,'沿用作者 type 1／type 2 标签；type 2 包含 PanIN 样状态，非逐细胞确证恶性。每个细胞等权。',fontsize=11,color='#475569')
 for i,context in enumerate(['Tumor_all_units','Tumor_vs_control']):
  for j,pop in enumerate(['All_cells_including_zero','Detected_cells_raw_UMI_gt0']):
   ax=axes[i,j];row=r[(r.context==context)&(r.population==pop)].iloc[0]
@@ -47,7 +47,7 @@ text='''# CRA001160：LYPLA1 细胞层面探索性比较
 
 ## 输入与范围
 
-复用上一批原作者矩阵提取的57,530细胞结果，输入 SHA-256 固定且核对通过。原作者 type 2 为恶性相关导管上皮，type 1 为相对非恶性导管上皮；未新增 CNV。表达沿用 log1p(10000×LYPLA1 UMI/全基因 UMI)，阳性定义为原始 LYPLA1 UMI>0。
+复用上一批原作者矩阵提取的57,530细胞结果，输入 SHA-256 固定且核对通过。沿用原作者 type 2 与 type 1 导管标签；type 2 包含作者解释为 PanIN 样的状态，不能把每个细胞当作确证浸润癌；type 1 也不是健康身份认证。未新增 CNV。表达沿用 log1p(10000×LYPLA1 UMI/全基因 UMI)，阳性定义为原始 LYPLA1 UMI>0。
 
 本轮每个细胞等权，不先按患者求平均。主展示保留全部作者注释导管细胞，不使用每患者20细胞门槛；另保留上一轮14个共同合格患者/标本单位的细胞子集作为敏感性比较。共同患者子集仍用细胞检验，不是患者配对检验。
 

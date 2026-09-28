@@ -1,8 +1,55 @@
 {
-  "status": "PARTIAL",
-  "server_computation": "Completed; successful console table received",
-  "input_and_statistics_assertions": "All assertions preceding printed summary passed; source validation JSON not yet transferred",
-  "export": "SSH timeout on subsequent SFTP connections",
-  "precision": "Terminal display precision only",
-  "full_results_and_plot": "Pending transfer"
+  "status": "PASS",
+  "input_sha256_verified": true,
+  "all_cells_unique": true,
+  "raw_count_normalization_checked": true,
+  "positive_filter_checked": true,
+  "histogram_counts_conserved": true,
+  "independent_statistic_checks": [
+    {
+      "context": "Tumor_all_units",
+      "population": "All_cells_including_zero",
+      "U_rank_reconstruction": true,
+      "P_tie_corrected_reconstruction": true
+    },
+    {
+      "context": "Tumor_all_units",
+      "population": "Detected_cells_raw_UMI_gt0",
+      "U_rank_reconstruction": true,
+      "P_tie_corrected_reconstruction": true
+    },
+    {
+      "context": "Tumor_vs_control",
+      "population": "All_cells_including_zero",
+      "U_rank_reconstruction": true,
+      "P_tie_corrected_reconstruction": true
+    },
+    {
+      "context": "Tumor_vs_control",
+      "population": "Detected_cells_raw_UMI_gt0",
+      "U_rank_reconstruction": true,
+      "P_tie_corrected_reconstruction": true
+    },
+    {
+      "context": "Tumor_14_shared_units_sensitivity",
+      "population": "All_cells_including_zero",
+      "U_rank_reconstruction": true,
+      "P_tie_corrected_reconstruction": true
+    },
+    {
+      "context": "Tumor_14_shared_units_sensitivity",
+      "population": "Detected_cells_raw_UMI_gt0",
+      "U_rank_reconstruction": true,
+      "P_tie_corrected_reconstruction": true
+    }
+  ],
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "scipy": "1.10.1",
+  "not_validated": [
+    "No donor dependence adjustment for cell tests",
+    "No new malignant identity validation",
+    "No LYPLA1 depth-adjusted detection analysis"
+  ]
 }
