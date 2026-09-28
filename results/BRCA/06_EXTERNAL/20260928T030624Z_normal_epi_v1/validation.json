@@ -1,0 +1,29 @@
+[
+  {
+    "sample": "DSID000277",
+    "gene_unique": true,
+    "barcodes_unique": true,
+    "polygon_image_dimensions_match": true,
+    "api_coordinate_max_error": 2.2737367544323206e-13,
+    "n_qc": 2108,
+    "n_conflicting": 0
+  },
+  {
+    "sample": "DSID000582",
+    "gene_present": false,
+    "feature_count": 17943,
+    "polygon_image_dimensions_match": true
+  },
+  {
+    "sample": "DSID000593",
+    "gene_present": false,
+    "feature_count": 17943,
+    "polygon_image_dimensions_match": true
+  },
+  {
+    "sample": "DSID000595",
+    "gene_present": false,
+    "feature_count": 17943,
+    "polygon_image_dimensions_match": true
+  }
+]

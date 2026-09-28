@@ -1,0 +1,37 @@
+{
+  "gene": "LYPLA1",
+  "version": "deepspace_v1",
+  "selection": "Expert Normal duct and Invasive labels; GEO explicitly One sample; no selection by LYPLA1",
+  "included": [
+    "DSID000277",
+    "DSID000582",
+    "DSID000593",
+    "DSID000595"
+  ],
+  "excluded": {
+    "DSID000592": "two specimens; spatial specimen identities not resolved",
+    "DSID000594": "two specimens; spatial specimen identities not resolved",
+    "DSID000340": "conflicting invasive versus original DCIS pathology, not resolved"
+  },
+  "QC": {
+    "min_counts": 500,
+    "min_genes": 200,
+    "max_mito_fraction": 0.25
+  },
+  "normalization": "log1p(count/total_counts*10000)",
+  "region_assignment": "spot center in expert polygon, conflicting labels excluded; y=image_height-polygon_y",
+  "sensitivity": "24 perimeter points and center within same polygon; radius=spot_diameter_fullres*tissue_hires_scalef/2",
+  "minimum_region_spots": 20,
+  "secondary_minimum_spots": 10,
+  "unit": "section descriptive; no claim of patient independence",
+  "P": "NOT_EVALUABLE for patient inference; do not use individual spots as independent biological replicates",
+  "normal_reference": "morphologically normal duct region, not purified epithelial cells or healthy donor",
+  "GSE210616": "reanalysis of an existing cohort, not independent validation",
+  "seed": 20260928,
+  "software": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3"
+  }
+}
