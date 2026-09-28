@@ -1,0 +1,25 @@
+{
+  "version": "prad_lypla1_umap_v1",
+  "parent_commit": "57e878373902a4369c79361faab7e6b804cda421",
+  "dataset_version": "68b23fda-7191-46a5-8870-819feca3e66e",
+  "gene": "LYPLA1",
+  "ensembl": "ENSG00000120992",
+  "embedding": "depositor X_umap reused unchanged",
+  "embedding_parameters": "not re-estimated; original hyperparameters not verified",
+  "normalization": "log1p(10000*raw_gene_count/sum_all_raw_genes_per_cell)",
+  "gene_filter": "none",
+  "cell_filter": "none; panel tissue masks only",
+  "color_max": 2.1232839012146,
+  "color_cap": "99th percentile across all positive cells; common scale; values above cap retained",
+  "plot_order": "ascending expression; positive cells drawn last",
+  "annotation": "celltype_major_v2; epithelial split by author malignant_anno_merged; combined display labels author-derived, no new inference",
+  "contours": "smoothed 100x100 histogram; sigma1.1; outer97pct mass; groups>=150; display only",
+  "statistics": "NOT_RUN: visualization only; pooled means are not donor-equal estimates or fold changes",
+  "software": {
+    "python": "3.13.9",
+    "anndata": "0.12.16",
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9"
+  }
+}
