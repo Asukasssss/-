@@ -1,0 +1,32 @@
+{
+  "analysis_version": "COAD_Uhlitz_UMAP_v1",
+  "code_lock_commit": "cc9f11243708fe3fb5580b563a3622a7354e7697",
+  "cohort": "Uhlitz_GSE166555",
+  "coordinate_provenance": "New project UMAP; NOT author UMAP coordinates",
+  "input_scope": "All author-retained 68702 cells, 12 donors, tumor and normal; no additional cell filtering",
+  "annotation": "Original author labels; epithelial kept broad in overview; fibroblast subtypes collapsed explicitly; no new clustering or marker inference",
+  "preprocessing": {
+    "gene_filter_min_cells": 3,
+    "normalize_total": 10000,
+    "log1p": true,
+    "HVG_flavor": "seurat",
+    "HVG_n": 2000,
+    "scale_zero_center": true,
+    "scale_max_value": 10
+  },
+  "embedding": {
+    "PCA_components": 50,
+    "PCA_solver": "randomized",
+    "neighbors": 15,
+    "metric": "euclidean",
+    "min_dist": 0.5,
+    "spread": 1.0,
+    "random_state": 20260928
+  },
+  "batch_correction": "NONE; donor and tissue views supplied for interpretation",
+  "scope_boundary": "Visualization only;no DE/P/q;no new malignancy calls;source and per-cell coordinates stay server165",
+  "genes_source": 21854,
+  "genes_after_min_cells": 21850,
+  "actual_HVGs": 2000,
+  "PCA_variance_ratio_sum": 0.3573657866590295
+}

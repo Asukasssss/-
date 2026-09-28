@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "shared_genes": [
+    "BCAT2",
+    "NNMT",
+    "SLC6A6",
+    "UPP2"
+  ],
+  "shared_relations": 3,
+  "BRCA_both_ER_supported_genes": [
+    "GPCPD1",
+    "GPI"
+  ],
+  "checks": [
+    "source package manifest",
+    "pinned actual BRCA git blob",
+    "actual gene and relation identity sets",
+    "COAD exact stats instead of rounded display",
+    "same source feature keys",
+    "supplied numeric precision compatible"
+  ],
+  "limitations": [
+    "No new independent functional review",
+    "No patient statistics",
+    "Not COAD458 scope",
+    "Excel retained locally unchanged, not rendered or edited"
+  ]
+}

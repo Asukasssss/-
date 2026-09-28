@@ -1,0 +1,34 @@
+{
+  "Lee2020_GSE132465": {
+    "cells": 63689,
+    "patients": 23,
+    "specimens": 33,
+    "libraries": null,
+    "library_id_missing": 63689,
+    "tissue_cells": {
+      "Tumor": 47285,
+      "Normal": 16404
+    },
+    "enrichment_cells": {
+      "NO_CD45_REPORTED_FICOLL_PURIFIED": 63689
+    }
+  },
+  "Pelka2021_GSE178341": {
+    "cells": 371223,
+    "patients": 62,
+    "specimens": 100,
+    "libraries": 181,
+    "library_id_missing": 0,
+    "tissue_cells": {
+      "T": 258359,
+      "N": 112864
+    },
+    "enrichment_cells": {
+      "unsorted": 231737,
+      "CD45pMACS": 122766,
+      "mixUnsortCD45MACS": 10670,
+      "LiveMACS": 4942,
+      "CD45pCD3nCD19nMACS": 1108
+    }
+  }
+}

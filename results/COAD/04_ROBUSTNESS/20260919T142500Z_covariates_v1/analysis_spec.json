@@ -1,0 +1,87 @@
+{
+  "version": "COAD_covariates_v1",
+  "timing": "Locked after covariate-only audit and before new association results; follow-up sensitivity, not an original-study preregistration",
+  "primary_n": 33,
+  "family_planned": 674,
+  "catalog_rows": 974,
+  "population": "Reuse explicit GEO individuals, author Tumor, stage I-IV",
+  "clinical_sha256": "a4eebf8faba2bc0446269405f5d4be40c61ce998eb70ad2c16dbbfa6f2745d55",
+  "age": "source years, linear nuisance effect, centered at69; age is not ranked",
+  "categories": {
+    "gender": [
+      "female",
+      "male"
+    ],
+    "stage": [
+      "stage I",
+      "stage II",
+      "stage III",
+      "stage IV"
+    ],
+    "tissue": [
+      "ascending colon",
+      "cecum",
+      "descending colon",
+      "rectum",
+      "sigmoid colon",
+      "transverse colon"
+    ]
+  },
+  "coding": "Intercept plus age plus treatment indicators with first listed category as reference; no merging",
+  "models": {
+    "M1": [
+      "gender"
+    ],
+    "M2": [
+      "gender",
+      "stage"
+    ],
+    "M3": [
+      "gender",
+      "tissue"
+    ]
+  },
+  "minimum_n": 12,
+  "minimum_full_model_residual_df": 8,
+  "minimum_category_n": 3,
+  "sparse_rule": "Any retained source category below3 prevents adjusted inference for that relation/model; do not drop or merge categories after results. Current M3 has counts1 and2 and is NOT_EVALUABLE under this support rule, despite full matrix rank.",
+  "effect": "Pearson correlation between average-tie ranks of metabolite and RNA after separate OLS residualization against the fixed nuisance design",
+  "test": "Two-sided approximate Freedman-Lane: rank RNA once, fit reduced nuisance model, permute reduced RNA residuals across independent individuals, add fitted nuisance values, refit nuisance residuals; compare absolute partial rank correlation (monotonic in full-model t). Do not rerank pseudo-outcomes.",
+  "permutations": 9999,
+  "permutation_assumptions": "Independent individuals; exchangeable homoskedastic reduced-model errors conditional on nuisance design. Approximate with continuous nuisance; not an exact unconditional independence test.",
+  "bootstrap_replicates": 4000,
+  "bootstrap": "Patient pairs bootstrap resampling x,y and covariates together; rerank x,y and refit fixed nuisance columns each draw. Exclude rank-deficient or constant-residual draws; percentile95% CI only if >=80% draws valid. Sparse category rule applies to original estimation sample, not each bootstrap draw.",
+  "seeds": "SHA256 first8 hex of version|model|metabolite_key|human_gene_id for permutations; shared bootstrap draws per model and identical complete-case mask, seeded by version|bootstrap|model|mask. No selection based on seeds.",
+  "missingness": "No imputation. Relation/model complete cases. Unknown categories excluded and counted. All original974 rows retained; outside674 are not tested.",
+  "M0": "Historical primary results unchanged",
+  "M0_CC": "Same complete-case sample as each proposed adjusted model, even if adjusted model lacks category support. If identical original inputs reuse exact original statistics; otherwise compute original Spearman kernel with new stable subset seed. Separate whole-family BH, never subset39 BH.",
+  "multiplicity": "BH separately for every M1/M2/M3 and model-specific M0_CC evaluable family; report empty families and reasons. Models are separate sensitivities, not one union discovery test.",
+  "influence": "Descriptive leave-one-patient-out partial rho; rerank/refit, require full nuisance rank and >=8 residual df; report invalid count and sign flips, no LOO tests",
+  "validation": "Synthetic confounding/null/alternative and ties; compare independent lstsq residualization and full OLS t; compare identical-permutation direct refits; rank deficiency and constants; independent BH",
+  "purity": "NOT_RUN",
+  "technical_batch": "NOT_RUN",
+  "method_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4010955/",
+  "run_id": "20260919T142500Z_covariates_v1",
+  "code_commit": "2a131771100f7528993de4bce8f9d734e94fa058",
+  "input_hashes": {
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T115842Z_identity_units_v1/private_clinical_join.tsv": "a4eebf8faba2bc0446269405f5d4be40c61ce998eb70ad2c16dbbfa6f2745d55",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/camp_primary_tissue_multicancer/gene_batch_reuse_20260910/pancancer_metabolomics/data/transcriptomics_processed/GSE89076.Agilent8x60K.log2_transformed.gene_symbol.csv": "e7b1ef493176363ebfbb856efa139fc737502f69bfb2eecf281c3085e3ddce14",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/camp_primary_tissue_multicancer/processed_metabolomics/PreprocessedData_COAD.xlsx": "4dc819b4d79d7705c3588fdb032244e1ddfe83accd5301bb5c06541fbe0dbcf5",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/camp_primary_tissue_multicancer/metadata/MasterMapping_MetImmune_03_16_2022_release.csv": "7a5332cfdeba3cc055d79ef223c95a3c8f18ecf6a7058fafd72b390aec62dce7",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T115842Z_identity_units_v1/candidate_eligibility.tsv": "5abe843b42fd9485c752a25917afc303a85a827bd4803cc0f1f5e3d49a7ab8f1",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T122034Z_patient_v1/results.tsv": "e617a1268d6b3e0e14abff889ce34bf0a5bdaab8d36afd34ccf22283f1650edb",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T142500Z_covariates_v1/locked_spec.json": "25e9d6a62d55325a6695d31e53795b4045b2092826991099ce0e572a28fb089f",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T142500Z_covariates_v1/statistical_result_template.tsv": "7f4264d0e6019c24f5ba60fb22fbb8094e686f1d637f2b0aeacaaf602972e02f",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T142500Z_covariates_v1/covariate_statistics.py": "4de9631d0c2a0f469a430653c904dc9e3f25be89cfd725ce39cdac37285d3aef",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T142500Z_covariates_v1/patient_statistics.py": "95e42315974f8e6140d8d9523578088241e1032a59d23bf74fcac0c838e11813",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T142500Z_covariates_v1/run_covariates_v1.py": "d5d8ac6be3925bdf1d16e2149c098414eea5276d12bbf319e724cb446a711ef1",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T142500Z_covariates_v1/run_patient_v1.py": "24100efea56f443758e43076af6e141bf464ea3ecef32e06d3a3237e977ee74d",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T142500Z_covariates_v1/validate_covariate_statistics.py": "91818168385df38f9efdaa899baa823e36fac7e5633fd038694611996048ebc6"
+  },
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  }
+}

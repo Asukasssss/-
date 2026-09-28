@@ -1,0 +1,16 @@
+{
+  "analysis_version": "COAD_paired_search_v1",
+  "run_id": "20260921T044221Z_paired_search_v1",
+  "status": "PARTIAL",
+  "scope": "Finite acquisition search: four new leads plus two prior handoff leads",
+  "statistical_unit": "Independent patient with eligible primary tumor specimen; not established for new inputs",
+  "test_family": "NOT_RUN",
+  "seed": null,
+  "new_patient_tests": 0,
+  "processed_matrices_acquired": 0,
+  "raw_spectra_downloaded": false,
+  "email_sent": false,
+  "priority": "D12 official Table S4; D13 data availability",
+  "source_residency": "server165/data/candidates/coad_paired_search_20260921",
+  "parent_commit": "6227ec432f1ecec3250ec7744502ece2d1ad7bf6"
+}

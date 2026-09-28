@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "aggregate_counts_consistent": true,
+  "figures_present": true,
+  "independent_UMAP_rerun": false,
+  "individual_records_exported": false
+}

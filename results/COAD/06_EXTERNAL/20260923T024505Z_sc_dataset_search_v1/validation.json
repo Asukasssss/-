@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SCOPED_SEARCH",
+  "candidate_records": 10,
+  "mui_file_head_status": 200,
+  "mui_content_length": 2204969840,
+  "processed_matrix_downloaded": false,
+  "cell_metadata_read": false,
+  "clinical_metadata_patient_validation": false,
+  "new_P_q": 0,
+  "limitations": [
+    "Other GEO access claims are repository listings, not full file downloads",
+    "Atlas website certificate mismatch from local environment; no TLS bypass",
+    "Preprint full text returned403; author code and repository record read"
+  ]
+}

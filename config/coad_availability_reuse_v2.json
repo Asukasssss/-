@@ -1,0 +1,14 @@
+{
+  "version": "COAD_patient_v1_availability_reuse_v2",
+  "base_version": "COAD_patient_v1",
+  "base_run": "20260919T122034Z_patient_v1",
+  "scope": "Correct availability33 Monte Carlo reuse only; preserve primary33, all37 and paired_RNA33 results",
+  "reason": "Author-availability audit before viewing association results found 437 of 652 evaluable relationships retain all33 primary individuals. AGENTS.md requires reuse for identical inputs and methods.",
+  "selection": "Every DONE availability33 record with n=33, using the same processed metabolomics and RNA vectors as primary33 by construction in run_patient_v1.py; no P/q-based selection",
+  "replacement": "Copy primary effect, P, pointwise CI, bootstrap coverage, permutation count and random seed exactly; leave reduced-sample statistics unchanged",
+  "multiplicity": "Recompute BH across all652 evaluable availability33 tests after replacement; planned family674 unchanged; retain all974 catalog rows",
+  "expected_identical_input_rows": 437,
+  "expected_reduced_sample_rows": 215,
+  "interpretation": "Within-dataset availability sensitivity, not independent replication; author data availability is not confirmed raw detection",
+  "frozen_CAMP_statistics_recomputed": false
+}

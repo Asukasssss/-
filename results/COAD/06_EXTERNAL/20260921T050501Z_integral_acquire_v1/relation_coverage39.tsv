@@ -1,0 +1,40 @@
+metabolite_key	metabolite_name	gene	metabolite_match_status	source_metabolite	rna_rows	protein_rows	analysis_status	reason
+KEGG:C02918	1-methylnicotinamide	NNMT	AMBIGUOUS_NAME	N-Methylnicotinamide	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00631	2-phosphoglycerate	BPGM	NOT_FOUND_IN_NAME_SCREEN	NA	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00631	2-phosphoglycerate	ENO2	NOT_FOUND_IN_NAME_SCREEN	NA	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00631	2-phosphoglycerate	PGAM2	NOT_FOUND_IN_NAME_SCREEN	NA	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C04501	N-Acetylglucosamine 1-phosphate	UAP1	NAME_COMPATIBLE	N-Acetylglucosamine 1-Phosphate	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C01042	N-acetylaspartate (NAA)	ASPA	NAME_COMPATIBLE	N-Acetylaspartate	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00019	S-adenosylmethionine (SAM)	ICMT	NAME_COMPATIBLE	S-Adenosyl-L-Methionine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00019	S-adenosylmethionine (SAM)	KMT5A	NAME_COMPATIBLE	S-Adenosyl-L-Methionine	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00019	S-adenosylmethionine (SAM)	NNMT	NAME_COMPATIBLE	S-Adenosyl-L-Methionine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00019	S-adenosylmethionine (SAM)	PRMT7	NAME_COMPATIBLE	S-Adenosyl-L-Methionine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00147	adenine	AQP9	NAME_COMPATIBLE	Adenine	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C03794	adenylosuccinate	ADSS2	TYPO_REQUIRES_CONFIRMATION	Adenylocuccinic Acid	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00152	asparagine	SLC38A3	NAME_COMPATIBLE	L-Asparagine Anhydrous	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00386	carnosine	SLC15A3	NOT_FOUND_IN_NAME_SCREEN	NA	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00475	cytidine	NT5C3A	NAME_COMPATIBLE	Cytidine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00111	dihydroxyacetone phosphate (DHAP)	GNPAT	NOT_FOUND_IN_NAME_SCREEN	NA	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00051	glutathione, reduced (GSH)	GSTA4	NAME_COMPATIBLE	Glutathione Reducedform	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00051	glutathione, reduced (GSH)	GSTO2	NAME_COMPATIBLE	Glutathione Reducedform	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00051	glutathione, reduced (GSH)	GSTT2	NAME_COMPATIBLE	Glutathione Reducedform	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00051	glutathione, reduced (GSH)	GSTT2B	NAME_COMPATIBLE	Glutathione Reducedform	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00051	glutathione, reduced (GSH)	HAGH	NAME_COMPATIBLE	Glutathione Reducedform	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00670	glycerophosphorylcholine (GPC)	PLA2G15	NAME_COMPATIBLE	Sn-Glycero-3-Phosphocholine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00242	guanine	SLC29A3	NAME_COMPATIBLE	Guanine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00387	guanosine	SLC29A3	NAME_COMPATIBLE	Guanosine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00388	histamine	HDC	NAME_COMPATIBLE	Histamine	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00130	inosine 5'-monophosphate (IMP)	CANT1	NAME_COMPATIBLE	Inosine 5'-monophosphate	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00130	inosine 5'-monophosphate (IMP)	ENTPD3	NAME_COMPATIBLE	Inosine 5'-monophosphate	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00130	inosine 5'-monophosphate (IMP)	GMPR	NAME_COMPATIBLE	Inosine 5'-monophosphate	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00407	isoleucine	BCAT2	NAME_COMPATIBLE	L-Isoleucine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00407	isoleucine	SLC7A8	NAME_COMPATIBLE	L-Isoleucine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00123	leucine	SLC6A17	STEREOCHEMISTRY_UNRESOLVED	DL-Leucine	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00123	leucine	SLC7A8	STEREOCHEMISTRY_UNRESOLVED	DL-Leucine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00148	proline	SLC6A17	NAME_COMPATIBLE	L-Proline	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00245	taurine	SLC6A6	NAME_COMPATIBLE	Taurine	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00299	uridine	SLC29A1	NAME_COMPATIBLE	Uridine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00299	uridine	UCKL1	NAME_COMPATIBLE	Uridine	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00299	uridine	UPP2	NAME_COMPATIBLE	Uridine	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00015	uridine 5'-diphosphate (UDP)	B4GALT2	NAME_COMPATIBLE	Uridine 5’-Diphosphate	1	0	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock
+KEGG:C00015	uridine 5'-diphosphate (UDP)	NME6	NAME_COMPATIBLE	Uridine 5’-Diphosphate	1	1	NOT_RUN	Coverage only; chemical identity, expression scale and clinical eligibility require lock

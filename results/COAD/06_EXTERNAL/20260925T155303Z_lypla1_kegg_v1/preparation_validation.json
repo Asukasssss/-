@@ -1,0 +1,18 @@
+{
+  "status": "PREPARED",
+  "genes_tested": 11058,
+  "mapping_status": {
+    "PRIMARY_SYMBOL": 10136,
+    "UNMAPPED": 586,
+    "UNIQUE_ALIAS": 315,
+    "AMBIGUOUS": 17,
+    "MULTIPLE_TESTED_SYMBOLS_ONE_ID": 4
+  },
+  "genes_annotated": 4949,
+  "pathways_total": 372,
+  "pathways_evaluable": 312,
+  "lipid_pathways": 14,
+  "selected_high_annotated": 83,
+  "selected_low_annotated": 123,
+  "primary_ORA_P05": 26
+}

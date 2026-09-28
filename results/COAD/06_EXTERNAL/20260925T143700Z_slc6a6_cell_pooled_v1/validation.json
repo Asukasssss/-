@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "prior_input_hashes_identical": true,
+  "exact_gene_available": true,
+  "cell_patient_join_checked": true,
+  "direct_cell_means_match_cell_count_weighted_donor_means": true,
+  "detection_counts_crosschecked": true,
+  "histogram_conserves_cells": true,
+  "no_new_p_or_q": true
+}

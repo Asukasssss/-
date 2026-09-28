@@ -1,0 +1,9 @@
+{
+  "version": "original_camp_p_v1",
+  "selection": "original wilcoxon_p < 0.05",
+  "scope": "all159 frozen COAD",
+  "recalculate": false,
+  "grouping": "sign of original Hedges g",
+  "unit": "original unpaired specimens;37 tumor,39 normal",
+  "frozen_validation": "All159 original g/q/metabolite keys exact strings match"
+}

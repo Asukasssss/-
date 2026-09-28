@@ -1,0 +1,35 @@
+SIZE 17636967892
+ROOT ['X', 'layers', 'obs', 'obsm', 'obsp', 'raw', 'uns', 'var', 'varm', 'varp']
+uns ['group2_colors', 'id_colors', 'leiden', 'leiden_colors', 'level1_colors', 'level2_colors', 'neighbors', 'pca', 'umap']
+obsm ['X_pca', 'X_umap', 'X_umap_bak', 'coords', 'coords_trans']
+obs ['B_act', 'B_naive', 'CD274_PDCD1', 'CD4_CXCL13', 'CD4_Tcm', 'CD4_Treg', 'CD4_act', 'CD8_Cyto', 'CD8_HSP', 'CD8_Teff', 'CD8_Tem', 'CD8_Tex', 'CytoSig', 'DC_LAMP3', 'Endo', 'Epi', 'ExhaustedGene', 'ExhaustedGene_Norm', 'Fibro_ADAMDEC1', 'Fibro_CXCL14', 'Fibro_CXCL8', 'Fibro_GPM6B', 'Fibro_KCNN3', 'Fibro_MYH11', 'Fibro_NOTCH3', 'Fibro_PI16', 'Mac_M1', 'Mac_M2', 'Mac_SPP1', 'Mast', 'Monocyte_S100A8', 'NK_gdT', 'Plasma_IgG', 'Plasma_IgM', 'SCT_snn_res.0.5', 'SCT_snn_res.0.8', 'T_CD8A_cell_Gene', 'T_cell_Gene', 'T_cell_exhaustion_ligand', 'T_cell_exhaustion_receptor', 'Treatment', 'Type', 'boundary_distance', 'cDC1', 'cDC2', 'distances', 'extracellular matrix organization', 'group1', 'group2', 'id', 'index', 'integrated_snn_res.0.8', 'leiden', 'level1', 'level2', 'level3', 'nCount_SCT', 'nCount_Spatial', 'nFeature_SCT', 'nFeature_Spatial', 'orig.ident', 'pDC', 'percent.mt', 'percent.rps', 'seurat_clusters', 'x', 'y']
+uns/group2_colors (5,) object
+uns/id_colors (16,) object
+uns/leiden GROUP
+uns/leiden/params GROUP
+uns/leiden/params/n_iterations () int64
+uns/leiden/params/random_state () int64
+uns/leiden/params/resolution () float64
+uns/leiden_colors (27,) object
+uns/level1_colors (6,) object
+uns/level2_colors (15,) object
+uns/neighbors GROUP
+uns/neighbors/connectivities_key () object
+uns/neighbors/distances_key () object
+uns/neighbors/params GROUP
+uns/neighbors/params/method () object
+uns/neighbors/params/metric () object
+uns/neighbors/params/n_neighbors () int64
+uns/neighbors/params/n_pcs () int64
+uns/neighbors/params/random_state () int64
+uns/pca GROUP
+uns/pca/params GROUP
+uns/pca/params/use_highly_variable () bool
+uns/pca/params/zero_center () bool
+uns/pca/variance (50,) float64
+uns/pca/variance_ratio (50,) float64
+uns/umap GROUP
+uns/umap/params GROUP
+uns/umap/params/a () float64
+uns/umap/params/b () float64
+RANGE_BYTES 1230292

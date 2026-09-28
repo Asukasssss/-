@@ -1,0 +1,27 @@
+{
+  "method": "Pearson of log1p(CP10K); intercept + log1p(total UMI minus LYPLA1) + log1p(nDetected minus LYPLA1 detection); state dummies sensitivity",
+  "admission": ">=100 cells,>=10 LYPLA1 positive,nonconstant target; gene>=1% eligible cells in cohort and >=max(10,1% cells) per donor;>=5 donors",
+  "scope": "Frozen Uhlitz discovery targets plus focus, not all transcriptome; no BRCA matrices rerun",
+  "selection": "No P or FDR gate for cross-cancer descriptive comparison; report >=0.1 effect and >=70% direction separately",
+  "code_sha256": "8d255fa1b369909c25ca5b7a895a9bd78b47601cdc542d30d9d7d3c4c17c3e45",
+  "coverage": [
+    {
+      "cohort": "Uhlitz",
+      "cells_total": 4477,
+      "cells_eligible": 4477,
+      "donors_eligible": 9,
+      "genes_requested": 4179,
+      "genes_present": 4179,
+      "gene_detection_filter": 0.01
+    },
+    {
+      "cohort": "Lee",
+      "cells_total": 17469,
+      "cells_eligible": 17456,
+      "donors_eligible": 22,
+      "genes_requested": 4179,
+      "genes_present": 4043,
+      "gene_detection_filter": 0.01
+    }
+  ]
+}

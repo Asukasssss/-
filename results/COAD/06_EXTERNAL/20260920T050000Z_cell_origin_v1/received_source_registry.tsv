@@ -1,0 +1,7 @@
+来源ID	类型	标识	URL	实际阅读深度	限制
+S01	Lee 2020 原始研究	10.1038/s41588-020-0636-z	https://www.nature.com/articles/s41588-020-0636-z	摘要及Data availability；未读取原矩阵	91,103为整篇研究总细胞数，不能分配给单个GEO编号
+S02	Pelka 2021 原始研究	10.1016/j.cell.2021.08.003	https://pmc.ncbi.nlm.nih.gov/articles/PMC8772395/	Data availability及组织处理/CD45富集方法选读	富集与未富集文库分开；不能直接合并计组织比例
+S03	Pelka 原作者代码	matanhofree/crc-immune-hubs	https://github.com/matanhofree/crc-immune-hubs	GitHub连接实际读取README	作者数据目录已定位；本轮未下载矩阵
+S04	PRMT7 原始研究	10.1053/j.gastro.2023.07.019	https://www.sciencedirect.com/science/article/pii/S0016508523048394	PubMed摘要及出版社可检索正文片段；完整页403	AA_exon16/PRMT7_AA_16.1；原文GRCh37及具体变体须序列对应
+S05	COAD 协变量报告	Git blob c681986b9e017327e3022354c6c5edd4f00cd287	https://github.com/Asukasssss/-/blob/3805cb8e54e78c7c3f7f6e230ff2ba71eee29da5/results/COAD/04_ROBUSTNESS/20260919T142500Z_covariates_v1/README_CN.md	GitHub连接实际读取全文；未重新计算	原报告不变；当前不是新的协变量批次
+S06	PR状态	PR1 head 3805cb8e54e78c7c3f7f6e230ff2ba71eee29da5	https://github.com/Asukasssss/-/pull/1	GitHub连接实际读取	open；merged=false；此状态是本轮读取时快照

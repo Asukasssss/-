@@ -1,0 +1,26 @@
+{
+  "run_id": "20260919T134848Z_function_review_accepted_v1",
+  "version": "COAD_function_nominal35_accepted_v1",
+  "genes": 35,
+  "nominal_relations": 39,
+  "full_catalog_rows": 974,
+  "source_records": 40,
+  "source_identities_matched": 40,
+  "abstracts_read": 40,
+  "selected_fulltext_records_checked": 6,
+  "source_class_A_genes": 10,
+  "additional_conditional_CRC_gene": "BCAT2",
+  "broad_CRC_tumor_gene_perturbation_records_unique_genes": 11,
+  "research_queue": {
+    "保留": 21,
+    "优先核查": 9,
+    "暂挂": 5
+  },
+  "gene_level_annotations_in_full_catalog": 74,
+  "pair_level_review_scope": 39,
+  "patient_tests_recomputed": 0,
+  "depmap": "NOT_RUN",
+  "external_patient_validation": "NOT_RUN",
+  "stage_05": "PARTIAL",
+  "stage_07": "PARTIAL"
+}

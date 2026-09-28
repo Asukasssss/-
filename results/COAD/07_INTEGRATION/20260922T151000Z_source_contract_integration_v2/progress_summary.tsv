@@ -1,0 +1,10 @@
+step	planned	evaluable	P_lt_005	q_lt_005	status	reason
+配对代谢物	159	159	101	94	DONE	Complete dispositions; unevaluable rows remain
+代谢物可用值	159	157	104	97	DONE	Complete dispositions; unevaluable rows remain
+肿瘤内部关联	891	871	52	0	DONE	Complete dispositions; unevaluable rows remain
+关联可用值	891	871	56	0	DONE	Complete dispositions; unevaluable rows remain
+配对RNA	526	515	372	361	DONE	Complete dispositions; unevaluable rows remain
+Lee来源	811	646	NA	NA	DONE	Scope fully processed; source limits explicitly masked
+Uhlitz来源	811	642	NA	NA	DONE	Scope fully processed; source limits explicitly masked
+作者UMAP坐标	NA	NA	NA	NA	NOT_EVALUABLE	Not present in admitted sources; no invented replacement
+可靠患者临床分型	NA	NA	NA	NA	NOT_EVALUABLE	Not present in admitted sources; no invented replacement

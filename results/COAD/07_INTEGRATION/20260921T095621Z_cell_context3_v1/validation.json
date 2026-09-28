@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "relations": 39,
+  "genes": 35,
+  "original_field_count": 130,
+  "all_original_fields_string_equal": true,
+  "original_row_order_preserved": true,
+  "original_relation_file_sha256": "db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7",
+  "studies": 3,
+  "display_strata_per_gene": 4,
+  "khaliq_compartments_per_gene": 6,
+  "patient_statistics_recomputed": false,
+  "new_correlations": 0,
+  "integral_structural_counts_reused": {
+    "RNA": 30,
+    "PROTEIN": 11
+  }
+}

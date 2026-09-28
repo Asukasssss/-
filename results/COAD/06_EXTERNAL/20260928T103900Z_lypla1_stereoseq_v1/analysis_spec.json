@@ -1,0 +1,27 @@
+{
+  "version": "COAD_LYPLA1_Stereo_seq_v1",
+  "gene": "LYPLA1",
+  "scope": "All source Treatment=naive sections; selected before inspecting expression",
+  "statistical_unit": "Within-section spatial bins, descriptive; patient linkage unresolved for similarly named sections",
+  "region_rule": "epi_CEA and epi_MKI67 = author tumor-associated epithelium; epi_normal = author normal epithelium; retain original level2",
+  "expression": "Source MIDCounts values retained unchanged; log1p(CP10K) confirmed by inverse transform library totals, integer consistency and nFeature match",
+  "tests": "None; no P or FDR",
+  "color_range": [
+    0,
+    4.114816
+  ],
+  "seed": null,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "matplotlib": "3.6.3"
+  },
+  "base_git_commit": "3e55a36507656ba97a1ccfa6e6f35666edf79835",
+  "code_sha256": {
+    "acquire_lypla1_stereoseq_v1.py": "eb95365aaea1c1a4c230adf04c55a83419b10fe4b3caa10c201deb1d8da453d5",
+    "analyze_lypla1_stereoseq_v1.py": "2cba8873745dbfab2e0c589e416413d3c6eb1889f6b2022d13304787f35b5981",
+    "render_lypla1_stereoseq_cn_v1.py": "f2dac9d7f393593961989194fc4cca72e28d61e5f21e476a68d8e963b2088eff",
+    "report_lypla1_stereoseq_v1.py": "4f5dbebcbb9dad1b0fcf960c8607ad978c216d1331f09a5ffd8ed481ab8aa700"
+  }
+}

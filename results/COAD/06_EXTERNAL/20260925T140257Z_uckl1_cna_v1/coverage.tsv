@@ -1,0 +1,4 @@
+group	cells	donors_any	donors_ge20	cells_in_qualified_donors	minimum_cells
+tumor_CNA	4477	9	9	4477	105
+tumor_CNN	7885	11	11	7885	27
+normal_reference	16138	10	10	16138	218

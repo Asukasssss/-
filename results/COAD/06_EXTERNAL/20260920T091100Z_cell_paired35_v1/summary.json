@@ -1,0 +1,38 @@
+[
+  {
+    "family": "Lee2020_GSE132465_primary_lineage",
+    "planned": 210,
+    "evaluable": 170,
+    "nominal_p_lt05": 44,
+    "q_lt05": 17,
+    "n_min": 8,
+    "n_max": 10
+  },
+  {
+    "family": "Lee2020_GSE132465_secondary_other_strata",
+    "planned": 1260,
+    "evaluable": 102,
+    "nominal_p_lt05": 6,
+    "q_lt05": 0,
+    "n_min": 9,
+    "n_max": 10
+  },
+  {
+    "family": "Pelka2021_GSE178341_primary_lineage",
+    "planned": 490,
+    "evaluable": 204,
+    "nominal_p_lt05": 51,
+    "q_lt05": 34,
+    "n_min": 14,
+    "n_max": 28
+  },
+  {
+    "family": "Pelka2021_GSE178341_secondary_other_strata",
+    "planned": 24850,
+    "evaluable": 1394,
+    "nominal_p_lt05": 210,
+    "q_lt05": 64,
+    "n_min": 6,
+    "n_max": 28
+  }
+]

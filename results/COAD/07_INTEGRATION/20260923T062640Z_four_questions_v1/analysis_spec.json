@@ -1,0 +1,11 @@
+{
+  "cancer": "COAD",
+  "kind": "read_only_focus_view",
+  "main_relation_count": 6,
+  "gene_count": 5,
+  "input_commit": "06e2a9d8ac83042cb985730131d824fdd6574440",
+  "new_statistics": false,
+  "old_covariate_family": 674,
+  "current_primary_family": 891,
+  "source_metric": "donor_equal_mean_log1p_CP10K"
+}

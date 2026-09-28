@@ -1,0 +1,13 @@
+{
+  "attempted": true,
+  "status": "ACCESS_BLOCKED",
+  "http_status": 403,
+  "operation": "create_branch",
+  "requested_branch": "analysis/coad-functional-review-20260919",
+  "repository": "Asukasssss/-",
+  "base_sha": "06921616d5914b6b45c61bdb6c1f259cf1608f84",
+  "message": "Resource not accessible by integration",
+  "remote_new_files_uploaded": false,
+  "remote_new_commit_created": false,
+  "note": "No further repeated write attempts. Local package completed; no claim of GitHub upload success."
+}

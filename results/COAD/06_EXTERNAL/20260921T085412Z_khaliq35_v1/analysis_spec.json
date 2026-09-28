@@ -1,0 +1,111 @@
+{
+  "analysis_version": "COAD_Khaliq35_v1",
+  "targets": [
+    "ADSS2",
+    "AQP9",
+    "ASPA",
+    "B4GALT2",
+    "BCAT2",
+    "BPGM",
+    "CANT1",
+    "ENO2",
+    "ENTPD3",
+    "GMPR",
+    "GNPAT",
+    "GSTA4",
+    "GSTO2",
+    "GSTT2",
+    "GSTT2B",
+    "HAGH",
+    "HDC",
+    "ICMT",
+    "KMT5A",
+    "NME6",
+    "NNMT",
+    "NT5C3A",
+    "PGAM2",
+    "PLA2G15",
+    "PRMT7",
+    "SLC15A3",
+    "SLC29A1",
+    "SLC29A3",
+    "SLC38A3",
+    "SLC6A17",
+    "SLC6A6",
+    "SLC7A8",
+    "UAP1",
+    "UCKL1",
+    "UPP2"
+  ],
+  "phase": "PRE_EXPRESSION_LOCK",
+  "studies": [
+    "Khaliq2022_GSE200997"
+  ],
+  "grouping": [
+    "study",
+    "tissue",
+    "enrichment",
+    "technology",
+    "original_annotation_level",
+    "original_cell_type",
+    "patient"
+  ],
+  "specimen_handling": "Author Table S2 Patient labels matched exactly to all23 GEO samples;separate tissues;no suffix-based pairing",
+  "library_handling": "No independent library identifier supplied;retain author orig.ident/sample labels",
+  "minimum_cells_per_patient_type": 20,
+  "minimum_qualified_patients": 5,
+  "threshold_rationale": "Coverage-only decision, before reading target expression. At 20 cells worst-case binomial standard error for detection is approximately 0.112 even under cell independence; threshold only flags coarse descriptive support, not precision or biological independence. At least five donors permits an exploratory donor distribution; not a power claim. All smaller groups and all zero target values remain visible separately.",
+  "support_sets": [
+    "all_covered_patients",
+    "patients_with_at_least_20_cells"
+  ],
+  "primary_summary": "Qualified-patient descriptive median and IQR; fewer than five qualified patients flagged LIMITED_COVERAGE; display all-covered sensitivity separately",
+  "detection": "Number of cells with raw target UMI > 0 divided by number of cells in patient/type stratum",
+  "pseudobulk": "Sum raw target UMI and all measured gene UMI within patient/type; CPM=1e6*target_sum/all_gene_sum, no pseudocount, no imputation, no log transform",
+  "zero_handling": "Retain measured target zero; absent cell type is not a zero-expression patient; nonpositive library size is NOT_EVALUABLE",
+  "summary_statistics": [
+    "min",
+    "q25",
+    "median",
+    "q75",
+    "max"
+  ],
+  "cross_lineage_composition": "NOT_RUN;author compartment export omits7163 GEO cells;no whole-tissue proportions",
+  "normal_tumor": "Separate descriptive strata; no differential tests or paired effect inference",
+  "gene_annotation": "Prefer exact source symbol. Only HGNC-confirmed ADSS2 previous symbol ADSS allowed. Missing/ambiguous genes retained NOT_EVALUABLE, never zero and never substituted by paralogs.",
+  "family": "NA: descriptive localization only, no P values or BH correction",
+  "seed": null,
+  "unchanged": [
+    "CAMP frozen effects",
+    "674 patient test family",
+    "974 candidate rows",
+    "39 exploratory relations",
+    "9/21/5 functional arrangement",
+    "M1/M2 covariate results"
+  ],
+  "limitations": [
+    "Author compartment export is a subset of GEO cells",
+    "No separate mast-cell annotation in compartment exports",
+    "Dissociation and capture bias",
+    "Epithelial annotation alone does not establish malignancy",
+    "Expression does not establish metabolite source or metabolic flux",
+    "No external metabolite-RNA relation validation",
+    "Independent biological origin established at study/recruitment description level;no cross-study patient ID linkage"
+  ],
+  "privacy": "Expression summary suppressed for fewer than 3 patients; coverage retained",
+  "target_scope": "All35 already functionally reviewed genes, user-directed expansion; not entire458-gene planned pool",
+  "target_source": "results/COAD/05_FUNCTION/20260919T134848Z_function_review_accepted_v1/gene_function_review.tsv",
+  "target_source_sha256": "c392dc5903d98e0e7370b4189b7deae709d0a25ce4e14ef00b3092bd18eae79a",
+  "confirmed_symbol_aliases": {
+    "ADSS2": [
+      "ADSS"
+    ]
+  },
+  "reuse": "Methods and targets only; new cohort numeric summaries",
+  "source_commit": "39e855925a8a2806e2ef0500927a2bb16b243be4",
+  "enrichment": "DAPI viable singlet sorting;no CD45 selection described",
+  "technology": "10x_5prime",
+  "identity_rule": "Exact author cell IDs;explicit sample/patient correspondence;no positional joins",
+  "source_gene_policy": "Complete measured-gene denominator independently checked against nCount_RNA;no target-only normalization",
+  "patient_linkage": "All23 exact sample labels matched to author Table S1 and Table S2 Patient column;one donor value within tissue;no cross-tissue pairing inferred"
+}

@@ -1,0 +1,19 @@
+{
+  "version": "paired_metabolites33_v1",
+  "planned_features": 159,
+  "patients": 33,
+  "scope": "All 159 frozen COAD features; no selection by prior q",
+  "pairing": "GEO individual; stages I-IV; exact paired normal; exclude adenoma and stage 0",
+  "primary": "Author PQN normalized log min-imputed values; paired tumor minus normal; no further transformation",
+  "test": "Two-sided Wilcoxon signed-rank; zero_method=wilcox; method=approx; correction=False; all-zero differences P=1",
+  "effect": "Median paired difference on author normalized log scale; not fold change",
+  "counts": "Exact >, <, = comparisons of stored values; percent denominator all finite pairs including zero differences",
+  "multiple_testing": "Separate primary and observed-only families, 159 planned each; nonestimable P=1 internally, public P/q NA",
+  "sensitivity": "Both sides finite in author preimputation data sheet; minimum 8 pairs; no new imputation; counts also shown below minimum",
+  "bootstrap": 4000,
+  "ci": "Patient-pair bootstrap percentile 95%; unadjusted descriptive interval",
+  "seed": "SHA256 version|feature|analysis first 8 hex digits",
+  "source_code_commit": "92ad028d9b225b1e2c42e41700a265f45103d731",
+  "source_scale": "Author common data_imputed, T and N sheets exact subsets; observed entries unchanged",
+  "interpretation": "Tumor-normal metabolite change; not metabolite-RNA association or external validation"
+}

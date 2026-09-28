@@ -1,0 +1,5 @@
+probe	refseq_version	sequence_length	paper_V1_V2_mapping	forward_exact_60nt_positions_1based	reverse_complement_exact_60nt_positions_1based
+A_23_P77437	NM_019023.5	3738	NEEDS_REVIEW	1617	NA
+A_23_P77437	NM_001184824.4	3453	NEEDS_REVIEW	1332	NA
+A_23_P77430	NM_019023.5	3738	NEEDS_REVIEW	2313	NA
+A_23_P77430	NM_001184824.4	3453	NEEDS_REVIEW	2028	NA

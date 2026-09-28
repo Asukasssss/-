@@ -1,0 +1,44 @@
+[
+  {
+    "file": "analysis_spec.json",
+    "commit": "a395909c8f4a6234cd8b2faec9db344ceb4aa056",
+    "path": "results/BRCA/06_EXTERNAL/20260928T131206Z_lypla1_cellstates_v1/analysis_spec.json",
+    "sha256": "33b07572bba28ccdeb6dfec700f3765d37172cc4f4f23bf1d373dc48a268c5a1"
+  },
+  {
+    "file": "README_CN.md",
+    "commit": "a395909c8f4a6234cd8b2faec9db344ceb4aa056",
+    "path": "results/BRCA/06_EXTERNAL/20260928T131206Z_lypla1_cellstates_v1/README_CN.md",
+    "sha256": "8d43fcd16dc31196dcc63d7f03ad8720ce40206baa45204ce837f2c4ba95a55a"
+  },
+  {
+    "file": "Wu2021_depth_gene_summary.tsv",
+    "commit": "a395909c8f4a6234cd8b2faec9db344ceb4aa056",
+    "path": "results/BRCA/06_EXTERNAL/20260928T131206Z_lypla1_cellstates_v1/Wu2021_depth_gene_summary.tsv",
+    "sha256": "c0c02d6c37afa703e02065dbcf6b15dd31de46f2f7de01032109cfab2ff16e0b"
+  },
+  {
+    "file": "Pal2021_reprocessed_depth_gene_summary.tsv",
+    "commit": "a395909c8f4a6234cd8b2faec9db344ceb4aa056",
+    "path": "results/BRCA/06_EXTERNAL/20260928T131206Z_lypla1_cellstates_v1/Pal2021_reprocessed_depth_gene_summary.tsv",
+    "sha256": "6b1abeb539e47787f10b7e58f6ed7237739c4e2d7fbba2e2183828a1483fabc5"
+  },
+  {
+    "file": "Wu2021_depth_state_gene_summary.tsv",
+    "commit": "a395909c8f4a6234cd8b2faec9db344ceb4aa056",
+    "path": "results/BRCA/06_EXTERNAL/20260928T131206Z_lypla1_cellstates_v1/Wu2021_depth_state_gene_summary.tsv",
+    "sha256": "827950601d3769f6ff7c03f8ab6619e4850ba5c8e782d94a76cd64cb7a80fe85"
+  },
+  {
+    "file": "Pal2021_reprocessed_depth_state_gene_summary.tsv",
+    "commit": "a395909c8f4a6234cd8b2faec9db344ceb4aa056",
+    "path": "results/BRCA/06_EXTERNAL/20260928T131206Z_lypla1_cellstates_v1/Pal2021_reprocessed_depth_state_gene_summary.tsv",
+    "sha256": "31bf176f274bcb1e5c35e42a032a9ca8447ea336f2fb80d54a460507f4795187"
+  },
+  {
+    "file": "state_summary.tsv",
+    "commit": "a395909c8f4a6234cd8b2faec9db344ceb4aa056",
+    "path": "results/BRCA/06_EXTERNAL/20260928T131206Z_lypla1_cellstates_v1/state_summary.tsv",
+    "sha256": "b817cb6d59d5647364ced263461167d7ac75a452ae3fcd2b2431c9ca63ab7759"
+  }
+]

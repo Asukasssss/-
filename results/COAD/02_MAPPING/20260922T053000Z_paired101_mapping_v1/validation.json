@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "all159_retained": true,
+  "selected101": true,
+  "unique_relation_keys": true,
+  "no_identity_hold_in_direct": true,
+  "direct_requires_exact_target_support": true,
+  "legacy_not_overwritten": true,
+  "new_patient_stats_not_run": true,
+  "output_sha256": {
+    "candidate_pre_scRNA.tsv": "2ba604c4028c5aa0b1d16b21a30f9158ff744f8c10f01ccc9de4c4295da4983a",
+    "feature_ledger159.tsv": "d5d20ef8ab89b8ddbd3ec5ba29a35c74c8194ae666acbfd40ecbd3d9f4aaba7e",
+    "feature_workpool101.tsv": "4cd9f0d0094b8d5c699fe16c2ae99be323ae419b7ae88ec5ba9f963282dab194",
+    "gene_coverage526.tsv": "cf532056efa5c776ac7eb0386d716f9f15bbea47fd8542ff1eadceaaa83d101e",
+    "legacy39_transition.tsv": "0092712df96c4a39dd11f1265b76f2cbd8e7c6588239cbe7a37742f3ed2a4336",
+    "legacy_outside_current_pool.tsv": "6db3627e7247ffaa34d8838700061d4cb143386e81b36a8984c4cb704c7550ad",
+    "main_relations.tsv": "2fce64d11ff731bbefeaaaae7218a8bed2cddbabc900303f7ba7511477ff043b",
+    "results.tsv": "2ba604c4028c5aa0b1d16b21a30f9158ff744f8c10f01ccc9de4c4295da4983a",
+    "source_manifest.tsv": "c85240dc4156eacee68085b4f3df7612cd608785a73678fe9a8a0110bccdf929",
+    "supporting_evidence.tsv": "2258b12a858d2da85fced830dc30964502bd71c71dd0ef5da0492f0a9b13544d"
+  },
+  "pipeline_code_provenance_added": true,
+  "empty_gene_sets_explicit_NA": true
+}

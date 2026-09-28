@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "frozen159_hash": true,
+  "pairs": 33,
+  "unique_specimens": 66,
+  "explicit_individual_join": true,
+  "T_N_equal_common_scale_subsets": true,
+  "observed_values_preserved": true,
+  "every_count_and_effect_independently_checked": true,
+  "wilcoxon_reconstructed_tests": 316,
+  "BH_statsmodels_check": true,
+  "output_sha256": {
+    "primary33.tsv": "b4a19743f9d1b03c6c01e16a54fee5827d079d3e03f25fc1de16e94c5a1f788c",
+    "observed_pairs.tsv": "d2f932935ded96541be486626dda2c606b728b24c7ab4142902fd005f7f00070",
+    "summary.json": "bcfa9c70455798565a02148e17a434a2d027e09e833dd55f9478c437dddf6d1a"
+  },
+  "not_verified": [
+    "genotype-level patient identity",
+    "raw mass-spectrometry peak identity",
+    "logarithm base; no fold change reported"
+  ]
+}

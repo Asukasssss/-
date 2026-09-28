@@ -1,0 +1,36 @@
+{
+  "analysis_version": "COAD_LYPLA1_epithelial_UMAP_color_v2",
+  "code_lock_commit": "8b858b967666f09e8d99919a6c991a0eb593a665",
+  "coordinate_run": "20260928T025513Z_uhlitz_umap_v1",
+  "expression_run": "20260928T031628Z_lypla1_umap_v1",
+  "coordinates_recomputed": false,
+  "expression_scale": "log1p(CP10K)",
+  "vmin": 0,
+  "vmax": 3.448125505513642,
+  "color_clipping": false,
+  "group_rule": "reuse run_uckl1_cna_v1.build_labels;exclude whole conflicting donor;normal reference excludes TC labels",
+  "excluded_display": "annotation explicit;expression pale background only",
+  "new_tests": false,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "matplotlib": "3.6.3"
+  },
+  "prior_run": "20260928T034349Z_lypla1_epithelial_umap_v1",
+  "palette": [
+    "#f2f2f2",
+    "#fcbba1",
+    "#fb6a4a",
+    "#cb181d",
+    "#67000d"
+  ],
+  "palette_interpolation": "linear evenly spaced stops",
+  "color_only_change": true,
+  "point_size_unchanged": true,
+  "software_render": {
+    "matplotlib": "3.6.3",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "probes": 2,
+  "probe_length_nt": 60,
+  "reference_transcripts": 2,
+  "forward_exact_matches": 4,
+  "reverse_exact_matches": 0,
+  "public_sequence_only": true,
+  "whole_genome_cross_hybridization": "NOT_RUN",
+  "paper_specific_isoform_matching": "NOT_RUN"
+}

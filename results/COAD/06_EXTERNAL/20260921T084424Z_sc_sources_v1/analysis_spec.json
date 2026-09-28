@@ -1,0 +1,11 @@
+{
+  "analysis_version": "COAD_sc_sources_v1",
+  "scope": "All35 existing genes;source discovery and metadata inspection",
+  "statistical_unit": "patient within study,tissue,enrichment,chemistry,author cell type",
+  "future_coverage_rule": "Reuse >=20 cells per patient and >=5 qualified patients;expression for <3 patients suppressed",
+  "new_expression_tests": false,
+  "new_p_q": false,
+  "seed": null,
+  "source_data_residency": "server165 only",
+  "author_repository_commit": "39e855925a8a2806e2ef0500927a2bb16b243be4"
+}

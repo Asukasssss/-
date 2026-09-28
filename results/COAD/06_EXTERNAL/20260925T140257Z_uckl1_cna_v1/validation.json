@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "input_hashes_match_admission": true,
+  "explicit_cell_and_patient_joins": true,
+  "public_tables_contain_no_patient_or_cell_rows": true,
+  "planned_tests": 3,
+  "evaluable_tests": 3,
+  "donor_identity_conflicts_excluded": 1,
+  "normal_label_missing_ID_not_inferred": true,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  },
+  "caveats": [
+    "CNA evidence from RNA not per-cell DNA",
+    "CNN not proven benign",
+    "No independent cohort replication"
+  ]
+}

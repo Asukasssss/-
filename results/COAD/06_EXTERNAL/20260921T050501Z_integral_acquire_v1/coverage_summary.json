@@ -1,0 +1,40 @@
+{
+  "source_sha256": "30037314867bf80f4b05b3ced26766094aa6e63ae939bf45b69731819358d67c",
+  "sample_types": {
+    "Matched normal adjacent tissue (NAT)": 6,
+    "Tumor": 6
+  },
+  "patients": 6,
+  "tumor_samples": 6,
+  "unique_tumor_patients": 6,
+  "structure": [
+    {
+      "sheet": "B_metabolome",
+      "features": 1116,
+      "measurement_columns": 12,
+      "exact_sample_set_match": true
+    },
+    {
+      "sheet": "D_proteome_protein",
+      "features": 9257,
+      "measurement_columns": 12,
+      "exact_sample_set_match": true
+    },
+    {
+      "sheet": "G_transcriptome_gene",
+      "features": 18069,
+      "measurement_columns": 12,
+      "exact_sample_set_match": true
+    }
+  ],
+  "metabolite_status": {
+    "NAME_COMPATIBLE": 17,
+    "NOT_FOUND_IN_NAME_SCREEN": 3,
+    "STEREOCHEMISTRY_UNRESOLVED": 1,
+    "AMBIGUOUS_NAME": 1,
+    "TYPO_REQUIRES_CONFIRMATION": 1
+  },
+  "rna_genes": 35,
+  "protein_genes": 22,
+  "new_tests": 0
+}

@@ -1,0 +1,6 @@
+group	cells	donors	detected_cells	mean_log1pCP10K
+excluded_donor_identity_conflict	1848	1	451	0.30004540483499614
+normal_reference	16138	10	3415	0.2649152181883893
+not_selected	899	10	344	0.41667473321643195
+tumor_CNA	4477	9	2549	0.6900592908276052
+tumor_CNN	7885	11	2289	0.35826866072569585

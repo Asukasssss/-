@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "cna_cells": 4477,
+  "cna_donors": 9,
+  "lypla1_positive_cells": 2549,
+  "zero_cells_excluded": 1928,
+  "included_donors": 8,
+  "excluded_donors": 1,
+  "included_positive_cells": 2528,
+  "full_genes": 21854,
+  "high_cells": 1262,
+  "low_cells": 1266,
+  "min_group_cells": 41,
+  "max_group_cells": 480,
+  "exact_UMI_denominator_and_LYPLA1_count_rechecked": true,
+  "source_hash_matches_history": true
+}

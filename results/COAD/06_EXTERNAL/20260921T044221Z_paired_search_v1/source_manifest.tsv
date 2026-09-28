@@ -1,0 +1,8 @@
+source_id	url	version	sha256	reading_scope
+D12	https://pubs.acs.org/doi/10.1021/acs.analchem.4c04421	accessed 2026-09-21	NA	Primary-source search index and limited page review; not archived full source
+D13	https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7030030	accessed 2026-09-21	NA	Primary-source search index and limited page review; not archived full source
+D14	https://www.nature.com/articles/s42255-025-01350-6	accessed 2026-09-21	NA	Primary-source search index and limited page review; not archived full source
+D15	https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=9a52b4480ed34cb2b5ac9da0333105f6	accessed 2026-09-21	NA	Primary-source search index and limited page review; not archived full source
+D01	https://link.springer.com/article/10.1186/s12943-025-02359-x	accessed 2026-09-21	NA	Primary-source search index and limited page review; not archived full source
+D10	https://link.springer.com/article/10.1186/s12885-026-15978-4	accessed 2026-09-21	NA	Primary-source search index and limited page review; not archived full source
+D12_BioProject	https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA026610	accessed 2026-09-21	NA	Indexed official metadata confirms 12 tissue BioSamples; not sample-map validation

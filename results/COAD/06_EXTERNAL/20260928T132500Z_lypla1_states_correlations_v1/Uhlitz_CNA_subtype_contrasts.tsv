@@ -1,0 +1,18 @@
+subtype	contrast	n_donors	median_difference	n_positive	n_negative	p_value	status	reason
+Ent. Prog. 1	subtype_vs_other_admitted_cells_within_donor	1	-0.10710833315371115	0	1	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Ent. Prog. 2	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Enterocytes 1	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Enterocytes 2	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Enterocytes 3	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Goblet	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Imma. Gob. 1	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Imma. Gob. 2	subtype_vs_other_admitted_cells_within_donor	5	-0.04723065517456859	2	3	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Stem	subtype_vs_other_admitted_cells_within_donor	1	-0.0621897298118399	0	1	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Stem/TA 1	subtype_vs_other_admitted_cells_within_donor	8	-0.3456445594805448	1	7	0.0703125	DONE	NOMINAL_EXPLORATORY
+Stem/TA 2	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+Stem/TA 3	subtype_vs_other_admitted_cells_within_donor	4	-0.32375927812249006	1	3	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+TC1	subtype_vs_other_admitted_cells_within_donor	5	0.2555786437955434	5	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+TC2	subtype_vs_other_admitted_cells_within_donor	5	-0.28412109353995957	0	5	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+TC3	subtype_vs_other_admitted_cells_within_donor	8	-0.11805315309895387	2	6	0.2890625	DONE	NOMINAL_EXPLORATORY
+TC4	subtype_vs_other_admitted_cells_within_donor	8	0.26063887358406107	8	0	0.0078125	DONE	NOMINAL_EXPLORATORY
+Tuft	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS

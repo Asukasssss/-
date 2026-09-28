@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "families": [
+    "association_available",
+    "association_primary",
+    "rna_paired_t"
+  ],
+  "reused_primary_exact_strings": 595,
+  "hashes": true,
+  "paired_counts": true,
+  "limitations": "Historical input/vector verification and independent BH, not full second permutation run"
+}

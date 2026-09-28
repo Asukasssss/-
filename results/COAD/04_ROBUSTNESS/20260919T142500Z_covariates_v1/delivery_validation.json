@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "independent_BH_max_error": 0.0,
+  "identical_M0_CC_max_error": 0.0,
+  "checks": [
+    "all server output hashes",
+    "all974 keys per model;674 in fixed family",
+    "public field prefix",
+    "independent BH on complete evaluable family",
+    "M0_CC identical primary statistics",
+    "non-estimable rows have no effect/P/q",
+    "all original974 and39 cells unchanged in annotated catalogs",
+    "priority9 and shared3 only display subsets",
+    "eight standard report sections"
+  ],
+  "limitations": [
+    "Approximate Freedman-Lane exchangeability/homoskedasticity assumptions",
+    "No purity or technical batch adjustment",
+    "M3 unsupported sparse original categories; not mathematically rank deficient",
+    "Same CAMP patients, not independent validation"
+  ],
+  "additional_output_hashes": {
+    "catalog974_with_covariates.tsv": "24cbacbb3b861b6c910e78cb09345f0ba6af4d48767720850a80134ffcc1efd6",
+    "nominal39_with_covariates.tsv": "22393c0d87c8f3c7fff4fb8349c8d4731c15f240d0366b5d58506c4237965650",
+    "priority9_relations.tsv": "eb72a4faa5e7744a01886c27968cc6689e5ec6a4c0d2243cb743fdbe13c6c266",
+    "cross_cancer3_updated.tsv": "81133552e9ae3c9a5c2a502f87993b74af71414ab77c350ec4b020a7ffa23592",
+    "interpretation_summary.json": "d6ccbb0a3069e6ae5c4b20551b83d1b6e776644641adbef1cefe330d2e6b1e3d"
+  },
+  "report_sha256": "d1098b13e13038027ea47f2dd4951fcc997c00fe4d0199dcdeb1cf14b7b06c0c"
+}

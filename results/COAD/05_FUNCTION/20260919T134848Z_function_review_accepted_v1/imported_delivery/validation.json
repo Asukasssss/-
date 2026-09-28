@@ -1,0 +1,22 @@
+{
+  "scope_gene_count": 35,
+  "scope_relation_count": 39,
+  "unique_genes": 35,
+  "unique_pairs": 39,
+  "all39_have_function_annotation": true,
+  "evidence_ids_unique": true,
+  "evidence_ids_resolve": true,
+  "all_evidence_source_urls_present": true,
+  "gene_categories_total": 35,
+  "research_decisions_total": 35,
+  "no_new_patient_calculations": true,
+  "depmap_numeric_fields_all_blank": true,
+  "excel_formula_errors_found": 0,
+  "excel_visual_preview_checked": true,
+  "join_script_syntax": "PASS",
+  "join_script_fixture_test": "PASS",
+  "real974_high_precision_join": "NOT_RUN; exact source bytes not locally materialized",
+  "literature_completeness": "Not exhaustive; review depth recorded per source",
+  "article_integrity": "No systematic retraction/image audit",
+  "upload": "ACCESS_BLOCKED"
+}

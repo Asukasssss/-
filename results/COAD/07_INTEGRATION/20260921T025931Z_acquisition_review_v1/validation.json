@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Keys/order/counts and exact original B4GALT2 row;not biological validation",
+  "relations": 39,
+  "genes": 35,
+  "metabolites": 23,
+  "contact_records": 7,
+  "emails_sent": 0,
+  "new_patient_tests": 0,
+  "new_ready_datasets": 0,
+  "old_arrangement_preserved": true,
+  "input_sha256": "db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7"
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "path": "ADSS2_HGNC.json",
+    "bytes": 1813,
+    "sha256": "82b20031b958bde595cf06b4e2761c35d56616b7fee90caaa998a09a94d785b1"
+  },
+  {
+    "path": "ALL35_OVERVIEW_CN.md",
+    "bytes": 2159,
+    "sha256": "6d13fbc7134b34d7da7723317a3d51d15d67660da30066c59bb75b61ac590d46"
+  },
+  {
+    "path": "analysis_spec.json",
+    "bytes": 5506,
+    "sha256": "a98f2e9ef4ab5ee284174c965af96532cfc88abf5a50ebce91129b8ebe20d7e3"
+  },
+  {
+    "path": "by_gene\\ADSS2.tsv",
+    "bytes": 1382128,
+    "sha256": "d6913d3c3e4d762ee3de78736d348855155f926e2333204cf756a99fad745b1d"
+  },
+  {
+    "path": "by_gene\\AQP9.tsv",
+    "bytes": 1244123,
+    "sha256": "6d99b468ac1170dfe8d224667f767bfd9b82580cd601c7c5c81f22267e816911"
+  },
+  {
+    "path": "by_gene\\ASPA.tsv",
+    "bytes": 1243562,
+    "sha256": "302768e189054c0fa397bbb29ca6cbde5cc5c804a5ccd542e38c0d621087f317"
+  },
+  {
+    "path": "by_gene\\B4GALT2.tsv",
+    "bytes": 1309359,
+    "sha256": "cbfc722ed736322121cc84483c3e596e76a298c12edd24c2e17d631156020b90"
+  },
+  {
+    "path": "by_gene\\BCAT2.tsv",
+    "bytes": 1350813,
+    "sha256": "f9cbec4caa5a98ccae70b8163446c81a67dca5036bad2ee820e7e1af20be789a"
+  },
+  {
+    "path": "by_gene\\BPGM.tsv",
+    "bytes": 1352708,
+    "sha256": "f33ce8344db0bb0ce5aa2b8c6ff3a47cbff2d5077161aaac302ade7418b52d22"
+  },
+  {
+    "path": "by_gene\\CANT1.tsv",
+    "bytes": 1360115,
+    "sha256": "84c530b1c47935720f2b0679530528f339dffe6acf74e323953e54a43d8c0236"
+  },
+  {
+    "path": "by_gene\\ENO2.tsv",
+    "bytes": 1327013,
+    "sha256": "82e57197ddabc23b46686e86ac3ed84210cc67805c07870cf2622c39a81e37e3"
+  },
+  {
+    "path": "by_gene\\ENTPD3.tsv",
+    "bytes": 1232799,
+    "sha256": "82719737f906c8c46fac41fd65dc3bff93c35ecd0de34a397b956fc9193bcec3"
+  },
+  {
+    "path": "by_gene\\GMPR.tsv",
+    "bytes": 1291043,
+    "sha256": "2cd5f3a6829ccceaa289d49fc2830cfa75558d27d71c3a6967580d554150a58b"
+  },
+  {
+    "path": "by_gene\\GNPAT.tsv",
+    "bytes": 1371959,
+    "sha256": "474a4f8197b89ffe6c50c46f1b604e700676fa6a1c15cbac5fcb12be2ff069e1"
+  },
+  {
+    "path": "by_gene\\GSTA4.tsv",
+    "bytes": 1409888,
+    "sha256": "e11f8c2a8e09f3cd2388197970dc030aeccfc5835de3c454bdba257e421897a2"
+  },
+  {
+    "path": "by_gene\\GSTO2.tsv",
+    "bytes": 1292117,
+    "sha256": "67d4e689f553351837b054a5917b88d217cea2152de89e6327c0021a93d22792"
+  },
+  {
+    "path": "by_gene\\GSTT2.tsv",
+    "bytes": 1193719,
+    "sha256": "b9b998087a27914244a11e51cea01b0b4ab03e1f8b0e2d3dae652e52b5727d7c"
+  },
+  {
+    "path": "by_gene\\GSTT2B.tsv",
+    "bytes": 1263753,
+    "sha256": "8194af247a914ff17f830b935fb22b90019a133a9caf1f8c2cae33e979d73529"
+  },
+  {
+    "path": "by_gene\\HAGH.tsv",
+    "bytes": 1383127,
+    "sha256": "d93a5b296c5ce8a5b1a37229a27f445ee5f8c93ed98347be471155a9d08ac7f4"
+  },
+  {
+    "path": "by_gene\\HDC.tsv",
+    "bytes": 1321965,
+    "sha256": "0c21b9d30fd18c2f1595a05949ba995c3045d4b99f30b6a3559ca424d882d3be"
+  },
+  {
+    "path": "by_gene\\ICMT.tsv",
+    "bytes": 1353113,
+    "sha256": "f35e1efea9a284f6b6e03fa816f072d129f883f4ebd5d9ad99acd9f97dfe6862"
+  },
+  {
+    "path": "by_gene\\KMT5A.tsv",
+    "bytes": 1351275,
+    "sha256": "c0dae4eaefcb90318bf861167b93db8fb704389e14d2723833979fe67250ce38"
+  },
+  {
+    "path": "by_gene\\NME6.tsv",
+    "bytes": 1353125,
+    "sha256": "62144febbd8af887bae4595e26e24020f08600f32a36fa3bb1dc15b5b9b31d41"
+  },
+  {
+    "path": "by_gene\\NNMT.tsv",
+    "bytes": 1282893,
+    "sha256": "bda698d403fa07fd455fad591f05c62fa89e312329a2607999910a26cf1652f8"
+  },
+  {
+    "path": "by_gene\\NT5C3A.tsv",
+    "bytes": 1382706,
+    "sha256": "58a96f185e967c29b915ed4723867bfdf8c5abc2319737d031de4098f9bb20e3"
+  },
+  {
+    "path": "by_gene\\PGAM2.tsv",
+    "bytes": 1235449,
+    "sha256": "a091c814a027f707e4e0c1ef3f3f65e3e87b50b24273ea70a1d690d3cbefea83"
+  },
+  {
+    "path": "by_gene\\PLA2G15.tsv",
+    "bytes": 1319023,
+    "sha256": "697b77985e7d3ea890e72fa9ae1ae752372559244e526828c9d02bc2e1df4c44"
+  },
+  {
+    "path": "by_gene\\PRMT7.tsv",
+    "bytes": 1344356,
+    "sha256": "d0c0dc811aadf6ecb5f518ea0a4240bb0d5475fc2420cfa50ecf800db035ca6d"
+  },
+  {
+    "path": "by_gene\\SLC15A3.tsv",
+    "bytes": 1320174,
+    "sha256": "dead006a7e7f7a18c6ef5b3a8b2525e789f73723c0cd21940e961ca4dfe0703e"
+  },
+  {
+    "path": "by_gene\\SLC29A1.tsv",
+    "bytes": 1329710,
+    "sha256": "6904d862b4646faa884adc3a2d59134e89018884437237d774a572d529dfbe35"
+  },
+  {
+    "path": "by_gene\\SLC29A3.tsv",
+    "bytes": 1315279,
+    "sha256": "c70b0f1232e98eef5f9e10f6d7cbc46b5e5d29f316ff223266042cea476e84d9"
+  },
+  {
+    "path": "by_gene\\SLC38A3.tsv",
+    "bytes": 1218461,
+    "sha256": "aa9ff88fec527fa3bd5ac883b804e88f9cc01c0d39a1548fcaf1f762b343ab7a"
+  },
+  {
+    "path": "by_gene\\SLC6A17.tsv",
+    "bytes": 1216639,
+    "sha256": "d741b4a580b7a6a8ba5b99d96a136df620dd032415878ff5e211b5699aa53143"
+  },
+  {
+    "path": "by_gene\\SLC6A6.tsv",
+    "bytes": 1355088,
+    "sha256": "47ad9ee9c72982802115424eec4b275b5a19b52824a37721f8e96548e4c8b4cb"
+  },
+  {
+    "path": "by_gene\\SLC7A8.tsv",
+    "bytes": 1281451,
+    "sha256": "d4e27325bc3dc7dd9fa12fa1a2ada58224fc4b63f2a68e27c63afb6176391ff0"
+  },
+  {
+    "path": "by_gene\\UAP1.tsv",
+    "bytes": 1363180,
+    "sha256": "230e2914082dd2fdf6963cbf525838847ae0719aa6a73dfbfd8e4e77bd8fd8da"
+  },
+  {
+    "path": "by_gene\\UCKL1.tsv",
+    "bytes": 1353450,
+    "sha256": "7ef07d824a6821d640f26abcc2e2b3ec8d58ab177140bec0d18dc24ef0b9b26b"
+  },
+  {
+    "path": "by_gene\\UPP2.tsv",
+    "bytes": 1207866,
+    "sha256": "546fe7e0448a8c7c31f74413131a4f1f3e3317a9b4fdf9e81eab637f39e9faca"
+  },
+  {
+    "path": "gene_availability.tsv",
+    "bytes": 3923,
+    "sha256": "33440def12940a080254f6b5dcdeb13ebba91a28904c4acb5ef0329c9b44d47d"
+  },
+  {
+    "path": "GSTT2_HGNC.json",
+    "bytes": 1847,
+    "sha256": "d56ae19b9c6ae5564ab5a95addfef6cdb43d6ce055e2a8cdfcc0e493afd31a56"
+  },
+  {
+    "path": "Lee_validation.json",
+    "bytes": 952,
+    "sha256": "155ad40875b1c5cf2542470c32328fd0a2521613428520e4242616248eda7bd6"
+  },
+  {
+    "path": "Pelka_validation.json",
+    "bytes": 956,
+    "sha256": "e5a06ea9e181e01203d98aefc73d6ab6f3a6aa93ff4770aa0090c89ccfbe132a"
+  },
+  {
+    "path": "README_CN.md",
+    "bytes": 5129,
+    "sha256": "b121ab0aac9f7a777a67ee07f549bb56e4a6fc914c080c5b59a396c0b3e4a7d1"
+  },
+  {
+    "path": "source_manifest.tsv",
+    "bytes": 1286,
+    "sha256": "4c24279e20913ca53a3a15feba2aee953f7b49d6d841a9d9918443691d6e0aee"
+  },
+  {
+    "path": "tumor_lineage_overview.tsv",
+    "bytes": 52609,
+    "sha256": "b97becd20216cf1b3a73d4a6dd3c44d628ebeeb1eb952063f2c6401d50efe710"
+  },
+  {
+    "path": "validation.json",
+    "bytes": 2664,
+    "sha256": "ed94e83fbdd73bbd6d2609d062df071167a6260795b998be2d682fc3a36de0f3"
+  }
+]

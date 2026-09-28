@@ -1,0 +1,5959 @@
+[
+  {
+    "dataset": "COAD",
+    "feature_name": "1-methylnicotinamide",
+    "metabolite_key": "KEGG:C02918",
+    "human_gene_id": "hsa:6580",
+    "gene_symbol": "SLC22A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C02918"
+    ],
+    "uniprot_accessions": [
+      "O15245"
+    ],
+    "rhea_ids": [
+      "RHEA:73859"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "1-methylnicotinamide",
+    "metabolite_key": "KEGG:C02918",
+    "human_gene_id": "hsa:6582",
+    "gene_symbol": "SLC22A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C02918"
+    ],
+    "uniprot_accessions": [
+      "O15244"
+    ],
+    "rhea_ids": [
+      "RHEA:73859"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "4-methyl-2-oxopentanoate",
+    "metabolite_key": "KEGG:C00233",
+    "human_gene_id": "hsa:160728",
+    "gene_symbol": "SLC5A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00233"
+    ],
+    "uniprot_accessions": [
+      "Q8N695"
+    ],
+    "rhea_ids": [
+      "RHEA:72967"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "4-methyl-2-oxopentanoate",
+    "metabolite_key": "KEGG:C00233",
+    "human_gene_id": "hsa:6566",
+    "gene_symbol": "SLC16A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00233"
+    ],
+    "uniprot_accessions": [
+      "P53985"
+    ],
+    "rhea_ids": [
+      "RHEA:71779"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "4-methyl-2-oxopentanoate",
+    "metabolite_key": "KEGG:C00233",
+    "human_gene_id": "hsa:9194",
+    "gene_symbol": "SLC16A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00233"
+    ],
+    "uniprot_accessions": [
+      "O60669"
+    ],
+    "rhea_ids": [
+      "RHEA:71779"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "N-acetylaspartate (NAA)",
+    "metabolite_key": "KEGG:C01042",
+    "human_gene_id": "hsa:10057",
+    "gene_symbol": "ABCC5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C01042"
+    ],
+    "uniprot_accessions": [
+      "O15440"
+    ],
+    "rhea_ids": [
+      "RHEA:66744"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "N-acetylaspartate (NAA)",
+    "metabolite_key": "KEGG:C01042",
+    "human_gene_id": "hsa:64849",
+    "gene_symbol": "SLC13A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C01042"
+    ],
+    "uniprot_accessions": [
+      "Q8WWT9"
+    ],
+    "rhea_ids": [
+      "RHEA:71947"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "N-acetylneuraminate",
+    "metabolite_key": "KEGG:C00270",
+    "human_gene_id": "hsa:26503",
+    "gene_symbol": "SLC17A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00270"
+    ],
+    "uniprot_accessions": [
+      "Q9NRA2"
+    ],
+    "rhea_ids": [
+      "RHEA:28987"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "S-adenosylmethionine (SAM)",
+    "metabolite_key": "KEGG:C00019",
+    "human_gene_id": "hsa:115286",
+    "gene_symbol": "SLC25A26",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00019"
+    ],
+    "uniprot_accessions": [
+      "Q70HW3"
+    ],
+    "rhea_ids": [
+      "RHEA:75479"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-N-acetylglucosamine",
+    "metabolite_key": "KEGG:C00043",
+    "human_gene_id": "hsa:11046",
+    "gene_symbol": "SLC35D2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00043"
+    ],
+    "uniprot_accessions": [
+      "Q76EJ3"
+    ],
+    "rhea_ids": [
+      "RHEA:72695"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-N-acetylglucosamine",
+    "metabolite_key": "KEGG:C00043",
+    "human_gene_id": "hsa:23169",
+    "gene_symbol": "SLC35D1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00043"
+    ],
+    "uniprot_accessions": [
+      "Q9NTN3"
+    ],
+    "rhea_ids": [
+      "RHEA:72695",
+      "RHEA:73703"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-N-acetylglucosamine",
+    "metabolite_key": "KEGG:C00043",
+    "human_gene_id": "hsa:23443",
+    "gene_symbol": "SLC35A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00043"
+    ],
+    "uniprot_accessions": [
+      "Q9Y2D2"
+    ],
+    "rhea_ids": [
+      "RHEA:72695"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-N-acetylglucosamine",
+    "metabolite_key": "KEGG:C00043",
+    "human_gene_id": "hsa:55032",
+    "gene_symbol": "SLC35A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00043"
+    ],
+    "uniprot_accessions": [
+      "Q9BS91"
+    ],
+    "rhea_ids": [
+      "RHEA:72695"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-N-acetylglucosamine",
+    "metabolite_key": "KEGG:C00043",
+    "human_gene_id": "hsa:7355",
+    "gene_symbol": "SLC35A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00043"
+    ],
+    "uniprot_accessions": [
+      "P78381"
+    ],
+    "rhea_ids": [
+      "RHEA:72695",
+      "RHEA:74611"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-N-acetylglucosamine",
+    "metabolite_key": "KEGG:C00043",
+    "human_gene_id": "hsa:84912",
+    "gene_symbol": "SLC35B4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00043"
+    ],
+    "uniprot_accessions": [
+      "Q969S0"
+    ],
+    "rhea_ids": [
+      "RHEA:73703"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-N-acetylglucosamine",
+    "metabolite_key": "KEGG:C00043",
+    "human_gene_id": "hsa:85019",
+    "gene_symbol": "SLC35D4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00043"
+    ],
+    "uniprot_accessions": [
+      "Q24JQ0"
+    ],
+    "rhea_ids": [
+      "RHEA:72695"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-glucuronate",
+    "metabolite_key": "KEGG:C00167",
+    "human_gene_id": "hsa:23169",
+    "gene_symbol": "SLC35D1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00167"
+    ],
+    "uniprot_accessions": [
+      "Q9NTN3"
+    ],
+    "rhea_ids": [
+      "RHEA:72727",
+      "RHEA:73703",
+      "RHEA:74835"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-glucuronate",
+    "metabolite_key": "KEGG:C00167",
+    "human_gene_id": "hsa:55032",
+    "gene_symbol": "SLC35A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00167"
+    ],
+    "uniprot_accessions": [
+      "Q9BS91"
+    ],
+    "rhea_ids": [
+      "RHEA:72727"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "UDP-glucuronate",
+    "metabolite_key": "KEGG:C00167",
+    "human_gene_id": "hsa:84912",
+    "gene_symbol": "SLC35B4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00167"
+    ],
+    "uniprot_accessions": [
+      "Q969S0"
+    ],
+    "rhea_ids": [
+      "RHEA:73703",
+      "RHEA:74831"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "acetylcholine",
+    "metabolite_key": "KEGG:C01996",
+    "human_gene_id": "hsa:6572",
+    "gene_symbol": "SLC18A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C01996"
+    ],
+    "uniprot_accessions": [
+      "Q16572"
+    ],
+    "rhea_ids": [
+      "RHEA:72891"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "acetylcholine",
+    "metabolite_key": "KEGG:C01996",
+    "human_gene_id": "hsa:6580",
+    "gene_symbol": "SLC22A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C01996"
+    ],
+    "uniprot_accessions": [
+      "O15245"
+    ],
+    "rhea_ids": [
+      "RHEA:74663"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "acetylcholine",
+    "metabolite_key": "KEGG:C01996",
+    "human_gene_id": "hsa:6582",
+    "gene_symbol": "SLC22A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C01996"
+    ],
+    "uniprot_accessions": [
+      "O15244"
+    ],
+    "rhea_ids": [
+      "RHEA:74663"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "acetylcholine",
+    "metabolite_key": "KEGG:C01996",
+    "human_gene_id": "hsa:6583",
+    "gene_symbol": "SLC22A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C01996"
+    ],
+    "uniprot_accessions": [
+      "Q9H015"
+    ],
+    "rhea_ids": [
+      "RHEA:74663"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "acetylcholine",
+    "metabolite_key": "KEGG:C01996",
+    "human_gene_id": "hsa:7416",
+    "gene_symbol": "VDAC1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C01996"
+    ],
+    "uniprot_accessions": [
+      "P21796"
+    ],
+    "rhea_ids": [
+      "RHEA:74663"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenine",
+    "metabolite_key": "KEGG:C00147",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00147"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:71523"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenine",
+    "metabolite_key": "KEGG:C00147",
+    "human_gene_id": "hsa:29015",
+    "gene_symbol": "SLC43A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00147"
+    ],
+    "uniprot_accessions": [
+      "Q8NBI5"
+    ],
+    "rhea_ids": [
+      "RHEA:71523"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenine",
+    "metabolite_key": "KEGG:C00147",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00147"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:71523"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenine",
+    "metabolite_key": "KEGG:C00147",
+    "human_gene_id": "hsa:366",
+    "gene_symbol": "AQP9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00147"
+    ],
+    "uniprot_accessions": [
+      "O43315"
+    ],
+    "rhea_ids": [
+      "RHEA:71523"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenosine",
+    "metabolite_key": "KEGG:C00212",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00212"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:75343"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenosine",
+    "metabolite_key": "KEGG:C00212",
+    "human_gene_id": "hsa:222962",
+    "gene_symbol": "SLC29A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00212"
+    ],
+    "uniprot_accessions": [
+      "Q7RTT9"
+    ],
+    "rhea_ids": [
+      "RHEA:75343"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenosine",
+    "metabolite_key": "KEGG:C00212",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00212"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:75343"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenosine",
+    "metabolite_key": "KEGG:C00212",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00212"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:75343"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenosine",
+    "metabolite_key": "KEGG:C00212",
+    "human_gene_id": "hsa:64078",
+    "gene_symbol": "SLC28A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00212"
+    ],
+    "uniprot_accessions": [
+      "Q9HAS3"
+    ],
+    "rhea_ids": [
+      "RHEA:69911"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenosine",
+    "metabolite_key": "KEGG:C00212",
+    "human_gene_id": "hsa:9153",
+    "gene_symbol": "SLC28A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00212"
+    ],
+    "uniprot_accessions": [
+      "O43868"
+    ],
+    "rhea_ids": [
+      "RHEA:69927"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "adenosine",
+    "metabolite_key": "KEGG:C00212",
+    "human_gene_id": "hsa:9154",
+    "gene_symbol": "SLC28A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00212"
+    ],
+    "uniprot_accessions": [
+      "O00337"
+    ],
+    "rhea_ids": [
+      "RHEA:69927"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:10991",
+    "gene_symbol": "SLC38A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q99624"
+    ],
+    "rhea_ids": [
+      "RHEA:71131"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:11254",
+    "gene_symbol": "SLC6A14",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q9UN76"
+    ],
+    "rhea_ids": [
+      "RHEA:71323"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:153129",
+    "gene_symbol": "SLC38A9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q8NBW4"
+    ],
+    "rhea_ids": [
+      "RHEA:73423"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:54407",
+    "gene_symbol": "SLC38A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q96QD8"
+    ],
+    "rhea_ids": [
+      "RHEA:71383"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:55089",
+    "gene_symbol": "SLC38A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q969I6"
+    ],
+    "rhea_ids": [
+      "RHEA:71383"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:55117",
+    "gene_symbol": "SLC6A15",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q9H2J7"
+    ],
+    "rhea_ids": [
+      "RHEA:71383"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:55238",
+    "gene_symbol": "SLC38A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q9NVC3"
+    ],
+    "rhea_ids": [
+      "RHEA:71383"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:6509",
+    "gene_symbol": "SLC1A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "P43007"
+    ],
+    "rhea_ids": [
+      "RHEA:84355",
+      "RHEA:84367"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:6510",
+    "gene_symbol": "SLC1A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q15758"
+    ],
+    "rhea_ids": [
+      "RHEA:70859",
+      "RHEA:70891"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_key": "KEGG:C00152",
+    "human_gene_id": "hsa:81539",
+    "gene_symbol": "SLC38A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "uniprot_accessions": [
+      "Q9H2H9"
+    ],
+    "rhea_ids": [
+      "RHEA:71383"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_key": "KEGG:C00099",
+    "human_gene_id": "hsa:11254",
+    "gene_symbol": "SLC6A14",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "uniprot_accessions": [
+      "Q9UN76"
+    ],
+    "rhea_ids": [
+      "RHEA:71247"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_key": "KEGG:C00099",
+    "human_gene_id": "hsa:140679",
+    "gene_symbol": "SLC32A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "uniprot_accessions": [
+      "Q9H598"
+    ],
+    "rhea_ids": [
+      "RHEA:70987"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_key": "KEGG:C00099",
+    "human_gene_id": "hsa:153201",
+    "gene_symbol": "SLC36A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "uniprot_accessions": [
+      "Q495M3"
+    ],
+    "rhea_ids": [
+      "RHEA:29459"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_key": "KEGG:C00099",
+    "human_gene_id": "hsa:206358",
+    "gene_symbol": "SLC36A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "uniprot_accessions": [
+      "Q7Z2H8"
+    ],
+    "rhea_ids": [
+      "RHEA:29459"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_key": "KEGG:C00099",
+    "human_gene_id": "hsa:56301",
+    "gene_symbol": "SLC7A10",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "uniprot_accessions": [
+      "Q9NS82"
+    ],
+    "rhea_ids": [
+      "RHEA:74059"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_key": "KEGG:C00099",
+    "human_gene_id": "hsa:6533",
+    "gene_symbol": "SLC6A6",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "uniprot_accessions": [
+      "P31641"
+    ],
+    "rhea_ids": [
+      "RHEA:71247"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_key": "KEGG:C00099",
+    "human_gene_id": "hsa:6538",
+    "gene_symbol": "SLC6A11",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "uniprot_accessions": [
+      "P48066"
+    ],
+    "rhea_ids": [
+      "RHEA:71247"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_key": "KEGG:C00099",
+    "human_gene_id": "hsa:6540",
+    "gene_symbol": "SLC6A13",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "uniprot_accessions": [
+      "Q9NSD5"
+    ],
+    "rhea_ids": [
+      "RHEA:71247"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "carnosine",
+    "metabolite_key": "KEGG:C00386",
+    "human_gene_id": "hsa:121260",
+    "gene_symbol": "SLC15A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00386"
+    ],
+    "uniprot_accessions": [
+      "Q8N697"
+    ],
+    "rhea_ids": [
+      "RHEA:76383"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "carnosine",
+    "metabolite_key": "KEGG:C00386",
+    "human_gene_id": "hsa:51296",
+    "gene_symbol": "SLC15A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00386"
+    ],
+    "uniprot_accessions": [
+      "Q8IY34"
+    ],
+    "rhea_ids": [
+      "RHEA:76383"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "carnosine",
+    "metabolite_key": "KEGG:C00386",
+    "human_gene_id": "hsa:55356",
+    "gene_symbol": "SLC22A15",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00386"
+    ],
+    "uniprot_accessions": [
+      "Q8IZD6"
+    ],
+    "rhea_ids": [
+      "RHEA:76267"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "carnosine",
+    "metabolite_key": "KEGG:C00386",
+    "human_gene_id": "hsa:6564",
+    "gene_symbol": "SLC15A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00386"
+    ],
+    "uniprot_accessions": [
+      "P46059"
+    ],
+    "rhea_ids": [
+      "RHEA:64404"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "carnosine",
+    "metabolite_key": "KEGG:C00386",
+    "human_gene_id": "hsa:6565",
+    "gene_symbol": "SLC15A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00386"
+    ],
+    "uniprot_accessions": [
+      "Q16348"
+    ],
+    "rhea_ids": [
+      "RHEA:76191"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "cis-aconitate",
+    "metabolite_key": "KEGG:C00417",
+    "human_gene_id": "hsa:6576",
+    "gene_symbol": "SLC25A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00417"
+    ],
+    "uniprot_accessions": [
+      "P53007"
+    ],
+    "rhea_ids": [
+      "RHEA:72475"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "citrate",
+    "metabolite_key": "KEGG:C00158",
+    "human_gene_id": "hsa:284111",
+    "gene_symbol": "SLC13A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00158"
+    ],
+    "uniprot_accessions": [
+      "Q86YT5"
+    ],
+    "rhea_ids": [
+      "RHEA:65664"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "citrate",
+    "metabolite_key": "KEGG:C00158",
+    "human_gene_id": "hsa:56172",
+    "gene_symbol": "ANKH",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00158"
+    ],
+    "uniprot_accessions": [
+      "Q9HCJ1"
+    ],
+    "rhea_ids": [
+      "RHEA:33183"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "citrate",
+    "metabolite_key": "KEGG:C00158",
+    "human_gene_id": "hsa:6576",
+    "gene_symbol": "SLC25A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00158"
+    ],
+    "uniprot_accessions": [
+      "P53007"
+    ],
+    "rhea_ids": [
+      "RHEA:28835",
+      "RHEA:72471",
+      "RHEA:72475",
+      "RHEA:72479",
+      "RHEA:72483",
+      "RHEA:72487",
+      "RHEA:72491"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "citrate",
+    "metabolite_key": "KEGG:C00158",
+    "human_gene_id": "hsa:89874",
+    "gene_symbol": "SLC25A21",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00158"
+    ],
+    "uniprot_accessions": [
+      "Q9BQT8"
+    ],
+    "rhea_ids": [
+      "RHEA:71763"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "citrate",
+    "metabolite_key": "KEGG:C00158",
+    "human_gene_id": "hsa:9016",
+    "gene_symbol": "SLC25A14",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00158"
+    ],
+    "uniprot_accessions": [
+      "O95258"
+    ],
+    "rhea_ids": [
+      "RHEA:33183"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "citrate",
+    "metabolite_key": "KEGG:C00158",
+    "human_gene_id": "hsa:9058",
+    "gene_symbol": "SLC13A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00158"
+    ],
+    "uniprot_accessions": [
+      "Q13183"
+    ],
+    "rhea_ids": [
+      "RHEA:72195"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "citrate",
+    "metabolite_key": "KEGG:C00158",
+    "human_gene_id": "hsa:94097",
+    "gene_symbol": "SFXN5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00158"
+    ],
+    "uniprot_accessions": [
+      "Q8TD22"
+    ],
+    "rhea_ids": [
+      "RHEA:33183"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "creatine",
+    "metabolite_key": "KEGG:C00300",
+    "human_gene_id": "hsa:220963",
+    "gene_symbol": "SLC16A9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00300"
+    ],
+    "uniprot_accessions": [
+      "Q7RTY1"
+    ],
+    "rhea_ids": [
+      "RHEA:73043"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "creatine",
+    "metabolite_key": "KEGG:C00300",
+    "human_gene_id": "hsa:55356",
+    "gene_symbol": "SLC22A15",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00300"
+    ],
+    "uniprot_accessions": [
+      "Q8IZD6"
+    ],
+    "rhea_ids": [
+      "RHEA:73043"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "creatine",
+    "metabolite_key": "KEGG:C00300",
+    "human_gene_id": "hsa:6535",
+    "gene_symbol": "SLC6A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00300"
+    ],
+    "uniprot_accessions": [
+      "P48029"
+    ],
+    "rhea_ids": [
+      "RHEA:71831"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "creatinine",
+    "metabolite_key": "KEGG:C00791",
+    "human_gene_id": "hsa:10864",
+    "gene_symbol": "SLC22A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00791"
+    ],
+    "uniprot_accessions": [
+      "Q9Y694"
+    ],
+    "rhea_ids": [
+      "RHEA:74539"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "creatinine",
+    "metabolite_key": "KEGG:C00791",
+    "human_gene_id": "hsa:146802",
+    "gene_symbol": "SLC47A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00791"
+    ],
+    "uniprot_accessions": [
+      "Q86VL8"
+    ],
+    "rhea_ids": [
+      "RHEA:72183"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "creatinine",
+    "metabolite_key": "KEGG:C00791",
+    "human_gene_id": "hsa:55244",
+    "gene_symbol": "SLC47A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00791"
+    ],
+    "uniprot_accessions": [
+      "Q96FL8"
+    ],
+    "rhea_ids": [
+      "RHEA:72183"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "creatinine",
+    "metabolite_key": "KEGG:C00791",
+    "human_gene_id": "hsa:6582",
+    "gene_symbol": "SLC22A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00791"
+    ],
+    "uniprot_accessions": [
+      "O15244"
+    ],
+    "rhea_ids": [
+      "RHEA:74539"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "cytidine",
+    "metabolite_key": "KEGG:C00475",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00475"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:75367"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "cytidine",
+    "metabolite_key": "KEGG:C00475",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00475"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:75367"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "cytidine",
+    "metabolite_key": "KEGG:C00475",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00475"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:75367"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "cytidine",
+    "metabolite_key": "KEGG:C00475",
+    "human_gene_id": "hsa:64078",
+    "gene_symbol": "SLC28A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00475"
+    ],
+    "uniprot_accessions": [
+      "Q9HAS3"
+    ],
+    "rhea_ids": [
+      "RHEA:69903"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "cytidine",
+    "metabolite_key": "KEGG:C00475",
+    "human_gene_id": "hsa:9154",
+    "gene_symbol": "SLC28A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00475"
+    ],
+    "uniprot_accessions": [
+      "O00337"
+    ],
+    "rhea_ids": [
+      "RHEA:69895"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:115584",
+    "gene_symbol": "SLC5A11",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q8WWX8"
+    ],
+    "rhea_ids": [
+      "RHEA:70495"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:144195",
+    "gene_symbol": "SLC2A14",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q8TDB8"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:154091",
+    "gene_symbol": "SLC2A12",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q8TD20"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:155184",
+    "gene_symbol": "SLC2A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q6PXP3"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:29988",
+    "gene_symbol": "SLC2A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q9NY64"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:50651",
+    "gene_symbol": "SLC45A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q9Y2W3"
+    ],
+    "rhea_ids": [
+      "RHEA:69556"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:51151",
+    "gene_symbol": "SLC45A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q9UMX9"
+    ],
+    "rhea_ids": [
+      "RHEA:69556"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:6513",
+    "gene_symbol": "SLC2A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "P11166"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:6514",
+    "gene_symbol": "SLC2A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "P11168"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:6515",
+    "gene_symbol": "SLC2A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "P11169"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:6517",
+    "gene_symbol": "SLC2A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "P14672"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:6523",
+    "gene_symbol": "SLC5A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "P13866"
+    ],
+    "rhea_ids": [
+      "RHEA:70495"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:6524",
+    "gene_symbol": "SLC5A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "P31639"
+    ],
+    "rhea_ids": [
+      "RHEA:70571"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:66035",
+    "gene_symbol": "SLC2A11",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q9BYW1"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:81031",
+    "gene_symbol": "SLC2A10",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "O95528"
+    ],
+    "rhea_ids": [
+      "RHEA:60376"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glucose",
+    "metabolite_key": "KEGG:C00031",
+    "human_gene_id": "hsa:91749",
+    "gene_symbol": "SLC60A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "uniprot_accessions": [
+      "Q5TF39"
+    ],
+    "rhea_ids": [
+      "RHEA:70571"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:10165",
+    "gene_symbol": "SLC25A13",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9UJS0"
+    ],
+    "rhea_ids": [
+      "RHEA:70783",
+      "RHEA:70967"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:10864",
+    "gene_symbol": "SLC22A7",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9Y694"
+    ],
+    "rhea_ids": [
+      "RHEA:72043"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:124565",
+    "gene_symbol": "SLC38A10",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9HBR0"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:145389",
+    "gene_symbol": "SLC38A6",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q8IZM9"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:157724",
+    "gene_symbol": "SLC7A13",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q8TCU3"
+    ],
+    "rhea_ids": [
+      "RHEA:76307"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:23657",
+    "gene_symbol": "SLC7A11",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9UPY5"
+    ],
+    "rhea_ids": [
+      "RHEA:70995",
+      "RHEA:74567"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:24145",
+    "gene_symbol": "PANX1",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q96RD7"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:246213",
+    "gene_symbol": "SLC17A8",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q8NDX2"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:26503",
+    "gene_symbol": "SLC17A5",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9NRA2"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:28231",
+    "gene_symbol": "SLCO4A1",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q96BD0"
+    ],
+    "rhea_ids": [
+      "RHEA:72239",
+      "RHEA:72299",
+      "RHEA:72303",
+      "RHEA:72307"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:3775",
+    "gene_symbol": "KCNK1",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "O00180"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:3776",
+    "gene_symbol": "KCNK2",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "O95069"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:54831",
+    "gene_symbol": "BEST2",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q8NFU1"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:56262",
+    "gene_symbol": "LRRC8A",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q8IWT6"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:57030",
+    "gene_symbol": "SLC17A7",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9P2U7"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:57084",
+    "gene_symbol": "SLC17A6",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9P2U8"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:57348",
+    "gene_symbol": "TTYH1",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9H313"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:6505",
+    "gene_symbol": "SLC1A1",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "P43005"
+    ],
+    "rhea_ids": [
+      "RHEA:70699"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:6506",
+    "gene_symbol": "SLC1A2",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "P43004"
+    ],
+    "rhea_ids": [
+      "RHEA:70699"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:6507",
+    "gene_symbol": "SLC1A3",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "P43003"
+    ],
+    "rhea_ids": [
+      "RHEA:70699"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:6510",
+    "gene_symbol": "SLC1A5",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q15758"
+    ],
+    "rhea_ids": [
+      "RHEA:70883"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:6511",
+    "gene_symbol": "SLC1A6",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "P48664"
+    ],
+    "rhea_ids": [
+      "RHEA:70699"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:6512",
+    "gene_symbol": "SLC1A7",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "O00341"
+    ],
+    "rhea_ids": [
+      "RHEA:70699"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:7416",
+    "gene_symbol": "VDAC1",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "P21796"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:7439",
+    "gene_symbol": "BEST1",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "O76090"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:79751",
+    "gene_symbol": "SLC25A22",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9H936"
+    ],
+    "rhea_ids": [
+      "RHEA:70955"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:80727",
+    "gene_symbol": "TTYH3",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9C0H2"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:83733",
+    "gene_symbol": "SLC25A18",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9H1K4"
+    ],
+    "rhea_ids": [
+      "RHEA:70955"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:8604",
+    "gene_symbol": "SLC25A12",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "O75746"
+    ],
+    "rhea_ids": [
+      "RHEA:70783",
+      "RHEA:70967"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:9016",
+    "gene_symbol": "SLC25A14",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "O95258"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_key": "KEGG:C00025",
+    "human_gene_id": "hsa:94015",
+    "gene_symbol": "TTYH2",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "no_current_identity_hold": false,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00025"
+    ],
+    "uniprot_accessions": [
+      "Q9BSA4"
+    ],
+    "rhea_ids": [
+      "RHEA:66336"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:10991",
+    "gene_symbol": "SLC38A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q99624"
+    ],
+    "rhea_ids": [
+      "RHEA:71127"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:11254",
+    "gene_symbol": "SLC6A14",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q9UN76"
+    ],
+    "rhea_ids": [
+      "RHEA:71283"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:124565",
+    "gene_symbol": "SLC38A10",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q9HBR0"
+    ],
+    "rhea_ids": [
+      "RHEA:73419"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:145389",
+    "gene_symbol": "SLC38A6",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q8IZM9"
+    ],
+    "rhea_ids": [
+      "RHEA:73419"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:146167",
+    "gene_symbol": "SLC38A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "A6NNN8"
+    ],
+    "rhea_ids": [
+      "RHEA:73419"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:153129",
+    "gene_symbol": "SLC38A9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q8NBW4"
+    ],
+    "rhea_ids": [
+      "RHEA:73419"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:157724",
+    "gene_symbol": "SLC7A13",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q8TCU3"
+    ],
+    "rhea_ids": [
+      "RHEA:76311"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:23428",
+    "gene_symbol": "SLC7A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q9UHI5"
+    ],
+    "rhea_ids": [
+      "RHEA:71027"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:340024",
+    "gene_symbol": "SLC6A19",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q695T7"
+    ],
+    "rhea_ids": [
+      "RHEA:68236"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:388662",
+    "gene_symbol": "SLC6A17",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q9H1V8"
+    ],
+    "rhea_ids": [
+      "RHEA:68236"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:54407",
+    "gene_symbol": "SLC38A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q96QD8"
+    ],
+    "rhea_ids": [
+      "RHEA:68236"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:54831",
+    "gene_symbol": "BEST2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q8NFU1"
+    ],
+    "rhea_ids": [
+      "RHEA:73419"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:55089",
+    "gene_symbol": "SLC38A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q969I6"
+    ],
+    "rhea_ids": [
+      "RHEA:68236"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:55117",
+    "gene_symbol": "SLC6A15",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q9H2J7"
+    ],
+    "rhea_ids": [
+      "RHEA:68236"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:55238",
+    "gene_symbol": "SLC38A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q9NVC3"
+    ],
+    "rhea_ids": [
+      "RHEA:68236"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:6510",
+    "gene_symbol": "SLC1A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q15758"
+    ],
+    "rhea_ids": [
+      "RHEA:70855",
+      "RHEA:70859",
+      "RHEA:70863",
+      "RHEA:70867",
+      "RHEA:70871",
+      "RHEA:70875",
+      "RHEA:70879",
+      "RHEA:70883",
+      "RHEA:70887",
+      "RHEA:70891",
+      "RHEA:75307",
+      "RHEA:84327"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:8140",
+    "gene_symbol": "SLC7A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q01650"
+    ],
+    "rhea_ids": [
+      "RHEA:71027",
+      "RHEA:86703"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:81539",
+    "gene_symbol": "SLC38A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q9H2H9"
+    ],
+    "rhea_ids": [
+      "RHEA:68236"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_key": "KEGG:C00064",
+    "human_gene_id": "hsa:9057",
+    "gene_symbol": "SLC7A6",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "uniprot_accessions": [
+      "Q92536"
+    ],
+    "rhea_ids": [
+      "RHEA:70835"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutathione, reduced (GSH)",
+    "metabolite_key": "KEGG:C00051",
+    "human_gene_id": "hsa:10257",
+    "gene_symbol": "ABCC4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00051"
+    ],
+    "uniprot_accessions": [
+      "O15439"
+    ],
+    "rhea_ids": [
+      "RHEA:66380",
+      "RHEA:66396",
+      "RHEA:66400",
+      "RHEA:66404",
+      "RHEA:66408",
+      "RHEA:66412",
+      "RHEA:66416",
+      "RHEA:66420"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutathione, reduced (GSH)",
+    "metabolite_key": "KEGG:C00051",
+    "human_gene_id": "hsa:4363",
+    "gene_symbol": "ABCC1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00051"
+    ],
+    "uniprot_accessions": [
+      "P33527"
+    ],
+    "rhea_ids": [
+      "RHEA:29787"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutathione, reduced (GSH)",
+    "metabolite_key": "KEGG:C00051",
+    "human_gene_id": "hsa:51629",
+    "gene_symbol": "SLC25A39",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00051"
+    ],
+    "uniprot_accessions": [
+      "Q9BZJ4"
+    ],
+    "rhea_ids": [
+      "RHEA:74819"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "glutathione, reduced (GSH)",
+    "metabolite_key": "KEGG:C00051",
+    "human_gene_id": "hsa:55972",
+    "gene_symbol": "SLC25A40",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00051"
+    ],
+    "uniprot_accessions": [
+      "Q8TBP6"
+    ],
+    "rhea_ids": [
+      "RHEA:74819"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanine",
+    "metabolite_key": "KEGG:C00242",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00242"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:71531"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanine",
+    "metabolite_key": "KEGG:C00242",
+    "human_gene_id": "hsa:29015",
+    "gene_symbol": "SLC43A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00242"
+    ],
+    "uniprot_accessions": [
+      "Q8NBI5"
+    ],
+    "rhea_ids": [
+      "RHEA:71531"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanine",
+    "metabolite_key": "KEGG:C00242",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00242"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:71531"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanine",
+    "metabolite_key": "KEGG:C00242",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00242"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:71531"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanosine",
+    "metabolite_key": "KEGG:C00387",
+    "human_gene_id": "hsa:10864",
+    "gene_symbol": "SLC22A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00387"
+    ],
+    "uniprot_accessions": [
+      "Q9Y694"
+    ],
+    "rhea_ids": [
+      "RHEA:75371"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanosine",
+    "metabolite_key": "KEGG:C00387",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00387"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:75371"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanosine",
+    "metabolite_key": "KEGG:C00387",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00387"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:75371"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanosine",
+    "metabolite_key": "KEGG:C00387",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00387"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:75371"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanosine",
+    "metabolite_key": "KEGG:C00387",
+    "human_gene_id": "hsa:64078",
+    "gene_symbol": "SLC28A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00387"
+    ],
+    "uniprot_accessions": [
+      "Q9HAS3"
+    ],
+    "rhea_ids": [
+      "RHEA:69915"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "guanosine",
+    "metabolite_key": "KEGG:C00387",
+    "human_gene_id": "hsa:9153",
+    "gene_symbol": "SLC28A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00387"
+    ],
+    "uniprot_accessions": [
+      "O43868"
+    ],
+    "rhea_ids": [
+      "RHEA:69935"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "histamine",
+    "metabolite_key": "KEGG:C00388",
+    "human_gene_id": "hsa:222962",
+    "gene_symbol": "SLC29A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00388"
+    ],
+    "uniprot_accessions": [
+      "Q7RTT9"
+    ],
+    "rhea_ids": [
+      "RHEA:73879"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "histamine",
+    "metabolite_key": "KEGG:C00388",
+    "human_gene_id": "hsa:6571",
+    "gene_symbol": "SLC18A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00388"
+    ],
+    "uniprot_accessions": [
+      "Q05940"
+    ],
+    "rhea_ids": [
+      "RHEA:73755"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "histamine",
+    "metabolite_key": "KEGG:C00388",
+    "human_gene_id": "hsa:6580",
+    "gene_symbol": "SLC22A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00388"
+    ],
+    "uniprot_accessions": [
+      "O15245"
+    ],
+    "rhea_ids": [
+      "RHEA:73879"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "histamine",
+    "metabolite_key": "KEGG:C00388",
+    "human_gene_id": "hsa:6581",
+    "gene_symbol": "SLC22A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00388"
+    ],
+    "uniprot_accessions": [
+      "O75751"
+    ],
+    "rhea_ids": [
+      "RHEA:73879"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "histamine",
+    "metabolite_key": "KEGG:C00388",
+    "human_gene_id": "hsa:6582",
+    "gene_symbol": "SLC22A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00388"
+    ],
+    "uniprot_accessions": [
+      "O15244"
+    ],
+    "rhea_ids": [
+      "RHEA:73879"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "hypotaurine",
+    "metabolite_key": "KEGG:C00519",
+    "human_gene_id": "hsa:6529",
+    "gene_symbol": "SLC6A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00519"
+    ],
+    "uniprot_accessions": [
+      "P30531"
+    ],
+    "rhea_ids": [
+      "RHEA:71243"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "hypotaurine",
+    "metabolite_key": "KEGG:C00519",
+    "human_gene_id": "hsa:6533",
+    "gene_symbol": "SLC6A6",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00519"
+    ],
+    "uniprot_accessions": [
+      "P31641"
+    ],
+    "rhea_ids": [
+      "RHEA:71243"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "hypotaurine",
+    "metabolite_key": "KEGG:C00519",
+    "human_gene_id": "hsa:6538",
+    "gene_symbol": "SLC6A11",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00519"
+    ],
+    "uniprot_accessions": [
+      "P48066"
+    ],
+    "rhea_ids": [
+      "RHEA:71243"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "hypotaurine",
+    "metabolite_key": "KEGG:C00519",
+    "human_gene_id": "hsa:6540",
+    "gene_symbol": "SLC6A13",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00519"
+    ],
+    "uniprot_accessions": [
+      "Q9NSD5"
+    ],
+    "rhea_ids": [
+      "RHEA:71243"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "hypoxanthine",
+    "metabolite_key": "KEGG:C00262",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00262"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:71515"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "hypoxanthine",
+    "metabolite_key": "KEGG:C00262",
+    "human_gene_id": "hsa:29015",
+    "gene_symbol": "SLC43A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00262"
+    ],
+    "uniprot_accessions": [
+      "Q8NBI5"
+    ],
+    "rhea_ids": [
+      "RHEA:71515"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "hypoxanthine",
+    "metabolite_key": "KEGG:C00262",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00262"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:71515"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "inosine",
+    "metabolite_key": "KEGG:C00294",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00294"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:75375"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "inosine",
+    "metabolite_key": "KEGG:C00294",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00294"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:75375"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "inosine",
+    "metabolite_key": "KEGG:C00294",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00294"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:75375"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "inosine",
+    "metabolite_key": "KEGG:C00294",
+    "human_gene_id": "hsa:64078",
+    "gene_symbol": "SLC28A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00294"
+    ],
+    "uniprot_accessions": [
+      "Q9HAS3"
+    ],
+    "rhea_ids": [
+      "RHEA:69919"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "inosine",
+    "metabolite_key": "KEGG:C00294",
+    "human_gene_id": "hsa:9153",
+    "gene_symbol": "SLC28A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00294"
+    ],
+    "uniprot_accessions": [
+      "O43868"
+    ],
+    "rhea_ids": [
+      "RHEA:69931"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "inosine 5'-monophosphate (IMP)",
+    "metabolite_key": "KEGG:C00130",
+    "human_gene_id": "hsa:55186",
+    "gene_symbol": "SLC25A36",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00130"
+    ],
+    "uniprot_accessions": [
+      "Q96CQ1"
+    ],
+    "rhea_ids": [
+      "RHEA:73647"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "isoleucine",
+    "metabolite_key": "KEGG:C00407",
+    "human_gene_id": "hsa:11254",
+    "gene_symbol": "SLC6A14",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00407"
+    ],
+    "uniprot_accessions": [
+      "Q9UN76"
+    ],
+    "rhea_ids": [
+      "RHEA:71299"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "isoleucine",
+    "metabolite_key": "KEGG:C00407",
+    "human_gene_id": "hsa:124935",
+    "gene_symbol": "SLC43A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00407"
+    ],
+    "uniprot_accessions": [
+      "Q8N370"
+    ],
+    "rhea_ids": [
+      "RHEA:70943"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "isoleucine",
+    "metabolite_key": "KEGG:C00407",
+    "human_gene_id": "hsa:23428",
+    "gene_symbol": "SLC7A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00407"
+    ],
+    "uniprot_accessions": [
+      "Q9UHI5"
+    ],
+    "rhea_ids": [
+      "RHEA:71011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "isoleucine",
+    "metabolite_key": "KEGG:C00407",
+    "human_gene_id": "hsa:340024",
+    "gene_symbol": "SLC6A19",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00407"
+    ],
+    "uniprot_accessions": [
+      "Q695T7"
+    ],
+    "rhea_ids": [
+      "RHEA:29275"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "isoleucine",
+    "metabolite_key": "KEGG:C00407",
+    "human_gene_id": "hsa:55117",
+    "gene_symbol": "SLC6A15",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00407"
+    ],
+    "uniprot_accessions": [
+      "Q9H2J7"
+    ],
+    "rhea_ids": [
+      "RHEA:29275"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "isoleucine",
+    "metabolite_key": "KEGG:C00407",
+    "human_gene_id": "hsa:8140",
+    "gene_symbol": "SLC7A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00407"
+    ],
+    "uniprot_accessions": [
+      "Q01650"
+    ],
+    "rhea_ids": [
+      "RHEA:71011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "isoleucine",
+    "metabolite_key": "KEGG:C00407",
+    "human_gene_id": "hsa:8501",
+    "gene_symbol": "SLC43A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00407"
+    ],
+    "uniprot_accessions": [
+      "O75387"
+    ],
+    "rhea_ids": [
+      "RHEA:70943"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "kynurenine",
+    "metabolite_key": "KEGG:C00328",
+    "human_gene_id": "hsa:23657",
+    "gene_symbol": "SLC7A11",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00328"
+    ],
+    "uniprot_accessions": [
+      "Q9UPY5"
+    ],
+    "rhea_ids": [
+      "RHEA:71191"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "kynurenine",
+    "metabolite_key": "KEGG:C00328",
+    "human_gene_id": "hsa:8140",
+    "gene_symbol": "SLC7A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00328"
+    ],
+    "uniprot_accessions": [
+      "Q01650"
+    ],
+    "rhea_ids": [
+      "RHEA:71183"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:11136",
+    "gene_symbol": "SLC7A9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "P82251"
+    ],
+    "rhea_ids": [
+      "RHEA:71059"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:11254",
+    "gene_symbol": "SLC6A14",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q9UN76"
+    ],
+    "rhea_ids": [
+      "RHEA:71279"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:124565",
+    "gene_symbol": "SLC38A10",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q9HBR0"
+    ],
+    "rhea_ids": [
+      "RHEA:73011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:124935",
+    "gene_symbol": "SLC43A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q8N370"
+    ],
+    "rhea_ids": [
+      "RHEA:73011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:146167",
+    "gene_symbol": "SLC38A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "A6NNN8"
+    ],
+    "rhea_ids": [
+      "RHEA:73011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:153129",
+    "gene_symbol": "SLC38A9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q8NBW4"
+    ],
+    "rhea_ids": [
+      "RHEA:73011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:157724",
+    "gene_symbol": "SLC7A13",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q8TCU3"
+    ],
+    "rhea_ids": [
+      "RHEA:76319"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:23428",
+    "gene_symbol": "SLC7A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q9UHI5"
+    ],
+    "rhea_ids": [
+      "RHEA:71023",
+      "RHEA:71051",
+      "RHEA:71107",
+      "RHEA:73011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:340024",
+    "gene_symbol": "SLC6A19",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q695T7"
+    ],
+    "rhea_ids": [
+      "RHEA:29263"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:388662",
+    "gene_symbol": "SLC6A17",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q9H1V8"
+    ],
+    "rhea_ids": [
+      "RHEA:29263"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:54407",
+    "gene_symbol": "SLC38A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q96QD8"
+    ],
+    "rhea_ids": [
+      "RHEA:29263"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:55117",
+    "gene_symbol": "SLC6A15",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q9H2J7"
+    ],
+    "rhea_ids": [
+      "RHEA:29263"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:8140",
+    "gene_symbol": "SLC7A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q01650"
+    ],
+    "rhea_ids": [
+      "RHEA:71023",
+      "RHEA:71051",
+      "RHEA:71107",
+      "RHEA:86703",
+      "RHEA:86723",
+      "RHEA:86727",
+      "RHEA:86731",
+      "RHEA:86743",
+      "RHEA:86747"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:8501",
+    "gene_symbol": "SLC43A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "O75387"
+    ],
+    "rhea_ids": [
+      "RHEA:73011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:9056",
+    "gene_symbol": "SLC7A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q9UM01"
+    ],
+    "rhea_ids": [
+      "RHEA:70831",
+      "RHEA:74963",
+      "RHEA:74971"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:9057",
+    "gene_symbol": "SLC7A6",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q92536"
+    ],
+    "rhea_ids": [
+      "RHEA:70831"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "leucine",
+    "metabolite_key": "KEGG:C00123",
+    "human_gene_id": "hsa:9673",
+    "gene_symbol": "SLC25A44",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "uniprot_accessions": [
+      "Q96H78"
+    ],
+    "rhea_ids": [
+      "RHEA:73011"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "phosphoenolpyruvate (PEP)",
+    "metabolite_key": "KEGG:C00074",
+    "human_gene_id": "hsa:399512",
+    "gene_symbol": "SLC25A35",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00074"
+    ],
+    "uniprot_accessions": [
+      "Q3KQZ1"
+    ],
+    "rhea_ids": [
+      "RHEA:87311"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "phosphoenolpyruvate (PEP)",
+    "metabolite_key": "KEGG:C00074",
+    "human_gene_id": "hsa:6576",
+    "gene_symbol": "SLC25A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00074"
+    ],
+    "uniprot_accessions": [
+      "P53007"
+    ],
+    "rhea_ids": [
+      "RHEA:72487"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:120103",
+    "gene_symbol": "SLC36A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q6YBV0"
+    ],
+    "rhea_ids": [
+      "RHEA:73811"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:153201",
+    "gene_symbol": "SLC36A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q495M3"
+    ],
+    "rhea_ids": [
+      "RHEA:28963"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:206358",
+    "gene_symbol": "SLC36A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q7Z2H8"
+    ],
+    "rhea_ids": [
+      "RHEA:28963"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:388662",
+    "gene_symbol": "SLC6A17",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q9H1V8"
+    ],
+    "rhea_ids": [
+      "RHEA:28967"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:54407",
+    "gene_symbol": "SLC38A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q96QD8"
+    ],
+    "rhea_ids": [
+      "RHEA:28967"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:54716",
+    "gene_symbol": "SLC6A20",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q9NP91"
+    ],
+    "rhea_ids": [
+      "RHEA:71263"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:55089",
+    "gene_symbol": "SLC38A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q969I6"
+    ],
+    "rhea_ids": [
+      "RHEA:28967"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:55117",
+    "gene_symbol": "SLC6A15",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q9H2J7"
+    ],
+    "rhea_ids": [
+      "RHEA:28967"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:6509",
+    "gene_symbol": "SLC1A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "P43007"
+    ],
+    "rhea_ids": [
+      "RHEA:84351",
+      "RHEA:84371"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:6534",
+    "gene_symbol": "SLC6A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q99884"
+    ],
+    "rhea_ids": [
+      "RHEA:71263"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "proline",
+    "metabolite_key": "KEGG:C00148",
+    "human_gene_id": "hsa:81539",
+    "gene_symbol": "SLC38A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "uniprot_accessions": [
+      "Q9H2H9"
+    ],
+    "rhea_ids": [
+      "RHEA:28967"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:116843",
+    "gene_symbol": "SLC18B1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "Q6NT16"
+    ],
+    "rhea_ids": [
+      "RHEA:74295"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:222962",
+    "gene_symbol": "SLC29A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "Q7RTT9"
+    ],
+    "rhea_ids": [
+      "RHEA:73867"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:73867"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:6532",
+    "gene_symbol": "SLC6A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "P31645"
+    ],
+    "rhea_ids": [
+      "RHEA:75839"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:6570",
+    "gene_symbol": "SLC18A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "P54219"
+    ],
+    "rhea_ids": [
+      "RHEA:73743"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:6571",
+    "gene_symbol": "SLC18A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "Q05940"
+    ],
+    "rhea_ids": [
+      "RHEA:73743"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:6572",
+    "gene_symbol": "SLC18A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "Q16572"
+    ],
+    "rhea_ids": [
+      "RHEA:73743"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:6580",
+    "gene_symbol": "SLC22A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "O15245"
+    ],
+    "rhea_ids": [
+      "RHEA:73867"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:6581",
+    "gene_symbol": "SLC22A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "O75751"
+    ],
+    "rhea_ids": [
+      "RHEA:73867"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_key": "KEGG:C00780",
+    "human_gene_id": "hsa:6582",
+    "gene_symbol": "SLC22A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "uniprot_accessions": [
+      "O15244"
+    ],
+    "rhea_ids": [
+      "RHEA:73867"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_key": "KEGG:C00315",
+    "human_gene_id": "hsa:116843",
+    "gene_symbol": "SLC18B1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "uniprot_accessions": [
+      "Q6NT16"
+    ],
+    "rhea_ids": [
+      "RHEA:74267"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_key": "KEGG:C00315",
+    "human_gene_id": "hsa:23400",
+    "gene_symbol": "ATP13A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "uniprot_accessions": [
+      "Q9NQ11"
+    ],
+    "rhea_ids": [
+      "RHEA:29999"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_key": "KEGG:C00315",
+    "human_gene_id": "hsa:24145",
+    "gene_symbol": "PANX1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "uniprot_accessions": [
+      "Q96RD7"
+    ],
+    "rhea_ids": [
+      "RHEA:35039"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_key": "KEGG:C00315",
+    "human_gene_id": "hsa:57210",
+    "gene_symbol": "SLC45A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "uniprot_accessions": [
+      "Q5BKX6"
+    ],
+    "rhea_ids": [
+      "RHEA:35039"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_key": "KEGG:C00315",
+    "human_gene_id": "hsa:6580",
+    "gene_symbol": "SLC22A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "uniprot_accessions": [
+      "O15245"
+    ],
+    "rhea_ids": [
+      "RHEA:35039"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_key": "KEGG:C00315",
+    "human_gene_id": "hsa:6581",
+    "gene_symbol": "SLC22A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "uniprot_accessions": [
+      "O75751"
+    ],
+    "rhea_ids": [
+      "RHEA:35039"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_key": "KEGG:C00315",
+    "human_gene_id": "hsa:6582",
+    "gene_symbol": "SLC22A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "uniprot_accessions": [
+      "O15244"
+    ],
+    "rhea_ids": [
+      "RHEA:35039"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_key": "KEGG:C00315",
+    "human_gene_id": "hsa:85413",
+    "gene_symbol": "SLC22A16",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "uniprot_accessions": [
+      "Q86VW1"
+    ],
+    "rhea_ids": [
+      "RHEA:35039"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:23507",
+    "gene_symbol": "LRRC8B",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "Q6P9F7"
+    ],
+    "rhea_ids": [
+      "RHEA:66328"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:55144",
+    "gene_symbol": "LRRC8D",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "Q7L1W4"
+    ],
+    "rhea_ids": [
+      "RHEA:66328"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:56262",
+    "gene_symbol": "LRRC8A",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "Q8IWT6"
+    ],
+    "rhea_ids": [
+      "RHEA:66328"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:6533",
+    "gene_symbol": "SLC6A6",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "P31641"
+    ],
+    "rhea_ids": [
+      "RHEA:71223"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:6538",
+    "gene_symbol": "SLC6A11",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "P48066"
+    ],
+    "rhea_ids": [
+      "RHEA:71223"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:6540",
+    "gene_symbol": "SLC6A13",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "Q9NSD5"
+    ],
+    "rhea_ids": [
+      "RHEA:71223"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:80131",
+    "gene_symbol": "LRRC8E",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "Q6NSJ5"
+    ],
+    "rhea_ids": [
+      "RHEA:66328"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:84230",
+    "gene_symbol": "LRRC8C",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "Q8TDW0"
+    ],
+    "rhea_ids": [
+      "RHEA:66328"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "taurine",
+    "metabolite_key": "KEGG:C00245",
+    "human_gene_id": "hsa:9120",
+    "gene_symbol": "SLC16A6",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "uniprot_accessions": [
+      "O15403"
+    ],
+    "rhea_ids": [
+      "RHEA:66328"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "tyrosine",
+    "metabolite_key": "KEGG:C00082",
+    "human_gene_id": "hsa:11254",
+    "gene_symbol": "SLC6A14",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00082"
+    ],
+    "uniprot_accessions": [
+      "Q9UN76"
+    ],
+    "rhea_ids": [
+      "RHEA:71339"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "tyrosine",
+    "metabolite_key": "KEGG:C00082",
+    "human_gene_id": "hsa:117247",
+    "gene_symbol": "SLC16A10",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00082"
+    ],
+    "uniprot_accessions": [
+      "Q8TF71"
+    ],
+    "rhea_ids": [
+      "RHEA:68572"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "tyrosine",
+    "metabolite_key": "KEGG:C00082",
+    "human_gene_id": "hsa:153129",
+    "gene_symbol": "SLC38A9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00082"
+    ],
+    "uniprot_accessions": [
+      "Q8NBW4"
+    ],
+    "rhea_ids": [
+      "RHEA:68572"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "tyrosine",
+    "metabolite_key": "KEGG:C00082",
+    "human_gene_id": "hsa:157724",
+    "gene_symbol": "SLC7A13",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00082"
+    ],
+    "uniprot_accessions": [
+      "Q8TCU3"
+    ],
+    "rhea_ids": [
+      "RHEA:76331"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "tyrosine",
+    "metabolite_key": "KEGG:C00082",
+    "human_gene_id": "hsa:28232",
+    "gene_symbol": "SLCO3A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00082"
+    ],
+    "uniprot_accessions": [
+      "Q9UIG8"
+    ],
+    "rhea_ids": [
+      "RHEA:68572"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "tyrosine",
+    "metabolite_key": "KEGG:C00082",
+    "human_gene_id": "hsa:340024",
+    "gene_symbol": "SLC6A19",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00082"
+    ],
+    "uniprot_accessions": [
+      "Q695T7"
+    ],
+    "rhea_ids": [
+      "RHEA:68248"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "tyrosine",
+    "metabolite_key": "KEGG:C00082",
+    "human_gene_id": "hsa:8140",
+    "gene_symbol": "SLC7A5",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00082"
+    ],
+    "uniprot_accessions": [
+      "Q01650"
+    ],
+    "rhea_ids": [
+      "RHEA:86707",
+      "RHEA:86723"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uracil",
+    "metabolite_key": "KEGG:C00106",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00106"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:69404"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uracil",
+    "metabolite_key": "KEGG:C00106",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00106"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:69404"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uracil",
+    "metabolite_key": "KEGG:C00106",
+    "human_gene_id": "hsa:366",
+    "gene_symbol": "AQP9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00106"
+    ],
+    "uniprot_accessions": [
+      "O43315"
+    ],
+    "rhea_ids": [
+      "RHEA:69404"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uracil",
+    "metabolite_key": "KEGG:C00106",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00106"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:69404"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:10050",
+    "gene_symbol": "SLC17A4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q9Y2C5"
+    ],
+    "rhea_ids": [
+      "RHEA:72319"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:10246",
+    "gene_symbol": "SLC17A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "O00624"
+    ],
+    "rhea_ids": [
+      "RHEA:72319"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:10257",
+    "gene_symbol": "ABCC4",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "O15439"
+    ],
+    "rhea_ids": [
+      "RHEA:16461"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:10786",
+    "gene_symbol": "SLC17A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "O00476"
+    ],
+    "rhea_ids": [
+      "RHEA:72383"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:10864",
+    "gene_symbol": "SLC22A7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q9Y694"
+    ],
+    "rhea_ids": [
+      "RHEA:60368"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:116085",
+    "gene_symbol": "SLC22A12",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q96S37"
+    ],
+    "rhea_ids": [
+      "RHEA:72003",
+      "RHEA:72023",
+      "RHEA:72319"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:60368"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:60368"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:6514",
+    "gene_symbol": "SLC2A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "P11168"
+    ],
+    "rhea_ids": [
+      "RHEA:60368"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:6568",
+    "gene_symbol": "SLC17A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q14916"
+    ],
+    "rhea_ids": [
+      "RHEA:60368"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:9376",
+    "gene_symbol": "SLC22A8",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q8TCC7"
+    ],
+    "rhea_ids": [
+      "RHEA:72403",
+      "RHEA:72551"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:9429",
+    "gene_symbol": "ABCG2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q9UNQ0"
+    ],
+    "rhea_ids": [
+      "RHEA:16461"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urate",
+    "metabolite_key": "KEGG:C00366",
+    "human_gene_id": "hsa:9963",
+    "gene_symbol": "SLC23A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "uniprot_accessions": [
+      "Q9UHI7"
+    ],
+    "rhea_ids": [
+      "RHEA:76339"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urea",
+    "metabolite_key": "KEGG:C00086",
+    "human_gene_id": "hsa:360",
+    "gene_symbol": "AQP3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00086"
+    ],
+    "uniprot_accessions": [
+      "Q92482"
+    ],
+    "rhea_ids": [
+      "RHEA:32799"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urea",
+    "metabolite_key": "KEGG:C00086",
+    "human_gene_id": "hsa:364",
+    "gene_symbol": "AQP7",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00086"
+    ],
+    "uniprot_accessions": [
+      "O14520"
+    ],
+    "rhea_ids": [
+      "RHEA:32799"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urea",
+    "metabolite_key": "KEGG:C00086",
+    "human_gene_id": "hsa:366",
+    "gene_symbol": "AQP9",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00086"
+    ],
+    "uniprot_accessions": [
+      "O43315"
+    ],
+    "rhea_ids": [
+      "RHEA:32799"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urea",
+    "metabolite_key": "KEGG:C00086",
+    "human_gene_id": "hsa:6563",
+    "gene_symbol": "SLC14A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00086"
+    ],
+    "uniprot_accessions": [
+      "Q13336"
+    ],
+    "rhea_ids": [
+      "RHEA:32799"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urea",
+    "metabolite_key": "KEGG:C00086",
+    "human_gene_id": "hsa:8170",
+    "gene_symbol": "SLC14A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00086"
+    ],
+    "uniprot_accessions": [
+      "Q15849"
+    ],
+    "rhea_ids": [
+      "RHEA:32799"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "urea",
+    "metabolite_key": "KEGG:C00086",
+    "human_gene_id": "hsa:89872",
+    "gene_symbol": "AQP10",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": false,
+    "compound_hypotheses": [
+      "C00086"
+    ],
+    "uniprot_accessions": [
+      "Q96PS8"
+    ],
+    "rhea_ids": [
+      "RHEA:32799"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine",
+    "metabolite_key": "KEGG:C00299",
+    "human_gene_id": "hsa:2030",
+    "gene_symbol": "SLC29A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00299"
+    ],
+    "uniprot_accessions": [
+      "Q99808"
+    ],
+    "rhea_ids": [
+      "RHEA:71519"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine",
+    "metabolite_key": "KEGG:C00299",
+    "human_gene_id": "hsa:3177",
+    "gene_symbol": "SLC29A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00299"
+    ],
+    "uniprot_accessions": [
+      "Q14542"
+    ],
+    "rhea_ids": [
+      "RHEA:71519"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine",
+    "metabolite_key": "KEGG:C00299",
+    "human_gene_id": "hsa:55315",
+    "gene_symbol": "SLC29A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00299"
+    ],
+    "uniprot_accessions": [
+      "Q9BZD2"
+    ],
+    "rhea_ids": [
+      "RHEA:71519"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine",
+    "metabolite_key": "KEGG:C00299",
+    "human_gene_id": "hsa:64078",
+    "gene_symbol": "SLC28A3",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00299"
+    ],
+    "uniprot_accessions": [
+      "Q9HAS3"
+    ],
+    "rhea_ids": [
+      "RHEA:69907"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine",
+    "metabolite_key": "KEGG:C00299",
+    "human_gene_id": "hsa:9153",
+    "gene_symbol": "SLC28A2",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00299"
+    ],
+    "uniprot_accessions": [
+      "O43868"
+    ],
+    "rhea_ids": [
+      "RHEA:69887"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine",
+    "metabolite_key": "KEGG:C00299",
+    "human_gene_id": "hsa:9154",
+    "gene_symbol": "SLC28A1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00299"
+    ],
+    "uniprot_accessions": [
+      "O00337"
+    ],
+    "rhea_ids": [
+      "RHEA:69887"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine 5'-diphosphate (UDP)",
+    "metabolite_key": "KEGG:C00015",
+    "human_gene_id": "hsa:10237",
+    "gene_symbol": "SLC35B1",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00015"
+    ],
+    "uniprot_accessions": [
+      "P78383"
+    ],
+    "rhea_ids": [
+      "RHEA:73707"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine 5'-diphosphate (UDP)",
+    "metabolite_key": "KEGG:C00015",
+    "human_gene_id": "hsa:55186",
+    "gene_symbol": "SLC25A36",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00015"
+    ],
+    "uniprot_accessions": [
+      "Q96CQ1"
+    ],
+    "rhea_ids": [
+      "RHEA:73583"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  },
+  {
+    "dataset": "COAD",
+    "feature_name": "uridine 5'-diphosphate (UDP)",
+    "metabolite_key": "KEGG:C00015",
+    "human_gene_id": "hsa:84275",
+    "gene_symbol": "SLC25A33",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "no_current_identity_hold": true,
+    "has_experimental_annotation": true,
+    "compound_hypotheses": [
+      "C00015"
+    ],
+    "uniprot_accessions": [
+      "Q9BSK2"
+    ],
+    "rhea_ids": [
+      "RHEA:73515"
+    ],
+    "ready_for_patient_testing": false,
+    "relationship": "DIRECT_TRANSPORT_REACTION_ANNOTATION"
+  }
+]

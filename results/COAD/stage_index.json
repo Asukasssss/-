@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "cancer": "COAD",
+  "owner": "B",
+  "stages": [
+    {
+      "stage_id": "01_effects",
+      "title_cn": "效应记录整理",
+      "stage_status": "DONE",
+      "latest_batch": "20260919_B_v1",
+      "batch_status": "DONE",
+      "path": "results/COAD/01_effects/20260919_B_v1"
+    },
+    {
+      "stage_id": "02_identity",
+      "title_cn": "代谢物身份核对",
+      "stage_status": "IN_PROGRESS",
+      "latest_batch": "20260919_B_v1",
+      "batch_status": "DONE",
+      "path": "results/COAD/02_identity/20260919_B_v1"
+    },
+    {
+      "stage_id": "03_mapping",
+      "title_cn": "直接生化关系映射",
+      "stage_status": "IN_PROGRESS",
+      "latest_batch": "20260919_B_v1",
+      "batch_status": "DONE",
+      "path": "results/COAD/03_mapping/20260919_B_v1"
+    },
+    {
+      "stage_id": "04_patient",
+      "title_cn": "样本与患者关联",
+      "stage_status": "ACCESS_BLOCKED",
+      "latest_batch": null,
+      "batch_status": null,
+      "path": null
+    },
+    {
+      "stage_id": "05_function",
+      "title_cn": "功能证据与反证",
+      "stage_status": "NOT_RUN",
+      "latest_batch": null,
+      "batch_status": null,
+      "path": null
+    },
+    {
+      "stage_id": "06_external",
+      "title_cn": "外部证据核查",
+      "stage_status": "NOT_RUN",
+      "latest_batch": null,
+      "batch_status": null,
+      "path": null
+    },
+    {
+      "stage_id": "07_prioritization",
+      "title_cn": "候选比较与分层",
+      "stage_status": "NOT_RUN",
+      "latest_batch": null,
+      "batch_status": null,
+      "path": null
+    },
+    {
+      "stage_id": "08_followup",
+      "title_cn": "重点候选深入",
+      "stage_status": "NOT_RUN",
+      "latest_batch": null,
+      "batch_status": null,
+      "path": null
+    }
+  ]
+}

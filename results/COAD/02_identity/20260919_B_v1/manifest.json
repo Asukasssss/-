@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "README_CN.md",
+      "bytes": 1241,
+      "sha256": "50f51bedaf9edba30c35bd41275b0a61813202f5a4a019d143fc7567c6211ee2"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1834,
+      "sha256": "702cae4099c2a09c72fe635e53fd3b7d53db895a41efb3c14c9b64805d690dc6"
+    },
+    {
+      "path": "records.json",
+      "bytes": 156256,
+      "sha256": "fa1a7928ac4c3893031b63ee28aa3ee7a171f4a7583b5a2aafa2ce4045b59c92"
+    }
+  ]
+}

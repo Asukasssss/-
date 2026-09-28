@@ -1,0 +1,17 @@
+file	n	id	Type	Treatment	group1	group2	included	reason
+STmetadata_CRCP24_T.csv	13909	CRCP24_T	dMMR	pd1	dR	dR	False	Treatment stratum excluded from this batch
+STmetadata_CRCP25_T.csv	18035	CRCP25_T	dMMR	pd1	dR	dR	False	Treatment stratum excluded from this batch
+STmetadata_CRCP50_T.csv	14106	CRCP50_T	pMMR	naive	pMMR	pMMR	True	Untreated section
+STmetadata_CRCP55_T.csv	18130	CRCP55_T	pMMR	naive	pMMR	pMMR	True	Untreated section
+STmetadata_CRCP56_T.csv	22871	CRCP56_T	dMMR	naive	dMMR	dMMR	True	Untreated section
+STmetadata_CRCP59_T.csv	15598	CRCP59_T	pMMR	naive	pMMR	pMMR	True	Untreated section
+STmetadata_CRCP59_T_2.csv	26382	CRCP59_T_2	pMMR	naive	pMMR	pMMR	True	Untreated section
+STmetadata_CRCP61_T.csv	12080	CRCP61_T	dMMR	pd1	dR	dR	False	Treatment stratum excluded from this batch
+STmetadata_CRCP67_T.csv	20044	CRCP67_T	pMMR	naive	pMMR	pMMR	True	Untreated section
+STmetadata_CRCP71_T.csv	3150	CRCP71_T	pMMR	naive	pMMR	pMMR	True	Untreated section
+STmetadata_CRCP95_T.csv	11455	CRCP95_T	dMMR	pd1	dNR	dNR	False	Treatment stratum excluded from this batch
+STmetadata_CRCP99_T.csv	1227	CRCP99_T	dMMR	naive	dMMR	dMMR	True	Untreated section
+STmetadata_CRCP100_T.csv	723	CRCP100_T	dMMR	naive	dMMR	dMMR	True	Untreated section
+STmetadata_CRCP107_T.csv	4842	CRCP107_T	dMMR	naive	dMMR	dMMR	True	Untreated section
+STmetadata_CRCP112_T.csv	14484	CRCP112_T	dMMR	pd1	dPR	dR	False	Treatment stratum excluded from this batch
+STmetadata_CRCP104_T.csv	8326	CRCP104_T	dMMR	pd1	dNR	dNR	False	Treatment stratum excluded from this batch

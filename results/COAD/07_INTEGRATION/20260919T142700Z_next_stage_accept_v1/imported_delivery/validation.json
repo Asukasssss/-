@@ -1,0 +1,29 @@
+{
+  "scope": "COAD reviewed nominal35 versus BRCA full117, not COAD all458",
+  "coad_genes": 35,
+  "brca_genes": 117,
+  "brca_relations": 174,
+  "shared_genes": [
+    "BCAT2",
+    "NNMT",
+    "SLC6A6",
+    "UPP2"
+  ],
+  "priority9_shared": [
+    "BCAT2",
+    "SLC6A6"
+  ],
+  "patient_statistics_run": false,
+  "limitation": "Validates supplied field extracts, not original source bytes or patient statistics.",
+  "workbook_formula_errors": 0,
+  "workbook_summary_values": [
+    35,
+    117,
+    4,
+    2,
+    3
+  ],
+  "source_bytes_revalidated": false,
+  "covariate_status": "DRAFT_NOT_RUN",
+  "repository_write_performed": false
+}

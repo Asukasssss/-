@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "counts": {
+    "metabolites": 159,
+    "workpool": 101,
+    "relations": 891,
+    "genes": 811,
+    "current_genes": 526
+  },
+  "input_commit": "3c64c24ec171b2753b0226fdd5aafb7766e45b00",
+  "new_P_q": 0,
+  "raw_patient_data_used": false,
+  "report_pages": 15,
+  "new_figures": 79,
+  "reused_assets": 0,
+  "appendix_tables_preserved": true,
+  "text_boxes_fit": true,
+  "modules": {
+    "rna": "DONE",
+    "subtypes": "NOT_EVALUABLE",
+    "single_cell": "DONE",
+    "umap": "NOT_EVALUABLE"
+  },
+  "visual_review": "PASS: all 15 report pages and 18 sheet previews; first/middle/last pages of each 32-page atlas reviewed",
+  "cross_cancer_real_data_validation": "NOT_RUN"
+}

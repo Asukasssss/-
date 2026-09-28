@@ -1,0 +1,41 @@
+{
+  "analysis_version": "COAD_relation39_feasibility_v1",
+  "run_id": "20260920T105400Z_relation39_feasibility_v1",
+  "scope": "All39 existing relationships,35 genes,23 metabolites; no additional expression screen",
+  "source_table": "results/COAD/06_EXTERNAL/20260920T091100Z_cell_paired35_v1/relations39_integrated.tsv",
+  "focus_genes": [
+    "AQP9",
+    "ENO2",
+    "ASPA",
+    "B4GALT2",
+    "ICMT"
+  ],
+  "new_function_scope": "Targeted original-source verification for focus5; inherited evidence reviewed as recorded for other30 genes, not a new systematic literature search",
+  "dataset_scope": "Nine screened study/source records; finite feasibility search, not exhaustive evidence of worldwide absence",
+  "independent_association_gate": [
+    "Independent of original CAMP/GSE89076 patients",
+    "Same patient and exact tumor specimen/aliquot pairing across modalities",
+    "Human primary colon tumor, rectal cases separable",
+    "Exact metabolite identity and actual feature coverage",
+    "Gene-specific RNA/protein coverage",
+    "Processed per-specimen data and explicit replicate mapping",
+    "Prelocked eligible relationship family before tests"
+  ],
+  "mechanism_questions": [
+    "Does exact-gene manipulation change the exact metabolite or its uptake/flux?",
+    "Does manipulation of that metabolite mediate or rescue the phenotype?",
+    "Do cell type, compartment, treatment and genotype match the hypothesis?"
+  ],
+  "unchanged": [
+    "CAMP and M0/M1/M2 P/q",
+    "all974 candidates",
+    "39 relation keys/order",
+    "9/21/5 arrangement",
+    "completed source and paired-expression batches"
+  ],
+  "new_statistical_tests": false,
+  "literature_cutoff": "2026-09-20",
+  "server_status": "ACCESS_BLOCKED: two connection timeouts; supplementary DOCX not downloaded or inspected",
+  "privacy": "No raw or individual data on local/GitHub; server-only supplementary audit script prepared but NOT_RUN",
+  "search_limitations": "Publisher/PMC browser challenges; source depth recorded per row; no author contact sent"
+}

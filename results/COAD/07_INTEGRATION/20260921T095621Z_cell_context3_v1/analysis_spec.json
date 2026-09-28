@@ -1,0 +1,17 @@
+{
+  "analysis_version": "COAD_cell_context3_v1",
+  "run_id": "20260921T095621Z_cell_context3_v1",
+  "operation": "append context columns only",
+  "statistical_unit": "Not applicable: existing public aggregate integration",
+  "new_tests": false,
+  "family": "NA",
+  "seed": null,
+  "source_comparison": "Original labels retained;no subtype harmonization or majority vote",
+  "integral": "RNA and protein independently gated;shared metabolome source gate retained",
+  "invariants": [
+    "original39 field strings and row order",
+    "974 candidates",
+    "9/21/5",
+    "all historical P/q"
+  ]
+}

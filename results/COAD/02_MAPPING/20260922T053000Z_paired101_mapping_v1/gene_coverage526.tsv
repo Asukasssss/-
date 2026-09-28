@@ -1,0 +1,527 @@
+human_gene_id	gene	direct_relations	metabolites	legacy_RNA_status	prior_35gene_scRNA_panel	current_RNA_analysis	current_scRNA_analysis
+hsa:100	ADA	2	adenosine;inosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:10005	ACOT8	4	3-hydroxy-3-methylglutarate;malonate;sebacate (decanedioate);succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:10020	GNE	2	UDP-N-acetylglucosamine;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10050	SLC17A4	1	urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:10056	FARSB	1	phenylalanine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:10057	ABCC5	2	N-acetylaspartate (NAA);N-acetylglutamate	DONE	False	NOT_RUN	NOT_RUN
+hsa:10201	NME6	1	uridine 5'-diphosphate (UDP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:10237	SLC35B1	1	uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10246	SLC17A2	1	urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:10257	ABCC4	2	glutathione, reduced (GSH);urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:10314	LANCL1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10331	B3GNT3	2	UDP-N-acetylglucosamine;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10390	CEPT1	2	cytidine 5'-diphosphocholine;cytidine 5'-monophosphate (5'-CMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10400	PEMT	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10423	CDIPT	1	cytidine 5'-monophosphate (5'-CMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:10434	LYPLA1	1	glycerophosphorylcholine (GPC)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:10559	SLC35A1	2	cytidine 5'-monophosphate (5'-CMP);uridine 5'-monophosphate (UMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:10667	FARS2	1	phenylalanine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:10678	B3GNT2	2	UDP-N-acetylglucosamine;uridine 5'-diphosphate (UDP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:10720	UGT2B11	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10786	SLC17A3	1	urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:10825	NEU3	1	N-acetylneuraminate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:10864	SLC22A7	4	creatinine;guanosine;guanosine 5'- diphosphate (GDP);urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:10908	PNPLA6	1	glycerophosphorylcholine (GPC)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10941	UGT2A1	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:10991	SLC38A3	2	asparagine;glutamine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:10993	SDS	1	threonine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:1103	CHAT	1	acetylcholine	DONE	False	NOT_RUN	NOT_RUN
+hsa:11046	SLC35D2	3	UDP-N-acetylglucosamine;UDP-glucose;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:11136	SLC7A9	2	leucine;phenylalanine	DONE	False	NOT_RUN	NOT_RUN
+hsa:11185	INMT	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:11254	SLC6A14	8	asparagine;beta-alanine;glutamine;isoleucine;leucine;phenylalanine;threonine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:112849	L3HYPDH	1	3-hydroxyproline	DONE	False	NOT_RUN	NOT_RUN
+hsa:11313	LYPLA2	1	glycerophosphorylcholine (GPC)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:113675	SDSL	1	threonine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:115024	NT5C3B	1	cytidine 5'-monophosphate (5'-CMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:115111	SLC26A7	1	gluconate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:1152	CKB	1	creatine	DONE	False	NOT_RUN	NOT_RUN
+hsa:115286	SLC25A26	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:115584	SLC5A11	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:1158	CKM	1	creatine	DONE	False	NOT_RUN	NOT_RUN
+hsa:1159	CKMT1B	1	creatine	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:1160	CKMT2	1	creatine	DONE	False	NOT_RUN	NOT_RUN
+hsa:116085	SLC22A12	1	urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:116843	SLC18B1	2	serotonin (5HT);spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:117247	SLC16A10	2	phenylalanine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:1192	CLIC1	1	glutathione, reduced (GSH)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:1193	CLIC2	1	glutathione, reduced (GSH)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:119391	GSTO2	1	glutathione, reduced (GSH)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:120103	SLC36A4	1	proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:121260	SLC15A4	1	carnosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:122622	ADSS1	3	adenylosuccinate;guanosine 5'- diphosphate (GDP);inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:123283	TARS3	1	threonine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:123688	HYKK	2	5-hydroxylysine;guanosine 5'- diphosphate (GDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:124565	SLC38A10	2	glutamine;leucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:124583	CANT1	4	guanosine 5'- diphosphate (GDP);inosine 5'-monophosphate (IMP);uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:124935	SLC43A2	3	isoleucine;leucine;phenylalanine	DONE	False	NOT_RUN	NOT_RUN
+hsa:124975	GGT6	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:125061	AFMID	1	kynurenine	DONE	False	NOT_RUN	NOT_RUN
+hsa:129607	CMPK2	1	cytidine 5'-monophosphate (5'-CMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:129807	NEU4	1	N-acetylneuraminate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:1312	COMT	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:131870	NUDT16	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:132	ADK	1	adenosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:132158	GLYCTK	1	3PG	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:138199	CARNMT1	3	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM);carnosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:140679	SLC32A1	1	beta-alanine	DONE	False	NOT_RUN	NOT_RUN
+hsa:140838	NANP	1	N-acetylneuraminate	DONE	False	NOT_RUN	NOT_RUN
+hsa:1431	CS	1	citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:144110	TMEM86A	1	glycerophosphorylcholine (GPC)	DONE	False	NOT_RUN	NOT_RUN
+hsa:144195	SLC2A14	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:144811	LACC1	7	5-methylthioadenosine (MTA);adenine;adenosine;guanine;guanosine;hypoxanthine;inosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:145389	SLC38A6	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:146167	SLC38A8	2	glutamine;leucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:1468	SLC25A10	2	malonate;succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:146802	SLC47A2	1	creatinine	DONE	False	NOT_RUN	NOT_RUN
+hsa:1503	CTPS1	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:151056	PLB1	1	glycerophosphorylcholine (GPC)	DONE	False	NOT_RUN	NOT_RUN
+hsa:151531	UPP2	2	uracil;uridine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:153129	SLC38A9	4	asparagine;glutamine;leucine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:153201	SLC36A2	2	beta-alanine;proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:154091	SLC2A12	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:155184	SLC2A7	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:157724	SLC7A13	4	glutamine;leucine;phenylalanine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:158	ADSL	1	adenylosuccinate	DONE	False	NOT_RUN	NOT_RUN
+hsa:159	ADSS2	3	adenylosuccinate;guanosine 5'- diphosphate (GDP);inosine 5'-monophosphate (IMP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:160728	SLC5A8	3	3-hydroxybutyrate (BHBA);4-methyl-2-oxopentanoate;5-oxoproline	DONE	False	NOT_RUN	NOT_RUN
+hsa:162417	NAGS	1	N-acetylglutamate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:1644	DDC	1	serotonin (5HT)	DONE	False	NOT_RUN	NOT_RUN
+hsa:171586	ABHD3	2	azelate (nonanedioate);pelargonate (9:0)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:1798	DPAGT1	2	UDP-N-acetylglucosamine;uridine 5'-monophosphate (UMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:1806	DPYD	1	uracil	DONE	False	NOT_RUN	NOT_RUN
+hsa:191	AHCY	2	S-adenosylhomocysteine (SAH);adenosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:196743	PAOX	1	spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:197257	LDHD	1	4-methyl-2-oxopentanoate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:197322	ACSF3	1	malonate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2023	ENO1	2	2-phosphoglycerate;phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2026	ENO2	2	2-phosphoglycerate;phosphoenolpyruvate (PEP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:2027	ENO3	2	2-phosphoglycerate;phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2030	SLC29A1	8	adenine;adenosine;guanine;guanosine;hypoxanthine;inosine;uracil;uridine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:205	AK4	3	cytidine 5'-monophosphate (5'-CMP);guanosine 5'- diphosphate (GDP);uridine 5'-diphosphate (UDP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2058	EPRS1	1	proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:206358	SLC36A1	2	beta-alanine;proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:2098	ESD	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2166	FAAH	1	taurine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:217	ALDH2	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:219	ALDH1B1	1	pelargonate (9:0)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2193	FARSA	1	phenylalanine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:220074	LRTOMT	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:220963	SLC16A9	1	creatine	DONE	False	NOT_RUN	NOT_RUN
+hsa:221	ALDH3B1	1	pelargonate (9:0)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:221264	AK9	3	cytidine 5'-monophosphate (5'-CMP);guanosine 5'- diphosphate (GDP);uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:221357	GSTA5	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:222962	SLC29A4	3	adenosine;histamine;serotonin (5HT)	DONE	False	NOT_RUN	NOT_RUN
+hsa:223	ALDH9A1	1	deoxycarnitine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:226	ALDOA	1	dihydroxyacetone phosphate (DHAP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:229	ALDOB	1	dihydroxyacetone phosphate (DHAP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:22978	NT5C2	7	adenosine;cytidine 5'-monophosphate (5'-CMP);guanosine;inosine;inosine 5'-monophosphate (IMP);uridine;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:230	ALDOC	1	dihydroxyacetone phosphate (DHAP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:23169	SLC35D1	4	UDP-N-acetylglucosamine;UDP-glucose;UDP-glucuronate;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:23171	GPD1L	1	dihydroxyacetone phosphate (DHAP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2326	FMO1	2	hypotaurine;taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:2328	FMO3	2	hypotaurine;taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:23395	LARS2	1	leucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:23400	ATP13A2	1	spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:23428	SLC7A8	4	glutamine;isoleucine;leucine;phenylalanine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:23443	SLC35A3	2	UDP-N-acetylglucosamine;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:23474	ETHE1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:23507	LRRC8B	1	taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:23657	SLC7A11	1	kynurenine	DONE	False	NOT_RUN	NOT_RUN
+hsa:23659	PLA2G15	1	glycerophosphorylcholine (GPC)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:24145	PANX1	2	gluconate;spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:253512	SLC25A30	2	malonate;succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2538	G6PC1	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:255043	TMEM86B	1	glycerophosphorylcholine (GPC)	DONE	False	NOT_RUN	NOT_RUN
+hsa:256435	ST6GALNAC3	1	cytidine 5'-monophosphate (5'-CMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:257202	GPX6	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:25774	GSTT4	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:25796	PGLS	1	6-phosphogluconate	DONE	False	NOT_RUN	NOT_RUN
+hsa:2582	GALE	2	UDP-N-acetylglucosamine;UDP-glucose	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2583	B4GALNT1	1	uridine 5'-diphosphate (UDP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2592	GALT	1	UDP-glucose	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2593	GAMT	4	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM);creatine;guanidinoacetate	DONE	False	NOT_RUN	NOT_RUN
+hsa:259307	IL4I1	2	phenylalanine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:25973	PARS2	1	proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:26	AOC1	2	1-methylhistamine;histamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:26007	TKFC	1	dihydroxyacetone phosphate (DHAP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:262	AMD1	1	S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:26227	PHGDH	1	3PG	DONE	False	NOT_RUN	NOT_RUN
+hsa:2628	GATM	3	beta-alanine;guanidinoacetate;taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:2629	GBA1	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:2645	GCK	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:26503	SLC17A5	2	N-acetylneuraminate;glucuronate	DONE	False	NOT_RUN	NOT_RUN
+hsa:2673	GFPT1	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:2678	GGT1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2683	B4GALT1	2	glucose;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2686	GGT7	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2687	GGT5	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:26873	OPLAH	1	5-oxoproline	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:270	AMPD1	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:27090	ST6GALNAC4	1	cytidine 5'-monophosphate (5'-CMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:271	AMPD2	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:27165	GLS2	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:272	AMPD3	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:27232	GNMT	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:27306	HPGDS	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2739	GLO1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2744	GLS	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:2752	GLUL	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:2766	GMPR	1	inosine 5'-monophosphate (IMP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:2806	GOT2	1	kynurenine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2819	GPD1	1	dihydroxyacetone phosphate (DHAP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2820	GPD2	1	dihydroxyacetone phosphate (DHAP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:28232	SLCO3A1	2	phenylalanine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:283209	PGM2L1	1	3PG	DONE	False	NOT_RUN	NOT_RUN
+hsa:283238	SLC22A24	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:284111	SLC13A5	1	citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:284716	RIMKLA	1	N-acetylaspartate (NAA)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2876	GPX1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2877	GPX2	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2878	GPX3	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2879	GPX4	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2880	GPX5	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:29015	SLC43A3	3	adenine;guanine;hypoxanthine	DONE	False	NOT_RUN	NOT_RUN
+hsa:2936	GSR	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2937	GSS	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2938	GSTA1	1	glutathione, reduced (GSH)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:2939	GSTA2	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2940	GSTA3	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2941	GSTA4	1	glutathione, reduced (GSH)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:2944	GSTM1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2946	GSTM2	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2947	GSTM3	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2948	GSTM4	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2949	GSTM5	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2950	GSTP1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2952	GSTT1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2953	GSTT2	1	glutathione, reduced (GSH)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:2987	GUK1	1	guanosine 5'- diphosphate (GDP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:29880	ALG5	2	UDP-glucose;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2990	GUSB	1	glucuronate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:2992	GYG1	2	UDP-glucose;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:29920	PYCR2	1	proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:2997	GYS1	2	UDP-glucose;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:2998	GYS2	2	UDP-glucose;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:29988	SLC2A8	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:3029	HAGH	1	glutathione, reduced (GSH)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:3067	HDC	1	histamine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:30833	NT5C	4	inosine;inosine 5'-monophosphate (IMP);uridine;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:3098	HK1	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:3099	HK2	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:3101	HK3	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:3176	HNMT	4	1-methylhistamine;S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM);histamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:3177	SLC29A2	9	adenine;adenosine;guanine;guanosine;hypoxanthine;inosine;uracil;urate;uridine	DONE	False	NOT_RUN	NOT_RUN
+hsa:3251	HPRT1	3	guanine;hypoxanthine;inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:3376	IARS1	1	isoleucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:339896	GADL1	3	beta-alanine;hypotaurine;taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:339983	NAT8L	1	N-acetylaspartate (NAA)	DONE	False	NOT_RUN	NOT_RUN
+hsa:340024	SLC6A19	5	glutamine;isoleucine;leucine;phenylalanine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:340146	SLC35D3	1	UDP-glucose	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:353	APRT	1	adenine	DONE	False	NOT_RUN	NOT_RUN
+hsa:360	AQP3	1	urea	DONE	False	NOT_RUN	NOT_RUN
+hsa:3614	IMPDH1	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:3615	IMPDH2	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:364	AQP7	1	urea	DONE	False	NOT_RUN	NOT_RUN
+hsa:366	AQP9	3	adenine;uracil;urea	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:3704	ITPA	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:373156	GSTK1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:374659	HDDC3	1	guanosine 5'- diphosphate (GDP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:375775	PNPLA7	1	glycerophosphorylcholine (GPC)	DONE	False	NOT_RUN	NOT_RUN
+hsa:377841	ENTPD8	2	uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:383	ARG1	1	urea	DONE	False	NOT_RUN	NOT_RUN
+hsa:384	ARG2	1	urea	DONE	False	NOT_RUN	NOT_RUN
+hsa:387712	ENO4	2	2-phosphoglycerate;phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:388662	SLC6A17	3	glutamine;leucine;proline	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:3938	LCT	1	glucose	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:399512	SLC25A35	1	phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4056	LTC4S	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4128	MAOA	1	serotonin (5HT)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4143	MAT1A	1	S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:414328	IDNK	2	6-phosphogluconate;gluconate	DONE	False	NOT_RUN	NOT_RUN
+hsa:4144	MAT2A	1	S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4257	MGST1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4258	MGST2	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4259	MGST3	1	glutathione, reduced (GSH)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:43	ACHE	1	acetylcholine	DONE	False	NOT_RUN	NOT_RUN
+hsa:4337	MOCS1	1	S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4363	ABCC1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:438	ASMT	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:440	ASNS	2	asparagine;glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:441531	PGAM4	2	2-phosphoglycerate;3PG	DONE	False	NOT_RUN	NOT_RUN
+hsa:443	ASPA	1	N-acetylaspartate (NAA)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:4507	MTAP	2	5-methylthioadenosine (MTA);adenine	DONE	False	NOT_RUN	NOT_RUN
+hsa:4677	NARS1	1	asparagine	DONE	False	NOT_RUN	NOT_RUN
+hsa:47	ACLY	1	citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:471	ATIC	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4759	NEU2	1	N-acetylneuraminate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:48	ACO1	1	citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:4830	NME1	2	guanosine 5'- diphosphate (GDP);uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4831	NME2	2	guanosine 5'- diphosphate (GDP);uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4832	NME3	2	guanosine 5'- diphosphate (GDP);uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4833	NME4	2	guanosine 5'- diphosphate (GDP);uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:4837	NNMT	3	1-methylnicotinamide;S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:4860	PNP	4	guanine;guanosine;hypoxanthine;inosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:4907	NT5E	7	adenosine;cytidine 5'-monophosphate (5'-CMP);guanosine;inosine;inosine 5'-monophosphate (IMP);uridine;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:494143	CHAC2	2	5-oxoproline;glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:50	ACO2	1	citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:501	ALDH7A1	2	betaine;pelargonate (9:0)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:5019	OXCT1	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:5053	PAH	2	phenylalanine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:50651	SLC45A1	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:50808	AK3	1	guanosine 5'- diphosphate (GDP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:51005	AMDHD2	1	N-acetylglucosamine 6-phosphate	DONE	False	NOT_RUN	NOT_RUN
+hsa:5105	PCK1	2	guanosine 5'- diphosphate (GDP);phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:5106	PCK2	2	guanosine 5'- diphosphate (GDP);phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:51067	YARS2	1	tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:51151	SLC45A2	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:51166	AADAT	5	4-methyl-2-oxopentanoate;kynurenine;leucine;phenylalanine;tyrosine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:51251	NT5C3A	1	cytidine 5'-monophosphate (5'-CMP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:51292	GMPR2	1	inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:51296	SLC15A3	1	carnosine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:5130	PCYT1A	1	cytidine 5'-diphosphocholine	DONE	False	NOT_RUN	NOT_RUN
+hsa:51380	CSAD	3	beta-alanine;hypotaurine;taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:51520	LARS1	1	leucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:51629	SLC25A39	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:5167	ENPP1	2	cytidine 5'-monophosphate (5'-CMP);uridine 5'-monophosphate (UMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:5169	ENPP3	6	N-Acetylglucosamine 1-phosphate;UDP-N-acetylglucosamine;adenosine;cytidine 5'-monophosphate (5'-CMP);guanosine;uridine 5'-monophosphate (UMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:51727	CMPK1	3	cytidine 5'-monophosphate (5'-CMP);uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:51733	UPB1	1	beta-alanine	DONE	False	NOT_RUN	NOT_RUN
+hsa:51805	COQ3	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:51816	ADA2	2	adenosine;inosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:5198	PFAS	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:5223	PGAM1	2	2-phosphoglycerate;3PG	DONE	False	NOT_RUN	NOT_RUN
+hsa:5224	PGAM2	2	2-phosphoglycerate;3PG	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:5226	PGD	1	6-phosphogluconate	DONE	False	NOT_RUN	NOT_RUN
+hsa:5230	PGK1	1	3PG	DONE	False	NOT_RUN	NOT_RUN
+hsa:5232	PGK2	1	3PG	DONE	False	NOT_RUN	NOT_RUN
+hsa:5238	PGM3	2	N-Acetylglucosamine 1-phosphate;N-acetylglucosamine 6-phosphate	DONE	False	NOT_RUN	NOT_RUN
+hsa:5313	PKLR	1	phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:5315	PKM	1	phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:53354	PANK1	1	pantothenate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:5409	PNMT	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:54187	NANS	1	phosphoenolpyruvate (PEP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:54407	SLC38A2	6	asparagine;glutamine;leucine;phenylalanine;proline;threonine	DONE	False	NOT_RUN	NOT_RUN
+hsa:54490	UGT2B28	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:54498	SMOX	1	spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:54575	UGT1A10	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:54576	UGT1A8	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:54577	UGT1A7	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:54578	UGT1A6	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:54579	UGT1A5	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:54600	UGT1A9	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:54657	UGT1A4	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:54658	UGT1A1	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:54659	UGT1A3	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:54675	CRLS1	1	cytidine 5'-monophosphate (5'-CMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:5471	PPAT	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:54716	SLC6A20	2	betaine;proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:54831	BEST2	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:548596	CKMT1A	1	creatine	DONE	False	NOT_RUN	NOT_RUN
+hsa:54963	UCKL1	3	cytidine 5'-monophosphate (5'-CMP);uridine;uridine 5'-monophosphate (UMP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:55032	SLC35A5	3	UDP-N-acetylglucosamine;UDP-glucuronate;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:55089	SLC38A4	4	asparagine;glutamine;proline;threonine	DONE	False	NOT_RUN	NOT_RUN
+hsa:55117	SLC6A15	7	asparagine;glutamine;isoleucine;leucine;phenylalanine;proline;threonine	DONE	False	NOT_RUN	NOT_RUN
+hsa:55144	LRRC8D	1	taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:55186	SLC25A36	5	cytidine 5'-monophosphate (5'-CMP);guanosine 5'- diphosphate (GDP);inosine 5'-monophosphate (IMP);uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:55191	NADSYN1	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:55217	TMLHE	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:55238	SLC38A7	2	asparagine;glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:55244	SLC47A1	1	creatinine	DONE	False	NOT_RUN	NOT_RUN
+hsa:55278	QRSL1	1	glutamine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:55315	SLC29A3	8	adenosine;guanine;guanosine;inosine;serotonin (5HT);uracil;urate;uridine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:55356	SLC22A15	3	betaine;carnosine;creatine	DONE	False	NOT_RUN	NOT_RUN
+hsa:55577	NAGK	1	N-acetylglucosamine 6-phosphate	DONE	False	NOT_RUN	NOT_RUN
+hsa:55586	MIOX	1	glucuronate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:55699	IARS2	1	isoleucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:55748	CNDP2	2	phenylalanine;threonine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:55972	SLC25A40	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:56172	ANKH	1	citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:5625	PRODH	1	proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:56261	GPCPD1	1	glycerophosphorylcholine (GPC)	DONE	False	NOT_RUN	NOT_RUN
+hsa:56262	LRRC8A	1	taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:56267	KYAT3	1	kynurenine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:56301	SLC7A10	2	beta-alanine;threonine	DONE	False	NOT_RUN	NOT_RUN
+hsa:56474	CTPS2	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:56666	PANX2	1	gluconate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:56898	BDH2	1	3-hydroxybutyrate (BHBA)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:56953	NT5M	2	uridine;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:56985	ADPRM	2	cytidine 5'-diphosphocholine;cytidine 5'-monophosphate (5'-CMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:56994	CHPT1	2	cytidine 5'-diphosphocholine;cytidine 5'-monophosphate (5'-CMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:570	BAAT	1	taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:57210	SLC45A4	1	spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:574537	UGT2A2	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:57494	RIMKLB	2	N-acetylaspartate (NAA);citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:57571	CARNS1	2	beta-alanine;carnosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:57704	GBA2	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:57733	GBA3	1	glucose	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:57818	G6PC2	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:5831	PYCR1	1	proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:58472	SQOR	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:5859	QARS1	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:586	BCAT1	3	4-methyl-2-oxopentanoate;isoleucine;leucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:587	BCAT2	3	4-methyl-2-oxopentanoate;isoleucine;leucine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:622	BDH1	1	3-hydroxybutyrate (BHBA)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:635	BHMT	1	betaine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:6389	SDHA	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:6390	SDHB	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:64064	OXCT2	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:64078	SLC28A3	4	adenosine;guanosine;inosine;uridine	DONE	False	NOT_RUN	NOT_RUN
+hsa:646625	URAD	1	allantoin	DONE	False	NOT_RUN	NOT_RUN
+hsa:6470	SHMT1	1	threonine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:6476	SI	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:64841	GNPNAT1	1	N-acetylglucosamine 6-phosphate	DONE	False	NOT_RUN	NOT_RUN
+hsa:64849	SLC13A3	2	N-acetylaspartate (NAA);succinate	DONE	False	NOT_RUN	NOT_RUN
+hsa:64902	AGXT2	1	beta-alanine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:6509	SLC1A4	3	asparagine;proline;threonine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6510	SLC1A5	3	asparagine;glutamine;threonine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6513	SLC2A1	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:6514	SLC2A2	2	glucose;urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:6515	SLC2A3	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:6517	SLC2A4	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:6523	SLC5A1	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:6524	SLC5A2	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:65263	PYCR3	1	proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:6529	SLC6A1	1	hypotaurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6532	SLC6A4	1	serotonin (5HT)	DONE	False	NOT_RUN	NOT_RUN
+hsa:6533	SLC6A6	3	beta-alanine;hypotaurine;taurine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:6534	SLC6A7	1	proline	DONE	False	NOT_RUN	NOT_RUN
+hsa:6535	SLC6A8	1	creatine	DONE	False	NOT_RUN	NOT_RUN
+hsa:653689	GSTT2B	1	glutathione, reduced (GSH)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:6538	SLC6A11	3	beta-alanine;hypotaurine;taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6539	SLC6A12	1	betaine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:6540	SLC6A13	3	beta-alanine;hypotaurine;taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6563	SLC14A1	1	urea	DONE	False	NOT_RUN	NOT_RUN
+hsa:6564	SLC15A1	1	carnosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6565	SLC15A2	1	carnosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6566	SLC16A1	3	3-hydroxybutyrate (BHBA);4-methyl-2-oxopentanoate;succinate	DONE	False	NOT_RUN	NOT_RUN
+hsa:6568	SLC17A1	1	urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:6570	SLC18A1	1	serotonin (5HT)	DONE	False	NOT_RUN	NOT_RUN
+hsa:6571	SLC18A2	2	histamine;serotonin (5HT)	DONE	False	NOT_RUN	NOT_RUN
+hsa:6572	SLC18A3	2	acetylcholine;serotonin (5HT)	DONE	False	NOT_RUN	NOT_RUN
+hsa:6576	SLC25A1	4	cis-aconitate;citrate;phosphoenolpyruvate (PEP);succinate	DONE	False	NOT_RUN	NOT_RUN
+hsa:6580	SLC22A1	5	1-methylnicotinamide;acetylcholine;histamine;serotonin (5HT);spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6581	SLC22A3	3	histamine;serotonin (5HT);spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6582	SLC22A2	6	1-methylnicotinamide;acetylcholine;creatinine;histamine;serotonin (5HT);spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6583	SLC22A4	2	acetylcholine;betaine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6584	SLC22A5	1	betaine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:66035	SLC2A11	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:6611	SMS	2	5-methylthioadenosine (MTA);spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6675	UAP1	2	N-Acetylglucosamine 1-phosphate;UDP-N-acetylglucosamine	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:669	BPGM	2	2-phosphoglycerate;3PG	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:6723	SRM	2	5-methylthioadenosine (MTA);spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:6897	TARS1	1	threonine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:6898	TAT	1	tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:7054	TH	1	tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:7167	TPI1	1	dihydroxyacetone phosphate (DHAP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7172	TPMT	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7299	TYR	1	tyrosine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:730249	ACOD1	1	cis-aconitate	DONE	False	NOT_RUN	NOT_RUN
+hsa:7351	UCP2	1	malonate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:7355	SLC35A2	4	UDP-N-acetylglucosamine;UDP-glucose;cytidine 5'-monophosphate (5'-CMP);uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7357	UGCG	2	UDP-glucose;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7358	UGDH	2	UDP-glucose;UDP-glucuronate	DONE	False	NOT_RUN	NOT_RUN
+hsa:7360	UGP2	1	UDP-glucose	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:7363	UGT2B4	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7364	UGT2B7	3	UDP-glucose;UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7365	UGT2B10	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7366	UGT2B15	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7367	UGT2B17	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	NOT_EVALUABLE	False	NOT_RUN	NOT_RUN
+hsa:7368	UGT8	1	uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7371	UCK2	3	cytidine 5'-monophosphate (5'-CMP);uridine;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7372	UMPS	1	uridine 5'-monophosphate (UMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:7378	UPP1	2	uracil;uridine	DONE	False	NOT_RUN	NOT_RUN
+hsa:7416	VDAC1	1	acetylcholine	DONE	False	NOT_RUN	NOT_RUN
+hsa:7498	XDH	3	hypoxanthine;urate;xanthine	DONE	False	NOT_RUN	NOT_RUN
+hsa:790	CAD	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:79017	GGCT	1	5-oxoproline	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:79094	CHAC1	2	5-oxoproline;glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:7915	ALDH5A1	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:79369	B3GNT4	2	UDP-N-acetylglucosamine;uridine 5'-diphosphate (UDP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:79646	PANK3	1	pantothenate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:79693	YRDC	1	threonine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:79731	NARS2	1	asparagine	DONE	False	NOT_RUN	NOT_RUN
+hsa:79783	SUGCT	2	3-hydroxy-3-methylglutarate;succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:79799	UGT2A3	2	UDP-glucuronate;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:79814	AGMAT	3	beta-alanine;taurine;urea	DONE	False	NOT_RUN	NOT_RUN
+hsa:80025	PANK2	1	pantothenate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:80131	LRRC8E	1	taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:80146	UXS1	1	UDP-glucuronate	DONE	False	NOT_RUN	NOT_RUN
+hsa:80150	ASRGL1	1	asparagine	DONE	False	NOT_RUN	NOT_RUN
+hsa:80201	HKDC1	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:80222	TARS2	1	threonine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:81031	SLC2A10	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:8140	SLC7A5	6	glutamine;isoleucine;kynurenine;leucine;phenylalanine;tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:81539	SLC38A1	4	asparagine;glutamine;proline;threonine	DONE	False	NOT_RUN	NOT_RUN
+hsa:81544	GDPD5	1	glycerophosphorylcholine (GPC)	DONE	False	NOT_RUN	NOT_RUN
+hsa:8170	SLC14A2	1	urea	DONE	False	NOT_RUN	NOT_RUN
+hsa:83440	ADPGK	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:83549	UCK1	3	cytidine 5'-monophosphate (5'-CMP);uridine;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:8402	SLC25A11	2	malonate;succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:84230	LRRC8C	1	taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:8424	BBOX1	2	deoxycarnitine;succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:84274	COQ5	2	S-adenosylhomocysteine (SAH);S-adenosylmethionine (SAM)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:84275	SLC25A33	2	guanosine 5'- diphosphate (GDP);uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:8443	GNPAT	1	dihydroxyacetone phosphate (DHAP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:84618	NT5C1A	3	adenosine;inosine;inosine 5'-monophosphate (IMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:84735	CNDP1	2	beta-alanine;carnosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:84890	ADO	1	hypotaurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:84912	SLC35B4	2	UDP-N-acetylglucosamine;UDP-glucuronate	DONE	False	NOT_RUN	NOT_RUN
+hsa:8501	SLC43A1	3	isoleucine;leucine;phenylalanine	DONE	False	NOT_RUN	NOT_RUN
+hsa:85019	SLC35D4	2	UDP-N-acetylglucosamine;uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:85413	SLC22A16	1	spermidine	DONE	False	NOT_RUN	NOT_RUN
+hsa:85465	SELENOI	1	cytidine 5'-monophosphate (5'-CMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8564	KMO	1	kynurenine	DONE	False	NOT_RUN	NOT_RUN
+hsa:8565	YARS1	1	tyrosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:8623	ASMTL	2	cytidine 5'-monophosphate (5'-CMP);uridine 5'-monophosphate (UMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8702	B4GALT4	1	uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:8704	B4GALT2	2	glucose;uridine 5'-diphosphate (UDP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:8801	SUCLG2	2	guanosine 5'- diphosphate (GDP);succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8802	SUCLG1	2	guanosine 5'- diphosphate (GDP);succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8803	SUCLA2	1	succinate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8813	DPM1	1	guanosine 5'- diphosphate (GDP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:883	KYAT1	3	glutamine;kynurenine;phenylalanine	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8833	GMPS	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:8875	VNN2	1	pantothenate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8876	VNN1	1	pantothenate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8884	SLC5A6	1	pantothenate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:8908	GYG2	2	UDP-glucose;uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:8942	KYNU	1	kynurenine	DONE	False	NOT_RUN	NOT_RUN
+hsa:8972	MGAM	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:89872	AQP10	1	urea	DONE	False	NOT_RUN	NOT_RUN
+hsa:89874	SLC25A21	1	citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:9016	SLC25A14	3	citrate;malonate;succinate	DONE	False	NOT_RUN	NOT_RUN
+hsa:9056	SLC7A7	1	leucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9057	SLC7A6	2	glutamine;leucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9058	SLC13A2	2	citrate;succinate	DONE	False	NOT_RUN	NOT_RUN
+hsa:9104	RGN	1	gluconate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:9120	SLC16A6	1	taurine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9153	SLC28A2	4	adenosine;guanosine;inosine;uridine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9154	SLC28A1	2	adenosine;uridine	DONE	False	NOT_RUN	NOT_RUN
+hsa:91749	SLC60A2	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:9194	SLC16A7	2	3-hydroxybutyrate (BHBA);4-methyl-2-oxopentanoate	DONE	False	NOT_RUN	NOT_RUN
+hsa:92579	G6PC3	1	glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:93034	NT5C1B	1	adenosine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9331	B4GALT6	1	uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:9334	B4GALT5	1	uridine 5'-diphosphate (UDP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:9365	KL	1	glucuronate	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:9376	SLC22A8	1	urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:94097	SFXN5	1	citrate	DONE	False	NOT_RUN	NOT_RUN
+hsa:9429	ABCG2	1	urate	DONE	False	NOT_RUN	NOT_RUN
+hsa:9446	GSTO1	1	glutathione, reduced (GSH)	DONE	False	NOT_RUN	NOT_RUN
+hsa:9468	PCYT1B	1	cytidine 5'-diphosphocholine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9489	PGS1	1	cytidine 5'-monophosphate (5'-CMP)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:953	ENTPD1	5	cytidine 5'-monophosphate (5'-CMP);guanosine 5'- diphosphate (GDP);inosine 5'-monophosphate (IMP);uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:955	ENTPD6	4	guanosine 5'- diphosphate (GDP);inosine 5'-monophosphate (IMP);uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:956	ENTPD3	5	cytidine 5'-monophosphate (5'-CMP);guanosine 5'- diphosphate (GDP);inosine 5'-monophosphate (IMP);uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	True	NOT_RUN	REUSE_OUTCOME_CHECK_REQUIRED
+hsa:9562	MINPP1	1	2-phosphoglycerate	DONE	False	NOT_RUN	NOT_RUN
+hsa:9563	H6PD	2	6-phosphogluconate;glucose	DONE	False	NOT_RUN	NOT_RUN
+hsa:957	ENTPD5	5	cytidine 5'-monophosphate (5'-CMP);guanosine 5'- diphosphate (GDP);inosine 5'-monophosphate (IMP);uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:9583	ENTPD4	3	guanosine 5'- diphosphate (GDP);uridine 5'-diphosphate (UDP);uridine 5'-monophosphate (UMP)	DONE	False	NOT_RUN	NOT_RUN
+hsa:9588	PRDX6	1	glutathione, reduced (GSH)	NOT_RUN	False	NOT_RUN	NOT_RUN
+hsa:9615	GDA	2	guanine;xanthine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9673	SLC25A44	1	leucine	DONE	False	NOT_RUN	NOT_RUN
+hsa:978	CDA	1	uridine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9945	GFPT2	1	glutamine	DONE	False	NOT_RUN	NOT_RUN
+hsa:9963	SLC23A1	1	urate	DONE	False	NOT_RUN	NOT_RUN

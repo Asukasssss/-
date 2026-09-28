@@ -1,0 +1,152 @@
+{
+  "https://rest.genenames.org/fetch/entrez_id/102724197": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/102724197",
+    "retrieved_utc": "2026-09-19T12:01:49.134182+00:00",
+    "sha256": "8894f25b148443f06dc41b57572bb08c4070b607c54d603f593a22bbb56e4140",
+    "cache_file": "b7e324fa7f6648370fb195b9fa3dc0ca9b599b45673c7718c3a0fe1231c691f1.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/1159": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/1159",
+    "retrieved_utc": "2026-09-19T12:01:50.235696+00:00",
+    "sha256": "a6387cd46fa7257989e86acc5c569f0284a3923432df421288495518cca40735",
+    "cache_file": "c62abf17ee495762f75954bf081a79705f2a8dd60ef336b5940c77bb4097ef76.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/107080644": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/107080644",
+    "retrieved_utc": "2026-09-19T12:01:51.466512+00:00",
+    "sha256": "8894f25b148443f06dc41b57572bb08c4070b607c54d603f593a22bbb56e4140",
+    "cache_file": "a2ca13d7b88d5e6a07e3ef6ec29eb28b12e5530a838fa4845bed5ec21e9e163a.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/1801": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/1801",
+    "retrieved_utc": "2026-09-19T12:01:53.205933+00:00",
+    "sha256": "94586a639b3a48140643cda83ff760f971779cac87c2c5da0d9798cc686536a0",
+    "cache_file": "764f0a796fb73176331edb2b51946bb6b9c2fd392e3987744d5a0ab8f4ce4c5c.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/2629": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/2629",
+    "retrieved_utc": "2026-09-19T12:01:54.995500+00:00",
+    "sha256": "ea478bff30b682a2fbbfdd3b84f1c98f0241297ae26dd3d7af9a2d7f63b783c9",
+    "cache_file": "a94bfd00562c8c168b56ca7440d3e0b59e17ef838f8245396ae6ee6ceae9d21f.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/2938": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/2938",
+    "retrieved_utc": "2026-09-19T12:01:58.465826+00:00",
+    "sha256": "47c19d125bfe4ac5f6a89b41494f616de8c531eb1c7f4f79db4fd5d39c3cf53b",
+    "cache_file": "c5c5ed767575a2264de566522eca7f3cd34a2bddbea3f6b0aa0ead51651e8290.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/654364": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/654364",
+    "retrieved_utc": "2026-09-19T12:01:59.730017+00:00",
+    "sha256": "88d8bf37b9abee7241e04e980a15f6116fdcc00a68329c8730bd1340caafe9ff",
+    "cache_file": "2ace1d1357222d25afe311c2f9f94c4025eca22d36017980ec8fae5803424aa3.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/100526794": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/100526794",
+    "retrieved_utc": "2026-09-19T12:02:00.955933+00:00",
+    "sha256": "b2e0eafa1e8c1933b20b15c46b04ff3f7a10f5fb74d277295bf2a2b76b708847",
+    "cache_file": "f74f618d889ac3e052a3fe10d4f1c10bf1ca50011ad2658420d5b779b50482c2.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/11105": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/11105",
+    "retrieved_utc": "2026-09-19T12:02:02.751051+00:00",
+    "sha256": "cfa8f93aca17768824972412fe31c5dbcc4c3332a263b8c83a8c491a02487075",
+    "cache_file": "6937aa847af8ba9c9196ccee02d89647d0abc7f152659fdfd41d7ade944561b7.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/107303344": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/107303344",
+    "retrieved_utc": "2026-09-19T12:02:03.967139+00:00",
+    "sha256": "8894f25b148443f06dc41b57572bb08c4070b607c54d603f593a22bbb56e4140",
+    "cache_file": "425c1b68bc7f4a8636b2d553dbb460fac3cf264dc3581b422f5f87e9d7261a21.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/85019": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/85019",
+    "retrieved_utc": "2026-09-19T12:02:05.052786+00:00",
+    "sha256": "2d94ea6b3451dc91700e8c39bc9cfbfa3e70aa56af17f43c1117c0ac025db90c",
+    "cache_file": "a57deb033b3e2567c82582d8b72f930cf2f0869d7996b08cb8a08cee630d25d8.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/91749": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/91749",
+    "retrieved_utc": "2026-09-19T12:02:07.185662+00:00",
+    "sha256": "6ca455524c40b523bdc4c2b787ac6841b6571ab61026013748919389719b93ad",
+    "cache_file": "e0f866e37ab809b3a938342efe66db8d3e26003cd50abb2e9e9deda395487598.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/120356740": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/120356740",
+    "retrieved_utc": "2026-09-19T12:02:08.507062+00:00",
+    "sha256": "4ccaa4eea9ca4eff3ac4f4ad9ed11bb37a6a9bfeb2d7e027070c535cc969aead",
+    "cache_file": "5b65e8730fd5b3453a42cfb5dd0ade69627eec5d96b7b42487da5c2b4883f8c5.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/54658": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/54658",
+    "retrieved_utc": "2026-09-19T12:02:09.587757+00:00",
+    "sha256": "953653e2082e348f4ceeac32b81c4f9435f2bf1f62effc31a9667298f18c709a",
+    "cache_file": "eb537258e6364c78519d26ac812c81577a984d2bb9a0c05f985d63a7dbc92f3c.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/54575": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/54575",
+    "retrieved_utc": "2026-09-19T12:02:10.643229+00:00",
+    "sha256": "9703de32a4e05f713edbb7f15e62c3bd938ad8f12c6e497d7b5ff01353398b3c",
+    "cache_file": "5507e75b229d66f75b138174e5537c3565c8af3497eee34a91b5f8ff45bcfff8.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/54659": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/54659",
+    "retrieved_utc": "2026-09-19T12:02:17.835623+00:00",
+    "sha256": "78cd5b312b71b02a0e4188ea1e2c35c3dff141edf54a7bf80e64ff4b3b3a8723",
+    "cache_file": "6ba50d8cd7a975ce075991abbe46271abbc439ddd8f3fb0b7cb71c02d13b79cc.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/54657": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/54657",
+    "retrieved_utc": "2026-09-19T12:02:18.937702+00:00",
+    "sha256": "3b1d1bc78feefbd7ad2a8cf9c9a3ef8e028f676d317fa4f79f13cf89e2984177",
+    "cache_file": "22ed77a34e1984bf443c1bf085c8b7e458e1b42d6c62aab7476408c75dbba0c0.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/54579": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/54579",
+    "retrieved_utc": "2026-09-19T12:02:21.063814+00:00",
+    "sha256": "4dc6a1fc445fb8b8f89a007b378c0e437f6598ad1dfcac5858bcfef05a197015",
+    "cache_file": "62b5c490d36aacc03ffe2d40cf71f8775de8fc225ce04e6152b4d33d748a855c.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/54577": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/54577",
+    "retrieved_utc": "2026-09-19T12:02:22.971225+00:00",
+    "sha256": "1be9b2658cb5654d77eed3e750efcac68157aae494c11b9ddc59b2d27c79072e",
+    "cache_file": "7507511a00c14af03b560a787ae64b56cefa69f823c23a7c7eae98c0bfa927c1.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/54600": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/54600",
+    "retrieved_utc": "2026-09-19T12:02:24.811677+00:00",
+    "sha256": "d88e83a7570052c4d52b3d7fcefe1c74358f8e1268fd5eccc6142137c5a43aa2",
+    "cache_file": "ec56cad48a69bd289d2943e7ddc455e3ef37846486e55a2f38de746b21d47533.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/7367": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/7367",
+    "retrieved_utc": "2026-09-19T12:02:26.610828+00:00",
+    "sha256": "913a9a9f2a3ad72016121e3baecb8820246eb4579517378b2952d974cfc6ccf8",
+    "cache_file": "72a5b92070a785d2af86855ff1cfdaaaa9027c27e6e2dfc34e94b9ec419b8d61.json"
+  },
+  "https://rest.genenames.org/fetch/entrez_id/54490": {
+    "url": "https://rest.genenames.org/fetch/entrez_id/54490",
+    "retrieved_utc": "2026-09-19T12:02:27.761546+00:00",
+    "sha256": "019bd40f1d8cb752c178875402f481505a33f2e1b51cf861eaa258eb54799edd",
+    "cache_file": "e512db50a76ee104f2a3b2b6253c3b52661d9a848fca5431a4f050af8e9028b6.json"
+  },
+  "https://rest.genenames.org/search/%28symbol%3AGBA%20OR%20prev_symbol%3AGBA%20OR%20alias_symbol%3AGBA%29%20AND%20status%3AApproved": {
+    "url": "https://rest.genenames.org/search/%28symbol%3AGBA%20OR%20prev_symbol%3AGBA%20OR%20alias_symbol%3AGBA%29%20AND%20status%3AApproved",
+    "retrieved_utc": "2026-09-19T12:04:22.382601+00:00",
+    "sha256": "14180dee239caf469d3fb3949cd0f0b5744c17ea190336c63dc4160572967052",
+    "cache_file": "9c19a85babf26add85aa947d89279a41caaacd754e5db8adf07eecb5d83a7988.json"
+  },
+  "https://rest.genenames.org/search/%28symbol%3ATMEM241%20OR%20prev_symbol%3ATMEM241%20OR%20alias_symbol%3ATMEM241%29%20AND%20status%3AApproved": {
+    "url": "https://rest.genenames.org/search/%28symbol%3ATMEM241%20OR%20prev_symbol%3ATMEM241%20OR%20alias_symbol%3ATMEM241%29%20AND%20status%3AApproved",
+    "retrieved_utc": "2026-09-19T12:04:23.481306+00:00",
+    "sha256": "5579efe83a345e46b5a000183acfd7f83b5bad5705233f1d536bf6a0a04afd46",
+    "cache_file": "751cb39867a30e994409d9a0aac71531cc66cb8ea22614fe795a861c59fb7fbb.json"
+  },
+  "https://rest.genenames.org/search/%28symbol%3AMFSD4B%20OR%20prev_symbol%3AMFSD4B%20OR%20alias_symbol%3AMFSD4B%29%20AND%20status%3AApproved": {
+    "url": "https://rest.genenames.org/search/%28symbol%3AMFSD4B%20OR%20prev_symbol%3AMFSD4B%20OR%20alias_symbol%3AMFSD4B%29%20AND%20status%3AApproved",
+    "retrieved_utc": "2026-09-19T12:04:25.309207+00:00",
+    "sha256": "968b141002983f16eb0eb9c42453df06c8d02f848b65d1cb3dc0364204e7c40b",
+    "cache_file": "c9a1fb7e62b8a5af51595798602adeb69b509f1ba519a2561e2ea90eb966af3d.json"
+  }
+}

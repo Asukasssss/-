@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "analysis_version": "COAD_cell_origin35_v2",
+  "study": "Lee",
+  "cells": 63689,
+  "genes_requested": 35,
+  "new_genes_available": 32,
+  "missing_new_genes": [
+    "GSTT2"
+  ],
+  "reused_genes": [
+    "HDC",
+    "GSTA4"
+  ],
+  "rows": 5180,
+  "source_features": 33694,
+  "matrix_sha256": "deff856c7fe1d2c845af5b31e1c65a1dd95ea29541772a66c89bda3aaa8c0666",
+  "previous_denominator_npz_sha256": "e2056712a701fbc53a1e677fea541114a082f07c6b595b443dc81ca90d6d987b",
+  "denominator_reused_from": "20260920T072000Z_cell_expression_v1",
+  "metadata_hashes_unchanged": true,
+  "lock_commit": "bece086fbc0964537071eaa7c5bd93f4cb649e89",
+  "spec_sha256": "a98f2e9ef4ab5ee284174c965af96532cfc88abf5a50ebce91129b8ebe20d7e3",
+  "code_sha256": "e87a0a5104d67a98cfe17dcf6a676488033741c78110de547a9ec7e35f360905",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "new_hypothesis_tests": false,
+  "patient_rows_exported": false
+}

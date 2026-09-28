@@ -1,0 +1,34 @@
+{
+  "cancer": "COAD",
+  "stage_id": "03_PATIENT",
+  "run_id": "20260919T114909Z_source_readiness_v2",
+  "analysis_version": "source_readiness_v2",
+  "code_commit": "8ab7e2aff26cf62e98ae87735d290c2eb18bbbd8",
+  "generator_sha256": "d137d7bcd7c684aae4315b336db336e58ddf8af12b382cd38df0e5c799460793",
+  "created_utc": "2026-09-19T11:50:09.783659+00:00",
+  "status": "PARTIAL",
+  "parameters": {
+    "mapping_dataset": "COAD",
+    "association_subset": "Tumor",
+    "new_transform": false,
+    "imputation": false,
+    "alias_matching": false,
+    "identity_holds_changed": false
+  },
+  "unit": "author_mapped_tumor_specimen; independent patients not established",
+  "test_family": "NOT_LOCKED_NO_NEW_TESTS",
+  "seed": "NA",
+  "software": {
+    "python": "3.8.10",
+    "pandas": "1.5.3",
+    "numpy": "1.24.4",
+    "openpyxl": "3.1.5"
+  },
+  "limitations": [
+    "NA is unavailable or not applicable, never zero.",
+    "Source data sheet is author-provided; raw-detection meaning not established.",
+    "RNA filename states log2_transformed; this audit does not establish all preprocessing choices.",
+    "No original patient values or complete sample mapping exported."
+  ],
+  "revision_note": "v2 separates one unresolved gene ID (three pairs) from absent RNA symbols. v1 server audit retained; no statistics or frozen source changed."
+}

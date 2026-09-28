@@ -1,0 +1,62 @@
+{
+  "version": "COAD_LYPLA1_pathology_v1",
+  "code_base": "8cd81c038d9d5422d17a23b5976f7fedc8cae01a",
+  "gene": "LYPLA1",
+  "gene_id": "ENSG00000120992",
+  "source": "Zenodo 7760264; Valdeolivas 2024; DOI 10.1038/s41698-023-00488-4",
+  "selection": "Author Methods selected one section per case for histological grading; fixed before LYPLA1 inspection",
+  "samples": [
+    [
+      "S1_Cec_Rep1",
+      "SN123_A551763_Rep1",
+      "b26940f8bf3b3e9855b0a116825e638c"
+    ],
+    [
+      "S2_Col_R_Rep1",
+      "SN123_A595688_Rep1",
+      "b5aa2ee18977b0be67a72ff2b966ab26"
+    ],
+    [
+      "S3_Col_R_Rep1",
+      "SN048_A416371_Rep1",
+      "8aec27998074f672fcdaba6faa609da0"
+    ],
+    [
+      "S4_Col_Sig_Rep1",
+      "SN84_A120838_Rep1",
+      "4a185c5e1bf88995ee0c03dbb4e8b63c"
+    ],
+    [
+      "S5_Rec_Rep1",
+      "SN048_A121573_Rep1",
+      "608a39f21da059024121407967a76b8a"
+    ],
+    [
+      "S6_Rec_Rep2",
+      "SN124_A938797_Rep2",
+      "ee145e0f97146586baa8ef95edae05b0"
+    ],
+    [
+      "S7_RecSig_Rep1",
+      "SN123_A798015_Rep1",
+      "0e589a2c96546fff5ca21cb18d597791"
+    ]
+  ],
+  "unit": "Multi-cell Visium spot; seven cases, one section each; CRC includes rectum",
+  "qc": "Source in_tissue=1; pathologist annotation present and not exclude; 500<=Gene Expression UMI<=45000; MT- fraction<=0.5",
+  "excluded": "Unannotated/author-excluded/numeric-QC-failed retained in coverage audit and map as gray context",
+  "normalization": "log1p(10000*LYPLA1 UMI/total Gene Expression UMI); descriptive, not source SCTransform",
+  "region_summary": "Per section, original labels plus explicit broad groups; no merging mixed tumor-stroma into tumor",
+  "comparison": "Tumor versus fibroblastic/desmoplastic stroma, and tumor versus non-neoplastic epithelium separately; each region >=20 admitted spots",
+  "tests": "NONE; no spot-level P/q; no pooled-cell patient inference",
+  "imputation": false,
+  "smoothing": false,
+  "image": "Original low-resolution H&E and matched full-resolution pixel coordinates scaled by author factor",
+  "script_sha256": "f3190f7478255f8d30a64e9b299cd99ff8e5d6ad1b9e64f48c6c374228634a24",
+  "versions": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "matplotlib": "3.6.3"
+  }
+}

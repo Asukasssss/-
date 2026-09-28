@@ -1,0 +1,53 @@
+{
+  "version": "COAD_function_nominal35_accepted_v1",
+  "scope": "Import and review supplied35-gene/39-relation literature package; no new patient inference; wider974 pool retained",
+  "source_package_version": "COAD_function_nominal35_v1",
+  "retained_research_queue": {
+    "优先核查": 9,
+    "保留": 21,
+    "暂挂": 5
+  },
+  "independent_review": "All40 source identities and abstracts checked using Europe PMC core records; selected full-text passages checked for E03,E04,E08,E18,E21,E23. Source author's deeper review claims remain distinguished from this check.",
+  "search_coverage": "35 supplied search-summary rows checked for coverage; this import does not independently repeat all searches or certify that missing studies do not exist",
+  "supplements": {
+    "BCAT2": {
+      "evidence_id": "E18",
+      "locator": "PMID39642324; Results, Fig7E-G and corresponding text",
+      "functional_conclusion_cn": "全文确认BCAT2敲低参与HCT116的BCAA利用实验及饮食分层移植瘤研究；circRNA过表达联合BCAT2敲低可减缓相应肿瘤生长，属于条件性通路内遗传证据。",
+      "counterevidence_or_limit_cn": "正常BCAA饮食下，单独sh-BCAT2与对照的肿瘤发展未见显著差异；作用依circRNA和营养背景，不能概括为单独抑制BCAT2普遍抑瘤。图中原始数值和全部生物重复未独立重分析。",
+      "metabolic_link_cn": "Fig7E直接包含BCAT2敲低与BCAA消费，Fig7F-G包含肿瘤终点；不等于本批CAMP亮氨酸/异亮氨酸关联的患者因果证明。",
+      "next_action_cn": "重点比较circRNA水平及BCAA供应条件，并定位常规饮食阴性结果的适用范围；不直接提出无条件BCAT2抑制方案。"
+    },
+    "GSTA4": {
+      "evidence_id": "E03",
+      "locator": "PMID39819335; Fig1 and Discussion limitations",
+      "supplement_cn": "2025宿主实验为构成性全身缺失，非髓系特异敲除；Gsta4/Il10双缺失在SPF条件下自发结肠炎与肠球菌/抗生素处理背景须分开解释。"
+    },
+    "NNMT": {
+      "evidence_id": "E08",
+      "locator": "PMID34539890; Cell culture and transfections; Fig3-4",
+      "supplement_cn": "核对到SW480过表达、HT29敲低及CCD-18Co成纤维细胞敲低；CCD-18Co不是本CAMP患者来源CAF，不能直接确定CAMP的细胞来源。"
+    },
+    "UCKL1": {
+      "evidence_id": "E04",
+      "locator": "PMID37343364; Fig4 and corresponding Results",
+      "supplement_cn": "核对到RKO代谢测量、HCT116的UMP/CMP补充未救援以及DLD1尿苷结合区域缺失突变实验，支持该报道铁死亡表型的非经典机制；不能据此证明尿苷消耗介导。"
+    }
+  },
+  "interpretation": "10 genes retain source class A; BCAT2 separately has conditional CRC gene-perturbation/tumor evidence. Under the broad existence-of-perturbation definition there are11 genes, not11 unconditional growth-inhibition hits.",
+  "no_new_tests": true,
+  "depmap": "NOT_RUN",
+  "external_patient_validation": "NOT_RUN",
+  "article_integrity": "Index-linked publication types and comments checked; not an exhaustive retraction or image-integrity audit",
+  "run_id": "20260919T134848Z_function_review_accepted_v1",
+  "created_utc": "2026-09-19T13:48:51.401715+00:00",
+  "code_commit": "bab8bbffb3bbc40f1eb73451283fc1064b76f8d2",
+  "source_base_commit": "06921616d5914b6b45c61bdb6c1f259cf1608f84",
+  "source_package_sha256": "a068f2eed3b2f7eccb0a4c7c1884e753e40d3c24a9f1b9099cf741966e3faff3",
+  "source_workbook_sha256": "f61223e88cf5ffb98d7f4dcb94b095c2a431494ba63d389c8c7bfaf88cacb20f",
+  "execution_location": "local public aggregates and public literature only",
+  "software": {
+    "python": "3.12.14"
+  },
+  "statistics": "All source cells retained as strings, including source run/stage/version/status; current delivery stage recorded in index and func35 columns; no recomputation"
+}

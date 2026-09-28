@@ -1,0 +1,352 @@
+cancer	source_row_1based	metabolite_key	gene	dataset_id	dataset_decision	relation_ready	feature_presence	gene_presence	reason
+COAD	1	KEGG:C02918	NNMT	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	1	KEGG:C02918	NNMT	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	1	KEGG:C02918	NNMT	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	1	KEGG:C02918	NNMT	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	1	KEGG:C02918	NNMT	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	1	KEGG:C02918	NNMT	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	1	KEGG:C02918	NNMT	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	1	KEGG:C02918	NNMT	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	1	KEGG:C02918	NNMT	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	2	KEGG:C00631	BPGM	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	2	KEGG:C00631	BPGM	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	2	KEGG:C00631	BPGM	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	2	KEGG:C00631	BPGM	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	2	KEGG:C00631	BPGM	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	2	KEGG:C00631	BPGM	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	2	KEGG:C00631	BPGM	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	2	KEGG:C00631	BPGM	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	2	KEGG:C00631	BPGM	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	3	KEGG:C00631	ENO2	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	3	KEGG:C00631	ENO2	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	3	KEGG:C00631	ENO2	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	3	KEGG:C00631	ENO2	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	3	KEGG:C00631	ENO2	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	3	KEGG:C00631	ENO2	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	3	KEGG:C00631	ENO2	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	3	KEGG:C00631	ENO2	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	3	KEGG:C00631	ENO2	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	4	KEGG:C00631	PGAM2	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	4	KEGG:C00631	PGAM2	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	4	KEGG:C00631	PGAM2	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	4	KEGG:C00631	PGAM2	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	4	KEGG:C00631	PGAM2	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	4	KEGG:C00631	PGAM2	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	4	KEGG:C00631	PGAM2	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	4	KEGG:C00631	PGAM2	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	4	KEGG:C00631	PGAM2	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	5	KEGG:C04501	UAP1	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	5	KEGG:C04501	UAP1	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	5	KEGG:C04501	UAP1	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	5	KEGG:C04501	UAP1	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	5	KEGG:C04501	UAP1	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	5	KEGG:C04501	UAP1	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	5	KEGG:C04501	UAP1	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	5	KEGG:C04501	UAP1	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	5	KEGG:C04501	UAP1	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	6	KEGG:C01042	ASPA	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	6	KEGG:C01042	ASPA	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	6	KEGG:C01042	ASPA	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	6	KEGG:C01042	ASPA	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	6	KEGG:C01042	ASPA	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	6	KEGG:C01042	ASPA	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	6	KEGG:C01042	ASPA	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	6	KEGG:C01042	ASPA	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	6	KEGG:C01042	ASPA	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	7	KEGG:C00019	ICMT	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	7	KEGG:C00019	ICMT	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	7	KEGG:C00019	ICMT	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	7	KEGG:C00019	ICMT	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	7	KEGG:C00019	ICMT	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	7	KEGG:C00019	ICMT	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	7	KEGG:C00019	ICMT	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	7	KEGG:C00019	ICMT	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	7	KEGG:C00019	ICMT	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	8	KEGG:C00019	KMT5A	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	8	KEGG:C00019	KMT5A	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	8	KEGG:C00019	KMT5A	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	8	KEGG:C00019	KMT5A	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	8	KEGG:C00019	KMT5A	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	8	KEGG:C00019	KMT5A	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	8	KEGG:C00019	KMT5A	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	8	KEGG:C00019	KMT5A	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	8	KEGG:C00019	KMT5A	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	9	KEGG:C00019	NNMT	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	9	KEGG:C00019	NNMT	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	9	KEGG:C00019	NNMT	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	9	KEGG:C00019	NNMT	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	9	KEGG:C00019	NNMT	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	9	KEGG:C00019	NNMT	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	9	KEGG:C00019	NNMT	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	9	KEGG:C00019	NNMT	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	9	KEGG:C00019	NNMT	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	10	KEGG:C00019	PRMT7	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	10	KEGG:C00019	PRMT7	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	10	KEGG:C00019	PRMT7	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	10	KEGG:C00019	PRMT7	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	10	KEGG:C00019	PRMT7	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	10	KEGG:C00019	PRMT7	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	10	KEGG:C00019	PRMT7	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	10	KEGG:C00019	PRMT7	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	10	KEGG:C00019	PRMT7	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	11	KEGG:C00147	AQP9	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	11	KEGG:C00147	AQP9	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	11	KEGG:C00147	AQP9	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	11	KEGG:C00147	AQP9	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	11	KEGG:C00147	AQP9	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	11	KEGG:C00147	AQP9	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	11	KEGG:C00147	AQP9	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	11	KEGG:C00147	AQP9	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	11	KEGG:C00147	AQP9	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	12	KEGG:C03794	ADSS2	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	12	KEGG:C03794	ADSS2	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	12	KEGG:C03794	ADSS2	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	12	KEGG:C03794	ADSS2	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	12	KEGG:C03794	ADSS2	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	12	KEGG:C03794	ADSS2	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	12	KEGG:C03794	ADSS2	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	12	KEGG:C03794	ADSS2	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	12	KEGG:C03794	ADSS2	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	13	KEGG:C00152	SLC38A3	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	13	KEGG:C00152	SLC38A3	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	13	KEGG:C00152	SLC38A3	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	13	KEGG:C00152	SLC38A3	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	13	KEGG:C00152	SLC38A3	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	13	KEGG:C00152	SLC38A3	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	13	KEGG:C00152	SLC38A3	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	13	KEGG:C00152	SLC38A3	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	13	KEGG:C00152	SLC38A3	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	14	KEGG:C00386	SLC15A3	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	14	KEGG:C00386	SLC15A3	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	14	KEGG:C00386	SLC15A3	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	14	KEGG:C00386	SLC15A3	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	14	KEGG:C00386	SLC15A3	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	14	KEGG:C00386	SLC15A3	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	14	KEGG:C00386	SLC15A3	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	14	KEGG:C00386	SLC15A3	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	14	KEGG:C00386	SLC15A3	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	15	KEGG:C00475	NT5C3A	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	15	KEGG:C00475	NT5C3A	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	15	KEGG:C00475	NT5C3A	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	15	KEGG:C00475	NT5C3A	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	15	KEGG:C00475	NT5C3A	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	15	KEGG:C00475	NT5C3A	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	15	KEGG:C00475	NT5C3A	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	15	KEGG:C00475	NT5C3A	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	15	KEGG:C00475	NT5C3A	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	16	KEGG:C00111	GNPAT	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	16	KEGG:C00111	GNPAT	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	16	KEGG:C00111	GNPAT	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	16	KEGG:C00111	GNPAT	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	16	KEGG:C00111	GNPAT	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	16	KEGG:C00111	GNPAT	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	16	KEGG:C00111	GNPAT	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	16	KEGG:C00111	GNPAT	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	16	KEGG:C00111	GNPAT	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	17	KEGG:C00051	GSTA4	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	17	KEGG:C00051	GSTA4	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	17	KEGG:C00051	GSTA4	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	17	KEGG:C00051	GSTA4	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	17	KEGG:C00051	GSTA4	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	17	KEGG:C00051	GSTA4	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	17	KEGG:C00051	GSTA4	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	17	KEGG:C00051	GSTA4	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	17	KEGG:C00051	GSTA4	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	18	KEGG:C00051	GSTO2	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	18	KEGG:C00051	GSTO2	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	18	KEGG:C00051	GSTO2	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	18	KEGG:C00051	GSTO2	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	18	KEGG:C00051	GSTO2	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	18	KEGG:C00051	GSTO2	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	18	KEGG:C00051	GSTO2	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	18	KEGG:C00051	GSTO2	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	18	KEGG:C00051	GSTO2	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	19	KEGG:C00051	GSTT2	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	19	KEGG:C00051	GSTT2	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	19	KEGG:C00051	GSTT2	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	19	KEGG:C00051	GSTT2	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	19	KEGG:C00051	GSTT2	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	19	KEGG:C00051	GSTT2	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	19	KEGG:C00051	GSTT2	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	19	KEGG:C00051	GSTT2	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	19	KEGG:C00051	GSTT2	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	20	KEGG:C00051	GSTT2B	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	20	KEGG:C00051	GSTT2B	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	20	KEGG:C00051	GSTT2B	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	20	KEGG:C00051	GSTT2B	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	20	KEGG:C00051	GSTT2B	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	20	KEGG:C00051	GSTT2B	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	20	KEGG:C00051	GSTT2B	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	20	KEGG:C00051	GSTT2B	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	20	KEGG:C00051	GSTT2B	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	21	KEGG:C00051	HAGH	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	21	KEGG:C00051	HAGH	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	21	KEGG:C00051	HAGH	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	21	KEGG:C00051	HAGH	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	21	KEGG:C00051	HAGH	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	21	KEGG:C00051	HAGH	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	21	KEGG:C00051	HAGH	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	21	KEGG:C00051	HAGH	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	21	KEGG:C00051	HAGH	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	22	KEGG:C00670	PLA2G15	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	22	KEGG:C00670	PLA2G15	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	22	KEGG:C00670	PLA2G15	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	22	KEGG:C00670	PLA2G15	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	22	KEGG:C00670	PLA2G15	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	22	KEGG:C00670	PLA2G15	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	22	KEGG:C00670	PLA2G15	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	22	KEGG:C00670	PLA2G15	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	22	KEGG:C00670	PLA2G15	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	23	KEGG:C00242	SLC29A3	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	23	KEGG:C00242	SLC29A3	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	23	KEGG:C00242	SLC29A3	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	23	KEGG:C00242	SLC29A3	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	23	KEGG:C00242	SLC29A3	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	23	KEGG:C00242	SLC29A3	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	23	KEGG:C00242	SLC29A3	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	23	KEGG:C00242	SLC29A3	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	23	KEGG:C00242	SLC29A3	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	24	KEGG:C00387	SLC29A3	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	24	KEGG:C00387	SLC29A3	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	24	KEGG:C00387	SLC29A3	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	24	KEGG:C00387	SLC29A3	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	24	KEGG:C00387	SLC29A3	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	24	KEGG:C00387	SLC29A3	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	24	KEGG:C00387	SLC29A3	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	24	KEGG:C00387	SLC29A3	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	24	KEGG:C00387	SLC29A3	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	25	KEGG:C00388	HDC	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	25	KEGG:C00388	HDC	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	25	KEGG:C00388	HDC	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	25	KEGG:C00388	HDC	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	25	KEGG:C00388	HDC	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	25	KEGG:C00388	HDC	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	25	KEGG:C00388	HDC	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	25	KEGG:C00388	HDC	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	25	KEGG:C00388	HDC	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	26	KEGG:C00130	CANT1	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	26	KEGG:C00130	CANT1	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	26	KEGG:C00130	CANT1	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	26	KEGG:C00130	CANT1	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	26	KEGG:C00130	CANT1	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	26	KEGG:C00130	CANT1	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	26	KEGG:C00130	CANT1	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	26	KEGG:C00130	CANT1	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	26	KEGG:C00130	CANT1	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	27	KEGG:C00130	ENTPD3	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	27	KEGG:C00130	ENTPD3	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	27	KEGG:C00130	ENTPD3	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	27	KEGG:C00130	ENTPD3	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	27	KEGG:C00130	ENTPD3	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	27	KEGG:C00130	ENTPD3	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	27	KEGG:C00130	ENTPD3	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	27	KEGG:C00130	ENTPD3	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	27	KEGG:C00130	ENTPD3	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	28	KEGG:C00130	GMPR	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	28	KEGG:C00130	GMPR	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	28	KEGG:C00130	GMPR	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	28	KEGG:C00130	GMPR	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	28	KEGG:C00130	GMPR	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	28	KEGG:C00130	GMPR	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	28	KEGG:C00130	GMPR	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	28	KEGG:C00130	GMPR	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	28	KEGG:C00130	GMPR	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	29	KEGG:C00407	BCAT2	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	29	KEGG:C00407	BCAT2	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	29	KEGG:C00407	BCAT2	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	29	KEGG:C00407	BCAT2	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	29	KEGG:C00407	BCAT2	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	29	KEGG:C00407	BCAT2	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	29	KEGG:C00407	BCAT2	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	29	KEGG:C00407	BCAT2	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	29	KEGG:C00407	BCAT2	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	30	KEGG:C00407	SLC7A8	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	30	KEGG:C00407	SLC7A8	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	30	KEGG:C00407	SLC7A8	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	30	KEGG:C00407	SLC7A8	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	30	KEGG:C00407	SLC7A8	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	30	KEGG:C00407	SLC7A8	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	30	KEGG:C00407	SLC7A8	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	30	KEGG:C00407	SLC7A8	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	30	KEGG:C00407	SLC7A8	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	31	KEGG:C00123	SLC6A17	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	31	KEGG:C00123	SLC6A17	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	31	KEGG:C00123	SLC6A17	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	31	KEGG:C00123	SLC6A17	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	31	KEGG:C00123	SLC6A17	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	31	KEGG:C00123	SLC6A17	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	31	KEGG:C00123	SLC6A17	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	31	KEGG:C00123	SLC6A17	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	31	KEGG:C00123	SLC6A17	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	32	KEGG:C00123	SLC7A8	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	32	KEGG:C00123	SLC7A8	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	32	KEGG:C00123	SLC7A8	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	32	KEGG:C00123	SLC7A8	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	32	KEGG:C00123	SLC7A8	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	32	KEGG:C00123	SLC7A8	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	32	KEGG:C00123	SLC7A8	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	32	KEGG:C00123	SLC7A8	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	32	KEGG:C00123	SLC7A8	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	33	KEGG:C00148	SLC6A17	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	33	KEGG:C00148	SLC6A17	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	33	KEGG:C00148	SLC6A17	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	33	KEGG:C00148	SLC6A17	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	33	KEGG:C00148	SLC6A17	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	33	KEGG:C00148	SLC6A17	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	33	KEGG:C00148	SLC6A17	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	33	KEGG:C00148	SLC6A17	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	33	KEGG:C00148	SLC6A17	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	34	KEGG:C00245	SLC6A6	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	34	KEGG:C00245	SLC6A6	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	34	KEGG:C00245	SLC6A6	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	34	KEGG:C00245	SLC6A6	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	34	KEGG:C00245	SLC6A6	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	34	KEGG:C00245	SLC6A6	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	34	KEGG:C00245	SLC6A6	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	34	KEGG:C00245	SLC6A6	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	34	KEGG:C00245	SLC6A6	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	35	KEGG:C00299	SLC29A1	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	35	KEGG:C00299	SLC29A1	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	35	KEGG:C00299	SLC29A1	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	35	KEGG:C00299	SLC29A1	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	35	KEGG:C00299	SLC29A1	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	35	KEGG:C00299	SLC29A1	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	35	KEGG:C00299	SLC29A1	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	35	KEGG:C00299	SLC29A1	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	35	KEGG:C00299	SLC29A1	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	36	KEGG:C00299	UCKL1	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	36	KEGG:C00299	UCKL1	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	36	KEGG:C00299	UCKL1	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	36	KEGG:C00299	UCKL1	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	36	KEGG:C00299	UCKL1	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	36	KEGG:C00299	UCKL1	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	36	KEGG:C00299	UCKL1	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	36	KEGG:C00299	UCKL1	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	36	KEGG:C00299	UCKL1	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	37	KEGG:C00299	UPP2	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	37	KEGG:C00299	UPP2	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	37	KEGG:C00299	UPP2	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	37	KEGG:C00299	UPP2	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	37	KEGG:C00299	UPP2	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	37	KEGG:C00299	UPP2	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	37	KEGG:C00299	UPP2	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	37	KEGG:C00299	UPP2	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	37	KEGG:C00299	UPP2	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	38	KEGG:C00015	B4GALT2	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	38	KEGG:C00015	B4GALT2	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	38	KEGG:C00015	B4GALT2	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	38	KEGG:C00015	B4GALT2	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	38	KEGG:C00015	B4GALT2	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	38	KEGG:C00015	B4GALT2	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	38	KEGG:C00015	B4GALT2	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	38	KEGG:C00015	B4GALT2	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	38	KEGG:C00015	B4GALT2	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation
+COAD	39	KEGG:C00015	NME6	D01	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Promising but no usable matched tables verified;data-availability statement conflicts with reported generated data
+COAD	39	KEGG:C00015	NME6	D02	PARTIAL	False	NOT_VERIFIED	NOT_VERIFIED	Metastatic liver context and prior chemotherapy;not primary colon validation
+COAD	39	KEGG:C00015	NME6	D03	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Wrong tissue for within-colon-tumor relation
+COAD	39	KEGG:C00015	NME6	D04	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	No matching metabolite measurements established at inspected entry;not claim no metabolomics could exist elsewhere
+COAD	39	KEGG:C00015	NME6	D05	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Must not relabel original data as independent external validation
+COAD	39	KEGG:C00015	NME6	D06	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Pathway integration across different patients cannot test individual metabolite-RNA correlation
+COAD	39	KEGG:C00015	NME6	D07	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Mouse proteomics cannot be joined to human metabolites;BCAA presence alone insufficient
+COAD	39	KEGG:C00015	NME6	D08	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Potential model resource,not independent human tumor cohort
+COAD	39	KEGG:C00015	NME6	D09	NOT_EVALUABLE	False	NOT_VERIFIED	NOT_VERIFIED	Expression validation of metabolomic pathway is not matched metabolite-RNA validation

@@ -1,0 +1,29 @@
+[
+  {
+    "human_gene_id": "hsa:2629",
+    "original_symbol": "GBA1",
+    "rna_symbol": "GBA",
+    "hgnc_id": "HGNC:4177",
+    "status": "OFFICIAL_PREVIOUS_SYMBOL_UNIQUE",
+    "source_url": "https://rest.genenames.org/search/%28symbol%3AGBA%20OR%20prev_symbol%3AGBA%20OR%20alias_symbol%3AGBA%29%20AND%20status%3AApproved",
+    "gene_source_url": "https://rest.genenames.org/fetch/entrez_id/2629"
+  },
+  {
+    "human_gene_id": "hsa:85019",
+    "original_symbol": "SLC35D4",
+    "rna_symbol": "TMEM241",
+    "hgnc_id": "HGNC:31723",
+    "status": "OFFICIAL_PREVIOUS_SYMBOL_UNIQUE",
+    "source_url": "https://rest.genenames.org/search/%28symbol%3ATMEM241%20OR%20prev_symbol%3ATMEM241%20OR%20alias_symbol%3ATMEM241%29%20AND%20status%3AApproved",
+    "gene_source_url": "https://rest.genenames.org/fetch/entrez_id/85019"
+  },
+  {
+    "human_gene_id": "hsa:91749",
+    "original_symbol": "SLC60A2",
+    "rna_symbol": "MFSD4B",
+    "hgnc_id": "HGNC:21053",
+    "status": "OFFICIAL_PREVIOUS_SYMBOL_UNIQUE",
+    "source_url": "https://rest.genenames.org/search/%28symbol%3AMFSD4B%20OR%20prev_symbol%3AMFSD4B%20OR%20alias_symbol%3AMFSD4B%29%20AND%20status%3AApproved",
+    "gene_source_url": "https://rest.genenames.org/fetch/entrez_id/91749"
+  }
+]

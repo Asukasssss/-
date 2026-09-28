@@ -1,0 +1,37 @@
+{
+  "author_cells": 371223,
+  "geo_cells": 370115,
+  "common": 370115,
+  "all_metadata_fields_equal_on_common": {
+    "SPECIMEN_TYPE": true,
+    "SOURCE_HOSPITAL": true,
+    "TISSUE_PROCESSING_TEAM": true,
+    "PROCESSING_TYPE": true,
+    "SINGLECELL_TYPE": true,
+    "PatientTypeID": true,
+    "HistologicTypeSimple": true,
+    "MMR_IHC": true,
+    "MMRStatus": true,
+    "MLH1Status": true,
+    "MMRMLH1Tumor": true,
+    "TissueSite_detailed": true,
+    "TissueSiteSimple": true,
+    "HistologicGrade_detailed": true,
+    "HistologicGradeSimple": true,
+    "TumorStage": true,
+    "NodeStatus_detailed": true,
+    "NodeStatusSimple": true,
+    "MetastasisStatus": true,
+    "TumorSize": true,
+    "SizeQuantile": true,
+    "PID": true,
+    "Sex": true,
+    "Age": true,
+    "Ethnicity": true,
+    "Race": true
+  },
+  "author_only_processing": {
+    "CD45pCD3nCD19nMACS": 1108
+  },
+  "geo_only": 0
+}

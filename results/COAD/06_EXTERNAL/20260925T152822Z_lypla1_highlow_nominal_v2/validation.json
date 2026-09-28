@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "gene_P_below_05": 945,
+  "selected_high": 39,
+  "selected_low": 92,
+  "depth_selected": 414,
+  "primary_and_depth_selected": 18,
+  "primary_selected_same_direction_depth_P05": 18,
+  "pathways_tested": 1129,
+  "ORA_P05": 35,
+  "GSEA_P05": 234,
+  "GSEA_high_P05": 131,
+  "GSEA_low_P05": 103,
+  "primary_effects_and_P_exactly_reused": true,
+  "no_new_differential_tests": true,
+  "no_new_GSEA": true,
+  "no_new_FDR": true,
+  "ORA_recomputed_for_nominal_gene_lists": true,
+  "prior_Q_unchanged": true
+}

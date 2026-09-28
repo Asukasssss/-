@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "scope": "Coverage table counts, frozen relation hash and explicit author sample map",
+  "gene_rows": 35,
+  "metabolite_rows": 23,
+  "relation_rows": 39,
+  "frozen_hash": "db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7",
+  "independent_relation_validation": "NOT_RUN",
+  "clinical_site_and_expression_scale": "NEEDS_REVIEW"
+}

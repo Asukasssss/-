@@ -1,0 +1,4417 @@
+[
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "S-adenosylmethionine (SAM)",
+    "metabolite_standard_name": "S-adenosylmethionine (SAM)",
+    "kegg_id": "C00019",
+    "hmdb_id": "HMDB01185",
+    "metabolite_key": "KEGG:C00019",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Methionine, Cysteine, SAM and Taurine Metabolism",
+    "hedges_g": "1.58687135491014",
+    "hedges_g_variance": "0.069234899359068",
+    "hedges_g_se": "0.263125254126372",
+    "effect_fdr": "9.78479129514819e-08",
+    "max_input_raw_missing_rate": "0.0512820512820513",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00019"
+    ],
+    "database_names": {
+      "C00019": [
+        "S-Adenosyl-L-methionine;",
+        "S-Adenosylmethionine;",
+        "AdoMet;",
+        "SAM"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00019"
+    ],
+    "provisional_pair_count": 85,
+    "provisional_genes": [
+      "AMD1",
+      "ASH1L",
+      "ASMT",
+      "BHMT2",
+      "CAMKMT",
+      "CARM1",
+      "CARNMT1",
+      "CDKAL1",
+      "CMTR1",
+      "CMTR2",
+      "CNPY3-GNMT",
+      "COMT",
+      "COQ3",
+      "COQ5",
+      "DIMT1",
+      "DNMT1",
+      "DNMT3A",
+      "DNMT3B",
+      "DOT1L",
+      "DPH1",
+      "DPH5",
+      "EHMT1",
+      "EHMT2",
+      "EZH1",
+      "EZH2",
+      "GAMT",
+      "GNMT",
+      "HEMK1",
+      "HNMT",
+      "ICMT",
+      "INMT",
+      "KMT2A",
+      "KMT2B",
+      "KMT2C",
+      "KMT2D",
+      "KMT2E",
+      "KMT5A",
+      "KMT5B",
+      "KMT5C",
+      "LCMT2",
+      "LIAS",
+      "LRTOMT",
+      "MAT1A",
+      "MAT2A",
+      "MAT2B",
+      "MECOM",
+      "METTL3",
+      "METTL6",
+      "MOCS1",
+      "NNMT",
+      "NSD1",
+      "NSD2",
+      "NSD3",
+      "PEMT",
+      "PNMT",
+      "PRDM16",
+      "PRDM2",
+      "PRDM6",
+      "PRDM7",
+      "PRDM9",
+      "PRMT1",
+      "PRMT2",
+      "PRMT3",
+      "PRMT5",
+      "PRMT6",
+      "PRMT7",
+      "PRMT8",
+      "PRMT9",
+      "RNMT",
+      "SETD1A",
+      "SETD1B",
+      "SETD2",
+      "SETD7",
+      "SETDB1",
+      "SETDB2",
+      "SETDB2-PHF11",
+      "SETMAR",
+      "SMYD1",
+      "SMYD2",
+      "SMYD3",
+      "SUV39H1",
+      "SUV39H2",
+      "TOMT",
+      "TPMT",
+      "TRMT5"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "glutathione, reduced (GSH)",
+    "metabolite_standard_name": "glutathione, reduced (GSH)",
+    "kegg_id": "C00051",
+    "hmdb_id": "HMDB00125",
+    "metabolite_key": "KEGG:C00051",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Glutathione Metabolism",
+    "hedges_g": "0.723546364233653",
+    "hedges_g_variance": "0.0561122588601299",
+    "hedges_g_se": "0.236880262706984",
+    "effect_fdr": "0.00137962772378558",
+    "max_input_raw_missing_rate": "0.0512820512820513",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00051"
+    ],
+    "database_names": {
+      "C00051": [
+        "Glutathione;",
+        "5-L-Glutamyl-L-cysteinylglycine;",
+        "N-(N-gamma-L-Glutamyl-L-cysteinyl)glycine;",
+        "gamma-L-Glutamyl-L-cysteinyl-glycine;",
+        "GSH;",
+        "Reduced glutathione"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00051"
+    ],
+    "provisional_pair_count": 48,
+    "provisional_genes": [
+      "CHAC1",
+      "CHAC2",
+      "ESD",
+      "ETHE1",
+      "GGT1",
+      "GGT5",
+      "GGT6",
+      "GGT7",
+      "GLO1",
+      "GPX1",
+      "GPX2",
+      "GPX3",
+      "GPX4",
+      "GPX5",
+      "GPX6",
+      "GPX7",
+      "GPX8",
+      "GSR",
+      "GSS",
+      "GSTA1",
+      "GSTA2",
+      "GSTA3",
+      "GSTA4",
+      "GSTA5",
+      "GSTK1",
+      "GSTM1",
+      "GSTM2",
+      "GSTM3",
+      "GSTM4",
+      "GSTM5",
+      "GSTO1",
+      "GSTO2",
+      "GSTP1",
+      "GSTT1",
+      "GSTT2",
+      "GSTT2B",
+      "GSTT4",
+      "HAGH",
+      "HPGDS",
+      "LANCL1",
+      "LTC4S",
+      "MGST1",
+      "MGST2",
+      "MGST3",
+      "PRDX6",
+      "SQOR",
+      "TXNDC12",
+      "hsa:102724197"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "beta-alanine",
+    "metabolite_standard_name": "beta-alanine",
+    "kegg_id": "C00099",
+    "hmdb_id": "HMDB00056",
+    "metabolite_key": "KEGG:C00099",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Alanine and Aspartate Metabolism",
+    "hedges_g": "2.22555471341831",
+    "hedges_g_variance": "0.0852541959734374",
+    "hedges_g_se": "0.291983211800674",
+    "effect_fdr": "3.39874265565443e-10",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00099"
+    ],
+    "database_names": {
+      "C00099": [
+        "beta-Alanine;",
+        "3-Aminopropionic acid;",
+        "3-Aminopropanoate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00099"
+    ],
+    "provisional_pair_count": 17,
+    "provisional_genes": [
+      "ABAT",
+      "ALDH1B1",
+      "ALDH2",
+      "ALDH3A1",
+      "ALDH3A2",
+      "ALDH3B1",
+      "ALDH3B2",
+      "ALDH7A1",
+      "ALDH9A1",
+      "CARNS1",
+      "CNDP1",
+      "CNDP2",
+      "CSAD",
+      "GAD1",
+      "GAD2",
+      "GADL1",
+      "UPB1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "2-Deoxyglucose 6-phosphate",
+    "metabolite_standard_name": "2-Deoxyglucose 6-phosphate",
+    "kegg_id": "C06369",
+    "hmdb_id": "",
+    "metabolite_key": "KEGG:C06369",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "0.659781947432759",
+    "hedges_g_variance": "0.0555319488401459",
+    "hedges_g_se": "0.235652177669008",
+    "effect_fdr": "0.0126783874309455",
+    "max_input_raw_missing_rate": "0.487179487179487",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_EXPOSURE_OR_ANNOTATION_REVIEW",
+    "compound_hypotheses": [
+      "C06369"
+    ],
+    "database_names": {
+      "C06369": [
+        "2-Deoxy-D-glucose 6-phosphate"
+      ]
+    },
+    "identity_note": "名称与 KEGG 的 2-deoxy-D-glucose 6-phosphate 相容，需核查原注释、测量与暴露背景。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C06369"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "hypotaurine",
+    "metabolite_standard_name": "hypotaurine",
+    "kegg_id": "C00519",
+    "hmdb_id": "HMDB00965",
+    "metabolite_key": "KEGG:C00519",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Cysteine, methionine, SAM, taurine metabolism",
+    "hedges_g": "1.35836816796979",
+    "hedges_g_variance": "0.0648072900348528",
+    "hedges_g_se": "0.254572759805233",
+    "effect_fdr": "3.7774906946348e-08",
+    "max_input_raw_missing_rate": "0.027027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00519"
+    ],
+    "database_names": {
+      "C00519": [
+        "Hypotaurine;",
+        "2-Aminoethanesulfinic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00519"
+    ],
+    "provisional_pair_count": 10,
+    "provisional_genes": [
+      "ADO",
+      "CSAD",
+      "FMO1",
+      "FMO2",
+      "FMO3",
+      "FMO4",
+      "FMO5",
+      "GAD1",
+      "GAD2",
+      "GADL1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "N-acetylglucosamine 6-phosphate",
+    "metabolite_standard_name": "N-acetylglucosamine 6-phosphate",
+    "kegg_id": "C00357",
+    "hmdb_id": "HMDB02817",
+    "metabolite_key": "KEGG:C00357",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Aminosugar Metabolism",
+    "hedges_g": "1.2061475455854",
+    "hedges_g_variance": "0.0622390520214847",
+    "hedges_g_se": "0.249477558152",
+    "effect_fdr": "1.51302088736128e-05",
+    "max_input_raw_missing_rate": "0.0512820512820513",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00357"
+    ],
+    "database_names": {
+      "C00357": [
+        "N-Acetyl-D-glucosamine 6-phosphate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00357"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "AMDHD2",
+      "GNPNAT1",
+      "NAGK",
+      "PGM3"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "uracil",
+    "metabolite_standard_name": "uracil",
+    "kegg_id": "C00106",
+    "hmdb_id": "HMDB00300",
+    "metabolite_key": "KEGG:C00106",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Pyrimidine Metabolism, Uracil containing",
+    "hedges_g": "0.735231055609736",
+    "hedges_g_variance": "0.0562243994123488",
+    "hedges_g_se": "0.237116847592803",
+    "effect_fdr": "0.00317493716792095",
+    "max_input_raw_missing_rate": "0.307692307692308",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00106"
+    ],
+    "database_names": {
+      "C00106": [
+        "Uracil"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00106"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "DPYD",
+      "TYMP",
+      "UPP1",
+      "UPP2"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "adenylosuccinate",
+    "metabolite_standard_name": "adenylosuccinate",
+    "kegg_id": "C03794",
+    "hmdb_id": "HMDB00536",
+    "metabolite_key": "KEGG:C03794",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, Adenine containing",
+    "hedges_g": "0.723072982975468",
+    "hedges_g_variance": "0.0561077535806122",
+    "hedges_g_se": "0.236870752902532",
+    "effect_fdr": "0.00103594092695614",
+    "max_input_raw_missing_rate": "0.102564102564103",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C03794"
+    ],
+    "database_names": {
+      "C03794": [
+        "N6-(1,2-Dicarboxyethyl)-AMP;",
+        "N6-(1,2-Dicarboxyethyl)AMP;",
+        "Adenylosuccinate;",
+        "Adenylosuccinic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C03794"
+    ],
+    "provisional_pair_count": 3,
+    "provisional_genes": [
+      "ADSL",
+      "ADSS1",
+      "ADSS2"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "cysteine-glutathione disulfide",
+    "metabolite_standard_name": "cysteine-glutathione disulfide",
+    "kegg_id": "R00900",
+    "hmdb_id": "HMDB00656",
+    "metabolite_key": "KEGG:R00900",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Glutathione Metabolism",
+    "hedges_g": "0.592489232663605",
+    "hedges_g_variance": "0.0549775493181994",
+    "hedges_g_se": "0.234472918091193",
+    "effect_fdr": "0.0295374808693407",
+    "max_input_raw_missing_rate": "0.0256410256410256",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_REACTION_ID_IN_COMPOUND_FIELD",
+    "compound_hypotheses": [
+      "C05526"
+    ],
+    "database_names": {
+      "C05526": [
+        "S-Glutathionyl-L-cysteine"
+      ]
+    },
+    "identity_note": "原 R00900 是反应编号，其方程中的 C05526 为拟议化合物标识；不修改原键，需回查源注释。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C05526"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "cytidine 5'-diphosphocholine",
+    "metabolite_standard_name": "cytidine 5'-diphosphocholine",
+    "kegg_id": "C00307",
+    "hmdb_id": "HMDB01413",
+    "metabolite_key": "KEGG:C00307",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Phospholipid Metabolism",
+    "hedges_g": "1.20327326312888",
+    "hedges_g_variance": "0.0621934904691107",
+    "hedges_g_se": "0.24938622750487",
+    "effect_fdr": "7.43310822038562e-07",
+    "max_input_raw_missing_rate": "0.102564102564103",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00307"
+    ],
+    "database_names": {
+      "C00307": [
+        "CDP-choline;",
+        "Cytidine 5'-diphosphocholine;",
+        "Citicoline"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00307"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "CEPT1",
+      "CHPT1",
+      "PCYT1A",
+      "PCYT1B"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "N-acetylmethionine",
+    "metabolite_standard_name": "N-acetylmethionine",
+    "kegg_id": "C02712",
+    "hmdb_id": "HMDB11745",
+    "metabolite_key": "KEGG:C02712",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Cysteine, methionine, SAM, taurine metabolism",
+    "hedges_g": "0.760384400279365",
+    "hedges_g_variance": "0.0564718976429751",
+    "hedges_g_se": "0.237638165375377",
+    "effect_fdr": "0.0035199914001332",
+    "max_input_raw_missing_rate": "0.58974358974359",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C02712"
+    ],
+    "database_names": {
+      "C02712": [
+        "N-Acetylmethionine;",
+        "N-Acetyl-L-methionine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C02712"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "hypoxanthine",
+    "metabolite_standard_name": "hypoxanthine",
+    "kegg_id": "C00262",
+    "hmdb_id": "HMDB00157",
+    "metabolite_key": "KEGG:C00262",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, (Hypo)Xanthine/Inosine containing",
+    "hedges_g": "1.13415428000986",
+    "hedges_g_variance": "0.0611305916868992",
+    "hedges_g_se": "0.247246014501547",
+    "effect_fdr": "7.85844714558742e-05",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00262"
+    ],
+    "database_names": {
+      "C00262": [
+        "Hypoxanthine;",
+        "Purine-6-ol"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00262"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "HPRT1",
+      "LACC1",
+      "PNP",
+      "XDH"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "UDP-N-acetylglucosamine",
+    "metabolite_standard_name": "UDP-N-acetylglucosamine",
+    "kegg_id": "C00043",
+    "hmdb_id": "HMDB00290",
+    "metabolite_key": "KEGG:C00043",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Nucleotide sugars, pentose metabolism",
+    "hedges_g": "0.939007643120185",
+    "hedges_g_variance": "0.0584689431538298",
+    "hedges_g_se": "0.241803521797822",
+    "effect_fdr": "0.000290785192477196",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00043"
+    ],
+    "database_names": {
+      "C00043": [
+        "UDP-N-acetyl-alpha-D-glucosamine;",
+        "UDP-N-acetyl-D-glucosamine;",
+        "UDP-N-acetylglucosamine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00043"
+    ],
+    "provisional_pair_count": 10,
+    "provisional_genes": [
+      "B3GNT2",
+      "B3GNT3",
+      "B3GNT4",
+      "DPAGT1",
+      "EOGT",
+      "GNE",
+      "OGT",
+      "POMGNT2",
+      "UAP1",
+      "UAP1L1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "1-methylnicotinamide",
+    "metabolite_standard_name": "1-methylnicotinamide",
+    "kegg_id": "C02918",
+    "hmdb_id": "HMDB00699",
+    "metabolite_key": "KEGG:C02918",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Cofactors and Vitamins",
+    "sub_pathway": "Nicotinate and Nicotinamide Metabolism",
+    "hedges_g": "0.736754320620112",
+    "hedges_g_variance": "0.0562391508848448",
+    "hedges_g_se": "0.237147951466684",
+    "effect_fdr": "0.0104274039204103",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C02918"
+    ],
+    "database_names": {
+      "C02918": [
+        "1-Methylnicotinamide;",
+        "N(1)-Methylnicotinamide"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C02918"
+    ],
+    "provisional_pair_count": 2,
+    "provisional_genes": [
+      "AOX1",
+      "NNMT"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "proline",
+    "metabolite_standard_name": "proline",
+    "kegg_id": "C00148",
+    "hmdb_id": "HMDB00162",
+    "metabolite_key": "KEGG:C00148",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Urea cycle; Arginine and Proline Metabolism",
+    "hedges_g": "1.83185674666479",
+    "hedges_g_variance": "0.0747450206963507",
+    "hedges_g_se": "0.273395356025575",
+    "effect_fdr": "3.7774906946348e-08",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00148"
+    ],
+    "database_names": {
+      "C00148": [
+        "L-Proline;",
+        "2-Pyrrolidinecarboxylic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00148"
+    ],
+    "provisional_pair_count": 10,
+    "provisional_genes": [
+      "EPRS1",
+      "LAP3",
+      "P4HA1",
+      "P4HA2",
+      "P4HA3",
+      "PARS2",
+      "PRODH",
+      "PYCR1",
+      "PYCR2",
+      "PYCR3"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "kynurenine",
+    "metabolite_standard_name": "kynurenine",
+    "kegg_id": "C00328",
+    "hmdb_id": "HMDB00684",
+    "metabolite_key": "KEGG:C00328",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Tryptophan Metabolism",
+    "hedges_g": "1.03558795953485",
+    "hedges_g_variance": "0.0597235949176156",
+    "hedges_g_se": "0.244384113472246",
+    "effect_fdr": "0.000218307827746403",
+    "max_input_raw_missing_rate": "0.128205128205128",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00328"
+    ],
+    "database_names": {
+      "C00328": [
+        "L-Kynurenine;",
+        "3-Anthraniloyl-L-alanine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00328"
+    ],
+    "provisional_pair_count": 6,
+    "provisional_genes": [
+      "AADAT",
+      "AFMID",
+      "KMO",
+      "KYAT1",
+      "KYAT3",
+      "KYNU"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "5-methylthioadenosine (MTA)",
+    "metabolite_standard_name": "5-methylthioadenosine (MTA)",
+    "kegg_id": "C00170",
+    "hmdb_id": "HMDB01173",
+    "metabolite_key": "KEGG:C00170",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Polyamine metabolism",
+    "hedges_g": "0.794416000324265",
+    "hedges_g_variance": "0.0568200051783895",
+    "hedges_g_se": "0.238369471993352",
+    "effect_fdr": "0.00110684292910678",
+    "max_input_raw_missing_rate": "0.358974358974359",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00170"
+    ],
+    "database_names": {
+      "C00170": [
+        "5'-Methylthioadenosine;",
+        "Methylthioadenosine;",
+        "S-Methyl-5'-thioadenosine;",
+        "5-Methylthioadenosine;",
+        "5'-Deoxy-5'-(methylthio)adenosine;",
+        "Thiomethyladenosine;",
+        "MTA;",
+        "5'-Deoxy-5'-(methylsulfanyl)adenosine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00170"
+    ],
+    "provisional_pair_count": 5,
+    "provisional_genes": [
+      "DPH1",
+      "LACC1",
+      "MTAP",
+      "SMS",
+      "SRM"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "3-hydroxy-3-methylglutarate",
+    "metabolite_standard_name": "3-hydroxy-3-methylglutarate",
+    "kegg_id": "C03761",
+    "hmdb_id": "HMDB00355",
+    "metabolite_key": "KEGG:C03761",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Mevalonate Metabolism",
+    "hedges_g": "1.28253291327222",
+    "hedges_g_variance": "0.0634897018366482",
+    "hedges_g_se": "0.251971629031223",
+    "effect_fdr": "4.64513926849744e-06",
+    "max_input_raw_missing_rate": "0.153846153846154",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C03761"
+    ],
+    "database_names": {
+      "C03761": [
+        "3-Hydroxy-3-methylglutarate;",
+        "3-Hydorxy-3-methylglutaric acid;",
+        "beta-Hydroxy-beta-methylglutaric acid;",
+        "Dicrotalic acid;",
+        "3-Hydroxy-3-methylpentanedioic acid;",
+        "Meglutol"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C03761"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "glycylglycine",
+    "metabolite_standard_name": "glycylglycine",
+    "kegg_id": "C02037",
+    "hmdb_id": "HMDB11733",
+    "metabolite_key": "KEGG:C02037",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Peptide",
+    "sub_pathway": "Dipeptide",
+    "hedges_g": "1.09439254708472",
+    "hedges_g_variance": "0.060547625346438",
+    "hedges_g_se": "0.246064270763632",
+    "effect_fdr": "5.32472647854001e-06",
+    "max_input_raw_missing_rate": "0.102564102564103",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C02037"
+    ],
+    "database_names": {
+      "C02037": [
+        "Glycylglycine;",
+        "N-Glycylglycine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C02037"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "xanthine",
+    "metabolite_standard_name": "xanthine",
+    "kegg_id": "C00385",
+    "hmdb_id": "HMDB00292",
+    "metabolite_key": "KEGG:C00385",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, (Hypo)Xanthine/Inosine containing",
+    "hedges_g": "0.38387480653592",
+    "hedges_g_variance": "0.053637525477875",
+    "hedges_g_se": "0.231597766564954",
+    "effect_fdr": "0.12185706354843",
+    "max_input_raw_missing_rate": "0.128205128205128",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00385"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "taurine",
+    "metabolite_standard_name": "taurine",
+    "kegg_id": "C00245",
+    "hmdb_id": "HMDB00251",
+    "metabolite_key": "KEGG:C00245",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Methionine, Cysteine, SAM and Taurine Metabolism",
+    "hedges_g": "1.76824722222295",
+    "hedges_g_variance": "0.0732384358187052",
+    "hedges_g_se": "0.270626007284417",
+    "effect_fdr": "3.7774906946348e-08",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00245"
+    ],
+    "database_names": {
+      "C00245": [
+        "Taurine;",
+        "2-Aminoethanesulfonic acid;",
+        "Aminoethylsulfonic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00245"
+    ],
+    "provisional_pair_count": 15,
+    "provisional_genes": [
+      "BAAT",
+      "CSAD",
+      "FMO1",
+      "FMO2",
+      "FMO3",
+      "FMO4",
+      "FMO5",
+      "GAD1",
+      "GAD2",
+      "GADL1",
+      "GGT1",
+      "GGT5",
+      "GGT6",
+      "GGT7",
+      "hsa:102724197"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "1-methyladenosine",
+    "metabolite_standard_name": "1-methyladenosine",
+    "kegg_id": "C02494",
+    "hmdb_id": "HMDB03331",
+    "metabolite_key": "KEGG:C02494",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine metabolism, adenine containing",
+    "hedges_g": "0.744539332175952",
+    "hedges_g_variance": "0.0563150185704014",
+    "hedges_g_se": "0.237307856107634",
+    "effect_fdr": "0.0104274039204103",
+    "max_input_raw_missing_rate": "0.358974358974359",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C02494"
+    ],
+    "database_names": {
+      "C02494": [
+        "1-Methyladenosine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C02494"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "N-Acetylglucosamine 1-phosphate",
+    "metabolite_standard_name": "N-Acetylglucosamine 1-phosphate",
+    "kegg_id": "C04501",
+    "hmdb_id": "",
+    "metabolite_key": "KEGG:C04501",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "0.651874150570456",
+    "hedges_g_variance": "0.0554637099587234",
+    "hedges_g_se": "0.235507345869982",
+    "effect_fdr": "0.0233237692703757",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C04501"
+    ],
+    "database_names": {
+      "C04501": [
+        "N-Acetyl-alpha-D-glucosamine 1-phosphate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C04501"
+    ],
+    "provisional_pair_count": 3,
+    "provisional_genes": [
+      "PGM3",
+      "UAP1",
+      "UAP1L1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "UDP-glucuronate",
+    "metabolite_standard_name": "UDP-glucuronate",
+    "kegg_id": "C00167",
+    "hmdb_id": "HMDB00935",
+    "metabolite_key": "KEGG:C00167",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Nucleotide sugars, pentose metabolism",
+    "hedges_g": "0.51439178620292",
+    "hedges_g_variance": "0.0544088349687963",
+    "hedges_g_se": "0.233257014832987",
+    "effect_fdr": "0.0104274039204103",
+    "max_input_raw_missing_rate": "0.027027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00167"
+    ],
+    "database_names": {
+      "C00167": [
+        "UDP-glucuronate;",
+        "UDPglucuronate;",
+        "UDP-D-glucuronate;",
+        "UDP-alpha-D-glucuronate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00167"
+    ],
+    "provisional_pair_count": 25,
+    "provisional_genes": [
+      "CHPF",
+      "CHPF2",
+      "CHSY1",
+      "CHSY3",
+      "UGDH",
+      "UGT1A1",
+      "UGT1A10",
+      "UGT1A3",
+      "UGT1A4",
+      "UGT1A5",
+      "UGT1A6",
+      "UGT1A7",
+      "UGT1A8",
+      "UGT1A9",
+      "UGT2A1",
+      "UGT2A2",
+      "UGT2A3",
+      "UGT2B10",
+      "UGT2B11",
+      "UGT2B15",
+      "UGT2B17",
+      "UGT2B28",
+      "UGT2B4",
+      "UGT2B7",
+      "UXS1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "5-hydroxylysine",
+    "metabolite_standard_name": "5-hydroxylysine",
+    "kegg_id": "C16741",
+    "hmdb_id": "HMDB00450",
+    "metabolite_key": "KEGG:C16741",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Lysine Metabolism",
+    "hedges_g": "1.10235368258317",
+    "hedges_g_variance": "0.0606626818884782",
+    "hedges_g_se": "0.246297953480085",
+    "effect_fdr": "0.000106513585786417",
+    "max_input_raw_missing_rate": "0.538461538461538",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C16741"
+    ],
+    "database_names": {
+      "C16741": [
+        "L-Hydroxylysine;",
+        "5-Hydroxy-L-lysine;",
+        "L-erythro-5-Hydroxylysine;",
+        "(5R)-5-Hydroxy-L-lysine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。 只能匹配游离化合物参与的反应，不由名称跳接胶原蛋白残基羟化酶。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C16741"
+    ],
+    "provisional_pair_count": 1,
+    "provisional_genes": [
+      "HYKK"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "adenine",
+    "metabolite_standard_name": "adenine",
+    "kegg_id": "C00147",
+    "hmdb_id": "HMDB00034",
+    "metabolite_key": "KEGG:C00147",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, Adenine containing",
+    "hedges_g": "1.00605822007937",
+    "hedges_g_variance": "0.0593269549192978",
+    "hedges_g_se": "0.243571252243153",
+    "effect_fdr": "0.000171933865206755",
+    "max_input_raw_missing_rate": "0.153846153846154",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00147"
+    ],
+    "database_names": {
+      "C00147": [
+        "Adenine;",
+        "6-Aminopurine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00147"
+    ],
+    "provisional_pair_count": 5,
+    "provisional_genes": [
+      "APRT",
+      "LACC1",
+      "MTAP",
+      "PNP",
+      "XDH"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "guanosine 5'- diphosphate (GDP)",
+    "metabolite_standard_name": "guanosine 5'- diphosphate (GDP)",
+    "kegg_id": "C00035",
+    "hmdb_id": "HMDB01201",
+    "metabolite_key": "KEGG:C00035",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "0.333738755268872",
+    "hedges_g_variance": "0.0534008260678449",
+    "hedges_g_se": "0.231086187531503",
+    "effect_fdr": "0.0903180799619314",
+    "max_input_raw_missing_rate": "0.282051282051282",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00035"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "isoleucine",
+    "metabolite_standard_name": "isoleucine",
+    "kegg_id": "C00407",
+    "hmdb_id": "HMDB00172",
+    "metabolite_key": "KEGG:C00407",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Valine, leucine and isoleucine metabolism",
+    "hedges_g": "0.567578731556765",
+    "hedges_g_variance": "0.0547874317240763",
+    "hedges_g_se": "0.234067152168082",
+    "effect_fdr": "0.0446064691375585",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00407"
+    ],
+    "database_names": {
+      "C00407": [
+        "L-Isoleucine;",
+        "2-Amino-3-methylvaleric acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00407"
+    ],
+    "provisional_pair_count": 5,
+    "provisional_genes": [
+      "BCAT1",
+      "BCAT2",
+      "IARS1",
+      "IARS2",
+      "IL4I1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "pantothenate",
+    "metabolite_standard_name": "pantothenate",
+    "kegg_id": "C00864",
+    "hmdb_id": "HMDB00210",
+    "metabolite_key": "KEGG:C00864",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Cofactors and Vitamins",
+    "sub_pathway": "Pantothenate and CoA Metabolism",
+    "hedges_g": "0.326974894895062",
+    "hedges_g_variance": "0.0533714249173398",
+    "hedges_g_se": "0.231022563654159",
+    "effect_fdr": "0.166569309698962",
+    "max_input_raw_missing_rate": "0.307692307692308",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00864"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "leucine",
+    "metabolite_standard_name": "leucine",
+    "kegg_id": "C00123",
+    "hmdb_id": "HMDB00687",
+    "metabolite_key": "KEGG:C00123",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Valine, leucine and isoleucine metabolism",
+    "hedges_g": "0.50839089312706",
+    "hedges_g_variance": "0.0543684559589377",
+    "hedges_g_se": "0.233170444008107",
+    "effect_fdr": "0.0398980189569739",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00123"
+    ],
+    "database_names": {
+      "C00123": [
+        "L-Leucine;",
+        "2-Amino-4-methylvaleric acid;",
+        "(2S)-alpha-2-Amino-4-methylvaleric acid;",
+        "(2S)-alpha-Leucine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00123"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "BCAT1",
+      "BCAT2",
+      "LARS1",
+      "LARS2"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "tyrosine",
+    "metabolite_standard_name": "tyrosine",
+    "kegg_id": "C00082",
+    "hmdb_id": "HMDB00158",
+    "metabolite_key": "KEGG:C00082",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Phenylalanine and Tyrosine Metabolism",
+    "hedges_g": "0.543601589293918",
+    "hedges_g_variance": "0.054612149298861",
+    "hedges_g_se": "0.233692424564557",
+    "effect_fdr": "0.0398980189569739",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00082"
+    ],
+    "database_names": {
+      "C00082": [
+        "L-Tyrosine;",
+        "(S)-3-(p-Hydroxyphenyl)alanine;",
+        "(S)-2-Amino-3-(p-hydroxyphenyl)propionic acid;",
+        "Tyrosine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00082"
+    ],
+    "provisional_pair_count": 12,
+    "provisional_genes": [
+      "DDC",
+      "GOT1",
+      "GOT1L1",
+      "GOT2",
+      "IL4I1",
+      "PAH",
+      "TAT",
+      "TH",
+      "TPO",
+      "TYR",
+      "YARS1",
+      "YARS2"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "asparagine",
+    "metabolite_standard_name": "asparagine",
+    "kegg_id": "C00152",
+    "hmdb_id": "HMDB00168",
+    "metabolite_key": "KEGG:C00152",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Alanine and Aspartate Metabolism",
+    "hedges_g": "0.690613414767693",
+    "hedges_g_variance": "0.0558058611460599",
+    "hedges_g_se": "0.236232641999491",
+    "effect_fdr": "0.0163500248519711",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00152"
+    ],
+    "database_names": {
+      "C00152": [
+        "L-Asparagine;",
+        "2-Aminosuccinamic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00152"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "ASNS",
+      "ASRGL1",
+      "NARS1",
+      "NARS2"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "threonine",
+    "metabolite_standard_name": "threonine",
+    "kegg_id": "C00188",
+    "hmdb_id": "HMDB00167",
+    "metabolite_key": "KEGG:C00188",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Glycine, Serine and Threonine Metabolism",
+    "hedges_g": "0.480107439619451",
+    "hedges_g_variance": "0.054184520783697",
+    "hedges_g_se": "0.232775687698903",
+    "effect_fdr": "0.0684250522915698",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00188"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "S-adenosylhomocysteine (SAH)",
+    "metabolite_standard_name": "S-adenosylhomocysteine (SAH)",
+    "kegg_id": "C00021",
+    "hmdb_id": "HMDB00939",
+    "metabolite_key": "KEGG:C00021",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Cysteine, methionine, SAM, taurine metabolism",
+    "hedges_g": "0.175751567715889",
+    "hedges_g_variance": "0.0528712672309118",
+    "hedges_g_se": "0.229937528974528",
+    "effect_fdr": "0.0807523280020274",
+    "max_input_raw_missing_rate": "0.0540540540540541",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00021"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "3-hydroxyproline",
+    "metabolite_standard_name": "3-hydroxyproline",
+    "kegg_id": "C05147",
+    "hmdb_id": "HMDB02113",
+    "metabolite_key": "KEGG:C05147",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "0.611551652327855",
+    "hedges_g_variance": "0.0551285488750588",
+    "hedges_g_se": "0.234794695159535",
+    "effect_fdr": "0.0128731320770819",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C05147"
+    ],
+    "database_names": {
+      "C05147": [
+        "trans-3-Hydroxy-L-proline;",
+        "trans-L-3-Hydroxyproline"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。 只能匹配游离化合物参与的反应，不由名称跳接胶原蛋白残基羟化酶。",
+    "hmdb_crosscheck": "NAME_READ_NOT_STEREOCHEMISTRY_RESOLVED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C05147",
+      "https://hmdb.ca/metabolites/HMDB0002113"
+    ],
+    "provisional_pair_count": 1,
+    "provisional_genes": [
+      "L3HYPDH"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "spermidine",
+    "metabolite_standard_name": "spermidine",
+    "kegg_id": "C00315",
+    "hmdb_id": "HMDB01257",
+    "metabolite_key": "KEGG:C00315",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Polyamine Metabolism",
+    "hedges_g": "0.305948873264586",
+    "hedges_g_variance": "0.0532838731486571",
+    "hedges_g_se": "0.230832998396367",
+    "effect_fdr": "0.038270274465541",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00315"
+    ],
+    "database_names": {
+      "C00315": [
+        "Spermidine;",
+        "N-(3-Aminopropyl)-1,4-butane-diamine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00315"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "PAOX",
+      "SMOX",
+      "SMS",
+      "SRM"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "phenylalanine",
+    "metabolite_standard_name": "phenylalanine",
+    "kegg_id": "C00079",
+    "hmdb_id": "HMDB00159",
+    "metabolite_key": "KEGG:C00079",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Phenylalanine and Tyrosine Metabolism",
+    "hedges_g": "0.462912443149273",
+    "hedges_g_variance": "0.0540778416813581",
+    "hedges_g_se": "0.232546429087522",
+    "effect_fdr": "0.0539757777143879",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00079"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "5-oxoproline",
+    "metabolite_standard_name": "5-oxoproline",
+    "kegg_id": "C01879",
+    "hmdb_id": "HMDB00267",
+    "metabolite_key": "KEGG:C01879",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Glutathione Metabolism",
+    "hedges_g": "0.554592396304544",
+    "hedges_g_variance": "0.0546915574446238",
+    "hedges_g_se": "0.233862261693981",
+    "effect_fdr": "0.127599886571314",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C01879"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "deoxycarnitine",
+    "metabolite_standard_name": "deoxycarnitine",
+    "kegg_id": "C01181",
+    "hmdb_id": "HMDB01161",
+    "metabolite_key": "KEGG:C01181",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Carnitine Metabolism",
+    "hedges_g": "0.401770332905077",
+    "hedges_g_variance": "0.0537300224075438",
+    "hedges_g_se": "0.231797373599322",
+    "effect_fdr": "0.127799215065539",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C01181"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "succinate",
+    "metabolite_standard_name": "succinate",
+    "kegg_id": "C00042",
+    "hmdb_id": "HMDB00254",
+    "metabolite_key": "KEGG:C00042",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Energy",
+    "sub_pathway": "TCA Cycle",
+    "hedges_g": "0.337546713220222",
+    "hedges_g_variance": "0.0534176433496696",
+    "hedges_g_se": "0.23112257213364",
+    "effect_fdr": "0.120347758489168",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00042"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "glutamate",
+    "metabolite_standard_name": "glutamate",
+    "kegg_id": "C00025",
+    "hmdb_id": "HMDB03339",
+    "metabolite_key": "KEGG:C00025",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Glutamate Metabolism",
+    "hedges_g": "0.752532488926264",
+    "hedges_g_variance": "0.056393744423905",
+    "hedges_g_se": "0.237473671011978",
+    "effect_fdr": "0.00205315909153294",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_ID_CONFLICT",
+    "compound_hypotheses": [
+      "C00025",
+      "C00217"
+    ],
+    "database_names": {
+      "C00025": [
+        "L-Glutamate;",
+        "L-Glutamic acid;",
+        "L-Glutaminic acid;",
+        "Glutamate"
+      ],
+      "C00217": [
+        "D-Glutamate;",
+        "D-Glutamic acid;",
+        "D-Glutaminic acid;",
+        "D-2-Aminoglutaric acid"
+      ]
+    },
+    "identity_note": "KEGG C00025 为 L-Glutamate；原 HMDB03339 为 D-Glutamic acid。回查作者注释前保留两种假设，不确定为 L 型。",
+    "hmdb_crosscheck": "CONFLICT_CONFIRMED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00025",
+      "https://www.kegg.jp/entry/C00217",
+      "https://hmdb.ca/metabolites/HMDB0003339"
+    ],
+    "provisional_pair_count": 58,
+    "provisional_genes": [
+      "AADAT",
+      "AASS",
+      "ABAT",
+      "AGXT",
+      "AGXT2",
+      "ALDH18A1",
+      "ALDH4A1",
+      "ASNS",
+      "BCAT1",
+      "BCAT2",
+      "CAD",
+      "CISD1",
+      "CTPS1",
+      "CTPS2",
+      "DGLUCY",
+      "EARS2",
+      "EPRS1",
+      "FOLH1",
+      "FPGS",
+      "FTCD",
+      "GAD1",
+      "GAD2",
+      "GATB",
+      "GATC",
+      "GCLC",
+      "GCLM",
+      "GFPT1",
+      "GFPT2",
+      "GGH",
+      "GGT1",
+      "GGT5",
+      "GGT6",
+      "GGT7",
+      "GLS",
+      "GLS2",
+      "GLUD1",
+      "GLUD2",
+      "GLUL",
+      "GMPS",
+      "GOT1",
+      "GOT1L1",
+      "GOT2",
+      "GPT",
+      "GPT2",
+      "KYAT1",
+      "KYAT3",
+      "NADSYN1",
+      "NAGS",
+      "OAT",
+      "OPLAH",
+      "PFAS",
+      "PPAT",
+      "PSAT1",
+      "QRSL1",
+      "RIMKLA",
+      "RIMKLB",
+      "TAT",
+      "hsa:102724197"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "adenosine 2'-monophosphate (2'-AMP)",
+    "metabolite_standard_name": "adenosine 2'-monophosphate (2'-AMP)",
+    "kegg_id": "C00946",
+    "hmdb_id": "HMDB11617",
+    "metabolite_key": "KEGG:C00946",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, Adenine containing",
+    "hedges_g": "0.204733660018642",
+    "hedges_g_variance": "0.0529438149808463",
+    "hedges_g_se": "0.23009523024358",
+    "effect_fdr": "0.172918355303496",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00946"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "2-hydroxyglutarate",
+    "metabolite_standard_name": "2-hydroxyglutarate",
+    "kegg_id": "C02630",
+    "hmdb_id": "HMDB00606",
+    "metabolite_key": "KEGG:C02630",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Fatty Acid, Dicarboxylate",
+    "hedges_g": "0.302010203733919",
+    "hedges_g_variance": "0.0532681195309435",
+    "hedges_g_se": "0.230798872464628",
+    "effect_fdr": "0.170970135184171",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_STEREOCHEMISTRY",
+    "compound_hypotheses": [
+      "C02630",
+      "C01087",
+      "C03196"
+    ],
+    "identity_note": "Unresolved measured stereoisomer; R/S are hypotheses, not separate measurements.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "N-acetylglutamate",
+    "metabolite_standard_name": "N-acetylglutamate",
+    "kegg_id": "C00624",
+    "hmdb_id": "HMDB01138",
+    "metabolite_key": "KEGG:C00624",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Glutamate Metabolism",
+    "hedges_g": "0.396255826342602",
+    "hedges_g_variance": "0.0537010702990425",
+    "hedges_g_se": "0.231734913854263",
+    "effect_fdr": "0.127599886571314",
+    "max_input_raw_missing_rate": "0.0810810810810811",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00624"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "uridine 5'-diphosphate (UDP)",
+    "metabolite_standard_name": "uridine 5'-diphosphate (UDP)",
+    "kegg_id": "C00015",
+    "hmdb_id": "HMDB00295",
+    "metabolite_key": "KEGG:C00015",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Pyrimidine Metabolism, Uracil containing",
+    "hedges_g": "0.400708300009171",
+    "hedges_g_variance": "0.05372441544237",
+    "hedges_g_se": "0.231785278743862",
+    "effect_fdr": "0.0458478582879108",
+    "max_input_raw_missing_rate": "0.027027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00015"
+    ],
+    "database_names": {
+      "C00015": [
+        "UDP;",
+        "Uridine 5'-diphosphate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00015"
+    ],
+    "provisional_pair_count": 72,
+    "provisional_genes": [
+      "AK3",
+      "AK9",
+      "ALG5",
+      "B3GALNT2",
+      "B3GNT2",
+      "B3GNT3",
+      "B3GNT4",
+      "B4GALNT1",
+      "B4GALT1",
+      "B4GALT2",
+      "B4GALT4",
+      "B4GALT5",
+      "B4GALT6",
+      "CANT1",
+      "CHPF",
+      "CHPF2",
+      "CHSY1",
+      "CHSY3",
+      "CMPK1",
+      "CMPK2",
+      "COLGALT1",
+      "COLGALT2",
+      "ENTPD1",
+      "ENTPD3",
+      "ENTPD4",
+      "ENTPD5",
+      "ENTPD6",
+      "ENTPD8",
+      "EOGT",
+      "GNE",
+      "GYG1",
+      "GYG2",
+      "GYS1",
+      "GYS2",
+      "LALBA",
+      "NME1",
+      "NME1-NME2",
+      "NME2",
+      "NME3",
+      "NME4",
+      "NME6",
+      "NME7",
+      "OGT",
+      "PFKL",
+      "PFKM",
+      "PFKP",
+      "PLOD3",
+      "POMGNT2",
+      "RRM1",
+      "RRM2",
+      "RRM2B",
+      "UGCG",
+      "UGT1A1",
+      "UGT1A10",
+      "UGT1A3",
+      "UGT1A4",
+      "UGT1A5",
+      "UGT1A6",
+      "UGT1A7",
+      "UGT1A8",
+      "UGT1A9",
+      "UGT2A1",
+      "UGT2A2",
+      "UGT2A3",
+      "UGT2B10",
+      "UGT2B11",
+      "UGT2B15",
+      "UGT2B17",
+      "UGT2B28",
+      "UGT2B4",
+      "UGT2B7",
+      "UGT8"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "serine",
+    "metabolite_standard_name": "serine",
+    "kegg_id": "C00065",
+    "hmdb_id": "HMDB03406",
+    "metabolite_key": "KEGG:C00065",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Glycine, Serine and Threonine Metabolism",
+    "hedges_g": "-0.356571543699527",
+    "hedges_g_variance": "0.0535045215218439",
+    "hedges_g_se": "0.231310444039701",
+    "effect_fdr": "0.159943053674959",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_D_L_ID_CONFLICT",
+    "compound_hypotheses": [
+      "C00065",
+      "C00740"
+    ],
+    "identity_note": "Original KEGG L-serine vs HMDB0003406 D-serine; https://hmdb.ca/metabolites/HMDB0003406",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "fructose 1,6-diphosphate/glucose 1,6-diphosphate/myo-inositol diphosphates",
+    "metabolite_standard_name": "fructose 1,6-diphosphate/glucose 1,6-diphosphate/myo-inositol diphosphates",
+    "kegg_id": "C00354",
+    "hmdb_id": "",
+    "metabolite_key": "KEGG:C00354",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",
+    "hedges_g": "0.336260528935214",
+    "hedges_g_variance": "0.0534119417688408",
+    "hedges_g_se": "0.231110237265338",
+    "effect_fdr": "0.133869593570965",
+    "max_input_raw_missing_rate": "0.027027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_COMBINED_FEATURE",
+    "compound_hypotheses": [
+      "C00354"
+    ],
+    "identity_note": "Only original fructose-1,6-bisphosphate hypothesis screened here; other combined components unresolved.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "betaine",
+    "metabolite_standard_name": "betaine",
+    "kegg_id": "C00719",
+    "hmdb_id": "HMDB00043",
+    "metabolite_key": "KEGG:C00719",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Glycine, Serine and Threonine Metabolism",
+    "hedges_g": "-0.296275896426128",
+    "hedges_g_variance": "0.0532455487654415",
+    "hedges_g_se": "0.230749970239308",
+    "effect_fdr": "0.296348707671649",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00719"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "UDP-glucose",
+    "metabolite_standard_name": "UDP-glucose",
+    "kegg_id": "C00029",
+    "hmdb_id": "HMDB00286",
+    "metabolite_key": "KEGG:C00029",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Nucleotide Sugar",
+    "hedges_g": "-0.479570976201485",
+    "hedges_g_variance": "0.0541811337286766",
+    "hedges_g_se": "0.2327684122227",
+    "effect_fdr": "0.118950274477379",
+    "max_input_raw_missing_rate": "0.027027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00029"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "3-methylhistidine",
+    "metabolite_standard_name": "3-methylhistidine",
+    "kegg_id": "C01152",
+    "hmdb_id": "HMDB00479",
+    "metabolite_key": "KEGG:C01152",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Histidine Metabolism",
+    "hedges_g": "-0.284211103884199",
+    "hedges_g_variance": "0.0531994734020729",
+    "hedges_g_se": "0.23065011034481",
+    "effect_fdr": "0.355731040548491",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_METHYL_POSITION_NOMENCLATURE",
+    "compound_hypotheses": [
+      "C01152"
+    ],
+    "identity_note": "Source feature and KEGG historical 1/3-methyl synonyms require position-specific annotation check; no histone residue enzyme jump.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "2-hydroxybutyrate (AHB)",
+    "metabolite_standard_name": "2-hydroxybutyrate (AHB)",
+    "kegg_id": "C05984",
+    "hmdb_id": "HMDB00008",
+    "metabolite_key": "KEGG:C05984",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Cysteine, methionine, SAM, taurine metabolism",
+    "hedges_g": "-0.336422998573065",
+    "hedges_g_variance": "0.0534126607862691",
+    "hedges_g_se": "0.231111792832536",
+    "effect_fdr": "0.12185706354843",
+    "max_input_raw_missing_rate": "0.179487179487179",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C05984"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "uridine",
+    "metabolite_standard_name": "uridine",
+    "kegg_id": "C00299",
+    "hmdb_id": "HMDB00296",
+    "metabolite_key": "KEGG:C00299",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Pyrimidine Metabolism, Uracil containing",
+    "hedges_g": "-0.928810287622812",
+    "hedges_g_variance": "0.0583436352364341",
+    "hedges_g_se": "0.241544271793876",
+    "effect_fdr": "0.00111232647907128",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00299"
+    ],
+    "database_names": {
+      "C00299": [
+        "Uridine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00299"
+    ],
+    "provisional_pair_count": 15,
+    "provisional_genes": [
+      "CDA",
+      "CDADC1",
+      "NT5C",
+      "NT5C1A",
+      "NT5C1B",
+      "NT5C1B-RDH14",
+      "NT5C2",
+      "NT5DC4",
+      "NT5E",
+      "NT5M",
+      "UCK1",
+      "UCK2",
+      "UCKL1",
+      "UPP1",
+      "UPP2"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "2-Hydroxypentanoate",
+    "metabolite_standard_name": "2-Hydroxypentanoate",
+    "kegg_id": "",
+    "hmdb_id": "",
+    "metabolite_key": "NAME:2-Hydroxypentanoate",
+    "identity_confidence": "MODERATE_NAME_ONLY",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "-0.343884307751192",
+    "hedges_g_variance": "0.0534460554122469",
+    "hedges_g_se": "0.23118402931917",
+    "effect_fdr": "0.296348707671649",
+    "max_input_raw_missing_rate": "0.27027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_NO_EXACT_DATABASE_ID",
+    "compound_hypotheses": [],
+    "identity_note": "Original KEGG/HMDB empty; scoped KEGG name search returned no entry. Not negative biological evidence.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "1-methylhistamine",
+    "metabolite_standard_name": "1-methylhistamine",
+    "kegg_id": "C05127",
+    "hmdb_id": "HMDB00898",
+    "metabolite_key": "KEGG:C05127",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Histidine Metabolism",
+    "hedges_g": "-0.596838488935626",
+    "hedges_g_variance": "0.0550115801803879",
+    "hedges_g_se": "0.23454547571929",
+    "effect_fdr": "0.0258711210739767",
+    "max_input_raw_missing_rate": "0.0810810810810811",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C05127"
+    ],
+    "database_names": {
+      "C05127": [
+        "N-Methylhistamine;",
+        "1-Methylhistamine;",
+        "1-Methyl-4-(2-aminoethyl)imidazole;",
+        "Ntau-Methylhistamine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C05127"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "AOC1",
+      "HNMT",
+      "MAOA",
+      "MAOB"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "guanidinoacetate",
+    "metabolite_standard_name": "guanidinoacetate",
+    "kegg_id": "C00581",
+    "hmdb_id": "HMDB00128",
+    "metabolite_key": "KEGG:C00581",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Creatine Metabolism",
+    "hedges_g": "-0.522523018986262",
+    "hedges_g_variance": "0.0544643046770692",
+    "hedges_g_se": "0.233375887094338",
+    "effect_fdr": "0.0074791702312904",
+    "max_input_raw_missing_rate": "0.027027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00581"
+    ],
+    "database_names": {
+      "C00581": [
+        "Guanidinoacetate;",
+        "Guanidinoacetic acid;",
+        "Glycocyamine;",
+        "N-Amidinoglycine;",
+        "Guanidoacetic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00581"
+    ],
+    "provisional_pair_count": 2,
+    "provisional_genes": [
+      "GAMT",
+      "GATM"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "glucuronate",
+    "metabolite_standard_name": "glucuronate",
+    "kegg_id": "C00191",
+    "hmdb_id": "HMDB00127",
+    "metabolite_key": "KEGG:C00191",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Aminosugar Metabolism",
+    "hedges_g": "-0.445301518249616",
+    "hedges_g_variance": "0.0539726147874962",
+    "hedges_g_se": "0.232320069704484",
+    "effect_fdr": "0.102697311380866",
+    "max_input_raw_missing_rate": "0.384615384615385",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00191"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "sebacate (decanedioate)",
+    "metabolite_standard_name": "sebacate (decanedioate)",
+    "kegg_id": "C08277",
+    "hmdb_id": "HMDB00792",
+    "metabolite_key": "KEGG:C08277",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Fatty Acid, Dicarboxylate",
+    "hedges_g": "-0.289870484694869",
+    "hedges_g_variance": "0.0532208480489555",
+    "hedges_g_se": "0.230696441344368",
+    "effect_fdr": "0.12185706354843",
+    "max_input_raw_missing_rate": "0.189189189189189",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C08277"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "uridine 5'-monophosphate (UMP)",
+    "metabolite_standard_name": "uridine 5'-monophosphate (UMP)",
+    "kegg_id": "C00105",
+    "hmdb_id": "HMDB00288",
+    "metabolite_key": "KEGG:C00105",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Pyrimidine Metabolism, Uracil containing",
+    "hedges_g": "-0.495355829225026",
+    "hedges_g_variance": "0.0542823776519159",
+    "hedges_g_se": "0.232985788519205",
+    "effect_fdr": "0.0859555339031192",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00105"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "inosine",
+    "metabolite_standard_name": "inosine",
+    "kegg_id": "C00294",
+    "hmdb_id": "HMDB00195",
+    "metabolite_key": "KEGG:C00294",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, (Hypo)Xanthine/Inosine containing",
+    "hedges_g": "-0.467146949402204",
+    "hedges_g_variance": "0.0541037518281565",
+    "hedges_g_se": "0.232602132036997",
+    "effect_fdr": "0.00317493716792095",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00294"
+    ],
+    "database_names": {
+      "C00294": [
+        "Inosine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00294"
+    ],
+    "provisional_pair_count": 12,
+    "provisional_genes": [
+      "ADA",
+      "ADA2",
+      "LACC1",
+      "NT5C",
+      "NT5C1A",
+      "NT5C1B",
+      "NT5C1B-RDH14",
+      "NT5C2",
+      "NT5DC4",
+      "NT5E",
+      "NT5M",
+      "PNP"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "3-hydroxybutyrate (BHBA)",
+    "metabolite_standard_name": "3-hydroxybutyrate (BHBA)",
+    "kegg_id": "C01089",
+    "hmdb_id": "HMDB00357",
+    "metabolite_key": "KEGG:C01089",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Ketone bodies",
+    "hedges_g": "-0.337141033258101",
+    "hedges_g_variance": "0.0534158426437523",
+    "hedges_g_se": "0.231118676536",
+    "effect_fdr": "0.201308384491351",
+    "max_input_raw_missing_rate": "0.135135135135135",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C01089"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "creatine",
+    "metabolite_standard_name": "creatine",
+    "kegg_id": "C00300",
+    "hmdb_id": "HMDB00064",
+    "metabolite_key": "KEGG:C00300",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Creatine Metabolism",
+    "hedges_g": "-0.803110403962142",
+    "hedges_g_variance": "0.0569113837269489",
+    "hedges_g_se": "0.238561069177158",
+    "effect_fdr": "0.0051099208710439",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00300"
+    ],
+    "database_names": {
+      "C00300": [
+        "Creatine;",
+        "alpha-Methylguanidino acetic acid;",
+        "Methylglycocyamine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00300"
+    ],
+    "provisional_pair_count": 6,
+    "provisional_genes": [
+      "CKB",
+      "CKM",
+      "CKMT1A",
+      "CKMT1B",
+      "CKMT2",
+      "GAMT"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "cytidine 5'-monophosphate (5'-CMP)",
+    "metabolite_standard_name": "cytidine 5'-monophosphate (5'-CMP)",
+    "kegg_id": "C00055",
+    "hmdb_id": "HMDB00095",
+    "metabolite_key": "KEGG:C00055",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Pyrimidine Metabolism, Cytidine containing",
+    "hedges_g": "-0.568550324207397",
+    "hedges_g_variance": "0.0547946939256601",
+    "hedges_g_se": "0.23408266472693",
+    "effect_fdr": "0.0539757777143879",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00055"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "triethanolamine",
+    "metabolite_standard_name": "triethanolamine",
+    "kegg_id": "C06771",
+    "hmdb_id": "",
+    "metabolite_key": "KEGG:C06771",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Xenobiotics",
+    "sub_pathway": "Chemical",
+    "hedges_g": "-0.763394607391977",
+    "hedges_g_variance": "0.0565020745535471",
+    "hedges_g_se": "0.237701650296221",
+    "effect_fdr": "0.00205315909153294",
+    "max_input_raw_missing_rate": "0.243243243243243",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_EXPOSURE_OR_ANNOTATION_REVIEW",
+    "compound_hypotheses": [
+      "C06771"
+    ],
+    "database_names": {
+      "C06771": [
+        "Triethanolamine;",
+        "Trolamine"
+      ]
+    },
+    "identity_note": "名称与 KEGG 一致，原注释/暴露来源需核查；不自动当作内源代谢物映射。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C06771"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "malonate",
+    "metabolite_standard_name": "malonate",
+    "kegg_id": "C00383",
+    "hmdb_id": "HMDB00691",
+    "metabolite_key": "KEGG:C00383",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Fatty Acid Synthesis",
+    "hedges_g": "-0.300205658965365",
+    "hedges_g_variance": "0.0532609700211765",
+    "hedges_g_se": "0.230783383329859",
+    "effect_fdr": "0.139266731582772",
+    "max_input_raw_missing_rate": "0.27027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00383"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "Phthalate",
+    "metabolite_standard_name": "Phthalate",
+    "kegg_id": "C01606",
+    "hmdb_id": "",
+    "metabolite_key": "KEGG:C01606",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "-0.607579272336491",
+    "hedges_g_variance": "0.0550966880112957",
+    "hedges_g_se": "0.234726837006968",
+    "effect_fdr": "0.0104274039204103",
+    "max_input_raw_missing_rate": "0.297297297297297",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_EXPOSURE_OR_ANNOTATION_REVIEW",
+    "compound_hypotheses": [
+      "C01606"
+    ],
+    "database_names": {
+      "C01606": [
+        "Phthalate;",
+        "o-Phthalic acid;",
+        "1,2-Benzenedicarboxylic acid"
+      ]
+    },
+    "identity_note": "名称与 KEGG 一致，原注释/暴露来源需核查；不自动当作内源代谢物映射。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C01606"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "N-acetylneuraminate",
+    "metabolite_standard_name": "N-acetylneuraminate",
+    "kegg_id": "C00270",
+    "hmdb_id": "HMDB00230",
+    "metabolite_key": "KEGG:C00270",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Aminosugar Metabolism",
+    "hedges_g": "-0.914050093379568",
+    "hedges_g_variance": "0.0581646814391527",
+    "hedges_g_se": "0.24117355045517",
+    "effect_fdr": "0.000927728383719889",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00270"
+    ],
+    "database_names": {
+      "C00270": [
+        "N-Acetylneuraminate;",
+        "N-Acetylneuraminic acid;",
+        "5-Acetamido-3,5-dideoxy-D-glycero-D-galacto-2-nonulosonic acid;",
+        "Neu5Ac"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00270"
+    ],
+    "provisional_pair_count": 7,
+    "provisional_genes": [
+      "CMAS",
+      "NANP",
+      "NEU1",
+      "NEU2",
+      "NEU3",
+      "NEU4",
+      "NPL"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "ribulose/xylulose 5-phosphate",
+    "metabolite_standard_name": "ribulose/xylulose 5-phosphate",
+    "kegg_id": "C00199",
+    "hmdb_id": "",
+    "metabolite_key": "KEGG:C00199",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Pentose Phosphate Pathway",
+    "hedges_g": "-1.38855897890463",
+    "hedges_g_variance": "0.0653528950226361",
+    "hedges_g_se": "0.255642122942672",
+    "effect_fdr": "2.1849625495186e-06",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_COMBINED_FEATURE",
+    "compound_hypotheses": [
+      "C00199",
+      "C00231"
+    ],
+    "database_names": {
+      "C00199": [
+        "D-Ribulose 5-phosphate"
+      ],
+      "C00231": [
+        "D-Xylulose 5-phosphate"
+      ]
+    },
+    "identity_note": "原名合并 ribulose/xylulose，原 KEGG 仅 ribulose。两个假设不拆成两条独立测量或检验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00199",
+      "https://www.kegg.jp/entry/C00231"
+    ],
+    "provisional_pair_count": 9,
+    "provisional_genes": [
+      "FGGY",
+      "PGD",
+      "RPE",
+      "RPEL1",
+      "RPIA",
+      "TKT",
+      "TKTL1",
+      "TKTL2",
+      "XYLB"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "azelate (nonanedioate)",
+    "metabolite_standard_name": "azelate (nonanedioate)",
+    "kegg_id": "C08261",
+    "hmdb_id": "HMDB00784",
+    "metabolite_key": "KEGG:C08261",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Fatty Acid, Dicarboxylate",
+    "hedges_g": "-0.383174360489904",
+    "hedges_g_variance": "0.0536339907636898",
+    "hedges_g_se": "0.231590135290106",
+    "effect_fdr": "0.0277131462125493",
+    "max_input_raw_missing_rate": "0.128205128205128",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C08261"
+    ],
+    "database_names": {
+      "C08261": [
+        "Azelaic acid;",
+        "Nonanedioic acid;",
+        "1,7-Heptanedicarboxylic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C08261"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "urea",
+    "metabolite_standard_name": "urea",
+    "kegg_id": "C00086",
+    "hmdb_id": "HMDB00294",
+    "metabolite_key": "KEGG:C00086",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Urea cycle; Arginine and Proline Metabolism",
+    "hedges_g": "-0.857440071272848",
+    "hedges_g_variance": "0.0575049176405815",
+    "hedges_g_se": "0.239801829935848",
+    "effect_fdr": "0.00191710763837069",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00086"
+    ],
+    "database_names": {
+      "C00086": [
+        "Urea;",
+        "Carbamide"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00086"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "AGMAT",
+      "ALLC",
+      "ARG1",
+      "ARG2"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "glutarate (C5-DC)",
+    "metabolite_standard_name": "glutarate (C5-DC)",
+    "kegg_id": "C00489",
+    "hmdb_id": "HMDB00661",
+    "metabolite_key": "KEGG:C00489",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Fatty Acid, Dicarboxylate",
+    "hedges_g": "-0.378058922306145",
+    "hedges_g_variance": "0.0536083720676269",
+    "hedges_g_se": "0.231534818262021",
+    "effect_fdr": "0.12185706354843",
+    "max_input_raw_missing_rate": "0.0769230769230769",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_NAME_CLASS_CONFLICT",
+    "compound_hypotheses": [
+      "C00489"
+    ],
+    "identity_note": "Glutarate annotation and C5-DC acylcarnitine-style label require original identity confirmation; not interchangeable.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "creatinine",
+    "metabolite_standard_name": "creatinine",
+    "kegg_id": "C00791",
+    "hmdb_id": "HMDB00562",
+    "metabolite_key": "KEGG:C00791",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Creatine Metabolism",
+    "hedges_g": "-1.21647722662822",
+    "hedges_g_variance": "0.0624036897924283",
+    "hedges_g_se": "0.249807305322379",
+    "effect_fdr": "2.15403529632938e-06",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00791"
+    ],
+    "database_names": {
+      "C00791": [
+        "Creatinine;",
+        "1-Methylglycocyamidine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00791"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "glutamine",
+    "metabolite_standard_name": "glutamine",
+    "kegg_id": "C00064",
+    "hmdb_id": "HMDB00641",
+    "metabolite_key": "KEGG:C00064",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Glutamate Metabolism",
+    "hedges_g": "-1.18517818312271",
+    "hedges_g_variance": "0.0619091534953556",
+    "hedges_g_se": "0.248815500914544",
+    "effect_fdr": "1.53194804029879e-05",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00064"
+    ],
+    "database_names": {
+      "C00064": [
+        "L-Glutamine;",
+        "L-2-Aminoglutaramic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00064"
+    ],
+    "provisional_pair_count": 17,
+    "provisional_genes": [
+      "ASNS",
+      "CAD",
+      "CTPS1",
+      "CTPS2",
+      "GATB",
+      "GATC",
+      "GFPT1",
+      "GFPT2",
+      "GLS",
+      "GLS2",
+      "GLUL",
+      "GMPS",
+      "NADSYN1",
+      "PFAS",
+      "PPAT",
+      "QARS1",
+      "QRSL1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "Acetohydroxamate",
+    "metabolite_standard_name": "Acetohydroxamate",
+    "kegg_id": "C06808",
+    "hmdb_id": "HMDB14691",
+    "metabolite_key": "KEGG:C06808",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "-0.521320132255297",
+    "hedges_g_variance": "0.0544560439857808",
+    "hedges_g_se": "0.233358188169562",
+    "effect_fdr": "1.51302088736128e-05",
+    "max_input_raw_missing_rate": "0.102564102564103",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_EXPOSURE_OR_ANNOTATION_REVIEW",
+    "compound_hypotheses": [
+      "C06808"
+    ],
+    "database_names": {
+      "C06808": [
+        "Acetohydroxamic acid"
+      ]
+    },
+    "identity_note": "名称可对应 acetohydroxamic acid；先核对外源背景/原注释，不将药理靶点当作代谢关系。",
+    "hmdb_crosscheck": "NAME_COMPATIBLE",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C06808",
+      "https://hmdb.ca/metabolites/HMDB0014691"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "guanosine",
+    "metabolite_standard_name": "guanosine",
+    "kegg_id": "C00387",
+    "hmdb_id": "HMDB00133",
+    "metabolite_key": "KEGG:C00387",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, Guanine containing",
+    "hedges_g": "-1.10566416561374",
+    "hedges_g_variance": "0.0607107713991206",
+    "hedges_g_se": "0.246395558805593",
+    "effect_fdr": "7.94549647812405e-05",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00387"
+    ],
+    "database_names": {
+      "C00387": [
+        "Guanosine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00387"
+    ],
+    "provisional_pair_count": 10,
+    "provisional_genes": [
+      "LACC1",
+      "NT5C",
+      "NT5C1A",
+      "NT5C1B",
+      "NT5C1B-RDH14",
+      "NT5C2",
+      "NT5DC4",
+      "NT5E",
+      "NT5M",
+      "PNP"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "phosphoenolpyruvate (PEP)",
+    "metabolite_standard_name": "phosphoenolpyruvate (PEP)",
+    "kegg_id": "C00074",
+    "hmdb_id": "HMDB00263",
+    "metabolite_key": "KEGG:C00074",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",
+    "hedges_g": "-0.681593834380287",
+    "hedges_g_variance": "0.055724435267166",
+    "hedges_g_se": "0.236060236522727",
+    "effect_fdr": "0.00582518324469414",
+    "max_input_raw_missing_rate": "0.243243243243243",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00074"
+    ],
+    "database_names": {
+      "C00074": [
+        "Phosphoenolpyruvate;",
+        "Phosphoenolpyruvic acid;",
+        "PEP"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00074"
+    ],
+    "provisional_pair_count": 9,
+    "provisional_genes": [
+      "ENO1",
+      "ENO2",
+      "ENO3",
+      "ENO4",
+      "NANS",
+      "PCK1",
+      "PCK2",
+      "PKLR",
+      "PKM"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "cis-aconitate",
+    "metabolite_standard_name": "cis-aconitate",
+    "kegg_id": "C00417",
+    "hmdb_id": "HMDB00072",
+    "metabolite_key": "KEGG:C00417",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Energy",
+    "sub_pathway": "TCA Cycle",
+    "hedges_g": "-0.8353983577876",
+    "hedges_g_variance": "0.0572594369851199",
+    "hedges_g_se": "0.23928944185885",
+    "effect_fdr": "0.000307793700547115",
+    "max_input_raw_missing_rate": "0.0540540540540541",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00417"
+    ],
+    "database_names": {
+      "C00417": [
+        "cis-Aconitate;",
+        "cis-Aconitic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00417"
+    ],
+    "provisional_pair_count": 3,
+    "provisional_genes": [
+      "ACO1",
+      "ACO2",
+      "ACOD1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "glycerophosphorylcholine (GPC)",
+    "metabolite_standard_name": "glycerophosphorylcholine (GPC)",
+    "kegg_id": "C00670",
+    "hmdb_id": "HMDB00086",
+    "metabolite_key": "KEGG:C00670",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Glycerolipid Metabolism",
+    "hedges_g": "-0.671891137099271",
+    "hedges_g_variance": "0.0556380375372142",
+    "hedges_g_se": "0.235877166205663",
+    "effect_fdr": "0.0113140364356053",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00670"
+    ],
+    "database_names": {
+      "C00670": [
+        "sn-Glycero-3-phosphocholine;",
+        "Glycerophosphocholine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00670"
+    ],
+    "provisional_pair_count": 10,
+    "provisional_genes": [
+      "GDPD5",
+      "GPCPD1",
+      "LYPLA1",
+      "LYPLA2",
+      "PLA2G15",
+      "PLB1",
+      "PNPLA6",
+      "PNPLA7",
+      "TMEM86A",
+      "TMEM86B"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "6-phosphogluconate",
+    "metabolite_standard_name": "6-phosphogluconate",
+    "kegg_id": "C00345",
+    "hmdb_id": "HMDB01316",
+    "metabolite_key": "KEGG:C00345",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Nucleotide sugars, pentose metabolism",
+    "hedges_g": "-0.641702243769376",
+    "hedges_g_variance": "0.0553771432579122",
+    "hedges_g_se": "0.235323486413728",
+    "effect_fdr": "0.0291207682154118",
+    "max_input_raw_missing_rate": "0.0540540540540541",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00345"
+    ],
+    "database_names": {
+      "C00345": [
+        "6-Phospho-D-gluconate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00345"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "H6PD",
+      "IDNK",
+      "PGD",
+      "PGLS"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "carnosine",
+    "metabolite_standard_name": "carnosine",
+    "kegg_id": "C00386",
+    "hmdb_id": "HMDB00033",
+    "metabolite_key": "KEGG:C00386",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Peptide",
+    "sub_pathway": "Dipeptide Derivative",
+    "hedges_g": "-0.552013685316796",
+    "hedges_g_variance": "0.0546727836468489",
+    "hedges_g_se": "0.233822119669737",
+    "effect_fdr": "0.0303181418621276",
+    "max_input_raw_missing_rate": "0.216216216216216",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00386"
+    ],
+    "database_names": {
+      "C00386": [
+        "Carnosine;",
+        "Nalpha-(beta-alanyl)-L-histidine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00386"
+    ],
+    "provisional_pair_count": 4,
+    "provisional_genes": [
+      "CARNMT1",
+      "CARNS1",
+      "CNDP1",
+      "CNDP2"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "piperidine",
+    "metabolite_standard_name": "piperidine",
+    "kegg_id": "C01746",
+    "hmdb_id": "HMDB34301",
+    "metabolite_key": "KEGG:C01746",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "-0.512287320612044",
+    "hedges_g_variance": "0.0543946204237097",
+    "hedges_g_se": "0.23322654313716",
+    "effect_fdr": "0.152967058675906",
+    "max_input_raw_missing_rate": "0.405405405405405",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C01746"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "allantoin",
+    "metabolite_standard_name": "allantoin",
+    "kegg_id": "C02350",
+    "hmdb_id": "HMDB00462",
+    "metabolite_key": "KEGG:C02350",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, (Hypo)Xanthine/Inosine containing",
+    "hedges_g": "-1.13251050393184",
+    "hedges_g_variance": "0.0611060792569734",
+    "hedges_g_se": "0.24719643860091",
+    "effect_fdr": "2.75917060479647e-06",
+    "max_input_raw_missing_rate": "0.162162162162162",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C02350"
+    ],
+    "database_names": {
+      "C02350": [
+        "(S)-Allantoin;",
+        "(S)(+)-Allantoin"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。 原名未标手性，KEGG 为 (S)-allantoin；无对应人类反应也不表示不存在非酶生成。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C02350"
+    ],
+    "provisional_pair_count": 1,
+    "provisional_genes": [
+      "URAD"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "inosine 5'-monophosphate (IMP)",
+    "metabolite_standard_name": "inosine 5'-monophosphate (IMP)",
+    "kegg_id": "C00130",
+    "hmdb_id": "HMDB00175",
+    "metabolite_key": "KEGG:C00130",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, (Hypo)Xanthine/Inosine containing",
+    "hedges_g": "-0.889251406041119",
+    "hedges_g_variance": "0.0578704741361192",
+    "hedges_g_se": "0.240562827835306",
+    "effect_fdr": "0.00103594092695614",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00130"
+    ],
+    "database_names": {
+      "C00130": [
+        "IMP;",
+        "Inosinic acid;",
+        "Inosine monophosphate;",
+        "Inosine 5'-monophosphate;",
+        "Inosine 5'-phosphate;",
+        "5'-Inosinate;",
+        "5'-Inosinic acid;",
+        "5'-Inosine monophosphate;",
+        "5'-IMP"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00130"
+    ],
+    "provisional_pair_count": 28,
+    "provisional_genes": [
+      "ADSS1",
+      "ADSS2",
+      "AMPD1",
+      "AMPD2",
+      "AMPD3",
+      "ATIC",
+      "CANT1",
+      "ENTPD1",
+      "ENTPD3",
+      "ENTPD4",
+      "ENTPD5",
+      "ENTPD6",
+      "ENTPD8",
+      "GMPR",
+      "GMPR2",
+      "HPRT1",
+      "IMPDH1",
+      "IMPDH2",
+      "ITPA",
+      "NT5C",
+      "NT5C1A",
+      "NT5C1B",
+      "NT5C1B-RDH14",
+      "NT5C2",
+      "NT5DC4",
+      "NT5E",
+      "NT5M",
+      "NUDT16"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "pelargonate (9:0)",
+    "metabolite_standard_name": "pelargonate (9:0)",
+    "kegg_id": "C01601",
+    "hmdb_id": "HMDB00847",
+    "metabolite_key": "KEGG:C01601",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Medium Chain Fatty Acid",
+    "hedges_g": "-0.35654035768113",
+    "hedges_g_variance": "0.0535043752118381",
+    "hedges_g_se": "0.231310127776192",
+    "effect_fdr": "0.0796319838549086",
+    "max_input_raw_missing_rate": "0.351351351351351",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C01601"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "3PG",
+    "metabolite_standard_name": "3PG",
+    "kegg_id": "C00197",
+    "hmdb_id": "",
+    "metabolite_key": "KEGG:C00197",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "-1.62220266413497",
+    "hedges_g_variance": "0.0699808255859908",
+    "hedges_g_se": "0.264538892388229",
+    "effect_fdr": "2.50033886118489e-07",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00197"
+    ],
+    "database_names": {
+      "C00197": [
+        "3-Phospho-D-glycerate;",
+        "D-Glycerate 3-phosphate;",
+        "3-Phospho-(R)-glycerate;",
+        "3-Phosphoglycerate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00197"
+    ],
+    "provisional_pair_count": 10,
+    "provisional_genes": [
+      "ACYP1",
+      "ACYP2",
+      "BPGM",
+      "PGAM1",
+      "PGAM2",
+      "PGAM4",
+      "PGK1",
+      "PGK2",
+      "PGM2L1",
+      "PHGDH"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "citrate",
+    "metabolite_standard_name": "citrate",
+    "kegg_id": "C00158",
+    "hmdb_id": "HMDB00094",
+    "metabolite_key": "KEGG:C00158",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Energy",
+    "sub_pathway": "TCA Cycle",
+    "hedges_g": "-1.08156774149304",
+    "hedges_g_variance": "0.0603640314801472",
+    "hedges_g_se": "0.245690926735497",
+    "effect_fdr": "4.64513926849744e-06",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00158"
+    ],
+    "database_names": {
+      "C00158": [
+        "Citrate;",
+        "Citric acid;",
+        "2-Hydroxy-1,2,3-propanetricarboxylic acid;",
+        "2-Hydroxytricarballylic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00158"
+    ],
+    "provisional_pair_count": 5,
+    "provisional_genes": [
+      "ACLY",
+      "ACO1",
+      "ACO2",
+      "CS",
+      "RIMKLB"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "dihydroxyacetone phosphate (DHAP)",
+    "metabolite_standard_name": "dihydroxyacetone phosphate (DHAP)",
+    "kegg_id": "C00111",
+    "hmdb_id": "HMDB01473",
+    "metabolite_key": "KEGG:C00111",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",
+    "hedges_g": "-0.920687204019363",
+    "hedges_g_variance": "0.0582447956130855",
+    "hedges_g_se": "0.24133958567356",
+    "effect_fdr": "0.00208970754081866",
+    "max_input_raw_missing_rate": "0.0540540540540541",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00111"
+    ],
+    "database_names": {
+      "C00111": [
+        "Glycerone phosphate;",
+        "Dihydroxyacetone phosphate;",
+        "3-Hydroxy-2-oxopropyl phosphate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00111"
+    ],
+    "provisional_pair_count": 9,
+    "provisional_genes": [
+      "ALDOA",
+      "ALDOB",
+      "ALDOC",
+      "GNPAT",
+      "GPD1",
+      "GPD1L",
+      "GPD2",
+      "TKFC",
+      "TPI1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "N-acetylaspartate (NAA)",
+    "metabolite_standard_name": "N-acetylaspartate (NAA)",
+    "kegg_id": "C01042",
+    "hmdb_id": "HMDB00812",
+    "metabolite_key": "KEGG:C01042",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Alanine and Aspartate Metabolism",
+    "hedges_g": "-1.60890842089475",
+    "hedges_g_variance": "0.0696982257392767",
+    "hedges_g_se": "0.264004215381642",
+    "effect_fdr": "4.01049322955914e-08",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C01042"
+    ],
+    "database_names": {
+      "C01042": [
+        "N-Acetyl-L-aspartate;",
+        "N-Acetyl-L-aspartic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C01042"
+    ],
+    "provisional_pair_count": 5,
+    "provisional_genes": [
+      "ASPA",
+      "FOLH1",
+      "NAT8L",
+      "RIMKLA",
+      "RIMKLB"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "gluconate",
+    "metabolite_standard_name": "gluconate",
+    "kegg_id": "C00257",
+    "hmdb_id": "HMDB00625",
+    "metabolite_key": "KEGG:C00257",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Nucleotide sugars, pentose metabolism",
+    "hedges_g": "-0.429281259521108",
+    "hedges_g_variance": "0.0538804368771055",
+    "hedges_g_se": "0.232121599333422",
+    "effect_fdr": "0.168968959284748",
+    "max_input_raw_missing_rate": "0.102564102564103",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00257"
+    ],
+    "identity_note": "Original identifier/name compatible; no independent chemical authentication or full HMDB stereochemistry crosscheck.",
+    "identity_evidence_origin": "NEW_PAIRED_POOL_20260922"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "guanine",
+    "metabolite_standard_name": "guanine",
+    "kegg_id": "C00242",
+    "hmdb_id": "HMDB00132",
+    "metabolite_key": "KEGG:C00242",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, Guanine containing",
+    "hedges_g": "-0.589713633659115",
+    "hedges_g_variance": "0.0549559616793911",
+    "hedges_g_se": "0.234426879174277",
+    "effect_fdr": "0.00340110367227365",
+    "max_input_raw_missing_rate": "0.162162162162162",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00242"
+    ],
+    "database_names": {
+      "C00242": [
+        "Guanine;",
+        "2-Amino-6-hydroxypurine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00242"
+    ],
+    "provisional_pair_count": 5,
+    "provisional_genes": [
+      "GDA",
+      "HPRT1",
+      "LACC1",
+      "PNP",
+      "QTRT1"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "ophthalmate",
+    "metabolite_standard_name": "ophthalmate",
+    "kegg_id": "",
+    "hmdb_id": "HMDB05765",
+    "metabolite_key": "HMDB:HMDB05765",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Glutathione Metabolism",
+    "hedges_g": "-0.853784378285622",
+    "hedges_g_variance": "0.0574637616457143",
+    "hedges_g_se": "0.239716002064348",
+    "effect_fdr": "0.000312736900370037",
+    "max_input_raw_missing_rate": "0.0256410256410256",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "PROVISIONAL_NEW_KEGG_ID",
+    "compound_hypotheses": [
+      "C21016"
+    ],
+    "database_names": {
+      "C21016": [
+        "Ophthalmate;",
+        "gamma-L-Glutamyl-L-2-aminobutyrylglycine"
+      ]
+    },
+    "identity_note": "原表仅 HMDB；本次按 ophthalmate 独立名称检索得到 C21016。尚未完成原 HMDB 交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C21016"
+    ],
+    "provisional_pair_count": 1,
+    "provisional_genes": [
+      "GSS"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "urate",
+    "metabolite_standard_name": "urate",
+    "kegg_id": "C00366",
+    "hmdb_id": "HMDB00289",
+    "metabolite_key": "KEGG:C00366",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, Urate metabolism",
+    "hedges_g": "-1.38171846699428",
+    "hedges_g_variance": "0.0652282232077435",
+    "hedges_g_se": "0.25539816602267",
+    "effect_fdr": "3.03664852373543e-06",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00366"
+    ],
+    "database_names": {
+      "C00366": [
+        "Urate;",
+        "Uric acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00366"
+    ],
+    "provisional_pair_count": 1,
+    "provisional_genes": [
+      "XDH"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "isocitrate",
+    "metabolite_standard_name": "isocitrate",
+    "kegg_id": "C00311",
+    "hmdb_id": "HMDB00193",
+    "metabolite_key": "KEGG:C00311",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Energy",
+    "sub_pathway": "TCA Cycle",
+    "hedges_g": "-0.94049325537887",
+    "hedges_g_variance": "0.0584873129536655",
+    "hedges_g_se": "0.241841503786396",
+    "effect_fdr": "0.000701295206824154",
+    "max_input_raw_missing_rate": "0.675675675675676",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00311"
+    ],
+    "database_names": {
+      "C00311": [
+        "Isocitrate;",
+        "Isocitric acid;",
+        "1-Hydroxytricarballylic acid;",
+        "1-Hydroxypropane-1,2,3-tricarboxylic acid"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00311"
+    ],
+    "provisional_pair_count": 7,
+    "provisional_genes": [
+      "ACO1",
+      "ACO2",
+      "IDH1",
+      "IDH2",
+      "IDH3A",
+      "IDH3B",
+      "IDH3G"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "4-methyl-2-oxopentanoate",
+    "metabolite_standard_name": "4-methyl-2-oxopentanoate",
+    "kegg_id": "C00233",
+    "hmdb_id": "HMDB00695",
+    "metabolite_key": "KEGG:C00233",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Valine, leucine and isoleucine metabolism",
+    "hedges_g": "-1.47479797958175",
+    "hedges_g_variance": "0.0669774545139633",
+    "hedges_g_se": "0.258800028040886",
+    "effect_fdr": "2.22833094147422e-06",
+    "max_input_raw_missing_rate": "0.513513513513513",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00233"
+    ],
+    "database_names": {
+      "C00233": [
+        "4-Methyl-2-oxopentanoate;",
+        "2-Oxoisocaproate;",
+        "alpha-Ketoisocaproate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00233"
+    ],
+    "provisional_pair_count": 6,
+    "provisional_genes": [
+      "BCAT1",
+      "BCAT2",
+      "BCKDHA",
+      "BCKDHB",
+      "DBT",
+      "DLD"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "histamine",
+    "metabolite_standard_name": "histamine",
+    "kegg_id": "C00388",
+    "hmdb_id": "HMDB00870",
+    "metabolite_key": "KEGG:C00388",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino acid",
+    "sub_pathway": "Histidine Metabolism",
+    "hedges_g": "-1.21651078686213",
+    "hedges_g_variance": "0.0624042269743153",
+    "hedges_g_se": "0.249808380512575",
+    "effect_fdr": "4.5885636815329e-06",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00388"
+    ],
+    "database_names": {
+      "C00388": [
+        "Histamine;",
+        "1H-Imidazole-4-ethanamine;",
+        "2-(4-Imidazolyl)ethylamine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00388"
+    ],
+    "provisional_pair_count": 3,
+    "provisional_genes": [
+      "AOC1",
+      "HDC",
+      "HNMT"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "adenosine",
+    "metabolite_standard_name": "adenosine",
+    "kegg_id": "C00212",
+    "hmdb_id": "HMDB00050",
+    "metabolite_key": "KEGG:C00212",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Nucleotide",
+    "sub_pathway": "Purine Metabolism, Adenine containing",
+    "hedges_g": "-1.43361692283717",
+    "hedges_g_variance": "0.0661894834670337",
+    "hedges_g_se": "0.257273168960608",
+    "effect_fdr": "3.68444811809424e-06",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00212"
+    ],
+    "database_names": {
+      "C00212": [
+        "Adenosine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00212"
+    ],
+    "provisional_pair_count": 16,
+    "provisional_genes": [
+      "ADA",
+      "ADA2",
+      "ADK",
+      "AHCY",
+      "AHCYL1",
+      "AHCYL2",
+      "LACC1",
+      "NT5C",
+      "NT5C1A",
+      "NT5C1B",
+      "NT5C1B-RDH14",
+      "NT5C2",
+      "NT5DC4",
+      "NT5E",
+      "NT5M",
+      "PNP"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "Mucate",
+    "metabolite_standard_name": "Mucate",
+    "kegg_id": "C01807",
+    "hmdb_id": "",
+    "metabolite_key": "KEGG:C01807",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "-1.07306834400398",
+    "hedges_g_variance": "0.0602435505029437",
+    "hedges_g_se": "0.245445616181964",
+    "effect_fdr": "0.000171933865206755",
+    "max_input_raw_missing_rate": "0.0810810810810811",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_ORIGINAL_ENTRY_NOT_RETURNED",
+    "compound_hypotheses": [
+      "C00879"
+    ],
+    "database_names": {
+      "C00879": [
+        "D-Galactarate;",
+        "D-Mucic acid;",
+        "D-Galactaric acid;",
+        "Galactaric acid;",
+        "Galactarate;",
+        "Mucic acid"
+      ]
+    },
+    "identity_note": "原 C01807 在本次 KEGG get 批量响应中未返回；名称检索得到 galactarate/mucic acid C00879，仅作替代假设。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00879"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "Disulfiram",
+    "metabolite_standard_name": "Disulfiram",
+    "kegg_id": "C01692",
+    "hmdb_id": "HMDB14960",
+    "metabolite_key": "KEGG:C01692",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "",
+    "sub_pathway": "",
+    "hedges_g": "-2.02409833924531",
+    "hedges_g_variance": "0.0796218295557871",
+    "hedges_g_se": "0.282173403345863",
+    "effect_fdr": "1.46718920051068e-08",
+    "max_input_raw_missing_rate": "0",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "HOLD_EXPOSURE_OR_ANNOTATION_REVIEW",
+    "compound_hypotheses": [
+      "C01692"
+    ],
+    "database_names": {
+      "C01692": [
+        "Disulfiram;",
+        "Tetraethylthiuram disulfide"
+      ]
+    },
+    "identity_note": "名称与 KEGG 一致，但应核对外源暴露或原始注释。药物抑制靶点不等于直接生成/消耗该测量物的酶。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C01692"
+    ],
+    "provisional_pair_count": 0,
+    "provisional_genes": [],
+    "reaction_search_status": "NO_EXACT_COMPOUND_REACTION_HUMAN_KO_CHAIN_IN_THIS_SEARCH",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "acetylcholine",
+    "metabolite_standard_name": "acetylcholine",
+    "kegg_id": "C01996",
+    "hmdb_id": "HMDB00895",
+    "metabolite_key": "KEGG:C01996",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Lipid",
+    "sub_pathway": "Neurotransmitter",
+    "hedges_g": "-1.26417215547317",
+    "hedges_g_variance": "0.0631820739751163",
+    "hedges_g_se": "0.251360446321843",
+    "effect_fdr": "3.03664852373543e-06",
+    "max_input_raw_missing_rate": "0.27027027027027",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C01996"
+    ],
+    "database_names": {
+      "C01996": [
+        "Acetylcholine;",
+        "O-Acetylcholine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C01996"
+    ],
+    "provisional_pair_count": 2,
+    "provisional_genes": [
+      "ACHE",
+      "CHAT"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "2-phosphoglycerate",
+    "metabolite_standard_name": "2-phosphoglycerate",
+    "kegg_id": "C00631",
+    "hmdb_id": "HMDB03391",
+    "metabolite_key": "KEGG:C00631",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",
+    "hedges_g": "-1.44511128689612",
+    "hedges_g_variance": "0.0664071752438064",
+    "hedges_g_se": "0.25769589683153",
+    "effect_fdr": "2.1849625495186e-06",
+    "max_input_raw_missing_rate": "0.648648648648649",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00631"
+    ],
+    "database_names": {
+      "C00631": [
+        "2-Phospho-D-glycerate;",
+        "D-Glycerate 2-phosphate;",
+        "2-Phospho-(R)-glycerate"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00631"
+    ],
+    "provisional_pair_count": 10,
+    "provisional_genes": [
+      "BPGM",
+      "ENO1",
+      "ENO2",
+      "ENO3",
+      "ENO4",
+      "GLYCTK",
+      "MINPP1",
+      "PGAM1",
+      "PGAM2",
+      "PGAM4"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "glucose",
+    "metabolite_standard_name": "glucose",
+    "kegg_id": "C00031",
+    "hmdb_id": "HMDB00122",
+    "metabolite_key": "KEGG:C00031",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Carbohydrate",
+    "sub_pathway": "Glycolysis, Gluconeogenesis, and Pyruvate Metabolism",
+    "hedges_g": "-2.46828093548679",
+    "hedges_g_variance": "0.0927497025133655",
+    "hedges_g_se": "0.304548358250977",
+    "effect_fdr": "7.02371971133023e-10",
+    "max_input_raw_missing_rate": "0.108108108108108",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00031"
+    ],
+    "database_names": {
+      "C00031": [
+        "D-Glucose;",
+        "Grape sugar;",
+        "Dextrose;",
+        "Glucose;",
+        "D-Glucopyranose"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00031"
+    ],
+    "provisional_pair_count": 24,
+    "provisional_genes": [
+      "ADPGK",
+      "B4GALT1",
+      "B4GALT2",
+      "G6PC1",
+      "G6PC2",
+      "G6PC3",
+      "GAA",
+      "GANAB",
+      "GANC",
+      "GBA1",
+      "GBA2",
+      "GBA3",
+      "GCK",
+      "GLA",
+      "HK1",
+      "HK2",
+      "HK3",
+      "HKDC1",
+      "LALBA",
+      "LCT",
+      "MGAM",
+      "MGAM2",
+      "SI",
+      "TREH"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  },
+  {
+    "dataset": "COAD",
+    "cancer": "COAD",
+    "feature_name": "serotonin (5HT)",
+    "metabolite_standard_name": "serotonin (5HT)",
+    "kegg_id": "C00780",
+    "hmdb_id": "HMDB00259",
+    "metabolite_key": "KEGG:C00780",
+    "identity_confidence": "HIGH_ID",
+    "super_pathway": "Amino Acid",
+    "sub_pathway": "Tryptophan Metabolism",
+    "hedges_g": "-2.57675115041992",
+    "hedges_g_variance": "0.0963499374785158",
+    "hedges_g_se": "0.310402863193167",
+    "effect_fdr": "5.92017690328805e-10",
+    "max_input_raw_missing_rate": "0.540540540540541",
+    "source_type": "single_dataset",
+    "source_effects": "COAD",
+    "identity_review_status": "ORIGINAL_KEGG_NAME_COMPATIBLE",
+    "compound_hypotheses": [
+      "C00780"
+    ],
+    "database_names": {
+      "C00780": [
+        "Serotonin;",
+        "3-(2-Aminoethyl)-1H-indol-5-ol;",
+        "5-Hydroxytryptamine;",
+        "Enteramine"
+      ]
+    },
+    "identity_note": "已对照本次 KEGG 名称/同义名；只支持注释相容，不是重新鉴定。原 HMDB 未完成全面交叉核验。",
+    "hmdb_crosscheck": "NOT_COMPLETED",
+    "source_urls": [
+      "https://www.kegg.jp/entry/C00780"
+    ],
+    "provisional_pair_count": 8,
+    "provisional_genes": [
+      "AANAT",
+      "DDC",
+      "IDO1",
+      "IDO2",
+      "INMT",
+      "MAOA",
+      "MAOB",
+      "METTL6"
+    ],
+    "reaction_search_status": "CANDIDATE_CHAIN_FOUND",
+    "no_chain_is_negative_evidence": false,
+    "transporter_search_status": "NOT_RUN",
+    "identity_evidence_origin": "REUSED_COAD_20260919"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "78 rows;30/11 structural pass;protein relation set;frozen hash",
+  "frozen_sha256": "db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7",
+  "new_patient_tests": 0,
+  "source_admission": "NEEDS_REVIEW"
+}

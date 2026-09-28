@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-09-19T11:50:09.815088+00:00",
+  "checks": [
+    "exclusive B run directory",
+    "all source hashes unchanged during audit",
+    "all mapping IDs nonmissing and unique",
+    "all mapped tumor/normal IDs found",
+    "matrix row and column uniqueness",
+    "159 frozen features and 974 unique candidate pairs",
+    "73 original significant features",
+    "no new effects or P/q",
+    "original effect/q strings carried through"
+  ],
+  "output_sha256": {
+    "results.tsv": "9c93b4cf49c5d4ffb53ffd447b138f634ed7b16e929643cc01539ea932390cc1",
+    "feature_coverage.tsv": "e078f4ac4224880104da3310f0888c30233bd8c90beef032448746241ae82775",
+    "gene_coverage.tsv": "49de14353c61cfba9754adca58dcfa37d851e36edae1b682ddf2ef48d76e7abc",
+    "identity_source_review.tsv": "7b242626110dc9ceb21221c8a9bd322e75533c9300b472269253eb85f073c087",
+    "summary.json": "e05f719d433f10ebac4be61a7b1d88ff3b1095b0118d065ad8484d3d0dd49e27",
+    "analysis_spec.json": "e69f951772a6dfa36fb0032d9b275bf43bad2fead78b914b1e64c478f4b3be67",
+    "source_manifest.tsv": "e711a77f07935934dabb330638c27f5c815f50bd9c56857fca513f08db4dd679"
+  },
+  "not_validated": [
+    "independent patients",
+    "tumor-normal pairing",
+    "raw chemical identification",
+    "raw detection mask",
+    "patient association",
+    "functional causality"
+  ]
+}

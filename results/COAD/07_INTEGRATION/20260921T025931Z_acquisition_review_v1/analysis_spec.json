@@ -1,0 +1,14 @@
+{
+  "run_id": "20260921T025931Z_acquisition_review_v1",
+  "analysis_version": "COAD_acquisition_review_v1",
+  "scope": "D01 acquisition transition,D10/D11 screening,B4GALT2 interpretation delta",
+  "statistical_unit": "NA",
+  "test_family": "NA",
+  "seed": "NA",
+  "new_tests": false,
+  "email_sent": false,
+  "agreements_accepted": false,
+  "matrices_acquired": false,
+  "original_arrangement": "UNCHANGED_9_21_5",
+  "source_commit": "7c343e27be0033b7341b5bc83bdde3f2a8e554dd"
+}

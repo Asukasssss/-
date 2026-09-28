@@ -1,0 +1,4 @@
+source_id	url_or_path	version	sha256
+RefSeq	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_019023.5,NM_001184824.4&rettype=fasta&retmode=text	NM_019023.5;NM_001184824.4	f55fb2446830d4be9cc4d097cb99580a4939b774b76d5533c7145982cfe11db1
+GPL16699	https://ftp.ncbi.nlm.nih.gov/geo/platforms/GPL16nnn/GPL16699/soft/GPL16699_family.soft.gz	retrieved2026-09-20	008e5e59ddaabda3b5072f893aca1f28366bd192b78a073a483eb57040d5dc672
+platform_probe_subset	PRMT7_platform_probes.tsv	actual source rows	50216ce66718909591a5cfd00d9e3858a08a3fe5aed863e835206feef26cf7b9

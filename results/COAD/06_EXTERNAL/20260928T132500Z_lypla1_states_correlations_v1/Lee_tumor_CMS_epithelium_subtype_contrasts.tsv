@@ -1,0 +1,5 @@
+subtype	contrast	n_donors	median_difference	n_positive	n_negative	p_value	status	reason
+CMS1	subtype_vs_other_admitted_cells_within_donor	5	0.0779910587859422	5	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS
+CMS2	subtype_vs_other_admitted_cells_within_donor	14	0.1786785816282706	11	3	0.057373046875	DONE	NOMINAL_EXPLORATORY
+CMS3	subtype_vs_other_admitted_cells_within_donor	17	-0.14892362309981266	3	14	0.012725830078125	DONE	NOMINAL_EXPLORATORY
+CMS4	subtype_vs_other_admitted_cells_within_donor	0	NA	0	0	NA	NOT_EVALUABLE	FEWER_THAN_6_PAIRED_DONORS

@@ -1,0 +1,490 @@
+[
+  {
+    "human_gene_id": "hsa:102724197",
+    "original_symbol": "NA",
+    "approved_symbol": null,
+    "description": null,
+    "hgnc_records": [],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/102724197",
+      "https://www.ncbi.nlm.nih.gov/gene/102724197"
+    ],
+    "ncbi_manual_review": {
+      "symbol": "LOC102724197",
+      "description": "inactive glutathione hydrolase 2",
+      "method": "NCBI Gene page read via web retrieval; bulk ESummary access timed out",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/102724197",
+      "checked_date": "2026-09-19"
+    }
+  },
+  {
+    "human_gene_id": "hsa:1159",
+    "original_symbol": "CKMT1B",
+    "approved_symbol": "CKMT1B",
+    "description": "creatine kinase, mitochondrial 1B",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:1995",
+        "symbol": "CKMT1B",
+        "entrez_id": "1159",
+        "status": "Approved",
+        "prev_symbol": [
+          "CKMT",
+          "CKMT1"
+        ],
+        "alias_symbol": [
+          "UMTCK"
+        ],
+        "name": "creatine kinase, mitochondrial 1B",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/1159"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:107080644",
+    "original_symbol": "CNPY3-GNMT",
+    "approved_symbol": null,
+    "description": null,
+    "hgnc_records": [],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/107080644"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:1801",
+    "original_symbol": "DPH1",
+    "approved_symbol": "DPH1",
+    "description": "diphthamide biosynthesis 1",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:3003",
+        "symbol": "DPH1",
+        "entrez_id": "1801",
+        "status": "Approved",
+        "prev_symbol": [
+          "DPH2L",
+          "DPH2L1"
+        ],
+        "alias_symbol": [
+          "OVCA1"
+        ],
+        "name": "diphthamide biosynthesis 1",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/1801"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:2629",
+    "original_symbol": "GBA1",
+    "approved_symbol": "GBA1",
+    "description": "glucosylceramidase beta 1",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:4177",
+        "symbol": "GBA1",
+        "entrez_id": "2629",
+        "status": "Approved",
+        "prev_symbol": [
+          "GLUC",
+          "GBA"
+        ],
+        "alias_symbol": null,
+        "name": "glucosylceramidase beta 1",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/2629"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:2938",
+    "original_symbol": "GSTA1",
+    "approved_symbol": "GSTA1",
+    "description": "glutathione S-transferase alpha 1",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:4626",
+        "symbol": "GSTA1",
+        "entrez_id": "2938",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": null,
+        "name": "glutathione S-transferase alpha 1",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/2938"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:654364",
+    "original_symbol": "NME1-NME2",
+    "approved_symbol": "NME1-NME2",
+    "description": "NME1-NME2 readthrough",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:33531",
+        "symbol": "NME1-NME2",
+        "entrez_id": "654364",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "NM23-LV",
+          "NMELV"
+        ],
+        "name": "NME1-NME2 readthrough",
+        "locus_type": "readthrough"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/654364"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:100526794",
+    "original_symbol": "NT5C1B-RDH14",
+    "approved_symbol": "NT5C1B-RDH14",
+    "description": "NT5C1B-RDH14 readthrough",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:38831",
+        "symbol": "NT5C1B-RDH14",
+        "entrez_id": "100526794",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": null,
+        "name": "NT5C1B-RDH14 readthrough",
+        "locus_type": "readthrough"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/100526794"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:11105",
+    "original_symbol": "PRDM7",
+    "approved_symbol": "PRDM7",
+    "description": "PR/SET domain 7",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:9351",
+        "symbol": "PRDM7",
+        "entrez_id": "11105",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "ZNF910"
+        ],
+        "name": "PR/SET domain 7",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/11105"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:107303344",
+    "original_symbol": "SETDB2-PHF11",
+    "approved_symbol": null,
+    "description": null,
+    "hgnc_records": [],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/107303344"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:85019",
+    "original_symbol": "SLC35D4",
+    "approved_symbol": "SLC35D4",
+    "description": "solute carrier family 35 member D4",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:31723",
+        "symbol": "SLC35D4",
+        "entrez_id": "85019",
+        "status": "Approved",
+        "prev_symbol": [
+          "C18orf45",
+          "TMEM241"
+        ],
+        "alias_symbol": [
+          "MGC11386",
+          "FLJ44259"
+        ],
+        "name": "solute carrier family 35 member D4",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/85019"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:91749",
+    "original_symbol": "SLC60A2",
+    "approved_symbol": "SLC60A2",
+    "description": "solute carrier family 60 member 2",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:21053",
+        "symbol": "SLC60A2",
+        "entrez_id": "91749",
+        "status": "Approved",
+        "prev_symbol": [
+          "KIAA1919",
+          "MFSD4B"
+        ],
+        "alias_symbol": [
+          "MGC33953"
+        ],
+        "name": "solute carrier family 60 member 2",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/91749"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:120356740",
+    "original_symbol": "TOMT",
+    "approved_symbol": "TOMT",
+    "description": "transmembrane O-methyltransferase",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:55527",
+        "symbol": "TOMT",
+        "entrez_id": "120356740",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "COMT2"
+        ],
+        "name": "transmembrane O-methyltransferase",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/120356740"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:54658",
+    "original_symbol": "UGT1A1",
+    "approved_symbol": "UGT1A1",
+    "description": "UDP glucuronosyltransferase family 1 member A1",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:12530",
+        "symbol": "UGT1A1",
+        "entrez_id": "54658",
+        "status": "Approved",
+        "prev_symbol": [
+          "UGT1",
+          "GNT1"
+        ],
+        "alias_symbol": [
+          "UGT1A"
+        ],
+        "name": "UDP glucuronosyltransferase family 1 member A1",
+        "locus_type": "complex locus constituent"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/54658"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:54575",
+    "original_symbol": "UGT1A10",
+    "approved_symbol": "UGT1A10",
+    "description": "UDP glucuronosyltransferase family 1 member A10",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:12531",
+        "symbol": "UGT1A10",
+        "entrez_id": "54575",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "UGT1J"
+        ],
+        "name": "UDP glucuronosyltransferase family 1 member A10",
+        "locus_type": "complex locus constituent"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/54575"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:54659",
+    "original_symbol": "UGT1A3",
+    "approved_symbol": "UGT1A3",
+    "description": "UDP glucuronosyltransferase family 1 member A3",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:12535",
+        "symbol": "UGT1A3",
+        "entrez_id": "54659",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "UGT1C"
+        ],
+        "name": "UDP glucuronosyltransferase family 1 member A3",
+        "locus_type": "complex locus constituent"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/54659"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:54657",
+    "original_symbol": "UGT1A4",
+    "approved_symbol": "UGT1A4",
+    "description": "UDP glucuronosyltransferase family 1 member A4",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:12536",
+        "symbol": "UGT1A4",
+        "entrez_id": "54657",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "HUG-BR2",
+          "UGT1D"
+        ],
+        "name": "UDP glucuronosyltransferase family 1 member A4",
+        "locus_type": "complex locus constituent"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/54657"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:54579",
+    "original_symbol": "UGT1A5",
+    "approved_symbol": "UGT1A5",
+    "description": "UDP glucuronosyltransferase family 1 member A5",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:12537",
+        "symbol": "UGT1A5",
+        "entrez_id": "54579",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "UGT1E"
+        ],
+        "name": "UDP glucuronosyltransferase family 1 member A5",
+        "locus_type": "complex locus constituent"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/54579"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:54577",
+    "original_symbol": "UGT1A7",
+    "approved_symbol": "UGT1A7",
+    "description": "UDP glucuronosyltransferase family 1 member A7",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:12539",
+        "symbol": "UGT1A7",
+        "entrez_id": "54577",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "UGT1G"
+        ],
+        "name": "UDP glucuronosyltransferase family 1 member A7",
+        "locus_type": "complex locus constituent"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/54577"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:54600",
+    "original_symbol": "UGT1A9",
+    "approved_symbol": "UGT1A9",
+    "description": "UDP glucuronosyltransferase family 1 member A9",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:12541",
+        "symbol": "UGT1A9",
+        "entrez_id": "54600",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": [
+          "HLUGP4",
+          "LUGP4",
+          "UGT1AI"
+        ],
+        "name": "UDP glucuronosyltransferase family 1 member A9",
+        "locus_type": "complex locus constituent"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/54600"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:7367",
+    "original_symbol": "UGT2B17",
+    "approved_symbol": "UGT2B17",
+    "description": "UDP glucuronosyltransferase family 2 member B17",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:12547",
+        "symbol": "UGT2B17",
+        "entrez_id": "7367",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": null,
+        "name": "UDP glucuronosyltransferase family 2 member B17",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/7367"
+    ]
+  },
+  {
+    "human_gene_id": "hsa:54490",
+    "original_symbol": "UGT2B28",
+    "approved_symbol": "UGT2B28",
+    "description": "UDP glucuronosyltransferase family 2 member B28",
+    "hgnc_records": [
+      {
+        "hgnc_id": "HGNC:13479",
+        "symbol": "UGT2B28",
+        "entrez_id": "54490",
+        "status": "Approved",
+        "prev_symbol": null,
+        "alias_symbol": null,
+        "name": "UDP glucuronosyltransferase family 2 member B28",
+        "locus_type": "gene with protein product"
+      }
+    ],
+    "source_urls": [
+      "https://rest.genenames.org/fetch/entrez_id/54490"
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "DONE",
+  "families": [
+    {
+      "analysis_type": "association_available",
+      "planned": 891,
+      "evaluable": 871,
+      "p_lt_005": 56,
+      "q_lt_005": 0,
+      "reused": 783
+    },
+    {
+      "analysis_type": "association_primary",
+      "planned": 891,
+      "evaluable": 871,
+      "p_lt_005": 52,
+      "q_lt_005": 0,
+      "reused": 595
+    },
+    {
+      "analysis_type": "rna_paired_t",
+      "planned": 526,
+      "evaluable": 515,
+      "p_lt_005": 372,
+      "q_lt_005": 361,
+      "reused": 0
+    }
+  ],
+  "patient_n": 33,
+  "history_preserved": true
+}

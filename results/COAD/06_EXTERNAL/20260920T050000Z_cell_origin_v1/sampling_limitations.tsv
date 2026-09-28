@@ -1,0 +1,5 @@
+scope	limitation
+Lee2020	Ficoll purification, cryopreservation, unavailable library identifiers; only 3 tumor mast cells from 2 patients; no granulocyte class in supplied annotation
+Pelka2021	Keep all five PROCESSING_TYPE labels and SC3Pv2/v3 separate; author 371223 vs GEO370115 difference explicitly audited; stromal dissociation recovery limited
+All	No inferred malignant status, no absent-type zero imputation, no cell-level independence, no CAMP pair validation
+Direction evidence	Supplied AQP9/KMT5A/HDC condition rows reused; no new independent literature verification or missing-dose inference

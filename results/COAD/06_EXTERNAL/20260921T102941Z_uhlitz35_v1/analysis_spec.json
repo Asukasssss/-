@@ -1,0 +1,140 @@
+{
+  "analysis_version": "COAD_Uhlitz35_v1",
+  "targets": [
+    "ADSS2",
+    "AQP9",
+    "ASPA",
+    "B4GALT2",
+    "BCAT2",
+    "BPGM",
+    "CANT1",
+    "ENO2",
+    "ENTPD3",
+    "GMPR",
+    "GNPAT",
+    "GSTA4",
+    "GSTO2",
+    "GSTT2",
+    "GSTT2B",
+    "HAGH",
+    "HDC",
+    "ICMT",
+    "KMT5A",
+    "NME6",
+    "NNMT",
+    "NT5C3A",
+    "PGAM2",
+    "PLA2G15",
+    "PRMT7",
+    "SLC15A3",
+    "SLC29A1",
+    "SLC29A3",
+    "SLC38A3",
+    "SLC6A17",
+    "SLC6A6",
+    "SLC7A8",
+    "UAP1",
+    "UCKL1",
+    "UPP2"
+  ],
+  "phase": "PRE_EXPRESSION_LOCK",
+  "grouping": [
+    "study",
+    "tissue",
+    "processing",
+    "technology",
+    "annotation_level",
+    "cell_type",
+    "author_case_id"
+  ],
+  "library_handling": "Source sample labels retained;all public metadata use 37C_h_TDK_1;no cold-digestion samples in this metadata export.",
+  "minimum_cells_per_patient_type": 20,
+  "minimum_qualified_patients": 5,
+  "threshold_rationale": "Coverage-only decision, before reading target expression. At 20 cells worst-case binomial standard error for detection is approximately 0.112 even under cell independence; threshold only flags coarse descriptive support, not precision or biological independence. At least five donors permits an exploratory donor distribution; not a power claim. All smaller groups and all zero target values remain visible separately.",
+  "support_sets": [
+    "all_covered_patients",
+    "patients_with_at_least_20_cells"
+  ],
+  "primary_summary": "Qualified-patient descriptive median and IQR; fewer than five qualified patients flagged LIMITED_COVERAGE; display all-covered sensitivity separately",
+  "detection": "Number of cells with raw target UMI > 0 divided by number of cells in patient/type stratum",
+  "pseudobulk": "Sum raw target UMI and all measured gene UMI within patient/type; CPM=1e6*target_sum/all_gene_sum, no pseudocount, no imputation, no log transform",
+  "zero_handling": "Retain measured target zero; absent cell type is not a zero-expression patient; nonpositive library size is NOT_EVALUABLE",
+  "summary_statistics": [
+    "min",
+    "q25",
+    "median",
+    "q75",
+    "max"
+  ],
+  "cross_lineage_composition": "NOT_RUN;descriptive captured-cell expression only",
+  "normal_tumor": "Separate descriptive strata; no differential tests or paired effect inference",
+  "gene_annotation": "Prefer exact source symbol. Only HGNC-confirmed ADSS2 previous symbol ADSS allowed. Missing/ambiguous genes retained NOT_EVALUABLE, never zero and never substituted by paralogs.",
+  "family": "NA: descriptive localization only, no P values or BH correction",
+  "seed": null,
+  "unchanged": [
+    "CAMP frozen effects",
+    "674 patient test family",
+    "974 candidate rows",
+    "39 exploratory relations",
+    "9/21/5 functional arrangement",
+    "M1/M2 covariate results"
+  ],
+  "privacy": "Expression summary suppressed for fewer than 3 patients; coverage retained",
+  "target_scope": "All35 already functionally reviewed genes, user-directed expansion; not entire458-gene planned pool",
+  "target_source": "results/COAD/05_FUNCTION/20260919T134848Z_function_review_accepted_v1/gene_function_review.tsv",
+  "target_source_sha256": "c392dc5903d98e0e7370b4189b7deae709d0a25ce4e14ef00b3092bd18eae79a",
+  "confirmed_symbol_aliases": {
+    "ADSS2": [
+      "ADSS"
+    ]
+  },
+  "identity_rule": "Exact author cell IDs;explicit sample/patient correspondence;no positional joins",
+  "studies": [
+    "Uhlitz2021_GSE166555"
+  ],
+  "run_id": "20260921T102941Z_uhlitz35_v1",
+  "specimen_handling": "Explicit author case_id, verified bijectively against patient numbers in GEO sample titles. Pool repeated samples within tissue/patient/type;retain private specimen map.",
+  "reuse": "Targets and patient-equal summary definitions only;new independent recruitment cohort",
+  "enrichment": "No CD45 selection reported;debris removal;all supplied cells 37C_h_TDK_1",
+  "technology": "10x 3prime;final paper v3 versus GEO v2 discrepancy retained, not relabeled as resolved",
+  "source_gene_policy": "Full measured-gene UMI denominator must match author nCount_RNA cell by cell;all sample matrices must contain a target or all lack it before summary;partial coverage stops for explicit specification",
+  "limitations": [
+    "Berlin original cohort only;paper-reused Lee/Qian cohorts and organoids excluded",
+    "Cross-study independence supported by recruitment site,not person-level linkage",
+    "GEO/paper 10x chemistry discrepancy unresolved",
+    "Author annotations retained;derived compartments explicitly mapped,not re-clustered",
+    "Tumor epithelium is not automatically proven malignant",
+    "Counts and expression cannot establish metabolite source or metabolic flux",
+    "No metabolite association or paired differential tests"
+  ],
+  "compartment_mapping": {
+    "Epithelial": "Epithelial",
+    "Monocyte": "Monocyte",
+    "Mast": "Mast",
+    "Tconv": "Tcells",
+    "CD8+ T": "Tcells",
+    "Treg": "Tcells",
+    "B cells": "Bcells",
+    "GC B cells": "Bcells",
+    "Plasma K": "Plasma",
+    "Plasma L": "Plasma",
+    "Endothelial": "Endothelial",
+    "CB FBs": "Fibroblast",
+    "MyoFBs": "Fibroblast",
+    "CAFs": "Fibroblast",
+    "CCL FBs": "Fibroblast",
+    "UC FBs": "Fibroblast",
+    "Pericytes": "Pericytes",
+    "Glia": "Glia"
+  },
+  "annotation_levels": {
+    "lineage": "Explicit derived compartment mapping",
+    "midway": "Unchanged author main_cell_type",
+    "subtype": "Unchanged author minor_cell_type prefixed with main_cell_type"
+  },
+  "source_urls": {
+    "metadata.tsv.gz": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE166nnn/GSE166555/suppl/GSE166555_meta_data.tsv.gz",
+    "counts.tar": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE166nnn/GSE166555/suppl/GSE166555_RAW.tar",
+    "family.soft.gz": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE166nnn/GSE166555/soft/GSE166555_family.soft.gz"
+  }
+}

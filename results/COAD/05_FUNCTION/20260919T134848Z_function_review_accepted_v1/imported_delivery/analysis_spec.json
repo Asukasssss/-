@@ -1,0 +1,41 @@
+{
+  "analysis_version": "COAD_function_nominal35_v1",
+  "run_id": "20260919T132223Z_function_nominal35_v1",
+  "cancer": "COAD",
+  "analysis_type": "targeted primary-literature functional review; no new patient analysis",
+  "date_cutoff": "2026-09-19",
+  "repository": "Asukasssss/-",
+  "base_branch": "analysis/coad-initial",
+  "base_commit": "06921616d5914b6b45c61bdb6c1f259cf1608f84",
+  "source_nominal_path": "results/COAD/07_INTEGRATION/20260919T125421Z_nominal_priority_v1/nominal_candidates.tsv",
+  "source_nominal_git_blob_sha1": "f81910ae70de3719abbe3d02e013795bce1e2bde",
+  "source_full_catalog_path": "results/COAD/07_INTEGRATION/20260919T125421Z_nominal_priority_v1/results.tsv",
+  "source_full_catalog_git_blob_sha1": "b18615e10d5cac76c319bebb79baa8eecffe8983",
+  "scope": {
+    "selected_genes": 35,
+    "selected_relations": 39,
+    "source_full_catalog": 974,
+    "source_planned_test_family": 674,
+    "source_evaluable_test_family": 652,
+    "source_primary_patient_n": 33,
+    "source_FDR_supported_relations": 0
+  },
+  "selection": "Pre-existing, post-result nominal P<0.05 queue; not a new confirmatory criterion.",
+  "preserved_statistics": "No P/q, correlation, confidence interval or sample count recalculated.",
+  "display_extract": "39 source README rows rounded to four decimals; display fields not source statistic replacements.",
+  "functional_screen": "All 35 gene symbols targeted; detailed records for accessible relevant/contradictory or exclusion primary sources. Not a systematic review.",
+  "no_hit_interpretation": "No applicable CRC intervention confirmed in this search; not evidence of absence.",
+  "evidence_read_depth": "Per-record; abstract, selected full-text passages/captions, or biochemical/other-model source.",
+  "gene_versus_target": "Functional report does not prove metabolite mediation, therapeutic selectivity or clinical safety.",
+  "integrity_check": "No systematic retraction/image audit. GSTO2 retraction terms searched; no visible notice found.",
+  "priority_rule": "Qualitative problem-oriented work queue, not numerical scoring; same q is not a gate.",
+  "depmap": "NOT_RUN/DEFERRED; all scores and model counts blank",
+  "external_new_patient_analysis": "NOT_RUN",
+  "patient_raw_data_access": "None; only public aggregate context and public papers used.",
+  "integration": "Exact-source append-only join script provided; real repository join not executed in this environment.",
+  "stage_status": {
+    "05_FUNCTION": "PARTIAL (35-gene scoped search completed; full candidate universe not reviewed)",
+    "07_INTEGRATION": "PARTIAL"
+  },
+  "other_candidates": "Full974 source catalog remains authoritative. Others NOT_REVIEWED_THIS_BATCH, never negative."
+}

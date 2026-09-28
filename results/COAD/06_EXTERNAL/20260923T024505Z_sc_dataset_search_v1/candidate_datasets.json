@@ -1,0 +1,102 @@
+[
+  {
+    "dataset": "MUI_Innsbruck",
+    "decision": "PRIORITY_NEW_INTAKE",
+    "reported_design": "12人；独立新采集CRC队列",
+    "access_observed": "已核实Zenodo文件2,204,969,840字节，HEAD 200；未下载矩阵",
+    "potential_value": "治疗/部位/患者/标本字段代码明确；不同平台补充",
+    "unresolved_or_limit": "实际基因覆盖、完整作者细胞注释、富集定义、结肠与直肠、稀有细胞供者覆盖待查；作者代码字段不等于逐患者已核实",
+    "source_url": "https://zenodo.org/records/16631519",
+    "status": "NEEDS_REVIEW"
+  },
+  {
+    "dataset": "CRC_atlas_4.27M",
+    "decision": "REFERENCE_NOT_NEW_COHORT",
+    "reported_design": "作者报告49研究77数据集650患者",
+    "access_observed": "Zenodo输入包27.6GB，模型包仅高变基因",
+    "potential_value": "参考细分注释；按原研究抽取未用队列",
+    "unresolved_or_limit": "必须排除Lee/Pelka/Uhlitz/Khaliq及内部重复；不能把整合纠正值当原计数；HVG模型包不能测完整811ID",
+    "source_url": "https://github.com/icbi-lab/crc-atlas",
+    "status": "NEEDS_REVIEW"
+  },
+  {
+    "dataset": "GSE245552",
+    "decision": "BACKUP_METASTATIC_CONTEXT",
+    "reported_design": "系列39份；研究总体18位同步肝转移患者，非39独立患者",
+    "access_observed": "GEO提供MTX/TSV约1GB",
+    "potential_value": "新增原发灶及细胞背景候选",
+    "unresolved_or_limit": "只取明确原发灶；治疗和富集、作者标签、重复区域先核实；18不是本项目已确认可分析人数",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245552",
+    "status": "NEEDS_REVIEW"
+  },
+  {
+    "dataset": "GSE231559",
+    "decision": "BACKUP_SMALL_PRIMARY",
+    "reported_design": "GEO26份混合原发/转移/正常标本",
+    "access_observed": "GEO提供MTX/TSV约692MB",
+    "potential_value": "可分离原发CRC作补充",
+    "unresolved_or_limit": "26非独立原发患者数；原发子集、作者注释和富集尚待准入",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE231559",
+    "status": "NEEDS_REVIEW"
+  },
+  {
+    "dataset": "GSE188711",
+    "decision": "BACKUP_SITE_SMALL",
+    "reported_design": "3左侧+3右侧患者；6份",
+    "access_observed": "GEO提供MTX/TSV",
+    "potential_value": "部位对照信息清楚",
+    "unresolved_or_limit": "样本较小，不作为更大队列替代；稀有细胞覆盖和注释待核实",
+    "source_url": "https://www.ncbi.nlm.nih.gov/gds?LinkName=bioproject_gds&from_uid=779978",
+    "status": "NEEDS_REVIEW"
+  },
+  {
+    "dataset": "GSE164522",
+    "decision": "IMMUNE_ONLY",
+    "reported_design": "17个GEO条目；研究101多部位标本",
+    "access_observed": "GEO有表达与metadata下载条目",
+    "potential_value": "HDC/髓系等免疫背景可补充",
+    "unresolved_or_limit": "CD45+富集；只能单独免疫层分析，不能全谱系比例或上皮/基质阴性推断",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164522",
+    "status": "NEEDS_REVIEW"
+  },
+  {
+    "dataset": "EGAS50000000830",
+    "decision": "CONTROLLED_ACCESS_BACKUP",
+    "reported_design": "56患者；32治疗前、24治疗后",
+    "access_observed": "EGA当前列FASTQ与访问申请",
+    "potential_value": "治疗前队列规模有价值",
+    "unresolved_or_limit": "未取得处理后矩阵和细胞注释；未申请权限，不是现成可跑队列",
+    "source_url": "https://www.ega-archive.org/datasets/EGAD50000001218",
+    "status": "NEEDS_REVIEW"
+  },
+  {
+    "dataset": "GSE201348",
+    "decision": "LOW_PRIORITY_NUCLEI",
+    "reported_design": "72份混合正常/息肉/CRC核样本",
+    "access_observed": "GEO MTX/TSV",
+    "potential_value": "可作不同技术背景补充",
+    "unresolved_or_limit": "不能当72CRC患者；核/整细胞分开，CRC实际患者覆盖待查",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE201348",
+    "status": "DONE_SCOPED_TRIAGE"
+  },
+  {
+    "dataset": "GSE221575",
+    "decision": "LOW_PRIORITY_SMALL",
+    "reported_design": "2原发肿瘤及配对正常+1肝转移",
+    "access_observed": "GEO MTX/TSV",
+    "potential_value": "小规模补充",
+    "unresolved_or_limit": "不足以替代现有供者覆盖",
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE221575",
+    "status": "DONE_SCOPED_TRIAGE"
+  },
+  {
+    "dataset": "PMC12514102",
+    "decision": "DUPLICATE_PELKA",
+    "reported_design": "64肿瘤+36正常来自GSE178341",
+    "access_observed": "方法段核实复用Pelka",
+    "potential_value": "可参考解释但非新独立队列",
+    "unresolved_or_limit": "不新增独立验证计数",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12514102/",
+    "status": "DONE_SCOPED_TRIAGE"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "metadata_cells": 68702,
+  "author_call_rows": 30305,
+  "call_rows_with_cell_id": 13373,
+  "call_rows_without_cell_id": 16932,
+  "matched_call_cells": 13373,
+  "donor_id_conflict_cells": 1011,
+  "excluded_donors": 1,
+  "join_rule": "Exact author documented colon-to-underscore cell ID normalization; exclude entire donor on source_id mismatch",
+  "all_labelled_cells_tumor_epithelial": true,
+  "normal_rule": "Normal tissue epithelial; exclude author cell_type_epi_custom starting TC, following infercnv.R reference rule",
+  "CNN_is_not_proven_nonmalignant": true,
+  "no_expression_used_in_admission": true
+}

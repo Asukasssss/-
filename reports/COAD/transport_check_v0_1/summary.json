@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-09-19T10:54:51.989317+00:00",
+  "status": "DONE_SCOPED_TRANSPORT_REACTION_SCAN",
+  "reviewed_human_transport_keyword_entries": 2054,
+  "features_searched": 73,
+  "evidence_records": 343,
+  "unique_feature_gene_pairs": 281,
+  "features_with_pairs": 43,
+  "unique_gene_ids": 155,
+  "pairs_without_current_identity_hold": 250,
+  "pairs_with_experimental_annotation": 204,
+  "features_without_pairs": 30,
+  "scope": "Reviewed human UniProt transport keyword; catalytic reaction explicitly names same ChEBI substrate on both in/out sides; direct or official Rhea pH microspecies mapping. No keyword-only association.",
+  "limitations": "No hit is not negative. Transporters lacking explicit reaction annotations, alternative compartment wording, unreviewed proteins and more general substrate classes are outside this scoped scan. Original identity remains provisional. Experimental annotation is not COAD functional evidence.",
+  "script_sha256": "f1425e0fe85ea9ef156249f1dc22a68db7c7781a152322833c0ff360d1fb01c7"
+}

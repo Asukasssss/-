@@ -1,0 +1,24 @@
+{
+  "version": "COAD_B_BIOCHEMICAL_DRAFT_20260919",
+  "created_utc": "2026-09-19T10:58:52.880429+00:00",
+  "source_sha256": "1bb1d57480a0fbc2185d11f7598e67e7443aef9e40ea8a036c6da4e5503a4597",
+  "all_coad_effects": 159,
+  "significant_features_reviewed": 73,
+  "candidate_pairs_total": 974,
+  "reaction_supported_pairs_including_identity_holds": 763,
+  "reaction_supported_pairs_without_current_identity_hold": 674,
+  "supported_features_without_current_identity_hold": 59,
+  "supported_genes_without_current_identity_hold": 458,
+  "features_without_reaction_support": 12,
+  "disposition_counts": {
+    "REACTION_ANNOTATION_SUPPORTED_PROVISIONAL": 674,
+    "REACTION_SPECIFICITY_PENDING": 190,
+    "UNIPROT_RECORD_NOT_EVALUABLE": 12,
+    "IDENTITY_HOLD": 98
+  },
+  "ready_for_patient_testing": 0,
+  "old_mappings_used": false,
+  "original_stats_changed": false,
+  "ssh_connection": "ACCESS_BLOCKED_HOST_ALIAS_UNRESOLVED",
+  "script_sha256": "b1dc596e63ccb6d0d90caab9feecd701131bff49bc6f0db592ac9c01bf461277"
+}

@@ -1,0 +1,40 @@
+source_row_1based	metabolite_key	metabolite_name	gene	actual_external_coverage	include_by_new_p_value
+1	KEGG:C02918	1-methylnicotinamide	NNMT	NOT_VERIFIED	False
+2	KEGG:C00631	2-phosphoglycerate	BPGM	NOT_VERIFIED	False
+3	KEGG:C00631	2-phosphoglycerate	ENO2	NOT_VERIFIED	False
+4	KEGG:C00631	2-phosphoglycerate	PGAM2	NOT_VERIFIED	False
+5	KEGG:C04501	N-Acetylglucosamine 1-phosphate	UAP1	NOT_VERIFIED	False
+6	KEGG:C01042	N-acetylaspartate (NAA)	ASPA	NOT_VERIFIED	False
+7	KEGG:C00019	S-adenosylmethionine (SAM)	ICMT	NOT_VERIFIED	False
+8	KEGG:C00019	S-adenosylmethionine (SAM)	KMT5A	NOT_VERIFIED	False
+9	KEGG:C00019	S-adenosylmethionine (SAM)	NNMT	NOT_VERIFIED	False
+10	KEGG:C00019	S-adenosylmethionine (SAM)	PRMT7	NOT_VERIFIED	False
+11	KEGG:C00147	adenine	AQP9	NOT_VERIFIED	False
+12	KEGG:C03794	adenylosuccinate	ADSS2	NOT_VERIFIED	False
+13	KEGG:C00152	asparagine	SLC38A3	NOT_VERIFIED	False
+14	KEGG:C00386	carnosine	SLC15A3	NOT_VERIFIED	False
+15	KEGG:C00475	cytidine	NT5C3A	NOT_VERIFIED	False
+16	KEGG:C00111	dihydroxyacetone phosphate (DHAP)	GNPAT	NOT_VERIFIED	False
+17	KEGG:C00051	glutathione, reduced (GSH)	GSTA4	NOT_VERIFIED	False
+18	KEGG:C00051	glutathione, reduced (GSH)	GSTO2	NOT_VERIFIED	False
+19	KEGG:C00051	glutathione, reduced (GSH)	GSTT2	NOT_VERIFIED	False
+20	KEGG:C00051	glutathione, reduced (GSH)	GSTT2B	NOT_VERIFIED	False
+21	KEGG:C00051	glutathione, reduced (GSH)	HAGH	NOT_VERIFIED	False
+22	KEGG:C00670	glycerophosphorylcholine (GPC)	PLA2G15	NOT_VERIFIED	False
+23	KEGG:C00242	guanine	SLC29A3	NOT_VERIFIED	False
+24	KEGG:C00387	guanosine	SLC29A3	NOT_VERIFIED	False
+25	KEGG:C00388	histamine	HDC	NOT_VERIFIED	False
+26	KEGG:C00130	inosine 5'-monophosphate (IMP)	CANT1	NOT_VERIFIED	False
+27	KEGG:C00130	inosine 5'-monophosphate (IMP)	ENTPD3	NOT_VERIFIED	False
+28	KEGG:C00130	inosine 5'-monophosphate (IMP)	GMPR	NOT_VERIFIED	False
+29	KEGG:C00407	isoleucine	BCAT2	NOT_VERIFIED	False
+30	KEGG:C00407	isoleucine	SLC7A8	NOT_VERIFIED	False
+31	KEGG:C00123	leucine	SLC6A17	NOT_VERIFIED	False
+32	KEGG:C00123	leucine	SLC7A8	NOT_VERIFIED	False
+33	KEGG:C00148	proline	SLC6A17	NOT_VERIFIED	False
+34	KEGG:C00245	taurine	SLC6A6	NOT_VERIFIED	False
+35	KEGG:C00299	uridine	SLC29A1	NOT_VERIFIED	False
+36	KEGG:C00299	uridine	UCKL1	NOT_VERIFIED	False
+37	KEGG:C00299	uridine	UPP2	NOT_VERIFIED	False
+38	KEGG:C00015	uridine 5'-diphosphate (UDP)	B4GALT2	NOT_VERIFIED	False
+39	KEGG:C00015	uridine 5'-diphosphate (UDP)	NME6	NOT_VERIFIED	False

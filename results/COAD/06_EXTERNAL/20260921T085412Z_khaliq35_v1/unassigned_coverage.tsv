@@ -1,0 +1,3 @@
+tissue	cells	samples	status	reason
+Normal	1244	7	NOT_EVALUABLE	Not present in author compartment exports;cell type not assigned
+Tumor	5919	16	NOT_EVALUABLE	Not present in author compartment exports;cell type not assigned

@@ -1,0 +1,6 @@
+dataset	role	sampling	availability	limitations	status
+GSE200997	PRIORITY_FULL_LINEAGE	16 patients reported;23 samples actually read	GEO annotation acquired;counts public,not acquired	Cell-type labels absent in GEO annotation;author celltypes split archive identified but unread	PARTIAL
+GSE166555	BACKUP_FULL_LINEAGE	12 patients reported;25 GEO samples	Processed count TAR and metadata public;not acquired	Multiple specimens per patient;verify treatment,site,selection and annotation	NEEDS_REVIEW
+GSE164522	IMMUNE_ONLY_SUPPLEMENT	101 specimens across tissue compartments;not101 patients	Primary-tumor matrix and metadata public;not acquired	CD45 enriched;restrict primary tumor;mast coverage not checked	NEEDS_REVIEW
+GSE132465	EXISTING_REUSE	Previously analyzed	Existing35-gene results	Do not count reanalysis as new cohort	DONE
+GSE178341	EXISTING_REUSE	Previously analyzed	Existing35-gene results	SCP1162/Pelka reanalyses are same cohort;separate enrichment and chemistry	DONE

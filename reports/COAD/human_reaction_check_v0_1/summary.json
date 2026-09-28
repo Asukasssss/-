@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-19T10:50:54.513098+00:00",
+  "status": "DONE_BATCH_HUMAN_REACTION_ANNOTATION_CHECK",
+  "pairs_checked": 693,
+  "human_genes_searched": 488,
+  "reviewed_human_proteins_retrieved": 494,
+  "status_counts": {
+    "MATCHED_REACTION_WITH_EXPERIMENTAL_ANNOTATION": 390,
+    "NO_EXACT_REACTION_MATCH_IN_CURRENT_SEARCH": 198,
+    "MATCHED_REACTION_OTHER_ANNOTATION": 92,
+    "NO_REVIEWED_HUMAN_RECORD_LINKED": 13
+  },
+  "pairs_with_matching_human_reaction_annotation": 482,
+  "matching_pairs_without_current_identity_hold": 424,
+  "matching_pairs_with_identity_hold": 58,
+  "features_with_matching_annotation_without_current_identity_hold": 58,
+  "genes_with_matching_annotation_without_current_identity_hold": 322,
+  "patient_analysis": "NOT_RUN",
+  "transporter_review": "NOT_RUN",
+  "final_patient_test_family_locked": false,
+  "input_pairs_sha256": "52e49143379fdced4d98a18c288eb0aaaba4df4c40234ebe7610be5c726bd94e",
+  "script_sha256": "ba9f879f02c548622f145dbdaa357118dec84ccb0ff652a729323182727f7020",
+  "method": "Exact NCBI GeneID link to reviewed human UniProt; exact Rhea reaction match normalized by official direction table; not EC-only or symbol-only matching.",
+  "limitation": "Annotation support is not a new experimental finding, complete substrate-specificity review, independent validation or proof in COAD. Identity hypotheses remain conditional. No exact match is not a negative result."
+}

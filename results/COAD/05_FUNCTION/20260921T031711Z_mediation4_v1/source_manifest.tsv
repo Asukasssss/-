@@ -1,0 +1,10 @@
+source_id	path_or_url	version	sha256	depth
+M01	https://www.nature.com/articles/srep04852	2026-09-21 focused reading	NA	Publisher indexed Results/Fig2/5 and uptake description
+M02	https://www.oncotarget.com/article/9962/text/	2026-09-21 focused reading	NA	Publisher Results/Fig6-8 focused full-text sections
+M03	https://www.jcancer.org/v12p6170.htm	2026-09-21 focused reading	NA	Publisher methods/results/Fig4-6 focused sections
+M04	https://pmc.ncbi.nlm.nih.gov/articles/PMC10363437/	2026-09-21 focused reading	NA	Original indexed Results and Fig4 caption;PMC page challenged
+M05	https://pmc.ncbi.nlm.nih.gov/articles/PMC9246348/	2026-09-21 focused reading	NA	Original indexed abstract/results overview;not complete figure audit
+M06	https://www.nature.com/articles/s42255-026-01455-6	2026-09-21 focused reading	NA	Publisher abstract/figure titles/data statement;subscription-limited full text
+M06_correction	https://doi.org/10.1038/s42255-026-01585-x	2026-07-14	NA	Publisher-indexed correction text
+local	results\COAD\06_EXTERNAL\20260920T091100Z_cell_paired35_v1\relations39_integrated.tsv	exact bytes	db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7	Input/code
+local	code\coad\build_mediation_review_v1.py	exact bytes	eea981ca4b4875c42c3dca3907cae0a457a290a437f4dc654e78f945f1bcd372	Input/code

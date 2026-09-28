@@ -1,0 +1,7 @@
+source	url_or_origin	bytes	sha256	read_scope
+41467_2024_54710_MOESM1_ESM.pdf	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11599708/supplementaryFiles	3716846	6f97dc68fb6eca3695f16b2c4d212ce8e62401ce4bf72df787d1caba595ad1e3	server165; supplementary archive/extracted source
+41467_2024_54710_MOESM4_ESM.xlsx	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11599708/supplementaryFiles	13169	01c0084b34212a8504a96bb6a6849bd4ef31359f89f69c82e31332a52b1095f3	server165; supplementary archive/extracted source
+41467_2024_54710_MOESM9_ESM.xlsx	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11599708/supplementaryFiles	33294070	7db08117bfc3e825284d6937c1432af8c9a954dac9fc7ffb6fb6cd1e607d0880	server165; supplementary archive/extracted source
+PMC11599708_supplementary.zip	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11599708/supplementaryFiles	51652957	32a4ddf9961b09df4b4d84211d5cae4702362d109d9a0fd311c7464c657455b6	server165; supplementary archive/extracted source
+SpatialTranscriptome.h5ad	https://ftp.cngb.org/pub/stomics/STT0000036/supp/SpatialTranscriptome.h5ad	17636967892	NA	HTTP Range metadata only; 1230292 bytes read; full file not downloaded or hashed
+author_supplement_figure2_page4.png	Supplementary Information PDF page 4	1039792	a41dd68b128c00c6b7907b6f0d9af47174e2970160d2e7b910852bf23e2f79b0	pdftoppm rendered full page; visual inspection

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "code/coad/prepare_lypla1_kegg_v1.py",
+    "sha256": "f8c0cf4d46869265a071f71246e98665772a870f646d77cc52e402528a3e5f9c"
+  },
+  {
+    "path": "code/coad/run_lypla1_kegg_gsea_v1.R",
+    "sha256": "57880443944fe37b480f7cc684c6a3f0fa91baa0f43f63d6bf1a9375c4172dfb"
+  },
+  {
+    "path": "code/coad/report_lypla1_kegg_v1.py",
+    "sha256": "a7f7152131fb99ff035c1d28c4c32f89e1c34c4468f11fc334c92a0ff456641c"
+  }
+]

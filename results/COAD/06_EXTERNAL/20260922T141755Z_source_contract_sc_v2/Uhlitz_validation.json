@@ -1,0 +1,35 @@
+{
+  "study": "Uhlitz",
+  "all_cells": 68702,
+  "tumor_cells": 38233,
+  "tumor_donors": 12,
+  "targets": 811,
+  "measured": 719,
+  "source_evaluable": 642,
+  "stable_top_80": 406,
+  "profile_rows": 8110,
+  "broad_scope": {
+    "study": "Uhlitz_broad",
+    "all_cells": 68702,
+    "tumor_cells": 38233,
+    "tumor_donors": 12,
+    "targets": 811,
+    "measured": 719,
+    "source_evaluable": 633,
+    "stable_top_80": 508,
+    "profile_rows": 4866
+  },
+  "status": "PASS",
+  "p_q_computed": false,
+  "source_hashes": {
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260922T141755Z_source_contract_sc_v2/private_cell_metadata.tsv": "17cf7fc9bc00d1bab893701a4dc2983cb98268f171f651bba49e598ad06a0267",
+    "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260922T141755Z_source_contract_sc_v2/private_cell_counts.npz": "074042b9a33900e5e21f06dd478347bd68b896f510ca425f4dc7b0f1235e0ef3"
+  },
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3"
+  },
+  "UMAP": "NOT_EVALUABLE: no coordinates in admitted metadata; no invented embedding",
+  "clinical_subtypes": "NOT_EVALUABLE: no verified patient clinical subtype table; cell expression CMS not substituted"
+}

@@ -1,0 +1,26 @@
+{
+  "primary33": {
+    "planned": 159,
+    "computable": 159,
+    "q_significant": 94,
+    "majority_up": 41,
+    "majority_down": 52,
+    "other_significant": 1
+  },
+  "observed_pairs": {
+    "planned": 159,
+    "computable": 157,
+    "q_significant": 97,
+    "majority_up": 41,
+    "majority_down": 56,
+    "other_significant": 0
+  },
+  "primary_pairs": 33,
+  "outside_frozen_family_T": [
+    "N6-acetyllysine"
+  ],
+  "outside_frozen_family_N": [
+    "Indole-3-acetamide"
+  ],
+  "fully_observed_features": 77
+}

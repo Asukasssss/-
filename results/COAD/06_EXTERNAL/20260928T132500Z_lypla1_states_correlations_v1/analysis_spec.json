@@ -1,0 +1,40 @@
+{
+  "analysis_version": "COAD_LYPLA1_states_within_donor_v1",
+  "discovery": "Uhlitz GSE166555; historical author CNA admission, 4477 cells; no new malignancy inference",
+  "subtypes": "Original cell_type_epi_custom; all labels retained; descriptive donor means require >=20 cells/donor/type and >=3 donors; paired subtype-vs-rest sign tests require >=20 cells each side and >=6 donors",
+  "primary": "Per donor Spearman correlation of LYPLA1 and each measured gene using log1p(CP10K), including zero cells; then donor-equal median rho",
+  "admission": ">=50 CNA cells, >=10 LYPLA1-positive cells, >=3 distinct raw LYPLA1 counts per donor; each gene >=10 detected cells and nonconstant normalized rank within donor; >=6 eligible donors for inference",
+  "p_value": "Exact two-sided sign test of donor rho directions; not a pooled-cell P or a test of median rho magnitude",
+  "ci": "2000 donor bootstrap resamples of median rho, percentile 95%; exploratory marginal interval",
+  "selection": "raw P<0.05, abs(median rho)>=0.1, >=75% donors same direction; no FDR computation or filtering; full tested family retained",
+  "sensitivities": [
+    "partial rank correlation controlling total UMI minus LYPLA1 UMI",
+    "partial rank correlation controlling depth and original subtype dummies within donor",
+    "positive LYPLA1 cells only, >=30 positive cells/donor; a different conditional question"
+  ],
+  "replication": "Lee GSE132465 Tumor Epithelial cells with author CMS1-CMS4 annotation; exact gene symbols; all selected discovery genes plus prespecified focus frozen before reading Lee expression; same correlation thresholds; not a replication of Uhlitz CNA calls or TC states",
+  "focus_genes": [
+    "CDS1",
+    "ETNK2",
+    "GPAT4",
+    "GPD1L",
+    "PISD",
+    "PLA2G10",
+    "PLPP5",
+    "ASNS",
+    "UCKL1",
+    "NNMT",
+    "SLC6A6"
+  ],
+  "seed": 20260928,
+  "cross_cancer": "read-only existing BRCA material first; no other-cancer matrix modification or implicit malignancy labels",
+  "limitations": [
+    "Nominal discovery across thousands of genes has multiple-testing false positives",
+    "CP10K is relative abundance, depth residualization does not remove all technical coupling",
+    "Cell cycle and unmeasured states can confound; subtype sensitivity only addresses supplied labels",
+    "CNA is RNA-inferred; Lee tumor CMS epithelial context is not identical CNA admission",
+    "No causal, enzymatic, metabolic flux or independent patient identity assertion beyond source metadata"
+  ],
+  "code_lock_commit": "b2175dccbf5a6e8ebc18eda0c3cdac4f2eb40887",
+  "script_sha256": "4d1362f4c168bab4dd80fbec07f5e8b8dce2f3da54f5dc1cddde6af131c946cf"
+}

@@ -1,0 +1,30 @@
+{
+  "features_all": 159,
+  "paired_workpool": 101,
+  "features_reused": 72,
+  "features_new": 29,
+  "pool_counts": {
+    "DIRECT": 891,
+    "UNRESOLVED": 197,
+    "CONDITIONAL": 378
+  },
+  "total_relations": 1466,
+  "direct_genes": 526,
+  "direct_features": 78,
+  "feature_status_counts": {
+    "HAS_DIRECT_RELATIONS": 78,
+    "CONDITIONAL_IDENTITY": 15,
+    "NO_DIRECT_HIT_IN_SCOPED_SEARCH": 6,
+    "CONDITIONAL_RELATIONS_ONLY": 2
+  },
+  "direct_relations_reused": 643,
+  "direct_relations_new": 248,
+  "direct_relations_with_legacy_patient_results": 595,
+  "direct_genes_with_prior_scRNA_panel": 32,
+  "legacy39_status_counts": {
+    "DIRECT": 35,
+    "CONDITIONAL": 3,
+    "OUTSIDE_PAIRED_WORK_POOL": 1
+  },
+  "new_patient_tests": false
+}

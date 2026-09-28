@@ -1,0 +1,16 @@
+{
+  "run_id": "20260920T111614Z_supplement_audit_v1",
+  "analysis_version": "COAD_Chen_supplement_audit_v1",
+  "scope": "Two public supplementary DOCX;package/table-header audit only",
+  "statistical_unit": "NA",
+  "test_family": "NA",
+  "seed": "NA",
+  "new_tests": false,
+  "patient_association": "NOT_RUN",
+  "server_access": "DONE",
+  "source_data_residency": "server165 only",
+  "server_run": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260920T111614Z_supplement_audit_v1",
+  "python": "3.8.10",
+  "source_code_commit": "7f7363fb94ea95676e073b36ca8acc705d63a296",
+  "prior_feasibility_run": "20260920T105400Z_relation39_feasibility_v1"
+}

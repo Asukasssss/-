@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260920T081200Z_cell_expression35_v2/private_Lee2020_GSE132465_patient_expression.tsv",
+    "sha256": "95dfabf36aedbd5e8fba0e277becf773a6116c7cbda2aafdbe9cd0f8c5012b00",
+    "bytes": 259507
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260920T072000Z_cell_expression_v1/private_Lee2020_GSE132465_patient_expression.tsv",
+    "sha256": "8ca230b4da27caa24183eac74757bf0af9cc56ece471e85226bec1a4012dac8c",
+    "bytes": 121183
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260920T081200Z_cell_expression35_v2/private_Pelka2021_GSE178341_patient_expression.tsv",
+    "sha256": "7220985ece9df73e578e8fab5ec24200815e64896638f60385fb89f5d66c75ba",
+    "bytes": 2724474
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260920T072000Z_cell_expression_v1/private_Pelka2021_GSE178341_patient_expression.tsv",
+    "sha256": "3bd120c4c2363271768bd34ae9c27c094f375c0b5f137b5096c369c6b56c0094",
+    "bytes": 1081881
+  }
+]

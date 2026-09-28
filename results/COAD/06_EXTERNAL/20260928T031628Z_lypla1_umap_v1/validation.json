@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cells": 68702,
+  "donors": 12,
+  "detected_cells": 17334,
+  "zero_cells": 51368,
+  "all_cells_matched": true,
+  "source_hashes_match": true,
+  "same_embedding": true,
+  "new_P_q": false,
+  "individual_records_exported": false
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "covariate-only audit and synthetic statistical implementation checks",
+  "new_patient_statistics_run": false,
+  "hashes": {
+    "analysis_spec.json": "25e9d6a62d55325a6695d31e53795b4045b2092826991099ce0e572a28fb089f",
+    "covariate_audit.json": "19ca0e0388a93f3ec31f9e3cece52019190a55ea044e8a3d6ad8966d7b8b66c3",
+    "kernel_validation.json": "84b79673dde9e466f98af31e0b6e3ff3ea64f2733a961767edfc1960fd1d882e",
+    "README_CN.md": "cd1ccfa6b052a9979fe687f284dccbcd2a9e8823332a3eb822b3295195c35881",
+    "source_manifest.tsv": "9cefa6c48fcd34cc9d611eaf5b080f952801b14e667564661a5032f77b07273a"
+  }
+}

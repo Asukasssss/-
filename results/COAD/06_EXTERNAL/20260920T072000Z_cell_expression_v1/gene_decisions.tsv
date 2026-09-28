@@ -1,0 +1,3 @@
+gene	status	actual_result	decision	not_concluded
+HDC	PARTIAL	Pelka tumor unsorted Mast localization in separate v2/v3 strata; Lee tumor Mast only3 cells/2 patients, NOT_EVALUABLE for robust localization	Prioritize mast-cell spatial localization hypothesis, not generic myeloid assignment	No CAMP histamine-HDC causal validation; no tissue source proportion; no second tumor-cohort mast confirmation
+GSTA4	PARTIAL	Lee and Pelka stromal and epithelial detection; separate source/technology estimates; retain original annotations	Separate epithelial and stromal/host hypotheses before further functional interpretation	Does not exclude rare myeloid functional effects; no GSH flux or mediation evidence

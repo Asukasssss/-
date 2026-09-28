@@ -1,0 +1,50 @@
+[
+  {
+    "source_id": "Chen2025_MOESM1",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12943-025-02359-x/MediaObjects/12943_2025_2359_MOESM1_ESM.docx",
+    "filename": "12943_2025_2359_MOESM1_ESM.docx",
+    "status": "DONE",
+    "bytes": 7133583,
+    "sha256": "f939d265ab7d5038755c385b949da8aa9de114ada2c740323e62c68811889731",
+    "table_count": 0,
+    "table_rows": [],
+    "table_columns": [],
+    "headings": [],
+    "embedded_spreadsheet_files": [],
+    "media_count": 8,
+    "private_content_exported": false
+  },
+  {
+    "source_id": "Chen2025_MOESM2",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1186%2Fs12943-025-02359-x/MediaObjects/12943_2025_2359_MOESM2_ESM.docx",
+    "filename": "12943_2025_2359_MOESM2_ESM.docx",
+    "status": "DONE",
+    "bytes": 40083,
+    "sha256": "fd3dbd0c1d243bac3fa7473e0159ee7a3be5c7e5882839800e0b03789428dbfc",
+    "table_count": 5,
+    "table_rows": [
+      27,
+      22,
+      14,
+      2,
+      25
+    ],
+    "table_columns": [
+      8,
+      2,
+      3,
+      2,
+      8
+    ],
+    "headings": [
+      "Table S1:Clinical information about the CRC patients",
+      "Table S2: Primer sequences for qRT-PCR",
+      "Table S3:The antibodies used in Western blot analysis",
+      "Table S4\uff1aSequence of MSTRG60967.1",
+      "Table S5\uff1aClinical information about the CRC tissues undergoing qRT-PCR verification"
+    ],
+    "embedded_spreadsheet_files": [],
+    "media_count": 0,
+    "private_content_exported": false
+  }
+]

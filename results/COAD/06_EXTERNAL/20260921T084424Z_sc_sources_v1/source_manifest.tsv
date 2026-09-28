@@ -1,0 +1,7 @@
+source_id	url	version	sha256
+GSE200997	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200997	accessed2026-09-21	NA
+Khaliq_methods	https://link.springer.com/article/10.1186/s13059-022-02677-z	accessed2026-09-21	NA
+author_repository	https://github.com/masoodlab/CRC-Single-Cell/tree/39e855925a8a2806e2ef0500927a2bb16b243be4/Data	accessed2026-09-21	NA
+GSE166555	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555	accessed2026-09-21	NA
+GSE164522	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE164522	accessed2026-09-21	NA
+GSE200997_annotation	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE200nnn/GSE200997/suppl/GSE200997_GEO_processed_CRC_10X_cell_annotation.csv.gz	downloaded2026-09-21	e0da0e400a7792c0612a8da7805f08dbfb42c4bcadc80e0f2b9ec8e566d7bdfc

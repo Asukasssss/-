@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checks": [
+    "input hashes unchanged and match original patient batch",
+    "full974 each model with674 planned",
+    "independent OLS residual rho for all computed rows",
+    "original effect/q unchanged",
+    "M0_CC exact primary reuse when inputs identical",
+    "model-specific complete-family BH",
+    "unavailable P/q remain missing"
+  ],
+  "public_output_sha256": {
+    "kernel_validation.json": "84b79673dde9e466f98af31e0b6e3ff3ea64f2733a961767edfc1960fd1d882e",
+    "locked_spec.json": "25e9d6a62d55325a6695d31e53795b4045b2092826991099ce0e572a28fb089f",
+    "statistical_result_template.tsv": "7f4264d0e6019c24f5ba60fb22fbb8094e686f1d637f2b0aeacaaf602972e02f",
+    "analysis_spec.json": "ce5d34ca6c1809a27914067c0548eb207f1e3b3acf3d401304f1aceb76a486d8",
+    "M1.tsv": "b16cbbc3099fe37128e7b9a525817446ee997fc485c58dc62d76046e393cbea0",
+    "M1_M0_CC.tsv": "da92b14c2f24bc4b5fe1e59398a939dbd12cec1768d236ca463502ddd1ff0d95",
+    "M2.tsv": "03bd623cc9d743b6d46deab6f7b22ff6355464563d0fbcfa9a74c42eb082d3b1",
+    "M2_M0_CC.tsv": "60d1c17b4b439d83ec321bcca5f2a4a0cd3f7a55846dd342b4bf0bfad3924789",
+    "M3.tsv": "d1434bc3ed1f4e44b5f683bc7484c479157842a573256d8394d54af6e0a73631",
+    "M3_M0_CC.tsv": "3fdf02d69ba70be2823e2843837b283632080cbbb6564a7275ea158c75b60bd3",
+    "summary.json": "f63d9bb7e937624e828a879cf7b37a59ba5728fab2e0458cfd544a7eba741c6b",
+    "source_manifest.tsv": "b53d5babb8f6ea45d2e32d218b08f300e1bb5a8d1044aaa14ab423a2fd69d073"
+  },
+  "limitations": [
+    "Approximate Freedman-Lane exchangeability/homoskedasticity assumptions",
+    "No purity or technical batch adjustment",
+    "M3 unsupported sparse original categories; not mathematically rank deficient",
+    "Same CAMP patients, not independent validation"
+  ]
+}

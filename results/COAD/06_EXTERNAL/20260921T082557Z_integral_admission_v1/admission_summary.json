@@ -1,0 +1,52 @@
+{
+  "status": "PARTIAL",
+  "source_sha256": "30037314867bf80f4b05b3ced26766094aa6e63ae939bf45b69731819358d67c",
+  "patient_n": 6,
+  "structural_pass": {
+    "RNA": 30,
+    "PROTEIN": 11
+  },
+  "diagnostics": [
+    {
+      "sheet": "B_metabolome",
+      "records": 1116,
+      "exact_sample_label_set": true,
+      "column_order_matches_metabolome": true,
+      "finite_integer_fraction": 1.0,
+      "column_sum_min": 7511831990,
+      "column_sum_max": 9971818378,
+      "zero_cells": 0,
+      "text_missing": [
+        "NA"
+      ]
+    },
+    {
+      "sheet": "G_transcriptome_gene",
+      "records": 18069,
+      "exact_sample_label_set": true,
+      "column_order_matches_metabolome": false,
+      "finite_integer_fraction": 0.9238705333259543,
+      "column_sum_min": 14020388.979999984,
+      "column_sum_max": 16882765.020000007,
+      "zero_cells": 18763,
+      "text_missing": []
+    },
+    {
+      "sheet": "D_proteome_protein",
+      "records": 9257,
+      "exact_sample_label_set": true,
+      "column_order_matches_metabolome": true,
+      "finite_integer_fraction": 0.2509599206178006,
+      "column_sum_min": 645776985.5399973,
+      "column_sum_max": 940909009.4099962,
+      "zero_cells": 0,
+      "text_missing": [
+        "NA"
+      ]
+    }
+  ],
+  "source_admission": "NEEDS_REVIEW",
+  "correlations_computed": 0,
+  "zero_handling": "Retained as numeric source zeros during diagnostics; semantics not certified",
+  "site_scope": "CRC, anatomical site mix unverified"
+}

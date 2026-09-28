@@ -1,0 +1,762 @@
+{
+  "https://rest.kegg.jp/get/C00015+C00019+C00025+C00031+C00043+C00051+C00064+C00074+C00082+C00086": {
+    "url": "https://rest.kegg.jp/get/C00015+C00019+C00025+C00031+C00043+C00051+C00064+C00074+C00082+C00086",
+    "retrieved_utc": "2026-09-19T10:40:27.470828+00:00",
+    "sha256": "93c775de697fd2b271d20a3864aac030a267df75a0bb5ee12ee7ed15fda21cc9",
+    "bytes": 76786,
+    "cache_file": "ed5b315ad5eb72f942c731e13b6535dbd6f42938393521ae09f262de5c825012.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/C00099+C00106+C00111+C00123+C00130+C00147+C00148+C00152+C00158+C00167": {
+    "url": "https://rest.kegg.jp/get/C00099+C00106+C00111+C00123+C00130+C00147+C00148+C00152+C00158+C00167",
+    "retrieved_utc": "2026-09-19T10:40:28.749648+00:00",
+    "sha256": "95f2f5c4ee97d57feb4c32ba7b61fa80d02348c3623c5858915e106bada0646d",
+    "bytes": 31528,
+    "cache_file": "602b2d015cf3a6748226605e0118cb63f6d1215f407d349c6e74bd84604f538f.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/C00170+C00197+C00199+C00212+C00233+C00242+C00245+C00262+C00270+C00294": {
+    "url": "https://rest.kegg.jp/get/C00170+C00197+C00199+C00212+C00233+C00242+C00245+C00262+C00270+C00294",
+    "retrieved_utc": "2026-09-19T10:40:29.907817+00:00",
+    "sha256": "0e4e34a215822326cabeab5069c2a16163f5a80ff8df44cfa991a5328fcff6fd",
+    "bytes": 31226,
+    "cache_file": "09169264b6a60d135dfaef0151a7a510242242d912c428f60753a78e484e6d3d.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/C00299+C00300+C00307+C00311+C00315+C00328+C00345+C00357+C00366+C00386": {
+    "url": "https://rest.kegg.jp/get/C00299+C00300+C00307+C00311+C00315+C00328+C00345+C00357+C00366+C00386",
+    "retrieved_utc": "2026-09-19T10:40:31.045877+00:00",
+    "sha256": "1af2729d4972abc8cf0fccb669193bdbd17a0005a571bb9a2d8f90c4902d98f6",
+    "bytes": 23388,
+    "cache_file": "83c84d2fddce71a36b59f2b676e260b0c4ef9a77c2da2c0463aef0cb07f5526e.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/C00387+C00388+C00407+C00417+C00475+C00519+C00581+C00631+C00670+C00780": {
+    "url": "https://rest.kegg.jp/get/C00387+C00388+C00407+C00417+C00475+C00519+C00581+C00631+C00670+C00780",
+    "retrieved_utc": "2026-09-19T10:40:32.110039+00:00",
+    "sha256": "3563b57613b7ea62ea700d49754ff9890fa2f09ace9b01042a3f92d450cfa194",
+    "bytes": 23712,
+    "cache_file": "78551ca7a754bea021d2ccefb3bb94de76f22fec7e1e3b20a2606b8168ef53db.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/C00791+C01042+C01606+C01692+C01807+C01996+C02037+C02350+C02494+C02712": {
+    "url": "https://rest.kegg.jp/get/C00791+C01042+C01606+C01692+C01807+C01996+C02037+C02350+C02494+C02712",
+    "retrieved_utc": "2026-09-19T10:40:33.516986+00:00",
+    "sha256": "7b21434fe15f61ccede02a14a1e6eba24119ae5d41efe29ce7cf333c36bcea7e",
+    "bytes": 16601,
+    "cache_file": "f2e47855deb3f262f6eb61f39d3a8e179e0b2c41d1e9bb80306baa7b0c3e5519.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/C02918+C03761+C03794+C04501+C05127+C05147+C06369+C06771+C06808+C08261": {
+    "url": "https://rest.kegg.jp/get/C02918+C03761+C03794+C04501+C05127+C05147+C06369+C06771+C06808+C08261",
+    "retrieved_utc": "2026-09-19T10:40:34.661068+00:00",
+    "sha256": "66c88bc60616e780c5a3836b4fb375de44530e96dde90015d60a30595b5b587a",
+    "bytes": 16665,
+    "cache_file": "773199b359c9c108df24e9144a03ff2fea60ef150d171b7d84d2ffc2aa75c6ea.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/C16741": {
+    "url": "https://rest.kegg.jp/get/C16741",
+    "retrieved_utc": "2026-09-19T10:40:40.276772+00:00",
+    "sha256": "698260f2929590a1f80cb41e423076c7f474848706fe7994a19ab51e9264e028",
+    "bytes": 1284,
+    "cache_file": "65ae6ed969f5ad783fb65c1891e375cdd06b54dc5f1b87371a3745dd3656efba.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/find/compound/ophthalmate": {
+    "url": "https://rest.kegg.jp/find/compound/ophthalmate",
+    "retrieved_utc": "2026-09-19T10:41:11.626278+00:00",
+    "sha256": "efcc87e9ee9acdf00289b04481068bb83f54e80f844686b07732295f6943321e",
+    "bytes": 61,
+    "cache_file": "a544bb4975661cbd61e2b0317f544389f89c906e033ebc468773165a7d3c4e9f.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/find/compound/ophthalmic%20acid": {
+    "url": "https://rest.kegg.jp/find/compound/ophthalmic%20acid",
+    "retrieved_utc": "2026-09-19T10:41:14.025120+00:00",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "bytes": 1,
+    "cache_file": "c71bbb3932117571ba58e53377f81502e7a2c5bc999f8f550057f304e1ebeacf.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/find/compound/glutathione%20cysteine": {
+    "url": "https://rest.kegg.jp/find/compound/glutathione%20cysteine",
+    "retrieved_utc": "2026-09-19T10:41:16.904023+00:00",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "bytes": 1,
+    "cache_file": "ca969a158993a8c0bae1db44920cac0ac1a39f5a8d5e3b33a2ee80aa01abc9fe.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/find/compound/xylulose%205-phosphate": {
+    "url": "https://rest.kegg.jp/find/compound/xylulose%205-phosphate",
+    "retrieved_utc": "2026-09-19T10:41:18.474379+00:00",
+    "sha256": "af85e301da18c46f23510276664019cc69ae11a347b50c47ff1625dc0499454f",
+    "bytes": 144,
+    "cache_file": "e079faf7a0cabc3027c8d049c2f02eeb344320beedfab0a13a9ad76bbeda80c9.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/find/compound/mucate": {
+    "url": "https://rest.kegg.jp/find/compound/mucate",
+    "retrieved_utc": "2026-09-19T10:41:20.117139+00:00",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "bytes": 1,
+    "cache_file": "88e158d6c18ba1937f196b5c70af54c7fbcb974a407df6e6db0df4caa66efecf.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/find/compound/galactarate": {
+    "url": "https://rest.kegg.jp/find/compound/galactarate",
+    "retrieved_utc": "2026-09-19T10:41:21.578198+00:00",
+    "sha256": "3059539b9914cbdb52c133c4d3c777b7b973dcbda0b3ec7b99cbe4a04987525b",
+    "bytes": 186,
+    "cache_file": "3e587187ff51f55816b9d43766a9bcce6f1999900ffb92b3ef3e8822bfd50c32.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00900": {
+    "url": "https://rest.kegg.jp/get/R00900",
+    "retrieved_utc": "2026-09-19T10:41:22.605271+00:00",
+    "sha256": "e233df73d3b4fe70e53190b6b99b5be8186ec80ac3193bdde300fdb72a866e48",
+    "bytes": 971,
+    "cache_file": "c940d878e614ecb223c0994e9ff9a2f395ada293f4ad3d485aedc29a5501aca4.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/link/ko/hsa": {
+    "url": "https://rest.kegg.jp/link/ko/hsa",
+    "retrieved_utc": "2026-09-19T10:41:24.999455+00:00",
+    "sha256": "3c39fa89ba092e6e64309d589a11b4f4cd90342f1ab84d8d9a427745e17c3aa7",
+    "bytes": 380878,
+    "cache_file": "607fa173c2c3a548f138aa6cf2f2e4b6bf50ff67e115d68d68a73a8abcbe4c75.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/link/ko/reaction": {
+    "url": "https://rest.kegg.jp/link/ko/reaction",
+    "retrieved_utc": "2026-09-19T10:41:27.433724+00:00",
+    "sha256": "12986dcd804a901aa95f980fc21e5841b32bfae87b9dd74bd990608d4780b422",
+    "bytes": 246640,
+    "cache_file": "6ca2202a2aa2e3926b65c942fa01acc1d60eae63488fece4244391b75d798691.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00010+R00028+R00094+R00115+R00135+R00155+R00156+R00157+R00158+R00159": {
+    "url": "https://rest.kegg.jp/get/R00010+R00028+R00094+R00115+R00135+R00155+R00156+R00157+R00158+R00159",
+    "retrieved_utc": "2026-09-19T10:41:29.770484+00:00",
+    "sha256": "922d827516eae607060405fd700cc527d4e7e0c57f71921263d6d8eddb0f06b3",
+    "bytes": 9897,
+    "cache_file": "40770ef90405c01eab2112339406a5cb6b2041958b777b333c90d10566c02893.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00177+R00178+R00181+R00183+R00185+R00190+R00192+R00200+R00239+R00243": {
+    "url": "https://rest.kegg.jp/get/R00177+R00178+R00181+R00183+R00185+R00190+R00192+R00200+R00239+R00243",
+    "retrieved_utc": "2026-09-19T10:41:31.420603+00:00",
+    "sha256": "b95aba92cf77121545d2fa419a888e12841c5f6a55efe5ab2f5ecdce391c8308",
+    "bytes": 11349,
+    "cache_file": "4be068cd77298b43103cd8a11144857923543c67eee367079a71e695af6d46b7.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00245+R00248+R00251+R00253+R00256+R00257+R00258+R00259+R00261+R00267": {
+    "url": "https://rest.kegg.jp/get/R00245+R00248+R00251+R00253+R00256+R00257+R00258+R00259+R00261+R00267",
+    "retrieved_utc": "2026-09-19T10:41:33.446532+00:00",
+    "sha256": "b6effdd1d0320224a6dc8d4c2d86c9b5535748b81e4b79e9c4676292347f70e8",
+    "bytes": 15570,
+    "cache_file": "b88a06662573ba204d4f2cbef187d275638b4430482a2dabedba22d38a34bf5b.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00274+R00286+R00292+R00299+R00303+R00306+R00351+R00352+R00355+R00367": {
+    "url": "https://rest.kegg.jp/get/R00274+R00286+R00292+R00299+R00303+R00306+R00351+R00352+R00355+R00367",
+    "retrieved_utc": "2026-09-19T10:41:34.477208+00:00",
+    "sha256": "b5bdbdd3eb339132cd0f2a1949b65b4dee7106b15af77f87b4a3eb89731312ce",
+    "bytes": 13916,
+    "cache_file": "ee37ebdac3d76251cf01a72cfc15f7182d6358830b9931460739737cb3a530c3.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00372+R00414+R00416+R00430+R00431+R00485+R00487+R00488+R00489+R00494": {
+    "url": "https://rest.kegg.jp/get/R00372+R00414+R00416+R00430+R00431+R00485+R00487+R00488+R00489+R00494",
+    "retrieved_utc": "2026-09-19T10:41:35.504175+00:00",
+    "sha256": "c7f26b3af188d7be7b237fc3d559daae72e2bab252568c4a1c717a9844f031aa",
+    "bytes": 12325,
+    "cache_file": "c315dce31bc4bfccd0f60549454d978698f51aa3722a7b2ea8864e94f008340e.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00497+R00503+R00511+R00513+R00517+R00527+R00551+R00565+R00573+R00575": {
+    "url": "https://rest.kegg.jp/get/R00497+R00503+R00511+R00513+R00517+R00527+R00551+R00565+R00573+R00575",
+    "retrieved_utc": "2026-09-19T10:41:36.493645+00:00",
+    "sha256": "888565ad450b6112423853f15230eee139547df0661b08c5b08be8fe2b37f861",
+    "bytes": 11212,
+    "cache_file": "3c828be91a55ec7b7d561e5fb99b860651b34e66f562353b157fd2ff5ddb800d.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00578+R00597+R00650+R00658+R00667+R00694+R00707+R00708+R00709+R00720": {
+    "url": "https://rest.kegg.jp/get/R00578+R00597+R00650+R00658+R00667+R00694+R00707+R00708+R00709+R00720",
+    "retrieved_utc": "2026-09-19T10:41:38.947530+00:00",
+    "sha256": "b05dffd4c8d9db2d4f58adc3df55d6dc1ae3f7c3f5fb98441ee94757db528de6",
+    "bytes": 12324,
+    "cache_file": "077285bd38c607d4f29ae87d2b5bb8d13001fceea8578b2361a4b3e0f4f40247.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00726+R00729+R00731+R00734+R00736+R00768+R00801+R00842+R00848+R00894": {
+    "url": "https://rest.kegg.jp/get/R00726+R00729+R00731+R00734+R00736+R00768+R00801+R00842+R00848+R00894",
+    "retrieved_utc": "2026-09-19T10:41:41.054462+00:00",
+    "sha256": "29d20ff3b7e301775cec99df183fd30a87bb7f5a8d51c5378c8cab68f1c4e0db",
+    "bytes": 14769,
+    "cache_file": "8badc8c3836669328d87fd914704c99790831c93f8e3162f4927fd6f3f077897.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00895+R00904+R00905+R00908+R00910+R00912+R00942+R00961+R00963+R00964": {
+    "url": "https://rest.kegg.jp/get/R00895+R00904+R00905+R00908+R00910+R00912+R00942+R00961+R00963+R00964",
+    "retrieved_utc": "2026-09-19T10:41:42.164147+00:00",
+    "sha256": "dd174fabc4f8501309714145b3fbb47e7134295ee3c5669079303777e67be948",
+    "bytes": 12359,
+    "cache_file": "cd66053cdd433a5980ecf05a821dbc5efe89c114c0994ab6601eeaa1e1e90fff.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R00968+R00978+R00987+R01005+R01011+R01013+R01015+R01023+R01026+R01030": {
+    "url": "https://rest.kegg.jp/get/R00968+R00978+R00987+R01005+R01011+R01013+R01015+R01023+R01026+R01030",
+    "retrieved_utc": "2026-09-19T10:41:44.700134+00:00",
+    "sha256": "cdf553df7a847e096a93ca53a0f215b46914c0e700444d46ec1d4e28820e400b",
+    "bytes": 10078,
+    "cache_file": "a1b64cb83b1f88e6bad92d12bfc732e49d623def02659b1147ff3aa9e6f8f977.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01056+R01068+R01070+R01072+R01083+R01090+R01101+R01117+R01126+R01127": {
+    "url": "https://rest.kegg.jp/get/R01056+R01068+R01070+R01072+R01083+R01090+R01101+R01117+R01126+R01127",
+    "retrieved_utc": "2026-09-19T10:41:46.751617+00:00",
+    "sha256": "1b60dce8e38bec5d95ddbd4b139bb90df297039b2eda882f1f14042bd7997e46",
+    "bytes": 13965,
+    "cache_file": "3a1088db8e047bed838e5590713c57c4e82c2fcafefae8d4498c0fc6e033f7c1.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01130+R01132+R01134+R01135+R01138+R01164+R01166+R01167+R01201+R01214": {
+    "url": "https://rest.kegg.jp/get/R01130+R01132+R01134+R01135+R01138+R01164+R01166+R01167+R01201+R01214",
+    "retrieved_utc": "2026-09-19T10:41:47.767349+00:00",
+    "sha256": "97f1951f05055333e7ff7a1d0342c6a715a249acd12affc28067813621139611",
+    "bytes": 10104,
+    "cache_file": "e3b0a18ea42e4963f84ff628e3b7195d1787ac05e404d7df7ae4a3138ac2451c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01227+R01229+R01231+R01248+R01251+R01252+R01253+R01262+R01269+R01320": {
+    "url": "https://rest.kegg.jp/get/R01227+R01229+R01231+R01248+R01251+R01252+R01253+R01262+R01269+R01320",
+    "retrieved_utc": "2026-09-19T10:41:48.745917+00:00",
+    "sha256": "c5ac35e8f14433fc30ff8a65c35548d18286c5cc194c19267a92bb07f5f781f2",
+    "bytes": 11576,
+    "cache_file": "a49ac0630f7a31e378b0c4bd9a736933c1b2fb5fbd33d21e2908d7665ab435de.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01321+R01324+R01325+R01383+R01384+R01402+R01497+R01498+R01500+R01512": {
+    "url": "https://rest.kegg.jp/get/R01321+R01324+R01325+R01383+R01384+R01402+R01497+R01498+R01500+R01512",
+    "retrieved_utc": "2026-09-19T10:41:50.155454+00:00",
+    "sha256": "27919fd05508c2ef645f46f521db23306d804e1076fe8629c2316847181cabd1",
+    "bytes": 11475,
+    "cache_file": "042d83a7f248d29ca6d5afe1d051309adc26c58f351cf1ed98525c047d8c2c15.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01513+R01515+R01516+R01518+R01526+R01528+R01529+R01560+R01561+R01648": {
+    "url": "https://rest.kegg.jp/get/R01513+R01515+R01516+R01518+R01526+R01528+R01529+R01560+R01561+R01648",
+    "retrieved_utc": "2026-09-19T10:41:51.591038+00:00",
+    "sha256": "035d35ef3923248e562e9c7fd0b2e9140038c7842d5e6510ca0e6f9ab2aca740",
+    "bytes": 12329,
+    "cache_file": "a0495a228d7ea560fd649df90bdd334bd47df7015a3c723e261c6fde9256c83c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01651+R01660+R01676+R01682+R01687+R01702+R01718+R01736+R01737+R01768": {
+    "url": "https://rest.kegg.jp/get/R01651+R01660+R01676+R01682+R01687+R01702+R01718+R01736+R01737+R01768",
+    "retrieved_utc": "2026-09-19T10:41:52.586667+00:00",
+    "sha256": "11fa84831e74aef15aab7fc3ef6aaf4da279e6ebf950db8f1918f0a2bfa6dfcd",
+    "bytes": 11201,
+    "cache_file": "5e285edb15db2cbbf6e8f6076ac44f67177c9d8f2918abd2d4e67734928a8aeb.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01769+R01790+R01791+R01795+R01805+R01811+R01815+R01829+R01858+R01863": {
+    "url": "https://rest.kegg.jp/get/R01769+R01790+R01791+R01795+R01805+R01811+R01815+R01829+R01858+R01863",
+    "retrieved_utc": "2026-09-19T10:41:54.552491+00:00",
+    "sha256": "a11c83814804e21470f7f430466a66dba4f6a4c23a82edee75265380d244770d",
+    "bytes": 10503,
+    "cache_file": "0ccb4ca0dab6e6adbd35903d512283b98f853e07cf9358990a5abba4272fd742.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01876+R01878+R01881+R01883+R01890+R01899+R01900+R01920+R01928+R01939": {
+    "url": "https://rest.kegg.jp/get/R01876+R01878+R01881+R01883+R01890+R01899+R01900+R01920+R01928+R01939",
+    "retrieved_utc": "2026-09-19T10:41:55.639443+00:00",
+    "sha256": "7f67654818e806a96a11941cc4c43a39dacb65c84c54b286b1ef2e423b540e82",
+    "bytes": 12336,
+    "cache_file": "c2300be03a8ac2d5eac414d49a3ced6cdc0a501642a17f0bd4c9f90250309704.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01956+R01959+R01960+R01969+R01990+R02018+R02035+R02056+R02058+R02059": {
+    "url": "https://rest.kegg.jp/get/R01956+R01959+R01960+R01969+R01990+R02018+R02035+R02056+R02058+R02059",
+    "retrieved_utc": "2026-09-19T10:41:56.750729+00:00",
+    "sha256": "e45285fc183c87ea9a5cef194a4800afe00505eafffd6b3cb05e07d113251b9e",
+    "bytes": 11606,
+    "cache_file": "06cd4a89724affc56f34e03b45fd55da0a53d556003bc1459ce8dd5313d560a4.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02078+R02103+R02107+R02144+R02147+R02150+R02155+R02174+R02197+R02199": {
+    "url": "https://rest.kegg.jp/get/R02078+R02103+R02107+R02144+R02147+R02150+R02155+R02174+R02197+R02199",
+    "retrieved_utc": "2026-09-19T10:41:58.047966+00:00",
+    "sha256": "c67d0570fc951f90f25596087790268bdd520f4ef07ee719f3772ad0ca668b02",
+    "bytes": 11783,
+    "cache_file": "a7c268bf1cd2eada7488b2be38fe15e37cc2c9713be64546c3589eadb909a5fa.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02237+R02243+R02287+R02313+R02320+R02358+R02389+R02422+R02433+R02466": {
+    "url": "https://rest.kegg.jp/get/R02237+R02243+R02287+R02313+R02320+R02358+R02389+R02422+R02433+R02466",
+    "retrieved_utc": "2026-09-19T10:41:59.412488+00:00",
+    "sha256": "02a7cc2a0491911b586c7599e02e9aa5ae6ab6fb31d14c1365b0a921238238d4",
+    "bytes": 10428,
+    "cache_file": "0cfa4b1a56a5b79b02d5e49bac7a2e7cf197430fae4dab9df6f3bdf35054707b.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02467+R02478+R02484+R02502+R02530+R02533+R02534+R02557+R02558+R02568": {
+    "url": "https://rest.kegg.jp/get/R02467+R02478+R02484+R02502+R02530+R02533+R02534+R02557+R02558+R02568",
+    "retrieved_utc": "2026-09-19T10:42:00.432188+00:00",
+    "sha256": "b0f5cd5018bde7fda7f89039bc5b0a51533d6e826dc77ab1a2160e2df7ad1c4b",
+    "bytes": 10354,
+    "cache_file": "ec29003d8086c5461aa985aa7946a0bace74c4b7525578e3c31d1f294e518120.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02619+R02671+R02701+R02745+R02746+R02747+R02748+R02824+R02869+R02887": {
+    "url": "https://rest.kegg.jp/get/R02619+R02671+R02701+R02745+R02746+R02747+R02748+R02824+R02869+R02887",
+    "retrieved_utc": "2026-09-19T10:42:01.357466+00:00",
+    "sha256": "1d33b2bddbd0526458a4da271110e8da3d1f36b671b3a569d3c3de22f2888ae8",
+    "bytes": 9384,
+    "cache_file": "84ad25f484aee5fbd66595984ae7a46f0e8c9cb811d43c81c7c7cb1574a1a162.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02902+R02908+R02909+R02910+R02911+R02912+R02918+R02920+R02985+R03059": {
+    "url": "https://rest.kegg.jp/get/R02902+R02908+R02909+R02910+R02911+R02912+R02918+R02920+R02985+R03059",
+    "retrieved_utc": "2026-09-19T10:42:02.714798+00:00",
+    "sha256": "b79f9d22f991733095549a6ad5ead74bb3cdda1fc1935a464bc80bcb6c22d4f4",
+    "bytes": 9737,
+    "cache_file": "8150b08d5d1599247f137918b59b5a41ea688f4b4527b75c0c956601a34406c5.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R03091+R03130+R03167+R03189+R03238+R03286+R03288+R03304+R03354+R03378": {
+    "url": "https://rest.kegg.jp/get/R03091+R03130+R03167+R03189+R03238+R03286+R03288+R03304+R03354+R03378",
+    "retrieved_utc": "2026-09-19T10:42:03.709663+00:00",
+    "sha256": "92d6ecd5736b6b9d402d9f4abbb9f17f32c45d44578618b475534bf28f5cc7b8",
+    "bytes": 9999,
+    "cache_file": "ee58929164d20618c9a571626227578e73beee363817aa6dabda0ed6fee40a6a.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R03380+R03424+R03491+R03522+R03527+R03539+R03648+R03652+R03656+R03657": {
+    "url": "https://rest.kegg.jp/get/R03380+R03424+R03491+R03522+R03527+R03539+R03648+R03652+R03656+R03657",
+    "retrieved_utc": "2026-09-19T10:42:05.902832+00:00",
+    "sha256": "717393384269fa0da7d750cbcc96b9c11f41136dc07089d585192f601a451273",
+    "bytes": 9807,
+    "cache_file": "fd84dcbd5e8eeeddbd239eaf6c2214a83cc9be96f6f2e2cfdf1257edb6f48548.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R03661+R03681+R03720+R03789+R03805+R03875+R03899+R03905+R03915+R03916": {
+    "url": "https://rest.kegg.jp/get/R03661+R03681+R03720+R03789+R03805+R03875+R03899+R03905+R03915+R03916",
+    "retrieved_utc": "2026-09-19T10:42:09.454230+00:00",
+    "sha256": "fa3b2693473fd1015b06791922013050dcb61ed86a5cefc4669946cb108c23d5",
+    "bytes": 14517,
+    "cache_file": "df000df0489493b44a656a7a23eee0ac9a4989f8b1ad81eb27aa3afe7af7a3af.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R03922+R03955+R03970+R03971+R04018+R04085+R04171+R04173+R04188+R04212": {
+    "url": "https://rest.kegg.jp/get/R03922+R03955+R03970+R03971+R04018+R04085+R04171+R04173+R04188+R04212",
+    "retrieved_utc": "2026-09-19T10:42:10.832928+00:00",
+    "sha256": "f7c5cd5acdd88004606a8b675ba9d3be304f67875c7f2b960a02cf6fe25e244a",
+    "bytes": 9804,
+    "cache_file": "54675914e62bbc31343ac202640fbb8c7fffedb8687bf72bad742273a4ef4d2c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R04241+R04242+R04301+R04321+R04322+R04352+R04353+R04354+R04374+R04435": {
+    "url": "https://rest.kegg.jp/get/R04241+R04242+R04301+R04321+R04322+R04352+R04353+R04354+R04374+R04435",
+    "retrieved_utc": "2026-09-19T10:42:11.881918+00:00",
+    "sha256": "9204c14a39deddff7cc0e63837e3345b2d770f2681ba59b2d3e2f8b1ab417ba7",
+    "bytes": 11798,
+    "cache_file": "510b499e36ab9096f03eaa5d23359e46f598b498c69e0086274f99c092307214.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R04463+R04491+R04496+R04603+R04636+R04659+R04674+R04683+R04711+R04762": {
+    "url": "https://rest.kegg.jp/get/R04463+R04491+R04496+R04603+R04636+R04659+R04674+R04683+R04711+R04762",
+    "retrieved_utc": "2026-09-19T10:42:12.901163+00:00",
+    "sha256": "7ef377da9a258d2f1bd3a8e6e37d25407a78eeb141ddd6448539dd05c72b621d",
+    "bytes": 12840,
+    "cache_file": "972ef0465ff9004d5a67b9b951dcd5f46e2d283fed150377bd4916ee370d9a10.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R04764+R04858+R04866+R04867+R04881+R04887+R04905+R04949+R04998+R05052": {
+    "url": "https://rest.kegg.jp/get/R04764+R04858+R04866+R04867+R04881+R04887+R04905+R04949+R04998+R05052",
+    "retrieved_utc": "2026-09-19T10:42:14.298531+00:00",
+    "sha256": "97b4fbfb53032a2c7158e4b707c75f0a9bad68678d03a65e26cdc864e19cd204",
+    "bytes": 18431,
+    "cache_file": "4f952b0c30b99a67bc612fc52054519e8b2e745d9ba6e189db12d5c9dca87bbc.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R05085+R05578+R05804+R05969+R05980+R05981+R05999+R06067+R06087+R06091": {
+    "url": "https://rest.kegg.jp/get/R05085+R05578+R05804+R05969+R05980+R05981+R05999+R06067+R06087+R06091",
+    "retrieved_utc": "2026-09-19T10:42:15.293154+00:00",
+    "sha256": "ec2d2ca64f085d884c2a55bed8155e0ac23b2c91c1ca8f915abe5e05a15f2a4a",
+    "bytes": 9159,
+    "cache_file": "509f56dc99568f398ab039bab0d8b8ea5762d3a2a9fd4f85503e9fda7920f470.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R06114+R06147+R06604+R07002+R07003+R07004+R07023+R07024+R07025+R07026": {
+    "url": "https://rest.kegg.jp/get/R06114+R06147+R06604+R07002+R07003+R07004+R07023+R07024+R07025+R07026",
+    "retrieved_utc": "2026-09-19T10:42:16.346991+00:00",
+    "sha256": "58582b8bcadfd36c502424f82ff997d4584a6a3b59c946a786414f2a3368113f",
+    "bytes": 11375,
+    "cache_file": "3fd59813b493a7192b748617bcf45df919ac5406102d4650fb2104d1c0bfdfdb.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R07034+R07035+R07069+R07070+R07083+R07084+R07091+R07092+R07093+R07094": {
+    "url": "https://rest.kegg.jp/get/R07034+R07035+R07069+R07070+R07083+R07084+R07091+R07092+R07093+R07094",
+    "retrieved_utc": "2026-09-19T10:42:17.354438+00:00",
+    "sha256": "1bfcc65af3df5be5d6da2508e123f80326677564bec0540b5e96f42e5896136f",
+    "bytes": 12340,
+    "cache_file": "4f3ca141002d7212172ea2af72f0b1e23f6aab3ffeccaeccb9dd2dda978a47bc.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R07100+R07106+R07113+R07116+R07211+R07212+R07336+R07389+R07396+R07601": {
+    "url": "https://rest.kegg.jp/get/R07100+R07106+R07113+R07116+R07211+R07212+R07336+R07389+R07396+R07601",
+    "retrieved_utc": "2026-09-19T10:42:18.282866+00:00",
+    "sha256": "8fe74ec275f68bd73c28ca87df3c263af9c5ac170f45769139a4641d7388b8e4",
+    "bytes": 11620,
+    "cache_file": "28e114b658972917d33233b3c449e6d4c0a16decb46289f0e50ae47583e1696c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R07767+R08193+R08236+R08239+R08244+R08246+R08259+R08261+R08262+R08263": {
+    "url": "https://rest.kegg.jp/get/R07767+R08193+R08236+R08239+R08244+R08246+R08259+R08261+R08262+R08263",
+    "retrieved_utc": "2026-09-19T10:42:20.642349+00:00",
+    "sha256": "f78cb8f3edebf2a83afe6d5a32c91b6048a65d57498914e6040d912cfc5981b1",
+    "bytes": 10346,
+    "cache_file": "f961a1f63d5eedbba4f02dd8f5f61fcf9cb3ab12dfe04b6cc3c2f87939061f1d.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R08280+R08359+R08408+R08572+R08615+R08678+R08745+R08771+R08781+R09076": {
+    "url": "https://rest.kegg.jp/get/R08280+R08359+R08408+R08572+R08615+R08678+R08745+R08771+R08781+R09076",
+    "retrieved_utc": "2026-09-19T10:42:22.083983+00:00",
+    "sha256": "e6c7b4e82f285a13b384b78c555243c03a36f67b0e4f8177ac14b79d66b90976",
+    "bytes": 11914,
+    "cache_file": "2acc8b6f4a219eca49c4bba0a1e8929bd00278111f2c58a857b3d2751617ef81.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R09370+R09394+R09409+R09426+R09427+R09428+R09532+R09676+R09737+R09755": {
+    "url": "https://rest.kegg.jp/get/R09370+R09394+R09409+R09426+R09427+R09428+R09532+R09676+R09737+R09755",
+    "retrieved_utc": "2026-09-19T10:42:23.166675+00:00",
+    "sha256": "f2ded05414c522fe71bb73a71867d60fe3e02601f0c70353e2014de1dda71be3",
+    "bytes": 10726,
+    "cache_file": "2f3e67b68c8b8ef6ef7bb197cf4d9f1c8a0ea11f72627abcaf709e03f6ec6a5c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R09875+R10221+R10455+R10586+R10587+R10596+R10620+R10649+R10677+R10678": {
+    "url": "https://rest.kegg.jp/get/R09875+R10221+R10455+R10586+R10587+R10596+R10620+R10649+R10677+R10678",
+    "retrieved_utc": "2026-09-19T10:42:24.256051+00:00",
+    "sha256": "ce2c45248dff0d48a545fe650ec60550fda7c87cefc63626bec7bbc5f4e26367",
+    "bytes": 11063,
+    "cache_file": "621b8be3a67f58906e4a65c9a2ed619dc12fac11b8a4c11ab0f2d9b7411f7edc.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R10679+R10687+R10688+R10693+R10716+R10804+R10806+R10812+R10991+R10993": {
+    "url": "https://rest.kegg.jp/get/R10679+R10687+R10688+R10693+R10716+R10804+R10806+R10812+R10991+R10993",
+    "retrieved_utc": "2026-09-19T10:42:25.228099+00:00",
+    "sha256": "22779e2084c79a53ee768d906955b7755da19718b4a3722be3cb8996728a9854",
+    "bytes": 10775,
+    "cache_file": "d285ba78fb1347ccc96c345171536e62fbd294d4c414f102a9c337abd47d3000.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R11165+R11216+R11217+R11218+R11219+R11220+R11439+R11861+R11905+R11929": {
+    "url": "https://rest.kegg.jp/get/R11165+R11216+R11217+R11218+R11219+R11220+R11439+R11861+R11905+R11929",
+    "retrieved_utc": "2026-09-19T10:42:26.417938+00:00",
+    "sha256": "ec113ce1fa8983df656229d3931fac0c88fbdf22ccf5786181b65230429012db",
+    "bytes": 11505,
+    "cache_file": "867ea92ff5a69450195200266dbabb6d8cf9426bb9a237aa1b985ffa4699c576.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R12011+R12423+R12424+R12578+R12959+R12962+R12987+R12989+R13043+R13148": {
+    "url": "https://rest.kegg.jp/get/R12011+R12423+R12424+R12578+R12959+R12962+R12987+R12989+R13043+R13148",
+    "retrieved_utc": "2026-09-19T10:42:28.591465+00:00",
+    "sha256": "a842c784ad38d48697a61b9c96413ded0d803c1538bbe6666df5e77142b72b23",
+    "bytes": 10511,
+    "cache_file": "59b6c1c581560f7fa0f54f0308935c8219604359ff44b6a6ab9616f8c785203e.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R13178": {
+    "url": "https://rest.kegg.jp/get/R13178",
+    "retrieved_utc": "2026-09-19T10:42:29.957762+00:00",
+    "sha256": "d77489f13f2d50a7aee3e2e518a399e7546914df97418b78131e69aca661cdd1",
+    "bytes": 785,
+    "cache_file": "f4bb2ca51006e8377b7478f70161007d2935f5c0f92bf6a847f67711cc08fa7d.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/list/hsa": {
+    "url": "https://rest.kegg.jp/list/hsa",
+    "retrieved_utc": "2026-09-19T10:42:31.886210+00:00",
+    "sha256": "ec3c5896ed611b526b681d40a95ac593b802954574a36e357bf1827e70db94e3",
+    "bytes": 2622690,
+    "cache_file": "040555485b765ca2e6c31685dcf39007086a8db8085f6d6be9dd6cc814c06a6f.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/C00217+C00231+C00879+C05526+C21016": {
+    "url": "https://rest.kegg.jp/get/C00217+C00231+C00879+C05526+C21016",
+    "retrieved_utc": "2026-09-19T10:43:17.552221+00:00",
+    "sha256": "c547faf24413d9752f5abf7dad3e2eb7097b0444fd006117764dc9bf0dfe9eda",
+    "bytes": 10255,
+    "cache_file": "efbf67baf51770348d64869d3d8b9dd544446db652ccbae2ca25a64c2f21dbd8.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01056+R01067+R01068+R01070+R01072+R01083+R01090+R01101+R01117+R01126": {
+    "url": "https://rest.kegg.jp/get/R01056+R01067+R01068+R01070+R01072+R01083+R01090+R01101+R01117+R01126",
+    "retrieved_utc": "2026-09-19T10:43:18.978262+00:00",
+    "sha256": "fbce57df00f2f36861a777445a4e4c50f005e2176572ab9d0a346d4f478f3b30",
+    "bytes": 14502,
+    "cache_file": "37aeb4162c11e619a6d3d3e53ea2db5123be3c3ca2f825678d7a2d50a855623f.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01127+R01130+R01132+R01134+R01135+R01138+R01164+R01166+R01167+R01201": {
+    "url": "https://rest.kegg.jp/get/R01127+R01130+R01132+R01134+R01135+R01138+R01164+R01166+R01167+R01201",
+    "retrieved_utc": "2026-09-19T10:43:20.019686+00:00",
+    "sha256": "797198af16efdf7440e63a7f2541a09c8e34a5232d600e6ded7a76db162e891c",
+    "bytes": 9585,
+    "cache_file": "5ff26506fcadf271142ffc0823fa0cf2d89ac533a06baa566b980c7203b9ed16.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01214+R01227+R01229+R01231+R01248+R01251+R01252+R01253+R01262+R01269": {
+    "url": "https://rest.kegg.jp/get/R01214+R01227+R01229+R01231+R01248+R01251+R01252+R01253+R01262+R01269",
+    "retrieved_utc": "2026-09-19T10:43:21.030488+00:00",
+    "sha256": "19eb36a57331a5dabd05e975204560832bcdef7c8ca66b14ee641a1fb0aaa0d7",
+    "bytes": 11596,
+    "cache_file": "6a9c64eaa584c74bee60723ce7b670231f0ea5fc2a25e38702683bcd1cdaf4e5.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01320+R01321+R01324+R01325+R01383+R01384+R01402+R01497+R01498+R01500": {
+    "url": "https://rest.kegg.jp/get/R01320+R01321+R01324+R01325+R01383+R01384+R01402+R01497+R01498+R01500",
+    "retrieved_utc": "2026-09-19T10:43:22.022480+00:00",
+    "sha256": "92e457c8df1ef803af4139f8254d1c4dacaff6a8dbcf0885764b6efe2edf5931",
+    "bytes": 11238,
+    "cache_file": "f058fde1006762a399f03dbfe07d062b4f6acb49cde7f970e2fede98f751202e.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01512+R01513+R01515+R01516+R01518+R01526+R01528+R01529+R01560+R01561": {
+    "url": "https://rest.kegg.jp/get/R01512+R01513+R01515+R01516+R01518+R01526+R01528+R01529+R01560+R01561",
+    "retrieved_utc": "2026-09-19T10:43:23.332506+00:00",
+    "sha256": "42ce1b426cf89ec70d352cadf6fa0ed6caae4ac1f7e60b1c643766cbfddb503d",
+    "bytes": 12701,
+    "cache_file": "ad4eddff7fd60fde1d0d6c1081c5de88275df96815dbad649474294c614fc132.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01579+R01583+R01639+R01641+R01648+R01651+R01660+R01676+R01682+R01687": {
+    "url": "https://rest.kegg.jp/get/R01579+R01583+R01639+R01641+R01648+R01651+R01660+R01676+R01682+R01687",
+    "retrieved_utc": "2026-09-19T10:43:24.291325+00:00",
+    "sha256": "d203b7148ecd32496aa40ae7e5c10e15163a72060f7bc8eadb1984dcdf0b6f15",
+    "bytes": 10870,
+    "cache_file": "1dbbac18097776c5dcebe13bdebb207818ac611c1a8e0fd84503b2ce0c17f21c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01702+R01718+R01736+R01737+R01768+R01769+R01790+R01791+R01795+R01805": {
+    "url": "https://rest.kegg.jp/get/R01702+R01718+R01736+R01737+R01768+R01769+R01790+R01791+R01795+R01805",
+    "retrieved_utc": "2026-09-19T10:43:25.272983+00:00",
+    "sha256": "5a967d84cb122dea1df88cd89b0524a788dae3ea98f65bd9e2728bb849956925",
+    "bytes": 11049,
+    "cache_file": "8c97887ebaf74745931727904383bf29a7d42dff14d4ddc2be295b06d35761ce.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01811+R01815+R01829+R01830+R01858+R01863+R01876+R01878+R01881+R01883": {
+    "url": "https://rest.kegg.jp/get/R01811+R01815+R01829+R01830+R01858+R01863+R01876+R01878+R01881+R01883",
+    "retrieved_utc": "2026-09-19T10:43:26.383235+00:00",
+    "sha256": "c46ec1e1e4511a124a4336aed3ab94cea261170015c1967dbd61c14e490609e7",
+    "bytes": 10018,
+    "cache_file": "7f2cb69320004f5fd10e2a74bd8d4a119e15d258c04e4f214597c2e190f8077c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01890+R01899+R01900+R01920+R01928+R01939+R01956+R01959+R01960+R01969": {
+    "url": "https://rest.kegg.jp/get/R01890+R01899+R01900+R01920+R01928+R01939+R01956+R01959+R01960+R01969",
+    "retrieved_utc": "2026-09-19T10:43:27.526589+00:00",
+    "sha256": "7ba62a7a7f15c0ab0b51759886f16c9aa9da87ce408131628a11824700e3e1fa",
+    "bytes": 13221,
+    "cache_file": "558c5a2e495d27dff599a31ce9b826bec12533def94d5647fbe11b37f8bb81d0.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R01990+R02018+R02035+R02056+R02058+R02059+R02078+R02103+R02107+R02144": {
+    "url": "https://rest.kegg.jp/get/R01990+R02018+R02035+R02056+R02058+R02059+R02078+R02103+R02107+R02144",
+    "retrieved_utc": "2026-09-19T10:43:28.572864+00:00",
+    "sha256": "5ff9db5a74b0b03040df4874b3e67460e5129e9559c3b2bb7236303de548e673",
+    "bytes": 11805,
+    "cache_file": "e0be99fb6529853bf7436888ad72aa9be3754dae73307242ef98a1a8f2cd26d1.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02147+R02150+R02155+R02174+R02197+R02199+R02237+R02243+R02287+R02313": {
+    "url": "https://rest.kegg.jp/get/R02147+R02150+R02155+R02174+R02197+R02199+R02237+R02243+R02287+R02313",
+    "retrieved_utc": "2026-09-19T10:43:29.707812+00:00",
+    "sha256": "b9e2eee5e133b0a7f666d573df7f9f7f8e474bcaa45b0ecfe5d4509dc7a6748e",
+    "bytes": 11611,
+    "cache_file": "4afd46e09c44217df45c7a5517e26caba1f867f3a5905102eeaf08f3304a7fe8.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02320+R02358+R02389+R02422+R02433+R02466+R02467+R02478+R02484+R02502": {
+    "url": "https://rest.kegg.jp/get/R02320+R02358+R02389+R02422+R02433+R02466+R02467+R02478+R02484+R02502",
+    "retrieved_utc": "2026-09-19T10:43:30.769259+00:00",
+    "sha256": "f8290a2bfaf210102bbb0453983448e0283f88b81ece56f74d87357ad584868c",
+    "bytes": 9739,
+    "cache_file": "d03d210fd1e2864ef629e79823bbd07173ff8c481b8c2bddd02b3a1040c8b43a.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02530+R02533+R02534+R02557+R02558+R02568+R02619+R02671+R02701+R02745": {
+    "url": "https://rest.kegg.jp/get/R02530+R02533+R02534+R02557+R02558+R02568+R02619+R02671+R02701+R02745",
+    "retrieved_utc": "2026-09-19T10:43:32.709823+00:00",
+    "sha256": "2eeb9d3efe873d926060e80997c8613cb0600cddfc6602510f0608c6c21426fd",
+    "bytes": 9860,
+    "cache_file": "809e0b269299947ebf7aa2c3ecb14ee032b379adfce46bd9e1749ee0d4348c93.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02746+R02747+R02748+R02824+R02869+R02887+R02902+R02908+R02909+R02910": {
+    "url": "https://rest.kegg.jp/get/R02746+R02747+R02748+R02824+R02869+R02887+R02902+R02908+R02909+R02910",
+    "retrieved_utc": "2026-09-19T10:43:33.762960+00:00",
+    "sha256": "6d98f46af097edf8ebc11ee5c1ec457e92182d0c48ffb963998a5fdd81f3fc75",
+    "bytes": 9736,
+    "cache_file": "90a12920244a5f1b92b208437ccad5eb3f9fc2ce69ea0a503a45a70d631e41a7.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R02911+R02912+R02918+R02920+R02985+R03059+R03091+R03130+R03167+R03189": {
+    "url": "https://rest.kegg.jp/get/R02911+R02912+R02918+R02920+R02985+R03059+R03091+R03130+R03167+R03189",
+    "retrieved_utc": "2026-09-19T10:43:34.850709+00:00",
+    "sha256": "c82a79ee1ee00b2c5408ac9922e7d87441b031916cb0da7a15a7b7a5dfd72a22",
+    "bytes": 10129,
+    "cache_file": "a92f3e3455326ec47801b3834407c15b8f7ece51fb40d5080db5ab46482a0a24.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R03238+R03286+R03288+R03304+R03354+R03378+R03380+R03424+R03491+R03522": {
+    "url": "https://rest.kegg.jp/get/R03238+R03286+R03288+R03304+R03354+R03378+R03380+R03424+R03491+R03522",
+    "retrieved_utc": "2026-09-19T10:43:36.650298+00:00",
+    "sha256": "dfa855e1053404f20421fc4821b5792572c379bc81353d102cad43559e7d4f16",
+    "bytes": 10692,
+    "cache_file": "8e81a3196823d998df2c83b107d3a2f13e75b875dcc95e711707e608b7115475.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R03527+R03539+R03648+R03652+R03656+R03657+R03661+R03681+R03720+R03789": {
+    "url": "https://rest.kegg.jp/get/R03527+R03539+R03648+R03652+R03656+R03657+R03661+R03681+R03720+R03789",
+    "retrieved_utc": "2026-09-19T10:43:37.929026+00:00",
+    "sha256": "672fa1f7cd877cbaf628cf1c9480bc8f5167eedac1a8b115cc0364324260c416",
+    "bytes": 8188,
+    "cache_file": "5e0ae0b8e098f8148bb5eb97a948759ebfab85aa9cebe35f2f24b9cc425bb353.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R03805+R03875+R03899+R03905+R03915+R03916+R03922+R03955+R03970+R03971": {
+    "url": "https://rest.kegg.jp/get/R03805+R03875+R03899+R03905+R03915+R03916+R03922+R03955+R03970+R03971",
+    "retrieved_utc": "2026-09-19T10:43:40.031268+00:00",
+    "sha256": "dd870c1bbf89948c32ba42a179e13abe0f3cd3ba7af25422ee691c8c9a3f9849",
+    "bytes": 14627,
+    "cache_file": "92103ff2996e2056181c353431d40576e4fef00ce05ab91bdd42e5a23333cf23.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R04018+R04085+R04171+R04173+R04188+R04212+R04241+R04242+R04301+R04321": {
+    "url": "https://rest.kegg.jp/get/R04018+R04085+R04171+R04173+R04188+R04212+R04241+R04242+R04301+R04321",
+    "retrieved_utc": "2026-09-19T10:43:41.174272+00:00",
+    "sha256": "f2a54365bd9b7e3a3ec87515ac9f33b83fb5d74ca249c8632476e6f5cda42d95",
+    "bytes": 11122,
+    "cache_file": "4c51a5c62b5b3fad8d4d47066ce0d2b3f3c1cd0dcc02d781b49c4abc8333551c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R04322+R04352+R04353+R04354+R04374+R04435+R04463+R04491+R04496+R04603": {
+    "url": "https://rest.kegg.jp/get/R04322+R04352+R04353+R04354+R04374+R04435+R04463+R04491+R04496+R04603",
+    "retrieved_utc": "2026-09-19T10:43:42.836348+00:00",
+    "sha256": "96fdcce7fb32303eb959e7b0335b59064f1b94c42b477fcb431ea1d994b75184",
+    "bytes": 12003,
+    "cache_file": "05ea15994aa1dea800b9a5bca769e50001db0e7feed15d47cfccc7fa6a5f0abc.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R04636+R04659+R04674+R04683+R04711+R04762+R04764+R04858+R04866+R04867": {
+    "url": "https://rest.kegg.jp/get/R04636+R04659+R04674+R04683+R04711+R04762+R04764+R04858+R04866+R04867",
+    "retrieved_utc": "2026-09-19T10:43:44.253412+00:00",
+    "sha256": "2bbd242cace64599cb5b1474d4944cc9695f6c83c1a6cf71fb8ac027d3604393",
+    "bytes": 20148,
+    "cache_file": "42aad69bbe192f4cb92e3aee63af5b7029e76ae50d07c05c53e3ffec739fcea3.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R04881+R04887+R04905+R04949+R04998+R05052+R05085+R05578+R05804+R05969": {
+    "url": "https://rest.kegg.jp/get/R04881+R04887+R04905+R04949+R04998+R05052+R05085+R05578+R05804+R05969",
+    "retrieved_utc": "2026-09-19T10:43:45.401268+00:00",
+    "sha256": "07a47896e028aa6def651d63b726b0c4554e1fccaae331990ed962ec5d6bc47c",
+    "bytes": 10654,
+    "cache_file": "5c335159c7a31b1ebb3c9be901750df5e9569b4bc2dc545f3e2e8fd1b6990968.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R05980+R05981+R05999+R06067+R06087+R06091+R06114+R06147+R06604+R07002": {
+    "url": "https://rest.kegg.jp/get/R05980+R05981+R05999+R06067+R06087+R06091+R06114+R06147+R06604+R07002",
+    "retrieved_utc": "2026-09-19T10:43:46.855154+00:00",
+    "sha256": "904fba2aa7b57432e996e6f452edc01737f231791256c18c194e3ef64866e522",
+    "bytes": 8661,
+    "cache_file": "1187ae1c4aa1f4bfd56319200a1430ec91486cd39ea04926c280e034233758d1.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R07003+R07004+R07023+R07024+R07025+R07026+R07034+R07035+R07069+R07070": {
+    "url": "https://rest.kegg.jp/get/R07003+R07004+R07023+R07024+R07025+R07026+R07034+R07035+R07069+R07070",
+    "retrieved_utc": "2026-09-19T10:43:49.409803+00:00",
+    "sha256": "713a2d79fd7d2f2ed31c0a0d8ff1804d4388c0e85cfacecac96d9ddd3b616c76",
+    "bytes": 12040,
+    "cache_file": "8e081b932389fc824ee29c4404658355bfe137f35950aaec7cc3b2dfe5db41c9.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R07083+R07084+R07091+R07092+R07093+R07094+R07100+R07106+R07113+R07116": {
+    "url": "https://rest.kegg.jp/get/R07083+R07084+R07091+R07092+R07093+R07094+R07100+R07106+R07113+R07116",
+    "retrieved_utc": "2026-09-19T10:43:50.375544+00:00",
+    "sha256": "7c17a490e37481c64e34104c69c1069e686fc296c0230fc35db9d5a7ff9fab1f",
+    "bytes": 12783,
+    "cache_file": "baf53ad53b2e9fbcc9345c968840dcc12fe403f704e8a6d567941ae33a78151a.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R07211+R07212+R07336+R07389+R07396+R07601+R07767+R08193+R08236+R08239": {
+    "url": "https://rest.kegg.jp/get/R07211+R07212+R07336+R07389+R07396+R07601+R07767+R08193+R08236+R08239",
+    "retrieved_utc": "2026-09-19T10:43:51.342808+00:00",
+    "sha256": "bc7e714f6ad1cbeb01418c445f041ed609bbd6d5d707363e57d741e7ec6fe639",
+    "bytes": 11164,
+    "cache_file": "4120b3329a2e6d829198966e46fedbd1945ece49346e43448fa5c93132036256.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R08244+R08246+R08259+R08261+R08262+R08263+R08280+R08359+R08408+R08572": {
+    "url": "https://rest.kegg.jp/get/R08244+R08246+R08259+R08261+R08262+R08263+R08280+R08359+R08408+R08572",
+    "retrieved_utc": "2026-09-19T10:43:52.732638+00:00",
+    "sha256": "c633dcb5576f288d954a3b959be3fb057fa40c0a977d5704c6c0a2ef96e9a3e6",
+    "bytes": 9963,
+    "cache_file": "ec01c56ba2f4614106604ef8b33de958a256228b72a04267e8d534bbd42bd162.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R08615+R08678+R08745+R08771+R08781+R09076+R09370+R09394+R09409+R09426": {
+    "url": "https://rest.kegg.jp/get/R08615+R08678+R08745+R08771+R08781+R09076+R09370+R09394+R09409+R09426",
+    "retrieved_utc": "2026-09-19T10:43:53.774807+00:00",
+    "sha256": "19a7c2385928f54842cd896e5076b0f45eb53b1c041d58e08246f190bcdac8a3",
+    "bytes": 11886,
+    "cache_file": "7c070a45d4a0dec9e068cae991138c36024b5b4ff333bc29e1360f3eac727b5b.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R09427+R09428+R09532+R09676+R09737+R09755+R09875+R10221+R10455+R10586": {
+    "url": "https://rest.kegg.jp/get/R09427+R09428+R09532+R09676+R09737+R09755+R09875+R10221+R10455+R10586",
+    "retrieved_utc": "2026-09-19T10:43:54.797535+00:00",
+    "sha256": "80e345c0ec45e97a9d1298a01b17e1aebd68e8285f5f80c3cc03834b864e80aa",
+    "bytes": 10759,
+    "cache_file": "f2cc79f4a0e72dcabcc66c7a4df5c296b35f56d5eddff21aab5c8f51569aa9a0.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R10587+R10596+R10620+R10649+R10677+R10678+R10679+R10687+R10688+R10693": {
+    "url": "https://rest.kegg.jp/get/R10587+R10596+R10620+R10649+R10677+R10678+R10679+R10687+R10688+R10693",
+    "retrieved_utc": "2026-09-19T10:43:55.770887+00:00",
+    "sha256": "e1b18a4789dd4d00df98837a1629b9b7e6e50724f9fba0546b45fd58a7262839",
+    "bytes": 10650,
+    "cache_file": "eec6645c7f4e8287f38a7ac3f0474173e3dbf856c83992fc2cdb0d72ba489044.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R10716+R10804+R10806+R10812+R10991+R10993+R10994+R11165+R11216+R11217": {
+    "url": "https://rest.kegg.jp/get/R10716+R10804+R10806+R10812+R10991+R10993+R10994+R11165+R11216+R11217",
+    "retrieved_utc": "2026-09-19T10:43:56.717123+00:00",
+    "sha256": "ca4034f04195c34c41056b16b9d96aecce956f1aacc7b4c9a3f2748944010062",
+    "bytes": 12111,
+    "cache_file": "04f9b974d4cc134700bb26d655346d93fa42bae303f3cc997ab5462e344bebc7.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R11218+R11219+R11220+R11439+R11861+R11905+R11929+R12011+R12423+R12424": {
+    "url": "https://rest.kegg.jp/get/R11218+R11219+R11220+R11439+R11861+R11905+R11929+R12011+R12423+R12424",
+    "retrieved_utc": "2026-09-19T10:43:58.214170+00:00",
+    "sha256": "11f210e5ff819e88987ef5671737dc755e4594b9031eb04d0759901e62fc0c9c",
+    "bytes": 11471,
+    "cache_file": "76b47876cb3456f0102d8d017888d08c2391e0eaf1282abafeafe724d02f4b8c.txt",
+    "status": "DONE"
+  },
+  "https://rest.kegg.jp/get/R12578+R12959+R12962+R12987+R12989+R13043+R13148+R13178": {
+    "url": "https://rest.kegg.jp/get/R12578+R12959+R12962+R12987+R12989+R13043+R13148+R13178",
+    "retrieved_utc": "2026-09-19T10:43:59.289639+00:00",
+    "sha256": "7b3824a07a5f8ec63622160482b53f866587d854b6bf267c8d78c3f36ad1b22e",
+    "bytes": 7067,
+    "cache_file": "f5128dd234fd6b4b5cf1b863d2afc3b71ea01dcecd34ea7923f87ae4d2778233.txt",
+    "status": "DONE"
+  }
+}

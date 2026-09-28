@@ -1,0 +1,8 @@
+item	status	finding	limitation
+Published H&E	DONE	Supplementary Figure 2a; PDF page 4; legend page 5; 16 specimen panels	Published thumbnails, not original whole-slide scans
+Full-resolution H&E	NEEDS_REVIEW	Not located in checked STT folders, supplementary PDF, Source Data or H5AD metadata	Not evidence that authors have no originals
+H5AD image payload	DONE	No spatial image/scalefactor group in inspected metadata; obsm includes coords and coords_trans	Coordinate field name does not establish H&E registration
+Source Data pictures	DONE	19 embedded images; sheets listed in asset_audit.json; visually inspected	Other experiment images do not establish matching whole-section H&E
+Image identity	NEEDS_REVIEW	Figure 2a lists #61 in untreated dMMR and treated dCR; Table S1 lists #56 untreated and #61 treated	Retain original labels; do not silently substitute #56
+LYPLA1 overlay	NOT_RUN	No new overlay created	Original image, explicit correspondence and validated transformation not jointly obtained
+Previous LYPLA1 statistics	DONE	Historical source-label region summaries retained without change	This audit adds neither patient-level tests nor independent validation

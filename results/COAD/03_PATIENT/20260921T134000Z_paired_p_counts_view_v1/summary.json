@@ -1,0 +1,10 @@
+{
+  "all_features": 159,
+  "paired_P_lt_005": 101,
+  "majority_up": 46,
+  "majority_down": 54,
+  "no_majority": 1,
+  "q_lt_005": 94,
+  "nominal_only": 7,
+  "new_tests": false
+}

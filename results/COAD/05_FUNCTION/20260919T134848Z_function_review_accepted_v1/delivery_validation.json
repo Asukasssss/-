@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "run_id": "20260919T134848Z_function_review_accepted_v1",
+  "checks": [
+    "original public output hashes unchanged",
+    "all original fields and row order unchanged in39/974",
+    "eight standard report sections",
+    "stage index sorted unique;05 and07 PARTIAL point to same batch",
+    "no workbook/archive/fulltext XML in public delivery"
+  ],
+  "report_hashes": {
+    "README_CN.md": "e75684b81ebe1555fa742816a4d3aa489b3f216bc118f03f3cb1b28ceb26ea90",
+    "validation.json": "d9e0a9f6db0b9dd462fc7350c86f255ac546ec7a0ccd44007aace1c03925a83e"
+  },
+  "stage_index_sha256": "ec12118bfbd479f000d0f3b7276d095152466886339c83a511d6968296142f14",
+  "scope": "delivery validation only; no new statistical tests",
+  "limitations": [
+    "Original workbook not edited or independently visually re-rendered",
+    "No systematic re-search of35 genes",
+    "No full audit of every figure/replicate",
+    "No independent patient validation",
+    "Imported script/provenance status snapshots are historical"
+  ]
+}

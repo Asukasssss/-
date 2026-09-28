@@ -1,0 +1,18 @@
+{
+  "version": "COAD_source_contract_patient_v2",
+  "protocol_commit": "45c6ae9ab489a9bd4ead4e47d28185785a448156",
+  "association_planned": 891,
+  "rna_planned": 526,
+  "sc_stable_gene_id_union": 811,
+  "sc_identity_hold": 3,
+  "minimum_n": 8,
+  "permutations": 9999,
+  "bootstrap": 4000,
+  "multiplicity": "BH separately over ALL estimable relationships or genes; replaces pending fixed-P1 rule BEFORE results; historical q unchanged",
+  "rna_method": "paired t on author log2 Agilent; t interval and mean bootstrap, old Wilcoxon retained",
+  "metabolite_method": "reuse correction=False Wilcoxon and median bootstrap; add missing descriptive mean/rank-biserial fields separately; workpool unchanged",
+  "legacy_availability_sha256": "dc5ff2f104b8c1d87b06e1c4ea7e8ed85d8ae2843637d905b2cf105422f31eca",
+  "created_utc": "2026-09-22T13:58:16.039517+00:00",
+  "reuse": "all historical input/output hashes and vector rho/n; identical sensitivity input reuses primary",
+  "single_cell": "current direct/conditional/unresolved plus all historical; 811 stable-ID records, 3 identity holds; not 811 approved distinct gene symbols"
+}

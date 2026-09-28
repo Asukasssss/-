@@ -1,0 +1,85 @@
+{
+  "analysis_version": "COAD_LYPLA1_spatial_v1",
+  "code_lock_commit": "d0e87702459ae9ffda5a7415247baa4d77a876b0",
+  "cohort": "GSE283052",
+  "samples": [
+    [
+      "GSM8655157",
+      "P02"
+    ],
+    [
+      "GSM8655158",
+      "P04"
+    ],
+    [
+      "GSM8655159",
+      "P05"
+    ],
+    [
+      "GSM8655160",
+      "P07"
+    ],
+    [
+      "GSM8655161",
+      "P09"
+    ],
+    [
+      "GSM8655162",
+      "P10"
+    ],
+    [
+      "GSM8655163",
+      "P11"
+    ],
+    [
+      "GSM8655164",
+      "P13"
+    ],
+    [
+      "GSM8655165",
+      "P15"
+    ],
+    [
+      "GSM8655166",
+      "P17"
+    ],
+    [
+      "GSM8655167",
+      "P18"
+    ],
+    [
+      "GSM8655168",
+      "P24"
+    ]
+  ],
+  "selection": "All 12 source CRC sections selected before expression inspection",
+  "gene": "LYPLA1",
+  "ensembl_id": "ENSG00000120992",
+  "context_genes": [
+    "EPCAM",
+    "COL1A1",
+    "PTPRC"
+  ],
+  "context_usage": "Separate expression reference panels only; not cell labels or malignancy inference",
+  "unit": "Visium capture spot; multi-cell; section summaries are descriptive",
+  "inclusion": "Source in_tissue=1 AND total Gene Expression count>0; all others retained in audit",
+  "transform": "log1p(10000 * gene UMI / total Gene Expression UMI per spot)",
+  "colors": "gray-orange-red; one shared 0-to-observed-maximum scale per gene across all 12 sections; no clipping",
+  "primary_plot": "LYPLA1 normalized expression on original tissue coordinates; no UMAP",
+  "sensitivity_plot": "Raw LYPLA1 count and total-UMI maps",
+  "smoothing": false,
+  "imputation": false,
+  "tests": "NONE",
+  "p_value": null,
+  "q_value": null,
+  "tumor_regions": "NOT_EVALUABLE: no machine-readable pathologist spot labels acquired",
+  "patient_independence": "12 original source sample codes; no sample-level linkage to CAMP independently verified",
+  "excluded_hd": "GSE280315 LYPLA1 probe marked included=False; no zero-expression inference; HD acquisition stopped at eligibility gate",
+  "versions": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1",
+    "matplotlib": "3.6.3"
+  }
+}

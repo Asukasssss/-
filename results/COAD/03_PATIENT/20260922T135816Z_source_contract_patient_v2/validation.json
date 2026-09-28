@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    "historical input hashes unchanged",
+    "historical output hashes unchanged",
+    "reuse rho and actual n checked against source vectors",
+    "BH independently checked",
+    "explicit patient pairing",
+    "unavailable values remain NA"
+  ],
+  "output_sha256": {
+    "analysis_spec.json": "681f2fafc13d36577d38b74a83222523e1bf03062a9a165d2bbd87d75e22d48a",
+    "association_results.tsv": "566c6539fea3b4bb99a462c2a1c194bdebd3738804433f2569a3b65cc2fe12aa",
+    "rna_results.tsv": "28b32b1331a8c79afe0fb6f7d0d7db6cae27edeae1b7d1d52f3b84969b2a62e2",
+    "rna_P_lt_005.tsv": "6cfce0347d4f8c4acdb0902e42b5255624a4331e16aaace0b214cf032377634a",
+    "association_P_lt_005.tsv": "64c25f769db40889179a1510d73b205c8d9026a4586c4ce0bf9cfd602f2f0e08",
+    "historical_RNA_wilcoxon.tsv": "3a7d71108529a21f1e2ec3e9fb281d6ddce9ca978c626122e485703dd9029ad2",
+    "gene_coverage.tsv": "1174c90913109e1e73cb4cc687f183e443ddada0742154adbebc418b7d04344b",
+    "source_manifest.tsv": "7e47529fe62ac5a85c98c346dbb7e4d898aed59c9a258a9093a302c68fa2a43a",
+    "summary.json": "0c39b0ac3dd56d41f0b1741707df73168e4ec6aabed91300ff06598e2d017c42"
+  }
+}

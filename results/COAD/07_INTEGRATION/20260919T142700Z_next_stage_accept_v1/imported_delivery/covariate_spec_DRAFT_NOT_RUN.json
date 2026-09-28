@@ -1,0 +1,37 @@
+{
+  "version": "COAD_covariate_followup_DRAFT_20260919",
+  "status": "DRAFT_NOT_RUN_NOT_PREREGISTERED",
+  "primary_population": "Existing 33 unique I-IV individuals; exclude 3 adenomas and 1 stage0 from primary",
+  "preserve_original_974_rows": true,
+  "family_source": "config/coad_patient_v1.json",
+  "planned_family": 674,
+  "previous_evaluable": 652,
+  "model_proposals": {
+    "M1": [
+      "age",
+      "sex"
+    ],
+    "M2": [
+      "age",
+      "sex",
+      "stage_categorical"
+    ],
+    "M3": [
+      "age",
+      "sex",
+      "tissue_site_categorical"
+    ]
+  },
+  "comparison": "Compute unadjusted M0_CC using the exact sample subset of every adjusted model and relationship.",
+  "missingness": "No new imputation. Inspect covariate-only distributions before locking coding. Record unavailable rows and reasons.",
+  "multiplicity": "BH within each whole-model evaluable family; preserve all 674 planned IDs, including unavailable IDs.",
+  "do_not_use": [
+    "invented_purity",
+    "invented_batch",
+    "BRCA_ER_as_COAD_covariate",
+    "nominal39_only_BH",
+    "selected_best_model"
+  ],
+  "inference_status": "Covariate-compatible resampling implementation and validation pending; no statistical executable supplied.",
+  "matrix_policy": "Patient matrices remain on server165; only aggregated outputs should be published."
+}

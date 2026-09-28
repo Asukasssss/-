@@ -1,0 +1,16 @@
+{
+  "run_id": "20260921T031711Z_mediation4_v1",
+  "analysis_version": "COAD_mediation4_v1",
+  "statistical_unit": "NA",
+  "test_family": "NA",
+  "seed": "NA",
+  "new_tests": false,
+  "new_data": false,
+  "email_sent": false,
+  "genes": 3,
+  "relations": 4,
+  "previous_studies_reread": 4,
+  "new_research_records": 2,
+  "correction_records": 1,
+  "source_commit": "65611ff9a7815c856127e68e1f2dc866bddbd28c"
+}

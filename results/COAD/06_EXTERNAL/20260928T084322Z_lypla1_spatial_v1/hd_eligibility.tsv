@@ -1,0 +1,4 @@
+cohort	source_id	sample	gene	status	reason	probe_checked	included	probe_id
+GSE280315	GSM8594567	P1CRC	LYPLA1	NOT_EVALUABLE	probe not eligible; full matrix acquisition not completed	True	False	ENSG00000120992|LYPLA1|29350f6
+GSE280315	GSM8594568	P2CRC	LYPLA1	NOT_EVALUABLE	probe not eligible; full matrix acquisition not completed	True	False	ENSG00000120992|LYPLA1|29350f6
+GSE280315	GSM8594569	P5CRC	LYPLA1	NOT_EVALUABLE	probe not eligible; full matrix acquisition not completed	True	False	ENSG00000120992|LYPLA1|29350f6

@@ -1,0 +1,9 @@
+source_id	path_or_url	version	sha256	depth
+D01	https://link.springer.com/article/10.1186/s12943-025-02359-x	2026-09-21 read	NA	Publisher correspondence/data declaration;prior two-DOCX audit reused
+D10	https://link.springer.com/article/10.1186/s12885-026-15978-4	2026-09-21 read	NA	Publisher methods/results/data availability/correspondence
+D11	https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00010	2026-09-21 read	NA	Original publisher indexed methods/data availability;direct page challenge
+E23	https://www.nature.com/articles/srep23642	2026-09-21 focused reread	NA	Original indexed results/figure captions;no new source-data audit
+F05	https://www.nature.com/articles/s42003-026-10017-1	2026-09-21 focused reread	NA	Original indexed results/figure captions;no new source-data audit
+local	results\COAD\06_EXTERNAL\20260920T091100Z_cell_paired35_v1\relations39_integrated.tsv	local exact bytes	db476e7d53ed2c1b86df01dd3c5562830e5836424077b0e788035be6fa89aba7	Versioned input/code
+local	code\coad\build_acquisition_handoff_v1.py	local exact bytes	5953b6a1655ea2d30ce3c8978b84eb50994cd873cd969d59928158c545766217	Versioned input/code
+local	results\COAD\05_FUNCTION\20260919T134848Z_function_review_accepted_v1\gene_function_review.tsv	local exact bytes	c392dc5903d98e0e7370b4189b7deae709d0a25ce4e14ef00b3092bd18eae79a	Versioned input/code

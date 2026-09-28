@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic only",
+  "permutation_cases": 22,
+  "bh_cases": 20,
+  "scipy": "1.18.1",
+  "numpy": "2.3.5",
+  "real_patient_tests": 0,
+  "tail": "Absolute statistic greater-or-equal; NOT scipy default doubled smaller tail",
+  "ties": "All 720 index permutations retain multiplicity",
+  "numerics": "Integer centered doubled ranks: exact tail comparison"
+}

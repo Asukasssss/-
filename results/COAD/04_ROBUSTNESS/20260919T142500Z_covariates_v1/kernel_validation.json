@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "full_OLS_t_error": 2.6645352591003757e-15,
+  "direct_refit_permutation_max_error": 1.27675647831893e-15,
+  "null_simulations": 100,
+  "null_p_lt_005": 2,
+  "strong_alternative_detected": 100,
+  "bootstrap_valid_smoke": 400,
+  "checks": [
+    "tied ranks",
+    "independent OLS t and rho",
+    "199 identical-permutation full nuisance refits",
+    "constant residual",
+    "rank deficient design",
+    "paired bootstrap",
+    "independent BH"
+  ],
+  "limitations": [
+    "100 null simulations are an implementation smoke check, not a proof of calibration for actual patients",
+    "Approximate exchangeable-error permutation; no heteroskedasticity correction"
+  ]
+}

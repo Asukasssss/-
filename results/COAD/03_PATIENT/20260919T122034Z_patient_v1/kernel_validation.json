@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "vectorized average ranks exactly match SciPy for ties,1D,2D,3D",
+    "same-seed full result exactly matches prior implementation",
+    "BH known answers"
+  ],
+  "production_size_kernel_seconds": 0.19922351837158203,
+  "synthetic_test_only": true
+}

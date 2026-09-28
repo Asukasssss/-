@@ -1,0 +1,106 @@
+gene	annotation_level	eligible_cell_types	highest_median_CPM_cell_type	median_CPM	median_detection	n_qualified_patients	status	reason
+ADSS2	lineage	9	Tcells	65.56112197047173	0.13711607394142952	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ADSS2	midway	3	Epithelial	40.49269129053612	0.18859777768182706	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ADSS2	subtype	26	Immune::CD8+ T 1	72.16480328930693	0.15447154471544716	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+AQP9	lineage	9	Monocyte	128.33570629318018	0.3562091503267974	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+AQP9	midway	3	Immune	20.266490143642294	0.03563948306595366	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+AQP9	subtype	26	Immune::Monocyte 1	149.44809818724107	0.3730735581129282	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ASPA	lineage	9	Pericytes	25.332809788597704	0.08333333333333333	5	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ASPA	midway	3	Stromal	10.550526471270915	0.043478260869565216	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ASPA	subtype	26	Stromal::Pericytes	25.332809788597704	0.08333333333333333	5	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+B4GALT2	lineage	9	Fibroblast	36.150994320951725	0.1746031746031746	10	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+B4GALT2	midway	3	Stromal	29.01394779599502	0.17391304347826086	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+B4GALT2	subtype	26	Stromal::CAFs	44.34551982330016	0.4083769633507853	5	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+BCAT2	lineage	9	Pericytes	24.959536750997906	0.16216216216216217	5	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+BCAT2	midway	3	Epithelial	21.62816519184023	0.1046378993142666	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+BCAT2	subtype	26	Epithelial::TC1	32.789071183980575	0.22	9	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+BPGM	lineage	9	Fibroblast	39.34244173907256	0.2104642014162077	10	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+BPGM	midway	3	Stromal	46.027800791678175	0.2127659574468085	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+BPGM	subtype	26	Stromal::CAFs	61.40148898610792	0.375	5	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+CANT1	lineage	9	Epithelial	85.11823313645924	0.35284084196125987	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+CANT1	midway	3	Epithelial	85.11823313645924	0.35284084196125987	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+CANT1	subtype	26	Epithelial::Imma. Gob. 1	175.18368524644222	0.27380952380952384	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ENO2	lineage	9	Mast	34.38428510534713	0.09600614439324116	8	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ENO2	midway	3	Stromal	16.117923959119718	0.07462686567164178	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ENO2	subtype	26	Immune::Mast	34.38428510534713	0.09600614439324116	8	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ENTPD3	lineage	9	Fibroblast	4.521833980216204	0.022349936143039588	10	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ENTPD3	midway	3	Stromal	1.1054573111077457	0.0070921985815602835	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ENTPD3	subtype	26	Epithelial::Enterocytes 1	6.115684283914527	0.04081632653061224	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GMPR	lineage	9	Mast	134.40482524916234	0.230550284629981	8	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GMPR	midway	3	Epithelial	8.662397924474433	0.04889651335311573	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GMPR	subtype	26	Immune::Mast	134.40482524916234	0.230550284629981	8	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GNPAT	lineage	9	Epithelial	42.57918391190567	0.20795757455743968	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GNPAT	midway	3	Epithelial	42.57918391190567	0.20795757455743968	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GNPAT	subtype	26	Epithelial::TC2	52.35465040182194	0.11160714285714286	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GSTA4	lineage	9	Pericytes	43.87773906786131	0.22	5	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GSTA4	midway	3	Stromal	37.02766314932908	0.2517482517482518	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GSTA4	subtype	26	Stromal::Pericytes	43.87773906786131	0.22	5	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GSTO2	lineage	9	Epithelial	31.30835545916539	0.17225580788305925	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GSTO2	midway	3	Epithelial	31.30835545916539	0.17225580788305925	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GSTO2	subtype	26	Epithelial::TC1	59.174839734809055	0.36792452830188677	9	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+GSTT2	lineage	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+GSTT2	midway	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+GSTT2	subtype	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+GSTT2B	lineage	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+GSTT2B	midway	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+GSTT2B	subtype	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+HAGH	lineage	9	Endothelial	34.872975187878154	0.23943661971830985	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+HAGH	midway	3	Stromal	21.003688911047167	0.13432835820895522	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+HAGH	subtype	26	Stromal::Endothelial	34.872975187878154	0.23943661971830985	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+HDC	lineage	9	Mast	599.4438447087684	0.6004901960784315	8	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+HDC	midway	3	Immune	7.969902337305035	0.012667321625936388	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+HDC	subtype	26	Immune::Mast	599.4438447087684	0.6004901960784315	8	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ICMT	lineage	9	Endothelial	70.33593349397152	0.43478260869565216	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ICMT	midway	3	Stromal	55.67641411302041	0.2937062937062937	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+ICMT	subtype	26	Stromal::Endothelial	70.33593349397152	0.43478260869565216	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+KMT5A	lineage	9	Epithelial	42.50860873020771	0.19407729468599033	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+KMT5A	midway	3	Epithelial	42.50860873020771	0.19407729468599033	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+KMT5A	subtype	26	Epithelial::Imma. Gob. 2	65.54603750793966	0.3223684210526316	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NME6	lineage	9	Mast	28.264379603678325	0.06289556962025317	8	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NME6	midway	3	Epithelial	23.734241145858395	0.12889112838724126	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NME6	subtype	26	Epithelial::TC2	35.51114432346638	0.07142857142857142	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NNMT	lineage	9	Fibroblast	1113.7051459934637	0.9087557603686636	10	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NNMT	midway	3	Stromal	913.0931914535346	0.8583690987124464	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NNMT	subtype	26	Stromal::CAFs	942.664374186474	0.9685863874345549	5	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NT5C3A	lineage	9	Epithelial	106.96465924530796	0.38846320259973793	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NT5C3A	midway	3	Epithelial	106.96465924530796	0.38846320259973793	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+NT5C3A	subtype	26	Epithelial::Enterocytes 1	210.7893129818318	0.6839080459770115	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PGAM2	lineage	9	Plasma	1.2321750477159787	0.016265912305516265	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PGAM2	midway	3	Immune	0.5899973613651193	0.002891042780748663	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PGAM2	subtype	26	Immune::Plasma L 1	1.1758480804280087	0.015037593984962405	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PLA2G15	lineage	9	Monocyte	35.28531990764368	0.1509209744503862	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PLA2G15	midway	3	Epithelial	11.020655464624864	0.063082821679737	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PLA2G15	subtype	26	Immune::Monocyte 2	66.83398863822192	0.4117647058823529	9	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PRMT7	lineage	9	Epithelial	24.90282674855452	0.13089477805712402	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PRMT7	midway	3	Epithelial	24.90282674855452	0.13089477805712402	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+PRMT7	subtype	26	Epithelial::Imma. Gob. 1	41.63999104740193	0.0784313725490196	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC15A3	lineage	9	Monocyte	149.3360831690937	0.4809605001420858	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC15A3	midway	3	Immune	29.99128789087421	0.07774325965284995	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC15A3	subtype	26	Immune::Monocyte 2	229.2118693131087	0.7222222222222222	9	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC29A1	lineage	9	Endothelial	102.91641499947698	0.4864864864864865	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC29A1	midway	3	Stromal	35.581712922893466	0.16460176991150444	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC29A1	subtype	26	Stromal::Endothelial	102.91641499947698	0.4864864864864865	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC29A3	lineage	9	Monocyte	1.0911592598135769	0.0070826722109755425	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC29A3	midway	3	Epithelial	0.8669286433734953	0.005082942097026604	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC29A3	subtype	26	Immune::Monocyte 2	1.876605670727016	0.01694915254237288	9	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC38A3	lineage	9	Epithelial	0.1496721463913753	0.0009390042861852951	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC38A3	midway	3	Epithelial	0.1496721463913753	0.0009390042861852951	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC38A3	subtype	26	NO_POSITIVE_MEDIAN	0.0	0.0	NA	NOT_EVALUABLE	All eligible medians zero;does not imply no expressing cells
+SLC6A17	lineage	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+SLC6A17	midway	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+SLC6A17	subtype	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+SLC6A6	lineage	9	Endothelial	87.18243796969539	0.2553191489361702	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC6A6	midway	3	Stromal	94.24345584982592	0.18333333333333332	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC6A6	subtype	26	Stromal::Endothelial	87.18243796969539	0.2553191489361702	7	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC7A8	lineage	9	Monocyte	51.00420820853984	0.155392625053842	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC7A8	midway	3	Epithelial	37.18373940985987	0.15575331125827815	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+SLC7A8	subtype	26	Immune::Monocyte 2	117.57003018306465	0.4888888888888889	9	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+UAP1	lineage	9	Epithelial	81.43904303623316	0.32093056033194833	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+UAP1	midway	3	Epithelial	81.43904303623316	0.32093056033194833	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+UAP1	subtype	26	Epithelial::Imma. Gob. 2	148.25889436319684	0.5	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+UCKL1	lineage	9	Epithelial	49.78995636284274	0.21428947231424778	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+UCKL1	midway	3	Epithelial	49.78995636284274	0.21428947231424778	12	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+UCKL1	subtype	26	Epithelial::TC2	100.130169219986	0.17391304347826086	11	DONE	Descriptive highest median among covered types;not specificity,contribution or function
+UPP2	lineage	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+UPP2	midway	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero
+UPP2	subtype	0	NA	NA	NA	NA	NOT_EVALUABLE	Missing source row or insufficient coverage;not measured zero

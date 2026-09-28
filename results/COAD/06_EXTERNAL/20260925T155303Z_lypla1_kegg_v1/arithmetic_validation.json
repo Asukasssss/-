@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "DE_effects_and_P_unchanged": true,
+  "ORA_hypergeometric_and_hits_checked": true,
+  "GSEA_all_ES_reconstructed": true,
+  "GSEA_P_independently_rerun": false,
+  "all_pathway_coverage_retained": true,
+  "FDR_selection": false,
+  "plots_rendered": true
+}

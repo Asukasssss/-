@@ -1,0 +1,10 @@
+[
+  {
+    "file": "analyze_lypla1_spatial_v1.py",
+    "sha256": "58bd2c9012f3e60e4aa9f8ce71948cee6fbdd926d32d480462ea7825aebccd30"
+  },
+  {
+    "file": "acquire_lypla1_spatial_frozen_v1.py",
+    "sha256": "3299e3ac1414d2fea0e26a483fb90e75f8664acdf1febcf6a5669658b7e07d9f"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "computation_code_commit": "cf2a2d752be6cc0fc91abbd903fd585a2eb61f45",
+  "gene": "ASNS",
+  "reuse": "same committed generic runner and renderer as LYPLA1 and SLC6A6",
+  "server_run": "20260925T144645Z_asns_cell_pooled_v1",
+  "private_values": "retained only on server165"
+}

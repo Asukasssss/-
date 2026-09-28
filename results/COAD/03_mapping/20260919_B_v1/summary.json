@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "cancer": "COAD",
+  "owner": "B",
+  "stage_id": "03_mapping",
+  "analysis_version": "20260919_B_v1",
+  "batch_id": "20260919_B_v1",
+  "status": "DONE",
+  "scope": "独立生化候选初稿；保留支持、暂挂、待审和不可评估",
+  "created_utc": "2026-09-19T11:13:04.075772+00:00",
+  "code_commit": "7ae076b85e68d9f297180501e92f2ba0bf321c57",
+  "generator_sha256": "9e32b51de3272826b007cbd4f4cda98798b7da83d8a58e10383f19793ffeaea1",
+  "inputs": [
+    {
+      "path": "reports/COAD/current_catalog_v0_1/candidate_catalog.json",
+      "sha256": "4db7f6cd74d507c24fb793bdd81eaaad0bef2cde360decb4d37bec08e728de83"
+    },
+    {
+      "path": "reference/camp/cancer_effects.tsv",
+      "sha256": "1bb1d57480a0fbc2185d11f7598e67e7443aef9e40ea8a036c6da4e5503a4597"
+    }
+  ],
+  "unit": "特征—人类基因组合",
+  "test_family": {
+    "new_tests": "NOT_RUN",
+    "original_q": "Frozen effect_fdr; no recalculation"
+  },
+  "planned_count": 974,
+  "record_count": 974,
+  "counts": {
+    "all_candidate_pairs": 974,
+    "reaction_supported_pairs": 763,
+    "supported_without_current_identity_hold": 674,
+    "features_without_current_identity_hold": 59,
+    "genes_without_current_identity_hold": 458,
+    "record_status_counts": {
+      "DONE": 674,
+      "IN_PROGRESS": 288,
+      "NOT_EVALUABLE": 12
+    }
+  },
+  "interpretation": "DONE 表示本批指定的描述/数据库初查完成；不等于原始鉴定、样本关联或功能验证。",
+  "limitations": [
+    "原冻结效应/原 q 不改；身份与底物范围未完全核实。",
+    "患者矩阵与凭据不在此包。",
+    "server165 本机别名无法解析，RNA/样本分析未做。"
+  ],
+  "next_action": "核对作者身份与样本覆盖，补查待审关系后确定下一版分析范围。",
+  "publication": {
+    "status": "ACCESS_BLOCKED",
+    "branch": "analysis/coad-initial",
+    "remote_commit": null,
+    "pr_url": null,
+    "reason": "Local Git has no usable HTTPS credentials; current GitHub connector reports push=false."
+  }
+}

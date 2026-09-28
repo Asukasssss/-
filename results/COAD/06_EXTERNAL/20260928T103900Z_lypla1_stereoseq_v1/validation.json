@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "sections": 10,
+  "bins": 127073,
+  "all_gene_present": true,
+  "explicit_xy_join": true,
+  "scale_checks": [
+    {
+      "section": "CRCP50_T",
+      "n_bins": 14106,
+      "gene_features": 41737,
+      "gene_nonzero": 7347,
+      "source_entries": 51601095,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0025991330949182156,
+      "max_implied_count_rounding_error": 0.003987843981121841
+    },
+    {
+      "section": "CRCP55_T",
+      "n_bins": 18130,
+      "gene_features": 40267,
+      "gene_nonzero": 8024,
+      "source_entries": 33824385,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.00226016407032148,
+      "max_implied_count_rounding_error": 0.0006385780770870042
+    },
+    {
+      "section": "CRCP56_T",
+      "n_bins": 22871,
+      "gene_features": 41978,
+      "gene_nonzero": 5795,
+      "source_entries": 46685853,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0021371532548073446,
+      "max_implied_count_rounding_error": 0.00036461140769006306
+    },
+    {
+      "section": "CRCP59_T",
+      "n_bins": 15598,
+      "gene_features": 40986,
+      "gene_nonzero": 8044,
+      "source_entries": 34058329,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0022454917161667254,
+      "max_implied_count_rounding_error": 0.00028568943639584177
+    },
+    {
+      "section": "CRCP59_T_2",
+      "n_bins": 26382,
+      "gene_features": 40730,
+      "gene_nonzero": 15581,
+      "source_entries": 66368138,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0017918717512657167,
+      "max_implied_count_rounding_error": 0.000867037002080906
+    },
+    {
+      "section": "CRCP67_T",
+      "n_bins": 20044,
+      "gene_features": 39701,
+      "gene_nonzero": 5409,
+      "source_entries": 39518521,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0021086318938614568,
+      "max_implied_count_rounding_error": 0.00019058328882692877
+    },
+    {
+      "section": "CRCP71_T",
+      "n_bins": 3150,
+      "gene_features": 34611,
+      "gene_nonzero": 986,
+      "source_entries": 6672859,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0017646345768298488,
+      "max_implied_count_rounding_error": 0.0002799029912239348
+    },
+    {
+      "section": "CRCP99_T",
+      "n_bins": 1227,
+      "gene_features": 27788,
+      "gene_nonzero": 127,
+      "source_entries": 1050782,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0019335770430188859,
+      "max_implied_count_rounding_error": 0.0004758913679552279
+    },
+    {
+      "section": "CRCP100_T",
+      "n_bins": 723,
+      "gene_features": 26195,
+      "gene_nonzero": 106,
+      "source_entries": 914511,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0018348979137954302,
+      "max_implied_count_rounding_error": 4.748380928276674e-05
+    },
+    {
+      "section": "CRCP107_T",
+      "n_bins": 4842,
+      "gene_features": 27664,
+      "gene_nonzero": 1111,
+      "source_entries": 8177740,
+      "nnz_matches_nFeature": true,
+      "max_library_sum_deviation": 0.0018029528873739764,
+      "max_implied_count_rounding_error": 7.02927402755904e-05
+    }
+  ],
+  "limitations": [
+    "Author expression/histology-supported regions, not independent pathology re-review",
+    "CRC; no claim of pure COAD",
+    "No histology image supplied in this processed export",
+    "No differential expression or causal inference",
+    "Similarly named CRCP59 sections have unresolved patient linkage; section count is not patient count"
+  ],
+  "patient_linkage_verified": false,
+  "aggregate_region_join_consistent": true,
+  "public_png_count": 10,
+  "public_pdf_count": 10,
+  "visual_review": "CRCP59_T and CRCP56_T inspected; Chinese labels; shared colorbar; margins corrected",
+  "source_record_limit": "Source isolate IDs differ; patient link unresolved, no patient-level inference"
+}

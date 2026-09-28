@@ -1,0 +1,41 @@
+{
+  "analysis_version": "COAD_UCKL1_author_CNA_v1",
+  "gene": "UCKL1",
+  "scope": "One targeted gene; Uhlitz existing matrices plus published author CNA calls",
+  "author_code_commit": "dbac4154b841e61addfbcdab1ede298ee36975db",
+  "min_cells": 20,
+  "min_pairs": 6,
+  "primary_metric": "Within-donor mean of per-cell log1p(10000*UCKL1_UMI/full_gene_UMI)",
+  "primary_test": "Exact two-sided sign test on nonzero patient-paired differences; zeros retained in effect and denominator reporting",
+  "effect": "Median patient-paired difference; distribution-free order-statistic interval with at least 95% coverage",
+  "secondary_descriptions": [
+    "detection fraction",
+    "pseudobulk CPM",
+    "leave-one-patient-out median difference"
+  ],
+  "multiple_testing": "BH across all three planned contrasts; unavailable tests use p=1 internally and remain NA publicly",
+  "unit": "patient; pool samples within same patient and group; never treat cells as independent patients",
+  "contrasts": [
+    {
+      "id": "CNA_vs_CNN_in_tumor",
+      "a": "tumor_CNA",
+      "b": "tumor_CNN"
+    },
+    {
+      "id": "CNA_vs_normal_reference",
+      "a": "tumor_CNA",
+      "b": "normal_reference"
+    },
+    {
+      "id": "CNN_vs_normal_reference",
+      "a": "tumor_CNN",
+      "b": "normal_reference"
+    }
+  ],
+  "label_policy": "Preserve original CNA/CNN; CNN never renamed nonmalignant; do not derive calls from UCKL1",
+  "normal_reference": "Author sample_origin Normal, main_cell_type Epithelial, exclude cell_type_epi_custom starting TC as in original infercnv.R",
+  "conflicts": "Exclude entire donor if author call source_id disagrees with source metadata after exact documented cell-ID join",
+  "missing": "No imputation; missing cell groups not zero; unknown labels excluded with reasons",
+  "selection": "Target requested after prior expression review; exploratory targeted follow-up, not prospective validation",
+  "code_lock_commit": "0720928cafcbdcd864d606eecf873923e25424f9"
+}

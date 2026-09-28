@@ -1,0 +1,11 @@
+{
+  "planned": 674,
+  "evaluable": 652,
+  "catalog_rows": 974,
+  "reused_primary": 437,
+  "reused_reduced_sample": 215,
+  "q_lt_005": 0,
+  "significant_positive": 0,
+  "significant_negative": 0,
+  "significant_unique_genes": 0
+}

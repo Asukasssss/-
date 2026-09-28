@@ -1,0 +1,61 @@
+{
+  "primary_n": 33,
+  "age": {
+    "available": 33,
+    "missing": 0,
+    "min": 42.0,
+    "max": 93.0,
+    "median": 69.0
+  },
+  "categories": {
+    "gender": {
+      "male": 18,
+      "female": 15
+    },
+    "stage": {
+      "stage III": 9,
+      "stage I": 8,
+      "stage II": 8,
+      "stage IV": 8
+    },
+    "tissue": {
+      "rectum": 10,
+      "ascending colon": 9,
+      "sigmoid colon": 7,
+      "transverse colon": 4,
+      "cecum": 2,
+      "descending colon": 1
+    }
+  },
+  "models": {
+    "M1": {
+      "n": 33,
+      "nuisance_columns": 3,
+      "rank": 3,
+      "full_model_residual_df": 29,
+      "min_category_n": 15
+    },
+    "M2": {
+      "n": 33,
+      "nuisance_columns": 6,
+      "rank": 6,
+      "full_model_residual_df": 26,
+      "min_category_n": 8
+    },
+    "M3": {
+      "n": 33,
+      "nuisance_columns": 8,
+      "rank": 8,
+      "full_model_residual_df": 24,
+      "min_category_n": 1
+    }
+  },
+  "source_sha256": "a4eebf8faba2bc0446269405f5d4be40c61ce998eb70ad2c16dbbfa6f2745d55",
+  "source_path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260919T115842Z_identity_units_v1/private_clinical_join.tsv",
+  "patient_statistics_run": false,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3"
+  }
+}

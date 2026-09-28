@@ -1,0 +1,16 @@
+{
+  "Uhlitz2021_GSE166555": {
+    "cells": 68702,
+    "patients": 12,
+    "specimens": 25,
+    "libraries": 25,
+    "library_id_missing": 0,
+    "tissue_cells": {
+      "Tumor": 38233,
+      "Normal": 30469
+    },
+    "enrichment_cells": {
+      "NO_CD45_REPORTED_37C_h_TDK_1": 68702
+    }
+  }
+}
