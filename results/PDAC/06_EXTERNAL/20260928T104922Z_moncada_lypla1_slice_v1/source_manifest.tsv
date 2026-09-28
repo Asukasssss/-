@@ -1,0 +1,6 @@
+file	source_url	bytes	sha256
+GSM3036911_PDAC-A-ST1-filtered.txt.gz	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3036nnn/GSM3036911/suppl/GSM3036911_PDAC-A-ST1-filtered.txt.gz	734175	57843b25c1b027dd6cddbad17d929176abd22246ea4fd5d2ab5bd03686ade053
+GSM3036911.tsv.gz	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3036nnn/GSM3036911/suppl/GSM3036911.tsv.gz	1898750	b8a0d7b8fffe52dc3e656aaf431df3b4c181a35eb625d546481971410b77ce39
+Figure4A_layer_annote.RData	https://github.com/YingMa0107/CARD/blob/2d64b91abb5cdd0c7f576b1c5d4727c84e7c93a0/data/Figure4A_layer_annote.RData	2523	0b0c649e9f74cf657ffd4db155e7c58f385dbd9b74cdeac4dfcdbb199b21b322
+layer_manual_PDAC.tsv	Derived unchanged from CARD RData via base R write.table	10489	0cac529e6676c85e203225a517bf6623d097c494c2069643b46a040029c99562
+GSM3036911_HE_relay.jpg.gz	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3036nnn/GSM3036911/suppl/GSM3036911_PDAC-A-ST1-HE.jpg.gz	293672078	ef61b41bcde949f2de504c084755e83f9092462348893c917cd7c318c9362de5

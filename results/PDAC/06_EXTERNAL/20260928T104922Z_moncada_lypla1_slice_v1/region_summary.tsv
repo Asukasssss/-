@@ -1,0 +1,6 @@
+cancer	cohort	sample	gene	region	spots	positive_spots	positive_percent	raw_mean	mean_log1p	median_log1p	full_gene_mean_log1p	p_value	q_value	reason
+PDAC	GSE111672	GSM3036911	LYPLA1	Cancer	137	8	5.839416058394161	0.06569343065693431	0.0858442027817996	0.0	0.07604645358815677	NA	NA	One patient; descriptive spatial spots, not independent subjects
+PDAC	GSE111672	GSM3036911	LYPLA1	Duct Epithelium	72	4	5.555555555555555	0.05555555555555555	0.07496093505153145	0.0	0.0646326214749234	NA	NA	One patient; descriptive spatial spots, not independent subjects
+PDAC	GSE111672	GSM3036911	LYPLA1	Pancreatic	70	6	8.571428571428571	0.11428571428571428	0.05517953173030207	0.0	0.03738698617965646	NA	NA	One patient; descriptive spatial spots, not independent subjects
+PDAC	GSE111672	GSM3036911	LYPLA1	Stroma	147	2	1.3605442176870748	0.013605442176870748	0.0272712313007028	0.0	0.01794645751906602	NA	NA	One patient; descriptive spatial spots, not independent subjects
+PDAC	GSE111672	GSM3036911	LYPLA1	Unannotated	2	1	50.0	0.5	0.3404144566240234	0.3404144566240234	0.2499609632114041	NA	NA	One patient; descriptive spatial spots, not independent subjects

@@ -1,0 +1,12 @@
+{
+  "status": "NOT_EVALUABLE",
+  "sample": "GSM7498812",
+  "scope": "Downloaded section only; other sections not inferred absent",
+  "gene": "LYPLA1",
+  "ensembl": "ENSG00000120992",
+  "symbol_present": false,
+  "ensembl_present": false,
+  "reason": "LYPLA1 absent from deposited filtered gene feature list; not a zero-expression result",
+  "archive_sha256": "26b6ed90df240bc0332fd6384c8d2e9bcac9eba5c44e10b830e8ab89a9179f0b",
+  "action": "Switch to transcriptome-wide ST dataset with measurable LYPLA1; keep downloaded inputs"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PARTIAL",
+  "completed": "Actual same-section H&E and measured spatial maps with published regional labels",
+  "not_completed": "Exact pixel-level H&E-expression registration; multi-patient spatial validation",
+  "spots": 428,
+  "labelled_spots": 426,
+  "unlabelled_spots": 2,
+  "patients": 1,
+  "unique_spot_and_plotted_gene_keys": true,
+  "unrelated_duplicate_gene_labels_preserved_as_separate_rows": [
+    "1-Mar",
+    "2-Mar"
+  ],
+  "label_xy_exact_match": true,
+  "independent_filtered_target_read": true,
+  "earlier_GEO_counts_and_totals_match_CARD": true,
+  "two_GEO_exports_target_discrepant_spots": 4,
+  "filtered_target_sum": 24,
+  "earlier_target_sum": 22,
+  "original_he_size": [
+    42309,
+    36028
+  ],
+  "he_gzip_crc_pass": true,
+  "interpolation": false,
+  "malignant_single_cell_claim": false
+}
