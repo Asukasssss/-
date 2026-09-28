@@ -1,0 +1,9 @@
+{
+  "status": "BRANCH_PUSH_VERIFIED",
+  "branch": "presentation/camp-fourcancer-lypla1-20260928",
+  "artifact_commit": "e044fd969f530c249f9d276479f08ae200df6375",
+  "remote_head_verified": true,
+  "pull_request": "NOT_CREATED",
+  "pull_request_reason": "GitHub connector returned HTTP 403 Resource not accessible by integration",
+  "merged": false
+}
