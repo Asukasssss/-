@@ -17,5 +17,7 @@
   "sex_labels": {
     "male": 68322
   },
-  "cross_cohort_status": "NOT_RUN by this script"
+  "cross_cohort_status": "NOT_RUN by this script",
+  "independent_statsmodels_partial_rank_checks": 9,
+  "partial_rank_max_error": 1.6653345369377348e-16
 }

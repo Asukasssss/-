@@ -1,0 +1,34 @@
+{
+  "version": "prad_lypla1_hirz_replication_v1",
+  "parent_commit": "9b8d205",
+  "discovery_results": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PRAD/B/20260928T131352Z_lypla1_states_v1/public/results.tsv.gz",
+  "gene_selection": "All 9057 discovery-evaluable genes locked; exact unique symbol join; positive candidates flag inherited",
+  "min_cells": 30,
+  "min_LYPLA1_positive": 10,
+  "min_gene_positive": 10,
+  "min_gene_detection_fraction": 0.1,
+  "min_patients_inference": 8,
+  "min_patients_descriptive": 3,
+  "normalization": "log1p(CP10K) with totalUMI from complete original sample matrix",
+  "methods": [
+    "ordinary",
+    "technical_adjusted",
+    "positive_only"
+  ],
+  "primary": "technical_adjusted",
+  "technical_covariates": [
+    "rank log1p totalUMI",
+    "rank percent_mito"
+  ],
+  "annotation": "author cell1=Tumor; only clinical tumor samples",
+  "patient_mapping": "Exact SCG-{clinical fname}-T-{clinical grade code} match to Supplementary Data1, each fname unique",
+  "no_pairing_inferred": true,
+  "thresholds_unchanged": true,
+  "source_article": "https://www.nature.com/articles/s41467-023-36325-2",
+  "author_repository": "https://github.com/shenglinmei/ProstateCancerAnalysis",
+  "software": {
+    "python": "3.13.9",
+    "pandas": "2.3.3",
+    "numpy": "2.3.4"
+  }
+}
