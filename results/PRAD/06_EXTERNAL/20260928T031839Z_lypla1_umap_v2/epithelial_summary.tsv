@@ -1,0 +1,3 @@
+celltype	n_cells	positive_fraction	pooled_mean	n_eligible_patients	patient_equal_mean
+Normal epithelium	2200	0.2059090909090909	0.2038289452581243	12	0.2236549326008277
+Malignant epithelium	3157	0.8257839721254355	0.8175935915538243	17	0.8148773761547676

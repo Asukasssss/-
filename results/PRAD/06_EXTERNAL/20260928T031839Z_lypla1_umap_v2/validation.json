@@ -1,0 +1,8 @@
+{
+  "status": "DONE",
+  "n_normal": 2200,
+  "n_malignant": 3157,
+  "n_tumor": 39755,
+  "unchanged_expression": true,
+  "coordinates_verified": true
+}

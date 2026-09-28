@@ -1,0 +1,15 @@
+{
+  "status": "DONE",
+  "version": "prad_lypla1_umap_v2",
+  "parent_commit": "1bf00ee37c5f19e4639bba0b8c59f74fcde16b58",
+  "source_values": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PRAD/B/20260928T030756Z_lypla1_umap_v1/private/plot_values.tsv.gz",
+  "normalization": "unchanged log1p(CP10K) from v1",
+  "embedding": "unchanged source X_umap",
+  "cell_selection": "tumor tissue; author Epithelial with normal or malignant annotation; altered_benign excluded from two-group comparison",
+  "draw_order": "seeded random, seed20260928; not expression-sorted",
+  "expression_cap": 2.1232839012146,
+  "local_mean_map": "all tumor cells including zeros; hexbin gridsize100; >5cells per bin; display cap1.2; no use as differential test",
+  "patient_panel": "mean per patient and class; >=20cells; groups not restricted to matched patients",
+  "statistics": "descriptive only; no P values",
+  "validation": "exact cell-ID join; source coordinates equal within 1e-12; cached expression unchanged"
+}
