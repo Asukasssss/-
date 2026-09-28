@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "q3_recomputed": true,
+  "exact_tests_recomputed": [
+    {
+      "contrast": "PDAC_vs_ND",
+      "scale": "q3_log2",
+      "n": 6,
+      "exact_p": 0.03125,
+      "status": "PASS"
+    },
+    {
+      "contrast": "VI_vs_ND",
+      "scale": "q3_log2",
+      "n": 6,
+      "exact_p": 0.03125,
+      "status": "PASS"
+    },
+    {
+      "contrast": "PNI_vs_ND",
+      "scale": "q3_log2",
+      "n": 3,
+      "exact_p": 0.25,
+      "status": "PASS"
+    },
+    {
+      "contrast": "all_cancer_vs_ND",
+      "scale": "q3_log2",
+      "n": 6,
+      "exact_p": 0.03125,
+      "status": "PASS"
+    },
+    {
+      "contrast": "PDAC_vs_ND",
+      "scale": "cpm_log2",
+      "n": 6,
+      "exact_p": 0.0625,
+      "status": "PASS"
+    },
+    {
+      "contrast": "VI_vs_ND",
+      "scale": "cpm_log2",
+      "n": 6,
+      "exact_p": 0.0625,
+      "status": "PASS"
+    },
+    {
+      "contrast": "PNI_vs_ND",
+      "scale": "cpm_log2",
+      "n": 3,
+      "exact_p": 0.25,
+      "status": "PASS"
+    },
+    {
+      "contrast": "all_cancer_vs_ND",
+      "scale": "cpm_log2",
+      "n": 6,
+      "exact_p": 0.0625,
+      "status": "PASS"
+    },
+    {
+      "contrast": "PDAC_vs_ND",
+      "scale": "author_vst",
+      "n": 6,
+      "exact_p": 0.0625,
+      "status": "PASS"
+    },
+    {
+      "contrast": "VI_vs_ND",
+      "scale": "author_vst",
+      "n": 6,
+      "exact_p": 0.09375,
+      "status": "PASS"
+    },
+    {
+      "contrast": "PNI_vs_ND",
+      "scale": "author_vst",
+      "n": 3,
+      "exact_p": 0.25,
+      "status": "PASS"
+    },
+    {
+      "contrast": "all_cancer_vs_ND",
+      "scale": "author_vst",
+      "n": 6,
+      "exact_p": 0.0625,
+      "status": "PASS"
+    }
+  ],
+  "bh_recomputed": true,
+  "roi_and_patient_counts_verified": true,
+  "source_sha256_verified": true,
+  "limits": [
+    "Bootstrap intervals not independently replicated",
+    "Pathology annotations trusted from authors, not independently re-read from tissue images",
+    "No pure stromal comparator"
+  ]
+}

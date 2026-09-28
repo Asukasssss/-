@@ -1,0 +1,10 @@
+{
+  "base_commit": "3c9df9c8000c9a153f3a8e7f948da6b4839b0b98",
+  "note": "Base commit precedes new analysis code; exact executed code and locked spec hashes recorded below. Rendering executed locally on aggregate-only tables.",
+  "code_sha256": {
+    "geomx_bell2025_lypla1.py": "1964cfdb84eda1df6e3c9e4c46be8aa9323f88bd2e27ba14cd1d6fb9093f6f5c",
+    "geomx_bell2025_lypla1_spec.json": "285ce7cb59c5297c6af548505bee8a2fc28cb439076e71891e0558913e792400",
+    "verify_geomx_bell2025_lypla1.py": "0f00693a980863f4aa79bed4554fdc33be03ea4a0e72bccc01e33b0e6c51ef38",
+    "report_geomx_bell2025_lypla1.py": "9b03775b0554fbbcbc2ae089e55d5751566c57d5f926574e0e80348507b11d81"
+  }
+}
