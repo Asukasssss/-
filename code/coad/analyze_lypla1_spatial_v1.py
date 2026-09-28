@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import scipy
-from scipy.io import mmread
+from scipy.sparse import coo_matrix
 from threadpoolctl import threadpool_limits
 import matplotlib
 matplotlib.use('Agg')
@@ -82,8 +82,21 @@ for gsm, sample in samples:
     for p in files.values():
         assert p.is_file(), str(p)
     manifest_paths.extend(files.values())
-    with gzip.open(files['matrix'], 'rb') as f, threadpool_limits(limits=1):
-        matrix = mmread(f).tocsr()
+    # NumPy's integer parser avoids the slow Python MatrixMarket reader in SciPy 1.10.
+    # Dimensions, entry count and 1-based coordinate bounds are explicitly checked.
+    with gzip.open(files['matrix'], 'rt') as f, threadpool_limits(limits=1):
+        assert f.readline().strip() == '%%MatrixMarket matrix coordinate integer general'
+        header = f.readline()
+        while header.startswith('%'):
+            header = f.readline()
+        nr,nc,nnz = map(int,header.split())
+        triplets = np.loadtxt(f,dtype=np.int64,ndmin=2)
+    assert triplets.shape == (nnz,3)
+    assert ((triplets[:,0]>=1)&(triplets[:,0]<=nr)).all()
+    assert ((triplets[:,1]>=1)&(triplets[:,1]<=nc)).all()
+    assert (triplets[:,2]>=0).all()
+    matrix = coo_matrix((triplets[:,2],(triplets[:,0]-1,triplets[:,1]-1)),shape=(nr,nc)).tocsr()
+    del triplets
     assert matrix.shape == (len(features), len(barcodes)), (sample, matrix.shape)
     assert np.isfinite(matrix.data).all() and (matrix.data >= 0).all()
     assert np.equal(matrix.data, np.floor(matrix.data)).all()
