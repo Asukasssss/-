@@ -1,7 +1,8 @@
 {
   "pathology_region_analysis": "DONE",
   "normal_epithelium_comparison": "NOT_EVALUABLE",
-  "github_upload": "ACCESS_BLOCKED",
+  "github_upload": "DONE",
   "local_result_commit": "0ec3219d95a31ac0225a8fc5a58a0ee52c2e64b8",
-  "reason": "GitHub HTTPS empty reply and port 443 connection failures on immediate push attempts. Numerical analysis and local/server delivery complete."
+  "reason": "GitHub push succeeded and remote branch verified at 6be8deb9485cb6220b2968f59f449b179c895635 on 2026-09-28. Earlier connectivity blocker resolved.",
+  "verified_remote_commit": "6be8deb9485cb6220b2968f59f449b179c895635"
 }
