@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "patients": 8,
+  "sections": 8,
+  "spots": 3481,
+  "detected_spots": 585,
+  "unmapped_spots": 0,
+  "missing_coordinate_label_rows": 9,
+  "input_files_verified": 34,
+  "annotation": "original pathologist labels; ambiguous/unmapped excluded from contrasts",
+  "coordinates": "rounded array coordinates unique; author pixel coordinate systems related by affine transform residual <0.02 px; all points within image",
+  "code_sha256": "4b40521524293e2ed914cbc9583e58e149e806d0816ac096a67012457479bc3f",
+  "git_commit": "85df7411b987a7dec3feff9718b869a7a82091ec",
+  "git_tree": "a7d6df2e392afde7357f2f9697b2748e95a3fb33",
+  "analysis_code_commit": "7a3f453"
+}

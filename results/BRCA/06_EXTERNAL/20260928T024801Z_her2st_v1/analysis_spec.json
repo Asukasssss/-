@@ -1,0 +1,30 @@
+{
+  "version": "v1",
+  "annotation": "author pathologist labels; no marker inference",
+  "patient_identity": "author naming A-H; one labeled section each, G2 for G",
+  "normalization": "log1p(count/total counts*10000)",
+  "QC": "author processed count matrix and selected tissue spots; require total>0; no imputation",
+  "main_min_spots_per_region": 20,
+  "sensitivity_min_spots": 10,
+  "contrasts": {
+    "invasive_vs_connective": "connective tissue",
+    "invasive_vs_glands": "breast glands",
+    "invasive_vs_in_situ": "cancer in situ"
+  },
+  "statistics": "two-sided exact patient sign test; >=3 evaluable patients for inferential reporting; nominal P, no FDR",
+  "sensitivities": [
+    "regional sum counts normalization",
+    "within-patient OLS log normalized expression ~ invasive indicator + log1p(total counts)"
+  ],
+  "not_claimed": [
+    "pure malignant cells",
+    "normal epithelial validation from breast glands label alone",
+    "activity or mechanism"
+  ],
+  "versions": {
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3"
+  }
+}

@@ -10,7 +10,8 @@ def get(url):
   except Exception:
    if i==3:raise
    time.sleep(2)
-tree=get(API+'/git/trees/master?recursive=1');sha=tree['sha']
+commit=get(API+'/commits/master');sha=commit['sha']
+tree=get(API+'/git/trees/'+sha+'?recursive=1')
 samples=['A1','B1','C1','D1','E1','F1','G2','H1']
 paths=set(['README.md','data/ST-pat/lbl/README'])
 for s in samples:
@@ -23,5 +24,5 @@ def one(x):
  transfer([b],p);print(x['path'],len(b),flush=True)
  return {'path':p,'url':f'https://github.com/almaan/her2st/blob/{sha}/'+x['path'],'git_blob_sha':x['sha'],'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b)}
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:records=list(ex.map(one,items))
-transfer([json.dumps({'commit_tree':sha,'files':records},indent=2).encode()],BASE+'/manifest.json')
+transfer([json.dumps({'commit_tree':commit['commit']['tree']['sha'],'commit':sha,'files':records},indent=2).encode()],BASE+'/manifest.json')
 print('DOWNLOAD_DONE',len(records),flush=True)
