@@ -1,7 +1,8 @@
 {
   "analysis": "DONE",
-  "github_upload": "ACCESS_BLOCKED",
+  "github_upload": "DONE",
   "last_analysis_commit": "fcc23efc20055cd9ba6c271ef8291566363a133e",
-  "reason": "Repeated GitHub connection timeout / empty reply; upload and remote commit not confirmed",
-  "local_gallery": "D:/CodexData/visualizations/2026/09/25/01a0d8cd-4545-75b0-ba43-922588deea1a/LYPLA1_HER2ST_spatial/index.html"
+  "reason": "Previously blocked upload resolved; analysis commit is included in verified remote branch",
+  "local_gallery": "D:/CodexData/visualizations/2026/09/25/01a0d8cd-4545-75b0-ba43-922588deea1a/LYPLA1_HER2ST_spatial/index.html",
+  "verified_remote_commit": "91f49c0045363f8a05cc4ec827dd7a0372040f62"
 }
