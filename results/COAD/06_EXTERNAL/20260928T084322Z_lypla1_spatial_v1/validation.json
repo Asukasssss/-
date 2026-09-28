@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "12-section identity/count/coordinate/transform/figure-generation checks",
+  "samples": 12,
+  "gene_identity_unique": true,
+  "all_matrix_dimensions_match": true,
+  "explicit_barcode_joins": true,
+  "all_eligible_coordinates_in_image": true,
+  "integer_nonnegative_counts": true,
+  "all12_same_LYPLA1_scale": true,
+  "normalized_scale_maxima": {
+    "LYPLA1": 3.631374959633745,
+    "EPCAM": 5.089386846006172,
+    "COL1A1": 5.7236670199440125,
+    "PTPRC": 3.8252235912968953
+  },
+  "raw_LYPLA1_max": 17.0,
+  "sum_spots": 26766,
+  "p_values_computed": false,
+  "unverified": [
+    "Machine-readable histology region labels unavailable",
+    "Cross-study patient independence not audited",
+    "No pathologist review of generated maps",
+    "Raw reads and original image alignment not independently reprocessed"
+  ]
+}

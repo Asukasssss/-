@@ -1,0 +1,4 @@
+cohort	status	decision	url
+GSE283052	DONE	All 12 frozen CRC sections analyzed; LYPLA1 measured; no machine-readable histology labels acquired	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE283052
+GSE280315	NOT_EVALUABLE	Available LYPLA1 probe marked included=False; HD matrix acquisition stopped; no biological absence inferred	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE280315
+GSE236697	NOT_RUN	Public frozen mucinous CRC candidate; SOFT lists tumor+normal and normal samples for patient 1; not counted as independent cases; not downloaded	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE236697

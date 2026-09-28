@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "sample": "P13",
+  "scope": "all 4992 source spots, before in_tissue filter",
+  "reference_reader": "scipy.io.mmread 1.10.1",
+  "analysis_reader": "NumPy integer coordinate parser",
+  "gene": "LYPLA1",
+  "gene_count_sum": 3281,
+  "positive_spots": 1744,
+  "nonzero_matrix_entries": 10326943,
+  "agreement": true
+}

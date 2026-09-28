@@ -1,14 +1,4 @@
-"""Build the public Chinese report from completed aggregate spatial results."""
-import argparse,csv,json
-from pathlib import Path
-ap=argparse.ArgumentParser();ap.add_argument('--results',type=Path,required=True);a=ap.parse_args()
-p=a.results
-v=json.loads((p/'validation.json').read_text());assert v['status']=='PASS' and v['samples']==12
-rows=list(csv.DictReader((p/'expression_summary.tsv').open(encoding='utf-8'),delimiter='\t'))
-ly=[r for r in rows if r['gene']=='LYPLA1'];assert len(ly)==12
-positive=sum(int(r['positive_spots']) for r in ly);n=sum(int(r['n']) for r in ly)
-assert n==v['sum_spots']
-body='''# LYPLA1在结直肠癌组织中的空间表达：GSE283052
+# LYPLA1在结直肠癌组织中的空间表达：GSE283052
 
 ## 本轮问题
 
@@ -24,24 +14,44 @@ body='''# LYPLA1在结直肠癌组织中的空间表达：GSE283052
 
 ## 实际结果
 
-'''
-body+=f'12份切片合计 **{n:,}个** 可描述采集点，其中 **{positive:,}个（{positive/n:.1%}）** 检出LYPLA1。这个合并比例是采集点加权的描述，不是患者阳性率或供者等权效应。各切片均单独保留。\n\n'
-body+='|切片|可描述采集点|LYPLA1检出点|检出比例|平均log1pCP10K|总UMI中位数|\n|---|---:|---:|---:|---:|---:|\n'
-for r in ly:
-    body+=f"|{r['sample']}|{int(r['n']):,}|{int(r['positive_spots']):,}|{float(r['detected_fraction']):.1%}|{float(r['effect']):.3f}|{float(r['median_total_UMI']):,.0f}|\n"
-det=max(ly,key=lambda r:float(r['detected_fraction']))
-mean=max(ly,key=lambda r:float(r['effect']))
-body+=f"\n检出比例最高为{det['sample']}（{float(det['detected_fraction']):.1%}，每点总UMI中位数{float(det['median_total_UMI']):,.0f}）；标准化表达均值最高为{mean['sample']}（{float(mean['effect']):.3f} log1pCP10K）。检出比例和标准化表达描述不同方面，需要结合测序深度、组织构成及原计数图阅读。\n"
-body+='''
+12份切片合计 **26,766个** 可描述采集点，其中 **15,323个（57.2%）** 检出LYPLA1。这个合并比例是采集点加权的描述，不是患者阳性率或供者等权效应。各切片均单独保留。
+
+|切片|可描述采集点|LYPLA1检出点|检出比例|平均log1pCP10K|总UMI中位数|
+|---|---:|---:|---:|---:|---:|
+|P02|2,771|1,924|69.4%|0.581|13,510|
+|P04|2,230|1,386|62.2%|0.506|11,342|
+|P05|947|885|93.5%|0.637|39,641|
+|P07|2,194|1,678|76.5%|0.633|25,818|
+|P09|2,315|980|42.3%|0.362|6,603|
+|P10|2,465|1,826|74.1%|0.932|7,262|
+|P11|2,670|1,034|38.7%|0.400|5,906|
+|P13|1,809|1,066|58.9%|0.540|10,570|
+|P15|2,715|1,525|56.2%|0.491|10,491|
+|P17|2,224|1,164|52.3%|0.469|8,350|
+|P18|1,691|673|39.8%|0.316|4,397|
+|P24|2,735|1,182|43.2%|0.415|5,471|
+
+检出比例最高为P05（93.5%，每点总UMI中位数39,641）；标准化表达均值最高为P10（0.932 log1pCP10K）。检出比例和标准化表达描述不同方面，需要结合测序深度、组织构成及原计数图阅读。
+
 ![LYPLA1全部12份切片空间表达](figures/LYPLA1_spatial_all12.png)
 
 完整[表达汇总](expression_summary.tsv)、[采集点覆盖核查](sample_qc.tsv)和[PDF总览](figures/LYPLA1_spatial_all12.pdf)。
 
 各切片另有六联图：LYPLA1标准化表达、原始UMI、总UMI，以及EPCAM、COL1A1、PTPRC参照表达。所有切片对同一指标使用相同范围；不同基因各有自己的色标，不按颜色比较不同基因的绝对表达量。
 
-'''
-for r in ly:body+=f"- [{r['sample']}六联图](figures/{r['sample']}_LYPLA1_context.png)\n"
-body+='''
+- [P02六联图](figures/P02_LYPLA1_context.png)
+- [P04六联图](figures/P04_LYPLA1_context.png)
+- [P05六联图](figures/P05_LYPLA1_context.png)
+- [P07六联图](figures/P07_LYPLA1_context.png)
+- [P09六联图](figures/P09_LYPLA1_context.png)
+- [P10六联图](figures/P10_LYPLA1_context.png)
+- [P11六联图](figures/P11_LYPLA1_context.png)
+- [P13六联图](figures/P13_LYPLA1_context.png)
+- [P15六联图](figures/P15_LYPLA1_context.png)
+- [P17六联图](figures/P17_LYPLA1_context.png)
+- [P18六联图](figures/P18_LYPLA1_context.png)
+- [P24六联图](figures/P24_LYPLA1_context.png)
+
 ## 新手解释
 
 图上位置是组织上的实际位置；颜色越红，表示该点的LYPLA1标准化表达越高，灰色表示没有检出计数。零计数不等于组织生物学上绝无表达。
@@ -81,6 +91,3 @@ python code/coad/report_lypla1_spatial_v1.py --results results/COAD/06_EXTERNAL/
 ```
 
 详见[参数与版本](analysis_spec.json)和[核验](validation.json)。
-'''
-(p/'README_CN.md').write_bytes(body.encode('utf-8'))
-print('REPORT_DONE',n,positive)

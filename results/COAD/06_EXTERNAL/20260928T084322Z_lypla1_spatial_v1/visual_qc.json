@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "Visual inspection of all12 overview plus P02 and P10 context panels",
+  "reviewed": [
+    "figures/LYPLA1_spatial_all12.png",
+    "figures/P02_LYPLA1_context.png",
+    "figures/P10_LYPLA1_context.png"
+  ],
+  "checks": [
+    "No missing panels or clipped labels in reviewed PNGs",
+    "Tissue/spot overlay visually aligned",
+    "Shared LYPLA1 color range visible",
+    "Context genes have separately labeled scales"
+  ],
+  "limits": [
+    "No independent pathologist review",
+    "Other section detail PDFs were not individually rendered for inspection"
+  ]
+}
