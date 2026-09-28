@@ -1,0 +1,83 @@
+{
+  "version": "gbm_lypla1_malignant_v3",
+  "question": "Is LYPLA1 relatively enriched in GBM malignant glial cells rather than nonmalignant compartments? GBM malignant cells must not be relabeled epithelial.",
+  "selection_before_target_expression": true,
+  "new_source_priority": [
+    "SNUH multiomic-gbm scRNA whole cells;2026 publication;portal data version predates publication",
+    "CARE GSE274548 Smart-seq2;technical complement from same cohort,not independent replication"
+  ],
+  "quality_gates": [
+    "human primary tumor tissue,not cultured malignant-only models",
+    "explicit patient labels and GBM/IDH status",
+    "author cell labels supported by CNV where available",
+    "unintegrated expression values with documented scale",
+    "exact cell ID alignment",
+    "exclude explicit doublets,non-GBM and normal specimens"
+  ],
+  "selection_not_based_on_LYPLA1_direction": true,
+  "unit": "patient;pool regions within patient;primary tumors separately when status explicit;never treat cells or repeated regions as independent patients",
+  "main_minimum_cells_per_patient_category": 20,
+  "sensitivity_minimum_cells_per_patient_category": 50,
+  "minimum_matched_patients_for_test": 10,
+  "main_contrast": "Malignant minus Myeloid within the same patients",
+  "predefined_comparators": [
+    "Myeloid",
+    "Lymphoid",
+    "Oligodendrocyte",
+    "Astrocyte",
+    "Neuron",
+    "OPC",
+    "Vascular",
+    "All_nonmalignant"
+  ],
+  "expression": "within-platform patient mean unintegrated log-normalized expression;do not renormalize a normalized matrix;never directly compare platform absolute values",
+  "test": "two-sided paired Wilcoxon signed rank on patient means;BH across evaluable predefined eight comparators within each cohort/partition/threshold family",
+  "interval": "10000 paired-patient bootstrap draws for mean difference;seed20260928;descriptive postselected-gene inference",
+  "additional": [
+    "patient-equal detection fractions",
+    "positive paired-difference fraction",
+    "core-only sensitivity if tissue metadata explicit",
+    "retain old CARE10x primary and recurrent profiles for within-patient comparisons;not new independent datasets"
+  ],
+  "claim_gate": "positive effect with q<0.05 supports relative enrichment only against the named comparator;general malignant-specific enrichment requires consistent comparisons,not a favorable subset",
+  "scope": "User-requested targeted LYPLA1 follow-up;previous all142/171 integration and bulk statistics preserved;no automatic mechanistic analyses",
+  "data_residence": "server165 for all cell/patient matrices and metadata;only aggregates and provenance public",
+  "cohort_selection": {
+    "input_cells": 223113,
+    "gbm_before_singlet": 142761,
+    "selected_cells": 128375,
+    "patients": 16,
+    "exact_barcode_order": true,
+    "clinical_patient_counts_exact": true,
+    "author_aliases": "three assay/preparation suffixes linked only after exact clinical count checks",
+    "treatment_status": "not supplied;do not label treatment-naive",
+    "primary": "all eligible whole-cell RNA,including CITE RNA;assay aliquots pooled by clinical patient",
+    "sensitivities": [
+      "core_only",
+      "fresh_only",
+      "exclude_repeated_preparations",
+      "UMI1000_genes500"
+    ],
+    "exclude_repeated_preparations": "exclude SNU21accutase and SNU33citeseq;retain sole SNU34citeseq preparation",
+    "normalization": "author log(CPM+1);validate base with independent RPLP0 gene and metadata library totals"
+  },
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1"
+  },
+  "normalization": {
+    "scale": "author log2(CPM+1)",
+    "evidence": "paper CPM+log; independent RPLP0 inverse transform matches integer counts using nCount_RNA in >99% positive cells",
+    "no_additional_transform": true,
+    "base": 2.0,
+    "factor": 1000000.0,
+    "median_integer_error": 5.34160948806317e-07,
+    "fraction_within_001": 0.9977671899998242
+  },
+  "CARE_all_nonmalignant": "known nonmalignant categories only;Other/Unresolved excluded;pool all cells before threshold",
+  "input_code_base_commit": "e44fce478a34f748373651f96a0c37c5afdf9fee",
+  "source_reference": "SNUH paper DOI10.1038/s41467-026-69716-2;CARE DOI10.1038/s41588-025-02168-4",
+  "source_snapshot": "portal byte hashes pinned in source_manifest.tsv;author CARE annotation commit383b0a320f0993a4529167cdb591dac63e103674"
+}

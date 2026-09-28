@@ -1,0 +1,9 @@
+{
+  "status": "NOT_EVALUABLE",
+  "matrix_genes": 23686,
+  "matrix_nuclei": 14401,
+  "metadata_rows": 14424,
+  "cell_type_annotations_present": 0,
+  "reason": "GEO RDS is expression data.frame with gene-ID column;GEO cell-type field empty;inspected author repository metadata covers 10x,not Smart-seq2;no verified malignant annotation for these nuclei",
+  "independence": "same CARE patient cohort;not independent replication"
+}

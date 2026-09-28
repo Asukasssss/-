@@ -1,0 +1,21 @@
+{
+  "version": "gbm_lypla1_malignant_v3",
+  "question": "Is LYPLA1 relatively enriched in GBM malignant glial cells rather than nonmalignant compartments? GBM malignant cells must not be relabeled epithelial.",
+  "selection_before_target_expression": true,
+  "new_source_priority": ["SNUH multiomic-gbm scRNA whole cells;2026 publication;portal data version predates publication", "CARE GSE274548 Smart-seq2;technical complement from same cohort,not independent replication"],
+  "quality_gates": ["human primary tumor tissue,not cultured malignant-only models", "explicit patient labels and GBM/IDH status", "author cell labels supported by CNV where available", "unintegrated expression values with documented scale", "exact cell ID alignment", "exclude explicit doublets,non-GBM and normal specimens"],
+  "selection_not_based_on_LYPLA1_direction": true,
+  "unit": "patient;pool regions within patient;primary tumors separately when status explicit;never treat cells or repeated regions as independent patients",
+  "main_minimum_cells_per_patient_category": 20,
+  "sensitivity_minimum_cells_per_patient_category": 50,
+  "minimum_matched_patients_for_test": 10,
+  "main_contrast": "Malignant minus Myeloid within the same patients",
+  "predefined_comparators": ["Myeloid", "Lymphoid", "Oligodendrocyte", "Astrocyte", "Neuron", "OPC", "Vascular", "All_nonmalignant"],
+  "expression": "within-platform patient mean unintegrated log-normalized expression;do not renormalize a normalized matrix;never directly compare platform absolute values",
+  "test": "two-sided paired Wilcoxon signed rank on patient means;BH across evaluable predefined eight comparators within each cohort/partition/threshold family",
+  "interval": "10000 paired-patient bootstrap draws for mean difference;seed20260928;descriptive postselected-gene inference",
+  "additional": ["patient-equal detection fractions", "positive paired-difference fraction", "core-only sensitivity if tissue metadata explicit", "retain old CARE10x primary and recurrent profiles for within-patient comparisons;not new independent datasets"],
+  "claim_gate": "positive effect with q<0.05 supports relative enrichment only against the named comparator;general malignant-specific enrichment requires consistent comparisons,not a favorable subset",
+  "scope": "User-requested targeted LYPLA1 follow-up;previous all142/171 integration and bulk statistics preserved;no automatic mechanistic analyses",
+  "data_residence": "server165 for all cell/patient matrices and metadata;only aggregates and provenance public"
+}

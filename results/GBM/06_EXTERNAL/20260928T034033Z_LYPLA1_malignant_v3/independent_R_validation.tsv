@@ -1,0 +1,4 @@
+check	max_absolute_error	status	R_version
+paired_effect	2.22044604925031e-16	PASS	R version 4.3.3 (2024-02-29)
+Wilcoxon_P	2.4980018054066e-16	PASS	R version 4.3.3 (2024-02-29)
+BH_q	2.77555756156289e-16	PASS	R version 4.3.3 (2024-02-29)

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "exact_cell_ID_alignment": true,
+  "clinical_patient_count_check": true,
+  "independent_metadata_downloads_identical": true,
+  "source_cells": 128375,
+  "source_patients": 16,
+  "source_to_patient_sum_max_error": 3.637978807091713e-12,
+  "paired_comparisons": 112,
+  "predefined_comparators_per_family": 8,
+  "matched_patient_effect_P_BH_independently_verified_in_R": true,
+  "unpublished_patient_values": "server165 only",
+  "limitations": [
+    "SS2 lacks verified cell type/CNV labels in inspected source files",
+    "SNUH missing treatment timing;not claimed untreated",
+    "author CNV labels reused;raw reads/CNV not independently rerun",
+    "hypothesis targeted after LYPLA1 selection;exploratory inference"
+  ]
+}

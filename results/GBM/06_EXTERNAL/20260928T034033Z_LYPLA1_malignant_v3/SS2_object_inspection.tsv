@@ -1,0 +1,2 @@
+object_class	genes	nuclei	object_annotation	status	reason
+data.frame	23686	14401	gene_id column plus expression columns;no Seurat metadata slots	NOT_EVALUABLE	need verified cell-type/CNV labels to compare malignant and nonmalignant cells

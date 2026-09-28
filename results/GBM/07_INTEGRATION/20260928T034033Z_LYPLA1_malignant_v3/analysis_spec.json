@@ -1,0 +1,5 @@
+{
+  "analysis_version": "gbm_lypla1_malignant_v3",
+  "numerical_source": "results/GBM/06_EXTERNAL/20260928T034033Z_LYPLA1_malignant_v3",
+  "scope": "targeted interpretation;historical all142 preserved"
+}
