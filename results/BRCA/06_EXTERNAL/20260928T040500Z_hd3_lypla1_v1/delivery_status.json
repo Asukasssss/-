@@ -1,5 +1,6 @@
 {
   "spatial_exploration": "DONE",
   "cancer_vs_normal_epithelium": "NOT_EVALUABLE",
-  "github_upload": "NOT_RUN"
+  "github_upload": "DONE",
+  "verified_remote_commit": "99b62bf099b11d362c79f02f1080d95dad9b92d7"
 }

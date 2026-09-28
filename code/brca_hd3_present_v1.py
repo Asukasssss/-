@@ -20,7 +20,7 @@ readme=f'''# LYPLA1：乳腺癌 Visium HD 3′ 空间探索
 寻找 HD 空间转录组并实际分析 LYPLA1 的空间表达；优先保留癌区/正常上皮比较所需的证据边界。
 
 ## 输入与范围
-采用 [PacBio 公开数据](https://downloads.pacbcloud.com/public/dataset/Kinnex-single-cell-RNA/DATA-RevioSPRQ-Kinnex-VisiumHD-humanBreast/)，Visium HD 3′ 建库联合 Kinnex 长读长测序，供者为一位70岁女性，来源说明为浸润性导管癌、新鲜冰冻组织。技术来源：[厂商应用说明](https://www.pacb.com/wp-content/uploads/Application-note-Kinnex-single-cell-RNA-kit-for-10x-Visium-HD-3-Spatial-Gene-Expression.pdf)。分析使用基因级 Kinnex 处理矩阵，不将报告中的短读长流程统计冒充本矩阵统计。
+采用 [PacBio 公开数据](https://downloads.pacbcloud.com/public/dataset/Kinnex-single-cell-RNA/DATA-RevioSPRQ-Kinnex-VisiumHD-humanBreast/)，Visium HD 3′ 建库联合 Kinnex 长读长测序，供者为一位70岁女性，来源说明为浸润性导管癌、新鲜冰冻组织。技术来源：[厂商应用说明](https://www.pacb.com/wp-content/uploads/Application-note-Kinnex-single-cell-RNA-kit-for-10x-Visium-HD-3-Spatial-Gene-Expression.pdf)。分析使用基因级 Kinnex 处理矩阵，不将web_summary中另一处理流程的统计冒充本矩阵统计。
 
 输入为22,854个特征、3,672,073个2 μm空间条码、18,721,468个非零项。原始 LYPLA1 特征计数共11,408；另外 LYPLA1+TCEA1 联合特征的1个计数未并入目标基因。
 
