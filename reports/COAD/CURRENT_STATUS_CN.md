@@ -1,4 +1,8 @@
-# 最新：LYPLA1表达UMAP已完成
+# 最新：LYPLA1上皮分组UMAP已完成
+
+[上皮分组与LYPLA1表达UMAP](../../results/COAD/06_EXTERNAL/20260928T034349Z_lypla1_epithelial_umap_v1/README_CN.md)：同一既有坐标展示CNA、CNN、正常参照三组（4477/7885/16138细胞），附统一色标的三组分面。保留身份冲突与未纳入细胞作背景，不重算降维、不新增P/q。CNN不等于已证实非恶性。
+
+# LYPLA1表达UMAP已完成
 
 [全细胞及组织分面图](../../results/COAD/06_EXTERNAL/20260928T031628Z_lypla1_umap_v1/README_CN.md)：复用Uhlitz全68,702细胞、12供者的既有UMAP坐标，叠加LYPLA1 log1pCP10K表达。细胞ID全部匹配，肿瘤/正常共享色标，不重算坐标、不做新P/q；不将组织来源当恶性身份。
 

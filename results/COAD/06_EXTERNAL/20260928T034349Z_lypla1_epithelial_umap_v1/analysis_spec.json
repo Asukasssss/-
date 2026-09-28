@@ -1,0 +1,20 @@
+{
+  "analysis_version": "COAD_LYPLA1_epithelial_UMAP_v1",
+  "code_lock_commit": "3f8f994c7ea13e6bded9a3e1987b9e85967a79ca",
+  "coordinate_run": "20260928T025513Z_uhlitz_umap_v1",
+  "expression_run": "20260928T031628Z_lypla1_umap_v1",
+  "coordinates_recomputed": false,
+  "expression_scale": "log1p(CP10K)",
+  "vmin": 0,
+  "vmax": 3.448125505513642,
+  "color_clipping": false,
+  "group_rule": "reuse run_uckl1_cna_v1.build_labels;exclude whole conflicting donor;normal reference excludes TC labels",
+  "excluded_display": "annotation explicit;expression pale background only",
+  "new_tests": false,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3",
+    "matplotlib": "3.6.3"
+  }
+}
