@@ -1,0 +1,8 @@
+{
+  "positive_fractions_valid": true,
+  "positive_counts_integral": true,
+  "source_rows": 2,
+  "individual_data_accessed": false,
+  "malignant_minus_normal_mean": 0.00018394364730422996,
+  "status": "DONE"
+}
