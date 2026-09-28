@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "GEO sample-level linkage only",
+  "n_samples": 27,
+  "all27_input_samples_linked": true,
+  "unique_sample_and_accession": true,
+  "missing_characteristics": false,
+  "metadata_sha256": "8acb334e1bf2feb8547c3f68d7298763844582f44b662006ec0d332f2b2b3ea7",
+  "metadata_bytes": 4880,
+  "limits": [
+    "Title identifies sample; patient uniqueness relies on original study description and is not independently clinically audited",
+    "Stage is not tissue; metastatic stage primary specimens stay in primary-tissue stratum",
+    "Input barcodes are unannotated cells, not final author QC or malignant cells",
+    "Malignancy and basal/classical labels unresolved"
+  ]
+}
