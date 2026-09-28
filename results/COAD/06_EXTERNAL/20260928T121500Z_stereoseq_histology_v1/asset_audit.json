@@ -1,0 +1,57 @@
+{
+  "source_files": [
+    {
+      "file": "41467_2024_54710_MOESM1_ESM.pdf",
+      "bytes": 3716846,
+      "sha256": "6f97dc68fb6eca3695f16b2c4d212ce8e62401ce4bf72df787d1caba595ad1e3"
+    },
+    {
+      "file": "41467_2024_54710_MOESM4_ESM.xlsx",
+      "bytes": 13169,
+      "sha256": "01c0084b34212a8504a96bb6a6849bd4ef31359f89f69c82e31332a52b1095f3"
+    },
+    {
+      "file": "41467_2024_54710_MOESM9_ESM.xlsx",
+      "bytes": 33294070,
+      "sha256": "7db08117bfc3e825284d6937c1432af8c9a954dac9fc7ffb6fb6cd1e607d0880"
+    },
+    {
+      "file": "PMC11599708_supplementary.zip",
+      "bytes": 51652957,
+      "sha256": "32a4ddf9961b09df4b4d84211d5cae4702362d109d9a0fd311c7464c657455b6"
+    }
+  ],
+  "archive_integrity": "PASS",
+  "source_data_sheets": [
+    "fig3e",
+    "fig5h",
+    "fig5i",
+    "fig6j",
+    "fig S9a",
+    "fig s9b",
+    "fig s9c",
+    "fig s9d"
+  ],
+  "source_data_media": [
+    "xl/media/image11.png",
+    "xl/media/image1.png",
+    "xl/media/image2.png",
+    "xl/media/image3.png",
+    "xl/media/image4.png",
+    "xl/media/image5.png",
+    "xl/media/image6.png",
+    "xl/media/image7.png",
+    "xl/media/image8.png",
+    "xl/media/image9.png",
+    "xl/media/image10.png",
+    "xl/media/image12.png",
+    "xl/media/image13.png",
+    "xl/media/image14.png",
+    "xl/media/image15.png",
+    "xl/media/image16.png",
+    "xl/media/image17.png",
+    "xl/media/image18.png",
+    "xl/media/image19.png"
+  ],
+  "note": "Media contact sheet is for visual source classification; not a new tissue analysis."
+}

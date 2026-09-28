@@ -1,0 +1,12 @@
+{
+  "version": "COAD_StereoSeq_histology_v1",
+  "parent_commit": "cece6a168c4d0a73f41f352726155f80e6c52039",
+  "scope": "Public histology source audit; no new biological analysis",
+  "unit": "published figure / source asset",
+  "tests": 0,
+  "test_family": "NA",
+  "seed": "NA",
+  "render_command": "pdftoppm -f 4 -l 4 -singlefile -scale-to 2400 -png 41467_2024_54710_MOESM1_ESM.pdf author_supplement_figure2_page4",
+  "license": "CC BY-NC-ND 4.0; complete page reproduced without scientific alteration; attribution in README",
+  "new_registration": false
+}
