@@ -53,7 +53,14 @@ for rec in records:
  xy=np.column_stack([pos.px, pos.py])*sc['tissue_hires_scalef'];radius=sc['spot_diameter_fullres']*sc['tissue_hires_scalef']/2
  total=np.asarray(m.sum(axis=0)).ravel();ng=np.diff(m.indptr);mt=np.asarray(m[np.char.startswith(genes.astype(str),'MT-')].sum(axis=0)).ravel()/np.maximum(total,1)
  ok=(total>=500)&(ng>=200)&(mt<=.25)&(pos.in_tissue.to_numpy()==1)
- ii=np.flatnonzero(genes=='LYPLA1');assert len(ii)==1;counts=m[ii[0]].toarray().ravel();y=np.log1p(counts/np.maximum(total,1)*1e4)
+ ii=np.flatnonzero(genes=='LYPLA1')
+ if len(ii)==0:
+  rows.append({'sample':sid,'gsm':gsm,'cohort':rec['metadata']['series_id'],'title':title,'mode':'coverage','n_cancer':None,'n_normal':None,'status':'NOT_EVALUABLE','reason':'LYPLA1 and ENSG00000120992 absent from source feature list; not zero expression'})
+  checks.append({'sample':sid,'gene_present':False,'feature_count':len(genes),'polygon_image_dimensions_match':True})
+  for fp in sorted(d.rglob('*')):
+   if fp.is_file():hashes.append({'sample':sid,'path':str(fp),'sha256':hashlib.sha256(fp.read_bytes()).hexdigest()})
+  continue
+ assert len(ii)==1;counts=m[ii[0]].toarray().ravel();y=np.log1p(counts/np.maximum(total,1)*1e4)
  paths=[];names=[];center=[];interior=[]
  ang=np.arange(24)*2*np.pi/24
  for t in p['data']:
