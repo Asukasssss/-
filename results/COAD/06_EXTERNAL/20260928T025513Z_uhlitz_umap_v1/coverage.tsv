@@ -1,0 +1,25 @@
+display_type	sample_origin	cells	donors
+B cells	Normal	1605	10
+B cells	Tumor	1948	11
+CD8+ T cells	Normal	1817	11
+CD8+ T cells	Tumor	4087	12
+Conventional T cells	Normal	2107	11
+Conventional T cells	Tumor	4699	12
+Endothelial cells	Normal	105	8
+Endothelial cells	Tumor	531	11
+Epithelial cells	Normal	17874	11
+Epithelial cells	Tumor	13373	12
+Fibroblasts	Normal	662	8
+Fibroblasts	Tumor	1324	11
+Glial cells	Normal	42	7
+Glial cells	Tumor	73	8
+Mast cells	Normal	102	10
+Mast cells	Tumor	411	11
+Monocytes	Normal	311	9
+Monocytes	Tumor	2980	12
+Pericytes	Normal	17	5
+Pericytes	Tumor	249	11
+Plasma cells	Normal	5563	11
+Plasma cells	Tumor	6598	12
+Regulatory T cells	Normal	264	10
+Regulatory T cells	Tumor	1960	12

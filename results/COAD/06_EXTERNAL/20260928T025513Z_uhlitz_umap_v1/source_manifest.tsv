@@ -1,0 +1,3 @@
+source_id	server_path	url	sha256
+counts.tar	/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/coad_uhlitz_20260921/counts.tar	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE166nnn/GSE166555/suppl/GSE166555_RAW.tar	c5f7c1927be41f27778f5550de46c25b55bdabd60066b87ba4a6bd0d2c6e6b76
+metadata.tsv.gz	/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/coad_uhlitz_20260921/metadata.tsv.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE166nnn/GSE166555/suppl/GSE166555_meta_data.tsv.gz	4aba042a64a71507db4fad088c8a03510a50a4e9b4202b9bab8d6b07e15303d5

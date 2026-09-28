@@ -1,0 +1,19 @@
+original_label	display_label	cells
+Epithelial	Epithelial cells	31247
+B cells	B cells	3421
+GC B cells	B cells	132
+Plasma K	Plasma cells	8437
+Plasma L	Plasma cells	3724
+Tconv	Conventional T cells	6806
+CD8+ T	CD8+ T cells	5904
+Treg	Regulatory T cells	2224
+Monocyte	Monocytes	3291
+Mast	Mast cells	513
+Endothelial	Endothelial cells	636
+CB FBs	Fibroblasts	479
+MyoFBs	Fibroblasts	470
+CAFs	Fibroblasts	414
+CCL FBs	Fibroblasts	326
+UC FBs	Fibroblasts	297
+Pericytes	Pericytes	266
+Glia	Glial cells	115

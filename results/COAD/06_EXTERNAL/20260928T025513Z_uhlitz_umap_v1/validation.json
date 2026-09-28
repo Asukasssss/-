@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "cells": 68702,
+  "donors": 12,
+  "tumor_cells": 38233,
+  "normal_cells": 30469,
+  "display_categories": 12,
+  "coordinate_origin": "PROJECT_RECOMPUTED",
+  "author_coordinates_available": false,
+  "coordinates_finite": true,
+  "cell_ids_unique": true,
+  "annotation_complete": true,
+  "sum_coverage": 68702,
+  "no_new_clustering": true,
+  "no_new_P_q": true,
+  "individual_records_exported": false,
+  "software": {
+    "python": "3.8.10",
+    "scanpy": "1.9.8",
+    "numpy": "1.24.4",
+    "matplotlib": "3.6.3"
+  }
+}
