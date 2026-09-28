@@ -1,0 +1,290 @@
+[
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000311",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000650",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000311/STTS0000650",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000311/STTS0000650/STexpression_CRCP24_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000311/STTS0000650/STmetadata_CRCP24_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000312",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000651",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000312/STTS0000651",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000312/STTS0000651/STexpression_CRCP25_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000312/STTS0000651/STmetadata_CRCP25_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000313",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000652",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000313/STTS0000652",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000313/STTS0000652/STexpression_CRCP50_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000313/STTS0000652/STmetadata_CRCP50_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000314",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000653",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000314/STTS0000653",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000314/STTS0000653/STexpression_CRCP55_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000314/STTS0000653/STmetadata_CRCP55_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000315",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000654",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000315/STTS0000654",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000315/STTS0000654/STexpression_CRCP56_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000315/STTS0000654/STmetadata_CRCP56_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000316",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000655",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000316/STTS0000655",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000316/STTS0000655/STexpression_CRCP59_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000316/STTS0000655/STmetadata_CRCP59_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000317",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000656",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000317/STTS0000656",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000317/STTS0000656/STexpression_CRCP59_T_2.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000317/STTS0000656/STmetadata_CRCP59_T_2.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000318",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000657",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000318/STTS0000657",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000318/STTS0000657/STexpression_CRCP61_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000318/STTS0000657/STmetadata_CRCP61_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000319",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000658",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000319/STTS0000658",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000319/STTS0000658/STexpression_CRCP67_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000319/STTS0000658/STmetadata_CRCP67_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000320",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000659",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000320/STTS0000659",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000320/STTS0000659/STexpression_CRCP71_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000320/STTS0000659/STmetadata_CRCP71_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000321",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000660",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000321/STTS0000660",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000321/STTS0000660/STexpression_CRCP95_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000321/STTS0000660/STmetadata_CRCP95_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000322",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000661",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000322/STTS0000661",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000322/STTS0000661/STexpression_CRCP99_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000322/STTS0000661/STmetadata_CRCP99_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000323",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000662",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000323/STTS0000662",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000323/STTS0000662/STexpression_CRCP100_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000323/STTS0000662/STmetadata_CRCP100_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000324",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000663",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000324/STTS0000663",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000324/STTS0000663/STexpression_CRCP107_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000324/STTS0000663/STmetadata_CRCP107_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000325",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000664",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000325/STTS0000664",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000325/STTS0000664/STexpression_CRCP112_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000325/STTS0000664/STmetadata_CRCP112_T.csv"
+    ]
+  },
+  {
+    "project": "STT0000036",
+    "sample": {
+      "label": "STSA0000326",
+      "is_sample_public": true
+    },
+    "tissue_section": "STTS0000665",
+    "organism": {
+      "label": "Homo sapiens",
+      "id": "9606"
+    },
+    "file_is_public": true,
+    "file_link": "http://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000326/STTS0000665",
+    "files": [
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000326/STTS0000665/STexpression_CRCP104_T.gem.gz",
+      "https://ftp.cngb.org/pub/stomics/STT0000036/Analysis/STSA0000326/STTS0000665/STmetadata_CRCP104_T.csv"
+    ]
+  }
+]
