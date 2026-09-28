@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "numeric_verification": {
+    "status": "PASS",
+    "independent_equal_donor_numeric_rows": 14331,
+    "independent_top_rows": 2061,
+    "cross_study_rows": 2061,
+    "all687_per_cohort": true,
+    "SC_no_P_q": true,
+    "normalization_function_tests": "Synthetic unequal cell libraries verified separately in server5test suite",
+    "not_replayed": [
+      "All raw single-cell rows independently re-extracted",
+      "All donor bootstrap draws independently replayed"
+    ],
+    "not_verified": [
+      "Clinical cross-study patient overlap",
+      "Malignant CNV",
+      "Mechanism"
+    ],
+    "identity_join": "PASS",
+    "unaffected_numeric_reuse": "PASS",
+    "malignancy": "Author labels only;no independent CNV recomputation"
+  },
+  "cell_join": {
+    "status": "PASS",
+    "selected_cells": 31215,
+    "unique_cell_ids": true,
+    "all_selected_cells_have_specific_label": true,
+    "same_cells_as_v3": true,
+    "exact_barcode_matrix_join": "Checked by unchanged raw reader",
+    "author_normal_cells": 350,
+    "author_malignant_cells": 10783,
+    "author_classical": 5660,
+    "author_basal": 5123,
+    "normal_overrides_broad_malignant": true,
+    "private_mapping_exported": false
+  },
+  "all687_retained": true,
+  "original_matrices_not_exported": true,
+  "figure_status": "PASS",
+  "remaining_identity_gaps": [
+    "GSE263733 exact-cell malignant labels",
+    "GSE278688 exact-cell malignant labels"
+  ],
+  "new_CNV_not_run": true,
+  "figure_validation": {
+    "status": "PASS",
+    "all30_contact_sheet_inspected": true,
+    "first_dotplot_last_heatmap_fullsize_checked": true,
+    "identity_labels_readable": true,
+    "legend_no_overlap": true,
+    "missing_shown_gray_not_zero": true,
+    "all687_alphabetical_no_P_filter": true
+  }
+}

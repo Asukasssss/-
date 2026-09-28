@@ -1,0 +1,8 @@
+{
+  "protocol": "docs/PDAC/PAIRED51_INTERNAL_V2_LOCK.md",
+  "version": "PDAC_paired51_internal_sc_v2",
+  "scope": "Full relation pool;descriptive tiers;not causal score",
+  "paired_metabolite_D_rule": "Available paired subset not evaluable or mean direction changed => D",
+  "RNA_significance_filter": false,
+  "rows": 722
+}

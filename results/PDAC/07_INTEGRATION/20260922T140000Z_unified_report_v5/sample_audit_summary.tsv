@@ -1,0 +1,8 @@
+scope	count	status	basis
+CAMP_tumor_specimens	27	DONE	Exact CAMP PDAC mapping
+CAMP_normal_specimens	12	DONE	Exact CAMP PDAC mapping
+tumor_author_distinct_pair_key	21	DONE	GSM join to explicit author pairing workbook;all unique
+tumor_missing_author_pair_key_excluded	6	DONE	Not assumed independent
+complete_CAMP_metabolite_and_RNA_pairs	11	DONE	Explicit author T/N pair groups
+tissue_label_conflicts	0	DONE	All39 checked;observed zero
+unmatched_CAMP_RNA_columns	0	DONE	All39 exact matrix column matches

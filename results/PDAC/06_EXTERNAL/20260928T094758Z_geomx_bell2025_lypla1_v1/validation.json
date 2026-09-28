@@ -1,0 +1,28 @@
+{
+  "gene": "LYPLA1",
+  "probe_qc_genes": 18677,
+  "retained_endogenous_genes": 7572,
+  "author_vst_genes": 7572,
+  "global_loq": 52.130695618971586,
+  "gene_present": true,
+  "gene_retained": true,
+  "author_vst_gene_present": true,
+  "all_source_md5_match": true,
+  "roi_keys_match": true,
+  "patients": 8,
+  "regions": 95,
+  "code_commit": "3c9df9c8000c9a153f3a8e7f948da6b4839b0b98",
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "scipy": "1.10.1",
+  "unverified": [
+    "Pure stromal enrichment",
+    "Single-cell localization",
+    "Cohort independence from prior datasets",
+    "Original raw-probe QC replication"
+  ],
+  "status": "DONE",
+  "n_contrasts": 12,
+  "n_evaluable": 12
+}

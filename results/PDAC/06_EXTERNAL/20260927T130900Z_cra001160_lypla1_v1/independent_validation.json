@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "annotation_count_and_unique_keys": "PASS",
+  "normalization_from_saved_raw_counts": "PASS",
+  "independent_csc_reextraction_two_original_matrices": "PASS",
+  "all_contrast_eligibility_counts_and_effects": "PASS",
+  "paired_direction_counts": "PASS",
+  "independent_BH_two_primary_contrasts": "PASS",
+  "not_validated": [
+    "No DNA-level malignancy verification",
+    "No complete original clinical patient audit",
+    "Monte Carlo P values are randomization estimates"
+  ]
+}

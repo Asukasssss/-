@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "comparison_rows_checked": 32,
+  "bh_families_checked": 4,
+  "histogram_totals_checked": 24,
+  "all_mean_equals_positive_mean_times_detection": true,
+  "exact_permutation_checks": [
+    {
+      "treatment": "Untreated",
+      "reference": "Ductal",
+      "population": "All_nuclei",
+      "n": 9,
+      "exact_sign_permutation_p": 0.00390625,
+      "recorded_monte_carlo_p": 0.0034799652003479
+    },
+    {
+      "treatment": "Untreated",
+      "reference": "Ductal",
+      "population": "LYPLA1_positive_nuclei",
+      "n": 7,
+      "exact_sign_permutation_p": 0.234375,
+      "recorded_monte_carlo_p": 0.2370076299237007
+    },
+    {
+      "treatment": "Untreated",
+      "reference": "Ductal (atypical)",
+      "population": "All_nuclei",
+      "n": 9,
+      "exact_sign_permutation_p": 0.01953125,
+      "recorded_monte_carlo_p": 0.0199998000019999
+    },
+    {
+      "treatment": "CRT",
+      "reference": "Ductal",
+      "population": "All_nuclei",
+      "n": 6,
+      "exact_sign_permutation_p": 0.03125,
+      "recorded_monte_carlo_p": 0.0318096819031809
+    },
+    {
+      "treatment": "CRT",
+      "reference": "Ductal (atypical)",
+      "population": "All_nuclei",
+      "n": 5,
+      "exact_sign_permutation_p": 0.0625,
+      "recorded_monte_carlo_p": 0.0622893771062289
+    },
+    {
+      "treatment": "Other",
+      "reference": "Ductal",
+      "population": "All_nuclei",
+      "n": 5,
+      "exact_sign_permutation_p": 0.5,
+      "recorded_monte_carlo_p": 0.5008449915500846
+    },
+    {
+      "treatment": "Other",
+      "reference": "Ductal (atypical)",
+      "population": "All_nuclei",
+      "n": 5,
+      "exact_sign_permutation_p": 0.75,
+      "recorded_monte_carlo_p": 0.7501724982750172
+    }
+  ]
+}

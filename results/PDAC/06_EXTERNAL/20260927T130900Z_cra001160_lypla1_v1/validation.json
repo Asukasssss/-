@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "original_author_cells": 57530,
+  "matched_cells": 57530,
+  "unique_cells": true,
+  "n_author_units": 35,
+  "n_tumor_units": 24,
+  "n_control_units": 11,
+  "nonnegative_integer_counts": true,
+  "lypla1_unique_each_matrix": true,
+  "all_gene_library_sizes": true,
+  "range_etag_and_length_verified": true,
+  "archive_sha256_verified": true,
+  "primary_family_size": 2,
+  "per_cell_statistics_exported": false,
+  "python": "3.8.10",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "scipy": "1.10.1",
+  "limitations": [
+    "Original author type1/type2 labels reused; no new CNV confirmation",
+    "Clinical independence and control diagnoses require original source context",
+    "No tumor-control pairing inferred from matching numeric suffixes",
+    "Cross-study independence from existing cohorts not independently established"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "base_commit": "9239959a17175222778301fdea6a094f9509242e",
+  "sha256": {
+    "lypla1_registered_spatial.py": "2ce433437637fae86b755a03ea248b6db09aa84809e4d9370fe6722fa06c5dfd",
+    "lypla1_registered_spatial_spec.json": "4733dfdfa9598a2da91932d6f68c893c2f9f4449c3c489cf4391283980a74758",
+    "report_registered_lypla1.py": "6aa980c267f19a786a34af5483ee1f2a48ae42fcdca2263b05de617be33d8cc9"
+  }
+}

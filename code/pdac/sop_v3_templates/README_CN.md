@@ -1,0 +1,12 @@
+# 空表与参数模板
+
+配套规范：docs/CAMP_DISCOVERY_TO_CELL_SOURCE_SOP_CN.md。
+这些文件只有表头，不是已完成分析或虚构结果；analysis_spec状态为TEMPLATE_NOT_RUN。复制到新癌种运行目录后填写已核实设计并冻结。不能直接把模板交付为DONE。
+
+table_catalog.tsv说明每表一行代表什么、允许保存范围。SERVER_PRIVATE表填入真实ID/测量后只存server165；空模板可以公开。PUBLIC_AGGREGATE为群组统计。主统计前缀继承仓库templates/statistical_result.tsv。
+
+效应主字段effect与effect_type配套；ci_lower/upper对应ci_estimand或明确的effect，不混用均值CI与秩相关CI。P/q不可测为NA并给reason；来源脚本/版本必须可追溯。相同统计量的补充列应核对一致。
+
+临床字段、状态和计数按SOP填写，不能照抄BRCA计数。规范中的软件选择分支必须在analysis_spec中确定；特别是原始RNA计数不可直接套配对t。相同数据旧统计只复用，新q单独版本。
+
+生成/校验空模板：python code/build_camp_source_sop_templates_v1.py。此命令不执行患者统计、不访问服务器、不上传真实数据。

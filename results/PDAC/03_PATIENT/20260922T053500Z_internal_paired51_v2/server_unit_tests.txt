@@ -1,0 +1,9 @@
+test_aliases_do_not_duplicate_one_measured_gene (test_internal_paired51_v2.GuardTests) ... ok
+test_blank_rna_is_not_valid_even_if_unique (test_internal_paired51_v2.GuardTests) ... ok
+test_exact_manifest_rejects_empty_missing_wrong_and_content_change (test_internal_paired51_v2.GuardTests) ... ok
+test_fixed_family_keeps_missing_hypothesis (test_internal_paired51_v2.GuardTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+OK

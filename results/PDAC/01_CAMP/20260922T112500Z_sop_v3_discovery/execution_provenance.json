@@ -1,0 +1,20 @@
+{
+  "base_code_commit": "109410a8f80537c428746e4551bdd760230a6e7f",
+  "SOP_commit": "6dd0a73fb77a392e428254ad265b8710ce967c73",
+  "new_code_sha256": {
+    "run_sop_v3_server.py": "a7ab1431081dccdef989b4a55c32867c9470f32dad7fdb03ad3875322d48fa60",
+    "sop_v3_math.py": "d8736accb2be8a4635200a551ab16cc7fb193427c32977274c2f295d55d1699a",
+    "sc_source_three_cohorts_v1.py": "f5fadc13d3a76824047dbd740af3b998814b12dc4ef4514c4ceb0f01d172b2f7",
+    "internal_paired51_v2.py": "1996adaab352dd3cbe0a76cb4984239f72a34d50a7dddcb68e66b8e3eba14416",
+    "patient_first_round.py": "5e0ca6da38290443722c6435091618cbb7fe6a9e04c7bbbf39a1c01ccc5c625f",
+    "paired_metabolites_v1.py": "52e39f0e0e103dfbdf67eaf82b6589caba84c16faf34413dd42c61470fbe1dda",
+    "prepare_sop_v3.py": "0b9e713415967c9d226aa211e14da3c1ca7588eb7ffb96ec15a04fc1fe012ed5",
+    "verify_sop_v3_local.py": "ddd0e0edfe752be63a521e86a6ae17d475b43b7ea595b53b76486d4fe7e8c652",
+    "test_sop_v3_math.py": "2762a694511141364919778ce4e2ceadbadda00d9d52807a1c20d48ea986a402"
+  },
+  "server_connectivity": "172.22.148.165 TCP22 timed out on2026-09-22",
+  "server_run_started": false,
+  "local_math_unit_tests": "5/5 PASS",
+  "independent_BH_and_aggregate_verification": "PASS;see independent_validation.json",
+  "scope": "Public aggregate reuse and versioned mapping;not server pipeline regression"
+}

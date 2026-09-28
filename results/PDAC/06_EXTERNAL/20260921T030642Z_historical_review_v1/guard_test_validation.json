@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "command": "python -m unittest discover -s code/pdac -p test_*.py",
+  "returncode": 0,
+  "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.072s\n\nOK\n",
+  "files": {
+    "code/pdac/source_readiness.py": "2b7e45466afab854374ded5492f9df9b62e61edbb1b9c7763b4cbd7904ba168e",
+    "code/pdac/test_source_readiness.py": "57989e415bcf048266fca4fa4fb98780ab2753c3386f789af19b9e6e354840e5",
+    "code/pdac/test_patient_first_round.py": "7f2537120b00edca99d0cf5ff319937923d56c4281942a751e3f74d6e5ce5a7a"
+  },
+  "patient_matrix_rerun": false
+}

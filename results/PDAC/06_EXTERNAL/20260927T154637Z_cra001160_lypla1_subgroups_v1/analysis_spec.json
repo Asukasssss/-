@@ -1,0 +1,14 @@
+{
+  "status": "PREPARATION_ACCESS_BLOCKED",
+  "gene": "LYPLA1",
+  "cohort": "CRA001160",
+  "scope": "ductal epithelial subgroups",
+  "contrasts": ["between subgroups within tissue", "within subgroup tumor-source versus control-source", "within subgroup malignant versus nonmalignant only if independent identity labels exist"],
+  "expression_populations": ["all cells", "raw LYPLA1 count > 0"],
+  "detection_denominator": "all cells in the group",
+  "required_outputs": ["cell count", "donor count", "donor composition", "detection proportion", "mean and median log1p(10000*count/library)", "effect size", "P", "BH q", "donor-level sensitivity"],
+  "unavailable_comparisons": "NOT_EVALUABLE with explicit reason",
+  "label_priority": "verified author per-cell subgroups; otherwise separately specified exploratory reclustering excluding LYPLA1 from clustering features",
+  "numerical_parameters_frozen": false,
+  "reason": "Subgroup labels and design support must be verified before freezing comparison families; no numerical analysis has run."
+}

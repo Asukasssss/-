@@ -1,0 +1,13 @@
+{
+  "status": "ACCESS_BLOCKED",
+  "M": 362,
+  "G": 289,
+  "minimum_n": 8,
+  "permutations": 9999,
+  "bootstrap": 4000,
+  "BH": "fixed M362 separate primary/availability;public NA retained",
+  "independence": "unverified author specimens; explicit exploratory assumption",
+  "gene_expression": "descriptive until design confirmed",
+  "hash_mismatch": "fail closed",
+  "seed_reuse": "relation+actual arrays+mask+method cache"
+}

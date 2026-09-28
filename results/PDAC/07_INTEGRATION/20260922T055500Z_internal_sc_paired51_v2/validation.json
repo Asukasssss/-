@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "all51_metabolites_retained": true,
+  "all715_relations_retained": true,
+  "all538_genes_appended": true,
+  "pre_scRNA_unchanged_after_append": true,
+  "no_significance_gate": true,
+  "external_validation": "NOT_PERFORMED"
+}

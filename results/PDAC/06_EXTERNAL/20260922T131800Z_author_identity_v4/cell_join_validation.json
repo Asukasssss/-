@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "selected_cells": 31215,
+  "unique_cell_ids": true,
+  "all_selected_cells_have_specific_label": true,
+  "same_cells_as_v3": true,
+  "exact_barcode_matrix_join": "Checked by unchanged raw reader",
+  "author_normal_cells": 350,
+  "author_malignant_cells": 10783,
+  "author_classical": 5660,
+  "author_basal": 5123,
+  "normal_overrides_broad_malignant": true,
+  "private_mapping_exported": false
+}

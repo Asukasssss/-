@@ -1,0 +1,12 @@
+{
+  "features": 51,
+  "M": 357,
+  "G": 250,
+  "feature_status_counts": {
+    "CONDITIONAL_ONLY": 12,
+    "DIRECT_RELATION_FOUND": 30,
+    "IDENTITY_REVIEW_REQUIRED": 3,
+    "NO_RELIABLE_EXACT_RELATION_FOUND_IN_SCOPE": 6
+  },
+  "conditional_unique_pairs": 382
+}

@@ -1,0 +1,17 @@
+{
+  "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/camp_primary_tissue_multicancer/metadata/MasterMapping_MetImmune_03_16_2022_release.csv": {
+    "current": "7a5332cfdeba3cc055d79ef223c95a3c8f18ecf6a7058fafd72b390aec62dce7",
+    "historical": "7a5332cfdeba3cc055d79ef223c95a3c8f18ecf6a7058fafd72b390aec62dce7",
+    "equal": true
+  },
+  "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/camp_primary_tissue_multicancer/processed_metabolomics/PreprocessedData_PDAC.xlsx": {
+    "current": "e5f408848824394d6be875d7284b77d0a0aabd433d0f2db8ebe01886c29a7ecd",
+    "historical": "e5f408848824394d6be875d7284b77d0a0aabd433d0f2db8ebe01886c29a7ecd",
+    "equal": true
+  },
+  "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/camp_primary_tissue_multicancer/gene_batch_reuse_20260910/pancancer_metabolomics/data/transcriptomics_processed/GSE62452.hugene10st.gene_symbol.csv": {
+    "current": "d2fb75b102cb5adf7264b66e6664e5b2b0a07241b3f9901f125c78959da2e8ba",
+    "historical": "d2fb75b102cb5adf7264b66e6664e5b2b0a07241b3f9901f125c78959da2e8ba",
+    "equal": true
+  }
+}

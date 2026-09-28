@@ -1,0 +1,31 @@
+{
+  "status": "DONE_PRESENTATION_WITH_DOCUMENTED_RESEARCH_GAPS",
+  "counts": {
+    "metabolites": 307,
+    "workpool": 51,
+    "relations": 357,
+    "genes": 687,
+    "current_genes": 250
+  },
+  "input_commit": "2971100b37e40d66a88cf89102c0fd3a56b7bcee",
+  "new_P_q": 0,
+  "raw_patient_data_used": false,
+  "report_pages": 16,
+  "new_figures": 97,
+  "reused_assets": 30,
+  "appendix_tables_preserved": true,
+  "text_boxes_fit": true,
+  "modules": {
+    "rna": "DONE",
+    "subtypes": "NOT_RUN",
+    "single_cell": "DONE"
+  },
+  "visual_review": "PASS",
+  "cross_cancer_real_data_validation": "NOT_RUN",
+  "workbook_native_validation": "PASS",
+  "new_statistics": 0,
+  "clinical_identity": "NEEDS_REVIEW",
+  "malignant_identity": "PARTIAL",
+  "subtypes": "NOT_RUN",
+  "UMAP": "NOT_RUN"
+}

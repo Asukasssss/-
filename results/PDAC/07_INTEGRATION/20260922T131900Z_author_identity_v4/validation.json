@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "all51_features_have_destination": true,
+  "all715_relation_rows_unique": true,
+  "all687_stable_gene_rows_unique": true,
+  "current250_equals_DIRECT_gene_set": true,
+  "no_RNA_or_correlation_gate_for_SC": true,
+  "complete_key_numeric_joins_checked": true,
+  "all362_original42_relation_ids_indexed": true,
+  "old_numbers_not_modified": true,
+  "not_proven": [
+    "Clinical patient independent identity",
+    "Aliquot-level equality",
+    "Mechanism",
+    "External matched-omics replication"
+  ],
+  "patient_all_numeric_fields_unchanged": true,
+  "patient_numeric_field_count": 37,
+  "strict_identity_labels": true
+}

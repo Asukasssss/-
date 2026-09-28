@@ -1,0 +1,5 @@
+{
+  "main_png": "PASS: real H&E visible; labels readable; no clipping; registration limitation explicit",
+  "reference_png": "PASS: all eight panels visible; distinct scales; no interpolation",
+  "review": "Visual inspection of final PNGs"
+}

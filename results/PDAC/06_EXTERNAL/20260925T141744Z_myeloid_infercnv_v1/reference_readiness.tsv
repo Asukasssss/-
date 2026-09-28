@@ -1,0 +1,4 @@
+cancer	cohort	stage_id	run_id	analysis_version	n_units_total	n_units_reference_eligible	n_myeloid_total	n_myeloid_reference_eligible	status	reason
+PDAC	GSE263733	06_EXTERNAL	20260925T141744Z_myeloid_infercnv_v1	myeloid_infercnv_v1	21	11	9381	5078	DONE	Metadata preflight only;CNV not yet run;at least50 myeloid,T and B cells per author unit
+PDAC	GSE278688	06_EXTERNAL	20260925T141744Z_myeloid_infercnv_v1	myeloid_infercnv_v1	13	11	5654	5143	DONE	Metadata preflight only;CNV not yet run;at least50 myeloid,T and B cells per author unit
+PDAC	GSE242230	06_EXTERNAL	20260925T141744Z_myeloid_infercnv_v1	myeloid_infercnv_v1	25	9	6246	3932	DONE	Metadata preflight only;CNV not yet run;at least50 myeloid,T and B cells per author unit

@@ -1,0 +1,66 @@
+{
+  "cohorts": [
+    {
+      "cohort": "GSE263733",
+      "cells_included": 46148,
+      "units_included": 21,
+      "target_genes": 173,
+      "genes_in_matrix": 168,
+      "author_celltypes": 7,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "GK3",
+        "LARS1",
+        "PNLIPRP2",
+        "WARS1"
+      ]
+    },
+    {
+      "cohort": "GSE278688",
+      "cells_included": 71414,
+      "units_included": 13,
+      "target_genes": 173,
+      "genes_in_matrix": 167,
+      "author_celltypes": 13,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "AWAT2",
+        "GK3",
+        "LARS1",
+        "PNLIPRP2",
+        "WARS1"
+      ]
+    },
+    {
+      "cohort": "GSE242230",
+      "cells_included": 31215,
+      "units_included": 25,
+      "target_genes": 173,
+      "genes_in_matrix": 168,
+      "author_celltypes": 12,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "GK3",
+        "LARS1",
+        "PNLIPRP2",
+        "WARS1"
+      ]
+    }
+  ],
+  "cells": 148777,
+  "genes": 173,
+  "paired_metabolites": 51,
+  "metabolites_with_existing_mapping": 25,
+  "metabolites_mapping_pending": 26,
+  "three_cohort_top_agreement": 80,
+  "two_cohort_top_agreement": 65,
+  "other_or_unevaluable": 28,
+  "relation_rows": 262,
+  "new_P_q": false
+}

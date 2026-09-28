@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "all_planned_rows_retained": true,
+  "fixed_M_BH": true,
+  "historical_hash_gate": true,
+  "not_verified": [
+    "patient independence",
+    "causal function",
+    "direction of frozen g"
+  ]
+}

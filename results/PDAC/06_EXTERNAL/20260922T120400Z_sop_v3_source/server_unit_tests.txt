@@ -1,0 +1,10 @@
+test_bh_missing_excluded (test_sop_v3_math.SOPMath) ... ok
+test_cellwise_not_pseudobulk (test_sop_v3_math.SOPMath) ... ok
+test_source_ties_low_signal_and_coverage (test_sop_v3_math.SOPMath) ... ok
+test_t_matches_scipy_independent (test_sop_v3_math.SOPMath) ... ok
+test_unequal_cell_counts_still_equal_donor (test_sop_v3_math.SOPMath) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.450s
+
+OK

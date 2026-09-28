@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "independent_paired_t_and_CI_rows": 676,
+  "independent_bootstrap_replays": 676,
+  "independent_BH_families": 2,
+  "current_gene_P005_view_count": 91,
+  "all687_and_private_separation": true,
+  "not_verified": [
+    "Clinical identity recertification",
+    "same aliquot",
+    "external replication"
+  ]
+}

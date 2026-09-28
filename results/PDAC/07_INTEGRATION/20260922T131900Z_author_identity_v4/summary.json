@@ -1,0 +1,55 @@
+{
+  "relations": 715,
+  "genes": 687,
+  "current_direct_genes": 250,
+  "workpool": 51,
+  "unmapped_preserved": 7,
+  "all3_same_top_genes": 120,
+  "all3_top_bootstrap_ge080_genes": 72,
+  "all3_top_bootstrap_ge080_current_genes": 30,
+  "RNA_current": {
+    "planned": 250,
+    "evaluable": 247,
+    "P_lt005": 91,
+    "q_lt005": 40
+  },
+  "source_cohorts": [
+    {
+      "cohort": "GSE263733",
+      "cells": 46148,
+      "source_labels": 21,
+      "genes": 687,
+      "matrix_resolved": 681
+    },
+    {
+      "cohort": "GSE278688",
+      "cells": 71414,
+      "source_labels": 13,
+      "genes": 687,
+      "matrix_resolved": 682
+    },
+    {
+      "cohort": "GSE242230",
+      "cells": 31215,
+      "source_labels": 25,
+      "genes": 687,
+      "matrix_resolved": 684
+    }
+  ],
+  "no_composite_score": true,
+  "old_all3_top_bootstrap_ge080_genes": 158,
+  "old_current_stable": 65,
+  "GSE242230_broad_lineage_top_changes": 146,
+  "GSE242230_new_top_counts": {
+    "Normal epithelial (author)": 269,
+    "NOT_EVALUABLE": 77,
+    "Malignant (author)": 76,
+    "Fibroblast/CAF": 67,
+    "Myeloid": 67,
+    "Endothelial": 57,
+    "T/NK": 49,
+    "Erythrocyte": 13,
+    "B/Plasma": 12
+  },
+  "patient_numeric_fields_preserved": 37
+}

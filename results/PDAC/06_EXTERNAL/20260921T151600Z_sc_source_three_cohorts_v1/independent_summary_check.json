@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "aggregate_rows_rechecked": 10034,
+  "genes_cross_cohort_checked": 173,
+  "scope": "Recompute per-unit normalization and summary arithmetic from private pseudobulk;not independent reannotation",
+  "unit_records_exported": false
+}

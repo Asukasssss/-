@@ -1,0 +1,10 @@
+{
+  "base_renderer_sha256": "ee254fa87df83904744ac08e15b587466a48edc9fba281a9bf9d1f7764cb3c4a",
+  "handoff_commit": "45c6ae9ab489a9bd4ead4e47d28185785a448156",
+  "changes": [
+    "two missing/source coverage pages",
+    "non-direct pool label clarified",
+    "Artifact Tool workbook JSON instead of openpyxl export"
+  ],
+  "new_statistics": 0
+}

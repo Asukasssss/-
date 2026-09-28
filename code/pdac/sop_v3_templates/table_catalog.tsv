@@ -1,0 +1,32 @@
+file	row_grain	data_scope	n_columns
+sample_identity_audit_private.tsv	one author specimen linkage	SERVER_PRIVATE	14
+metabolite_pairs_private.tsv	one explicit patient pair	SERVER_PRIVATE	9
+RNA_pairs_private.tsv	one explicit RNA patient pair	SERVER_PRIVATE	9
+tumor_multiomics_map_private.tsv	one independent tumor analysis unit	SERVER_PRIVATE	12
+sample_audit_summary.tsv	one audit item, no identifiers	PUBLIC_AGGREGATE	10
+source_manifest.tsv	one input file	PUBLIC_PROVENANCE	11
+metabolite_paired.tsv	one metabolite feature within a named analysis family	PUBLIC_AGGREGATE	51
+metabolite_available_sensitivity.tsv	one metabolite feature within a named analysis family	PUBLIC_AGGREGATE	51
+metabolite_workpool.tsv	one metabolite feature within a named analysis family	PUBLIC_AGGREGATE	51
+metabolite_direction_ranking.tsv	one metabolite feature within a named analysis family	PUBLIC_AGGREGATE	51
+metabolite_identity.tsv	one source feature	PUBLIC_ANNOTATION	13
+mapping_evidence.tsv	one evidence source per relation	PUBLIC_ANNOTATION	20
+direct_relations.tsv	one unique direct relation	PUBLIC_ANNOTATION	20
+conditional_relations.tsv	one unresolved conditional relation	PUBLIC_ANNOTATION	20
+gene_pool_current.tsv	one stable gene identity	PUBLIC_ANNOTATION	11
+gene_pool_history_union.tsv	one stable gene identity	PUBLIC_ANNOTATION	11
+tumor_association.tsv	one exact metabolite-gene relation in one cohort/family	PUBLIC_AGGREGATE	42
+tumor_association_available.tsv	one exact metabolite-gene relation in one cohort/family	PUBLIC_AGGREGATE	42
+relation_coverage.tsv	one relation and cohort	PUBLIC_AGGREGATE	13
+paired_RNA.tsv	one gene within RNA contrast/family	PUBLIC_AGGREGATE	44
+RNA_P005_view.tsv	one gene within RNA contrast/family	PUBLIC_AGGREGATE	44
+RNA_identity_coverage.tsv	one requested gene and platform	PUBLIC_ANNOTATION	10
+sc_dataset_registry.tsv	one scRNA study release	PUBLIC_PROVENANCE	15
+sc_annotation_map.tsv	one author class to coarse class	PUBLIC_ANNOTATION	9
+sc_gene_coverage.tsv	one requested gene and study	PUBLIC_ANNOTATION	10
+sc_donor_profiles_private.tsv	one donor-celltype-gene-partition	SERVER_PRIVATE	13
+sc_celltype_profiles.tsv	one gene-celltype-study-partition	PUBLIC_AGGREGATE	36
+sc_source_stability.tsv	one gene-study-partition	PUBLIC_AGGREGATE	22
+sc_cross_study.tsv	one gene and explicit study pair	PUBLIC_AGGREGATE	17
+candidate_relations_integrated.tsv	one relation with explicit source versions	PUBLIC_AGGREGATE	31
+candidate_genes_integrated.tsv	one gene in history union	PUBLIC_AGGREGATE	17

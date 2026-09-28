@@ -1,0 +1,17 @@
+{
+  "code_commit": "b52b42f4a34ce30e8fa0bc44e16c36a20177bbee",
+  "protocol": "docs/PDAC/PAIRED51_INTERNAL_V2_LOCK.md",
+  "normalization": "donor-celltype log1p(sum_gene_UMI*1e6/sum_all_gene_UMI);equal donor mean",
+  "bootstrap": "1000 joint donor draws;ties fractional;no P/q",
+  "minimum_cells": 20,
+  "minimum_units": 3,
+  "minimum_detected_units": 3,
+  "shared_categories": "Intersection of gene-eligible categories across all3 cohorts;at least2",
+  "source_rule": "All3 same unique top,each bootstrap>=0.70 and detection>=0.05",
+  "canonical_alias_policy": "Exact canonical first;unique reviewed alias only;collision excluded",
+  "versions": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "1.5.3"
+  }
+}

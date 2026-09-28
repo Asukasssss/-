@@ -1,0 +1,13 @@
+{
+  "analysis_version": "PDAC_CAMP_source_SOP_v3",
+  "status": "DONE_INTEGRATION_SCOPE",
+  "run_id": "20260922T121100Z_sop_v3_integrated",
+  "SOP_commit": "6dd0a73fb77a392e428254ad265b8710ce967c73",
+  "unit": "Exact feature-stableGene-version relation and unique stable gene",
+  "selection": "All715 currentdirect/conditional and all687 historyunion;7unmapped metabolites separate",
+  "RNA_families": "250currentDIRECT and437history supplement,separateBH",
+  "SC": "cellwise log1p10k then source-label equal mean;all687;descriptive80%label;no P/q",
+  "labels": "Separate metabolite,association,RNA,cell background;no A/B/C/D or score",
+  "historical_numbers": "Immutable;old362relation ids indexed without inheriting new stats",
+  "integration_code_base_commit": "2917c6856d65c60c39ea19eb7d449f407b339f52"
+}

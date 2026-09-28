@@ -1,0 +1,22 @@
+{
+  "metabolites": 51,
+  "relations": 715,
+  "unresolved_feature_rows": 7,
+  "genes": 538,
+  "rows": 722,
+  "relation_labels": {
+    "R-weak": 327,
+    "R-sensitive": 258,
+    "R-suggestive": 114,
+    "R-not-evaluable": 18,
+    "R-strong": 5
+  },
+  "candidate_classes": {
+    "A": 0,
+    "B": 0,
+    "C": 114,
+    "D": 608
+  },
+  "candidate_class_scope": "Relation rows plus7 unresolved placeholders;not gene counts",
+  "all_metabolites_nominal_exploratory": true
+}

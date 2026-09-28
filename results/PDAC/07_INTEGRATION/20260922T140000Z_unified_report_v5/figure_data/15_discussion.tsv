@@ -1,0 +1,6 @@
+gene	relation_id	role	reason	limitation	metabolite_key	metabolite_name	selection_scope	source_commit
+ABAT	3fc531a39ec1bfa2	内部关联支持	GABA关系在主分析与可用值均过FDR；来源不一致	同队列选择；三队列来源不同，不是独立验证	KEGG:C00334	gamma-aminobutyrate (GABA)	DISPLAY_EXAMPLE_NOT_RANK	2971100b37e40d66a88cf89102c0fd3a56b7bcee
+AASS	3b65c5b363143034	未支持示例	用户关注；直接生化关系但患者统计较弱	RNA P=0.0527；相关未支持；α-KG原有值仅4对	KEGG:C00026	alpha-ketoglutarate	DISPLAY_EXAMPLE_NOT_RANK	2971100b37e40d66a88cf89102c0fd3a56b7bcee
+MGLL	d47762fd25c589b8	版本边界示例	2-palmitoylglycerol关系保留；新版直接族q=0.059	不能引用旧冻结42入口的q=0.02715冒充本轮	HMDB:HMDB11533	2-palmitoylglycerol (16:0)	DISPLAY_EXAMPLE_NOT_RANK	2971100b37e40d66a88cf89102c0fd3a56b7bcee
+SLC6A19	720d1bf4e114a655	来源身份示例	色氨酸直接运输关系；GSE242230首位作者恶性	主关联q=0.0531；另两队列导管身份未定	KEGG:C00078	tryptophan	DISPLAY_EXAMPLE_NOT_RANK	2971100b37e40d66a88cf89102c0fd3a56b7bcee
+TDO2	385ef55bc5987f6d	稳定来源示例	三队列成纤维/CAF首位且保持率达门槛	主关联q=0.0856；来源稳定不证明作用细胞或机制	KEGG:C00078	tryptophan	DISPLAY_EXAMPLE_NOT_RANK	2971100b37e40d66a88cf89102c0fd3a56b7bcee

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "section_subset_rows_checked": 10,
+  "normalization_from_raw_rechecked": true,
+  "quartile_groups_rechecked": true,
+  "detection_means_and_differences_rechecked": true,
+  "not_independent_biological_validation": true
+}

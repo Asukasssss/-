@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Shortlist structure and evidence-boundary check only",
+  "n_cohorts": 5,
+  "n_priority": 3,
+  "matrix_QC": "NOT_RUN",
+  "barcode_annotation_join": "NOT_RUN",
+  "new_gene_results": "NOT_RUN",
+  "server_access": "ACCESS_BLOCKED_CONNECTION_TIMEOUT",
+  "patient_overlap": "NEEDS_REVIEW",
+  "raw_data_exported": false
+}

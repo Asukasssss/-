@@ -1,0 +1,74 @@
+{
+  "metabolites": {
+    "METAB_PAIRED_PRIMARY": {
+      "planned": 307,
+      "evaluable": 307,
+      "P_lt005": 51,
+      "q_lt005": 0
+    },
+    "METAB_PAIRED_AVAILABLE": {
+      "planned": 307,
+      "evaluable": 193,
+      "P_lt005": 27,
+      "q_lt005": 0
+    }
+  },
+  "associations": {
+    "REL_TUMOR_PRIMARY": {
+      "planned": 357,
+      "evaluable": 354,
+      "P_lt005": 65,
+      "q_lt005": 1
+    },
+    "REL_CONDITIONAL_SUPPLEMENT_PRIMARY": {
+      "planned": 358,
+      "evaluable": 350,
+      "P_lt005": 53,
+      "q_lt005": 4
+    },
+    "REL_TUMOR_AVAILABLE": {
+      "planned": 357,
+      "evaluable": 342,
+      "P_lt005": 40,
+      "q_lt005": 1
+    },
+    "REL_CONDITIONAL_SUPPLEMENT_AVAILABLE": {
+      "planned": 358,
+      "evaluable": 342,
+      "P_lt005": 38,
+      "q_lt005": 3
+    }
+  },
+  "mapping": {
+    "metabolites": 307,
+    "workpool": 51,
+    "direct_relations": 357,
+    "conditional_relations": 358,
+    "current_genes": 250,
+    "history_union_genes": 687,
+    "RNA_pairs": 11,
+    "tumor_units": 21
+  },
+  "stage_status": {
+    "01_CAMP": {
+      "status": "PARTIAL",
+      "reason": "Server165:22 timeout;local reuse and mapping completed;matrix-dependent outputs not run"
+    },
+    "02_MAPPING": {
+      "status": "DONE",
+      "reason": "51dispositions;357direct+358conditional;250currentdirect;687historyunion;all687stableUniProtidentities"
+    },
+    "03_PATIENT": {
+      "status": "PARTIAL",
+      "reason": "Server165:22 timeout;local reuse and mapping completed;matrix-dependent outputs not run"
+    },
+    "06_EXTERNAL": {
+      "status": "ACCESS_BLOCKED",
+      "reason": "Server165:22 timeout;local reuse and mapping completed;matrix-dependent outputs not run"
+    },
+    "07_INTEGRATION": {
+      "status": "PARTIAL",
+      "reason": "Server165:22 timeout;local reuse and mapping completed;matrix-dependent outputs not run"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+treatment	level1	level2	n_cells	n_donors	n_samples
+CRT	Adipocyte	Adipocyte	310	8	9
+CRT	Cancer-associated fibroblast	CAF	17197	14	15
+CRT	Cancer-associated fibroblast	myCAF	2299	9	10
+CRT	Endocrine	Alpha	1090	9	9
+CRT	Endocrine	Beta	1551	12	12
+CRT	Endocrine	Delta	177	9	9
+CRT	Endocrine	Epsilon	20	1	1
+CRT	Endocrine	Gamma	626	10	10
+CRT	Endocrine	Hormone-negative neuroendocrine	41	8	8
+CRT	Endothelial	Lymphatic	822	14	15
+CRT	Endothelial	Vascular	6541	14	15
+CRT	Epithelial (malignant)	Malignant	10268	14	15
+CRT	Epithelial (non-malignant)	ADM	1902	7	7
+CRT	Epithelial (non-malignant)	Acinar	2695	11	11
+CRT	Epithelial (non-malignant)	Ductal	11095	12	12
+CRT	Epithelial (non-malignant)	Ductal (atypical)	1040	11	11
+CRT	Intra-pancreatic neurons	Intra-pancreatic neurons	11	3	3
+CRT	Lymphoid	B	632	8	9
+CRT	Lymphoid	CD4+ T	887	7	8
+CRT	Lymphoid	CD8+ T	1035	13	14
+CRT	Lymphoid	Natural killer	139	13	14
+CRT	Lymphoid	Plasma	83	10	11
+CRT	Lymphoid	Treg	222	10	11
+CRT	Myeloid	Dendritic	464	13	14
+CRT	Myeloid	Macrophage	2893	14	15
+CRT	Myeloid	Mast	34	9	9
+CRT	Myeloid	Neutrophil	34	3	3
+CRT	Pericyte	Pericyte	6002	14	15
+CRT	Schwann	Schwann	533	14	15
+CRT	Vascular smooth muscle	Vascular smooth muscle	1995	6	7
+CRTl	Adipocyte	Adipocyte	175	3	3
+CRTl	Cancer-associated fibroblast	CAF	8541	5	5
+CRTl	Cancer-associated fibroblast	myCAF	612	5	5
+CRTl	Endocrine	Alpha	493	3	3
+CRTl	Endocrine	Beta	533	3	3
+CRTl	Endocrine	Delta	147	4	4
+CRTl	Endocrine	Epsilon	1	1	1
+CRTl	Endocrine	Gamma	250	3	3
+CRTl	Endocrine	Hormone-negative neuroendocrine	10	3	3
+CRTl	Endothelial	Lymphatic	12	3	3
+CRTl	Endothelial	Vascular	1142	5	5
+CRTl	Epithelial (malignant)	Malignant	410	5	5
+CRTl	Epithelial (non-malignant)	ADM	14	1	1
+CRTl	Epithelial (non-malignant)	Acinar	57	5	5
+CRTl	Epithelial (non-malignant)	Ductal	762	4	4
+CRTl	Epithelial (non-malignant)	Ductal (atypical)	649	2	2
+CRTl	Intra-pancreatic neurons	Intra-pancreatic neurons	4	2	2
+CRTl	Lymphoid	B	18	3	3
+CRTl	Lymphoid	CD4+ T	182	5	5
+CRTl	Lymphoid	CD8+ T	991	5	5
+CRTl	Lymphoid	Natural killer	111	5	5
+CRTl	Lymphoid	Plasma	17	2	2
+CRTl	Lymphoid	Treg	94	5	5
+CRTl	Myeloid	Dendritic	212	5	5
+CRTl	Myeloid	Macrophage	2082	5	5
+CRTl	Myeloid	Mast	34	4	4
+CRTl	Myeloid	Neutrophil	31	5	5
+CRTl	Pericyte	Pericyte	776	5	5
+CRTl	Schwann	Schwann	120	5	5
+CRTl	Vascular smooth muscle	Vascular smooth muscle	66	4	4
+Other	Adipocyte	Adipocyte	1	1	1
+Other	Cancer-associated fibroblast	CAF	4715	6	6
+Other	Cancer-associated fibroblast	myCAF	770	4	4
+Other	Endocrine	Alpha	713	5	5
+Other	Endocrine	Beta	399	4	4
+Other	Endocrine	Delta	90	5	5
+Other	Endocrine	Epsilon	4	2	2
+Other	Endocrine	Gamma	274	6	6
+Other	Endocrine	Hormone-negative neuroendocrine	1517	3	3
+Other	Endothelial	Lymphatic	113	5	5
+Other	Endothelial	Vascular	1877	6	6
+Other	Epithelial (malignant)	Malignant	861	6	6
+Other	Epithelial (non-malignant)	ADM	556	4	4
+Other	Epithelial (non-malignant)	Acinar	997	6	6
+Other	Epithelial (non-malignant)	Ductal	6015	6	6
+Other	Epithelial (non-malignant)	Ductal (atypical)	1784	5	5
+Other	Intra-pancreatic neurons	Intra-pancreatic neurons	2	1	1
+Other	Lymphoid	B	8	3	3
+Other	Lymphoid	CD4+ T	51	5	5
+Other	Lymphoid	CD8+ T	297	6	6
+Other	Lymphoid	Natural killer	87	6	6
+Other	Lymphoid	Plasma	14	5	5
+Other	Lymphoid	Treg	24	5	5
+Other	Myeloid	Dendritic	112	6	6
+Other	Myeloid	Macrophage	1007	6	6
+Other	Myeloid	Mast	24	4	4
+Other	Myeloid	Neutrophil	12	3	3
+Other	Pericyte	Pericyte	1958	6	6
+Other	Schwann	Schwann	364	6	6
+Other	Vascular smooth muscle	Vascular smooth muscle	194	4	4
+Untreated	Adipocyte	Adipocyte	45	5	5
+Untreated	Cancer-associated fibroblast	CAF	13916	18	18
+Untreated	Cancer-associated fibroblast	myCAF	6885	18	18
+Untreated	Endocrine	Alpha	427	12	12
+Untreated	Endocrine	Beta	669	15	15
+Untreated	Endocrine	Delta	142	13	13
+Untreated	Endocrine	Epsilon	21	2	2
+Untreated	Endocrine	Gamma	566	10	10
+Untreated	Endocrine	Hormone-negative neuroendocrine	40	6	6
+Untreated	Endothelial	Lymphatic	698	16	16
+Untreated	Endothelial	Vascular	5970	18	18
+Untreated	Epithelial (malignant)	Malignant	52999	18	18
+Untreated	Epithelial (non-malignant)	ADM	761	5	5
+Untreated	Epithelial (non-malignant)	Acinar	1608	8	8
+Untreated	Epithelial (non-malignant)	Ductal	6755	14	14
+Untreated	Epithelial (non-malignant)	Ductal (atypical)	1518	14	14
+Untreated	Intra-pancreatic neurons	Intra-pancreatic neurons	8	3	3
+Untreated	Lymphoid	B	915	13	13
+Untreated	Lymphoid	CD4+ T	719	11	11
+Untreated	Lymphoid	CD8+ T	1731	15	15
+Untreated	Lymphoid	Natural killer	590	10	10
+Untreated	Lymphoid	Plasma	168	11	11
+Untreated	Lymphoid	Treg	508	11	11
+Untreated	Myeloid	Dendritic	631	17	17
+Untreated	Myeloid	Macrophage	4158	18	18
+Untreated	Myeloid	Mast	189	9	9
+Untreated	Myeloid	Neutrophil	21	4	4
+Untreated	Pericyte	Pericyte	3043	18	18
+Untreated	Schwann	Schwann	807	18	18
+Untreated	Vascular smooth muscle	Vascular smooth muscle	2456	6	6

@@ -1,0 +1,11 @@
+{
+  "pairs": 11,
+  "metabolites": 307,
+  "primary_evaluable": 307,
+  "workpool_P005": 51,
+  "primary_q005": 0,
+  "available_evaluable_min8": 193,
+  "available_P005": 27,
+  "available_q005": 0,
+  "scale": "author processed;not log2FC"
+}

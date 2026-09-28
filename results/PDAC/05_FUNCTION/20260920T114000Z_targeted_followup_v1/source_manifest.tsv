@@ -1,0 +1,5 @@
+url	sha256	scope
+https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13220487/fullTextXML	10d79b8f42f72f6785a9cdf7fa07f605902679633a1dd8930d3ebc25d93aa399	Public text read;full article not redistributed
+code/pdac/search_alias_followup.py	42cf9826e814d2f309bd425bb2fb4726f344a2cb8bb3e4b9d66c25eb7a7e66fe	Local code/input/ledger;public query URLs and response hashes in ledger
+results/PDAC/02_MAPPING/20260920T111500Z_direct_mapping_v1/gene_aliases.json	aae54073765c6b0baca64865550d5aa896e0f44060e827497fb54c9587c9042a	Local code/input/ledger;public query URLs and response hashes in ledger
+results/PDAC/05_FUNCTION/20260920T114000Z_targeted_followup_v1/alias_search_ledger.tsv	8904599c7e1f646d930f285b83c013037b28161c1694a77c26010f4bd9738480	Local code/input/ledger;public query URLs and response hashes in ledger

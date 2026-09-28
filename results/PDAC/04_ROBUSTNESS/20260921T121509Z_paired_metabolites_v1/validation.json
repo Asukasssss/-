@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "exact_GSM_join": 39,
+  "tissue_concordance": true,
+  "explicit_pairs": 11,
+  "no_identifier_suffix_pair_inference": true,
+  "shared_processed_matrix_projection_verified": true,
+  "historical_files_modified": false,
+  "private_pair_map_exported": false,
+  "not_verified": [
+    "clinical covariates",
+    "biochemical identities",
+    "original frozen contrast code",
+    "all27 tumor patient independence"
+  ]
+}

@@ -1,0 +1,10 @@
+cohort	state	n_cells	n_units_any	n_units_ge20cells	donor_equal_mean_expression	donor_equal_detection	status	reason
+GSE263733	CNV_ABNORMAL_CANDIDATE	31	7	0	NA	NA	NOT_EVALUABLE	At least3 author units for public aggregate expression;not malignancy labels
+GSE263733	REFERENCE_LIKE	2775	11	11	0.36046633477576734	0.48328838788225253	DONE	At least3 author units for public aggregate expression;not malignancy labels
+GSE263733	UNCERTAIN	2272	11	10	0.3668302422833057	0.4210903274721086	DONE	At least3 author units for public aggregate expression;not malignancy labels
+GSE278688	CNV_ABNORMAL_CANDIDATE	66	8	1	NA	NA	NOT_EVALUABLE	At least3 author units for public aggregate expression;not malignancy labels
+GSE278688	REFERENCE_LIKE	3094	11	11	0.3274707516562633	0.326366795729396	DONE	At least3 author units for public aggregate expression;not malignancy labels
+GSE278688	UNCERTAIN	1963	11	11	0.2922146690776265	0.2217967711876116	DONE	At least3 author units for public aggregate expression;not malignancy labels
+GSE242230	CNV_ABNORMAL_CANDIDATE	23	5	0	NA	NA	NOT_EVALUABLE	At least3 author units for public aggregate expression;not malignancy labels
+GSE242230	REFERENCE_LIKE	1578	9	9	0.1999135349244374	0.23209777565164444	DONE	At least3 author units for public aggregate expression;not malignancy labels
+GSE242230	UNCERTAIN	2331	9	9	0.1720634058965437	0.14654673155661002	DONE	At least3 author units for public aggregate expression;not malignancy labels

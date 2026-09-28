@@ -1,0 +1,48 @@
+{
+  "analysis_version": "PDAC_author_cell_identity_v4",
+  "run_id": "20260922T131800Z_author_identity_v4",
+  "scope": "Restore author malignancy identities, recompute affected source summaries, keep all687 genes",
+  "status": "DONE_RESOLVABLE_IDENTITY_SCOPE",
+  "base_source_run": "20260922T120400Z_sop_v3_source",
+  "GSE242230": {
+    "priority": "cell_type_specific takes precedence over broad cell_type",
+    "Malignant - Classical": "Malignant (author)",
+    "Malignant - Basal": "Malignant (author)",
+    "Normal Epithelial": "Normal epithelial (author)",
+    "unrecognized_broad_Malignant": "Ductal (unresolved)",
+    "same_selected_cells": true,
+    "expected_author_malignant": 10783,
+    "expected_author_normal": 350,
+    "original_broad_Malignant": 11133,
+    "recompute": "All687 source profiles and ranking using unchanged raw count reader and normalization"
+  },
+  "GSE263733": "Available GEO columns Barcodes,Patients,Origins,Celltypes. Ductal cell remains unresolved;author repository supplies CopyKAT code but no cell-level calls.",
+  "GSE278688": "Available GEO columns barcode,tissue,patients,all_celltype. Ductal remains unresolved;paper describes malignant subpopulations but no exact-cell label file has been obtained.",
+  "reuse": "Unchanged GSE263733 and GSE278688 donor source statistics;rename ductal only;verify all numeric fields",
+  "cross_study": "Malignant, normal epithelial and unresolved ductal labels are not equivalent. Strict same-top and shared-category comparisons reported separately.",
+  "normalization": "mean over cells of log1p(10000*count/all_gene_library), then equal source-label mean",
+  "min_cells_per_unit_type": 20,
+  "min_units_per_type": 3,
+  "min_evaluable_types_for_rank": 2,
+  "min_max_detection_for_rank": 0.01,
+  "bootstrap_B": 1000,
+  "bootstrap_stability_label": 0.8,
+  "seeds": "Unchanged SOPv3 seed_for;no result-driven retuning",
+  "no_new_P_q": true,
+  "no_new_CNV_inference": true,
+  "no_raw_or_cell_level_export": true,
+  "frozen_old_metabolite_RNA_association_results": true,
+  "reference_sources": [
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE242230",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10587349/",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263733",
+    "https://github.com/CompbioLabUnist/PDAC-scRNA-seq",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278688",
+    "https://doi.org/10.1016/j.ccell.2025.06.020"
+  ],
+  "code_commit": "ce3b1b8",
+  "unresolved_cohorts": [
+    "GSE263733",
+    "GSE278688"
+  ]
+}

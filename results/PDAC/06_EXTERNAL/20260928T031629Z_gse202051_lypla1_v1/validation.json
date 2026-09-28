@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "n_nuclei": 224988,
+  "n_author_pid": 43,
+  "n_libraries": 44,
+  "gene_unique": true,
+  "all_count_values_nonnegative_integer": true,
+  "unique_cell_keys": true,
+  "normalization_checks": {
+    "matrix_library": false,
+    "total_counts": true,
+    "n_counts": true
+  },
+  "author_label_consistency": true,
+  "python": "3.8.10",
+  "h5py": "3.11.0",
+  "numpy": "1.24.4",
+  "pandas": "1.5.3",
+  "scipy": "1.10.1",
+  "limitations": [
+    "Single nuclei not whole cells",
+    "Author malignancy labels reused; no new CNV validation",
+    "Nonmalignant ductal cells from tumor specimens are not healthy controls",
+    "Pooled-nucleus inference has donor dependence",
+    "No author malignant subtype assignment in this batch",
+    "Cohort independence from other studies not individually audited"
+  ]
+}

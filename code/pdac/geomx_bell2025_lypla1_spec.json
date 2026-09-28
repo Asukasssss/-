@@ -1,0 +1,21 @@
+{
+  "analysis_version": "geomx_bell2025_lypla1_v1",
+  "gene": "LYPLA1",
+  "cohort": "Bell2025_GeoMx",
+  "primary_contrast": "PDAC_vs_ND",
+  "contrasts": {"PDAC_vs_ND": ["PDAC"], "VI_vs_ND": ["VI"], "PNI_vs_ND": ["PNI"], "all_cancer_vs_ND": ["PDAC", "VI", "PNI"]},
+  "eligibility": "Author final 95 ROIs, 8 treatment-naive patients. ND is normal ductal epithelium; PDAC denotes cancer in stroma, NOT stromal cells. Remove author-flagged Stroma_063_003. All ROIs retained regardless of LYPLA1 signal.",
+  "filter": "Author-style global LOQ = exp(mean(log(NegProbe-WTX))) * exp(sd(log(NegProbe-WTX),ddof=1))^2 across final 95 ROIs; endogenous genes above LOQ in >10 ROIs. No imputation.",
+  "primary_expression": "Q3 normalization of ProbeQC counts using retained endogenous genes: counts / ROI Q3 * geometric mean(Q3); log2(normalized counts+1). This is our reanalysis, not author's DESeq2 normalization.",
+  "sensitivity_expression": ["Author fully_batch_corrected_vsd (patient and batch ComBat regression; transformed scale, not fold change)", "log2(CPM+1) using sum of retained endogenous counts"],
+  "independent_unit": "Patient. Average log-expression over ROIs within each patient/group, then equally weight patient differences. Combined cancer pools all cancer ROIs within each patient.",
+  "minimum_pairs": 3,
+  "test": "Two-sided exact sign-flip permutation of mean paired difference; enumerate all 2^n signs, zeros included. Assumes exchangeable symmetric differences; observational, not randomized.",
+  "interval": "20000 paired-patient percentile bootstrap samples, descriptive with small n",
+  "multiple_testing": "Four prespecified contrasts form one BH family per expression scale. Unevaluable contrasts retained with NA; BH over evaluable contrasts. Not genome-wide FDR. Secondary scales are sensitivity analyses, not independent replications.",
+  "robustness": "Count positive/negative patient differences and min/max leave-one-patient-out mean difference; above-global-LOQ ROI fraction descriptive only, not single-cell detection rate.",
+  "seed": 20260928,
+  "residency": "Matrices, ROI measurements and per-patient measurements stay on server165. Export aggregate results only.",
+  "scope_limit": "No pure stroma/immune control, no single-cell localization, no healthy-donor inference. Cohort overlap with earlier PDAC data not verified.",
+  "sources": ["https://pubmed.ncbi.nlm.nih.gov/40991729/", "https://zenodo.org/records/16732565", "https://zenodo.org/records/16907251", "https://nanostring.com/wp-content/uploads/2022/06/MAN-10154-01-GeoMx-DSP-Data-Analysis-User-Manual.pdf"]
+}

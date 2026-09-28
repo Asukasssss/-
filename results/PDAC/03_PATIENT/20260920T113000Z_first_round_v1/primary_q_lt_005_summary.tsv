@@ -1,0 +1,5 @@
+feature_name	gene	primary_n	primary_rho	primary_q	availability_n	availability_rho	availability_q	interpretation
+2-palmitoylglycerol (16:0)	MGLL	27	-0.7044781105862652	0.027149999999999997	18	-0.5479876160990712	0.314216	Fewer available specimens and weaker rho;do not call independently validated
+9,10-DiHOME	EPHX2	27	0.6607588577086162	0.027149999999999997	16	0.36470588235294116	0.8544191780821918	Fewer available specimens and weaker rho;do not call independently validated
+glycerophosphorylcholine (GPC)	PNPLA8	27	-0.6837606837606838	0.027149999999999997	27	-0.6837606837606838	0.054299999999999994	Same input/rho/P/CI;family q differs
+tryptophan	SLC6A19	27	0.6703296703296703	0.027149999999999997	27	0.6703296703296703	0.0362	Same input/rho/P/CI;family q differs

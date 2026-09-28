@@ -1,0 +1,12 @@
+{
+  "version": "PDAC_patient_entry_guards_v1",
+  "code_base_commit": "0a27cb9f0acc9ef1ac7b5fbbb48762f82111b421",
+  "unit": "synthetic inputs; no patient observations",
+  "parameters": {
+    "required_paths": "Exact set of actual mapping/metabolomics/RNA paths used by run; no extra keys",
+    "RNA_labels": "Gene and sample labels complete, nonblank and unique"
+  },
+  "test_family": "No new research tests; original families unchanged",
+  "seed": "Existing synthetic test seeds unchanged",
+  "python": "3.12.14"
+}

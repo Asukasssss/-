@@ -1,0 +1,85 @@
+{
+  "candidate_genes": 538,
+  "cohorts": [
+    {
+      "cohort": "GSE263733",
+      "cells_included": 46148,
+      "units_included": 21,
+      "target_genes": 538,
+      "genes_in_matrix": 364,
+      "author_celltypes": 7,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "EEF1AKMT4",
+        "GK3",
+        "KDM4F",
+        "MPC1L",
+        "PNLIPRP2"
+      ],
+      "genes_reused": 168,
+      "genes_new_or_alias_rechecked": 370,
+      "genes_available": 532,
+      "reused_gene_sentinels_checked": [
+        "GGT5",
+        "MGLL",
+        "PEPD",
+        "PNP"
+      ]
+    },
+    {
+      "cohort": "GSE278688",
+      "cells_included": 71414,
+      "units_included": 13,
+      "target_genes": 538,
+      "genes_in_matrix": 367,
+      "author_celltypes": 13,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "AWAT2",
+        "KDM4E",
+        "PNLIPRP2"
+      ],
+      "genes_reused": 167,
+      "genes_new_or_alias_rechecked": 371,
+      "genes_available": 534,
+      "reused_gene_sentinels_checked": [
+        "GGT5",
+        "MGLL",
+        "PEPD",
+        "PNP"
+      ]
+    },
+    {
+      "cohort": "GSE242230",
+      "cells_included": 31215,
+      "units_included": 25,
+      "target_genes": 538,
+      "genes_in_matrix": 367,
+      "author_celltypes": 12,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "EMG1",
+        "PNLIPRP2"
+      ],
+      "genes_reused": 168,
+      "genes_new_or_alias_rechecked": 370,
+      "genes_available": 535,
+      "reused_gene_sentinels_checked": [
+        "GGT5",
+        "MGLL",
+        "PEPD",
+        "PNP"
+      ]
+    }
+  ],
+  "three_cohort_same_top": 228,
+  "stable_source_genes": 137,
+  "shared_category_same_top": 231,
+  "source_rows": 13988
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "changed_labels": [
+    "GGT5",
+    "MMP14",
+    "MGLL"
+  ],
+  "historical_sources_unchanged": true,
+  "historical_gene_intersection": 0,
+  "features": 42,
+  "relations": 362,
+  "relation_evidence_rows": 1448,
+  "not_verified": [
+    "patient independence",
+    "CAMP effect contrast orientation",
+    "external cohort independence",
+    "source pairing or preprocessing",
+    "new external matrix validation",
+    "chemical reidentification"
+  ]
+}

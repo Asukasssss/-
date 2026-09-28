@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "cohorts": [
+    {
+      "cohort": "GSE263733",
+      "cells_included": 46148,
+      "units_included": 21,
+      "target_genes": 173,
+      "genes_in_matrix": 168,
+      "author_celltypes": 7,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "GK3",
+        "LARS1",
+        "PNLIPRP2",
+        "WARS1"
+      ]
+    },
+    {
+      "cohort": "GSE278688",
+      "cells_included": 71414,
+      "units_included": 13,
+      "target_genes": 173,
+      "genes_in_matrix": 167,
+      "author_celltypes": 13,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "AWAT2",
+        "GK3",
+        "LARS1",
+        "PNLIPRP2",
+        "WARS1"
+      ]
+    },
+    {
+      "cohort": "GSE242230",
+      "cells_included": 31215,
+      "units_included": 25,
+      "target_genes": 173,
+      "genes_in_matrix": 168,
+      "author_celltypes": 12,
+      "barcode_join": "PASS",
+      "raw_count_integrity": "PASS",
+      "missing_genes": [
+        "AQP7B",
+        "GK3",
+        "LARS1",
+        "PNLIPRP2",
+        "WARS1"
+      ]
+    }
+  ],
+  "patient_rows_exported": false,
+  "library_denominator": "All supplied genes;same cells",
+  "raw_count_nonnegative_and_dimensions_checked": true,
+  "minimum_cells_per_unit_type": 20,
+  "minimum_units": 3,
+  "minimum_units_detected_for_ranking": 3,
+  "no_new_p_q": true,
+  "unverified": [
+    "Independent re-clustering and malignant CNV labels",
+    "Protected patient identity level cross-study de-duplication",
+    "Complete biochemistry mapping for all51 metabolites"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "RNA": {
+    "RNA_PAIRED_CURRENT": {
+      "planned": 250,
+      "evaluable": 247,
+      "P_lt005": 91,
+      "q_lt005": 40
+    },
+    "RNA_PAIRED_HISTORY_SUPPLEMENT": {
+      "planned": 437,
+      "evaluable": 429,
+      "P_lt005": 151,
+      "q_lt005": 0
+    }
+  }
+}

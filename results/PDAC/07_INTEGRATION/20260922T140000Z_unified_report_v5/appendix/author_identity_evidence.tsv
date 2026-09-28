@@ -1,0 +1,4 @@
+cohort	source_url	finding	cell_level_status	analysis_action
+GSE242230	https://pmc.ncbi.nlm.nih.gov/articles/PMC10587349/	Authors used CopyKAT and normal epithelial markers;local author fine labels include Normal Epithelial within broad Malignant	DONE	Use fine identity on exactly matching selected cell barcodes;350 normal split from10783 malignant
+GSE263733	https://github.com/CompbioLabUnist/PDAC-scRNA-seq	Repository Source_code includes CopyKAT;tree contains README and code only;GEO metadata has4 columns and no malignant/CNV/subtype field	NEEDS_REVIEW	Ductal unresolved;paper-level malignant claims not assigned to individual cells
+GSE278688	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278688	GEO metadata has barcode,tissue,patients,all_celltype;no malignant/CNV/subtype field. Author study describes malignant subpopulations;publisher fulltext retrieval403 in this check	NEEDS_REVIEW	Ductal unresolved;no claim that authors never identified malignant cells

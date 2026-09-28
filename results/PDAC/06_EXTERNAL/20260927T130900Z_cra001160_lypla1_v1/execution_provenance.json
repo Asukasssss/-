@@ -1,0 +1,16 @@
+{
+  "base_commit": "bfcf2c733ebfb33b9bde484aad6b5ee3d68738c0",
+  "branch": "analysis/pdac-initial",
+  "server_run": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PDAC/B/20260927T130900Z_cra001160_lypla1_v1",
+  "code_sha256": {
+    "cra001160_download.py": "0f9dddd119f5fb2fc814971333c65b6aeaf8173d2b85328251f6107c148369a7",
+    "cra001160_lypla1.py": "b5762b8a0004ef19cedc4f3308094d65f74fbe022dd1e617b2fff86ba30500a8",
+    "cra001160_lypla1_spec.json": "b9d91271fe99f0d71e201ed9e746f958ccccd44a2ce8170770c85ec1db523f3a",
+    "test_cra001160_lypla1.py": "4dc2186c7d526aaed6cf8a0cf5c52d07d5f2ab9955b05d0e4e4b087067c36e45",
+    "verify_cra001160_lypla1.py": "320098b368fb457e778a3723a1053fbf4071946c78af7e75c00a4c06c7b0e096",
+    "plot_cra001160_lypla1.py": "6f8d5f4ec51a9e1e2f4d8fa36495ce377a590d04794bc354aac904ef20aa72c5",
+    "report_cra001160_lypla1.py": "113ed14e0dd6c4963eb9daee7879bedcfaeabf883f50a57597ab2bd234eac04e"
+  },
+  "scope": "Actual server calculations from original GSA matrices; public aggregates only; author labels reused, no new CNV",
+  "figure_visual_check": "PASS: bars, CIs, sample sizes and notes legible"
+}

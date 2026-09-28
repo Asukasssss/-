@@ -1,0 +1,22 @@
+{
+  "complete_pairs": 11,
+  "unpaired_tumor_excluded": 16,
+  "unpaired_normal_excluded": 1,
+  "family_n_planned": 307,
+  "frozen_overlap": 303,
+  "frozen_not_in_family": [],
+  "extra_to_frozen": [
+    "1-myristoylglycerol (14:0)",
+    "1-oleoylglycerol (1-monoolein)",
+    "caproate (6:0)",
+    "hexanoylcarnitine"
+  ],
+  "primary": {
+    "evaluable": 307,
+    "q_lt_005": 0
+  },
+  "both_preimputation_available": {
+    "evaluable": 230,
+    "q_lt_005": 0
+  }
+}

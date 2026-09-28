@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "unique_cell_keys": true,
+  "gene_order_assembly": "GRCh38 GENCODE v36",
+  "gene_order_count": 53334,
+  "SLC6A6_chr": "chr3",
+  "excluded_chr3": true,
+  "new_CNV_results": false,
+  "clinical_donor_identity_recertified": false
+}

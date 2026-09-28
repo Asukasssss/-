@@ -1,0 +1,16 @@
+{
+  "zero_hit_genes_followed": 87,
+  "queries_with_aliases": 72,
+  "followup_genes_with_hits": 28,
+  "located_records": 51,
+  "PNP_full_name_followup": {
+    "gene": "PNP",
+    "aliases": "purine nucleoside phosphorylase",
+    "query": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Apancreatic+OR+TITLE_ABS%3APDAC%29+AND+%28TITLE_ABS%3A%22purine+nucleoside+phosphorylase%22%29&format=json&resultType=core&pageSize=3",
+    "status": "DONE",
+    "hits": 9,
+    "response_sha256": "305609bb2a27218f10ffbb4c06a652e4ac394f147cc0de10c0c9f08df9d71a49",
+    "retrieved_utc": "2026-09-20T11:34:36.959866+00:00",
+    "reason": "Alias retrieval only;not verified gene-specific intervention"
+  }
+}

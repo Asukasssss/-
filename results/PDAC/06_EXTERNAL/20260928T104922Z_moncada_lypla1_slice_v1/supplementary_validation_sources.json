@@ -1,0 +1,22 @@
+[
+  {
+    "file": "spatial_count.RData",
+    "bytes": 1412298,
+    "sha256": "9195f4ddb6b29e6638d6e5d424c487c2d480edd09a331d9ea209562fc8a20bc2"
+  },
+  {
+    "file": "card_count_check.tsv",
+    "bytes": 5394,
+    "sha256": "37bb07a3d966f664b490a024dede5ec18b03bd60e615bcf6d66e8e88bfd89d93"
+  },
+  {
+    "file": "spatial_location.RData",
+    "bytes": 1398,
+    "sha256": "e5fc5387c3c599f474ae26c8dac9bb5033926dd32cbb7a75c50d437a47413001"
+  },
+  {
+    "file": "spatial_location.tsv",
+    "bytes": 4999,
+    "sha256": "88a66a69b7baadd781a036c272835bb3e66ba0dfdb437d72f6c1f27a5a5126fb"
+  }
+]

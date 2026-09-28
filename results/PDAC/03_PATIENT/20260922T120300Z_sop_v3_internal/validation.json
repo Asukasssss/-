@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "server_exact_four_source_hash_gate": true,
+  "RNA_labels_complete_unique": true,
+  "private_pair_tables_saved_server_only": true,
+  "gene_scope_current250_history437": true,
+  "independent_validation": {
+    "status": "PASS",
+    "independent_paired_t_and_CI_rows": 676,
+    "independent_bootstrap_replays": 676,
+    "independent_BH_families": 2,
+    "current_gene_P005_view_count": 91,
+    "all687_and_private_separation": true,
+    "not_verified": [
+      "Clinical identity recertification",
+      "same aliquot",
+      "external replication"
+    ]
+  },
+  "server_unit_tests": "5/5PASS",
+  "private_tables_downloaded": false
+}

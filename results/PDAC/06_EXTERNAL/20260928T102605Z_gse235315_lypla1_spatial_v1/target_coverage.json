@@ -1,0 +1,12 @@
+{
+  "archive": "GSM7498812_SS1923404_processed.tar.gz",
+  "gene": "LYPLA1",
+  "ensembl": "ENSG00000120992",
+  "symbol_matches": 0,
+  "ensembl_matches": 0,
+  "features": 17943,
+  "filtered_barcodes": 2248,
+  "archive_sha256": "26b6ed90df240bc0332fd6384c8d2e9bcac9eba5c44e10b830e8ab89a9179f0b",
+  "status": "NOT_EVALUABLE",
+  "note": "Absent target is not zero expression; do not substitute LYPLA2 or LYPLAL1."
+}

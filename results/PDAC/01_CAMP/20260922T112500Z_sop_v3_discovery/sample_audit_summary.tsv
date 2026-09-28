@@ -1,0 +1,7 @@
+cancer	cohort	audit_item	n_checked	n_pass	n_excluded	n_unresolved	status	reason	source_id
+PDAC	CAMP_PDAC_GSE62452	CAMP_sample_RNA_join	39.0	39.0	0.0	0.0	DONE	Historical verified aggregate reused;Exact RNA column joins;27tumor12normal	results/PDAC/03_PATIENT/20260922T053500Z_internal_paired51_v2
+PDAC	CAMP_PDAC_GSE62452	tumor_independent_author_keys	27.0	21.0	6.0	0.0	DONE	Historical verified aggregate reused;Six missing author pair keys excluded;remaining21unique	results/PDAC/03_PATIENT/20260922T053500Z_internal_paired51_v2
+PDAC	CAMP_PDAC_GSE62452	complete_pairs_among_normals	12.0	11.0	1.0	0.0	DONE	Historical verified aggregate reused;Eleven explicit completeT/Npairs;one normal without matching CAMPtumor	results/PDAC/03_PATIENT/20260922T053500Z_internal_paired51_v2
+PDAC	CAMP_PDAC_GSE62452	tissue_label_concordance	39.0	39.0	0.0	0.0	DONE	Historical verified aggregate reused;Zero observed author/CAMP tissue conflicts	results/PDAC/03_PATIENT/20260922T053500Z_internal_paired51_v2
+PDAC	CAMP_PDAC_GSE62452	aliquot_level_and_clinical_identity	39.0	NA	NA	39.0	NEEDS_REVIEW	Exact author sample mapping available;does not establish same aliquot or protected clinical identity	CAMP_author_mapping
+PDAC	CAMP_PDAC_GSE62452	private_SOP_table_export	NA	NA	NA	NA	ACCESS_BLOCKED	server165 SSH timeout;private original joins remain server only	server165

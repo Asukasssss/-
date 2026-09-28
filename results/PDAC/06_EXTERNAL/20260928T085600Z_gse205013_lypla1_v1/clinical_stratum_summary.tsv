@@ -1,0 +1,5 @@
+tissue	treatment	n_samples	input_barcodes	eligible_malignant_cells	same_donor_pairs
+PDAC liver met	Treated	1	11823	NOT_YET_VERIFIED	NOT_YET_VERIFIED
+PDAC liver met	Untreated	9	88203	NOT_YET_VERIFIED	NOT_YET_VERIFIED
+Primary PDAC	Treated	6	89863	NOT_YET_VERIFIED	NOT_YET_VERIFIED
+Primary PDAC	Untreated	11	118292	NOT_YET_VERIFIED	NOT_YET_VERIFIED

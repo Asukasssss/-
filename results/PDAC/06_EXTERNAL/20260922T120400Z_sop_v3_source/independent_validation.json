@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "independent_equal_donor_numeric_rows": 13647,
+  "independent_top_rows": 2061,
+  "cross_study_rows": 2061,
+  "all687_per_cohort": true,
+  "SC_no_P_q": true,
+  "normalization_function_tests": "Synthetic unequal cell libraries verified separately in server5test suite",
+  "not_replayed": [
+    "All raw single-cell rows independently re-extracted",
+    "All donor bootstrap draws independently replayed"
+  ],
+  "not_verified": [
+    "Clinical cross-study patient overlap",
+    "Malignant CNV",
+    "Mechanism"
+  ]
+}

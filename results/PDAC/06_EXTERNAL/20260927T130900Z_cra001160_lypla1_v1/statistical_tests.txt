@@ -1,0 +1,14 @@
+test_bh_known_family (test_cra001160_lypla1.TestStatistics) ... ok
+test_exact_sign_probability (test_cra001160_lypla1.TestStatistics) ... ok
+test_insufficient_units (test_cra001160_lypla1.TestStatistics) ... ok
+test_orientation (test_cra001160_lypla1.TestStatistics) ... /home/xuzx/.local/lib/python3.8/site-packages/scipy/stats/_morestats.py:3414: UserWarning: Exact p-value calculation does not work if there are zeros. Switching to normal approximation.
+  warnings.warn("Exact p-value calculation does not work if there are "
+/home/xuzx/.local/lib/python3.8/site-packages/scipy/stats/_morestats.py:3428: UserWarning: Sample size too small for normal approximation.
+  warnings.warn("Sample size too small for normal approximation.")
+ok
+test_zero_paired_difference (test_cra001160_lypla1.TestStatistics) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.512s
+
+OK

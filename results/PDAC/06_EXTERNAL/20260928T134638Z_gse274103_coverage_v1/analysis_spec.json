@@ -1,0 +1,7 @@
+{
+  "version": "gse274103_coverage_v1",
+  "purpose": "feature identity presence-only screening",
+  "target": "LYPLA1 / ENSG00000120992",
+  "scope": "GSM8443449 only",
+  "expression_tests": "NOT_RUN"
+}

@@ -1,0 +1,17 @@
+{
+ "analysis_version":"lypla1_registered_spatial_v1",
+ "gene":"LYPLA1",
+ "cohort":"GSE278687",
+ "samples":"All five GEO samples explicitly described as FF (fresh frozen), selected by assay type and availability before target-expression analysis: PA02, PA03, PA04-2, PA08, PA11-1. No selection on LYPLA1 effect.",
+ "counts":"Author filtered H5, unique symbol LYPLA1 and ENSG00000120992 must refer to same feature; no surrogate gene, imputation or smoothing.",
+ "coordinates":"Exact barcode match to author tissue positions, fullres pixel columns multiplied by tissue_hires_scalef. Require all filtered barcodes matched and in bounds; retain in_tissue=1 and positive library total. No guessed rotation or alignment.",
+ "normalization":"log1p(10000*counts/all gene-expression counts). Zero counts retained. No cross-sample color scale for genes with distinct scale; LYPLA1 shared scale across sections.",
+ "reference_markers":{"epithelial":["EPCAM","KRT8","KRT18","KRT19","KRT7","MUC1"],"stromal":["COL1A1","COL1A2","COL3A1","DCN","LUM"],"immune":["PTPRC","LST1","TYROBP","CD3D","CD79A"]},
+ "scores":"Mean of per-gene within-section standardized log-normalized marker expression; omit only zero-variance genes with explicit record. LYPLA1 excluded from all scores. These are expression proxies, not cell fractions or malignant labels.",
+ "comparisons":"Within each section: LYPLA1 mean and detection in top versus bottom epithelial-score quartiles (inclusive ties), raw and depth-adjusted Spearman effect with epithelial/stromal/immune scores. Partial correlation residualizes ranks on rank(log1p(total counts)), rank(detected gene count), and rank(mitochondrial percent). No spot-level P values or population P values before verified donor units. No arbitrary malignant calling.",
+ "malignant_enrichment":"NOT_EVALUABLE without independently supported, spot-linked malignant annotation. Epithelial-associated spatial expression alone cannot close this question.",
+ "qc":"Primary all author-filtered in-tissue nonempty spots; sensitivity >=200 detected genes, >=500 total counts, mitochondrial fraction<=20%. This fixed exploratory sensitivity is not the author's threshold.",
+ "display":"H&E, measured LYPLA1 registered overlay, and independently defined epithelial/stromal/immune reference overlays. Observed capture disks only; no interpolation; image underlay kept visible.",
+ "residency":"Sources, complete spot expressions and spot mapping only on server165; public outputs aggregate summaries and computed scientific figures.",
+ "sources":["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278687","https://doi.org/10.1016/j.ccell.2025.06.020","https://github.com/PDAC-zhanglab/PDAC"]
+}

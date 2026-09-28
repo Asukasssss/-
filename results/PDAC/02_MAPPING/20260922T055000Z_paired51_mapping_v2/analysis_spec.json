@@ -1,0 +1,29 @@
+{
+  "version": "PDAC_paired51_mapping_v2",
+  "planned_M": 357,
+  "planned_G": 250,
+  "locked_before_patient_outcomes": true,
+  "source_proteins": 20431,
+  "mapping_rule": "Exact KEGG/explicit chemical-name-to-ChEBI bridge, pH mapping, reviewed human catalytic participant AND reaction-specific ECO:0000269 annotation (or explicit experimentally documented exact substrate). Inference-only records retained conditional. No class-to-species inference in primary family.",
+  "NAD_rule": "Include exact NAD+ participant including redox/cofactor reactions; flag separately; not NAD-specific target claim. Complex/accessory subunits held.",
+  "BH": "Fixed M planned relationships, separately primary/availability; internal p=1 placeholders, public uncomputable P/q NA",
+  "permutations": 9999,
+  "bootstrap": 4000,
+  "minimum_n": 8,
+  "new_imputation": false,
+  "RNA_expression": "11 matched CAMP pairs;21 author-key tumor units for correlation",
+  "historical_reuse": "Require all expected source hashes to match; same finite input arrays+method reuse rho/P/CI; recalculate new-family q",
+  "code_base_commit": "33283392d4567f03b2b646b316afd0e3d59461cd",
+  "script_sha256": "30a2d777ebbe61b5e8cbbb714ea949aa8d80a9288e9959cd01d913e2cfe9f516",
+  "limitations": [
+    "Annotation mapping, not full experimental specificity certification",
+    "Original author chemistry not reidentified",
+    "No causal claims from annotation",
+    "Conditional identities excluded from primary family"
+  ],
+  "planned_direct": 357,
+  "planned_conditional": 358,
+  "all_candidate_genes": 538,
+  "protein_RNA_DNA_modification_cosubstrate_policy": "CONDITIONAL;see protocol",
+  "protocol": "docs/PDAC/PAIRED51_INTERNAL_V2_LOCK.md"
+}

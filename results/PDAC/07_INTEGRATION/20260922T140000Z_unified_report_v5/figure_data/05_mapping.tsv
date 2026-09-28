@@ -1,0 +1,8 @@
+label	count	unit
+DIRECT_RELATION_FOUND	30	入口代谢物
+CONDITIONAL_ONLY	12	入口代谢物
+NO_RELIABLE_EXACT_RELATION_FOUND_IN_SCOPE	6	入口代谢物
+IDENTITY_REVIEW_REQUIRED	3	入口代谢物
+直接关系	357	关系
+当前基因	250	基因
+条件或历史补充	437	基因

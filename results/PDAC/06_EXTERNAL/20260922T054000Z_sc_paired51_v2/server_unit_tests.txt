@@ -1,0 +1,7 @@
+test_donors_equal_and_top_stable_not_cell_weighted (test_sc_source_paired51_v2.BootstrapTests) ... ok
+test_tied_top_splits_bootstrap_mass (test_sc_source_paired51_v2.BootstrapTests) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.036s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "exact_four_input_hash_gate": true,
+  "RNA_labels_complete_unique": true,
+  "author_pair_key_unique": 21,
+  "paired_RNA_patient_alignment": 11,
+  "all_locked_rows_retained": true,
+  "patient_level_rows_exported": false,
+  "not_verified": [
+    "Clinical covariates",
+    "Original frozen CAMP contrast code",
+    "Chemical reidentification",
+    "Causal mechanism",
+    "External matched-omics replication"
+  ]
+}

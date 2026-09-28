@@ -1,0 +1,304 @@
+cancer	cohort	feature_name	metabolite_key	original_q	original_significant	tumor_feature_matches	normal_feature_matches	n_tumor_processed_finite	n_tumor_preimputation_available	status	reason
+PDAC	PDAC	1,2-dipalmitoylglycerol	HMDB:HMDB07098	0.116290740921795	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1,3-dihydroxyacetone	KEGG:C00184	0.0813113981805886	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1,5-anhydroglucitol (1,5-AG)	KEGG:C07326	0.898497970966782	False	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-arachidonoyl-GPC (20:4n6)	KEGG:C05208	0.930487365328862	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-arachidonoyl-GPE (20:4n6)	HMDB:HMDB11517	0.0696770012219702	False	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-heptadecanoylglycerol (1-monoheptadecanoin)	NAME:1-heptadecanoylglycerol (1-monoheptadecanoin)	0.156312484983901	False	1	1	27	6	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-margaroylglycerophosphocholine (17:0)	KEGG:C04230	0.698660937169629	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-linoleoyl-GPC (18:2)	KEGG:C04100	0.759790430805399	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-methylimidazoleacetate	KEGG:C05828	0.585927576697606	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-myristoylglycerophosphocholine	HMDB:HMDB10379	0.331891041360071	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-oleoylglycerophosphocholine	KEGG:C03916	0.930487365328862	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-oleoyl-GPE (18:1)	HMDB:HMDB11506	0.798229434279144	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-oleoyl-GPI (18:1)	NAME:1-oleoyl-GPI (18:1)	0.217684111067244	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-palmitoleoyl-GPC (16:1)	HMDB:HMDB10383	0.746862470432912	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-palmitoyl-GPC (16:0)	KEGG:C04102	0.735880916933007	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-palmitoyl-GPE (16:0)	HMDB:HMDB11503	0.378371843032888	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-palmitoyl-GPI (16:0)	HMDB:HMDB61695	0.082956984535416	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-(1-enyl-palmitoyl)-GPE (P-16:0)	NAME:1-(1-enyl-palmitoyl)-GPE (P-16:0)	0.458392588054548	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-pentadecanoylglycerol (1-monopentadecanoin)	NAME:1-pentadecanoylglycerol (1-monopentadecanoin)	0.0393227498525208	True	1	1	27	6	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-pentadecanoylglycerophosphocholine (15:0)	NAME:1-pentadecanoylglycerophosphocholine (15:0)	0.527509491482524	False	1	1	27	11	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-stearoylglycerol (18:0)	KEGG:D01947	0.038488432104132	True	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-stearoyl-GPC (18:0)	HMDB:HMDB10384	0.898497970966782	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-stearoylglycerophosphoethanolamine	HMDB:HMDB11130	0.670459187782923	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-stearoyl-GPI (18:0)	HMDB:HMDB61696	0.137317149633562	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	10-heptadecenoate (17:1n7)	HMDB:HMDB60038	0.845766639820945	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	10-nonadecenoate (19:1n9)	HMDB:HMDB13622	0.359613797134324	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	13-HODE + 9-HODE	KEGG:C14767	0.318360004989005	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	(16 or 17)-methylstearate (a19:0 or i19:0)	HMDB:HMDB0037397	0.0816683379714033	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2'-deoxycytidine 5'-monophosphate	KEGG:C00239	0.0204595468994069	True	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2'-deoxyguanosine	KEGG:C00330	0.0204595468994069	True	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2'-deoxyinosine	KEGG:C05512	0.0204595468994069	True	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2'-O-methylguanosine	KEGG:C04545	0.038488432104132	True	1	1	27	7	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-aminoadipate	KEGG:C00956	0.532572860686547	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-aminobutyrate	KEGG:C02261	0.670459187782923	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-arachidonoylglycerophosphocholine	NAME:2-arachidonoylglycerophosphocholine	0.275458041858278	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-arachidonoylglycerophosphoethanolamine	NAME:2-arachidonoylglycerophosphoethanolamine	0.157248060966743	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-hydroxybutyrate (AHB)	KEGG:C05984	0.192461721075223	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-hydroxypalmitate	HMDB:HMDB31057	0.165375201933142	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-linoleoylglycerol (2-monolinolein)	HMDB:HMDB11538	0.038488432104132	True	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-linoleoylglycerophosphocholine	NAME:2-linoleoylglycerophosphocholine	0.828092163468729	False	1	1	27	10	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-methylbutyroylcarnitine	HMDB:HMDB00378	0.229635026580984	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-myristoylglycerol (2-monomyristin)	NAME:2-myristoylglycerol (2-monomyristin)	0.0429368517077875	True	1	1	27	7	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-oleoylglycerol (2-monoolein)	NAME:2-oleoylglycerol (2-monoolein)	0.038488432104132	True	1	1	27	10	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-oleoylglycerophosphocholine	NAME:2-oleoylglycerophosphocholine	0.735880916933007	False	1	1	27	11	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-oleoylglycerophosphoethanolamine	NAME:2-oleoylglycerophosphoethanolamine	0.378371843032888	False	1	1	27	23	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-palmitoylglycerol (16:0)	HMDB:HMDB11533	0.038488432104132	True	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-palmitoyl-GPC (16:0)	HMDB:HMDB61702	0.609639496120475	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-palmitoylglycerophosphoethanolamine	NAME:2-palmitoylglycerophosphoethanolamine	0.583477599752314	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-phosphoglycerate	KEGG:C00631	0.563884721007366	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-stearoylglycerol (2-monostearin)	NAME:2-stearoylglycerol (2-monostearin)	0.0393227498525208	True	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-stearoylglycerophosphocholine	NAME:2-stearoylglycerophosphocholine	0.719333236242316	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-stearoylglycerophosphoinositol	NAME:2-stearoylglycerophosphoinositol	0.18655353050033	False	1	1	27	16	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	3-(4-hydroxyphenyl)lactate	KEGG:C03672	0.0861399514590939	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	HMDB:HMDB61112	0.578911649573058	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	3-dehydrocarnitine	KEGG:C02636	0.356804868102364	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	3-hydroxybutyrate (BHBA)	KEGG:C01089	0.116421946589957	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	3-methyl-2-oxobutyrate	KEGG:C00141	0.703641577065385	False	1	1	27	15	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	3-methyl-2-oxovalerate	KEGG:C00671	0.704362670758044	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	3-phosphoglycerate	KEGG:C00597	0.0622173785880941	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	4-androsten-3beta,17beta-diol disulfate (1)	KEGG:C04295	0.361254172930834	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	4-guanidinobutanoate	KEGG:C01035	0.357451664446865	False	1	1	27	16	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	4-hydroxybutyrate (GHB)	KEGG:C00989	0.0696770012219702	False	1	1	27	8	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	4-hydroxyphenylpyruvate	KEGG:C01179	0.176139687551024	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	4-methyl-2-oxopentanoate	KEGG:C00233	0.532572860686547	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	5,6-dihydrouracil	KEGG:C00429	0.790348773017348	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	5-dodecenoate (12:1n7)	HMDB:HMDB00529	0.0696770012219702	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	5-oxoproline	KEGG:C01879	0.077040271791117	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	6-keto prostaglandin F1alpha	KEGG:C05961	0.150132487860168	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	6-phosphogluconate	KEGG:C00345	0.522740829699091	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	9,10-DiHOME	KEGG:C14828	0.0393227498525208	True	1	1	27	16	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	acetylcarnitine	KEGG:C02571	0.038488432104132	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	adenosine	KEGG:C00212	0.529311542935865	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	adenosine 2'-monophosphate (2'-AMP)	KEGG:C00946	0.930487365328862	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	adenosine 3'-monophosphate (3'-AMP)	KEGG:C01367	0.0393227498525208	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	adenosine 5'-monophosphate (AMP)	KEGG:C00020	0.583477599752314	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	adrenate (22:4n6)	KEGG:C16527	0.556320602556398	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	alanine	KEGG:C00041	0.180928325873837	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	alanylglycine	HMDB:HMDB06899	0.183427543826101	False	1	1	27	8	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	alanylleucine	HMDB:HMDB28691	0.50666491345464	False	1	1	27	16	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	alanylphenylalanine	NAME:alanylphenylalanine	0.538294037032857	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	alanylvaline	NAME:alanylvaline	0.0813113981805886	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	allo-threonine	KEGG:C05519	0.645925653385062	False	1	1	27	15	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	alpha-glutamylglutamate	KEGG:C01425	0.300027110204566	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	alpha-ketoglutarate	KEGG:C00026	0.378371843032888	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	alpha-tocopherol	KEGG:C02477	0.684129865102798	False	1	1	27	23	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	arachidonate (20:4n6)	KEGG:C00219	0.670459187782923	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	arginine	KEGG:C00062	0.69896570715808	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	ascorbate (Vitamin C)	KEGG:C00072	0.585927576697606	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	asparagine	KEGG:C00152	0.417920545870192	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	aspartate	KEGG:C00049	0.151051611801964	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	aspartylphenylalanine	HMDB:HMDB00706	0.0393227498525208	True	1	1	27	23	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	azelate (nonanedioate)	KEGG:C08261	0.752959628349008	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	butyrylcarnitine	KEGG:C02862	0.0429368517077875	True	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	C-glycosyltryptophan	NAME:C-glycosyltryptophan	0.038488432104132	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	caprate (10:0)	KEGG:C01571	0.229635026580984	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	caprylate (8:0)	KEGG:C06423	0.945994247818755	False	1	1	27	23	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	carnitine	KEGG:C00318	0.327653959065746	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	cholesterol	KEGG:C00187	0.704362670758044	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phosphocholine	KEGG:C00588	0.704362670758044	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	citrate	KEGG:C00158	0.0204595468994069	True	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	citrulline	KEGG:C00327	0.077040271791117	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	cortisol	KEGG:C00735	0.735880916933007	False	1	1	27	15	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	creatine	KEGG:C00300	0.327653959065746	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	creatinine	KEGG:C00791	0.370024792662537	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	cysteine	KEGG:C00097	0.200377225696304	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	cystine	KEGG:C00491	0.429395977233928	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	cytidine	KEGG:C00475	0.180928325873837	False	1	1	27	10	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	cytidine 5'-diphosphocholine	KEGG:C00307	0.930487365328862	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	cytidine 5'-monophosphate (5'-CMP)	KEGG:C00055	0.735880916933007	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	cytidine 3'-monophosphate (3'-CMP)	KEGG:C05822	0.0786528055056524	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	deoxycarnitine	KEGG:C01181	0.359613797134324	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	dexpanthenol	KEGG:C03726	0.18655353050033	False	1	1	27	17	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	dihomo-linoleate (20:2n6)	KEGG:C16525	0.359613797134324	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	dihomo-linolenate (20:3n3 or n6)	KEGG:C03242	0.66222444600564	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	dimethylarginine (SDMA + ADMA)	KEGG:C03626	0.146740802018055	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	docosadienoate (22:2n6)	KEGG:C16533	0.818289963453926	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	docosahexaenoate (DHA; 22:6n3)	KEGG:C06429	0.798229434279144	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	docosapentaenoate (n3 DPA; 22:5n3)	KEGG:C16513	0.930487365328862	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	docosatrienoate (22:3n3)	KEGG:C16534	0.585927576697606	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	eicosapentaenoate (EPA; 20:5n3)	KEGG:C06428	0.704362670758044	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	eicosenoate (20:1)	KEGG:C16526	0.488478000866477	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	ergothioneine	KEGG:C05570	0.229635026580984	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	erythritol	KEGG:C00503	0.798229434279144	False	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	erythronate	HMDB:HMDB00613	0.85779926478999	False	1	1	27	15	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	ethanolamine	KEGG:C00189	0.911498551691066	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	flavin adenine dinucleotide (FAD)	KEGG:C00016	0.66222444600564	False	1	1	27	23	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	fructose	KEGG:C00095	0.937468533415716	False	1	1	27	16	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	fructose-6-phosphate	KEGG:C05345	0.885190809130713	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	fumarate	KEGG:C00122	0.137317149633562	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	galactose	KEGG:C01662	0.527509491482524	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	gamma-aminobutyrate (GABA)	KEGG:C00334	0.140080133589972	False	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	gamma-glutamylglutamate	KEGG:C05282	0.0393227498525208	True	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	gamma-glutamylglutamine	KEGG:C05283	0.427279578357648	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	gamma-glutamylleucine	HMDB:HMDB11171	0.735880916933007	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	gamma-glutamylphenylalanine	HMDB:HMDB00594	0.698660937169629	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	gamma-glutamylthreonine	HMDB:HMDB29159	0.981761680041601	False	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	gamma-glutamyltyrosine	HMDB:HMDB11741	0.0393227498525208	True	1	1	27	23	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	gluconate	KEGG:C00257	0.798229434279144	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glucose	KEGG:C00031	0.280838960276988	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glucose 6-phosphate	KEGG:C00668	0.359613797134324	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glutamate	KEGG:C00025	0.236926883237561	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glutamine	KEGG:C00064	0.0393227498525208	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glutathione, reduced (GSH)	KEGG:C00051	0.981761680041601	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycerate	KEGG:C00258	0.318360004989005	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycerol	KEGG:C00116	0.0494122097019537	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycerol 2-phosphate	KEGG:C02979	0.116421946589957	False	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycerol 3-phosphate (G3P)	KEGG:C00093	0.038488432104132	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycerophosphorylcholine (GPC)	KEGG:C00670	0.0429368517077875	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycine	KEGG:C00037	0.976315077893347	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycochenodeoxycholate	KEGG:C05466	0.92086827267929	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycocholate	KEGG:C01921	0.898497970966782	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycodeoxycholate	KEGG:C05464	0.475031393304793	False	1	1	27	11	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycolate (hydroxyacetate)	KEGG:C00160	0.976315077893347	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycoursodeoxycholate	HMDB:HMDB00708	0.486242299737179	False	1	1	27	5	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycylglycine	KEGG:C02037	0.151051611801964	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycylisoleucine	HMDB:HMDB0028844	0.0696770012219702	False	1	1	27	15	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycylleucine	KEGG:C02155	0.0429368517077875	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycylproline	HMDB:HMDB00721	0.0204595468994069	True	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	glycylvaline	HMDB:HMDB28854	0.038488432104132	True	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	guanidinoacetate	KEGG:C00581	0.0772448833113869	False	1	1	27	13	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	guanosine	KEGG:C00387	0.038488432104132	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	heme	KEGG:C00032	0.585927576697606	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	heptanoate (7:0)	KEGG:C17714	0.358447592674788	False	1	1	27	11	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	hexadecanedioate	HMDB:HMDB00672	0.556320602556398	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	hippurate	KEGG:C01586	0.676983099424949	False	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	histamine	KEGG:C00388	0.585927576697606	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	histidine	KEGG:C00135	0.790348773017348	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	homocysteine	KEGG:C00155	0.735880916933007	False	1	1	27	12	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	hypoxanthine	KEGG:C00262	0.645071664403519	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	inosine	KEGG:C00294	0.236926883237561	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	inositol 1-phosphate (I1P)	KEGG:C04006	0.364340160554712	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	2-ethylhexanoate (isobar with 2-propylpentanoate)	NAME:2-ethylhexanoate (isobar with 2-propylpentanoate)	0.818289963453926	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	Isobar: fructose 1,6-diphosphate, glucose 1,6-diphosphate	NAME:Isobar: fructose 1,6-diphosphate, glucose 1,6-diphosphate	0.165375201933142	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	ribulose/xylulose 5-phosphate	KEGG:C00199	0.038488432104132	True	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	isobutyrylcarnitine	HMDB:HMDB00736	0.955231260672215	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	isoleucine	KEGG:C00407	0.608250890716346	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	isoleucylisoleucine	NAME:isoleucylisoleucine	0.140359860483162	False	1	1	27	6	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	isoleucylleucine	NAME:isoleucylleucine	0.794784921821263	False	1	1	27	16	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	isovalerylcarnitine	KEGG:C20826	0.136365301203365	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	kynurenine	KEGG:C00328	0.192461721075223	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	lactate	KEGG:C00186	0.18655353050033	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	laurate (12:0)	KEGG:C02679	0.12254338204	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	leucine	KEGG:C00123	0.0429368517077875	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	leucylisoleucine	NAME:leucylisoleucine	0.563884721007366	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	leucylleucine	KEGG:C11332	0.236926883237561	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	lidocaine	KEGG:D00358	0.522740829699091	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	linoleate (18:2n6)	KEGG:C01595	0.180928325873837	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	linolenate [alpha or gamma; (18:3n3 or 6)]	KEGG:C06427	0.0665717741538358	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	lysine	KEGG:C00047	0.0429368517077875	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	malate	KEGG:C00149	0.475031393304793	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	maltose	KEGG:C00208	0.051758400114163	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	maltotetraose	KEGG:C02052	0.585927576697606	False	1	1	27	17	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	mannitol	KEGG:C00392	0.538294037032857	False	1	1	27	12	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	mannose	KEGG:C00159	0.422493504528948	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	mannose 6-phosphate	KEGG:C00275	0.12254338204	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	margarate (17:0)	HMDB:HMDB02259	0.146740802018055	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	methionine	KEGG:C00073	0.378371843032888	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	methionine sulfoxide	KEGG:C02989	0.038488432104132	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	methyl palmitate (15 or 2)	NAME:methyl palmitate (15 or 2)	0.569830187213053	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	methylglutaroylcarnitine	HMDB:HMDB00552	0.189527698520753	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	methylphosphate	HMDB:HMDB61711	0.324815905675368	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	metoprolol	KEGG:D02358	0.786497253365345	False	1	1	27	5	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	metoprolol acid metabolite	NAME:metoprolol acid metabolite	0.624601370772032	False	1	1	27	8	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	myo-inositol	KEGG:C00137	0.444629268060025	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	myristate (14:0)	KEGG:C06424	0.157248060966743	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	myristoleate (14:1n5)	KEGG:C08322	0.038488432104132	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetyl-aspartyl-glutamate (NAAG)	KEGG:C12270	0.735880916933007	False	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetylalanine	KEGG:C02847	0.945994247818755	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetylaspartate (NAA)	KEGG:C01042	0.556320602556398	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetylglucosamine	KEGG:C00140	0.0702378021974793	False	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetylisoleucine	NAME:N-acetylisoleucine	0.428020557461049	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetylmethionine	KEGG:C02712	0.105030621605738	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetylneuraminate	KEGG:C00270	0.556320602556398	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetylserine	HMDB:HMDB02931	0.144976139079526	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetylthreonine	KEGG:C01118	0.798229434279144	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-acetyltryptophan	KEGG:C03137	0.911498551691066	False	1	1	27	7	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N-ethylglycinexylidide	KEGG:C16561	0.704362670758044	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	1-methyladenosine	KEGG:C02494	0.585927576697606	False	1	1	27	14	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N1-methylguanosine	HMDB:HMDB01563	0.0393227498525208	True	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N2-methylguanosine	HMDB:HMDB05862	0.585927576697606	False	1	1	27	7	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	N6-acetyllysine	KEGG:C02727	0.077040271791117	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	nicotinamide	KEGG:C00153	0.583477599752314	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	nicotinamide adenine dinucleotide (NAD+)	KEGG:C00003	0.0421516533059478	True	1	1	27	5	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	nonadecanoate (19:0)	KEGG:C16535	0.200377225696304	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	octanoylcarnitine (C8)	KEGG:C02838	0.0897369210663204	False	1	1	27	21	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	oleate (18:1n9)	KEGG:C00712	0.542961478829904	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	oleoylcarnitine	HMDB:HMDB05065	0.82186188138824	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	ophthalmate	HMDB:HMDB05765	0.488474276512146	False	1	1	27	12	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	ornithine	KEGG:C00077	0.038488432104132	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	p-cresol sulfate	KEGG:C01468	0.0786528055056524	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	palmitate (16:0)	KEGG:C00249	0.307014735577567	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	palmitoleate (16:1n7)	KEGG:C08362	0.146740802018055	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	palmitoyl sphingomyelin (d18:1/16:0)	HMDB:HMDB0010169	0.356804868102364	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	palmitoylcarnitine	KEGG:C02990	0.684129865102798	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pantothenate	KEGG:C00864	0.180928325873837	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pelargonate (9:0)	KEGG:C01601	0.704362670758044	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	penicillin G	KEGG:C05551	0.976315077893347	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pentadecanoate (15:0)	KEGG:C16537	0.051758400114163	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phenol red	KEGG:C12600	0.378371843032888	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phenol sulfate	KEGG:C02180	0.0897369210663204	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phenylacetylglutamine	KEGG:C05597	0.21194044227649	False	1	1	27	17	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phenylacetylglycine	KEGG:C05598	0.444629268060025	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phenylalanine	KEGG:C00079	0.21194044227649	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phenyllactate (PLA)	KEGG:C05607	0.82186188138824	False	1	1	27	5	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phosphate	KEGG:C00009	0.845766639820945	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	phosphoethanolamine	KEGG:C00346	0.0622173785880941	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pipecolate	KEGG:C00408	0.194603202166174	False	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pregnen-diol disulfate	KEGG:C05484	0.670459187782923	False	1	1	27	10	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pro-hydroxy-pro	HMDB:HMDB06695	0.0393227498525208	True	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	proline	KEGG:C00148	0.0605951290887112	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	propionylcarnitine	KEGG:C03017	0.542961478829904	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	prostaglandin E2	KEGG:C00584	0.506155902289798	False	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pseudouridine	KEGG:C02067	0.670459187782923	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	putrescine	KEGG:C00134	0.961217007290224	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pyridoxal	KEGG:C00250	0.318868803240399	False	1	1	27	7	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pyroglutamine	NAME:pyroglutamine	0.116421946589957	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	pyruvate	KEGG:C00022	0.0700756635453659	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	riboflavin (Vitamin B2)	KEGG:C00255	0.609639496120475	False	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	ribose	KEGG:C00121	0.69555151947907	False	1	1	27	12	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	ribose 5-phosphate	KEGG:C00117	0.189527698520753	False	1	1	27	12	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	S-adenosylhomocysteine (SAH)	KEGG:C00021	0.458392588054548	False	1	1	27	25	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	scyllo-inositol	KEGG:C06153	0.229635026580984	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	sebacate (decanedioate)	KEGG:C08277	0.684129865102798	False	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	serine	KEGG:C00065	0.522740829699091	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	spermidine	KEGG:C00315	0.930487365328862	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	sphinganine	KEGG:C00836	0.868882508084732	False	1	1	27	12	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	sphingosine	KEGG:C00319	0.82186188138824	False	1	1	27	16	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	squalene	KEGG:C00751	0.785694517643397	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	stachydrine	KEGG:C10172	0.542961478829904	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	stearamide	KEGG:C13846	0.151051611801964	False	1	1	27	23	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	stearate (18:0)	KEGG:C01530	0.444629268060025	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	stearidonate (18:4n3)	KEGG:C16300	0.0608523808303738	False	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	stearoyl sphingomyelin (d18:1/18:0)	KEGG:C00550	0.287180663014148	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	stearoylcarnitine	HMDB:HMDB00848	0.990858624911862	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	succinate	KEGG:C00042	0.0786528055056524	False	1	1	27	26	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	succinylcarnitine	NAME:succinylcarnitine	0.0696770012219702	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	taurine	KEGG:C00245	0.0113146499716752	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	taurochenodeoxycholate	KEGG:C05465	0.926571556560924	False	1	1	27	16	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	taurocholate	KEGG:C05122	0.961217007290224	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	taurocholenate sulfate	NAME:taurocholenate sulfate	0.82186188138824	False	1	1	27	6	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	taurodeoxycholate	KEGG:C05463	0.460144365861807	False	1	1	27	8	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	tetradecanedioate	HMDB:HMDB00872	0.911498551691066	False	1	1	27	17	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	threonine	KEGG:C00188	0.569830187213053	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	threonylphenylalanine	HMDB:HMDB29068	0.359613797134324	False	1	1	27	11	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	thymidine	KEGG:C00214	0.0113146499716752	True	1	1	27	8	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	thymidine 3'-monophosphate	NAME:thymidine 3'-monophosphate	0.0113146499716752	True	1	1	27	9	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	thymine	KEGG:C00178	0.038488432104132	True	1	1	27	15	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	tiglylcarnitine (C5:1-DC)	HMDB:HMDB02366	0.861899637399517	False	1	1	27	19	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	trans-4-hydroxyproline	KEGG:C01157	0.293716595274432	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	tryptophan	KEGG:C00078	0.038488432104132	True	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	tryptophan betaine	KEGG:C09213	0.341103196517132	False	0	0	NA	NA	NEEDS_REVIEW	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	tyrosine	KEGG:C00082	0.318360004989005	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	undecanedioate	HMDB:HMDB00888	1	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	undecanoate (11:0)	HMDB:HMDB00947	0.911498551691066	False	1	1	27	24	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	uracil	KEGG:C00106	0.624601370772032	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	urate	KEGG:C00366	0.146740802018055	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	urea	KEGG:C00086	0.930487365328862	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	uridine	KEGG:C00299	0.898497970966782	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	valerylcarnitine	HMDB:HMDB13128	0.369687458051844	False	1	1	27	20	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	valine	KEGG:C00183	0.236926883237561	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	VGAHAGEYGAEALER	NAME:VGAHAGEYGAEALER	0.444629268060025	False	1	1	27	18	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	xanthine	KEGG:C00385	0.927511241053468	False	1	1	27	27	DONE	Source availability only; not verified mass-spectrometry detection
+PDAC	PDAC	xanthosine	KEGG:C01762	0.670459187782923	False	1	1	27	22	DONE	Source availability only; not verified mass-spectrometry detection

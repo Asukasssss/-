@@ -1,0 +1,20 @@
+tissue	cell_type	n_cells
+Control	Acinar cell	1423
+Control	B cell	31
+Control	Ductal cell type 1	7671
+Control	Endocrine cell	270
+Control	Endothelial cell	3983
+Control	Fibroblast cell	940
+Control	Macrophage cell	559
+Control	Stellate cell	623
+Control	T cell	44
+Tumor	Acinar cell	512
+Tumor	B cell	2416
+Tumor	Ductal cell type 1	2646
+Tumor	Ductal cell type 2	11315
+Tumor	Endocrine cell	459
+Tumor	Endothelial cell	5134
+Tumor	Fibroblast cell	5802
+Tumor	Macrophage cell	4802
+Tumor	Stellate cell	5284
+Tumor	T cell	3616

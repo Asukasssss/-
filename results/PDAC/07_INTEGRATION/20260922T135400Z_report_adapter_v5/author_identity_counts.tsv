@@ -1,0 +1,26 @@
+cohort	celltype	cell_type_specific	resolved_celltype	identity_status	reason	n_cells
+GSE242230	Acinar	Acinar	Acinar	OTHER_LINEAGE	Original nonductal lineage retained	91
+GSE242230	B cell	B cell	B cell	OTHER_LINEAGE	Original nonductal lineage retained	1586
+GSE242230	Endothelial	Endothelial	Endothelial	OTHER_LINEAGE	Original nonductal lineage retained	274
+GSE242230	Erythrocyte	Erythrocyte	Erythrocyte	OTHER_LINEAGE	Original nonductal lineage retained	1199
+GSE242230	Fibroblast	iCAF	Fibroblast	OTHER_LINEAGE	Original nonductal lineage retained	291
+GSE242230	Fibroblast	myCAF	Fibroblast	OTHER_LINEAGE	Original nonductal lineage retained	356
+GSE242230	Malignant	Malignant - Basal	Malignant (author)	AUTHOR_MALIGNANT	Explicit author malignant subtype;not independent CNV validation	5123
+GSE242230	Malignant	Malignant - Classical	Malignant (author)	AUTHOR_MALIGNANT	Explicit author malignant subtype;not independent CNV validation	5660
+GSE242230	Malignant	Normal Epithelial	Normal epithelial (author)	AUTHOR_NORMAL	Specific author label overrides broad Malignant label	350
+GSE242230	Mast	Mast	Mast	OTHER_LINEAGE	Original nonductal lineage retained	91
+GSE242230	Monocyte/DC	DC	Monocyte/DC	OTHER_LINEAGE	Original nonductal lineage retained	622
+GSE242230	Monocyte/DC	DC/Macrophage - Proliferating	Monocyte/DC	OTHER_LINEAGE	Original nonductal lineage retained	157
+GSE242230	Monocyte/DC	TAM - C1QC	Monocyte/DC	OTHER_LINEAGE	Original nonductal lineage retained	1565
+GSE242230	Monocyte/DC	TAM - FCN1	Monocyte/DC	OTHER_LINEAGE	Original nonductal lineage retained	2720
+GSE242230	Monocyte/DC	TAM - SPP1	Monocyte/DC	OTHER_LINEAGE	Original nonductal lineage retained	1141
+GSE242230	Monocyte/DC	pDC	Monocyte/DC	OTHER_LINEAGE	Original nonductal lineage retained	41
+GSE242230	NK/T cell	CD4 T cell	NK/T cell	OTHER_LINEAGE	Original nonductal lineage retained	5347
+GSE242230	NK/T cell	CD8 T cell 	NK/T cell	OTHER_LINEAGE	Original nonductal lineage retained	2211
+GSE242230	NK/T cell	CD8 T cell - Exhausted	NK/T cell	OTHER_LINEAGE	Original nonductal lineage retained	366
+GSE242230	NK/T cell	NK	NK/T cell	OTHER_LINEAGE	Original nonductal lineage retained	1114
+GSE242230	NK/T cell	T cell - Proliferating	NK/T cell	OTHER_LINEAGE	Original nonductal lineage retained	67
+GSE242230	NK/T cell	Treg	NK/T cell	OTHER_LINEAGE	Original nonductal lineage retained	303
+GSE242230	Plasma	Plasma	Plasma	OTHER_LINEAGE	Original nonductal lineage retained	154
+GSE242230	Platelets	Platelets	Platelets	OTHER_LINEAGE	Original nonductal lineage retained	122
+GSE242230	Stellate	Stellate	Stellate	OTHER_LINEAGE	Original nonductal lineage retained	264

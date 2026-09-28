@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_level_association_n_rho_checks": 1388,
+  "RNA_signed_rank_independent_DP_checks": 528,
+  "fixed_BH_families_checked": 5,
+  "permutation_P_independent_replay": "NOT_RUN;production method retained",
+  "patient_rows_exported": false
+}

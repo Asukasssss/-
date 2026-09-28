@@ -1,0 +1,15 @@
+{
+ "analysis_version":"moncada_lypla1_slice_v1",
+ "cohort":"GSE111672",
+ "sample":"GSM3036911_PDACA_ST1",
+ "gene":"LYPLA1",
+ "scope":"Actual tissue image plus same-section measured spatial map and published histology-region reannotation. One section from one patient; no population-level validation.",
+ "counts":"GEO GSM3036911_PDAC-A-ST1-filtered.txt.gz, all 428 author-retained spots; unique LYPLA1 row required. Independent line-based read verifies target counts. Earlier GSM3036911.tsv.gz differs at four target spots (24 vs 22 total counts); preserve this version difference rather than claiming exact agreement.",
+ "normalization":"Primary log1p(10000*LYPLA1/total counts over all gene rows in the author-filtered matrix). Two unrelated duplicate labels (1-Mar, 2-Mar) remain separate original rows; do not guess their identities or collapse counts. All plotted genes must uniquely match. Sensitivity uses both numerator and full-gene denominator from the earlier raw matrix, independently checked against CARD spatial_count.RData; never mix numerator and denominator across versions. No imputation or smoothing.",
+ "regions":"CARD Figure4A_layer_annote.RData at commit 2d64b91abb5cdd0c7f576b1c5d4727c84e7c93a0, 426 manual histology-region labels; key matching, no nearest-neighbor guess. Retain 2 unmatched spots as Unannotated. CARD reannotation must not be attributed to original Moncada authors.",
+ "coordinates":"Use original array x,y encoded in spot keys; plot x rightwards, y downwards consistent with SPOTlight y_inv=36-y. Do not fabricate image pixel registration. If exact pixel transform is unavailable, show H&E and coordinate maps as separate panels explicitly marked not pixel-registered.",
+ "statistics":"Descriptive spot counts, LYPLA1-positive fractions, raw mean, log-normalized mean and median by region; no P/q because one donor and spatially dependent spots. Not single-cell cancer specificity.",
+ "display":"Observed spots only; no synthetic boundary or interpolation. Common 0-to-observed-maximum LYPLA1 scale. Circle radius 0.25 array units (100um capture, 200um pitch per published ST design). Reference marker maps EPCAM,KRT19,COL1A1,PTPRC.",
+ "residency":"Sources, complete spot tables and matrices only on server165. Export computed figures and region aggregates.",
+ "sources":["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3036911","https://doi.org/10.1038/s41587-019-0392-8","https://doi.org/10.1038/s41587-022-01273-7","https://github.com/YingMa0107/CARD/blob/2d64b91abb5cdd0c7f576b1c5d4727c84e7c93a0/data/Figure4A_layer_annote.RData"]
+}

@@ -1,0 +1,38 @@
+{
+  "singlecell_genes": [
+    "ABHD6",
+    "CNDP2",
+    "DPEP1",
+    "EPHX1",
+    "EPHX2",
+    "GGCT",
+    "GGT1",
+    "GGT5",
+    "MGLL",
+    "MMP14",
+    "MOGAT1",
+    "P4HA1",
+    "PEPD",
+    "SLC15A1"
+  ],
+  "cptac_genes": [
+    "ADA",
+    "CMPK1",
+    "DCK",
+    "DCTD",
+    "DGUOK",
+    "DPYD",
+    "HPRT1",
+    "PNP",
+    "SLC29A1",
+    "SLC29A2",
+    "TK1",
+    "TK2",
+    "TYMP"
+  ],
+  "n_singlecell": 14,
+  "n_cptac": 13,
+  "intersection": [],
+  "n_intersection": 0,
+  "meaning": "Historical gene sets only; does not establish cohort independence."
+}

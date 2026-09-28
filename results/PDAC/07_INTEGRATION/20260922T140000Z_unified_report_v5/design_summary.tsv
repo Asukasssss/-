@@ -1,0 +1,2 @@
+cancer	design	metabolite_pairs	RNA_pairs	tumor_association_units	all_tumor_specimens	all_normal_specimens	excluded_tumor_without_pair_key	clinical_identity	aliquot_identity	cohort_overlap	source
+PDAC	author_confirmed_T_N_pair	11	11	21	27	12	6	NOT_RECERTIFIED	NOT_RECERTIFIED	NEEDS_REVIEW	GSM join to explicit author pairing workbook

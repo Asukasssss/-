@@ -1,0 +1,33 @@
+cancer	cohort	author_celltype	coarse_celltype	annotation_origin	mapping_evidence	version	status	reason
+PDAC	GSE263733	Acinar cell	Acinar	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE263733	B cell	B/Plasma	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE263733	Ductal cell	Epithelial/Ductal	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE263733	Endothelial cell	Endothelial	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE263733	Fibroblast	Fibroblast/CAF	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE263733	Myeloid	Myeloid	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE263733	T cell	T/NK	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	Acinar	Acinar	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	B	B/Plasma	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	CAF	Fibroblast/CAF	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	CD4T	T/NK	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	CD8T	T/NK	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	Ductal	Epithelial/Ductal	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	Endocrine	Endocrine	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	Endothelial	Endothelial	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	Myeloid	Myeloid	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	NK	T/NK	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	Plasma	B/Plasma	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	Schwann	Schwann	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE278688	Stellate	Fibroblast/CAF	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Acinar	Acinar	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	B cell	B/Plasma	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Endothelial	Endothelial	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Erythrocyte	Erythrocyte	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Fibroblast	Fibroblast/CAF	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Malignant	Epithelial/Ductal	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Mast	Mast	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Monocyte/DC	Myeloid	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	NK/T cell	T/NK	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Plasma	B/Plasma	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Platelets	Platelet	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV
+PDAC	GSE242230	Stellate	Fibroblast/CAF	Author supplied	Frozen preexisting PDAC coarse mapping;no output-based relabeling	PDAC_CAMP_source_SOP_v3	DONE	Ductal/epithelial does not confirm malignant CNV

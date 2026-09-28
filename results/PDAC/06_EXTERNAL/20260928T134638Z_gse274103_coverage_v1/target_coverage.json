@@ -1,0 +1,16 @@
+{
+  "file": "GSM8443449_PDAC-p1_filtered_feature_bc_matrix.h5",
+  "sha256": "bb68242041c96ae6ba6cd4e84caac7ab8b5094d73b7c95ec32dd7eae25df8b9c",
+  "bytes": 11735684,
+  "gene": "LYPLA1",
+  "ensembl": "ENSG00000120992",
+  "symbol_matches": 0,
+  "ensembl_matches": 0,
+  "matrix_shape": [
+    17943,
+    4987
+  ],
+  "status": "NOT_EVALUABLE",
+  "scope": "Only this downloaded sample; no inference about other samples",
+  "reason": "Missing feature is not a measured zero; no substitution with paralogs; no expression test run"
+}
