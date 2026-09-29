@@ -1,0 +1,15 @@
+{
+  "version": "pages67_v1",
+  "nominal_p": 0.05,
+  "new_patient_tests": false,
+  "original_p_q_effects_unchanged": true,
+  "source_snapshot": "20260928 presentation aggregate manifest; latest fetched COAD/PDAC commits have no changes in the relevant stages",
+  "effect_display": "direction and nominal significance; not comparable effect magnitudes",
+  "selection": "Concrete KEGG IDs, unique feature per cohort, >=4 cancers and >=2 significant cancers; rank by cancer coverage, cohort coverage, significant cancer count, key; top4 all-observed same direction, top6 opposite significant directions in different cancer types",
+  "missing_statuses": [
+    "ABSENT_IN_SOURCE",
+    "AMBIGUOUS_MULTIPLE_FEATURES",
+    "NOT_EVALUABLE"
+  ],
+  "output": "two PNG/PDF/SVG slides; no PPT"
+}

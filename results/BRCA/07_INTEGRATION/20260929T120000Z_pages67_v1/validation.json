@@ -1,0 +1,26 @@
+{
+  "source_hashes_verified": true,
+  "coverage_counts_checked": true,
+  "relation_feature_gene_unique": true,
+  "selected_count": 10,
+  "selected_cells": 70,
+  "selection_keys": [
+    "KEGG:C00328",
+    "KEGG:C00137",
+    "KEGG:C02990",
+    "KEGG:C00319",
+    "KEGG:C00025",
+    "KEGG:C00031",
+    "KEGG:C00065",
+    "KEGG:C00123",
+    "KEGG:C00864",
+    "KEGG:C00047"
+  ],
+  "no_new_inference": true,
+  "mapping_features_within_significant_pool": true,
+  "visual_inspection": "Both final slides checked for layout, legends, text and numbers",
+  "png_size": [
+    3200,
+    1800
+  ]
+}

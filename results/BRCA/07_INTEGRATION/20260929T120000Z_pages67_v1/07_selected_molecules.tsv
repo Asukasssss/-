@@ -1,0 +1,11 @@
+key	n_cancers	n_cohorts	n_significant_cancers	n_significant_cohorts	pattern	source_names
+KEGG:C00328	5	6	3	4	same	kynurenine
+KEGG:C00137	5	6	2	3	same	myo-inositol
+KEGG:C02990	4	5	3	3	same	palmitoylcarnitine
+KEGG:C00319	4	5	2	3	same	sphingosine
+KEGG:C00025	6	7	4	4	opposite	glutamate
+KEGG:C00031	6	7	4	5	opposite	glucose
+KEGG:C00065	6	7	4	4	opposite	serine
+KEGG:C00123	6	7	4	4	opposite	leucine
+KEGG:C00864	6	7	4	5	opposite	pantothenate | pantothenate (Vitamin B5)
+KEGG:C00047	6	7	3	3	opposite	lysine

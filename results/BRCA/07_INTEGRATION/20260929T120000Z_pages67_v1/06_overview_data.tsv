@@ -1,0 +1,8 @@
+cohort	total_features	evaluable	up	down	ns	not_evaluable	mapped_features	direct_relations	candidate_genes	significant
+BRCA	318	318	146	44	128	0	93	262	150	190
+COAD	159	159	46	55	58	0	78	891	526	101
+GBM	713	697	204	276	217	16	23	171	142	480
+PDAC	307	307	12	39	256	0	30	357	250	51
+PRAD	361	361	26	43	292	0	48	161	101	69
+ccRCC3	711	711	211	258	242	0	68	221	144	469
+ccRCC4	904	904	152	280	472	0	44	130	95	432
