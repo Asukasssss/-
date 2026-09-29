@@ -1,0 +1,37 @@
+[
+  {
+    "slide": 19,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_representative_cases_v3\\01_BRCA_ASNS_CAMP.pdf",
+    "sha256": "f43c92b9103035ff23f842c553a7270b99c4a251ca099f356219a82fbad83ce9"
+  },
+  {
+    "slide": 20,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_representative_cases_v3\\02_BRCA_ASNS_全细胞与患者.pdf",
+    "sha256": "85f20963033f5bae9613c3c4a3cbadfd3006c6cfe527c14498b6584c2a9ac4fd"
+  },
+  {
+    "slide": 21,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_representative_cases_v3\\04_PDAC_PRAD_SLC6A6_CAMP.pdf",
+    "sha256": "0131f896c24ee82264172f8a1093144a0e3119a7051eb6f6fed6703e55b2596f"
+  },
+  {
+    "slide": 22,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_representative_cases_v3\\05_PDAC_SLC6A6_全细胞与患者.pdf",
+    "sha256": "37c437fb62be70bef8747b73b1942e59f05d3928eb1f75b49b1c17479d660dea"
+  },
+  {
+    "slide": 23,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_representative_cases_v3\\06_PRAD_SLC6A6_全细胞与患者.pdf",
+    "sha256": "6ba78c2cf428f88aa844a694d3601efb66c2ab25c914603833bd4dbabbfb7561"
+  },
+  {
+    "slide": 24,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_representative_cases_v3\\11_COAD_UCKL1_CAMP.pdf",
+    "sha256": "a8b967a21ef3cb09bd5473c0fc87dac4084a492abcb20c42883fc9bba8910e4a"
+  },
+  {
+    "slide": 25,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_representative_cases_v3\\09_COAD_UCKL1_全细胞与患者.pdf",
+    "sha256": "8a13ef1a68a49eb116e964ef88fa64ee791ce17848c129a9c523bd4f8a27e88a"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "slide": 19,
+    "native_text": 22,
+    "shapes": 29,
+    "raster_images": 1
+  },
+  {
+    "slide": 20,
+    "native_text": 55,
+    "shapes": 126,
+    "raster_images": 4
+  },
+  {
+    "slide": 21,
+    "native_text": 30,
+    "shapes": 41,
+    "raster_images": 1
+  },
+  {
+    "slide": 22,
+    "native_text": 70,
+    "shapes": 178,
+    "raster_images": 4
+  },
+  {
+    "slide": 23,
+    "native_text": 62,
+    "shapes": 145,
+    "raster_images": 4
+  },
+  {
+    "slide": 24,
+    "native_text": 22,
+    "shapes": 29,
+    "raster_images": 1
+  },
+  {
+    "slide": 25,
+    "native_text": 69,
+    "shapes": 151,
+    "raster_images": 4
+  }
+]

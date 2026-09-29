@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "slides": 25,
+  "pdf_pages": 25,
+  "wps_export": true,
+  "first_18_slides_xml_unchanged": true,
+  "new_tests": false,
+  "full_slide_flattening": false,
+  "audit": [
+    {
+      "slide": 1,
+      "text_boxes": 5,
+      "images": 3,
+      "objects": 13
+    },
+    {
+      "slide": 2,
+      "text_boxes": 16,
+      "images": 4,
+      "objects": 26
+    },
+    {
+      "slide": 3,
+      "text_boxes": 23,
+      "images": 11,
+      "objects": 45
+    },
+    {
+      "slide": 4,
+      "text_boxes": 23,
+      "images": 7,
+      "objects": 39
+    },
+    {
+      "slide": 5,
+      "text_boxes": 20,
+      "images": 10,
+      "objects": 50
+    },
+    {
+      "slide": 6,
+      "text_boxes": 71,
+      "images": 1,
+      "objects": 97
+    },
+    {
+      "slide": 7,
+      "text_boxes": 109,
+      "images": 1,
+      "objects": 174
+    },
+    {
+      "slide": 8,
+      "text_boxes": 94,
+      "images": 1,
+      "objects": 141
+    },
+    {
+      "slide": 9,
+      "text_boxes": 58,
+      "images": 1,
+      "objects": 72
+    },
+    {
+      "slide": 10,
+      "text_boxes": 62,
+      "images": 1,
+      "objects": 510
+    },
+    {
+      "slide": 11,
+      "text_boxes": 57,
+      "images": 4,
+      "objects": 130
+    },
+    {
+      "slide": 12,
+      "text_boxes": 68,
+      "images": 4,
+      "objects": 149
+    },
+    {
+      "slide": 13,
+      "text_boxes": 65,
+      "images": 4,
+      "objects": 144
+    },
+    {
+      "slide": 14,
+      "text_boxes": 67,
+      "images": 4,
+      "objects": 152
+    },
+    {
+      "slide": 15,
+      "text_boxes": 29,
+      "images": 12,
+      "objects": 70
+    },
+    {
+      "slide": 16,
+      "text_boxes": 28,
+      "images": 12,
+      "objects": 68
+    },
+    {
+      "slide": 17,
+      "text_boxes": 54,
+      "images": 1,
+      "objects": 77
+    },
+    {
+      "slide": 18,
+      "text_boxes": 20,
+      "images": 1,
+      "objects": 33
+    },
+    {
+      "slide": 19,
+      "text_boxes": 23,
+      "images": 1,
+      "objects": 31
+    },
+    {
+      "slide": 20,
+      "text_boxes": 55,
+      "images": 4,
+      "objects": 126
+    },
+    {
+      "slide": 21,
+      "text_boxes": 31,
+      "images": 1,
+      "objects": 43
+    },
+    {
+      "slide": 22,
+      "text_boxes": 70,
+      "images": 4,
+      "objects": 178
+    },
+    {
+      "slide": 23,
+      "text_boxes": 62,
+      "images": 4,
+      "objects": 145
+    },
+    {
+      "slide": 24,
+      "text_boxes": 23,
+      "images": 1,
+      "objects": 31
+    },
+    {
+      "slide": 25,
+      "text_boxes": 69,
+      "images": 4,
+      "objects": 151
+    }
+  ]
+}
