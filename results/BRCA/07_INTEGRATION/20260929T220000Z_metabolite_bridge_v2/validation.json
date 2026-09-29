@@ -1,0 +1,11 @@
+{
+  "status": "DONE",
+  "source_hashes_checked": true,
+  "six_relations": true,
+  "all_six_metabolite_p_lt005": true,
+  "three_of_six_associations_nominal": true,
+  "no_new_tests": true,
+  "reaction_oleate_separated_from_palmitate": true,
+  "visual_review": "PASS: all six metabolite rows, reaction roles and association labels visible; no missing glyphs",
+  "independent_association_check": "All six rho P and n equal existing figure_data/05_lypla1_relations.tsv"
+}

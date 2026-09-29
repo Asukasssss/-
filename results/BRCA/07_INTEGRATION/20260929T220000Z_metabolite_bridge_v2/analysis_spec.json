@@ -1,0 +1,25 @@
+{
+  "version": "metabolite_bridge_v2",
+  "scope": "Four-cancer current LYPLA1 biochemical candidate relations",
+  "relation_count": 6,
+  "metabolites": {
+    "KEGG:C04102": "LPC(16:0)",
+    "KEGG:C00670": "GPC",
+    "KEGG:C00712": "油酸"
+  },
+  "metabolite_discovery": "Tumor-normal within-patient differences",
+  "patient_association": "Matched metabolite and RNA within tumor samples; not paired tumor-normal deltas",
+  "significance": "nominal P<0.05",
+  "source": "Pinned existing aggregates and biochemical evidence, no new tests",
+  "reaction_note": "LPC16:0 hydrolysis yields GPC and palmitate; oleate belongs to distinct Rhea41720 reaction; water/proton omitted in diagram",
+  "no_claims": [
+    "one shared metabolic axis across four cancers",
+    "expression proves enzyme activity",
+    "metabolite-RNA association is causality",
+    "all four RNA significant"
+  ],
+  "web_checked": [
+    "https://www.rhea-db.org/rhea/40435",
+    "https://www.rhea-db.org/rhea/41720"
+  ]
+}
