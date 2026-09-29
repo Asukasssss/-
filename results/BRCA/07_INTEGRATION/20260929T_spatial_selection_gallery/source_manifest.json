@@ -1,0 +1,1292 @@
+[
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "A1",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/A1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\A1.png",
+    "sha256": "1a4c6549cddc3039c7b7afcda90fa3bd56545e225dea6d0dd304e461c2f02483",
+    "id": "BRCA-01"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "B1",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/B1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\B1.png",
+    "sha256": "5918b232513a2ff384c600d3cf20a7bbdcecd23200efb4ca40e9b2dd935dccef",
+    "id": "BRCA-02"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "C1",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/C1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\C1.png",
+    "sha256": "5ab181aa9a42d5815badeec2ca1c3d804b83674b73e23853770e70387dfc1420",
+    "id": "BRCA-03"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "D1",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/D1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\D1.png",
+    "sha256": "89021039589a690f3a689c86b17fd0b2fd793c2a2024b050c65ba95385816809",
+    "id": "BRCA-04"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "E1",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/E1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\E1.png",
+    "sha256": "7e3d8ecb098bdd2bd82ba0add8e782329c41199278fbcfe7e07abac0ec82f2ad",
+    "id": "BRCA-05"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "F1",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/F1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\F1.png",
+    "sha256": "771fff371eb7dbcb92fd5c2267151ecc17f8749dff2654396e0b16b675667977",
+    "id": "BRCA-06"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "G2",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/G2.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\G2.png",
+    "sha256": "4ebb7cea7911b96fbf0ad7094feb6abd054bf13daae563f2bf59753b23c71634",
+    "id": "BRCA-07"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "H1",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/H1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\H1.png",
+    "sha256": "157a2a115d596f5a6b110629bf8942a589d75d92ba92cea3361f7f34fb3c2aeb",
+    "id": "BRCA-08"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HER2ST",
+    "name": "summary",
+    "note": "作者病理区域；乳腺腺体不等于纯正常上皮",
+    "src": "images/BRCA/HER2ST/summary.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HER2ST_spatial\\summary.png",
+    "sha256": "dc2ae87af9684bb36cdde156c5ab13576249c8b44f50b4a5cdd002c9879b3ead",
+    "id": "BRCA-09"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "patient_summary",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/patient_summary.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\patient_summary.png",
+    "sha256": "14afed442387bff2a27e392dddb3ee1e6713e56c8afbcccf1a43ab45b68d04ab",
+    "id": "BRCA-10"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "registration_example",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/registration_example.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\registration_example.png",
+    "sha256": "7e602d25f4e8d32010b1c6da7df7d1ca6b3e6340d4cd840942eb7ece085f8396",
+    "id": "BRCA-11"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V10F24-112_C1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V10F24-112_C1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V10F24-112_C1.png",
+    "sha256": "4d235a291ea4e6ed8af3e94f0022e3c11f7cf7d78d061c5251f90e4efcd5db39",
+    "id": "BRCA-12"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V10F24-112_D1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V10F24-112_D1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V10F24-112_D1.png",
+    "sha256": "419e6c219fba804d454a7a5c7e0ad20cdd39c1dcf44f4fa51d06d224e88bd9d6",
+    "id": "BRCA-13"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V10F24-113_A1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V10F24-113_A1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V10F24-113_A1.png",
+    "sha256": "bc28a61da47bab8c98509cb49078aa53306a010f65b865b8a11120349b3a5cbb",
+    "id": "BRCA-14"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V10F24-114_C1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V10F24-114_C1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V10F24-114_C1.png",
+    "sha256": "ca7898bb21a7011cf0476aa6504fcf44bbab1cf93f68ebcb63468c343d7f533d",
+    "id": "BRCA-15"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-012_A1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-012_A1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-012_A1.png",
+    "sha256": "fdb5aea92a190b90992db2bfe633abdd912bd41273f00d5ce286f82c30c54b60",
+    "id": "BRCA-16"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-012_B1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-012_B1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-012_B1.png",
+    "sha256": "2b41794ccc423c3da5dd65b9b457e387c86985150580e4e92d9ccf5557f37370",
+    "id": "BRCA-17"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-012_C1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-012_C1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-012_C1.png",
+    "sha256": "c9af82120cc18564f735bdc24e2ce0164af329c495b135e54c34dbc32327863c",
+    "id": "BRCA-18"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-012_D1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-012_D1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-012_D1.png",
+    "sha256": "9854703dc0f2ca32c638cc7269b1d83ee97f6ec8bf0f63e7322fb584fbc4c871",
+    "id": "BRCA-19"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-031_B1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-031_B1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-031_B1.png",
+    "sha256": "34466902d786f5996b80b4a962418ea98b16274e239c5f58e61878011dcc031f",
+    "id": "BRCA-20"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-031_C1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-031_C1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-031_C1.png",
+    "sha256": "6d0dbcb1a6ba16f4bd6b6608ab4cb6b8564cb0fd9ada8dd60ad72db25883cbdf",
+    "id": "BRCA-21"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-032_A1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-032_A1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-032_A1.png",
+    "sha256": "94490f0a29a2130a802a9fd7e7465d50538cfe4a7f01e7142645a7faa3ca5602",
+    "id": "BRCA-22"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-032_B1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-032_B1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-032_B1.png",
+    "sha256": "84a48733498e8f9c571639ac7ede98e8fa9324ff7d90c7c4c4ad08817290df07",
+    "id": "BRCA-23"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-032_C1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-032_C1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-032_C1.png",
+    "sha256": "6e6d00c11e69d15c23354c1a061d9a81af9e67c9426bc4f0e269e81e4a925a92",
+    "id": "BRCA-24"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "CTA",
+    "name": "V19T26-032_D1",
+    "note": "作者癌区/免疫区标注；未标注区不是正常上皮",
+    "src": "images/BRCA/CTA/V19T26-032_D1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_CTA_spatial\\V19T26-032_D1.png",
+    "sha256": "c0a301fed920f4436483c6a4bbfd87639c9f8668cd08af860c0d72465e44220d",
+    "id": "BRCA-25"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "Wu",
+    "name": "1142243F_LYPLA1",
+    "note": "空间表达及细胞背景，按原图注释解释",
+    "src": "images/BRCA/Wu/1142243F_LYPLA1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_Wu_spatial\\1142243F_LYPLA1.png",
+    "sha256": "784b08321abd98c744ae5349c2ef7154d76f803da79e39d4bc6c1ddf43cb8f80",
+    "id": "BRCA-26"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "Wu",
+    "name": "1160920F_LYPLA1",
+    "note": "空间表达及细胞背景，按原图注释解释",
+    "src": "images/BRCA/Wu/1160920F_LYPLA1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_Wu_spatial\\1160920F_LYPLA1.png",
+    "sha256": "2cbbd7a82b9b2d0b22c8886eaa09479e3857e80c15eb46c9fbbd31aaa37c9f40",
+    "id": "BRCA-27"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "Wu",
+    "name": "CID4290_LYPLA1",
+    "note": "空间表达及细胞背景，按原图注释解释",
+    "src": "images/BRCA/Wu/CID4290_LYPLA1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_Wu_spatial\\CID4290_LYPLA1.png",
+    "sha256": "e95e6db871410c1e943558d6d5e929e6ed2f002e54c8640b374274b60648b230",
+    "id": "BRCA-28"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "Wu",
+    "name": "CID4465_LYPLA1",
+    "note": "空间表达及细胞背景，按原图注释解释",
+    "src": "images/BRCA/Wu/CID4465_LYPLA1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_Wu_spatial\\CID4465_LYPLA1.png",
+    "sha256": "2f5d206847a98143fa38902a033afd46c9ca645e577461964536412584062335",
+    "id": "BRCA-29"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "Wu",
+    "name": "CID44971_LYPLA1",
+    "note": "空间表达及细胞背景，按原图注释解释",
+    "src": "images/BRCA/Wu/CID44971_LYPLA1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_Wu_spatial\\CID44971_LYPLA1.png",
+    "sha256": "cce72efcef0cc22817055fa13eb607bcc9b8380550f8abd4bccb8f0f30d55b67",
+    "id": "BRCA-30"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "Wu",
+    "name": "CID4535_LYPLA1",
+    "note": "空间表达及细胞背景，按原图注释解释",
+    "src": "images/BRCA/Wu/CID4535_LYPLA1.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_Wu_spatial\\CID4535_LYPLA1.png",
+    "sha256": "d6b71dae282d39a920aa662e35c4464a17f7e66e6f3c0b6652ee1bb89730cccf",
+    "id": "BRCA-31"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433585",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433585.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433585.png",
+    "sha256": "719862d37617a2db25d062e1763816d30a3d1dcbc14f53ed31c663a392c43052",
+    "id": "BRCA-32"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433586",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433586.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433586.png",
+    "sha256": "a5695beb9c7c14550637c3fb77095b2d54a2fa698b161868a71983833cf9eb3e",
+    "id": "BRCA-33"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433587",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433587.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433587.png",
+    "sha256": "28aa974c44ed12dccd00253077b61fa15d63a5589ec68aefc79d7ecc0718cb61",
+    "id": "BRCA-34"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433588",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433588.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433588.png",
+    "sha256": "cb1dabda8681526d5adbb0b663214b2693f85d56fb61ad4364f99dc077368803",
+    "id": "BRCA-35"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433589",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433589.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433589.png",
+    "sha256": "60943d372074bc871326bea8ccc64b9541ad2c40fef91c7006ec384a35cbf28c",
+    "id": "BRCA-36"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433590",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433590.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433590.png",
+    "sha256": "8c3d698765f29070cea2aa8b2eb8ab56e09d49f789a4c0c73882e708a48a5626",
+    "id": "BRCA-37"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433591",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433591.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433591.png",
+    "sha256": "d123f28182e4f0e2de8f526a0ea255d3a99af14ceb42e86d29c06a0765db606b",
+    "id": "BRCA-38"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433592",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433592.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433592.png",
+    "sha256": "978930261572d695e811d2a3142257b267c82f74212c048945dd8a186174e2b2",
+    "id": "BRCA-39"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433593",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433593.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433593.png",
+    "sha256": "35b94bb1edf822d72ee5904ea395305c7103fa7f5d982c9c8188ac96b94c36ab",
+    "id": "BRCA-40"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433594",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433594.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433594.png",
+    "sha256": "e343f7385e195e73c034e81469f40641bda0d70e2c6b709c17a7f0fb417ea5f8",
+    "id": "BRCA-41"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433595",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433595.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433595.png",
+    "sha256": "9909d5e60a699cfbfcd84ba22c82c8a4ebb7ca9cccffdc5a07e562bdc0cbc0e6",
+    "id": "BRCA-42"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433596",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433596.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433596.png",
+    "sha256": "e59e2e086a544677ae1c9d1594f624d3d0f40c181c20dd16d4df056c0e735e7d",
+    "id": "BRCA-43"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433597",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433597.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433597.png",
+    "sha256": "a4bafa934ec669eae21265a42841b583dbf79f002f6e1b4c0176f40e53070759",
+    "id": "BRCA-44"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433598",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433598.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433598.png",
+    "sha256": "889e9b51f4a4c2fbfa5913645dca2316df061acf3da42485fa51919f4c34dda3",
+    "id": "BRCA-45"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433599",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433599.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433599.png",
+    "sha256": "4fe0f802b55de1b00315e568b07a9a287a02530877021431ad1838ad000fcf3c",
+    "id": "BRCA-46"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433600",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433600.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433600.png",
+    "sha256": "bfea416b6d4b611f6d98e891d81a8405365aebda08ce58316080b7bfbcf476be",
+    "id": "BRCA-47"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433601",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433601.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433601.png",
+    "sha256": "e3dde0aff1340050ec6d815ebc77c61d4891b6680182b94d7e3a5bc8a6d1554d",
+    "id": "BRCA-48"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433602",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433602.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433602.png",
+    "sha256": "3bc1c326a74a3cdfaa0ca9d0df9df251ea31bf97022d90c4539d8b47d2f9e83e",
+    "id": "BRCA-49"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433603",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433603.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433603.png",
+    "sha256": "912803a5a6fb869b77397926460c0fdad8422ade02a0f70062c4ead191562e49",
+    "id": "BRCA-50"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433604",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433604.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433604.png",
+    "sha256": "fa5eaa60c3e6a2e23324eef0701ebd0b5bc635025f760145cd8736389d1c5bb7",
+    "id": "BRCA-51"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433605",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433605.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433605.png",
+    "sha256": "82915fb30d0cf63c9dced75c66cf9e5f097a86c2bffe98cf0ba17d13c44c3f6d",
+    "id": "BRCA-52"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433606",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433606.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433606.png",
+    "sha256": "80203ea9a03c673ba434b2728fdd717024c294d096102d4862af453e7688cb7b",
+    "id": "BRCA-53"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433607",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433607.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433607.png",
+    "sha256": "95f8cf0198bbf16a9acade6537ca07538fc2e23464a8207e527c24b25ef0a9fc",
+    "id": "BRCA-54"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433608",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433608.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433608.png",
+    "sha256": "cb34dc81a8915da39f4277864d5285a967717b25fad9707c89225382c3daa49a",
+    "id": "BRCA-55"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433609",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433609.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433609.png",
+    "sha256": "540b3d181e0cf425582c8b4fa82ba1e7900fe77bdeb5c3c1b726d4fe41bbd933",
+    "id": "BRCA-56"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433610",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433610.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433610.png",
+    "sha256": "5e32ba2d844a375e2cf96cf9025e32fdedc9518ee2ae38349bc9ffa6bf09da75",
+    "id": "BRCA-57"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433611",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433611.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433611.png",
+    "sha256": "bd57cd5b2fa35ae9a27b8690a5842676b09a320b1661cb8405158e8e999be72e",
+    "id": "BRCA-58"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433612",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433612.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433612.png",
+    "sha256": "f5587c0502652e6781e72cb0d19f254c7cbe4a51915dbf3904c1dcff96010ac2",
+    "id": "BRCA-59"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433613",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433613.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433613.png",
+    "sha256": "e5437c0cfee06ca68329e6a41c0bb010d78c8662b249b4d475998556c2b2e6c3",
+    "id": "BRCA-60"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433614",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433614.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433614.png",
+    "sha256": "9f6bdb534b8c648b918453452a7ade5780f12b3550d60e94c42b1fe7a25b53e5",
+    "id": "BRCA-61"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433615",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433615.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433615.png",
+    "sha256": "a31b6085c73900eb4747e7bf110e9d71f094229ad402dfc1e8ca3b50cbe5f304",
+    "id": "BRCA-62"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433616",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433616.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433616.png",
+    "sha256": "fe357bb8f4119347495cec91e7749cf0b23997af1b97482680a4cc0bd4f525d0",
+    "id": "BRCA-63"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433617",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433617.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433617.png",
+    "sha256": "ba015a6805974cc2fcac5b935d2a231795939fe8cb27007a869d5c06a9daec5b",
+    "id": "BRCA-64"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433618",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433618.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433618.png",
+    "sha256": "bbc1db98c7d9c128459424935da9930e5e2b4e24feb8fd3afc9d9253fe305ec4",
+    "id": "BRCA-65"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433619",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433619.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433619.png",
+    "sha256": "2604d93e8c55e4790f021ec7002eb7c16a8eb7f8dc4ab0357b0cbc306f51ba60",
+    "id": "BRCA-66"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433620",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433620.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433620.png",
+    "sha256": "6cb7ec49f97a8ade346a72679b1ceb2b67cf44c09ea0b4e625ba5b7c06ee91f4",
+    "id": "BRCA-67"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433621",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433621.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433621.png",
+    "sha256": "3e82137383b3215c626bd1e769d35430ebfb34a478028c14ed09616dd2cc1a68",
+    "id": "BRCA-68"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433622",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433622.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433622.png",
+    "sha256": "937bc01e5717ae63a1d99252bd780f95a1c032750776f3ebb3471b5169dc3a16",
+    "id": "BRCA-69"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433623",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433623.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433623.png",
+    "sha256": "be2f70b5a6c9063cd2bdcea05877fdcbfd9e97e516744391ed8084466e3cc9a2",
+    "id": "BRCA-70"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433624",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433624.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433624.png",
+    "sha256": "61cf93a06746e82c5caebb6eff4d22a5e07ce6819b35f9a950fb9ce75823304f",
+    "id": "BRCA-71"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433625",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433625.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433625.png",
+    "sha256": "db318b1ce739898748ee48a131237df2723f110d83d0e6ee96ff0d9b86a91e22",
+    "id": "BRCA-72"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433626",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433626.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433626.png",
+    "sha256": "c7a95dee2e6bbd3c871c17b3bd0878312f66ceb5e213c3c2c0b7e585d3968fd1",
+    "id": "BRCA-73"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "GSM6433627",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/GSM6433627.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\GSM6433627.png",
+    "sha256": "7ee589c0bfc212b60362d3f16100b9f03220a1502b2631e4952dae00c5abdb39",
+    "id": "BRCA-74"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "GSE210616",
+    "name": "patient_summary",
+    "note": "癌区标注限制见原分析；不以表达亮度推断癌区",
+    "src": "images/BRCA/GSE210616/patient_summary.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_GSE210616_spatial\\patient_summary.png",
+    "sha256": "abd83df05b6d1653f18c4d44c344b1df70b33340fe8dc32ce6b10a2a08ce6b07",
+    "id": "BRCA-75"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HD3",
+    "name": "coordinate_qc",
+    "note": "高分辨率；缺少可核验癌区/正常导管标签",
+    "src": "images/BRCA/HD3/coordinate_qc.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HD3_spatial\\coordinate_qc.png",
+    "sha256": "e5b8665bfb2df6f8d058e4db9ae922858035a53f99f8d92b49672d36d88af05a",
+    "id": "BRCA-76"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HD3",
+    "name": "he_overlay_16um",
+    "note": "高分辨率；缺少可核验癌区/正常导管标签",
+    "src": "images/BRCA/HD3/he_overlay_16um.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HD3_spatial\\he_overlay_16um.png",
+    "sha256": "020ee79b8af6f33bff32e7c6178d5eb82b20353e1d6d5fd6f630cd62d4aca071",
+    "id": "BRCA-77"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HD3",
+    "name": "he_zoom_16um",
+    "note": "高分辨率；缺少可核验癌区/正常导管标签",
+    "src": "images/BRCA/HD3/he_zoom_16um.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HD3_spatial\\he_zoom_16um.png",
+    "sha256": "9627d678ed77eb843076660b18c9d4d7724e9d53d8b7261c0bde8c6389a04d65",
+    "id": "BRCA-78"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HD3",
+    "name": "maps_16um",
+    "note": "高分辨率；缺少可核验癌区/正常导管标签",
+    "src": "images/BRCA/HD3/maps_16um.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HD3_spatial\\maps_16um.png",
+    "sha256": "ab9aa010a698bd033f80808eebfcf8f2d2d6eb6baa228ee87f3cece867d78bdf",
+    "id": "BRCA-79"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HD3",
+    "name": "maps_32um",
+    "note": "高分辨率；缺少可核验癌区/正常导管标签",
+    "src": "images/BRCA/HD3/maps_32um.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HD3_spatial\\maps_32um.png",
+    "sha256": "bffd1d36bd7186aec1d3ac4ee1e73d323d5953c348f51eaf0834fb39bccb257d",
+    "id": "BRCA-80"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "HD3",
+    "name": "maps_8um",
+    "note": "高分辨率；缺少可核验癌区/正常导管标签",
+    "src": "images/BRCA/HD3/maps_8um.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_HD3_spatial\\maps_8um.png",
+    "sha256": "93e01f23fee8b53852a7d5901d67dd3c7133c8b2dd5a72406053f96e2b39b251",
+    "id": "BRCA-81"
+  },
+  {
+    "cancer": "BRCA",
+    "group": "normal_duct_audit",
+    "name": "DSID000277",
+    "note": "正常导管可获取性审计图，非癌区富集证明",
+    "src": "images/BRCA/normal_duct_audit/DSID000277.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\LYPLA1_normal_duct_audit\\DSID000277.png",
+    "sha256": "7f09154a3cbacecf0829a438d8eda12d574141ab6634593a436e0c8292eff579",
+    "id": "BRCA-82"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022",
+    "name": "spatial_PRAD_H1_2",
+    "note": "7 张切片来自同一患者；作者病理共识标签，5 张可作癌区—良性腺体比较",
+    "src": "images/PRAD/Erickson2022/spatial_PRAD_H1_2.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-ppt-unified-20260928\\results\\BRCA\\07_INTEGRATION\\20260928T150000Z_ppt_redraw_v1\\server_figures\\spatial_PRAD_H1_2.png",
+    "sha256": "8ce62b50a0a63073a2adda5c2cca021a8a9040908fc40df4a0f34f7e4530a3a7",
+    "id": "PRAD-01"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022",
+    "name": "spatial_PRAD_H1_4",
+    "note": "7 张切片来自同一患者；作者病理共识标签，5 张可作癌区—良性腺体比较",
+    "src": "images/PRAD/Erickson2022/spatial_PRAD_H1_4.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-ppt-unified-20260928\\results\\BRCA\\07_INTEGRATION\\20260928T150000Z_ppt_redraw_v1\\server_figures\\spatial_PRAD_H1_4.png",
+    "sha256": "1cc1a088e07764d05dd07a5130c0642cd0908b662c1039b6d78bd6c268e800ad",
+    "id": "PRAD-02"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022",
+    "name": "spatial_PRAD_H1_5",
+    "note": "7 张切片来自同一患者；作者病理共识标签，5 张可作癌区—良性腺体比较",
+    "src": "images/PRAD/Erickson2022/spatial_PRAD_H1_5.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-ppt-unified-20260928\\results\\BRCA\\07_INTEGRATION\\20260928T150000Z_ppt_redraw_v1\\server_figures\\spatial_PRAD_H1_5.png",
+    "sha256": "c53e875926edc5e35e9a5828fb9548bf19f45dc55a9aa7f8724257b5ee6f059c",
+    "id": "PRAD-03"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022",
+    "name": "spatial_PRAD_H2_1",
+    "note": "7 张切片来自同一患者；作者病理共识标签，5 张可作癌区—良性腺体比较",
+    "src": "images/PRAD/Erickson2022/spatial_PRAD_H2_1.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-ppt-unified-20260928\\results\\BRCA\\07_INTEGRATION\\20260928T150000Z_ppt_redraw_v1\\server_figures\\spatial_PRAD_H2_1.png",
+    "sha256": "9bd4f3abbcef6884a1d26baafb3d444d9f7fdd1e684e4c0bfae12dfd1eb00f7d",
+    "id": "PRAD-04"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022",
+    "name": "spatial_PRAD_H2_2",
+    "note": "7 张切片来自同一患者；作者病理共识标签，5 张可作癌区—良性腺体比较",
+    "src": "images/PRAD/Erickson2022/spatial_PRAD_H2_2.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-ppt-unified-20260928\\results\\BRCA\\07_INTEGRATION\\20260928T150000Z_ppt_redraw_v1\\server_figures\\spatial_PRAD_H2_2.png",
+    "sha256": "354fc3ea18fd0b6ee59baf6cb0f2e05ff18876e4523361c8bcfdc4c7362a9692",
+    "id": "PRAD-05"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022",
+    "name": "spatial_PRAD_H2_5",
+    "note": "7 张切片来自同一患者；作者病理共识标签，5 张可作癌区—良性腺体比较",
+    "src": "images/PRAD/Erickson2022/spatial_PRAD_H2_5.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-ppt-unified-20260928\\results\\BRCA\\07_INTEGRATION\\20260928T150000Z_ppt_redraw_v1\\server_figures\\spatial_PRAD_H2_5.png",
+    "sha256": "8769eb5a47631f7514427b5973e95c9049c2f59acf26c9ba03b4e4211acb08cc",
+    "id": "PRAD-06"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022",
+    "name": "spatial_PRAD_V1_2",
+    "note": "7 张切片来自同一患者；作者病理共识标签，5 张可作癌区—良性腺体比较",
+    "src": "images/PRAD/Erickson2022/spatial_PRAD_V1_2.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-ppt-unified-20260928\\results\\BRCA\\07_INTEGRATION\\20260928T150000Z_ppt_redraw_v1\\server_figures\\spatial_PRAD_V1_2.png",
+    "sha256": "d15879a6f3f20d10354ec93a30275c3babc5a9f5998f13781990258b7fe1bb8b",
+    "id": "PRAD-07"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Hirz2023",
+    "name": "LYPLA1_spatial_comparison",
+    "note": "Hirz：作者 RCTD 推断标签；Erickson：作者病理标签。汇总图不另算切片。",
+    "src": "images/PRAD/Hirz2023/LYPLA1_spatial_comparison.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-prad-analysis\\results\\PRAD\\06_EXTERNAL\\20260928T093400Z_lypla1_spatial_v1\\LYPLA1_spatial_comparison.png",
+    "sha256": "44eaf28015353402feda2274d705d59feab79bf3e88f252093a37508695caf54",
+    "id": "PRAD-08"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Hirz2023",
+    "name": "LYPLA1_spatial_maps",
+    "note": "Hirz：作者 RCTD 推断标签；Erickson：作者病理标签。汇总图不另算切片。",
+    "src": "images/PRAD/Hirz2023/LYPLA1_spatial_maps.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-prad-analysis\\results\\PRAD\\06_EXTERNAL\\20260928T093400Z_lypla1_spatial_v1\\LYPLA1_spatial_maps.png",
+    "sha256": "a44234196404c5aed5b74e2464a1422d97c4b69acac26a5e356ca894ae67a016",
+    "id": "PRAD-09"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022_summary",
+    "name": "LYPLA1_pathology_comparison",
+    "note": "Hirz：作者 RCTD 推断标签；Erickson：作者病理标签。汇总图不另算切片。",
+    "src": "images/PRAD/Erickson2022_summary/LYPLA1_pathology_comparison.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-prad-analysis\\results\\PRAD\\06_EXTERNAL\\20260928T101700Z_lypla1_erickson_v1\\LYPLA1_pathology_comparison.png",
+    "sha256": "bd655f17aa73d08d5f2249c6e464de0c3620ca5d6f2f2f22bb4084cab3b13e97",
+    "id": "PRAD-10"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022_summary",
+    "name": "LYPLA1_pathology_maps_1",
+    "note": "Hirz：作者 RCTD 推断标签；Erickson：作者病理标签。汇总图不另算切片。",
+    "src": "images/PRAD/Erickson2022_summary/LYPLA1_pathology_maps_1.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-prad-analysis\\results\\PRAD\\06_EXTERNAL\\20260928T101700Z_lypla1_erickson_v1\\LYPLA1_pathology_maps_1.png",
+    "sha256": "6a7489ff330c9272af614d06f78b0ac3b457adc60494d942f1967aaccf3a3d09",
+    "id": "PRAD-11"
+  },
+  {
+    "cancer": "PRAD",
+    "group": "Erickson2022_summary",
+    "name": "LYPLA1_pathology_maps_2",
+    "note": "Hirz：作者 RCTD 推断标签；Erickson：作者病理标签。汇总图不另算切片。",
+    "src": "images/PRAD/Erickson2022_summary/LYPLA1_pathology_maps_2.png",
+    "source": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-prad-analysis\\results\\PRAD\\06_EXTERNAL\\20260928T101700Z_lypla1_erickson_v1\\LYPLA1_pathology_maps_2.png",
+    "sha256": "3e8699a758fc0d8063e42696010fbdea90aa29d7d1b08f896f7eccf2aabc319c",
+    "id": "PRAD-12"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "LYPLA1_spatial_all12",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/LYPLA1_spatial_all12.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/LYPLA1_spatial_all12.png",
+    "sha256": "e21dfe6cb0b1fda6fc26e75280f1ebb807a91906e721d58a44a43690b8372dcf",
+    "id": "COAD-01"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P02_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P02_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P02_LYPLA1_context.png",
+    "sha256": "f9ca4aaa9d34238570c96a2665b45d99adaaf2a65625539943adc50d65bab447",
+    "id": "COAD-02"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P04_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P04_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P04_LYPLA1_context.png",
+    "sha256": "09e634735a4d43db87370da0d43d1e28de136c75eda01961d8b14aa5f3910a2e",
+    "id": "COAD-03"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P05_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P05_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P05_LYPLA1_context.png",
+    "sha256": "0543c57218bb004ce110c2f1d8db805df93d9f22c986bd20b2e16a66bae3e8f5",
+    "id": "COAD-04"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P07_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P07_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P07_LYPLA1_context.png",
+    "sha256": "dddeff7fc4778b7bbeeaccd94c49bbc4cc84389c9e79d2a7fc07005c1ff6e4eb",
+    "id": "COAD-05"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P09_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P09_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P09_LYPLA1_context.png",
+    "sha256": "13f2cdf4fc461390288822d5cebc9f549509925d641beba6218c43c83a1a60ce",
+    "id": "COAD-06"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P10_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P10_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P10_LYPLA1_context.png",
+    "sha256": "77f5e879fa0546505777d07a3873c74ef87dd13d116abeef63c3575de8b754c0",
+    "id": "COAD-07"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P11_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P11_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P11_LYPLA1_context.png",
+    "sha256": "f956bb5d302cd0b68774190472fe7cff2fe8b32acf34ccdeaca4ddcb9bd3cb65",
+    "id": "COAD-08"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P13_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P13_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P13_LYPLA1_context.png",
+    "sha256": "8f6fb336185c9d1eddde99f0bf6c5f9551a5fec1829f90130299d223268e1897",
+    "id": "COAD-09"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P15_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P15_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P15_LYPLA1_context.png",
+    "sha256": "08220ce562df0a1fcddbc5200396b8b4fbec2207f644f14206a06b81e49f66ec",
+    "id": "COAD-10"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P17_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P17_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P17_LYPLA1_context.png",
+    "sha256": "864c7475c046e14bf0b057b12c1de4153127c5e33840376b834bc112cec89c5e",
+    "id": "COAD-11"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P18_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P18_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P18_LYPLA1_context.png",
+    "sha256": "f42a4cfe321ea601819b9eb1eb3fc665c9ce5c70e5475f747f318b97450f0eef",
+    "id": "COAD-12"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T084322Z_lypla1_spatial_v1",
+    "name": "P24_LYPLA1_context",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 本套未取得逐点病理癌区标签，仅展示表达位置。",
+    "src": "images/COAD/20260928T084322Z_lypla1_spatial_v1/P24_LYPLA1_context.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T084322Z_lypla1_spatial_v1/public/figures/P24_LYPLA1_context.png",
+    "sha256": "b18837c57d7bb3e3bd157867375a4ae0d464443a937bde125d65eebccab41526",
+    "id": "COAD-13"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T094500Z_lypla1_pathology_v1",
+    "name": "all7_pathology_LYPLA1",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 作者病理区域标签；完整保留非肿瘤上皮及反向结果。",
+    "src": "images/COAD/20260928T094500Z_lypla1_pathology_v1/all7_pathology_LYPLA1.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/public/figures/all7_pathology_LYPLA1.png",
+    "sha256": "3aed3ebfe3cde91dad017d89092b25d3725ba293215027fbdf7bdc3902735d51",
+    "id": "COAD-14"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T094500Z_lypla1_pathology_v1",
+    "name": "S1_Cec_Rep1_pathology_LYPLA1",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 作者病理区域标签；完整保留非肿瘤上皮及反向结果。",
+    "src": "images/COAD/20260928T094500Z_lypla1_pathology_v1/S1_Cec_Rep1_pathology_LYPLA1.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/public/figures/S1_Cec_Rep1_pathology_LYPLA1.png",
+    "sha256": "c4274ba933a917751c5d6415c50e5359d16b9cb4ce12fd10b260aa99fd59cbb0",
+    "id": "COAD-15"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T094500Z_lypla1_pathology_v1",
+    "name": "S2_Col_R_Rep1_pathology_LYPLA1",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 作者病理区域标签；完整保留非肿瘤上皮及反向结果。",
+    "src": "images/COAD/20260928T094500Z_lypla1_pathology_v1/S2_Col_R_Rep1_pathology_LYPLA1.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/public/figures/S2_Col_R_Rep1_pathology_LYPLA1.png",
+    "sha256": "8d20f3aaf4733eed4ffc82df06879e961d2be7068c69d8ffd5dd915a6244d2e2",
+    "id": "COAD-16"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T094500Z_lypla1_pathology_v1",
+    "name": "S3_Col_R_Rep1_pathology_LYPLA1",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 作者病理区域标签；完整保留非肿瘤上皮及反向结果。",
+    "src": "images/COAD/20260928T094500Z_lypla1_pathology_v1/S3_Col_R_Rep1_pathology_LYPLA1.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/public/figures/S3_Col_R_Rep1_pathology_LYPLA1.png",
+    "sha256": "b2a4dc2b962b4f876437b0635df4743bd9abf976e69dab2a6b2746b9c61d31ca",
+    "id": "COAD-17"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T094500Z_lypla1_pathology_v1",
+    "name": "S4_Col_Sig_Rep1_pathology_LYPLA1",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 作者病理区域标签；完整保留非肿瘤上皮及反向结果。",
+    "src": "images/COAD/20260928T094500Z_lypla1_pathology_v1/S4_Col_Sig_Rep1_pathology_LYPLA1.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/public/figures/S4_Col_Sig_Rep1_pathology_LYPLA1.png",
+    "sha256": "f1529c90645a62ef419ea6eb8bfd45f5c72a2ec6fcaca7776e7eb6ff769c606d",
+    "id": "COAD-18"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T094500Z_lypla1_pathology_v1",
+    "name": "S5_Rec_Rep1_pathology_LYPLA1",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 作者病理区域标签；完整保留非肿瘤上皮及反向结果。",
+    "src": "images/COAD/20260928T094500Z_lypla1_pathology_v1/S5_Rec_Rep1_pathology_LYPLA1.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/public/figures/S5_Rec_Rep1_pathology_LYPLA1.png",
+    "sha256": "c500544ef98f5fceafa3262a3b7de90f412b9c6c20ef332cc8235088e971bb36",
+    "id": "COAD-19"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T094500Z_lypla1_pathology_v1",
+    "name": "S6_Rec_Rep2_pathology_LYPLA1",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 作者病理区域标签；完整保留非肿瘤上皮及反向结果。",
+    "src": "images/COAD/20260928T094500Z_lypla1_pathology_v1/S6_Rec_Rep2_pathology_LYPLA1.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/public/figures/S6_Rec_Rep2_pathology_LYPLA1.png",
+    "sha256": "40ced6a98dad2a5600668649f28847b2b79837c5ac5b950f2ffb0c9615b7938b",
+    "id": "COAD-20"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T094500Z_lypla1_pathology_v1",
+    "name": "S7_RecSig_Rep1_pathology_LYPLA1",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 作者病理区域标签；完整保留非肿瘤上皮及反向结果。",
+    "src": "images/COAD/20260928T094500Z_lypla1_pathology_v1/S7_RecSig_Rep1_pathology_LYPLA1.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/public/figures/S7_RecSig_Rep1_pathology_LYPLA1.png",
+    "sha256": "2ca260f80c305f1b38b6c7f86cac5e9befc90d0b7a65408bab01e48bd13d017a",
+    "id": "COAD-21"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP100_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP100_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP100_T_LYPLA1_CN.png",
+    "sha256": "85642593963083b9945b2e8c38ce1a5a1656f6d3dff075eb12811a6d5e3bbe8e",
+    "id": "COAD-22"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP107_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP107_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP107_T_LYPLA1_CN.png",
+    "sha256": "7c297dfde3e3bc8844364a17cce7f55c93730c5712e00549e018ce42d4171130",
+    "id": "COAD-23"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP50_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP50_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP50_T_LYPLA1_CN.png",
+    "sha256": "b23a99e351107dd0152e6d2dfc9eddaf5f9eda20500e71017193ba34b1b5203d",
+    "id": "COAD-24"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP55_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP55_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP55_T_LYPLA1_CN.png",
+    "sha256": "a356c3f5789ddcb5c253c339d9faa12822a8d3a90a5a532c6528d875dae3678c",
+    "id": "COAD-25"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP56_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP56_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP56_T_LYPLA1_CN.png",
+    "sha256": "f09ecfb7ec249cef71aef8721b57a9398fe93a8cf42dc56f7d997b976d7d243f",
+    "id": "COAD-26"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP59_T_2_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP59_T_2_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP59_T_2_LYPLA1_CN.png",
+    "sha256": "ff14b10fdf2bde5fe023e81ba840459cbee9a45a9a95235f9d264b0216eebbf6",
+    "id": "COAD-27"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP59_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP59_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP59_T_LYPLA1_CN.png",
+    "sha256": "97a02cdacfb976472859ca808ab748d9079844174191388af9a0e8386e58bc83",
+    "id": "COAD-28"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP67_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP67_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP67_T_LYPLA1_CN.png",
+    "sha256": "28c2136f924dba01ba16a0d293d4f0b9fed238038eb0ff008e71239fcbbf12a2",
+    "id": "COAD-29"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP71_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP71_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP71_T_LYPLA1_CN.png",
+    "sha256": "6c5a6d88c7ac3f542e6b588dcbbbbc2cecdd325351804ea8bdd7a1bc37357b3c",
+    "id": "COAD-30"
+  },
+  {
+    "cancer": "COAD",
+    "group": "20260928T103900Z_lypla1_stereoseq_v1",
+    "name": "CRCP99_T_LYPLA1_CN",
+    "note": "CRC（含结肠与直肠），不等于纯 COAD。 Stereo-seq；复用作者癌相关上皮/正常上皮注释，约 50×50 微米空间单元。",
+    "src": "images/COAD/20260928T103900Z_lypla1_stereoseq_v1/CRCP99_T_LYPLA1_CN.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T103900Z_lypla1_stereoseq_v1/final_delivery/figures/CRCP99_T_LYPLA1_CN.png",
+    "sha256": "c3c453d44b95f1613539fbfeec5cc672f23fca9e4efdc0fefaad4ad8f159affc",
+    "id": "COAD-31"
+  },
+  {
+    "cancer": "PDAC",
+    "group": "20260928T094758Z_geomx_bell2025_lypla1_v1",
+    "name": "LYPLA1_spatial_summary",
+    "note": "GeoMx 区域/患者表达比较汇总，不是完整切片表达地图。",
+    "src": "images/PDAC/20260928T094758Z_geomx_bell2025_lypla1_v1/LYPLA1_spatial_summary.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PDAC/B/20260928T094758Z_geomx_bell2025_lypla1_v1/public/LYPLA1_spatial_summary.png",
+    "sha256": "e81ea8094c2c116393d81e537798fab9f181cb6e4e615f46f73a32c9c8862f32",
+    "id": "PDAC-01"
+  },
+  {
+    "cancer": "PDAC",
+    "group": "20260928T104922Z_moncada_lypla1_slice_v1",
+    "name": "LYPLA1_HE_regions_spatial",
+    "note": "PDAC-A ST1：同一患者一张切片；中右点位对应，H&E 尚未完成像素级配准。LYPLA1 检出稀疏。",
+    "src": "images/PDAC/20260928T104922Z_moncada_lypla1_slice_v1/LYPLA1_HE_regions_spatial.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PDAC/B/20260928T104922Z_moncada_lypla1_slice_v1/public/LYPLA1_HE_regions_spatial.png",
+    "sha256": "babecf4b3f51b71e93d49a0321531019b30a553686b9f9ff4b95c1a249c14d69",
+    "id": "PDAC-02"
+  },
+  {
+    "cancer": "PDAC",
+    "group": "20260928T104922Z_moncada_lypla1_slice_v1",
+    "name": "LYPLA1_marker_reference_maps",
+    "note": "PDAC-A ST1：同一患者一张切片；中右点位对应，H&E 尚未完成像素级配准。LYPLA1 检出稀疏。",
+    "src": "images/PDAC/20260928T104922Z_moncada_lypla1_slice_v1/LYPLA1_marker_reference_maps.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PDAC/B/20260928T104922Z_moncada_lypla1_slice_v1/public/LYPLA1_marker_reference_maps.png",
+    "sha256": "91d59f0d4a2876aae0d01534c5dfac19806bbad4cd8d1b97220a47bda6058b9d",
+    "id": "PDAC-03"
+  },
+  {
+    "cancer": "PDAC",
+    "group": "20260928T104922Z_moncada_lypla1_slice_v1",
+    "name": "numeric_preview",
+    "note": "PDAC-A ST1：同一患者一张切片；中右点位对应，H&E 尚未完成像素级配准。LYPLA1 检出稀疏。",
+    "src": "images/PDAC/20260928T104922Z_moncada_lypla1_slice_v1/numeric_preview.png",
+    "source": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PDAC/B/20260928T104922Z_moncada_lypla1_slice_v1/public/numeric_preview.png",
+    "sha256": "120fd3b5785d0ad1302ba72174d318de8531ef84412bd22091f91364ec4211f3",
+    "id": "PDAC-04"
+  }
+]
