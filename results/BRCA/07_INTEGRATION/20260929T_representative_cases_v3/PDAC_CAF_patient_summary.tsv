@@ -1,0 +1,2 @@
+cohort	scope	p	status	ref_label	test_label	locator	note	conclusion	coordinates	cancer	cells	n_pairs	higher	lower	equal	mean_difference	target	cap	gene
+Hwang · GSE202051	未治疗标本 · 全部细胞类型（单核）		CAF_VS_MALIGNANT_DESCRIPTIVE	恶性上皮	CAF	CAFs	同患者 CAF 与恶性上皮各 ≥20 个细胞核；比较细胞类型，不是 CAF 肿瘤—正常变化。	SLC6A6 表达以 CAF 更突出；16/17 位患者 CAF 高于恶性上皮。	source author X_umap; unchanged	PDAC	108964	17	16	1	0	0.5964000622207621	Cancer-associated fibroblast	3.9463056325912476	SLC6A6

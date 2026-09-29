@@ -1,0 +1,4 @@
+gene	accession	url	retrieved	reaction	rhea	pmids	sha256
+ASNS	P08243	https://www.uniprot.org/uniprotkb/P08243/entry	2026-09-29	L-aspartate + L-glutamine + ATP + H2O = L-asparagine + L-glutamate + AMP + diphosphate + H(+)	RHEA:12228	2564390,2573597,31552298,39627226	17d57a3fe9df4ad584097e564e5a060619051516e9fe7b03f8d6f6e64b13e26f
+SLC6A6	P31641	https://www.uniprot.org/uniprotkb/P31641/entry	2026-09-29	taurine(out) + chloride(out) + 2 Na(+)(out) = taurine(in) + chloride(in) + 2 Na(+)(in)	RHEA:71223	31345061,31903486,39837997,40108165,40108449,40615403,40789850,41269860,8010975,8382624,8654117	1630db174e77a6acd3bf987d2851fa45c656c765f13310dc9f58fd37e970323a
+UCKL1	Q9NWZ5	https://www.uniprot.org/uniprotkb/Q9NWZ5/entry	2026-09-29	uridine + ATP = UMP + ADP + H(+)	RHEA:16825	35583288	32f24a86ef01ef555eba48feaae54053da4d76dae3a470edffe0221b3d915b24

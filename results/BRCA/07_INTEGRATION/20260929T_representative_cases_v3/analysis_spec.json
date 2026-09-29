@@ -1,0 +1,23 @@
+{
+  "analysis_version": "20260929T_representative_cases_v3",
+  "status": "DONE",
+  "scope": "Seven pages; CAMP and single-cell only",
+  "excluded_presentation": "FUSCC and Tang ASNS external association results",
+  "new_inferential_tests": false,
+  "p_values": "Frozen CAMP, COAD sign test and PRAD paired test only; ASNS and PDAC single-cell descriptive",
+  "statistical_unit": "Patient; spatial spots descriptive only",
+  "minimum_cells_per_group_per_patient": 20,
+  "expression": "log1p(gene raw count / full gene-expression library * 10000)",
+  "umap": "Original accepted coordinates and author annotations reused; no new embedding or batch correction",
+  "umap_scale": "0 to each panel positive-expression 99th percentile; zeros light gray",
+  "seed": 20260929,
+  "private_data": "All per-cell, per-patient and per-ROI tables remain server165",
+  "source_commit": "8ec19dbd02092b8fd1ed32be53b3dadac5f2a7ba",
+  "spatial_display": "OMITTED_FROM_PRESENTATION",
+  "PDAC_contrast": "Same untreated patient CAF vs malignant epithelial, >=20 nuclei per group",
+  "PDAC_direction": "16/17",
+  "PDAC_statistical_status": "DESCRIPTIVE_NO_NEW_TEST",
+  "replaces_PDac_prior_contrast": "v1 7/9 malignant-vs-ductal is a different comparison and is not reused as CAF evidence",
+  "biochemical_source": "Reviewed human UniProt entries P08243 P31641 Q9NWZ5, retrieved 2026-09-29",
+  "change": "Three role diagrams added; data and four single-cell pages unchanged"
+}
