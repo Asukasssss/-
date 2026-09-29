@@ -1,0 +1,25 @@
+{
+  "version": "page7_patient_consistency_v4",
+  "selection": "Unchanged page7 v3 eight molecules; no reranking",
+  "same_direction": "Each selected row dominant_direction: positive tumor-normal for up, negative for down; includes P>=0.05 and opposing cohorts",
+  "denominator": "All evaluable paired patients including zero differences on unchanged author processed matrices; not restricted to observed before imputation",
+  "cohort_pooling": "None; ccRCC cohorts displayed separately; multiple regions already averaged per patient in original results",
+  "GBM": "NOT_APPLICABLE_UNPAIRED; no artificial pairing or comparison to reference mean",
+  "new_statistics": "Only descriptive count column reuse; no inferential tests, matrix access, normalization or P changes",
+  "source_count_columns": {
+    "BRCA/COAD": [
+      "pairs_higher",
+      "pairs_lower",
+      "pairs_equal"
+    ],
+    "PDAC/PRAD/ccRCC": [
+      "n_up",
+      "n_down",
+      "n_equal"
+    ]
+  },
+  "software": {
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9"
+  }
+}

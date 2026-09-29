@@ -1,0 +1,9 @@
+key	source_names	same_significant_cancers	opposite_significant_cancers	dominant_direction	evaluable_cancers	same_significant_cohorts	evaluable_cohorts
+KEGG:C00791	creatinine	5	0	down	6	6	7
+KEGG:C02630	2-hydroxyglutarate	4	0	up	5	5	6
+KEGG:C02862	butyrylcarnitine	4	0	up	4	4	5
+KEGG:C00294	inosine	4	1	down	5	4	6
+KEGG:C00037	glycine	3	0	up	6	3	7
+KEGG:C00208	maltose	3	0	up	5	4	6
+KEGG:C00328	kynurenine	3	0	up	5	4	6
+KEGG:C02712	N-acetylmethionine	3	0	up	5	4	6

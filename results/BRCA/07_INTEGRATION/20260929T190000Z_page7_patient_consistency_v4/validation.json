@@ -1,0 +1,12 @@
+{
+  "status": "DONE",
+  "source_hashes_checked": true,
+  "all_counts_sum_to_n": true,
+  "all_effects_and_p_match_previous": true,
+  "display_molecules": 8,
+  "display_cells": 56,
+  "paired_counts": 45,
+  "GBM_never_paired": true,
+  "visual_review": "PASS: 3200x1800 PNG inspected; all 8 rows, patient-count columns and footnotes legible, no overlapping labels",
+  "independent_checks": "All numerators bounded by denominators; counts sum to n; GBM never assigned paired n; creatinine six counts checked"
+}
