@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "paired_count_matches": true,
+  "paired_mean_matches": true,
+  "positive_pairs_matches": true,
+  "all_epithelial_cells_retained": true,
+  "no_new_embedding": true,
+  "no_new_tests": true,
+  "visual_review": "PASS: full slide inspected; no clipping or overlap",
+  "local_frozen_results_identical": true,
+  "public_only": true
+}

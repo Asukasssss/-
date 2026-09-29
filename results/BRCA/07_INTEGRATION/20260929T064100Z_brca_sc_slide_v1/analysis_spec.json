@@ -1,0 +1,20 @@
+{
+  "version": "brca_sc_slide_v1",
+  "source": "Wu2021 GSE176078",
+  "scope": "BRCA only; epithelial subset",
+  "cells": 28844,
+  "coordinates": "frozen analyst epithelial UMAP from 20260922T092000Z; no new embedding or clustering",
+  "annotation": "Author-derived; original major epithelial identities; no new CNV calls",
+  "expression": "log1p(raw/library*10000)",
+  "cap": 3.0,
+  "cap_fraction": 0.0008320621273055055,
+  "paired_donors": 8,
+  "min_cells_each_type": 20,
+  "statistics": "Reused frozen paired donor results, two-sided exact signed-rank enumeration; nominal P",
+  "new_tests": 0,
+  "software": {
+    "matplotlib": "3.6.3",
+    "numpy": "1.24.4"
+  },
+  "raw_data_exported": false
+}
