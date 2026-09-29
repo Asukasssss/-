@@ -1,0 +1,19 @@
+{
+  "status": "DONE",
+  "source_hashes_checked": true,
+  "counts_sum_to_n": true,
+  "all_effects_p_and_n_match_previous": true,
+  "selected_genes": [
+    "ABHD6",
+    "ASNS",
+    "SHMT2",
+    "SOAT1",
+    "LYPLA1",
+    "SLC7A11"
+  ],
+  "display_cells": 42,
+  "paired_count_cells": 26,
+  "GBM_never_paired": true,
+  "visual_review": "PASS: 3200x1800 PNG inspected; all six rows and patient counts legible; no text collisions",
+  "independent_checks": "Numerators bounded, counts sum to n, no GBM pairing, LYPLA1 checked against paired display and ccRCC source"
+}

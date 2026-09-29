@@ -1,0 +1,7 @@
+gene	same_significant_cancers	opposite_significant_cancers	dominant_direction	evaluable_cancers	same_significant_cohorts	evaluable_cohorts
+ABHD6	4	0	down	5	5	6
+ASNS	4	0	up	5	5	6
+SHMT2	4	0	up	4	4	4
+SOAT1	4	0	up	4	4	4
+LYPLA1	4	1	up	6	4	7
+SLC7A11	4	1	up	5	4	5

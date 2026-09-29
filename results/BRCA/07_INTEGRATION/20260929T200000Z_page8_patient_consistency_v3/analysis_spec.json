@@ -1,0 +1,48 @@
+{
+  "version": "page8_patient_consistency_v3",
+  "selection": "Unchanged page8 six-cancer v2 all six genes tied at four same-significant cancers",
+  "same_direction": "Each gene row dominant_direction; up counts tumor-normal>0, down counts tumor-normal<0; no within-cohort direction switch",
+  "denominator": "All current-pool evaluable paired patients, including zero differences; no new sample filtering",
+  "GBM": "NOT_APPLICABLE_UNPAIRED; no patient pair count",
+  "ccRCC": "Use original patient-region-mean paired RNA; two cohorts kept separate",
+  "source_fields": {
+    "BRCA": [
+      "v2_paired_RNA_effect",
+      "v2_paired_RNA_p_value",
+      "v2_paired_RNA_n",
+      "v2_paired_RNA_positive_pairs",
+      "v2_paired_RNA_negative_pairs",
+      "v2_paired_RNA_equal_pairs"
+    ],
+    "COAD": [
+      "RNA_effect",
+      "RNA_p_value",
+      "RNA_n",
+      "RNA_n_up",
+      "RNA_n_down",
+      "RNA_n_equal"
+    ],
+    "PDAC": [
+      "RNA_effect",
+      "RNA_p",
+      "RNA_n",
+      "RNA_up_pairs",
+      "RNA_down_pairs",
+      "RNA_equal_pairs"
+    ]
+  },
+  "other_source_fields": [
+    "effect",
+    "p_value",
+    "n",
+    "n_up",
+    "n_down",
+    "n_equal"
+  ],
+  "RNA_family": "RNA_PAIRED_CURRENT for PRAD and ccRCC; CAPT sensitivity and history excluded",
+  "new_tests": 0,
+  "software": {
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9"
+  }
+}
