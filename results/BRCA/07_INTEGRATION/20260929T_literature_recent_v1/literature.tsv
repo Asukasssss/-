@@ -1,0 +1,15 @@
+journal	year	date	model	title	doi	url	level	key	nodes	body	limit
+Journal of Lipid Research	2026	2026-01; online 2025-11-28	乳腺癌 · MDA-MB-231 / MCF7	"S-palmitoylation of MTDH regulates
+ferroptosis resistance in breast cancer cell"	10.1016/j.jlr.2025.100953	https://pmc.ncbi.nlm.nih.gov/articles/PMC12794514/	全文核对	连接脂质代谢与铁死亡	['APT1 / LYPLA1', 'MTDH 去棕榈酰化', 'ACSL4 互作 / 铁死亡敏感性']	"鉴定 APT1 为 MTDH 去棕榈酰化酶；
+MTDH 修饰状态关联脂质组成与铁死亡。"	"研究中心为 MTDH；不能将全部表型
+归因于 LYPLA1。"
+Biochemistry and Cell Biology	2026	2026-06-30	乳腺癌 · MDA-MB-468	"Acyl-protein thioesterase 1 (LYPLA1)
+activity promotes the growth of MDA-MB-468
+triple-negative breast cancer cells"	10.1139/bcb-2025-0446	https://www.sciencedirect.com/org/science/article/pii/S0829821126000158	摘要核对	直接研究 LYPLA1 的功能	['抑制 APT1（ML348）', '蛋白 S-酰化状态改变', '增殖降低 / G1 期积累']	"整合患者数据、CRISPR 依赖性与体外实验；
+摘要报告 APT1 抑制使细胞生长受限。"	"目前依据摘要；效应具有模型依赖性，
+表达丰度不等于酶活性。"
+npj Precision Oncology	2025	2025-08-28	肺癌 · 奥希替尼耐药模型	"Restoration of Osimertinib sensitivity in lung
+cancer through BRD4 inhibitor-mediated
+depalmitoylation of mutant EGFR via APT1"	10.1038/s41698-025-01048-8	https://www.nature.com/articles/s41698-025-01048-8	全文核对	参与治疗耐药机制	['APT1 / LYPLA1', 'EGFR 去棕榈酰化 / 核转位', 'CMPK2 / 奥希替尼耐药']	"敲低 APT1 降低耐药细胞 EGFR 核转位，
+并部分恢复对奥希替尼的敏感性。"	"来自肺癌耐药情境，不能直接外推至
+本项目四癌或未经治疗的肿瘤。"

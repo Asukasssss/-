@@ -1,0 +1,7 @@
+{
+  "sources": "2 full texts; 1 abstract",
+  "status": "DONE",
+  "new_tests": false,
+  "visual_review": "PASS: full slide inspected; no overlap or clipping",
+  "render": "PASS"
+}
