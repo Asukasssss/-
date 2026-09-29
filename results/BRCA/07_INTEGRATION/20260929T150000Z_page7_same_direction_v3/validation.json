@@ -1,0 +1,8 @@
+{
+  "display_rows": 8,
+  "cells": 56,
+  "glucose_excluded": true,
+  "directional_counts_verified": true,
+  "visual_inspection": "PNG checked; all 8 rows and legends visible",
+  "new_patient_tests": false
+}

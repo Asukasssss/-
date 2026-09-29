@@ -1,0 +1,14 @@
+{
+  "selection": "Top 8 by same-direction nominally significant cancer count; ties by fewer reverse significant cancers, more evaluable cancers, more same-direction significant cohorts, chemical key",
+  "p": 0.05,
+  "ccRCC_count": "Either cohort significant in a direction counts ccRCC once for that direction; if significant opposite directions occur, record ccRCC in both direction-specific counts; never sum the two direction-specific counts as distinct cancer total",
+  "excluded": [
+    "KEGG:C00031 user requested removal",
+    "KEGG:C00157 generic lipid class"
+  ],
+  "no_new_patient_tests": true,
+  "identity": "Inherited KEGG/HMDB source keys, unique evaluable feature per cohort; no alias or peak pooling; no new chemical identification",
+  "source_matrix_sha256": "cfcf4291da98f4f13060571bd8cd585a83dbc26fa6fcc8d41ae24c193f8ada41",
+  "display_count": 8,
+  "cell_count": 56
+}
