@@ -1,0 +1,67 @@
+[
+  {
+    "slide": 6,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_pages_06_07_v2\\06_代谢异常到候选基因_v2.pdf",
+    "sha256": "91a4f10f6f94b681915e864de20a7706c287258f702f711b9410b8a1b3ef3778"
+  },
+  {
+    "slide": 7,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_page07_patient_consistency_v4\\07_代谢物同向与患者一致性.pdf",
+    "sha256": "f3aa49b0aece1b4b3c00e7cf004a34af7f7117a235f83d5d6ef58486792ff8e8"
+  },
+  {
+    "slide": 8,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_page08_patient_consistency_v3\\08_候选基因同向与患者一致性.pdf",
+    "sha256": "1dd0da68a66a8b49dc4c70b40934d9cee6b1be97135e620bc31f57bef5bc8e79"
+  },
+  {
+    "slide": 9,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_LYPLA1_metabolite_bridge_v2\\09_代谢物如何指向LYPLA1.pdf",
+    "sha256": "6858005148650b73b3b149d21eedb3c481dc84fadb3d7d102391488c1a55e274"
+  },
+  {
+    "slide": 10,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_page09_LYPLA1_paired_v1\\09_LYPLA1_四癌患者配对.pdf",
+    "sha256": "75b25e6273fb8107bc54d8dbf836fe2e5d87d24783afea97ff2b9594e0936a43"
+  },
+  {
+    "slide": 11,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_four_cancer_singlecell_v3\\11_BRCA_LYPLA1_全细胞与患者.pdf",
+    "sha256": "95ae1e5f51f063c1739abfd8acd06d91988eced3e53212a69351001a1ed0ace6"
+  },
+  {
+    "slide": 12,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_four_cancer_singlecell_v3\\12_COAD_LYPLA1_全细胞与患者.pdf",
+    "sha256": "9fcdf0b8fbfd264ec481fa8778cb8614a7d616172e5fb281960657be4ab751d7"
+  },
+  {
+    "slide": 13,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_four_cancer_singlecell_v3\\13_PDAC_LYPLA1_全细胞与患者.pdf",
+    "sha256": "c3fe13718b378f05b61d9836978221f8b70317b130abd6550f0bec3b412b985e"
+  },
+  {
+    "slide": 14,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_four_cancer_singlecell_v3\\14_PRAD_LYPLA1_全细胞与患者.pdf",
+    "sha256": "a24dc67baa257d7bf5724f09b046b12d7bc617d5b18a32b7bb4da0857bfc2ba5"
+  },
+  {
+    "slide": 15,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_selected_spatial_v1\\15_BRCA_LYPLA1_空间切片统一版.pdf",
+    "sha256": "7330e2a0be10cbdbcb153b2f14f1c8a90ce21bf16182f952d64f87f748d9a278"
+  },
+  {
+    "slide": 16,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_selected_spatial_v1\\16_PRAD_LYPLA1_空间切片统一版.pdf",
+    "sha256": "62cb3362b24aa0d3512d12897721babd05bff6d6d5e2a516d9f3449d085a92dd"
+  },
+  {
+    "slide": 17,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_LYPLA1_recent_literature_v1\\LYPLA1_近期研究进展.pdf",
+    "sha256": "8eba807ef58d3b14206de4a132aeb55371ceff09ce9071706c15071fb4f8d46d"
+  },
+  {
+    "slide": 18,
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_LYPLA1_evidence_summary_v2\\LYPLA1_多层证据收拢.pdf",
+    "sha256": "799dee89dd89fbdf9c5f269f42fda94ada008db8d3e668852288e77fd02fad20"
+  }
+]

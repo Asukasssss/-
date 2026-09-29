@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "slides": 18,
+  "wps_open_export": "PASS",
+  "pdf_pages": 18,
+  "native_text_boxes": 872,
+  "editable_graphics": 1089,
+  "independent_images": 53,
+  "full_slide_flattening": false,
+  "new_statistical_tests": false,
+  "visual_review": "All 18 WPS-rendered thumbnails reviewed; pages 1, 7, 11 additionally inspected at full resolution",
+  "limitations": "Dense scientific tables retain small annotations; native vector shapes are editable but not linked Excel charts. UMAP/tissue/paper images remain raster, separately replaceable."
+}
