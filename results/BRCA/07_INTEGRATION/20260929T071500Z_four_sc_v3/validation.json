@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "all_four_rendered": true,
+  "source_coordinates_reused": true,
+  "legend_right_of_umap": true,
+  "patient_mean_and_direction_checks": true,
+  "new_inferential_tests": false,
+  "visual_review": "PASS: all four full-slide PNGs inspected, right legend fits",
+  "aggregate_counts_verified": true,
+  "COAD_PRAD_p_values_not_fabricated": true,
+  "per_patient_measurements_exported": false
+}

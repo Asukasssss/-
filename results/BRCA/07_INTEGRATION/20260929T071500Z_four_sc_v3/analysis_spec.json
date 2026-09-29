@@ -1,0 +1,8 @@
+{
+  "version": "four_sc_v3",
+  "inference": "No new tests. BRCA/PDAC existing p reused; COAD/PRAD paired descriptive summaries only.",
+  "unit": "source donor labels; >=20 cells each class",
+  "color": "shared viridis palette; cohort-specific positive99 cap, shown per panel; colors not compared across cohorts",
+  "data_residency": "raw values and per-donor data remain server165",
+  "new_embedding": false
+}
