@@ -1,0 +1,18 @@
+{
+  "version": "brca_allcells_slide_v2",
+  "scope": "all 100064 cells; nine cell classes",
+  "embedding": "source obsm/X_umap; unchanged",
+  "annotation": "Author-derived celltype_major; unchanged",
+  "expression": "log1p(raw/library*10000)",
+  "color": "viridis; zero gray; positive99th percentile cap",
+  "cap": 2.6008634948730447,
+  "normalization_unchanged": true,
+  "circle": "3rd-97th percentile bounding ellipse of cancer epithelial coordinates, expanded1.12; locator only; not cell selection or enrichment",
+  "paired": "frozen 8 donors, min20 cells per type",
+  "new_tests": 0,
+  "raw_data_exported": false,
+  "software": {
+    "matplotlib": "3.6.3",
+    "numpy": "1.24.4"
+  }
+}

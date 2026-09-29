@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "all_100064_retained": true,
+  "nine_classes_counts_match": true,
+  "exact_same_coordinates_both_panels": true,
+  "frozen_paired_mean_and_counts_match": true,
+  "no_new_tests": true,
+  "visual_review": "PASS: full-slide image inspected; labels and plots readable",
+  "local_frozen_statistics_match": true,
+  "public_only": true
+}
