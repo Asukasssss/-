@@ -1,0 +1,20 @@
+{
+  "status": "DONE",
+  "source_hashes_unchanged": true,
+  "pair_counts": [
+    45,
+    33,
+    11,
+    43
+  ],
+  "exact_frozen_means_matched": true,
+  "patient_values_exported": false,
+  "new_inferential_tests": 0,
+  "visual_review": "PASS: all four panels inspected, no clipped text; paired group labels corrected",
+  "aggregate_up_counts_match_frozen_tables": {
+    "BRCA": 34,
+    "COAD": 26,
+    "PDAC": 8
+  },
+  "local_expected_p_check": "PASS"
+}

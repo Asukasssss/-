@@ -1,0 +1,5 @@
+cancer	gene	n_pairs	mean_tumor_minus_normal	p_value	up_pairs	down_pairs	equal_pairs	up_fraction	expression_scale	statistics
+BRCA	LYPLA1	45	0.4816929530817019	1.1941768946186584e-05	34	11	0	0.7555555555555555	Original author processed expression; cohort-specific axis	Frozen paired t P reused; no new inferential tests
+COAD	LYPLA1	33	0.4141268805849243	0.0003577245888988	26	7	0	0.7878787878787878	Original author processed expression; cohort-specific axis	Frozen paired t P reused; no new inferential tests
+PDAC	LYPLA1	11	0.40761901620263535	0.0777225407261634	8	3	0	0.7272727272727273	Original author processed expression; cohort-specific axis	Frozen paired t P reused; no new inferential tests
+PRAD	LYPLA1	43	0.44986044516204854	1.919400831660744e-05	33	10	0	0.7674418604651163	Original author processed expression; cohort-specific axis	Frozen paired t P reused; no new inferential tests
