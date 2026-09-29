@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "slides": 25,
+  "wps_export": true,
+  "edited_slides": [
+    19,
+    21,
+    24
+  ],
+  "other_22_slides_xml_unchanged": true,
+  "result_text_and_positions_unchanged": true,
+  "illustration_alpha": [
+    0,
+    254
+  ],
+  "new_tests": false,
+  "visual_review": "Three updated slides reviewed from actual WPS exports"
+}

@@ -1,0 +1,51 @@
+{
+  "input": "C:\\Users\\Administrator\\Documents\\New project 5\\camp-ppt-unified-20260928\\results\\BRCA\\07_INTEGRATION\\20260929T_complete_cases_v3\\CAMP_完整组会汇报_含三个案例_25页.pptx",
+  "input_sha256": "99535cb1fa3cf95a6e525e9df3704ecded734de2737c9611dd0dd472edf25221",
+  "asset": "D:\\CodexData\\generated_images\\01a0ec94-4db2-7ec1-8e34-4f52c52a8ce1\\exec-b3f59589-1a5b-4e21-8b27-83fc450c7fd3.png",
+  "asset_sha256": "142827039c1ca370b12e4435a31049ce362257a608b3668c5acc39d4677f1535",
+  "edited_slides": [
+    19,
+    21,
+    24
+  ],
+  "crop_rectangles": {
+    "nucleoside": [
+      65,
+      40,
+      450,
+      470
+    ],
+    "nucleotide": [
+      520,
+      45,
+      995,
+      470
+    ],
+    "enzyme": [
+      1045,
+      20,
+      1525,
+      490
+    ],
+    "metabolites": [
+      12,
+      550,
+      510,
+      965
+    ],
+    "transporter": [
+      530,
+      530,
+      1020,
+      980
+    ],
+    "atp": [
+      1035,
+      540,
+      1536,
+      955
+    ]
+  },
+  "imagegen_mode": "built-in",
+  "conceptual_only": true
+}
