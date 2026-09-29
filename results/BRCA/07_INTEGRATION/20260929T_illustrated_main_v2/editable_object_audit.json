@@ -1,0 +1,146 @@
+[
+  {
+    "slide": 1,
+    "title": "封面",
+    "objects": 13,
+    "editable_text_boxes": 5,
+    "independent_images": 3,
+    "editable_graphics": 5
+  },
+  {
+    "slide": 2,
+    "title": "CAMP 论文与资源",
+    "objects": 26,
+    "editable_text_boxes": 16,
+    "independent_images": 4,
+    "editable_graphics": 6
+  },
+  {
+    "slide": 3,
+    "title": "CAMP 的优势与匹配",
+    "objects": 45,
+    "editable_text_boxes": 23,
+    "independent_images": 11,
+    "editable_graphics": 11
+  },
+  {
+    "slide": 4,
+    "title": "六癌种七队列设计",
+    "objects": 39,
+    "editable_text_boxes": 23,
+    "independent_images": 7,
+    "editable_graphics": 9
+  },
+  {
+    "slide": 5,
+    "title": "从代谢物到候选基因",
+    "objects": 50,
+    "editable_text_boxes": 20,
+    "independent_images": 10,
+    "editable_graphics": 20
+  },
+  {
+    "slide": 6,
+    "title": "各队列发现概况",
+    "objects": 97,
+    "editable_text_boxes": 71,
+    "independent_images": 1,
+    "editable_graphics": 25
+  },
+  {
+    "slide": 7,
+    "title": "代谢物同向与患者一致性",
+    "objects": 174,
+    "editable_text_boxes": 109,
+    "independent_images": 1,
+    "editable_graphics": 64
+  },
+  {
+    "slide": 8,
+    "title": "基因同向与患者一致性",
+    "objects": 141,
+    "editable_text_boxes": 94,
+    "independent_images": 1,
+    "editable_graphics": 46
+  },
+  {
+    "slide": 9,
+    "title": "代谢物如何指向 LYPLA1",
+    "objects": 72,
+    "editable_text_boxes": 58,
+    "independent_images": 1,
+    "editable_graphics": 13
+  },
+  {
+    "slide": 10,
+    "title": "LYPLA1 四癌组织与患者",
+    "objects": 510,
+    "editable_text_boxes": 62,
+    "independent_images": 1,
+    "editable_graphics": 447
+  },
+  {
+    "slide": 11,
+    "title": "BRCA 单细胞",
+    "objects": 130,
+    "editable_text_boxes": 57,
+    "independent_images": 4,
+    "editable_graphics": 69
+  },
+  {
+    "slide": 12,
+    "title": "COAD 单细胞",
+    "objects": 149,
+    "editable_text_boxes": 68,
+    "independent_images": 4,
+    "editable_graphics": 77
+  },
+  {
+    "slide": 13,
+    "title": "PDAC 单核",
+    "objects": 144,
+    "editable_text_boxes": 65,
+    "independent_images": 4,
+    "editable_graphics": 75
+  },
+  {
+    "slide": 14,
+    "title": "PRAD 单细胞",
+    "objects": 152,
+    "editable_text_boxes": 67,
+    "independent_images": 4,
+    "editable_graphics": 81
+  },
+  {
+    "slide": 15,
+    "title": "BRCA 空间定位",
+    "objects": 70,
+    "editable_text_boxes": 29,
+    "independent_images": 12,
+    "editable_graphics": 29
+  },
+  {
+    "slide": 16,
+    "title": "PRAD 空间定位",
+    "objects": 68,
+    "editable_text_boxes": 28,
+    "independent_images": 12,
+    "editable_graphics": 28
+  },
+  {
+    "slide": 17,
+    "title": "LYPLA1 近期文献",
+    "objects": 77,
+    "editable_text_boxes": 54,
+    "independent_images": 1,
+    "editable_graphics": 22
+  },
+  {
+    "slide": 18,
+    "title": "LYPLA1 多层证据汇总",
+    "objects": 33,
+    "editable_text_boxes": 20,
+    "independent_images": 1,
+    "editable_graphics": 12
+  }
+]

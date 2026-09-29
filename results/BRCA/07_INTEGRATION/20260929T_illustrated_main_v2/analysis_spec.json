@@ -1,0 +1,15 @@
+{
+  "version": "20260929T_illustrated_main_v2",
+  "scope": "Before the three representative cases: CAMP discovery through LYPLA1 summary",
+  "source_commit": "bc6cd4ad1e2c76da7075e9f2d0c50358659425d7",
+  "new_tests": false,
+  "layout": "16:9, SYSU green, Microsoft YaHei East Asian fonts, standardized header",
+  "data": "Frozen existing aggregate charts; no patient/cell matrices transferred",
+  "editable": "Native text, paths, curves and tables-as-elements; raster for real tissue, UMAP clouds, paper screenshot and gradient color bars",
+  "private_sources": "Remain server165; existing public figure geometry only",
+  "software": {
+    "pymupdf": "1.28.2",
+    "python_pptx": "1.0.2",
+    "renderer": "Installed WPS KWPP.Application"
+  }
+}

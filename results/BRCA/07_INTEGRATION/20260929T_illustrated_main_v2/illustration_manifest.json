@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "artwork.png",
+    "source": "D:\\CodexData\\generated_images\\01a0ec94-4db2-7ec1-8e34-4f52c52a8ce1\\exec-c8651984-ddc3-44ad-a602-a36153525bfb.png",
+    "sha256": "b2b88d57e194d36efca584c38122ad625e6fb8ae53f4ce82702909f1bf3f721a",
+    "use": "Independent cropped artwork; no evidence plots generated"
+  },
+  {
+    "asset": "cover_reference.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_IMAGE_fivepages_v3\\01_标题封面.png",
+    "sha256": "d11c59566cdad937bddfe05d0de7c2d7e14fa986ed8a51cc5a532c289752cf0e",
+    "use": "Independent cropped artwork; no evidence plots generated"
+  },
+  {
+    "asset": "matching_reference.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_IMAGE_fivepages_v3\\03_CAMP优势与患者匹配.png",
+    "sha256": "952b3c8ce4eed61857c4af9be2a2d4ff449da51e0a7c8d3c78b18c5d131b205d",
+    "use": "Independent cropped artwork; no evidence plots generated"
+  },
+  {
+    "asset": "paper_real.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_IMAGE_fivepages_v3\\paper_header_authors_real.png",
+    "sha256": "31f5b51c251c55c7385b3e0d84f03e096097dda43559bf6420e70de084788275",
+    "use": "Independent cropped artwork; no evidence plots generated"
+  },
+  {
+    "asset": "sysu_logo.png",
+    "source": "D:\\CodexData\\visualizations\\2026\\09\\25\\01a0d8cd-4545-75b0-ba43-922588deea1a\\CAMP_SYSU_style\\image2.png",
+    "sha256": "2afe79caeef8d5a5e99625aad666a06100c8c989cea3d0e7276cdad8dabeaa94",
+    "use": "Independent cropped artwork; no evidence plots generated"
+  }
+]

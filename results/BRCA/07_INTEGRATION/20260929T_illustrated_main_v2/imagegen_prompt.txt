@@ -1,0 +1,4 @@
+Mode: built-in image_gen, reference-based background extraction/redrawing.
+Six isolated illustrations, 3 columns x 2 rows, transparent background, no text/labels/data. Patient with simplified tissues; molecule; DNA; enzyme; membrane transporter; epithelial cells. Muted sage/forest green and pale pink. Preserve soft semi-3D scientific illustration style. No photoreal flesh, no fabricated data charts.
+Reference files: CAMP_IMAGE_fivepages_v3/03_CAMP优势与患者匹配.png; CAMP_IMAGE_mapping_redesign_v3/05_生化映射与多层证据.png
+Full atlas kept with native PPT crop settings; no destructive pixel crop.
