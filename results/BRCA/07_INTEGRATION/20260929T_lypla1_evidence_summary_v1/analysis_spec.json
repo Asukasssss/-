@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "scope": [
+    "BRCA",
+    "COAD",
+    "PDAC",
+    "PRAD"
+  ],
+  "new_tests": false,
+  "statistics": "frozen nominal P; COAD/PRAD single-cell descriptive",
+  "spatial": "selected sections only, not complete cohort comparison",
+  "software": "3.10.9"
+}
