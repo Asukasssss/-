@@ -1,0 +1,19 @@
+{
+  "status": "DONE",
+  "unique_gene_cohort": true,
+  "source_hashes_verified": true,
+  "all_maximum_ties_displayed": true,
+  "selected_genes": [
+    "ABHD6",
+    "ASNS",
+    "SHMT2",
+    "SOAT1",
+    "LYPLA1",
+    "SLC7A11"
+  ],
+  "selected_count": 6,
+  "display_cells": 42,
+  "scope": "six",
+  "visual_review": "PASS: rendered PNG inspected; all 42 cells, legend and footer visible",
+  "independent_display_count_check": "PASS"
+}

@@ -9,6 +9,9 @@ ROOT=Path(__file__).resolve().parents[1]
 OLD=ROOT/'results/BRCA/07_INTEGRATION/20260928T150000Z_ppt_redraw_v1'
 OUT=ROOT/'results/BRCA/07_INTEGRATION/20260929T160000Z_page8_genes_v1'
 VIEW=Path('D:/CodexData/visualizations/2026/09/25/01a0d8cd-4545-75b0-ba43-922588deea1a/CAMP_page08_genes_v1')
+if args.scope=='six':
+ OUT=ROOT/'results/BRCA/07_INTEGRATION/20260929T170000Z_page8_genes_six_v2'
+ VIEW=VIEW.parent/'CAMP_page08_genes_six_v2'
 OUT.mkdir(parents=True,exist_ok=True);VIEW.mkdir(parents=True,exist_ok=True)
 manifest=pd.read_csv(OLD/'source_manifest.tsv',sep='\t')
 tables={};sources=[]
@@ -92,7 +95,7 @@ line(.05,.95,.15)
 if args.scope=='six':
  text(.05,.113,'同向显著最多：4 个癌种',14,G,True)
  text(.40,.113,'6 个基因并列；不同癌种仍可能出现反向结果。',12,INK)
- text(.05,.077,'LYPLA1 在 ccRCC、SLC7A11 在 GBM 显著降低；同向计数不代表所有癌种一致。',10.5,M)
+ text(.05,.077,'LYPLA1 在 ccRCC3、SLC7A11 在 GBM 显著降低；同向计数不代表所有癌种一致。',10.5,M)
  text(.05,.041,'范围：当前直接关系候选池，非全转录组。ccRCC 两队列计一个癌种；GBM 为非配对跨来源参照。',9.5,M)
 else:
  text(.05,.113,'同向显著最多：3 个癌种',14,G,True)
