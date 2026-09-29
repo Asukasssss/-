@@ -44,7 +44,9 @@ for ext in ['png','pdf','svg']:shutil.copy2(OUT/(name+'.'+ext),VIEW/(name+'.'+ex
 for n in ['README_CN.md','results.tsv','coverage.tsv']:shutil.copy2(OUT/n,VIEW/n)
 (VIEW/'index.html').write_text(f'<!doctype html><meta charset="utf-8"><title>BRCA · 全细胞与同患者证据</title><style>body{{background:#e8eeea;margin:0;font-family:system-ui}}main{{max-width:1560px;margin:20px auto}}img{{width:100%;display:block;box-shadow:0 8px 25px #163e3320}}a{{color:#00553b}}</style><main><h2>BRCA · 全细胞定位与同患者证据</h2><img src="{name}.png"><p><a href="{name}.pdf">高清PDF</a> · <a href="{name}.svg">SVG</a> · <a href="results.tsv">配对统计</a> · <a href="README_CN.md">绘图说明</a></p></main>',encoding='utf8')
 pd.DataFrame([dict(path=str(p.relative_to(ROOT)),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in [ROOT/'code/ppt_brca_allcells_slide_v2.py',Path(__file__),old]]).to_csv(OUT/'local_source_manifest.tsv',sep='\t',index=False)
-pd.DataFrame([dict(file=p.name,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(OUT.iterdir()) if p.is_file() and p.name!='checksums.tsv']).to_csv(OUT/'checksums.tsv',sep='\t',index=False)
+for p in OUT.iterdir():
+ if p.suffix in ['.md','.tsv','.json']:p.write_bytes(p.read_bytes().replace(b'\r\n',b'\n'))
+pd.DataFrame([dict(file=p.name,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(OUT.iterdir()) if p.is_file() and p.name!='checksums.tsv']).to_csv(OUT/'checksums.tsv',sep='\t',index=False,lineterminator='\n')
 stage=ROOT/'coordination/stages/BRCA.tsv'
 if RUN not in stage.read_text(encoding='utf8'):
  with stage.open('a',encoding='utf8') as f:f.write('\t'.join(['BRCA','07_INTEGRATION',RUN,'brca_allcells_slide_v2','DONE','All-cell reference-style UMAP and frozen paired donor evidence',str(OUT.relative_to(ROOT)).replace('\\','/'),'code/ppt_brca_allcells_slide_v2.py','presentation/camp-fourcancer-lypla1-20260928','100064 cells, original coordinates; locator not a gate; nominal P; no new tests','Review revised BRCA all-cell slide'])+'\n')
