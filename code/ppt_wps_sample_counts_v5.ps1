@@ -10,11 +10,11 @@ for($i=1;$i -le $app.Presentations.Count;$i++) { $p=$app.Presentations.Item($i);
 if($null -eq $deck){throw 'Expected open WPS deck not found; no documents changed'}
 $slide=$deck.Slides.Item(4)
 $updates=@(
- @{id=12;text="108 份标本`r45 对（90 份）";top=267;size=12},
- @{id=17;text="66 份标本`r33 对（66 份）";top=267;size=12},
- @{id=22;text="39 份标本`r11 对（22 份）";top=267;size=12},
- @{id=27;text="137 份标本`r43 对（86 份）";top=400.2;size=12},
- @{id=32;text="队列3：114份 / 17对`r队列4：71份 / 12对";top=400.2;size=11},
+ @{id=12;text="108 份标本`r其中配对：45对 / 90份";top=267;size=11},
+ @{id=17;text="66 份标本`r其中配对：33对 / 66份";top=267;size=11},
+ @{id=22;text="39 份标本`r其中配对：11对 / 22份";top=267;size=11},
+ @{id=27;text="137 份标本`r其中配对：43对 / 86份";top=400.2;size=10.5},
+ @{id=32;text="队列3：114份，配对17位`r队列4：71份，配对12位";top=400.2;size=10.5},
  @{id=37;text="80 份：74 肿瘤 + 6 参照`r0 对 · 跨来源非配对";top=400.2;size=10.5}
 )
 foreach($u in $updates){
