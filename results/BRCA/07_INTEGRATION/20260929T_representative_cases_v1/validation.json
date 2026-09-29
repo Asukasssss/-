@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "pages": 11,
+  "pdf_pages": 11,
+  "image_dimensions": {
+    "01_BRCA_ASNS_CAMP.png": [
+      2880,
+      1620
+    ],
+    "02_BRCA_ASNS_全细胞与患者.png": [
+      3520,
+      1980
+    ],
+    "03_BRCA_ASNS_空间定位.png": [
+      3200,
+      1800
+    ],
+    "04_PDAC_PRAD_SLC6A6_CAMP.png": [
+      2880,
+      1620
+    ],
+    "05_PDAC_SLC6A6_全细胞与患者.png": [
+      3520,
+      1980
+    ],
+    "06_PRAD_SLC6A6_全细胞与患者.png": [
+      3520,
+      1980
+    ],
+    "07_PRAD_SLC6A6_空间定位.png": [
+      3200,
+      1800
+    ],
+    "08_PDAC_SLC6A6_GeoMx.png": [
+      3200,
+      1800
+    ],
+    "11_COAD_UCKL1_CAMP.png": [
+      2880,
+      1620
+    ],
+    "09_COAD_UCKL1_全细胞与患者.png": [
+      3520,
+      1980
+    ],
+    "10_COAD_UCKL1_空间定位.png": [
+      3200,
+      1800
+    ]
+  },
+  "source_coordinate_reuse": true,
+  "patient_counts_checked": true,
+  "new_inferential_tests": false,
+  "visual_review": "Contact sheet and full-size representative panels reviewed; no visible overlap or clipping",
+  "unverified": "No new pathology re-annotation or causal validation; large source hashes inherited where noted"
+}

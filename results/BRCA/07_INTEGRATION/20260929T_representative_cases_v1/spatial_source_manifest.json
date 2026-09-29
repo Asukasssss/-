@@ -1,0 +1,77 @@
+[
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260928T060000Z_cta_lypla1_v1/V19T26-012_B1_spots_SERVER_ONLY.tsv.gz",
+    "bytes": 109955,
+    "sha256": "e0cc199e78b31803de44d8689cd841c7e9871d53a03f458857daa1c275c734eb"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/BRCA_CTA2025/spaceranger_output/V19T26-012_B1/outs/filtered_feature_bc_matrix.h5",
+    "bytes": 10736944,
+    "sha256": "45f74585c282b54772059329b7d1bd3668fe5d0779a0d576b4aa580ab24284f7"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/BRCA_CTA2025/spaceranger_output/V19T26-012_B1/outs/spatial/tissue_lowres_image.png",
+    "bytes": 640437,
+    "sha256": "9be811cdc5a6ca7714a5bb91b450a6e017462ea4cb7fdc03156fc0acfd63e645"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/BRCA/A/20260928T060000Z_cta_lypla1_v1/V19T26-032_B1_spots_SERVER_ONLY.tsv.gz",
+    "bytes": 92028,
+    "sha256": "0dbed3572a0e0a772ff5e95dacc52c2791bfc4b62667b9232aed20f5df067165"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/BRCA_CTA2025/spaceranger_output/V19T26-032_B1/outs/filtered_feature_bc_matrix.h5",
+    "bytes": 6969717,
+    "sha256": "ad27d2c3ac2f8dc458bc753595cfea10770d5b6e4115588e8d13f4690ad74426"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/BRCA_CTA2025/spaceranger_output/V19T26-032_B1/outs/spatial/tissue_lowres_image.png",
+    "bytes": 509591,
+    "sha256": "20d0fb9d956bbdde790af739bad6eb0d08c1ad90ef8379256b7c22ac906fec29"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PRAD/B/20260928T101700Z_lypla1_erickson_v1/private/spot_values.tsv.gz",
+    "bytes": 471246,
+    "sha256": "b5d9ba1f48056ee43da9b13ecc28dfbb9201ccd659dbeaa9c80b878561ba0980"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PRAD/B/20260928T101700Z_lypla1_erickson_v1/source/Patient1/H2_5/filtered_feature_bc_matrix.h5",
+    "bytes": 14095122,
+    "sha256": "0778a5e6afc9ba0ed2d6f039f0357d2e575926b02fe2234aeea9116e28ece2d0"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PRAD/B/20260928T101700Z_lypla1_erickson_v1/source/Patient1/H2_5/H2_5_tissue_hires_image.png",
+    "bytes": 6073926,
+    "sha256": "c612be50257c1c0c665a4f53f6b6f213e8f14f826a93cddbb221e7f73eb5c4ca"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PRAD/B/20260928T101700Z_lypla1_erickson_v1/source/Patient1/H2_1/filtered_feature_bc_matrix.h5",
+    "bytes": 7438627,
+    "sha256": "01ddd9a25fce76073562942af686dcb7e55063b332d58b1643649bf066a0e5f6"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/PRAD/B/20260928T101700Z_lypla1_erickson_v1/source/Patient1/H2_1/H2_1_tissue_hires_image.png",
+    "bytes": 5503598,
+    "sha256": "d6d3626705c09ad5868de1f057e84dc558ef520f1a740d40ed8a635ce191c35a"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/coad_lypla1_pathology_20260928/SN123_A551763_Rep1.selected.zip",
+    "bytes": 5037740,
+    "sha256": "68b01f236fda8017ea3c10f9260dad83781ba4fbe58359e523eee063f409e772"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/private/S1_Cec_Rep1_spots.tsv",
+    "bytes": 104349,
+    "sha256": "f9f03e5a59a1cdf6960b96d2a1186ef046f2f64d77cf9cccc829ea7e6dd2f68e"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/data/candidates/coad_lypla1_pathology_20260928/SN123_A595688_Rep1.selected.zip",
+    "bytes": 8100468,
+    "sha256": "30b91bfa15a5182c1fe2b55dcf032b695b6a511b9628583d7e8cb999fc1bd67d"
+  },
+  {
+    "path": "/public3/xuzx/Cancer/pancancer_metabolomics_direct_matrix_20260716/results/collaborative/COAD/B/20260928T094500Z_lypla1_pathology_v1/private/S2_Col_R_Rep1_spots.tsv",
+    "bytes": 201751,
+    "sha256": "eeb748b6af4d790f3900a642ddd594a6b59318e5d73b41266157cdd967aa2a76"
+  }
+]

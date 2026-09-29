@@ -1,0 +1,19 @@
+{
+  "analysis_version": "20260929T_representative_cases_v1",
+  "status": "DONE",
+  "scope": "Three representative contexts; not a formal test of cancer specificity",
+  "excluded_presentation": "FUSCC and Tang ASNS external association results",
+  "new_inferential_tests": false,
+  "p_values": "Frozen CAMP, COAD sign test and PRAD paired test only; ASNS and PDAC single-cell descriptive",
+  "statistical_unit": "Patient; spatial spots descriptive only",
+  "minimum_cells_per_group_per_patient": 20,
+  "expression": "log1p(gene raw count / full gene-expression library * 10000)",
+  "umap": "Original accepted coordinates and author annotations reused; no new embedding or batch correction",
+  "umap_scale": "0 to each panel positive-expression 99th percentile; zeros light gray",
+  "spatial_scale": "0 to 3 log1p(CP10K), viridis, zero light gray; saturated values indicated",
+  "spatial_selection": "BRCA and PRAD same user-selected LYPLA1 sections; COAD first two colon/cecum source cases without using target expression",
+  "geomx": "Frozen LOQ rule (>10 ROIs above global negative-probe LOQ), Q3 primary; CPM and author VST descriptive sensitivity; six matched patients",
+  "seed": 20260929,
+  "private_data": "All per-cell, per-patient and per-ROI tables remain server165",
+  "source_commit": "8ec19dbd02092b8fd1ed32be53b3dadac5f2a7ba"
+}
