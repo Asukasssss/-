@@ -1,0 +1,14 @@
+{
+  "selected_by": "user screenshots",
+  "new_statistics": false,
+  "source_coordinates_reused": true,
+  "source_annotations_reused": true,
+  "cap": 3.0,
+  "cmap": "viridis",
+  "zero_color": "#E5E8EC",
+  "marker_area": 3.2,
+  "HE_alpha": 1,
+  "overlay_HE_alpha": 0.52,
+  "scale": "log1p(CP10K)",
+  "interpolation": false
+}
