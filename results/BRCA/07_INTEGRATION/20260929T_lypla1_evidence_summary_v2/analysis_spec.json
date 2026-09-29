@@ -1,0 +1,12 @@
+{
+  "version": "v2",
+  "change": "Replace detailed table with four evidence statements converging on candidate conclusion",
+  "statistics": "unchanged; none recalculated",
+  "scope": [
+    "BRCA",
+    "COAD",
+    "PDAC",
+    "PRAD"
+  ],
+  "software": "3.10.9"
+}

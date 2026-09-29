@@ -1,0 +1,67 @@
+[
+  {
+    "cancer": "BRCA",
+    "sample": "V19T26-012_B1",
+    "patient": "BCSA1",
+    "n_spots": 2927,
+    "n_positive": 988,
+    "regions": {
+      "混合区": 253,
+      "原位癌": 12,
+      "癌区": 1661,
+      "免疫区": 371,
+      "未标注区": 630
+    },
+    "cap": 3.0,
+    "n_above_cap": 0
+  },
+  {
+    "cancer": "BRCA",
+    "sample": "V19T26-032_B1",
+    "patient": "BCSA3",
+    "n_spots": 2303,
+    "n_positive": 742,
+    "regions": {
+      "血管": 21,
+      "混合区": 379,
+      "原位癌": 12,
+      "癌区": 1047,
+      "免疫区": 378,
+      "未标注区": 466
+    },
+    "cap": 3.0,
+    "n_above_cap": 1
+  },
+  {
+    "cancer": "PRAD",
+    "sample": "H2_5",
+    "patient": "Patient 1",
+    "n_spots": 2396,
+    "n_positive": 1570,
+    "regions": {
+      "良性腺体": 1009,
+      "过渡区": 103,
+      "间质": 726,
+      "癌区": 558
+    },
+    "cap": 3.0,
+    "n_above_cap": 1
+  },
+  {
+    "cancer": "PRAD",
+    "sample": "H2_1",
+    "patient": "Patient 1",
+    "n_spots": 2263,
+    "n_positive": 1002,
+    "regions": {
+      "脂肪区": 87,
+      "PIN": 30,
+      "间质": 939,
+      "良性腺体": 698,
+      "神经区": 24,
+      "癌区": 485
+    },
+    "cap": 3.0,
+    "n_above_cap": 2
+  }
+]
