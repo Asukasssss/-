@@ -1,0 +1,17 @@
+{
+  "scope": "LYPLA1 motivation page after six-cancer overview; four cancers shown",
+  "logic": [
+    "CAMP metabolite discovery",
+    "direct biochemical candidate mapping",
+    "four-cancer expression and patient direction motivates LYPLA1 follow-up",
+    "question of malignant epithelial source"
+  ],
+  "selection_claim": "Not claimed as unique or best candidate; four-cancer scope does not erase ccRCC reverse result",
+  "statistics": "Frozen paired RNA results reused; n and P crosschecked against page8; no new tests or patient filtering",
+  "nominal_p": 0.05,
+  "paired_detail": "Move existing paired detail to next page10",
+  "software": {
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.9"
+  }
+}

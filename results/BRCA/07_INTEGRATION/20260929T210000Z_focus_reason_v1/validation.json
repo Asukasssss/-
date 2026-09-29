@@ -1,0 +1,12 @@
+{
+  "status": "DONE",
+  "original_n_and_p_crosschecked": true,
+  "four_positive_means": true,
+  "three_nominal_significant": true,
+  "patient_percent_range": [
+    0.7272727272727273,
+    0.7878787878787878
+  ],
+  "new_tests": 0,
+  "visual_review": "PASS: rendered PNG inspected; legible labels, columns and footer; no overlap"
+}

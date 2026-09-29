@@ -1,6 +1,8 @@
 """Server165 only: render LYPLA1 paired RNA; export plots and aggregates only."""
 from pathlib import Path
 import json,hashlib,platform
+import argparse
+parser=argparse.ArgumentParser();parser.add_argument('--page',type=int,default=9);args=parser.parse_args()
 import numpy as np,pandas as pd
 import matplotlib
 matplotlib.use('Agg')
@@ -52,7 +54,7 @@ def text(x,y,s,size=15,col=INK,bold=False,ha='left'):return f.text(x,y,s,fontsiz
 def line(x1,x2,y,c=LINE,w=.8):f.add_artist(Line2D([x1,x2],[y,y],transform=f.transFigure,color=c,lw=w))
 ax=f.add_axes([.044,.874,.177,.106]);ax.imshow(plt.imread(O/'sysu_logo.png'));ax.axis('off')
 text(.95,.928,'CAMP  /  组会汇报',10,M,ha='right');line(.05,.95,.876);line(.05,.103,.876,G,2.2)
-text(.05,.813,'为什么聚焦 LYPLA1？',31,G,True)
+text(.05,.813,'LYPLA1 在四癌多数配对患者中上调' if args.page==10 else '为什么聚焦 LYPLA1？',29 if args.page==10 else 31,G,True)
 text(.052,.755,'来自 CAMP 代谢物直接关系候选池  ·  四癌 RNA 平均变化均为上调，其中三癌显著',13.5,M)
 for i,(c,(n,t)) in enumerate(data.items()):
  x=.073+i*.231;r=summary[summary.cancer==c].iloc[0]
@@ -80,11 +82,11 @@ text(.15,.105,'代谢关系候选 + 四癌同向表达背景',13,INK)
 text(.61,.105,'下一问：上调来自恶性上皮吗？',13,G,True)
 text(.05,.060,'PDAC P = 0.0777；不称“四癌均显著”。这是同一 CAMP 队列的表达支持，不是独立验证或机制证明。',10,M)
 text(.05,.031,'各面板保留队列原始处理尺度，不能跨癌比较绝对表达量；配对依据来自既有作者身份审计。',9.4,M)
-text(.95,.041,'09',14,G,True,ha='right')
+text(.95,.041,f'{args.page:02}',14,G,True,ha='right')
 f.canvas.draw();rend=f.canvas.get_renderer()
 for a in f.texts:
  bb=a.get_window_extent(rend);assert bb.x0>=0 and bb.y0>=0 and bb.x1<=f.bbox.width and bb.y1<=f.bbox.height,a.get_text()
-for ext in ['png','pdf']:f.savefig(P/f'09_LYPLA1_四癌患者配对.{ext}',dpi=200)
+for ext in ['png','pdf']:f.savefig(P/f'{args.page:02}_LYPLA1_四癌患者配对.{ext}',dpi=200)
 plt.close(f)
 pd.DataFrame(sources).to_csv(P/'source_manifest_server.tsv',sep='\t',index=False)
 spec=dict(scope='Four cancer LYPLA1 RNA presentation only',source_data_residency='All matrices and sample maps remain server165; export figure and aggregate summaries only',pairing='Inherited audited exact patient/case joins; no inferred pairing',transformation='None',P='Frozen paired t nominal P reused; no new tests; no FDR threshold',display='Separate original-scale axes; thin paired lines; group means',validation='Exact n and mean difference matched to frozen results at atol 1e-12',software=dict(python=platform.python_version(),pandas=pd.__version__,matplotlib=matplotlib.__version__),script_sha256=sha(__file__))

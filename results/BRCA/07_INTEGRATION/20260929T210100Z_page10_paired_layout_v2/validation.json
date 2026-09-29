@@ -1,0 +1,14 @@
+{
+  "status": "DONE",
+  "source_hashes_unchanged": true,
+  "pair_counts": [
+    45,
+    33,
+    11,
+    43
+  ],
+  "exact_frozen_means_matched": true,
+  "patient_values_exported": false,
+  "new_inferential_tests": 0,
+  "visual_review": "PASS: rendered PNG inspected; legible labels, columns and footer; no overlap"
+}

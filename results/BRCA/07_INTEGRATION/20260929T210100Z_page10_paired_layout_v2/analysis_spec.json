@@ -1,0 +1,21 @@
+{
+  "scope": "Four cancer LYPLA1 RNA presentation only",
+  "source_data_residency": "All matrices and sample maps remain server165; export figure and aggregate summaries only",
+  "pairing": "Inherited audited exact patient/case joins; no inferred pairing",
+  "transformation": "None",
+  "P": "Frozen paired t nominal P reused; no new tests; no FDR threshold",
+  "display": "Separate original-scale axes; thin paired lines; group means",
+  "validation": "Exact n and mean difference matched to frozen results at atol 1e-12",
+  "software": {
+    "python": "3.8.10",
+    "pandas": "1.5.3",
+    "matplotlib": "3.6.3"
+  },
+  "script_sha256": "4e77845334501f9f0acdac7a218bef7aa1b92509c4397a8dd4a8e80b6caeaa86",
+  "layout_only_revision": {
+    "page": 10,
+    "original_page": 9,
+    "title": "LYPLA1 在四癌多数配对患者中上调",
+    "paired_summary_exact_match": true
+  }
+}
