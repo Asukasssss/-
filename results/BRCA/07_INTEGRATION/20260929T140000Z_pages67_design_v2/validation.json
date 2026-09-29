@@ -1,0 +1,15 @@
+{
+  "data_unchanged": true,
+  "no_new_tests": true,
+  "visualization_changes": [
+    "diverging bars with every count visible",
+    "two-column mapping coverage",
+    "equal-size filled/hollow dot matrix",
+    "original template logo",
+    "reduced prose and larger text"
+  ],
+  "no_ppt_created": true,
+  "06_overview_data.tsv": "6bc454bb5323bfbed52bfaaaa323ba7d0f0519126d3e57756da30f43174e3fc4",
+  "07_selected_molecules.tsv": "b29d79ef8e003dff9ebeb91651d510f4410994f7eda7426d8cfe4eec0ab63cc3",
+  "07_selected_cells.tsv": "465ad8189e6fe9bb4de91c753e4137d50573c331ba9335fd1b79cda38c26024a"
+}
