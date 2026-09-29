@@ -1,0 +1,20 @@
+{
+  "status": "DONE",
+  "unique_gene_cohort": true,
+  "source_hashes_verified": true,
+  "all_maximum_ties_displayed": true,
+  "selected_genes": [
+    "LYPLA1",
+    "SLC29A2",
+    "ASNS",
+    "DPYD",
+    "SLC7A11",
+    "AHCY",
+    "SLC6A6"
+  ],
+  "selected_count": 7,
+  "display_cells": 28,
+  "scope": "four",
+  "visual_review": "PASS: rendered 3200x1800 PNG inspected; labels, legend, footer and all 28 cells visible",
+  "independent_display_count_check": "PASS"
+}

@@ -1,0 +1,86 @@
+{
+  "scope": "four",
+  "cohorts": [
+    "BRCA",
+    "COAD",
+    "PDAC",
+    "PRAD"
+  ],
+  "selection": "all genes tied at maximum same-direction nominal P<0.05 cancer count",
+  "ties": "fewer opposite significant cancers; more evaluable cancers; more same significant cohorts; symbol alphabetically",
+  "pool": "current direct biochemical candidates per cancer only; not whole transcriptome",
+  "p": 0.05,
+  "new_patient_tests": false,
+  "ccRCC_count": "one cancer per direction; either cohort can contribute; two significant opposing cohorts contribute to both directional counts, never add as distinct cancers",
+  "gene_identity": "exact curated gene symbols in integration tables; assert unique per cohort; no new synonym remapping",
+  "software": {
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.9"
+  },
+  "source_fields": [
+    [
+      "BRCA",
+      "brca",
+      "v2_in_current190_direct_pool",
+      "v2_paired_RNA_effect",
+      "v2_paired_RNA_p_value",
+      "v2_paired_RNA_status",
+      "v2_paired_RNA_n"
+    ],
+    [
+      "COAD",
+      "coad",
+      "current_direct",
+      "RNA_effect",
+      "RNA_p_value",
+      "RNA_status",
+      "RNA_n"
+    ],
+    [
+      "GBM",
+      "gbm",
+      "current_pool",
+      "RNA_effect",
+      "RNA_p_value",
+      "RNA_status",
+      "RNA_n"
+    ],
+    [
+      "PDAC",
+      "pdac",
+      "in_current_pool",
+      "RNA_effect",
+      "RNA_p",
+      "RNA_status",
+      "RNA_n"
+    ],
+    [
+      "PRAD",
+      "prad",
+      "current_pool",
+      "RNA_effect",
+      "RNA_p",
+      "RNA_status",
+      "RNA_n"
+    ],
+    [
+      "ccRCC3",
+      "ccrcc",
+      "current_in_ccRCC3",
+      "ccRCC3_RNA_effect",
+      "ccRCC3_RNA_p_value",
+      "ccRCC3_RNA_status",
+      "ccRCC3_RNA_n"
+    ],
+    [
+      "ccRCC4",
+      "ccrcc",
+      "current_in_ccRCC4",
+      "ccRCC4_RNA_effect",
+      "ccRCC4_RNA_p_value",
+      "ccRCC4_RNA_status",
+      "ccRCC4_RNA_n"
+    ]
+  ]
+}

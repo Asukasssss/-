@@ -1,0 +1,8 @@
+gene	same_significant_cancers	opposite_significant_cancers	dominant_direction	evaluable_cancers	same_significant_cohorts	evaluable_cohorts
+LYPLA1	3	0	up	4	3	4
+SLC29A2	3	0	up	4	3	4
+ASNS	3	0	up	3	3	3
+DPYD	3	0	down	3	3	3
+SLC7A11	3	0	up	3	3	3
+AHCY	3	1	up	4	3	4
+SLC6A6	3	1	up	4	3	4
