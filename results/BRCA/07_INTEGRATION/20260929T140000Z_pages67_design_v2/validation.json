@@ -1,5 +1,10 @@
 {
   "data_unchanged": true,
+  "display_excluded_by_user": [
+    "KEGG:C00031"
+  ],
+  "display_molecules": 9,
+  "display_cells": 63,
   "no_new_tests": true,
   "visualization_changes": [
     "diverging bars with every count visible",
