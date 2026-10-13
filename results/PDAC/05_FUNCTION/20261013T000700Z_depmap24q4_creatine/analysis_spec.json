@@ -1,0 +1,30 @@
+{
+  "analysis_version": "depmap24q4_exact_modelid_v1",
+  "run_id": "20261013T000700Z_depmap24q4_creatine",
+  "release": "DepMap 24Q4 Public",
+  "scope": "OncotreePrimaryDisease == Pancreatic Adenocarcinoma AND ModelType == Cell Line",
+  "statistical_unit": "unique ModelID, one cell line",
+  "identity_join": "exact ModelID; one_to_one; no row-order or cell-line-name inference",
+  "n_effect_models_all": 1178,
+  "n_expression_exact_matches": 1103,
+  "n_pdac_models": 45,
+  "n_pdac_expression_matches": 43,
+  "effect_scale": "released Chronos CRISPR gene effect; more negative = stronger knockout growth effect",
+  "effect_threshold_minus_0p5": "descriptive triage guide only, not official dependency decision",
+  "dependency_probability_thresholds": [
+    0.5,
+    0.9
+  ],
+  "multiple_testing": "No inferential test for results.tsv; correlation context is exploratory and separately BH-corrected over four prespecified checks",
+  "transform": "No new transform; expression is released log2(TPM+1)",
+  "imputation": "none",
+  "random_seed_plot_jitter_only": 20261013,
+  "raw_files_residency": "server165 shared /public3 path; no original matrices in Git",
+  "unverified": [
+    "26Q3 reanalysis",
+    "CAF-specific NNMT",
+    "metabolite flux",
+    "drug response",
+    "patient-level outcome"
+  ]
+}

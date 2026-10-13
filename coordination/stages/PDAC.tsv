@@ -1,0 +1,2 @@
+cancer	stage_id	run_id	analysis_version	status	scope	result_path	code_path	git_branch	reason	next_action
+PDAC	05_FUNCTION	20261013T000700Z_depmap24q4_creatine	depmap24q4_exact_modelid_v1	DONE	45 PDAC cell-line baseline CRISPR models; 24Q4 only	results/PDAC/05_FUNCTION/20261013T000700Z_depmap24q4_creatine/README_CN.md	results/PDAC/05_FUNCTION/20261013T000700Z_depmap24q4_creatine/code/	analysis/pdac-nnmt-slc6a8-20261013	26Q3, CAF and metabolite flux not evaluated in this run	repeat 26Q3 when accessible; validate CAF and creatine context experimentally

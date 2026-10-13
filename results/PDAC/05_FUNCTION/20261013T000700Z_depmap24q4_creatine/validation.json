@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SCOPE_ONLY",
+  "checks": [
+    "four official Figshare MD5 values matched",
+    "four server-side SHA256 recorded",
+    "1178 effect ModelIDs unique and all have model metadata",
+    "1103 expression exact ModelID matches",
+    "45 PDAC cell-line models",
+    "43 PDAC models have RNA",
+    "SLC6A8 0/45 probability >= 0.9",
+    "CKMT1A CRISPR feature absent, labelled NOT_EVALUABLE"
+  ],
+  "limitations": [
+    "latest 26Q3 not evaluated",
+    "baseline 2D growth not CAF/hypoxia/metastasis",
+    "source matrices and per-model/patient values deliberately excluded from Git"
+  ]
+}
